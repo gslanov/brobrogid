@@ -1,0 +1,1153 @@
+[
+  {
+    "id": "poi-056",
+    "slug": "national-museum-rso-alania",
+    "name": { "ru": "Национальный музей РСО-Алания", "en": "National Museum of North Ossetia-Alania" },
+    "category": "culture",
+    "subcategory": "Музей",
+    "location": {
+      "lat": 43.0348,
+      "lng": 44.6818,
+      "address": { "ru": "пр. Мира, 11", "en": "11 Mira Ave." }
+    },
+    "description": {
+      "short": {
+        "ru": "Главный музей республики с богатейшей коллекцией по истории и культуре Осетии.",
+        "en": "The republic's main museum with an extensive collection on Ossetian history and culture."
+      },
+      "medium": {
+        "ru": "Национальный музей РСО-Алания — крупнейшее хранилище исторических и культурных ценностей республики. Коллекция охватывает период от бронзового века до современности: археологические находки из Кобанской культуры, средневековое оружие, этнографические экспонаты, живопись и графика осетинских художников.",
+        "en": "The National Museum of North Ossetia-Alania is the largest repository of the republic's historical and cultural heritage. The collection spans from the Bronze Age to modern times: archaeological finds from the Koban culture, medieval weapons, ethnographic exhibits, paintings and graphics by Ossetian artists."
+      },
+      "full": {
+        "ru": "Национальный музей РСО-Алания основан в 1893 году и является одним из старейших музеев Северного Кавказа. Расположен в красивом здании на проспекте Мира — главной улице Владикавказа. Музей хранит более 4000 экспонатов: уникальные артефакты Кобанской бронзовой культуры, скифо-сарматские золотые украшения, аланские мечи и доспехи, богатую этнографическую коллекцию горского быта. Отдельные залы посвящены истории города, Великой Отечественной войне и современному искусству Осетии. Регулярно проводятся временные выставки, лекции и мастер-классы. Музей — обязательная точка для тех, кто хочет понять Осетию от древности до наших дней.",
+        "en": "The National Museum of North Ossetia-Alania was founded in 1893 and is one of the oldest museums in the North Caucasus. It is located in a beautiful building on Mira Avenue — the main street of Vladikavkaz. The museum holds over 4,000 exhibits: unique artifacts of the Koban Bronze culture, Scythian-Sarmatian gold jewelry, Alanian swords and armor, a rich ethnographic collection of highland life. Separate halls are dedicated to city history, World War II, and contemporary Ossetian art. Temporary exhibitions, lectures, and workshops are held regularly. The museum is a must-visit for anyone wanting to understand Ossetia from antiquity to the present day."
+      }
+    },
+    "photos": ["images/poi/national-museum-1.webp", "images/poi/national-museum-2.webp"],
+    "rating": 4.6,
+    "reviewCount": 312,
+    "hours": {
+      "mon": "closed",
+      "tue": "10:00-18:00",
+      "wed": "10:00-18:00",
+      "thu": "10:00-18:00",
+      "fri": "10:00-18:00",
+      "sat": "10:00-18:00",
+      "sun": "10:00-17:00"
+    },
+    "phone": "+7 (8672) 53-28-36",
+    "priceLevel": 1,
+    "tags": ["музей", "история", "археология", "культура", "Кобан", "museum", "history"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 18500,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-057",
+    "slug": "tuganov-art-museum",
+    "name": { "ru": "Художественный музей им. Туганова", "en": "Tuganov Art Museum" },
+    "category": "culture",
+    "subcategory": "Музей",
+    "location": {
+      "lat": 43.0365,
+      "lng": 44.6740,
+      "address": { "ru": "пр. Мира, 12", "en": "12 Mira Ave." }
+    },
+    "description": {
+      "short": {
+        "ru": "Художественный музей с коллекцией осетинского и русского изобразительного искусства.",
+        "en": "Art museum with a collection of Ossetian and Russian fine art."
+      },
+      "medium": {
+        "ru": "Художественный музей имени М. С. Туганова — главная художественная галерея Северной Осетии. Здесь представлены работы основоположника осетинской живописи Махарбека Туганова, а также произведения русских и европейских мастеров XVIII–XX веков. Отдельный зал посвящён современному осетинскому искусству.",
+        "en": "The Tuganov Art Museum is the main art gallery of North Ossetia. It features works by the founder of Ossetian painting, Makharbek Tuganov, as well as pieces by Russian and European masters from the 18th to 20th centuries. A separate hall is dedicated to contemporary Ossetian art."
+      },
+      "full": {
+        "ru": "Художественный музей имени Махарбека Туганова основан в 1939 году и расположен в историческом особняке на проспекте Мира. Коллекция насчитывает более 5500 произведений живописи, графики, скульптуры и декоративно-прикладного искусства. Жемчужина собрания — масштабные полотна Махарбека Туганова, посвящённые нартскому эпосу и быту горцев. Также представлены работы Айвазовского, Шишкина, Верещагина и других русских классиков. Музей регулярно проводит выставки молодых осетинских художников, арт-лекции и детские мастер-классы. Здание музея само по себе является архитектурной достопримечательностью — изящный особняк конца XIX века с лепным декором.",
+        "en": "The Makharbek Tuganov Art Museum was founded in 1939 and is housed in a historic mansion on Mira Avenue. The collection comprises over 5,500 works of painting, graphics, sculpture, and decorative arts. The jewel of the collection is Makharbek Tuganov's large-scale canvases devoted to the Nart epic and highland life. Works by Aivazovsky, Shishkin, Vereshchagin, and other Russian classics are also on display. The museum regularly hosts exhibitions by young Ossetian artists, art lectures, and children's workshops. The museum building itself is an architectural landmark — an elegant late 19th-century mansion with ornate stucco."
+      }
+    },
+    "photos": ["images/poi/tuganov-museum-1.webp", "images/poi/tuganov-museum-2.webp"],
+    "rating": 4.5,
+    "reviewCount": 187,
+    "hours": {
+      "mon": "closed",
+      "tue": "10:00-18:00",
+      "wed": "10:00-18:00",
+      "thu": "10:00-20:00",
+      "fri": "10:00-18:00",
+      "sat": "10:00-18:00",
+      "sun": "10:00-17:00"
+    },
+    "phone": "+7 (8672) 53-45-11",
+    "priceLevel": 1,
+    "tags": ["музей", "искусство", "живопись", "Туганов", "галерея", "art", "museum"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 9200,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-058",
+    "slug": "russian-drama-theater",
+    "name": { "ru": "Русский драматический театр", "en": "Russian Drama Theater" },
+    "category": "culture",
+    "subcategory": "Театр",
+    "location": {
+      "lat": 43.0352,
+      "lng": 44.6780,
+      "address": { "ru": "ул. Ленина, 5", "en": "5 Lenin St." }
+    },
+    "description": {
+      "short": {
+        "ru": "Старейший драматический театр Северного Кавказа с классическим и современным репертуаром.",
+        "en": "The oldest drama theater in the North Caucasus with classical and contemporary repertoire."
+      },
+      "medium": {
+        "ru": "Русский академический театр имени Вахтангова — один из старейших театров на Кавказе, основанный в 1871 году. На сцене идут спектакли русской и мировой классики, а также постановки современных драматургов. Театр расположен в красивом здании в центре города и является важнейшим культурным центром Владикавказа.",
+        "en": "The Vakhtangov Russian Academic Theater is one of the oldest theaters in the Caucasus, founded in 1871. The stage hosts productions of Russian and world classics, as well as works by contemporary playwrights. Located in a beautiful building in the city center, it is a key cultural hub of Vladikavkaz."
+      },
+      "full": {
+        "ru": "Русский академический театр имени Евгения Вахтангова — легендарная сцена, с которой начинал свою карьеру великий режиссёр. Основанный в 1871 году, театр прошёл долгий путь от любительской труппы до одного из ведущих драматических театров Юга России. Здание театра, построенное в неоклассическом стиле, само является памятником архитектуры. Репертуар включает Чехова, Островского, Шекспира, а также смелые постановки современных пьес. Зрительный зал на 500 мест, камерная сцена для экспериментальных работ. Театр регулярно участвует во всероссийских фестивалях и принимает гастрольные труппы. Билеты лучше покупать заранее — аншлаги случаются часто.",
+        "en": "The Yevgeny Vakhtangov Russian Academic Theater is a legendary stage where the great director began his career. Founded in 1871, the theater has come a long way from an amateur troupe to one of the leading drama theaters in southern Russia. The neoclassical theater building is itself an architectural monument. The repertoire includes Chekhov, Ostrovsky, Shakespeare, and bold productions of contemporary plays. The main hall seats 500, with a chamber stage for experimental work. The theater regularly participates in all-Russian festivals and hosts touring companies. Tickets are best purchased in advance — sold-out shows are common."
+      }
+    },
+    "photos": ["images/poi/russian-theater-1.webp", "images/poi/russian-theater-2.webp"],
+    "rating": 4.7,
+    "reviewCount": 245,
+    "hours": {
+      "mon": "closed",
+      "tue": "10:00-19:00",
+      "wed": "10:00-19:00",
+      "thu": "10:00-19:00",
+      "fri": "10:00-20:00",
+      "sat": "10:00-20:00",
+      "sun": "10:00-18:00"
+    },
+    "phone": "+7 (8672) 53-36-68",
+    "priceLevel": 2,
+    "tags": ["театр", "драма", "Вахтангов", "спектакль", "культура", "theater", "drama"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 22000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-059",
+    "slug": "ossetian-theater",
+    "name": { "ru": "Осетинский театр", "en": "Ossetian Theater" },
+    "category": "culture",
+    "subcategory": "Театр",
+    "location": {
+      "lat": 43.0340,
+      "lng": 44.6760,
+      "address": { "ru": "ул. Тхапсаева, 18", "en": "18 Tkhapsaev St." }
+    },
+    "description": {
+      "short": {
+        "ru": "Национальный театр с постановками на осетинском и русском языках.",
+        "en": "National theater with performances in Ossetian and Russian languages."
+      },
+      "medium": {
+        "ru": "Северо-Осетинский государственный академический театр имени Тхапсаева — главная национальная сцена республики. Репертуар включает постановки осетинской драматургии, адаптации мировой классики на осетинский язык и спектакли по мотивам нартского эпоса. Многие постановки идут с синхронным переводом на русский язык.",
+        "en": "The Tkhapsaev North Ossetian State Academic Theater is the republic's main national stage. The repertoire includes Ossetian drama, world classics adapted into Ossetian, and performances based on the Nart epic. Many shows feature simultaneous translation into Russian."
+      },
+      "full": {
+        "ru": "Северо-Осетинский государственный академический театр имени Владимира Тхапсаева — гордость осетинской культуры, основанный в 1935 году. Театр носит имя великого осетинского актёра, чей Отелло вошёл в историю мирового театра. На этой сцене живёт осетинский язык: спектакли по пьесам Коста Хетагурова, Елбыздыко Бритаева, Георгия Хугаева. Особая гордость — эпические постановки по нартским сказаниям с национальной хореографией и музыкой. Зал на 450 мест, современное световое и звуковое оборудование. Для зрителей, не владеющих осетинским языком, доступен синхронный перевод через наушники. Театр — живой хранитель осетинской культурной идентичности.",
+        "en": "The Vladimir Tkhapsaev North Ossetian State Academic Theater is the pride of Ossetian culture, founded in 1935. The theater bears the name of the great Ossetian actor whose Othello entered world theater history. The Ossetian language lives on this stage: plays by Kosta Khetagurov, Elbyzdy ko Britaev, Georgy Khugaev. A special pride — epic productions based on Nart sagas with national choreography and music. The 450-seat hall features modern lighting and sound equipment. For audiences who don't speak Ossetian, simultaneous translation is available via headphones. The theater is a living guardian of Ossetian cultural identity."
+      }
+    },
+    "photos": ["images/poi/ossetian-theater-1.webp", "images/poi/ossetian-theater-2.webp"],
+    "rating": 4.6,
+    "reviewCount": 178,
+    "hours": {
+      "mon": "closed",
+      "tue": "10:00-19:00",
+      "wed": "10:00-19:00",
+      "thu": "10:00-19:00",
+      "fri": "10:00-20:00",
+      "sat": "10:00-20:00",
+      "sun": "10:00-18:00"
+    },
+    "phone": "+7 (8672) 53-23-44",
+    "priceLevel": 2,
+    "tags": ["театр", "осетинский", "нарты", "культура", "Тхапсаев", "theater", "ossetian"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 15000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-060",
+    "slug": "philharmonic-hall",
+    "name": { "ru": "Филармония", "en": "Philharmonic Hall" },
+    "category": "culture",
+    "subcategory": "Концертный зал",
+    "location": {
+      "lat": 43.0358,
+      "lng": 44.6700,
+      "address": { "ru": "ул. Миллера, 34", "en": "34 Miller St." }
+    },
+    "description": {
+      "short": {
+        "ru": "Концертный зал с программой от симфонической музыки до национальных ансамблей.",
+        "en": "Concert hall featuring programs from symphonic music to national ensembles."
+      },
+      "medium": {
+        "ru": "Северо-Осетинская государственная филармония — центр академической и национальной музыки республики. Здесь выступают симфонический оркестр, камерные ансамбли, солисты мирового уровня, а также знаменитые осетинские фольклорные коллективы. Зал с отличной акустикой вмещает 600 слушателей.",
+        "en": "The North Ossetian State Philharmonic is the center of academic and national music in the republic. It hosts the symphony orchestra, chamber ensembles, world-class soloists, and renowned Ossetian folk groups. The hall with excellent acoustics seats 600 listeners."
+      },
+      "full": {
+        "ru": "Северо-Осетинская государственная филармония — культурная жемчужина Владикавказа, основанная в 1944 году. Главный зал с превосходной акустикой вмещает 600 человек. В филармонии базируются симфонический оркестр Северной Осетии, камерный оркестр и несколько ансамблей. Программа разнообразна: от Бетховена и Чайковского до произведений осетинских композиторов и выступлений национальных танцевальных ансамблей. Регулярно проходят джазовые вечера, органные концерты и абонементные серии для детей. Филармония принимает гастролёров из Москвы, Петербурга и зарубежных стран. Билеты доступны онлайн и в кассе. Дресс-код — smart casual.",
+        "en": "The North Ossetian State Philharmonic is a cultural gem of Vladikavkaz, founded in 1944. The main hall with superb acoustics seats 600. The philharmonic is home to the North Ossetian Symphony Orchestra, a chamber orchestra, and several ensembles. The program ranges from Beethoven and Tchaikovsky to works by Ossetian composers and national dance ensemble performances. Regular jazz evenings, organ concerts, and subscription series for children are held. The philharmonic hosts touring artists from Moscow, St. Petersburg, and abroad. Tickets available online and at the box office. Dress code — smart casual."
+      }
+    },
+    "photos": ["images/poi/philharmonic-1.webp", "images/poi/philharmonic-2.webp"],
+    "rating": 4.5,
+    "reviewCount": 134,
+    "hours": {
+      "mon": "closed",
+      "tue": "10:00-19:00",
+      "wed": "10:00-19:00",
+      "thu": "10:00-19:00",
+      "fri": "10:00-21:00",
+      "sat": "10:00-21:00",
+      "sun": "10:00-18:00"
+    },
+    "phone": "+7 (8672) 53-15-78",
+    "priceLevel": 2,
+    "tags": ["филармония", "музыка", "концерт", "симфония", "оркестр", "music", "concert"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 12000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-061",
+    "slug": "vladikavkaz-history-museum",
+    "name": { "ru": "Музей истории Владикавказа", "en": "Vladikavkaz History Museum" },
+    "category": "culture",
+    "subcategory": "Музей",
+    "location": {
+      "lat": 43.0372,
+      "lng": 44.6685,
+      "address": { "ru": "ул. Кирова, 50", "en": "50 Kirov St." }
+    },
+    "description": {
+      "short": {
+        "ru": "Музей, посвящённый истории города от основания крепости до наших дней.",
+        "en": "Museum dedicated to the city's history from the founding of the fortress to the present."
+      },
+      "medium": {
+        "ru": "Музей истории Владикавказа рассказывает о городе от основания крепости в 1784 году до современности. Экспозиция включает макет старого города, фотографии, предметы быта горожан XIX–XX веков, документы и личные вещи знаменитых владикавказцев. Отдельный зал посвящён многонациональному наследию города.",
+        "en": "The Vladikavkaz History Museum tells the story of the city from the founding of the fortress in 1784 to the present day. The exhibition includes a model of the old city, photographs, household items of 19th-20th century citizens, documents and personal belongings of famous Vladikavkaz residents. A separate hall is devoted to the city's multinational heritage."
+      },
+      "full": {
+        "ru": "Музей истории Владикавказа расположен в отреставрированном купеческом доме XIX века. Экспозиция начинается с основания Владикавказской крепости в 1784 году по указу Екатерины II и охватывает все ключевые эпохи: расцвет Военно-Грузинской дороги, строительство железной дороги, революцию и гражданскую войну, советский период и современность. Среди экспонатов — уникальный макет города 1900 года, старинные карты и чертежи, коллекция фотографий Дмитрия Ермакова, предметы быта купеческих и дворянских семей. Особый интерес представляет зал многонационального Владикавказа, рассказывающий о мирном соседстве осетин, русских, грузин, армян, греков, немцев и евреев. Музей проводит пешеходные экскурсии по историческому центру.",
+        "en": "The Vladikavkaz History Museum is located in a restored 19th-century merchant's house. The exhibition begins with the founding of the Vladikavkaz fortress in 1784 by decree of Catherine II and covers all key eras: the heyday of the Georgian Military Highway, railway construction, revolution and civil war, the Soviet period, and modernity. Exhibits include a unique model of the city circa 1900, antique maps and blueprints, Dmitry Ermakov's photo collection, and household items of merchant and noble families. Of special interest is the hall of multinational Vladikavkaz, telling the story of peaceful coexistence of Ossetians, Russians, Georgians, Armenians, Greeks, Germans, and Jews. The museum conducts walking tours of the historic center."
+      }
+    },
+    "photos": ["images/poi/history-museum-1.webp", "images/poi/history-museum-2.webp"],
+    "rating": 4.4,
+    "reviewCount": 96,
+    "hours": {
+      "mon": "closed",
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": "closed"
+    },
+    "phone": "+7 (8672) 53-19-42",
+    "priceLevel": 1,
+    "tags": ["музей", "история", "город", "краеведение", "museum", "history", "local"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 6800,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-062",
+    "slug": "kosta-khetagurov-house-museum",
+    "name": { "ru": "Дом-музей Коста Хетагурова", "en": "Kosta Khetagurov House Museum" },
+    "category": "culture",
+    "subcategory": "Музей",
+    "location": {
+      "lat": 43.0388,
+      "lng": 44.6648,
+      "address": { "ru": "ул. Бутырина, 19", "en": "19 Butyrina St." }
+    },
+    "description": {
+      "short": {
+        "ru": "Мемориальный дом-музей основоположника осетинской литературы Коста Хетагурова.",
+        "en": "Memorial house museum of the founder of Ossetian literature, Kosta Khetagurov."
+      },
+      "medium": {
+        "ru": "Дом-музей Коста Хетагурова — мемориальный музей в доме, где жил и работал великий осетинский поэт, художник и общественный деятель. Экспозиция включает личные вещи Коста, его картины, рукописи стихов и прозы, прижизненные издания и воссозданный интерьер кабинета. Музей хранит дух эпохи и память о человеке, которого осетины называют своим национальным гением.",
+        "en": "The Kosta Khetagurov House Museum is a memorial museum in the home where the great Ossetian poet, artist, and public figure lived and worked. The exhibition includes Kosta's personal belongings, paintings, poetry and prose manuscripts, lifetime editions, and a recreated study interior. The museum preserves the spirit of the era and the memory of the man Ossetians call their national genius."
+      },
+      "full": {
+        "ru": "Дом-музей Коста Левановича Хетагурова расположен в историческом деревянном доме на улице Бутырина, где поэт провёл последние годы жизни. Коста Хетагуров (1859–1906) — основоположник осетинской литературы, автор поэмы «Осетинская лира» (Ирон фæндыр), живописец, публицист и просветитель. В музее представлены три зала: мемориальный кабинет с подлинной мебелью и вещами поэта, художественный зал с его картинами и зал литературного наследия с рукописями, письмами и прижизненными публикациями. Сад при доме сохранён в том виде, каким его знал Коста. Музей проводит ежегодный фестиваль поэзии, литературные вечера и образовательные программы для школьников. Это место паломничества для каждого осетина и обязательная точка на карте культурного Владикавказа.",
+        "en": "The Kosta Khetagurov House Museum is located in a historic wooden house on Butyrina Street, where the poet spent the last years of his life. Kosta Khetagurov (1859–1906) was the founder of Ossetian literature, author of the poem 'Ossetian Lyre' (Iron Fandyr), painter, publicist, and educator. The museum features three halls: a memorial study with the poet's original furniture and belongings, an art hall with his paintings, and a literary heritage hall with manuscripts, letters, and lifetime publications. The garden has been preserved as Kosta knew it. The museum hosts an annual poetry festival, literary evenings, and educational programs for schoolchildren. It is a pilgrimage site for every Ossetian and a must-see on the cultural map of Vladikavkaz."
+      }
+    },
+    "photos": ["images/poi/kosta-museum-1.webp", "images/poi/kosta-museum-2.webp"],
+    "rating": 4.7,
+    "reviewCount": 203,
+    "hours": {
+      "mon": "closed",
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": "10:00-16:00"
+    },
+    "phone": "+7 (8672) 53-24-81",
+    "priceLevel": 1,
+    "tags": ["музей", "Коста", "Хетагуров", "литература", "поэзия", "museum", "poetry", "memorial"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 11500,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-063",
+    "slug": "hotel-vladikavkaz",
+    "name": { "ru": "Отель \"Владикавказ\"", "en": "Hotel Vladikavkaz" },
+    "category": "accommodation",
+    "subcategory": "Отель",
+    "location": {
+      "lat": 43.0330,
+      "lng": 44.6815,
+      "address": { "ru": "ул. Коцоева, 75", "en": "75 Kotsoev St." }
+    },
+    "description": {
+      "short": {
+        "ru": "Трёхзвёздочный отель в центре города с видом на горы.",
+        "en": "Three-star hotel in the city center with mountain views."
+      },
+      "medium": {
+        "ru": "Отель «Владикавказ» — одна из самых известных гостиниц города, расположенная в центральном районе. 120 номеров различных категорий: от стандартных до люксов с видом на Столовую гору. В отеле есть ресторан с осетинской и европейской кухней, конференц-зал, бесплатный Wi-Fi и парковка.",
+        "en": "Hotel Vladikavkaz is one of the city's most well-known hotels, located in the central district. 120 rooms of various categories: from standard to suites with views of Table Mountain. The hotel features a restaurant with Ossetian and European cuisine, conference hall, free Wi-Fi, and parking."
+      },
+      "full": {
+        "ru": "Отель «Владикавказ» — классическая городская гостиница с трёхзвёздочным сервисом, работающая с советских времён и прошедшая полную реконструкцию. Расположен в пешей доступности от основных достопримечательностей: проспект Мира в 10 минутах ходьбы, набережная Терека — в 5 минутах. 120 номеров: стандарт, комфорт, полулюкс и люкс. Из номеров верхних этажей открывается панорама на Столовую гору и Казбек в ясную погоду. Ресторан на первом этаже предлагает завтраки «шведский стол», бизнес-ланчи и ужины с осетинскими пирогами, шашлыком и домашним вином. Конференц-зал на 80 человек, круглосуточная стойка регистрации, трансфер из аэропорта по запросу. Соотношение цена-качество — одно из лучших в городе.",
+        "en": "Hotel Vladikavkaz is a classic city hotel with three-star service, operating since Soviet times and fully renovated. Located within walking distance of major attractions: Mira Avenue is a 10-minute walk, the Terek embankment is 5 minutes away. 120 rooms: standard, comfort, junior suite, and suite. Upper floor rooms offer panoramic views of Table Mountain and Kazbek on clear days. The ground-floor restaurant offers buffet breakfasts, business lunches, and dinners with Ossetian pies, shashlik, and house wine. Conference hall for 80 people, 24-hour reception, airport transfer on request. One of the best value-for-money options in the city."
+      }
+    },
+    "photos": ["images/poi/hotel-vladikavkaz-1.webp", "images/poi/hotel-vladikavkaz-2.webp"],
+    "rating": 3.8,
+    "reviewCount": 456,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (8672) 25-02-01",
+    "priceLevel": 2,
+    "tags": ["отель", "гостиница", "3 звезды", "центр", "hotel", "accommodation"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 32000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-064",
+    "slug": "hotel-imperial",
+    "name": { "ru": "Отель \"Империал\"", "en": "Hotel Imperial" },
+    "category": "accommodation",
+    "subcategory": "Отель",
+    "location": {
+      "lat": 43.0370,
+      "lng": 44.6720,
+      "address": { "ru": "пр. Мира, 19", "en": "19 Mira Ave." }
+    },
+    "description": {
+      "short": {
+        "ru": "Четырёхзвёздочный бутик-отель на проспекте Мира в историческом здании.",
+        "en": "Four-star boutique hotel on Mira Avenue in a historic building."
+      },
+      "medium": {
+        "ru": "«Империал» — лучший отель Владикавказа, расположенный в отреставрированном здании XIX века на проспекте Мира. 45 номеров в классическом стиле с современным комфортом. Ресторан высокой кухни, спа-зона, конференц-залы. Идеальное расположение в самом сердце пешеходной зоны.",
+        "en": "The Imperial is Vladikavkaz's finest hotel, housed in a restored 19th-century building on Mira Avenue. 45 classically styled rooms with modern comfort. Fine dining restaurant, spa area, conference rooms. Perfect location in the heart of the pedestrian zone."
+      },
+      "full": {
+        "ru": "Отель «Империал» — четырёхзвёздочный бутик-отель, занимающий историческое здание бывшей гостиницы «Империал» на проспекте Мира. Здание конца XIX века бережно отреставрировано с сохранением исторических фасадов и лепнины. 45 номеров: стандарт, делюкс, люкс и президентский люкс — все с высокими потолками, антикварной мебелью и современной техникой. Ресторан «Империал» предлагает авторскую кухню, сочетающую кавказские традиции с европейскими техниками. Спа-зона с хаммамом и массажными кабинетами. Два конференц-зала, лобби-бар, консьерж-сервис. Отель организует экскурсии по городу и в горы, трансфер, аренду автомобилей. Это место с историей: именно в этом здании останавливались Булгаков, Маяковский и другие знаменитости.",
+        "en": "Hotel Imperial is a four-star boutique hotel occupying the historic building of the former Imperial Hotel on Mira Avenue. The late 19th-century building has been carefully restored, preserving its historic facades and stucco work. 45 rooms: standard, deluxe, suite, and presidential suite — all with high ceilings, antique furniture, and modern amenities. The Imperial restaurant offers signature cuisine blending Caucasian traditions with European techniques. Spa area with hammam and massage rooms. Two conference halls, lobby bar, concierge service. The hotel arranges city and mountain tours, transfers, and car rentals. This is a place with history: Bulgakov, Mayakovsky, and other celebrities stayed in this very building."
+      }
+    },
+    "photos": ["images/poi/hotel-imperial-1.webp", "images/poi/hotel-imperial-2.webp"],
+    "rating": 4.6,
+    "reviewCount": 289,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (8672) 25-10-10",
+    "priceLevel": 4,
+    "tags": ["отель", "бутик", "4 звезды", "люкс", "исторический", "hotel", "boutique", "luxury"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 21000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-065",
+    "slug": "hotel-aleksandrovskaya",
+    "name": { "ru": "Гостиница \"Александровская\"", "en": "Hotel Aleksandrovskaya" },
+    "category": "accommodation",
+    "subcategory": "Гостиница",
+    "location": {
+      "lat": 43.0345,
+      "lng": 44.6750,
+      "address": { "ru": "ул. Куйбышева, 12", "en": "12 Kuybyshev St." }
+    },
+    "description": {
+      "short": {
+        "ru": "Уютная гостиница в тихом центре с домашней атмосферой.",
+        "en": "Cozy hotel in the quiet center with a homely atmosphere."
+      },
+      "medium": {
+        "ru": "Гостиница «Александровская» — камерный отель на 30 номеров в тихом переулке центрального района. Уютные номера с современным ремонтом, бесплатный завтрак, Wi-Fi, охраняемая парковка. Домашняя атмосфера и внимательный персонал. Проспект Мира и основные достопримечательности — в 5-7 минутах ходьбы.",
+        "en": "Hotel Aleksandrovskaya is a boutique 30-room hotel in a quiet lane of the central district. Cozy rooms with modern renovations, complimentary breakfast, Wi-Fi, and secure parking. Homely atmosphere and attentive staff. Mira Avenue and main attractions are a 5-7 minute walk."
+      },
+      "full": {
+        "ru": "Гостиница «Александровская» — уютный отель, идеально подходящий для тех, кто ценит тишину и домашний комфорт в центре города. 30 номеров: одноместные, двухместные и семейные — все с кондиционером, телевизором, мини-холодильником и собственной ванной. Завтрак включён в стоимость: домашняя выпечка, каши, яичница, сыр, чай и кофе. Гостиница занимает отреставрированный двухэтажный дом с внутренним двориком, где приятно посидеть летним вечером. Персонал говорит на русском и английском, поможет с заказом экскурсий и такси. Охраняемая парковка на 15 машин. Идеальный выбор для самостоятельных путешественников и небольших групп.",
+        "en": "Hotel Aleksandrovskaya is a cozy hotel perfect for those who value quiet and home comfort in the city center. 30 rooms: single, double, and family — all with air conditioning, TV, mini-fridge, and private bathroom. Breakfast is included: homemade pastries, porridge, scrambled eggs, cheese, tea, and coffee. The hotel occupies a renovated two-story house with an inner courtyard, lovely for sitting on summer evenings. Staff speak Russian and English and can help arrange tours and taxis. Secure parking for 15 cars. An ideal choice for independent travelers and small groups."
+      }
+    },
+    "photos": ["images/poi/aleksandrovskaya-1.webp", "images/poi/aleksandrovskaya-2.webp"],
+    "rating": 4.3,
+    "reviewCount": 142,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (8672) 54-33-21",
+    "priceLevel": 2,
+    "tags": ["гостиница", "уютная", "центр", "завтрак", "hotel", "cozy", "budget"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 11000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-066",
+    "slug": "hostel-mira",
+    "name": { "ru": "Хостел \"Мира\"", "en": "Hostel Mira" },
+    "category": "accommodation",
+    "subcategory": "Хостел",
+    "location": {
+      "lat": 43.0380,
+      "lng": 44.6660,
+      "address": { "ru": "пр. Мира, 35", "en": "35 Mira Ave." }
+    },
+    "description": {
+      "short": {
+        "ru": "Бюджетный хостел на главной улице для молодых путешественников.",
+        "en": "Budget hostel on the main street for young travelers."
+      },
+      "medium": {
+        "ru": "Хостел «Мира» — самое бюджетное размещение в центре Владикавказа, прямо на проспекте Мира. Общие комнаты на 4, 6 и 8 мест с личными шкафчиками, общая кухня, лаунж-зона с настольными играми. Идеальная база для бэкпекеров и тех, кто приехал исследовать Кавказ.",
+        "en": "Hostel Mira is the most budget-friendly accommodation in central Vladikavkaz, right on Mira Avenue. Shared rooms for 4, 6, and 8 with personal lockers, shared kitchen, lounge area with board games. A perfect base for backpackers exploring the Caucasus."
+      },
+      "full": {
+        "ru": "Хостел «Мира» расположен на втором этаже исторического дома на проспекте Мира — в самом центре туристической жизни города. Дормиторные комнаты на 4, 6 и 8 мест с удобными двухъярусными кроватями, ортопедическими матрасами, личными шторками и шкафчиками с замком. Есть два отдельных женских дорма. Общая кухня со всем необходимым для приготовления еды, уютная лаунж-зона с книгами, настольными играми и гитарой. Бесплатный Wi-Fi, стиральная машина, камера хранения багажа. Персонал — молодые местные ребята, которые с удовольствием подскажут лучшие кафе, маршруты в горы и секретные места. Хостел организует совместные ужины с осетинскими пирогами и походы выходного дня.",
+        "en": "Hostel Mira is located on the second floor of a historic building on Mira Avenue — in the very center of the city's tourist life. Dormitory rooms for 4, 6, and 8 with comfortable bunk beds, orthopedic mattresses, personal curtains, and lockable cabinets. Two separate female dorms available. Shared kitchen fully equipped for cooking, cozy lounge with books, board games, and a guitar. Free Wi-Fi, washing machine, luggage storage. Staff are young locals happy to recommend the best cafes, mountain routes, and hidden gems. The hostel organizes communal dinners with Ossetian pies and weekend hikes."
+      }
+    },
+    "photos": ["images/poi/hostel-mira-1.webp", "images/poi/hostel-mira-2.webp"],
+    "rating": 4.4,
+    "reviewCount": 218,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (928) 072-15-55",
+    "priceLevel": 1,
+    "tags": ["хостел", "бюджет", "бэкпекер", "центр", "hostel", "budget", "backpacker"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 14500,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-067",
+    "slug": "guesthouse-tagauria",
+    "name": { "ru": "Гостевой дом \"Тагаурия\"", "en": "Guesthouse Tagauria" },
+    "category": "accommodation",
+    "subcategory": "Гостевой дом",
+    "location": {
+      "lat": 43.0310,
+      "lng": 44.6790,
+      "address": { "ru": "ул. Джанаева, 44", "en": "44 Dzhanaev St." }
+    },
+    "description": {
+      "short": {
+        "ru": "Гостевой дом с национальным колоритом и домашней осетинской кухней.",
+        "en": "Guesthouse with national character and homemade Ossetian cuisine."
+      },
+      "medium": {
+        "ru": "Гостевой дом «Тагаурия» — камерное размещение с ярким осетинским колоритом. 12 номеров, оформленных в национальном стиле: деревянная мебель, текстиль ручной работы, виды на сад. Хозяйка готовит домашние осетинские завтраки: пироги, сыр, травяной чай. Тихий район, 15 минут пешком до центра.",
+        "en": "Guesthouse Tagauria offers intimate accommodation with vivid Ossetian character. 12 rooms decorated in national style: wooden furniture, handmade textiles, garden views. The hostess prepares homemade Ossetian breakfasts: pies, cheese, herbal tea. Quiet neighborhood, 15 minutes walk to the center."
+      },
+      "full": {
+        "ru": "Гостевой дом «Тагаурия» назван в честь одного из исторических обществ Осетии и создан семьёй, которая хочет показать гостям настоящее осетинское гостеприимство. 12 номеров в двухэтажном каменном доме с садом: стандартные двухместные, семейные с детской кроваткой и один мини-люкс с балконом. Интерьеры оформлены в осетинском стиле — войлочные ковры, резная деревянная мебель, национальные орнаменты. Завтрак входит в стоимость и готовится хозяйкой: свежие осетинские пироги с сыром и свекольной ботвой, домашний сыр, варенье из горных ягод, травяной чай. Вечером можно заказать домашний ужин — лывжа, фыдджын, цахтон. Сад с беседкой и мангалом. Хозяева помогут организовать поездки в Куртатинское ущелье, Цей и Дигорию. Идеальное место для тех, кто хочет прочувствовать Осетию изнутри.",
+        "en": "Guesthouse Tagauria is named after one of the historic societies of Ossetia and was created by a family that wants to show guests true Ossetian hospitality. 12 rooms in a two-story stone house with a garden: standard doubles, family rooms with a crib, and one mini-suite with a balcony. Interiors are decorated in Ossetian style — felt carpets, carved wooden furniture, national ornaments. Breakfast is included and prepared by the hostess: fresh Ossetian pies with cheese and beet greens, homemade cheese, mountain berry jam, herbal tea. In the evening you can order a home-cooked dinner — lyvzha, fyddjyn, tsakhton. Garden with gazebo and barbecue. The hosts can help arrange trips to Kurtatinsky Gorge, Tsey, and Digoria. An ideal place for those who want to experience Ossetia from the inside."
+      }
+    },
+    "photos": ["images/poi/tagauria-1.webp", "images/poi/tagauria-2.webp"],
+    "rating": 4.8,
+    "reviewCount": 167,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (928) 068-44-12",
+    "priceLevel": 2,
+    "tags": ["гостевой дом", "осетинский", "домашний", "пироги", "guesthouse", "traditional", "homestyle"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 8500,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-068",
+    "slug": "drink-house-bar",
+    "name": { "ru": "Бар \"Дринк Хаус\"", "en": "Drink House Bar" },
+    "category": "nightlife",
+    "subcategory": "Бар",
+    "location": {
+      "lat": 43.0375,
+      "lng": 44.6715,
+      "address": { "ru": "пр. Мира, 25", "en": "25 Mira Ave." }
+    },
+    "description": {
+      "short": {
+        "ru": "Популярный коктейльный бар на проспекте Мира с авторскими напитками.",
+        "en": "Popular cocktail bar on Mira Avenue with signature drinks."
+      },
+      "medium": {
+        "ru": "«Дринк Хаус» — главный коктейльный бар Владикавказа, расположенный на проспекте Мира. Авторская коктейльная карта с кавказским акцентом: настойки на горных травах, напитки с чабрецом и барбарисом. Тёплая атмосфера, живая музыка по пятницам и субботам, дружелюбный бартендер с историями о каждом коктейле.",
+        "en": "Drink House is Vladikavkaz's main cocktail bar, located on Mira Avenue. Signature cocktail menu with a Caucasian twist: infusions from mountain herbs, drinks with thyme and barberry. Warm atmosphere, live music on Fridays and Saturdays, a friendly bartender with stories about each cocktail."
+      },
+      "full": {
+        "ru": "«Дринк Хаус» — коктейльный бар нового формата, ставший центром ночной жизни Владикавказа. Расположен на проспекте Мира в подвальном помещении с кирпичными стенами и приглушённым светом. Коктейльная карта на 40+ позиций, включая авторские миксы с локальными ингредиентами: настойка на облепихе, сироп из горного тимьяна, горькая на кизиле. Классика тоже на высоте — негрони, олд фэшенд, дайкири. Кухня работает до полуночи: бургеры, тапас, мясные доски. Живая музыка по пятницам (джаз, блюз) и субботам (инди, рок). По четвергам — вечер настольных игр. Средний чек — 1500 рублей. Бронирование столов через телефон или Instagram. Возрастное ограничение 18+.",
+        "en": "Drink House is a new-format cocktail bar that has become the center of Vladikavkaz nightlife. Located on Mira Avenue in a basement space with brick walls and dim lighting. A cocktail menu of 40+ items including signature mixes with local ingredients: sea buckthorn infusion, mountain thyme syrup, cornelian cherry bitters. Classics are also top-notch — negroni, old fashioned, daiquiri. Kitchen open until midnight: burgers, tapas, meat boards. Live music on Fridays (jazz, blues) and Saturdays (indie, rock). Thursday is board game night. Average check — 1,500 rubles. Table reservations via phone or Instagram. Age restriction 18+."
+      }
+    },
+    "photos": ["images/poi/drink-house-1.webp", "images/poi/drink-house-2.webp"],
+    "rating": 4.5,
+    "reviewCount": 324,
+    "hours": {
+      "mon": "18:00-02:00",
+      "tue": "18:00-02:00",
+      "wed": "18:00-02:00",
+      "thu": "18:00-02:00",
+      "fri": "18:00-04:00",
+      "sat": "18:00-04:00",
+      "sun": "18:00-00:00"
+    },
+    "phone": "+7 (928) 071-22-33",
+    "priceLevel": 3,
+    "tags": ["бар", "коктейли", "ночная жизнь", "живая музыка", "bar", "cocktails", "nightlife"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 19000,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-069",
+    "slug": "club-portal",
+    "name": { "ru": "Клуб \"Портал\"", "en": "Club Portal" },
+    "category": "nightlife",
+    "subcategory": "Клуб",
+    "location": {
+      "lat": 43.0320,
+      "lng": 44.6830,
+      "address": { "ru": "ул. Маркуса, 42", "en": "42 Markus St." }
+    },
+    "description": {
+      "short": {
+        "ru": "Ночной клуб с танцполом, диджей-сетами и тематическими вечеринками.",
+        "en": "Nightclub with a dance floor, DJ sets, and themed parties."
+      },
+      "medium": {
+        "ru": "«Портал» — главный ночной клуб Владикавказа с двумя залами: большим танцполом и VIP-лаунжем. Резиденты и приглашённые диджеи играют хаус, техно, хип-хоп и кавказские ремиксы. Тематические вечеринки каждые выходные, система бронирования столов и VIP-зон.",
+        "en": "Portal is Vladikavkaz's main nightclub with two halls: a large dance floor and VIP lounge. Resident and guest DJs play house, techno, hip-hop, and Caucasian remixes. Themed parties every weekend, table and VIP zone reservation system."
+      },
+      "full": {
+        "ru": "Клуб «Портал» — крупнейшая ночная площадка Владикавказа, открытая в 2019 году. Два зала: основной танцпол на 400 человек с профессиональным светом и звуком Funktion-One, и VIP-лаунж на 60 человек с отдельным баром и караоке. Музыкальная политика разнообразна: пятница — хаус и техно с приглашёнными диджеями из Москвы и Тбилиси, суббота — хип-хоп, R&B и кавказские ремиксы, воскресенье — ретро-вечеринки. Бар с полной коктейльной картой, кальянная зона. Фейс-контроль и дресс-код (smart casual). Вход по пятницам и субботам — от 500 рублей. Парковка на 30 машин. Возрастное ограничение строго 18+. Клуб часто проводит закрытые мероприятия и корпоративы.",
+        "en": "Club Portal is Vladikavkaz's largest nightlife venue, opened in 2019. Two halls: the main dance floor for 400 people with professional lighting and Funktion-One sound, and a VIP lounge for 60 with a separate bar and karaoke. Diverse music policy: Fridays feature house and techno with guest DJs from Moscow and Tbilisi, Saturdays bring hip-hop, R&B, and Caucasian remixes, Sundays are retro parties. Full cocktail bar, hookah zone. Face control and dress code (smart casual). Friday and Saturday admission from 500 rubles. Parking for 30 cars. Strict 18+ age restriction. The club frequently hosts private events and corporate parties."
+      }
+    },
+    "photos": ["images/poi/club-portal-1.webp", "images/poi/club-portal-2.webp"],
+    "rating": 4.1,
+    "reviewCount": 412,
+    "hours": {
+      "mon": "closed",
+      "tue": "closed",
+      "wed": "closed",
+      "thu": "22:00-04:00",
+      "fri": "22:00-06:00",
+      "sat": "22:00-06:00",
+      "sun": "20:00-02:00"
+    },
+    "phone": "+7 (928) 069-88-77",
+    "priceLevel": 3,
+    "tags": ["клуб", "ночной", "танцы", "диджей", "вечеринка", "club", "nightclub", "dance"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 25000,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-070",
+    "slug": "lounge-bar-verf",
+    "name": { "ru": "Лаунж-бар \"Верфь\"", "en": "Lounge Bar Verf" },
+    "category": "nightlife",
+    "subcategory": "Лаунж-бар",
+    "location": {
+      "lat": 43.0362,
+      "lng": 44.6695,
+      "address": { "ru": "наб. Терека, 8", "en": "8 Terek Embankment" }
+    },
+    "description": {
+      "short": {
+        "ru": "Лаунж-бар на набережной Терека с панорамными видами и кальянами.",
+        "en": "Lounge bar on the Terek embankment with panoramic views and hookahs."
+      },
+      "medium": {
+        "ru": "«Верфь» — стильный лаунж-бар на набережной Терека с летней террасой и видом на реку и горы. Авторские коктейли, премиальные кальяны, лёгкая кухня. Атмосфера для спокойного вечера: приглушённая музыка, мягкие диваны, свечи. Идеальное место для свидания или встречи с друзьями.",
+        "en": "Verf is a stylish lounge bar on the Terek embankment with a summer terrace and views of the river and mountains. Signature cocktails, premium hookahs, light cuisine. An atmosphere for a relaxed evening: soft music, plush sofas, candles. Perfect for a date or a gathering with friends."
+      },
+      "full": {
+        "ru": "Лаунж-бар «Верфь» занимает двухуровневое пространство на набережной Терека: нижний зал с панорамными окнами на реку и верхняя открытая терраса с видом на Столовую гору и огни вечернего города. Интерьер в стиле нового лофта: дерево, металл, мягкий свет, живые растения. Коктейльная карта с акцентом на лёгкие освежающие миксы и авторские лимонады. Кальянное меню — одно из лучших в городе: премиальные табаки, фруктовые чаши, паровые коктейли. Кухня: тартары, брускетты, сырные тарелки, десерты. Музыка — deep house, lo-fi, джаз. По пятницам — живой саксофон. Средний чек — 2000 рублей. Терраса работает с мая по октябрь. Бронирование рекомендуется на выходные.",
+        "en": "Lounge Bar Verf occupies a two-level space on the Terek embankment: the lower hall with panoramic windows facing the river and an upper open terrace with views of Table Mountain and the city lights. New loft-style interior: wood, metal, soft lighting, living plants. Cocktail menu focused on light refreshing mixes and signature lemonades. Hookah menu is one of the best in the city: premium tobaccos, fruit bowls, steam cocktails. Kitchen: tartares, bruschetta, cheese plates, desserts. Music — deep house, lo-fi, jazz. Live saxophone on Fridays. Average check — 2,000 rubles. Terrace open from May to October. Reservations recommended on weekends."
+      }
+    },
+    "photos": ["images/poi/verf-1.webp", "images/poi/verf-2.webp"],
+    "rating": 4.4,
+    "reviewCount": 198,
+    "hours": {
+      "mon": "17:00-01:00",
+      "tue": "17:00-01:00",
+      "wed": "17:00-01:00",
+      "thu": "17:00-02:00",
+      "fri": "17:00-03:00",
+      "sat": "17:00-03:00",
+      "sun": "17:00-00:00"
+    },
+    "phone": "+7 (928) 073-55-66",
+    "priceLevel": 3,
+    "tags": ["лаунж", "бар", "кальян", "терраса", "набережная", "lounge", "hookah", "terrace"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 16000,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-071",
+    "slug": "horseback-riding-iriston",
+    "name": { "ru": "Конные прогулки \"Иристон\"", "en": "Iriston Horseback Riding" },
+    "category": "activities",
+    "subcategory": "Конные прогулки",
+    "location": {
+      "lat": 43.0120,
+      "lng": 44.6350,
+      "address": { "ru": "с. Балта, Пригородный район", "en": "Balta Village, Prigorodny District" }
+    },
+    "description": {
+      "short": {
+        "ru": "Конные прогулки по горным тропам и долинам вокруг Владикавказа.",
+        "en": "Horseback riding on mountain trails and valleys around Vladikavkaz."
+      },
+      "medium": {
+        "ru": "Конный клуб «Иристон» предлагает прогулки верхом по живописным окрестностям Владикавказа: горные тропы, речные долины, лесные маршруты. Подходит для начинающих и опытных наездников. Лошади спокойные, обученные, инструктор сопровождает каждую группу. Продолжительность от 1 часа до целого дня.",
+        "en": "The Iriston Equestrian Club offers horseback rides through the scenic surroundings of Vladikavkaz: mountain trails, river valleys, forest routes. Suitable for beginners and experienced riders. Horses are calm and well-trained, an instructor accompanies each group. Duration from 1 hour to a full day."
+      },
+      "full": {
+        "ru": "Конный клуб «Иристон» расположен в селении Балта, в 15 минутах езды от центра Владикавказа. Клуб содержит 20 лошадей карачаевской и кабардинской пород — сильных, выносливых и послушных горных лошадей. Маршруты: часовая прогулка по долине (подходит для полных новичков), трёхчасовой маршрут к башне Курта и Тага, однодневный поход через Суадагский перевал с обедом на природе. Перед выездом — обязательный инструктаж и подбор лошади. Детям от 7 лет — на пони. Экипировка (шлемы, краги) предоставляется. Цены: 1 час — 1500 руб., 3 часа — 3500 руб., полный день — 6000 руб. Бронирование обязательно за сутки. Трансфер из города — 500 руб. Фотосессия верхом — дополнительно 1000 руб.",
+        "en": "The Iriston Equestrian Club is located in Balta village, a 15-minute drive from central Vladikavkaz. The club keeps 20 horses of Karachay and Kabardian breeds — strong, hardy, and obedient mountain horses. Routes: a one-hour valley ride (suitable for complete beginners), a three-hour route to the Kurta and Taga tower, a full-day trek through the Suadag Pass with an outdoor lunch. Before departure — mandatory briefing and horse matching. Children from age 7 ride ponies. Equipment (helmets, gaiters) provided. Prices: 1 hour — 1,500 rubles, 3 hours — 3,500 rubles, full day — 6,000 rubles. Booking required 24 hours in advance. City transfer — 500 rubles. Horseback photo session — additional 1,000 rubles."
+      }
+    },
+    "photos": ["images/poi/iriston-horses-1.webp", "images/poi/iriston-horses-2.webp"],
+    "rating": 4.7,
+    "reviewCount": 156,
+    "hours": {
+      "mon": "09:00-18:00",
+      "tue": "09:00-18:00",
+      "wed": "09:00-18:00",
+      "thu": "09:00-18:00",
+      "fri": "09:00-18:00",
+      "sat": "08:00-19:00",
+      "sun": "08:00-19:00"
+    },
+    "phone": "+7 (928) 074-11-22",
+    "priceLevel": 2,
+    "tags": ["конные прогулки", "лошади", "активный отдых", "горы", "horseback", "riding", "outdoor"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 7200,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-072",
+    "slug": "terek-rafting",
+    "name": { "ru": "Рафтинг по Тереку", "en": "Terek River Rafting" },
+    "category": "activities",
+    "subcategory": "Рафтинг",
+    "location": {
+      "lat": 42.9580,
+      "lng": 44.5850,
+      "address": { "ru": "Дарьяльское ущелье, старт у с. Чми", "en": "Daryal Gorge, start at Chmi Village" }
+    },
+    "description": {
+      "short": {
+        "ru": "Сплав по горной реке Терек через живописные ущелья.",
+        "en": "Whitewater rafting on the Terek River through scenic gorges."
+      },
+      "medium": {
+        "ru": "Рафтинг по Тереку — один из самых ярких адреналиновых опытов в Северной Осетии. Маршруты от 2 до 4 категории сложности по Дарьяльскому ущелью с видами на горные вершины и средневековые башни. Инструкторы-профессионалы, всё снаряжение включено. Сезон с мая по сентябрь.",
+        "en": "Terek River rafting is one of the most thrilling adrenaline experiences in North Ossetia. Routes from Class 2 to 4 through Daryal Gorge with views of mountain peaks and medieval towers. Professional instructors, all equipment included. Season from May to September."
+      },
+      "full": {
+        "ru": "Рафтинг по реке Терек — это мощная горная река, пробившая путь через легендарное Дарьяльское ущелье. Маршруты: «Семейный» (категория 2, от 12 лет, 1.5 часа) — спокойный участок с лёгкими порогами и красивыми видами; «Классика» (категория 3, от 16 лет, 2.5 часа) — адреналиновый сплав с мощными порогами и прижимами; «Экстрим» (категория 4, только с опытом, 3.5 часа) — для настоящих любителей острых ощущений. Все маршруты начинаются у селения Чми и финишируют ниже по течению. Включено: гидрокостюм, спасжилет, шлем, вёсла, инструктаж, горячий чай после сплава. Группы 6-8 человек на рафт. Цены: от 2500 (семейный) до 5000 (экстрим) руб./чел. Фото и видео со сплава — 500 руб. Трансфер из Владикавказа включён.",
+        "en": "Terek River rafting features a powerful mountain river that has carved its way through the legendary Daryal Gorge. Routes: 'Family' (Class 2, ages 12+, 1.5 hours) — calm section with gentle rapids and beautiful views; 'Classic' (Class 3, ages 16+, 2.5 hours) — adrenaline-pumping run with powerful rapids; 'Extreme' (Class 4, experience required, 3.5 hours) — for true thrill-seekers. All routes start at Chmi village and finish downstream. Included: wetsuit, life jacket, helmet, paddles, briefing, hot tea after the run. Groups of 6-8 per raft. Prices: from 2,500 (family) to 5,000 (extreme) rubles/person. Photos and video — 500 rubles. Transfer from Vladikavkaz included."
+      }
+    },
+    "photos": ["images/poi/terek-rafting-1.webp", "images/poi/terek-rafting-2.webp"],
+    "rating": 4.8,
+    "reviewCount": 203,
+    "hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "08:00-18:00",
+      "sun": "08:00-18:00"
+    },
+    "phone": "+7 (928) 075-33-44",
+    "priceLevel": 3,
+    "tags": ["рафтинг", "Терек", "адреналин", "экстрим", "сплав", "rafting", "extreme", "outdoor"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 5600,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-073",
+    "slug": "paragliding-club",
+    "name": { "ru": "Парапланерный клуб", "en": "Paragliding Club" },
+    "category": "activities",
+    "subcategory": "Парапланеризм",
+    "location": {
+      "lat": 43.0150,
+      "lng": 44.6200,
+      "address": { "ru": "гора Лысая, Пригородный район", "en": "Lysaya Mountain, Prigorodny District" }
+    },
+    "description": {
+      "short": {
+        "ru": "Полёты на параплане над горами и долинами Северной Осетии.",
+        "en": "Paragliding flights over the mountains and valleys of North Ossetia."
+      },
+      "medium": {
+        "ru": "Парапланерный клуб Владикавказа предлагает тандемные полёты с инструктором и обучение парапланеризму. Старт с горы Лысой — отсюда открываются потрясающие виды на Владикавказ, Терек и Главный Кавказский хребет. Полёты от 15 минут до часа, в зависимости от погоды и термиков.",
+        "en": "The Vladikavkaz Paragliding Club offers tandem flights with an instructor and paragliding training. Launch from Lysaya Mountain — stunning views of Vladikavkaz, the Terek, and the Main Caucasus Ridge. Flights from 15 minutes to an hour, depending on weather and thermals."
+      },
+      "full": {
+        "ru": "Парапланерный клуб базируется у подножия горы Лысой в 20 минутах от центра Владикавказа. Клуб работает с 2015 года, все пилоты сертифицированы и имеют более 1000 часов налёта. Тандемные полёты: вы пристёгиваетесь к опытному пилоту и наслаждаетесь полётом — никакого опыта не требуется. Стандартный полёт (15-20 мин.) — 4000 руб., маршрутный полёт (30-60 мин., при хороших термиках) — 7000 руб. Включено: инструктаж, снаряжение, GoPro-видео полёта. Обучение парапланеризму: курс «с нуля» — 10 занятий, 35000 руб. Ограничения: вес пассажира 40-110 кг, минимальный возраст 14 лет. Полёты зависят от погоды — подтверждение утром в день полёта. Сезон: апрель-ноябрь. Трансфер от центра — 300 руб.",
+        "en": "The Paragliding Club is based at the foot of Lysaya Mountain, 20 minutes from central Vladikavkaz. Operating since 2015, all pilots are certified with over 1,000 flight hours. Tandem flights: you're strapped to an experienced pilot and enjoy the flight — no experience needed. Standard flight (15-20 min.) — 4,000 rubles, cross-country flight (30-60 min., in good thermals) — 7,000 rubles. Included: briefing, equipment, GoPro flight video. Paragliding training: beginner course — 10 sessions, 35,000 rubles. Restrictions: passenger weight 40-110 kg, minimum age 14. Flights are weather-dependent — confirmation on the morning of the flight. Season: April-November. Transfer from center — 300 rubles."
+      }
+    },
+    "photos": ["images/poi/paragliding-1.webp", "images/poi/paragliding-2.webp"],
+    "rating": 4.9,
+    "reviewCount": 178,
+    "hours": {
+      "mon": "09:00-18:00",
+      "tue": "09:00-18:00",
+      "wed": "09:00-18:00",
+      "thu": "09:00-18:00",
+      "fri": "09:00-18:00",
+      "sat": "08:00-19:00",
+      "sun": "08:00-19:00"
+    },
+    "phone": "+7 (928) 076-77-88",
+    "priceLevel": 3,
+    "tags": ["параплан", "полёт", "экстрим", "горы", "вид", "paragliding", "extreme", "flying"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 4800,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-074",
+    "slug": "tsey-ski-resort",
+    "name": { "ru": "Горнолыжный курорт Цей", "en": "Tsey Ski Resort" },
+    "category": "activities",
+    "subcategory": "Горнолыжный курорт",
+    "location": {
+      "lat": 42.7580,
+      "lng": 43.9120,
+      "address": { "ru": "Цейское ущелье, Алагирский район", "en": "Tsey Gorge, Alagir District" }
+    },
+    "description": {
+      "short": {
+        "ru": "Горнолыжный курорт в Цейском ущелье с трассами для всех уровней.",
+        "en": "Ski resort in Tsey Gorge with slopes for all levels."
+      },
+      "medium": {
+        "ru": "Горнолыжный курорт Цей расположен в живописном Цейском ущелье, в 90 км от Владикавказа. Трассы от 1800 до 2870 м — для начинающих и продвинутых. Канатная дорога, прокат снаряжения, кафе на склоне. Летом — треккинг к леднику Цей и Реком. Один из старейших горнолыжных курортов Кавказа.",
+        "en": "Tsey Ski Resort is set in the picturesque Tsey Gorge, 90 km from Vladikavkaz. Slopes from 1,800 to 2,870 m — for beginners and advanced skiers. Cable car, equipment rental, slope-side cafe. Summer offers trekking to the Tsey Glacier and Rekom. One of the oldest ski resorts in the Caucasus."
+      },
+      "full": {
+        "ru": "Горнолыжный курорт Цей — легендарное место для любителей зимних видов спорта, расположенное в одном из красивейших ущелий Кавказа. До курорта 90 км от Владикавказа (1.5 часа по хорошей дороге). Перепад высот: 1800-2870 м. Трассы: 3 зелёных (для новичков), 2 синих и 1 красная. Общая протяжённость — 12 км. Парнокресельная канатная дорога, бугельный подъёмник. Прокат полного комплекта снаряжения — 1500 руб./день. Ски-пасс: 1000 руб./день. На территории — кафе «Снежный барс» с хычинами и глинтвейном, горный приют на 40 мест. Сезон: декабрь-март. Летом курорт превращается в базу для треккинга: маршруты к Цейскому леднику (3 часа), святилищу Реком (1.5 часа), Сказскому леднику (4 часа). Инструкторы по горным лыжам и сноуборду — 2000 руб./час.",
+        "en": "Tsey Ski Resort is a legendary destination for winter sports enthusiasts, located in one of the most beautiful gorges of the Caucasus. The resort is 90 km from Vladikavkaz (1.5 hours on a good road). Elevation range: 1,800-2,870 m. Slopes: 3 green (for beginners), 2 blue, and 1 red. Total length — 12 km. Double chairlift and T-bar lift. Full equipment rental — 1,500 rubles/day. Ski pass: 1,000 rubles/day. On-site — the Snow Leopard cafe with khychiny and mulled wine, mountain shelter for 40 guests. Season: December-March. In summer, the resort becomes a trekking base: routes to Tsey Glacier (3 hours), Rekom sanctuary (1.5 hours), Skazsky Glacier (4 hours). Ski and snowboard instructors — 2,000 rubles/hour."
+      }
+    },
+    "photos": ["images/poi/tsey-ski-1.webp", "images/poi/tsey-ski-2.webp"],
+    "rating": 4.3,
+    "reviewCount": 567,
+    "hours": {
+      "mon": "09:00-16:30",
+      "tue": "09:00-16:30",
+      "wed": "09:00-16:30",
+      "thu": "09:00-16:30",
+      "fri": "09:00-16:30",
+      "sat": "08:30-17:00",
+      "sun": "08:30-17:00"
+    },
+    "phone": "+7 (8672) 54-78-90",
+    "priceLevel": 2,
+    "tags": ["горнолыжный", "лыжи", "сноуборд", "Цей", "горы", "ski", "snowboard", "resort", "mountains"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 35000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-075",
+    "slug": "climbing-wall-vershina",
+    "name": { "ru": "Скалодром \"Вершина\"", "en": "Vershina Climbing Wall" },
+    "category": "activities",
+    "subcategory": "Скалодром",
+    "location": {
+      "lat": 43.0295,
+      "lng": 44.6855,
+      "address": { "ru": "ул. Гаппо Баева, 22", "en": "22 Gappo Baev St." }
+    },
+    "description": {
+      "short": {
+        "ru": "Крытый скалодром с трассами разной сложности для детей и взрослых.",
+        "en": "Indoor climbing wall with routes of varying difficulty for kids and adults."
+      },
+      "medium": {
+        "ru": "Скалодром «Вершина» — современный крытый комплекс для скалолазания в центре Владикавказа. Стены высотой до 12 метров, более 50 трасс от начального до продвинутого уровня. Боулдеринг-зона, детская стенка, тренерский штаб. Прокат снаряжения, индивидуальные и групповые занятия.",
+        "en": "Vershina Climbing Wall is a modern indoor climbing complex in central Vladikavkaz. Walls up to 12 meters high, over 50 routes from beginner to advanced level. Bouldering zone, kids' wall, coaching staff. Equipment rental, individual and group sessions."
+      },
+      "full": {
+        "ru": "Скалодром «Вершина» открылся в 2021 году и быстро стал точкой притяжения для любителей скалолазания и активного отдыха. Площадь — 600 кв.м. Основная стена высотой 12 метров с верхней страховкой — более 30 трасс от 5a до 7c. Боулдеринг-зона с 20 проблемами, обновляемыми каждый месяц. Детская стенка (от 5 лет) с безопасной автоматической страховкой. Занятия с тренером: разовое — 1000 руб., абонемент 8 занятий — 6000 руб. Разовое посещение: взрослый — 500 руб., ребёнок — 350 руб. Прокат скальников, магнезии, страховочной системы — 300 руб. Проводятся корпоративные мероприятия, детские дни рождения, соревнования. Тренерский состав — мастера спорта по скалолазанию, призёры всероссийских соревнований. Идеальная подготовка перед настоящими горами.",
+        "en": "Vershina Climbing Wall opened in 2021 and quickly became a hub for climbing enthusiasts and active recreation. Area — 600 sq.m. Main wall at 12 meters with top-rope — over 30 routes from 5a to 7c. Bouldering zone with 20 problems updated monthly. Kids' wall (ages 5+) with safe auto-belay. Sessions with a coach: single — 1,000 rubles, 8-session pass — 6,000 rubles. Single visit: adult — 500 rubles, child — 350 rubles. Rental of climbing shoes, chalk, harness — 300 rubles. Corporate events, kids' birthday parties, and competitions hosted. Coaching staff includes masters of sport in climbing and national competition medalists. Perfect preparation before hitting the real mountains."
+      }
+    },
+    "photos": ["images/poi/vershina-climbing-1.webp", "images/poi/vershina-climbing-2.webp"],
+    "rating": 4.6,
+    "reviewCount": 134,
+    "hours": {
+      "mon": "10:00-22:00",
+      "tue": "10:00-22:00",
+      "wed": "10:00-22:00",
+      "thu": "10:00-22:00",
+      "fri": "10:00-22:00",
+      "sat": "09:00-22:00",
+      "sun": "09:00-21:00"
+    },
+    "phone": "+7 (928) 077-99-00",
+    "priceLevel": 2,
+    "tags": ["скалодром", "скалолазание", "боулдеринг", "спорт", "climbing", "bouldering", "indoor"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 9800,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-076",
+    "slug": "vladikavkaz-bus-station",
+    "name": { "ru": "Автовокзал Владикавказ", "en": "Vladikavkaz Bus Station" },
+    "category": "transport",
+    "subcategory": "Автовокзал",
+    "location": {
+      "lat": 43.0280,
+      "lng": 44.6910,
+      "address": { "ru": "ул. Архонская, 1", "en": "1 Arkhonskaya St." }
+    },
+    "description": {
+      "short": {
+        "ru": "Главный автовокзал города с рейсами по Осетии и Северному Кавказу.",
+        "en": "The city's main bus station with routes across Ossetia and the North Caucasus."
+      },
+      "medium": {
+        "ru": "Автовокзал Владикавказ — главный узел междугородного автобусного сообщения. Отсюда отправляются рейсы в Нальчик, Грозный, Махачкалу, Ставрополь, Ростов-на-Дону, Краснодар, а также в горные районы республики: Алагир, Дигору, Ардон. Зал ожидания, кассы, кафе, камера хранения.",
+        "en": "Vladikavkaz Bus Station is the main hub for intercity bus services. Buses depart for Nalchik, Grozny, Makhachkala, Stavropol, Rostov-on-Don, Krasnodar, as well as mountain areas of the republic: Alagir, Digora, Ardon. Waiting hall, ticket offices, cafe, luggage storage."
+      },
+      "full": {
+        "ru": "Автовокзал Владикавказ — основной транспортный узел для автобусного сообщения республики и всего Северного Кавказа. Расположен в восточной части города, на пересечении нескольких городских маршрутов. Ежедневные рейсы: Нальчик (2 часа), Грозный (3 часа), Махачкала (5 часов), Ставрополь (4 часа), Ростов-на-Дону (10 часов), Краснодар (12 часов), Москва (24 часа). Внутриреспубликанские маршруты: Алагир, Ардон, Дигора, Моздок, Беслан. Микроавтобусы в горные ущелья по расписанию и по наполнению. Кассы работают с 6:00 до 21:00, есть онлайн-бронирование на сайте. Зал ожидания на 100 мест, кафе с горячей едой, туалеты, камера хранения (100 руб./сутки). Рядом — стоянка такси. К автовокзалу ходят маршрутки №12, №17, №52.",
+        "en": "Vladikavkaz Bus Station is the main transport hub for bus services across the republic and the entire North Caucasus. Located in the eastern part of the city, at the intersection of several urban routes. Daily departures: Nalchik (2 hours), Grozny (3 hours), Makhachkala (5 hours), Stavropol (4 hours), Rostov-on-Don (10 hours), Krasnodar (12 hours), Moscow (24 hours). Intra-republic routes: Alagir, Ardon, Digora, Mozdok, Beslan. Minibuses to mountain gorges run on schedule and when full. Ticket offices open 6:00-21:00, online booking available. Waiting hall for 100, cafe with hot food, restrooms, luggage storage (100 rubles/day). Taxi stand nearby. Marshrutkas #12, #17, #52 serve the bus station."
+      }
+    },
+    "photos": ["images/poi/bus-station-1.webp", "images/poi/bus-station-2.webp"],
+    "rating": 3.5,
+    "reviewCount": 678,
+    "hours": {
+      "mon": "05:30-22:00",
+      "tue": "05:30-22:00",
+      "wed": "05:30-22:00",
+      "thu": "05:30-22:00",
+      "fri": "05:30-22:00",
+      "sat": "05:30-22:00",
+      "sun": "05:30-22:00"
+    },
+    "phone": "+7 (8672) 74-02-22",
+    "priceLevel": 1,
+    "tags": ["автовокзал", "автобус", "транспорт", "междугородный", "bus", "station", "transport"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 85000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-077",
+    "slug": "vladikavkaz-railway-station",
+    "name": { "ru": "Ж/д вокзал Владикавказ", "en": "Vladikavkaz Railway Station" },
+    "category": "transport",
+    "subcategory": "Ж/д вокзал",
+    "location": {
+      "lat": 43.0248,
+      "lng": 44.6816,
+      "address": { "ru": "Вокзальная пл., 1", "en": "1 Vokzalnaya Square" }
+    },
+    "description": {
+      "short": {
+        "ru": "Железнодорожный вокзал с поездами в Москву и города юга России.",
+        "en": "Railway station with trains to Moscow and southern Russian cities."
+      },
+      "medium": {
+        "ru": "Железнодорожный вокзал Владикавказ — конечная станция ветки Северо-Кавказской железной дороги. Поезда в Москву (36 часов), Ростов-на-Дону (14 часов), Минеральные Воды (4 часа). Красивое здание вокзала — памятник архитектуры начала XX века. Кассы, зал ожидания, камера хранения.",
+        "en": "Vladikavkaz Railway Station is the terminal station of the North Caucasus Railway branch. Trains to Moscow (36 hours), Rostov-on-Don (14 hours), Mineralnye Vody (4 hours). The beautiful station building is an architectural monument from the early 20th century. Ticket offices, waiting hall, luggage storage."
+      },
+      "full": {
+        "ru": "Железнодорожный вокзал Владикавказ — один из красивейших вокзалов Северного Кавказа. Здание построено в 1908 году в стиле модерн и является памятником архитектуры федерального значения. Это конечная станция ветки Беслан — Владикавказ Северо-Кавказской железной дороги. Основные направления: фирменный поезд «Осетия» Владикавказ — Москва (ежедневно, 36 часов, плацкарт от 3000 руб., купе от 5500 руб.), Владикавказ — Ростов-на-Дону (14 часов), электричка до Минеральных Вод (4 часа, 450 руб.). Кассы работают круглосуточно, электронная регистрация через РЖД. Зал ожидания с кондиционером на 200 мест, VIP-зал, буфет, камера хранения, медпункт, полиция. Привокзальная площадь — стоянка такси и остановка городского транспорта. Маршрутки №3, №10, №23 до центра города.",
+        "en": "Vladikavkaz Railway Station is one of the most beautiful stations in the North Caucasus. The building was constructed in 1908 in Art Nouveau style and is a federally protected architectural monument. It is the terminal station of the Beslan-Vladikavkaz branch of the North Caucasus Railway. Main routes: the branded train 'Ossetia' Vladikavkaz-Moscow (daily, 36 hours, platskart from 3,000 rubles, compartment from 5,500 rubles), Vladikavkaz-Rostov-on-Don (14 hours), commuter train to Mineralnye Vody (4 hours, 450 rubles). Ticket offices open 24/7, e-registration via RZD. Air-conditioned waiting hall for 200, VIP lounge, buffet, luggage storage, first aid, police. Station square has a taxi stand and city transport stop. Marshrutkas #3, #10, #23 to the city center."
+      }
+    },
+    "photos": ["images/poi/railway-station-1.webp", "images/poi/railway-station-2.webp"],
+    "rating": 3.9,
+    "reviewCount": 534,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (8672) 93-10-00",
+    "priceLevel": 1,
+    "tags": ["вокзал", "поезд", "РЖД", "железная дорога", "railway", "station", "train"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 120000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-078",
+    "slug": "vladikavkaz-airport-beslan",
+    "name": { "ru": "Аэропорт Владикавказ (Беслан)", "en": "Vladikavkaz Airport (Beslan)" },
+    "category": "transport",
+    "subcategory": "Аэропорт",
+    "location": {
+      "lat": 43.2051,
+      "lng": 44.6066,
+      "address": { "ru": "г. Беслан, Аэропортовская ул.", "en": "Beslan, Aeroportovskaya St." }
+    },
+    "description": {
+      "short": {
+        "ru": "Международный аэропорт в 25 км от Владикавказа с рейсами в Москву и другие города.",
+        "en": "International airport 25 km from Vladikavkaz with flights to Moscow and other cities."
+      },
+      "medium": {
+        "ru": "Аэропорт Владикавказ (код OGZ) расположен в городе Беслан, в 25 км к северу от Владикавказа. Ежедневные рейсы в Москву (Домодедово, Внуково, Шереметьево), Санкт-Петербург, Сочи. Сезонные рейсы в Стамбул и Дубай. Новый терминал, кафе, магазин duty-free, прокат авто.",
+        "en": "Vladikavkaz Airport (code OGZ) is located in the city of Beslan, 25 km north of Vladikavkaz. Daily flights to Moscow (Domodedovo, Vnukovo, Sheremetyevo), St. Petersburg, Sochi. Seasonal flights to Istanbul and Dubai. New terminal, cafe, duty-free shop, car rental."
+      },
+      "full": {
+        "ru": "Аэропорт Владикавказ (IATA: OGZ, ICAO: URMO) — главные воздушные ворота Северной Осетии, расположен у города Беслан в 25 км от центра Владикавказа (30-40 минут на такси, 500-700 руб.). Авиакомпании: «Победа», S7 Airlines, «Аэрофлот», Utair, Azimuth. Ежедневные рейсы: Москва (2.5 часа, от 3500 руб.), Санкт-Петербург (3.5 часа, от 5000 руб.), Сочи (1.5 часа, от 3000 руб.). Сезонные рейсы: Стамбул, Дубай, Минск. Терминал обновлён в 2020 году: комфортный зал ожидания, бизнес-лаунж, кафе, магазин duty-free, банкомат, аптека, прокат автомобилей. Парковка: первые 15 минут бесплатно, далее 100 руб./час. Автобус №1 Беслан — Аэропорт. Такси до Владикавказа можно заказать через Яндекс Такси или «Максим» прямо в зале прилёта.",
+        "en": "Vladikavkaz Airport (IATA: OGZ, ICAO: URMO) is the main air gateway of North Ossetia, located near the city of Beslan, 25 km from central Vladikavkaz (30-40 minutes by taxi, 500-700 rubles). Airlines: Pobeda, S7 Airlines, Aeroflot, Utair, Azimuth. Daily flights: Moscow (2.5 hours, from 3,500 rubles), St. Petersburg (3.5 hours, from 5,000 rubles), Sochi (1.5 hours, from 3,000 rubles). Seasonal flights: Istanbul, Dubai, Minsk. Terminal renovated in 2020: comfortable waiting area, business lounge, cafe, duty-free shop, ATM, pharmacy, car rental. Parking: first 15 minutes free, then 100 rubles/hour. Bus #1 Beslan-Airport. Taxis to Vladikavkaz can be ordered via Yandex Taxi or Maxim right in the arrivals hall."
+      }
+    },
+    "photos": ["images/poi/airport-1.webp", "images/poi/airport-2.webp"],
+    "rating": 3.7,
+    "reviewCount": 892,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (8672) 54-24-44",
+    "priceLevel": 1,
+    "tags": ["аэропорт", "авиа", "перелёт", "Беслан", "airport", "flights", "aviation"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 250000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-079",
+    "slug": "taxi-maxim",
+    "name": { "ru": "Такси \"Максим\"", "en": "Maxim Taxi" },
+    "category": "transport",
+    "subcategory": "Такси",
+    "location": {
+      "lat": 43.0350,
+      "lng": 44.6790,
+      "address": { "ru": "Работает по всему городу", "en": "Operates citywide" }
+    },
+    "description": {
+      "short": {
+        "ru": "Популярная служба такси с доступными ценами и заказом через приложение.",
+        "en": "Popular taxi service with affordable prices and app-based ordering."
+      },
+      "medium": {
+        "ru": "«Максим» — одна из самых популярных служб такси во Владикавказе. Заказ через мобильное приложение или по телефону. Доступные цены: поездка по городу от 100 рублей, до аэропорта — от 500 рублей. Работает круглосуточно, большой автопарк, быстрая подача.",
+        "en": "Maxim is one of the most popular taxi services in Vladikavkaz. Order via mobile app or phone. Affordable prices: city rides from 100 rubles, to the airport from 500 rubles. Operates 24/7, large fleet, quick pickup."
+      },
+      "full": {
+        "ru": "Такси «Максим» — крупнейший агрегатор такси, широко представленный во Владикавказе. Заказ через мобильное приложение (iOS, Android) или по телефону. Минимальная поездка — 100 руб. (3 км), далее 8 руб./км. Тарифы: «Эконом» (Lada, Hyundai — от 100 руб.), «Комфорт» (Kia, Toyota — от 150 руб.), «Минивэн» (до 6 пассажиров — от 250 руб.). Популярные маршруты: центр — ж/д вокзал (150 руб.), центр — автовокзал (120 руб.), центр — аэропорт Беслан (500-700 руб.). Доступен предзаказ, детское кресло (по запросу), безналичная оплата в приложении. Водители говорят на русском, многие знают город отлично. Круглосуточная работа, среднее время подачи — 5-7 минут.",
+        "en": "Maxim Taxi is the largest taxi aggregator widely represented in Vladikavkaz. Order via mobile app (iOS, Android) or by phone. Minimum ride — 100 rubles (3 km), then 8 rubles/km. Tariffs: 'Economy' (Lada, Hyundai — from 100 rubles), 'Comfort' (Kia, Toyota — from 150 rubles), 'Minivan' (up to 6 passengers — from 250 rubles). Popular routes: center to railway station (150 rubles), center to bus station (120 rubles), center to Beslan Airport (500-700 rubles). Advance booking available, child seat on request, cashless payment in app. Drivers speak Russian, many know the city well. 24/7 operation, average pickup time 5-7 minutes."
+      }
+    },
+    "photos": ["images/poi/taxi-maxim-1.webp"],
+    "rating": 4.0,
+    "reviewCount": 1245,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (8672) 33-33-33",
+    "priceLevel": 1,
+    "tags": ["такси", "транспорт", "приложение", "трансфер", "taxi", "transport", "ride"],
+    "isChain": true,
+    "subscriptionTier": "free",
+    "visitCount": 500000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-080",
+    "slug": "yandex-taxi",
+    "name": { "ru": "Яндекс Такси", "en": "Yandex Taxi" },
+    "category": "transport",
+    "subcategory": "Такси",
+    "location": {
+      "lat": 43.0350,
+      "lng": 44.6790,
+      "address": { "ru": "Работает по всему городу", "en": "Operates citywide" }
+    },
+    "description": {
+      "short": {
+        "ru": "Крупнейший сервис такси в России с удобным приложением и разными тарифами.",
+        "en": "Russia's largest taxi service with a convenient app and various tariffs."
+      },
+      "medium": {
+        "ru": "Яндекс Такси — крупнейший сервис онлайн-такси в России, работающий во Владикавказе. Заказ через приложение Яндекс Go с отображением цены до поездки. Тарифы от эконома до бизнеса. Безналичная оплата, рейтинг водителей, отслеживание маршрута в реальном времени.",
+        "en": "Yandex Taxi is Russia's largest online taxi service operating in Vladikavkaz. Order through the Yandex Go app with upfront pricing. Tariffs from economy to business. Cashless payment, driver ratings, real-time route tracking."
+      },
+      "full": {
+        "ru": "Яндекс Такси (приложение Яндекс Go) — самый технологичный сервис такси, доступный во Владикавказе. Все преимущества крупной платформы: фиксированная цена до начала поездки, безналичная оплата (карта, Яндекс Пей), рейтинг и отзывы на водителей, отслеживание машины на карте, чек после поездки. Тарифы: «Эконом» (от 109 руб.), «Комфорт» (от 159 руб.), «Комфорт+» (от 250 руб.), «Минивэн» (от 300 руб.). Доступны детские кресла, перевозка животных, тихая поездка. До аэропорта Беслан — фиксированная цена от 550 руб. Промокоды для новых пользователей в приложении. Среднее время подачи во Владикавказе — 4-6 минут. Работает круглосуточно. Поддержка в приложении на русском и английском.",
+        "en": "Yandex Taxi (Yandex Go app) is the most technologically advanced taxi service available in Vladikavkaz. All the advantages of a major platform: fixed price before the ride, cashless payment (card, Yandex Pay), driver ratings and reviews, car tracking on the map, receipt after the ride. Tariffs: 'Economy' (from 109 rubles), 'Comfort' (from 159 rubles), 'Comfort+' (from 250 rubles), 'Minivan' (from 300 rubles). Child seats, pet transport, and quiet ride options available. To Beslan Airport — fixed price from 550 rubles. Promo codes for new users in the app. Average pickup time in Vladikavkaz — 4-6 minutes. Operates 24/7. In-app support in Russian and English."
+      }
+    },
+    "externalOrderUrl": "https://3.redirect.appmetrica.yandex.com/route",
+    "photos": ["images/poi/yandex-taxi-1.webp"],
+    "rating": 4.2,
+    "reviewCount": 2340,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": null,
+    "priceLevel": 2,
+    "tags": ["такси", "Яндекс", "приложение", "транспорт", "taxi", "yandex", "ride", "app"],
+    "isChain": true,
+    "subscriptionTier": "free",
+    "visitCount": 750000,
+    "hasMenu": false,
+    "hasDelivery": false
+  }
+]

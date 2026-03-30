@@ -1,0 +1,977 @@
+[
+  {
+    "id": "poi-001",
+    "slug": "prospekt-mira",
+    "name": { "ru": "Проспект Мира", "en": "Mira Avenue" },
+    "category": "attractions",
+    "subcategory": "Улица",
+    "location": {
+      "lat": 43.0367,
+      "lng": 44.6678,
+      "address": { "ru": "пр. Мира, Владикавказ", "en": "Mira Ave, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Главная пешеходная улица Владикавказа с историческими зданиями и уютными кафе.",
+        "en": "The main pedestrian street of Vladikavkaz lined with historic buildings and cozy cafes."
+      },
+      "medium": {
+        "ru": "Проспект Мира -- сердце Владикавказа и его главная пешеходная артерия. Улица протянулась от площади Свободы до проспекта Коста и застроена великолепными особняками XIX -- начала XX века в стилях модерн, эклектика и классицизм. Здесь расположены лучшие рестораны города, сувенирные лавки и уличные музыканты. Вечером проспект особенно красив благодаря мягкому освещению и атмосфере южного бульвара.",
+        "en": "Mira Avenue is the heart of Vladikavkaz and its main pedestrian artery. The street stretches from Freedom Square to Kosta Avenue and is lined with magnificent mansions from the 19th and early 20th centuries in Art Nouveau, eclectic, and classical styles. Here you will find the city's best restaurants, souvenir shops, and street musicians. In the evening the avenue is especially beautiful thanks to soft lighting and the atmosphere of a southern boulevard."
+      },
+      "full": {
+        "ru": "Проспект Мира -- визитная карточка Владикавказа, его главная улица и любимое место прогулок горожан и гостей столицы Северной Осетии. Проспект был заложен ещё в XIX веке как Александровский проспект и быстро стал центром деловой и культурной жизни города. Вдоль улицы выросли роскошные купеческие особняки, доходные дома и общественные здания, многие из которых сохранились до наших дней и являются памятниками архитектуры.\n\nСегодня проспект Мира -- это пешеходная зона с брусчаткой, скамейками и цветочными клумбами. Здесь можно увидеть здания в стилях модерн, неоклассицизм и эклектика, каждое со своей историей. Вдоль улицы работают кафе с осетинской и европейской кухней, сувенирные магазины и галереи. Особенно приятно гулять здесь тёплым вечером, когда зажигаются фонари и улица наполняется музыкой.\n\nПроспект Мира -- идеальная отправная точка для знакомства с городом. Отсюда легко добраться до набережной Терека, парка Хетагурова и основных музеев. Это место, где чувствуется подлинный дух Владикавказа -- города, соединяющего кавказские традиции и европейскую архитектуру.",
+        "en": "Mira Avenue is the calling card of Vladikavkaz, its main street and the favorite promenade of residents and visitors to the capital of North Ossetia. The avenue was laid out in the 19th century as Alexandrovsky Prospekt and quickly became the center of the city's business and cultural life. Luxurious merchant mansions, apartment buildings, and public structures sprang up along the street, many of which survive to this day as architectural monuments.\n\nToday Mira Avenue is a pedestrian zone with cobblestones, benches, and flower beds. Here you can see buildings in Art Nouveau, Neoclassical, and Eclectic styles, each with its own story. Cafes serving Ossetian and European cuisine, souvenir shops, and galleries line the street. It is especially pleasant to stroll here on a warm evening when the lanterns light up and the street fills with music.\n\nMira Avenue is the ideal starting point for exploring the city. From here it is easy to reach the Terek embankment, Khetagurov Park, and the main museums. This is where you feel the authentic spirit of Vladikavkaz -- a city that blends Caucasian traditions with European architecture."
+      }
+    },
+    "photos": ["images/poi/prospekt-mira-1.webp", "images/poi/prospekt-mira-2.webp"],
+    "rating": 4.8,
+    "reviewCount": 342,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["пешеходная", "историческая", "фотогеничная", "архитектура"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 45000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-002",
+    "slug": "pamyatnik-kosta-khetagurovu",
+    "name": { "ru": "Памятник Коста Хетагурову", "en": "Kosta Khetagurov Monument" },
+    "category": "attractions",
+    "subcategory": "Памятник",
+    "location": {
+      "lat": 43.0389,
+      "lng": 44.6672,
+      "address": { "ru": "пр. Мира, сквер, Владикавказ", "en": "Mira Ave, park, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Памятник основоположнику осетинской литературы, установленный в центре города.",
+        "en": "Monument to the founder of Ossetian literature, located in the city center."
+      },
+      "medium": {
+        "ru": "Памятник Коста Левановичу Хетагурову -- одна из главных достопримечательностей Владикавказа. Бронзовая скульптура поэта, просветителя и художника установлена в живописном сквере на проспекте Мира. Коста Хетагуров -- национальный герой Осетии, автор поэмы «Осетинская лира» и основоположник осетинской литературы. К памятнику приходят как туристы, так и местные жители, чтобы отдать дань уважения великому сыну осетинского народа.",
+        "en": "The monument to Kosta Levanovich Khetagurov is one of the main landmarks of Vladikavkaz. The bronze sculpture of the poet, educator, and artist stands in a picturesque garden on Mira Avenue. Kosta Khetagurov is a national hero of Ossetia, author of the poem 'The Ossetian Lyre' and founder of Ossetian literature. Both tourists and locals visit the monument to pay tribute to the great son of the Ossetian people."
+      },
+      "full": {
+        "ru": "Памятник Коста Хетагурову расположен в самом сердце Владикавказа, в небольшом уютном сквере на проспекте Мира. Коста Леванович Хетагуров (1859--1906) -- поэт, художник, драматург и общественный деятель, которого справедливо называют основоположником осетинской литературы. Его поэма «Ирон фæндыр» («Осетинская лира») стала первым крупным произведением на осетинском языке и заложила фундамент национальной литературной традиции.\n\nБронзовая фигура поэта изображает Коста в задумчивой позе, словно он обдумывает строки нового стихотворения. Памятник окружён ухоженными клумбами и скамейками, что делает это место идеальным для спокойного отдыха. В дни национальных праздников и юбилеев к монументу возлагают цветы, а студенты местных вузов проводят литературные чтения.\n\nДля осетин Коста Хетагуров -- не просто поэт, а символ национального самосознания и духовной свободы. Посещение памятника позволяет лучше понять осетинскую культуру и то значение, которое литература и искусство играют в жизни этого народа.",
+        "en": "The Kosta Khetagurov Monument stands in the very heart of Vladikavkaz, in a small cozy garden on Mira Avenue. Kosta Levanovich Khetagurov (1859--1906) was a poet, artist, playwright, and public figure rightfully called the founder of Ossetian literature. His poem 'Iron Fandyr' ('The Ossetian Lyre') became the first major work in the Ossetian language and laid the foundation for the national literary tradition.\n\nThe bronze figure depicts Kosta in a pensive pose, as if contemplating the lines of a new poem. The monument is surrounded by well-kept flower beds and benches, making it an ideal spot for quiet rest. On national holidays and anniversaries, flowers are laid at the monument, and students from local universities hold literary readings.\n\nFor Ossetians, Kosta Khetagurov is not merely a poet but a symbol of national self-awareness and spiritual freedom. Visiting the monument offers a deeper understanding of Ossetian culture and the significance that literature and art hold in the life of this people."
+      }
+    },
+    "photos": ["images/poi/pamyatnik-kosta-1.webp", "images/poi/pamyatnik-kosta-2.webp"],
+    "rating": 4.7,
+    "reviewCount": 215,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["памятник", "культура", "история", "литература"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 28000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-003",
+    "slug": "mechet-mukhtarova",
+    "name": { "ru": "Мечеть Мухтарова", "en": "Mukhtarov Mosque" },
+    "category": "attractions",
+    "subcategory": "Религиозное сооружение",
+    "location": {
+      "lat": 43.0345,
+      "lng": 44.6705,
+      "address": { "ru": "ул. Коцоева, 62, Владикавказ", "en": "62 Kotsoeva St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Суннитская мечеть начала XX века в египетском стиле на берегу Терека -- символ Владикавказа.",
+        "en": "An early 20th-century Sunni mosque in Egyptian style on the bank of the Terek -- a symbol of Vladikavkaz."
+      },
+      "medium": {
+        "ru": "Мечеть Мухтарова -- одно из красивейших зданий Владикавказа и его узнаваемый символ. Построена в 1900--1908 годах на средства нефтепромышленника Муртазы Мухтарова в стиле, вдохновлённом каирскими мечетями эпохи Мамлюков. Два стройных минарета возвышаются над набережной Терека, создавая один из самых фотогеничных видов города. Мечеть действующая, и посетители могут осмотреть её снаружи и изнутри, соблюдая правила поведения.",
+        "en": "Mukhtarov Mosque is one of the most beautiful buildings in Vladikavkaz and its recognizable symbol. Built in 1900--1908 with funds from oil industrialist Murtaza Mukhtarov in a style inspired by Cairo's Mamluk-era mosques. Two slender minarets rise above the Terek embankment, creating one of the most photogenic views in the city. The mosque is active, and visitors can view it from outside and inside while observing the rules of conduct."
+      },
+      "full": {
+        "ru": "Мечеть Мухтарова, известная также как Суннитская мечеть, -- жемчужина архитектуры Владикавказа и один из главных символов города. Она была построена в 1900--1908 годах по проекту архитектора Иосифа Плошко на средства азербайджанского нефтепромышленника и мецената Муртазы Мухтарова. Вдохновением для проекта послужили средневековые мечети Каира в стиле эпохи Мамлюков.\n\nЗдание выполнено из белого известняка и отличается изящными пропорциями. Два минарета высотой 33 метра видны из многих точек города и стали его визитной карточкой. Фасады украшены резными орнаментами и арочными окнами, а интерьер поражает тонкой росписью и каллиграфическими надписями. Мечеть расположена на берегу Терека, и вид на неё с противоположного берега -- один из самых открыточных в Владикавказе.\n\nВ советское время мечеть была закрыта и использовалась как планетарий и музей. В 1990-х годах она была возвращена верующим и полностью отреставрирована. Сегодня это действующая мечеть, открытая для посетителей. Рекомендуется прийти на закате, когда здание красиво подсвечивается, а отражение минаретов играет в водах Терека.",
+        "en": "Mukhtarov Mosque, also known as the Sunni Mosque, is the architectural jewel of Vladikavkaz and one of the city's main symbols. It was built in 1900--1908 to a design by architect Iosif Ploshko, funded by Azerbaijani oil industrialist and philanthropist Murtaza Mukhtarov. The design was inspired by medieval Cairo mosques of the Mamluk era.\n\nThe building is made of white limestone and distinguished by its elegant proportions. Two minarets standing 33 meters tall are visible from many points in the city and have become its calling card. The facades are adorned with carved ornaments and arched windows, while the interior impresses with fine painting and calligraphic inscriptions. The mosque sits on the bank of the Terek, and the view from the opposite bank is one of the most postcard-worthy in Vladikavkaz.\n\nDuring the Soviet era the mosque was closed and used as a planetarium and museum. In the 1990s it was returned to worshippers and fully restored. Today it is an active mosque open to visitors. It is recommended to visit at sunset, when the building is beautifully illuminated and the reflection of the minarets plays in the waters of the Terek."
+      }
+    },
+    "photos": ["images/poi/mechet-mukhtarova-1.webp", "images/poi/mechet-mukhtarova-2.webp"],
+    "rating": 4.9,
+    "reviewCount": 487,
+    "hours": { "mon": "08:00-19:00", "tue": "08:00-19:00", "wed": "08:00-19:00", "thu": "08:00-19:00", "fri": "08:00-19:00", "sat": "08:00-19:00", "sun": "08:00-19:00" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["мечеть", "архитектура", "религия", "символ города", "фотогеничная"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 52000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-004",
+    "slug": "sunnitskaya-mechet",
+    "name": { "ru": "Суннитская мечеть (Красная мечеть)", "en": "Sunni Mosque (Red Mosque)" },
+    "category": "attractions",
+    "subcategory": "Религиозное сооружение",
+    "location": {
+      "lat": 43.0312,
+      "lng": 44.6589,
+      "address": { "ru": "ул. Леваневского, 17, Владикавказ", "en": "17 Levanevskogo St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Красная кирпичная мечеть XIX века -- одна из старейших действующих мечетей города.",
+        "en": "A red-brick mosque from the 19th century -- one of the oldest active mosques in the city."
+      },
+      "medium": {
+        "ru": "Суннитская мечеть, известная как Красная мечеть из-за цвета кирпича, была построена во второй половине XIX века. Она является одной из старейших сохранившихся мечетей Владикавказа. Скромное, но выразительное здание из красного кирпича с минаретом привлекает внимание на фоне окружающей застройки. Мечеть действующая и играет важную роль в религиозной жизни мусульманской общины города.",
+        "en": "The Sunni Mosque, known as the Red Mosque due to the color of its bricks, was built in the second half of the 19th century. It is one of the oldest surviving mosques in Vladikavkaz. The modest yet expressive red-brick building with a minaret stands out against the surrounding architecture. The mosque is active and plays an important role in the religious life of the city's Muslim community."
+      },
+      "full": {
+        "ru": "Суннитская мечеть, которую горожане часто называют Красной мечетью за характерный цвет кирпичной кладки, -- одно из старейших культовых сооружений Владикавказа. Она была построена во второй половине XIX века, когда город активно развивался как административный и торговый центр Терской области. В те времена Владикавказ был многонациональным и многоконфессиональным городом, и строительство мечетей, церквей и синагог шло параллельно.\n\nЗдание выполнено из красного кирпича в традициях кавказской мечетной архитектуры. Минарет невысокий, но изящный, а фасад украшен кирпичной орнаментикой. Внутри мечеть скромно, но достойно оформлена: ковры, каллиграфия, мягкое естественное освещение через арочные окна создают атмосферу покоя и сосредоточенности.\n\nВ советский период мечеть, как и многие культовые сооружения, переживала трудные времена, но смогла сохраниться. Сегодня она полностью действующая, регулярно проводятся намазы. Туристы могут осмотреть здание снаружи, а при желании и внутри -- при условии соблюдения мусульманских норм поведения.",
+        "en": "The Sunni Mosque, often called the Red Mosque by locals for its characteristic red brickwork, is one of the oldest religious buildings in Vladikavkaz. It was built in the second half of the 19th century, when the city was actively developing as the administrative and commercial center of the Terek Oblast. At that time Vladikavkaz was a multi-ethnic and multi-faith city, with mosques, churches, and synagogues being built simultaneously.\n\nThe building is made of red brick in the traditions of Caucasian mosque architecture. The minaret is modest in height but elegant, and the facade is adorned with brick ornamentation. Inside, the mosque is simply but dignified: carpets, calligraphy, and soft natural light through arched windows create an atmosphere of peace and contemplation.\n\nDuring the Soviet period the mosque, like many religious buildings, went through difficult times but managed to survive. Today it is fully active with regular prayers. Tourists can view the building from outside, and if desired from inside as well, provided they observe Muslim norms of conduct."
+      }
+    },
+    "photos": ["images/poi/sunnitskaya-mechet-1.webp", "images/poi/sunnitskaya-mechet-2.webp"],
+    "rating": 4.5,
+    "reviewCount": 98,
+    "hours": { "mon": "07:00-20:00", "tue": "07:00-20:00", "wed": "07:00-20:00", "thu": "07:00-20:00", "fri": "07:00-20:00", "sat": "07:00-20:00", "sun": "07:00-20:00" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["мечеть", "архитектура", "религия", "историческая"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 8500,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-005",
+    "slug": "naberezhnaya-tereka",
+    "name": { "ru": "Набережная Терека", "en": "Terek Embankment" },
+    "category": "attractions",
+    "subcategory": "Набережная",
+    "location": {
+      "lat": 43.0352,
+      "lng": 44.6712,
+      "address": { "ru": "набережная Терека, Владикавказ", "en": "Terek Embankment, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Живописная набережная вдоль бурного Терека с видами на горы и мечеть Мухтарова.",
+        "en": "A scenic embankment along the rushing Terek with views of the mountains and Mukhtarov Mosque."
+      },
+      "medium": {
+        "ru": "Набережная Терека -- одно из самых живописных мест Владикавказа. Бурная горная река с зеленоватой водой прорезает город, а вдоль её берегов обустроены прогулочные дорожки, скамейки и смотровые площадки. Отсюда открываются прекрасные виды на мечеть Мухтарова, Столовую гору и исторические мосты. Набережная особенно хороша весной, когда Терек полноводен, и осенью, когда деревья вдоль реки окрашиваются в золотые тона.",
+        "en": "The Terek Embankment is one of the most picturesque spots in Vladikavkaz. The rushing mountain river with greenish water cuts through the city, and along its banks there are walking paths, benches, and viewpoints. From here you get wonderful views of Mukhtarov Mosque, Table Mountain, and historic bridges. The embankment is especially beautiful in spring when the Terek is full and in autumn when the trees along the river turn golden."
+      },
+      "full": {
+        "ru": "Набережная Терека -- место, которое определяет характер Владикавказа. Терек -- не просто река, а настоящий горный поток, стремительно несущий свои воды через центр города. Шум воды слышен за несколько кварталов, а бирюзово-зелёный цвет течения завораживает. Набережная протянулась вдоль обоих берегов реки и является излюбленным местом прогулок горожан.\n\nВдоль набережной расположены ключевые достопримечательности: мечеть Мухтарова с её стройными минаретами, мост Кладки, Армянская церковь, а также множество кафе и ресторанов с террасами, выходящими на реку. В ясную погоду с набережной видна Столовая гора -- плоскогорье, возвышающееся над городом и ставшее его природным символом.\n\nПрогулка по набережной Терека -- обязательный пункт любого визита во Владикавказ. Рекомендуется пройти полный маршрут от Чугунного моста до моста Кладки, чтобы увидеть реку с разных ракурсов. Особенно красиво здесь на закате, когда горы окрашиваются в розовые тона, а огни города отражаются в быстрых водах Терека.",
+        "en": "The Terek Embankment is the feature that defines the character of Vladikavkaz. The Terek is not merely a river but a true mountain torrent, swiftly carrying its waters through the city center. The sound of the water can be heard several blocks away, and the turquoise-green color of the current is mesmerizing. The embankment stretches along both banks and is a favorite walking spot for residents.\n\nKey landmarks line the embankment: Mukhtarov Mosque with its slender minarets, Kladki Bridge, the Armenian Church, and numerous cafes and restaurants with terraces overlooking the river. On clear days Table Mountain is visible from the embankment -- a plateau rising above the city that has become its natural symbol.\n\nA walk along the Terek Embankment is a must for any visit to Vladikavkaz. It is recommended to walk the full route from the Cast Iron Bridge to Kladki Bridge to see the river from different angles. It is especially beautiful at sunset when the mountains turn pink and the city lights reflect in the swift waters of the Terek."
+      }
+    },
+    "photos": ["images/poi/naberezhnaya-tereka-1.webp", "images/poi/naberezhnaya-tereka-2.webp"],
+    "rating": 4.7,
+    "reviewCount": 378,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["набережная", "прогулка", "фотогеничная", "река", "природа"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 61000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-006",
+    "slug": "park-khetagurova",
+    "name": { "ru": "Парк им. К.Л. Хетагурова", "en": "Khetagurov Park" },
+    "category": "attractions",
+    "subcategory": "Парк",
+    "location": {
+      "lat": 43.0401,
+      "lng": 44.6729,
+      "address": { "ru": "пр. Коста, Владикавказ", "en": "Kosta Ave, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Старейший парк Владикавказа с вековыми деревьями, фонтанами и видом на Столовую гору.",
+        "en": "The oldest park in Vladikavkaz with century-old trees, fountains, and views of Table Mountain."
+      },
+      "medium": {
+        "ru": "Парк имени Коста Хетагурова -- старейший и самый любимый парк Владикавказа, основанный в середине XIX века. Расположен на берегу Терека и занимает территорию с вековыми липами, платанами и каштанами. В парке есть фонтаны, аллеи для прогулок, детские площадки и летние кафе. Отсюда открывается один из лучших видов на Столовую гору. Это идеальное место для отдыха от городской суеты.",
+        "en": "Kosta Khetagurov Park is the oldest and most beloved park in Vladikavkaz, founded in the mid-19th century. Located on the bank of the Terek, it occupies grounds with century-old lindens, plane trees, and chestnuts. The park features fountains, walking alleys, playgrounds, and summer cafes. It offers one of the best views of Table Mountain. It is the ideal place for a break from the bustle of the city."
+      },
+      "full": {
+        "ru": "Парк имени Коста Хетагурова -- зелёное сердце Владикавказа. Основанный в 1840-х годах как городской общественный сад, он является одним из старейших парков на Северном Кавказе. Парк расположен на правом берегу Терека и занимает значительную территорию, засаженную вековыми деревьями: липами, платанами, каштанами, дубами. Под их кронами даже в жаркий летний день царит приятная прохлада.\n\nВ парке обустроены широкие аллеи, фонтаны, цветочные клумбы и удобные скамейки. Для детей работают игровые площадки и аттракционы, для взрослых -- летние кафе и площадки для настольных игр. Главная достопримечательность парка -- вид на Столовую гору, который открывается с центральной аллеи. В хорошую погоду плоская вершина горы видна как на ладони.\n\nПарк назван в честь Коста Хетагурова, который любил гулять здесь и посвятил этому месту несколько стихотворений. Сегодня парк остаётся главной зоной отдыха горожан: здесь бегают по утрам, гуляют с детьми днём и наслаждаются вечерней прохладой. Для туриста это отличное место, чтобы сделать паузу между осмотром достопримечательностей и прочувствовать ритм жизни Владикавказа.",
+        "en": "Kosta Khetagurov Park is the green heart of Vladikavkaz. Founded in the 1840s as a public city garden, it is one of the oldest parks in the North Caucasus. The park sits on the right bank of the Terek and covers a substantial area planted with century-old trees: lindens, plane trees, chestnuts, and oaks. Beneath their canopy even on a hot summer day there is pleasant coolness.\n\nThe park features wide alleys, fountains, flower beds, and comfortable benches. For children there are playgrounds and amusement rides; for adults there are summer cafes and areas for board games. The park's main attraction is the view of Table Mountain that opens from the central alley. In good weather the flat summit is visible as if on the palm of your hand.\n\nThe park is named after Kosta Khetagurov, who loved to walk here and dedicated several poems to this place. Today the park remains the main recreation zone for residents: morning joggers, families with children by day, and those enjoying the evening coolness. For the tourist it is an excellent place to pause between sightseeing and feel the rhythm of life in Vladikavkaz."
+      }
+    },
+    "photos": ["images/poi/park-khetagurova-1.webp", "images/poi/park-khetagurova-2.webp"],
+    "rating": 4.6,
+    "reviewCount": 290,
+    "hours": { "mon": "06:00-23:00", "tue": "06:00-23:00", "wed": "06:00-23:00", "thu": "06:00-23:00", "fri": "06:00-23:00", "sat": "06:00-23:00", "sun": "06:00-23:00" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["парк", "природа", "отдых", "семейный", "виды"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 55000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-007",
+    "slug": "stolovaya-gora",
+    "name": { "ru": "Столовая гора", "en": "Table Mountain" },
+    "category": "attractions",
+    "subcategory": "Гора",
+    "location": {
+      "lat": 42.9597,
+      "lng": 44.7070,
+      "address": { "ru": "Столовая гора, юг Владикавказа", "en": "Table Mountain, south of Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Плоская вершина-столешница высотой 3003 м -- природный символ Владикавказа, видимый из любой точки города.",
+        "en": "A flat table-top summit at 3003 m -- the natural symbol of Vladikavkaz, visible from anywhere in the city."
+      },
+      "medium": {
+        "ru": "Столовая гора (осет. Мады-хох) -- природный символ Владикавказа и одна из самых узнаваемых вершин Северного Кавказа. Её плоская вершина на высоте 3003 м напоминает стол, откуда и название. Гора изображена на гербе города и является его визитной карточкой. На вершину ведут пешие маршруты разной сложности, с которых открываются панорамные виды на весь Владикавказ и Кавказский хребет. У подножия расположены древние святилища.",
+        "en": "Table Mountain (Ossetian: Mady-Khokh) is the natural symbol of Vladikavkaz and one of the most recognizable peaks in the North Caucasus. Its flat summit at 3003 m resembles a table, hence the name. The mountain is depicted on the city's coat of arms and is its calling card. Hiking routes of varying difficulty lead to the summit, offering panoramic views of all of Vladikavkaz and the Caucasus Range. Ancient sanctuaries are located at the base."
+      },
+      "full": {
+        "ru": "Столовая гора -- природный символ Владикавказа, без которого невозможно представить панораму города. Эта величественная вершина с характерной плоской верхушкой возвышается к югу от города на высоту 3003 метров и видна практически из любой точки Владикавказа. По-осетински она называется Мады-хох -- «материнская гора», что говорит о её сакральном значении для осетинского народа.\n\nНа Столовой горе и у её подножия расположены древние осетинские святилища, куда до сих пор приходят с подношениями. Гора изображена на гербе Владикавказа и является одним из его главных открыточных видов. Восхождение на вершину доступно подготовленным туристам и занимает полный день. Маршрут проходит через альпийские луга, горные ручьи и каменистые осыпи. С вершины открывается потрясающая панорама: весь Владикавказ как на ладони, а на юге -- снежные вершины Главного Кавказского хребта.\n\nДаже если вы не планируете восхождение, Столовая гора будет сопровождать вас на протяжении всего визита. Она меняет облик в течение дня: утром окутана дымкой, днём чётко вырисовывается на голубом небе, а на закате окрашивается в розово-золотые тона. Лучшие точки для фотографии -- набережная Терека, парк Хетагурова и проспект Мира.",
+        "en": "Table Mountain is the natural symbol of Vladikavkaz, without which the city's panorama is unimaginable. This majestic peak with its characteristic flat top rises south of the city to a height of 3003 meters and is visible from virtually anywhere in Vladikavkaz. In Ossetian it is called Mady-Khokh -- 'Mother Mountain,' reflecting its sacred significance for the Ossetian people.\n\nAncient Ossetian sanctuaries are located on and at the base of Table Mountain, still visited with offerings. The mountain is depicted on the coat of arms of Vladikavkaz and is one of its most iconic views. Climbing to the summit is accessible to fit hikers and takes a full day. The route passes through alpine meadows, mountain streams, and rocky scree. From the top there is a stunning panorama: all of Vladikavkaz is laid out below, and to the south rise the snowy peaks of the Greater Caucasus Range.\n\nEven if you do not plan to hike, Table Mountain will accompany you throughout your visit. It changes its appearance during the day: wreathed in haze in the morning, sharply outlined against the blue sky at noon, and painted in pink and gold tones at sunset. The best spots for photography are the Terek Embankment, Khetagurov Park, and Mira Avenue."
+      }
+    },
+    "photos": ["images/poi/stolovaya-gora-1.webp", "images/poi/stolovaya-gora-2.webp"],
+    "rating": 4.9,
+    "reviewCount": 512,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["гора", "природа", "хайкинг", "панорама", "символ города"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 38000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-008",
+    "slug": "pamyatnik-isse-plievu",
+    "name": { "ru": "Памятник Иссе Плиеву", "en": "Issa Pliev Monument" },
+    "category": "attractions",
+    "subcategory": "Памятник",
+    "location": {
+      "lat": 43.0245,
+      "lng": 44.6817,
+      "address": { "ru": "пл. Плиева, Владикавказ", "en": "Pliev Square, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Монументальная конная статуя дважды Героя Советского Союза генерала Иссы Плиева.",
+        "en": "A monumental equestrian statue of twice Hero of the Soviet Union General Issa Pliev."
+      },
+      "medium": {
+        "ru": "Памятник генералу армии Иссе Александровичу Плиеву -- один из самых выразительных монументов Владикавказа. Конная статуя дважды Героя Советского Союза установлена на площади его имени при въезде в город. Бронзовый всадник на вздыбленном коне символизирует стремительность кавалерийских атак, которыми прославился Плиев в годы Великой Отечественной войны. Памятник является местом воинской памяти и гордости города.",
+        "en": "The monument to Army General Issa Alexandrovich Pliev is one of the most expressive monuments in Vladikavkaz. The equestrian statue of the twice Hero of the Soviet Union stands on the square bearing his name at the entrance to the city. The bronze rider on a rearing horse symbolizes the swiftness of the cavalry charges for which Pliev became famous during World War II. The monument is a place of military memory and civic pride."
+      },
+      "full": {
+        "ru": "Памятник Иссе Плиеву встречает гостей Владикавказа при въезде в город с южного направления. Монументальная конная статуя установлена на высоком постаменте на площади Плиева и является одной из визитных карточек города. Исса Александрович Плиев (1903--1979) -- выдающийся советский военачальник, дважды Герой Советского Союза, генерал армии, уроженец Осетии.\n\nПлиев прославился как командир кавалерийских и механизированных соединений в годы Великой Отечественной войны. Его рейды по тылам противника стали легендой, а стремительные кавалерийские атаки наводили ужас на врага. После войны он командовал Группой советских войск во время Карибского кризиса 1962 года. Памятник запечатлел генерала в момент атаки -- на вздыбленном коне, с поднятой рукой, -- передавая энергию и решительность полководца.\n\nПамятник был установлен в 1997 году и стал символом воинской славы Осетии. Это обязательное место посещения для тех, кто интересуется военной историей. Площадь вокруг монумента благоустроена, и особенно впечатляюще статуя смотрится на фоне гор в ясную погоду.",
+        "en": "The Issa Pliev Monument greets visitors to Vladikavkaz at the southern entrance to the city. The monumental equestrian statue stands on a tall pedestal in Pliev Square and is one of the city's calling cards. Issa Alexandrovich Pliev (1903--1979) was an outstanding Soviet military commander, twice Hero of the Soviet Union, Army General, and a native of Ossetia.\n\nPliev became famous as commander of cavalry and mechanized units during World War II. His raids behind enemy lines became legendary, and his swift cavalry charges struck terror into the enemy. After the war he commanded the Soviet forces during the Cuban Missile Crisis of 1962. The monument captures the general at the moment of attack -- on a rearing horse, with a raised hand -- conveying the energy and decisiveness of the commander.\n\nThe monument was erected in 1997 and has become a symbol of Ossetia's military glory. It is a must-visit for those interested in military history. The square around the monument is well-maintained, and the statue looks especially impressive against the backdrop of mountains on a clear day."
+      }
+    },
+    "photos": ["images/poi/pamyatnik-plievu-1.webp", "images/poi/pamyatnik-plievu-2.webp"],
+    "rating": 4.6,
+    "reviewCount": 187,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["памятник", "военная история", "скульптура", "площадь"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 22000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-009",
+    "slug": "armyanskaya-tserkov",
+    "name": { "ru": "Армянская церковь Святого Григория Просветителя", "en": "Armenian Church of St. Gregory the Illuminator" },
+    "category": "attractions",
+    "subcategory": "Религиозное сооружение",
+    "location": {
+      "lat": 43.0338,
+      "lng": 44.6695,
+      "address": { "ru": "ул. Армянская, 1, Владикавказ", "en": "1 Armyanskaya St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Историческая армянская церковь XIX века на берегу Терека -- памятник армянской общине города.",
+        "en": "A historic 19th-century Armenian church on the bank of the Terek -- a monument to the city's Armenian community."
+      },
+      "medium": {
+        "ru": "Армянская церковь Святого Григория Просветителя -- одно из старейших культовых сооружений Владикавказа, построенное в 1868 году. Храм расположен на живописном берегу Терека и выполнен из тёсаного камня в традиционном армянском стиле. Церковь напоминает о значительной роли армянской общины в истории города. Рядом сохранились старинные армянские дома, создающие особую атмосферу исторического квартала.",
+        "en": "The Armenian Church of St. Gregory the Illuminator is one of the oldest religious buildings in Vladikavkaz, built in 1868. The church stands on the picturesque bank of the Terek and is built of dressed stone in the traditional Armenian style. It serves as a reminder of the significant role the Armenian community played in the city's history. Nearby, old Armenian houses have been preserved, creating the special atmosphere of a historic quarter."
+      },
+      "full": {
+        "ru": "Армянская церковь Святого Григория Просветителя -- один из ценнейших памятников архитектуры Владикавказа. Построенная в 1868 году, она является свидетельством многонационального характера города, в котором мирно сосуществовали осетины, русские, армяне, грузины, греки и представители других народов. Армянская община играла заметную роль в торговой и культурной жизни Владикавказа с момента его основания.\n\nЦерковь построена из тёсаного камня и выдержана в классических традициях армянской храмовой архитектуры: строгие пропорции, остроконечный купол, резные каменные орнаменты. Храм расположен на берегу Терека, и его силуэт прекрасно вписывается в панораму набережной. Внутри сохранились оригинальные элементы декора, включая каменную резьбу и старинные иконы.\n\nВокруг церкви расположен один из самых атмосферных кварталов Владикавказа -- бывший армянский район, где сохранились характерные дома с балконами и внутренними двориками. Прогулка по этим улочкам переносит в атмосферу кавказского города конца XIX века. Церковь действующая, и посетить её можно свободно.",
+        "en": "The Armenian Church of St. Gregory the Illuminator is one of the most valuable architectural monuments in Vladikavkaz. Built in 1868, it testifies to the multi-ethnic character of a city where Ossetians, Russians, Armenians, Georgians, Greeks, and other peoples coexisted peacefully. The Armenian community played a notable role in the commercial and cultural life of Vladikavkaz from its founding.\n\nThe church is built of dressed stone in the classic traditions of Armenian temple architecture: austere proportions, a pointed dome, and carved stone ornaments. The church stands on the bank of the Terek, and its silhouette fits beautifully into the embankment panorama. Inside, original decorative elements have been preserved, including stone carvings and antique icons.\n\nAround the church lies one of Vladikavkaz's most atmospheric quarters -- the former Armenian district, where characteristic houses with balconies and inner courtyards survive. A walk through these streets transports you to the atmosphere of a Caucasian city in the late 19th century. The church is active, and visitors are welcome."
+      }
+    },
+    "photos": ["images/poi/armyanskaya-tserkov-1.webp", "images/poi/armyanskaya-tserkov-2.webp"],
+    "rating": 4.5,
+    "reviewCount": 134,
+    "hours": { "mon": "09:00-18:00", "tue": "09:00-18:00", "wed": "09:00-18:00", "thu": "09:00-18:00", "fri": "09:00-18:00", "sat": "09:00-18:00", "sun": "09:00-18:00" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["церковь", "армянская", "архитектура", "история", "набережная"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 12000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-010",
+    "slug": "vladikavkazskaya-krepost",
+    "name": { "ru": "Владикавказская крепость", "en": "Vladikavkaz Fortress" },
+    "category": "attractions",
+    "subcategory": "Историческое место",
+    "location": {
+      "lat": 43.0330,
+      "lng": 44.6750,
+      "address": { "ru": "ул. Тамаева, район крепости, Владикавказ", "en": "Tamaeva St, fortress area, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Место основания Владикавказа -- остатки крепости 1784 года, с которой началась история города.",
+        "en": "The founding site of Vladikavkaz -- remnants of the 1784 fortress where the city's history began."
+      },
+      "medium": {
+        "ru": "Владикавказская крепость -- место, откуда начался город. Крепость была заложена в 1784 году по указу Екатерины II для охраны входа в Дарьяльское ущелье и Военно-Грузинскую дорогу. Название «Владикавказ» буквально означает «владей Кавказом». До наших дней сохранились фрагменты крепостных стен и ворот. Территория благоустроена, установлены информационные стенды, рассказывающие историю основания города.",
+        "en": "Vladikavkaz Fortress is the place where the city began. The fortress was founded in 1784 by decree of Catherine the Great to guard the entrance to the Daryal Gorge and the Georgian Military Highway. The name 'Vladikavkaz' literally means 'rule the Caucasus.' Fragments of fortress walls and gates survive to this day. The area has been landscaped with informational displays telling the story of the city's founding."
+      },
+      "full": {
+        "ru": "Владикавказская крепость -- колыбель города, место, где в 1784 году по приказу императрицы Екатерины II было основано укрепление, давшее начало современному Владикавказу. Крепость была заложена у входа в Дарьяльское ущелье, на стратегически важном рубеже Военно-Грузинской дороги -- главного пути, связывавшего Россию с Закавказьем. Само название города -- «Владикавказ» -- отражало амбициозную цель: «владеть Кавказом».\n\nКрепость неоднократно перестраивалась и укреплялась на протяжении XIX века. Вокруг неё постепенно рос город, ставший важным административным, торговым и культурным центром Северного Кавказа. До наших дней сохранились отдельные фрагменты крепостных стен и ворот, а также остатки оборонительных сооружений. Территория бывшей крепости благоустроена и является историко-мемориальным комплексом.\n\nПосещение крепости позволяет окунуться в самые истоки истории Владикавказа. Информационные стенды рассказывают о строительстве укрепления, первых гарнизонах и становлении города. Рядом расположен старый центр с сохранившейся застройкой XIX века, что даёт возможность совместить осмотр крепости с прогулкой по историческим кварталам.",
+        "en": "Vladikavkaz Fortress is the cradle of the city, the place where in 1784 by order of Empress Catherine the Great a fortification was established that gave rise to modern Vladikavkaz. The fortress was built at the entrance to the Daryal Gorge, at a strategically vital point on the Georgian Military Highway -- the main route connecting Russia with Transcaucasia. The very name of the city -- 'Vladikavkaz' -- reflected the ambitious goal: 'to rule the Caucasus.'\n\nThe fortress was rebuilt and reinforced repeatedly throughout the 19th century. Around it a city gradually grew, becoming an important administrative, commercial, and cultural center of the North Caucasus. Today, individual fragments of fortress walls and gates survive, as well as remains of defensive structures. The former fortress grounds have been landscaped into a historical memorial complex.\n\nVisiting the fortress allows you to immerse yourself in the very origins of Vladikavkaz's history. Information boards tell the story of the fortification's construction, its first garrisons, and the city's development. Nearby lies the old center with preserved 19th-century buildings, making it possible to combine a visit to the fortress with a stroll through the historic quarters."
+      }
+    },
+    "photos": ["images/poi/vladikavkazskaya-krepost-1.webp", "images/poi/vladikavkazskaya-krepost-2.webp"],
+    "rating": 4.3,
+    "reviewCount": 156,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["крепость", "история", "основание города", "памятник"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 15000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-011",
+    "slug": "fontan-ploshchad-svobody",
+    "name": { "ru": "Фонтан на площади Свободы", "en": "Freedom Square Fountain" },
+    "category": "attractions",
+    "subcategory": "Фонтан",
+    "location": {
+      "lat": 43.0355,
+      "lng": 44.6645,
+      "address": { "ru": "пл. Свободы, Владикавказ", "en": "Freedom Square, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Центральный фонтан на главной площади города -- популярное место встреч и прогулок.",
+        "en": "The central fountain on the city's main square -- a popular meeting and walking spot."
+      },
+      "medium": {
+        "ru": "Фонтан на площади Свободы -- одно из самых оживлённых мест Владикавказа. Площадь Свободы -- главная площадь города, где расположены здания правительства Северной Осетии и Русский академический театр. Фонтан с подсветкой в центре площади становится особенно красивым в вечернее время. Летом это любимое место горожан для вечерних прогулок, а зимой площадь украшается новогодней ёлкой и праздничными огнями.",
+        "en": "The fountain on Freedom Square is one of the liveliest spots in Vladikavkaz. Freedom Square is the city's main square, home to the North Ossetia government buildings and the Russian Academic Theatre. The illuminated fountain in the center of the square becomes especially beautiful in the evening. In summer it is a favorite place for evening walks, while in winter the square is decorated with a New Year tree and festive lights."
+      },
+      "full": {
+        "ru": "Площадь Свободы -- главная площадь Владикавказа, его политический и общественный центр. На площади расположены здания Правительства и Парламента Республики Северная Осетия -- Алания, а также Русский академический театр имени Вахтангова. В центре площади установлен большой фонтан, ставший одним из любимых мест горожан.\n\nФонтан оборудован современной системой подсветки, которая особенно эффектно выглядит в вечернее и ночное время. Струи воды меняют высоту и направление, создавая динамичное водное шоу. Вокруг фонтана расставлены скамейки, а широкая площадь позволяет комфортно гулять даже в часы пик. Летом здесь проходят городские праздники, концерты и ярмарки.\n\nПлощадь Свободы -- отличная отправная точка для пешей прогулки по Владикавказу. Отсюда начинается проспект Мира, ведущий через весь исторический центр. После осмотра площади можно перейти к набережной Терека или парку Хетагурова, расположенным в нескольких минутах ходьбы.",
+        "en": "Freedom Square is the main square of Vladikavkaz, its political and public center. The buildings of the Government and Parliament of the Republic of North Ossetia-Alania stand on the square, as well as the Vakhtangov Russian Academic Theatre. A large fountain in the center of the square has become one of the favorite spots for city residents.\n\nThe fountain is equipped with a modern lighting system that looks especially spectacular in the evening and at night. Water jets change height and direction, creating a dynamic water show. Benches surround the fountain, and the wide square allows comfortable walking even during peak hours. In summer the square hosts city celebrations, concerts, and fairs.\n\nFreedom Square is an excellent starting point for a walking tour of Vladikavkaz. Mira Avenue begins here, leading through the entire historic center. After exploring the square you can proceed to the Terek Embankment or Khetagurov Park, both a few minutes' walk away."
+      }
+    },
+    "photos": ["images/poi/fontan-ploshchad-svobody-1.webp", "images/poi/fontan-ploshchad-svobody-2.webp"],
+    "rating": 4.4,
+    "reviewCount": 203,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["фонтан", "площадь", "центр", "прогулка", "вечерний"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 40000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-012",
+    "slug": "most-kladki",
+    "name": { "ru": "Мост Кладки", "en": "Kladki Bridge" },
+    "category": "attractions",
+    "subcategory": "Мост",
+    "location": {
+      "lat": 43.0340,
+      "lng": 44.6720,
+      "address": { "ru": "мост Кладки, набережная Терека, Владикавказ", "en": "Kladki Bridge, Terek Embankment, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Пешеходный мост через Терек с лучшим видом на мечеть Мухтарова и Столовую гору.",
+        "en": "A pedestrian bridge across the Terek with the best view of Mukhtarov Mosque and Table Mountain."
+      },
+      "medium": {
+        "ru": "Мост Кладки -- один из старейших и самых романтичных мостов Владикавказа. Этот небольшой пешеходный мост перекинут через бурный Терек и соединяет два берега в историческом центре города. С моста открывается, пожалуй, лучший вид на мечеть Мухтарова -- именно отсюда сделаны самые знаменитые фотографии города. Мост украшен коваными перилами, а по вечерам красиво подсвечивается.",
+        "en": "Kladki Bridge is one of the oldest and most romantic bridges in Vladikavkaz. This small pedestrian bridge spans the rushing Terek and connects the two banks in the historic center. From the bridge you get arguably the best view of Mukhtarov Mosque -- this is where the most famous photographs of the city are taken. The bridge has wrought-iron railings and is beautifully illuminated in the evenings."
+      },
+      "full": {
+        "ru": "Мост Кладки -- одна из самых фотогеничных точек Владикавказа и обязательное место посещения для каждого гостя города. Этот небольшой пешеходный мост перекинут через Терек в самом центре города, рядом с мечетью Мухтарова. История моста уходит корнями в XIX век, когда на этом месте существовала простая деревянная переправа -- «кладки», от которых и произошло название.\n\nСовременный мост сохраняет камерный пешеходный характер. Он украшен изящными коваными перилами и фонарями. Главная ценность моста -- виды, которые с него открываются. Вид на мечеть Мухтарова с моста Кладки стал визитной карточкой Владикавказа и растиражирован на открытках, путеводителях и в социальных сетях. В другую сторону открывается панорама Столовой горы.\n\nМост Кладки -- идеальное место для фотосессии в любое время суток. Утром, когда солнце освещает минареты мечети, мост окутан мягким золотистым светом. Вечером включается подсветка, и вид становится по-настоящему сказочным. Многие пары выбирают это место для романтических прогулок.",
+        "en": "Kladki Bridge is one of the most photogenic spots in Vladikavkaz and a must-visit for every guest of the city. This small pedestrian bridge spans the Terek in the very center, next to Mukhtarov Mosque. The bridge's history goes back to the 19th century, when a simple wooden crossing -- 'kladki' -- stood at this spot, giving the bridge its name.\n\nThe modern bridge retains its intimate pedestrian character. It is adorned with elegant wrought-iron railings and lanterns. The bridge's main value lies in its views. The view of Mukhtarov Mosque from Kladki Bridge has become the calling card of Vladikavkaz, reproduced on postcards, guidebooks, and social media. In the other direction a panorama of Table Mountain unfolds.\n\nKladki Bridge is the ideal spot for photography at any time of day. In the morning, when the sun illuminates the minarets of the mosque, the bridge is bathed in soft golden light. In the evening the illumination turns on and the view becomes truly magical. Many couples choose this place for romantic walks."
+      }
+    },
+    "photos": ["images/poi/most-kladki-1.webp", "images/poi/most-kladki-2.webp"],
+    "rating": 4.8,
+    "reviewCount": 425,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["мост", "фотогеничная", "романтика", "виды", "набережная"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 48000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-013",
+    "slug": "starye-kvartaly",
+    "name": { "ru": "Старые кварталы Владикавказа", "en": "Old Quarters of Vladikavkaz" },
+    "category": "attractions",
+    "subcategory": "Исторический район",
+    "location": {
+      "lat": 43.0335,
+      "lng": 44.6688,
+      "address": { "ru": "ул. Горького / ул. Церетели, Владикавказ", "en": "Gorkogo / Tsereteli St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Исторические кварталы с купеческими домами, балконами и двориками XIX -- начала XX века.",
+        "en": "Historic quarters with merchant houses, balconies, and courtyards from the 19th to early 20th century."
+      },
+      "medium": {
+        "ru": "Старые кварталы Владикавказа -- это переплетение узких улочек с купеческими и доходными домами XIX -- начала XX века. Здесь сохранилась подлинная атмосфера кавказского города: дома с деревянными и кованными балконами, уютные внутренние дворики, лепнина на фасадах. В этих кварталах жили осетины, русские, армяне, грузины и греки, оставившие свой след в архитектуре. Прогулка по старым улицам -- это путешествие в прошлое Владикавказа.",
+        "en": "The old quarters of Vladikavkaz are a maze of narrow streets with merchant and apartment buildings from the 19th to early 20th century. Here the authentic atmosphere of a Caucasian city is preserved: houses with wooden and wrought-iron balconies, cozy inner courtyards, and stucco facades. Ossetians, Russians, Armenians, Georgians, and Greeks lived in these quarters, each leaving their mark on the architecture. A walk through the old streets is a journey into Vladikavkaz's past."
+      },
+      "full": {
+        "ru": "Старые кварталы Владикавказа -- настоящая машина времени, переносящая в эпоху расцвета кавказского города конца XIX -- начала XX века. Район между проспектом Мира, набережной Терека и улицей Горького сохранил значительную часть исторической застройки: купеческие особняки, доходные дома, торговые лавки и мастерские.\n\nАрхитектура кварталов отражает многонациональный характер Владикавказа. Здесь можно увидеть дома в русском классическом стиле, армянские дома с характерными резными балконами, грузинские дворики с галереями и осетинские постройки. Многие здания украшены лепниной, коваными решётками и деревянной резьбой. Внутренние дворики, типичные для кавказских городов, создают ощущение уюта и камерности.\n\nПрогулка по старым кварталам -- это возможность увидеть Владикавказ без туристического глянца, почувствовать его подлинный характер. Здесь мало вывесок и указателей, зато много тишины, котов на подоконниках и старых деревьев во дворах. Рекомендуется не спешить и заглядывать в открытые ворота дворов -- каждый из них хранит свою маленькую историю.",
+        "en": "The old quarters of Vladikavkaz are a true time machine, transporting you to the heyday of the Caucasian city in the late 19th and early 20th centuries. The area between Mira Avenue, the Terek Embankment, and Gorkogo Street has preserved a significant portion of its historic buildings: merchant mansions, apartment blocks, trading shops, and workshops.\n\nThe architecture reflects the multi-ethnic character of Vladikavkaz. Here you can see houses in the Russian classical style, Armenian homes with characteristic carved balconies, Georgian courtyards with galleries, and Ossetian structures. Many buildings are adorned with stucco, wrought-iron grilles, and wood carvings. The inner courtyards typical of Caucasian cities create a feeling of coziness and intimacy.\n\nA stroll through the old quarters is a chance to see Vladikavkaz without the tourist gloss, to feel its authentic character. There are few signs and arrows here, but plenty of quietness, cats on windowsills, and old trees in the courtyards. It is recommended to take your time and peek through open courtyard gates -- each one holds its own small story."
+      }
+    },
+    "photos": ["images/poi/starye-kvartaly-1.webp", "images/poi/starye-kvartaly-2.webp"],
+    "rating": 4.5,
+    "reviewCount": 167,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["исторический район", "архитектура", "прогулка", "атмосферное"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 18000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-014",
+    "slug": "alleya-slavy",
+    "name": { "ru": "Аллея Славы", "en": "Alley of Glory" },
+    "category": "attractions",
+    "subcategory": "Мемориал",
+    "location": {
+      "lat": 43.0295,
+      "lng": 44.6630,
+      "address": { "ru": "Аллея Славы, Владикавказ", "en": "Alley of Glory, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Мемориальный комплекс с Вечным огнём, посвящённый героям Великой Отечественной войны.",
+        "en": "A memorial complex with an Eternal Flame dedicated to the heroes of World War II."
+      },
+      "medium": {
+        "ru": "Аллея Славы -- мемориальный комплекс, посвящённый памяти жителей Северной Осетии, погибших в Великой Отечественной войне. Вдоль аллеи установлены бюсты Героев Советского Союза, уроженцев Осетии. В центре комплекса горит Вечный огонь. Осетия дала стране непропорционально большое число героев относительно численности населения, и этот мемориал -- дань памяти их подвигу. Место тихое, торжественное и располагающее к размышлениям.",
+        "en": "The Alley of Glory is a memorial complex dedicated to the residents of North Ossetia who died in World War II. Busts of Heroes of the Soviet Union from Ossetia line the alley. An Eternal Flame burns at the center of the complex. Ossetia gave the country a disproportionately large number of heroes relative to its population, and this memorial is a tribute to their sacrifice. The place is quiet, solemn, and conducive to reflection."
+      },
+      "full": {
+        "ru": "Аллея Славы -- один из самых важных мемориальных комплексов Владикавказа и всей Северной Осетии. Она посвящена памяти уроженцев республики, павших в годы Великой Отечественной войны. Осетия понесла огромные потери: из 90-тысячного населения республики на фронт ушли более 89 тысяч человек, и каждый второй не вернулся. При этом Осетия дала стране 34 Героя Советского Союза -- один из самых высоких показателей на душу населения среди всех регионов СССР.\n\nВдоль аллеи установлены бронзовые бюсты Героев Советского Союза -- уроженцев Осетии. Среди них -- генерал Исса Плиев, лётчик-ас Ибрагим Дзусов, защитник Брестской крепости Барбашов и многие другие. В центре комплекса горит Вечный огонь, к которому возлагают цветы в дни памятных дат. Мемориал окружён ухоженным парком с тенистыми аллеями.\n\nПосещение Аллеи Славы -- это возможность прикоснуться к героической истории осетинского народа и понять, какое значение память о войне имеет для местных жителей. 9 мая здесь проходят масштабные мероприятия, но и в обычные дни мемориал не пустует -- горожане приходят сюда, чтобы отдать дань уважения героям.",
+        "en": "The Alley of Glory is one of the most important memorial complexes in Vladikavkaz and all of North Ossetia. It is dedicated to the memory of the republic's residents who fell during World War II. Ossetia suffered enormous losses: from a population of 90,000, more than 89,000 went to the front, and every other one did not return. At the same time Ossetia gave the country 34 Heroes of the Soviet Union -- one of the highest per-capita rates among all regions of the USSR.\n\nBronze busts of Heroes of the Soviet Union from Ossetia line the alley. Among them are General Issa Pliev, ace pilot Ibragim Dzusov, defender of the Brest Fortress Barbashov, and many others. An Eternal Flame burns at the center of the complex, and flowers are laid on memorial dates. The memorial is surrounded by a well-kept park with shady alleys.\n\nVisiting the Alley of Glory is an opportunity to touch the heroic history of the Ossetian people and understand the significance that the memory of the war holds for local residents. On May 9th large-scale events take place here, but even on ordinary days the memorial is not empty -- residents come to pay their respects to the heroes."
+      }
+    },
+    "photos": ["images/poi/alleya-slavy-1.webp", "images/poi/alleya-slavy-2.webp"],
+    "rating": 4.7,
+    "reviewCount": 198,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["мемориал", "военная история", "Вечный огонь", "память"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 25000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-015",
+    "slug": "dzaudzhikau-krepost",
+    "name": { "ru": "Дзауджикау (историческое поселение)", "en": "Dzaudzhikau (Historic Settlement)" },
+    "category": "attractions",
+    "subcategory": "Историческое место",
+    "location": {
+      "lat": 43.0380,
+      "lng": 44.6760,
+      "address": { "ru": "район Дзауджикау, Владикавказ", "en": "Dzaudzhikau area, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Место древнего осетинского поселения Дзауджикау, давшего городу его осетинское имя.",
+        "en": "The site of the ancient Ossetian settlement of Dzaudzhikau, which gave the city its Ossetian name."
+      },
+      "medium": {
+        "ru": "Дзауджикау -- историческое осетинское поселение, существовавшее на месте современного Владикавказа задолго до основания русской крепости. Название переводится как «поселение Дзауга» по имени легендарного основателя. Это осетинское название города используется и сегодня. Район сохранил следы древнего поселения и является важным местом для понимания истории осетинского народа и его связи с этой землёй.",
+        "en": "Dzaudzhikau is a historic Ossetian settlement that existed on the site of modern Vladikavkaz long before the founding of the Russian fortress. The name translates as 'Dzaug's settlement' after its legendary founder. This Ossetian name for the city is still used today. The area has preserved traces of the ancient settlement and is an important site for understanding the history of the Ossetian people and their connection to this land."
+      },
+      "full": {
+        "ru": "Дзауджикау -- древнее осетинское название Владикавказа, которое используется и по сей день как альтернативное наименование города на осетинском языке. Согласно преданиям, поселение было основано легендарным Дзаугом -- одним из предводителей осетинского рода, который выбрал это место у слияния рек для жизни своего народа. Задолго до прихода русских войск здесь существовало осетинское поселение.\n\nИсторический район Дзауджикау расположен в восточной части современного центра Владикавказа. Здесь археологи обнаружили следы средневекового поселения, включая остатки жилищ, керамику и предметы быта. Район интересен тем, что демонстрирует преемственность между древним осетинским поселением и современным городом.\n\nПосещение этого места позволяет понять, что Владикавказ -- это не только русская крепость XVIII века, но и древняя осетинская земля с многовековой историей. Для осетин Дзауджикау -- символ исторической связи народа с этим местом, его корней и идентичности. В районе установлены памятные знаки и информационные стенды, рассказывающие об истории поселения.",
+        "en": "Dzaudzhikau is the ancient Ossetian name for Vladikavkaz, still used today as the alternative name for the city in the Ossetian language. According to legend, the settlement was founded by the legendary Dzaug -- one of the leaders of an Ossetian clan who chose this place at the confluence of rivers for his people's home. Long before the arrival of Russian troops, an Ossetian settlement existed here.\n\nThe historic Dzaudzhikau district is located in the eastern part of modern central Vladikavkaz. Archaeologists have discovered traces of a medieval settlement here, including remains of dwellings, ceramics, and household items. The area is interesting because it demonstrates the continuity between the ancient Ossetian settlement and the modern city.\n\nVisiting this site helps one understand that Vladikavkaz is not only an 18th-century Russian fortress but also ancient Ossetian land with centuries of history. For Ossetians, Dzaudzhikau is a symbol of the people's historical connection to this place, their roots and identity. Memorial markers and information boards telling the settlement's history have been placed in the area."
+      }
+    },
+    "photos": ["images/poi/dzaudzhikau-1.webp", "images/poi/dzaudzhikau-2.webp"],
+    "rating": 4.2,
+    "reviewCount": 89,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["история", "осетинская культура", "археология", "древнее поселение"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 7500,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-016",
+    "slug": "tseyskoe-ushchelye",
+    "name": { "ru": "Цейское ущелье", "en": "Tsey Gorge" },
+    "category": "nature",
+    "subcategory": "Ущелье",
+    "location": {
+      "lat": 42.7850,
+      "lng": 43.8800,
+      "address": { "ru": "Цейское ущелье, Алагирский район, Северная Осетия", "en": "Tsey Gorge, Alagir District, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Живописное горное ущелье с ледниками, водопадами и горнолыжным курортом.",
+        "en": "A picturesque mountain gorge with glaciers, waterfalls, and a ski resort."
+      },
+      "medium": {
+        "ru": "Цейское ущелье -- одно из красивейших мест Северного Кавказа, расположенное в 80 км от Владикавказа. Ущелье окружено вершинами высотой более 4000 метров, покрытыми ледниками и вечными снегами. Здесь расположен горнолыжный курорт «Цей» с канатной дорогой, а также многочисленные пешие маршруты к ледникам, водопадам и древним святилищам. Цейское ущелье -- идеальное место для любителей горного отдыха в любое время года.",
+        "en": "Tsey Gorge is one of the most beautiful places in the North Caucasus, located 80 km from Vladikavkaz. The gorge is surrounded by peaks over 4000 meters high, covered with glaciers and eternal snows. It is home to the 'Tsey' ski resort with a cable car, as well as numerous hiking routes to glaciers, waterfalls, and ancient sanctuaries. Tsey Gorge is the ideal destination for mountain recreation lovers in any season."
+      },
+      "full": {
+        "ru": "Цейское ущелье -- жемчужина Северной Осетии и одно из самых популярных туристических направлений на Северном Кавказе. Расположенное в 80 км к юго-западу от Владикавказа в Алагирском районе, ущелье поражает масштабом горных пейзажей. Его окружают вершины Адай-хох (4408 м), Уилпата (4649 м) и другие четырёхтысячники, покрытые вечными снегами и ледниками.\n\nГлавные достопримечательности ущелья -- Цейский и Сказский ледники, спускающиеся с гор почти до дна долины. К ним ведут маркированные тропы, по которым можно добраться за несколько часов пешком. В ущелье работает горнолыжный курорт «Цей» с канатно-кресельной дорогой, поднимающей на высоту 2500 метров. Зимой здесь катаются на лыжах, а летом канатка используется для подъёма к высокогорным маршрутам.\n\nПомимо природных красот, Цейское ущелье богато культурным наследием. Здесь расположено святилище Реком -- одно из важнейших языческих святилищ осетин, внесённое в список культурного наследия. В ущелье также можно увидеть средневековые башни и остатки аланских укреплений. Дорога из Владикавказа занимает около 1,5 часов и проходит через живописные горные пейзажи вдоль реки Ардон.",
+        "en": "Tsey Gorge is the jewel of North Ossetia and one of the most popular tourist destinations in the North Caucasus. Located 80 km southwest of Vladikavkaz in the Alagir District, the gorge astonishes with the scale of its mountain landscapes. It is surrounded by the peaks of Adai-Khokh (4408 m), Uilpata (4649 m), and other four-thousanders covered in eternal snow and glaciers.\n\nThe gorge's main attractions are the Tsey and Skazsky Glaciers, which descend from the mountains nearly to the valley floor. Marked trails lead to them, reachable in several hours on foot. The 'Tsey' ski resort operates in the gorge with a chairlift ascending to 2500 meters. In winter there is skiing, and in summer the lift is used to access high-altitude hiking routes.\n\nBeyond natural beauty, Tsey Gorge is rich in cultural heritage. The Rekom Sanctuary is located here -- one of the most important pagan sanctuaries of the Ossetians, listed as a cultural heritage site. Medieval towers and remains of Alanian fortifications can also be seen in the gorge. The drive from Vladikavkaz takes about 1.5 hours and passes through picturesque mountain scenery along the Ardon River."
+      }
+    },
+    "photos": ["images/poi/tseyskoe-ushchelye-1.webp", "images/poi/tseyskoe-ushchelye-2.webp"],
+    "rating": 4.9,
+    "reviewCount": 634,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["ущелье", "горы", "ледник", "горнолыжный", "хайкинг", "природа"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 72000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-017",
+    "slug": "midagrabinskie-vodopady",
+    "name": { "ru": "Мидаграбинские водопады", "en": "Midagrabin Waterfalls" },
+    "category": "nature",
+    "subcategory": "Водопад",
+    "location": {
+      "lat": 42.7550,
+      "lng": 44.3830,
+      "address": { "ru": "Мидаграбинская долина, Северная Осетия", "en": "Midagrabin Valley, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Группа высочайших водопадов Европы в живописной горной долине близ границы с Грузией.",
+        "en": "A group of the highest waterfalls in Europe in a scenic mountain valley near the Georgian border."
+      },
+      "medium": {
+        "ru": "Мидаграбинские водопады -- одно из самых впечатляющих природных чудес Северного Кавказа. Группа водопадов расположена в верховьях реки Мидаграбиндон, в горной долине у подножия Главного Кавказского хребта. Самый высокий из них -- Большой Зейгалан -- достигает высоты около 750 метров, что делает его одним из высочайших водопадов в Европе. Водопады наиболее полноводны в июле--августе, когда активно тают ледники.",
+        "en": "The Midagrabin Waterfalls are one of the most impressive natural wonders of the North Caucasus. The group of waterfalls is located in the upper reaches of the Midagrabindon River, in a mountain valley at the foot of the Greater Caucasus Range. The tallest -- Bolshoy Zeygalan -- reaches about 750 meters, making it one of the highest waterfalls in Europe. The waterfalls are fullest in July--August when glaciers are actively melting."
+      },
+      "full": {
+        "ru": "Мидаграбинские водопады -- одно из главных природных чудес Северной Осетии и всего Кавказа. Они расположены в верховьях Мидаграбинской долины, в 70 км к югу от Владикавказа, у самой границы с Грузией. Долина окружена стенами гор высотой более 3000 метров, с которых низвергаются многочисленные водные потоки. Самый впечатляющий из них -- Большой Зейгалан (Зейгеланский водопад), падающий с высоты около 750 метров. По этому показателю он входит в число высочайших водопадов Европы.\n\nМидаграбинская долина -- это место невероятной красоты. Зелёные альпийские луга, усыпанные цветами, сменяются каменистыми осыпями у подножия водопадов. Со всех сторон ревут потоки воды, создавая постоянный гул и радужную водяную пыль. Наиболее полноводны водопады в середине лета (июль--август), когда активно тают горные ледники. Ранней весной и поздней осенью часть водопадов может пересыхать.\n\nДорога к водопадам -- приключение само по себе. От Владикавказа нужно проехать около часа по живописной горной дороге через Военно-Грузинскую дорогу, затем свернуть в Мидаграбинскую долину. Последний участок пути -- грунтовая дорога, проходимая для внедорожников. От парковки до основных водопадов -- около 3 км пешком по долине. Рекомендуется начинать поездку рано утром и взять тёплую одежду -- в горах даже летом бывает прохладно.",
+        "en": "The Midagrabin Waterfalls are one of the chief natural wonders of North Ossetia and the entire Caucasus. They are located in the upper reaches of the Midagrabin Valley, 70 km south of Vladikavkaz, right at the border with Georgia. The valley is surrounded by mountain walls over 3000 meters high, from which numerous water streams cascade down. The most impressive is Bolshoy Zeygalan (Zeygalan Waterfall), falling from a height of about 750 meters. This makes it one of the highest waterfalls in Europe.\n\nThe Midagrabin Valley is a place of incredible beauty. Green alpine meadows strewn with flowers give way to rocky scree at the base of the falls. Water roars from all sides, creating a constant hum and rainbow-colored mist. The waterfalls are fullest in mid-summer (July--August) when mountain glaciers are actively melting. In early spring and late autumn some waterfalls may dry up.\n\nThe road to the waterfalls is an adventure in itself. From Vladikavkaz you drive about an hour along the scenic mountain road through the Georgian Military Highway, then turn into the Midagrabin Valley. The last section is a dirt road passable for off-road vehicles. From the parking area to the main waterfalls it is about 3 km on foot through the valley. It is recommended to start early in the morning and bring warm clothes -- even in summer it can be cool in the mountains."
+      }
+    },
+    "photos": ["images/poi/midagrabinskie-vodopady-1.webp", "images/poi/midagrabinskie-vodopady-2.webp"],
+    "rating": 4.8,
+    "reviewCount": 412,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["водопад", "горы", "природа", "хайкинг", "рекорды"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 35000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-018",
+    "slug": "karmadonskoe-ushchelye",
+    "name": { "ru": "Кармадонское ущелье", "en": "Karmadon Gorge" },
+    "category": "nature",
+    "subcategory": "Ущелье",
+    "location": {
+      "lat": 42.8340,
+      "lng": 44.5210,
+      "address": { "ru": "Кармадонское ущелье, Северная Осетия", "en": "Karmadon Gorge, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Суровое горное ущелье, известное трагедией 2002 года и мощью кавказской природы.",
+        "en": "A dramatic mountain gorge known for the 2002 tragedy and the power of Caucasian nature."
+      },
+      "medium": {
+        "ru": "Кармадонское ущелье -- одно из самых известных и трагических мест Северной Осетии. В сентябре 2002 года сход ледника Колка вызвал мощный поток, унёсший жизни более 120 человек, в том числе съёмочной группы режиссёра Сергея Бодрова-младшего. Сегодня ущелье хранит следы катастрофы и одновременно поражает суровой красотой горных пейзажей. Это место памяти и напоминание о мощи кавказской природы.",
+        "en": "Karmadon Gorge is one of the most famous and tragic places in North Ossetia. In September 2002 the collapse of the Kolka Glacier triggered a powerful mudflow that claimed the lives of over 120 people, including the film crew of director Sergei Bodrov Jr. Today the gorge bears traces of the disaster while simultaneously stunning visitors with the harsh beauty of its mountain landscapes. It is a place of remembrance and a reminder of the power of Caucasian nature."
+      },
+      "full": {
+        "ru": "Кармадонское ущелье расположено в 40 км к югу от Владикавказа и является одним из самых известных мест Северной Осетии, хотя эта известность связана с трагическими событиями. 20 сентября 2002 года ледник Колка обрушился со склонов горы Джимара, вызвав гигантский ледово-каменный поток, который промчался по ущелью со скоростью более 100 км/ч. Катастрофа унесла жизни более 120 человек, среди которых была съёмочная группа фильма «Связной» во главе с режиссёром Сергеем Бодровым-младшим.\n\nСегодня ущелье несёт на себе следы этой трагедии. Завалы камней и льда изменили рельеф долины, а на месте гибели людей установлены мемориальные знаки. Но помимо трагической истории, Кармадонское ущелье -- это место невероятной природной красоты. Горные стены поднимаются на тысячи метров, реки прорезают глубокие каньоны, а на склонах растут реликтовые леса.\n\nПосещение Кармадонского ущелья оставляет сложные впечатления: восхищение природой переплетается с чувством скорби и уважения к памяти погибших. Дорога из Владикавказа занимает около часа. Рекомендуется посещать ущелье с местным гидом, который расскажет как о природных особенностях, так и об истории трагедии.",
+        "en": "Karmadon Gorge lies 40 km south of Vladikavkaz and is one of the most famous places in North Ossetia, though this fame is linked to tragic events. On September 20, 2002, the Kolka Glacier collapsed from the slopes of Mount Dzhimara, triggering a gigantic ice-rock flow that raced through the gorge at over 100 km/h. The disaster claimed the lives of over 120 people, including the film crew of 'The Messenger' led by director Sergei Bodrov Jr.\n\nToday the gorge bears the traces of this tragedy. Rock and ice debris have altered the valley's terrain, and memorial markers stand at the site where people perished. But beyond its tragic history, Karmadon Gorge is a place of incredible natural beauty. Mountain walls rise thousands of meters, rivers cut deep canyons, and relict forests grow on the slopes.\n\nVisiting Karmadon Gorge leaves complex impressions: admiration for nature intertwines with feelings of grief and respect for the memory of those who died. The drive from Vladikavkaz takes about an hour. It is recommended to visit the gorge with a local guide who can speak to both the natural features and the history of the tragedy."
+      }
+    },
+    "photos": ["images/poi/karmadonskoe-ushchelye-1.webp", "images/poi/karmadonskoe-ushchelye-2.webp"],
+    "rating": 4.6,
+    "reviewCount": 289,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["ущелье", "горы", "мемориал", "природа", "история"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 28000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-019",
+    "slug": "fiagdonskoe-ushchelye",
+    "name": { "ru": "Фиагдонское ущелье", "en": "Fiagdon Gorge" },
+    "category": "nature",
+    "subcategory": "Ущелье",
+    "location": {
+      "lat": 42.8500,
+      "lng": 44.2800,
+      "address": { "ru": "Фиагдонское ущелье, Алагирский район, Северная Осетия", "en": "Fiagdon Gorge, Alagir District, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Живописное ущелье с аланскими башнями, горным монастырём и древними селениями.",
+        "en": "A scenic gorge with Alanian towers, a mountain monastery, and ancient villages."
+      },
+      "medium": {
+        "ru": "Фиагдонское ущелье -- одно из самых доступных и живописных горных ущелий Северной Осетии. Расположенное всего в 40 км от Владикавказа, оно сочетает потрясающие горные пейзажи с богатым историческим наследием. Здесь можно увидеть средневековые аланские башни, Аланский Свято-Успенский монастырь, высеченный в скалах, и традиционные горные селения. Река Фиагдон прорезает глубокий каньон, создавая впечатляющие виды.",
+        "en": "Fiagdon Gorge is one of the most accessible and picturesque mountain gorges in North Ossetia. Located just 40 km from Vladikavkaz, it combines stunning mountain scenery with rich historical heritage. Here you can see medieval Alanian towers, the Alanian Holy Dormition Monastery carved into the rocks, and traditional mountain villages. The Fiagdon River cuts a deep canyon, creating impressive vistas."
+      },
+      "full": {
+        "ru": "Фиагдонское ущелье -- одно из главных туристических направлений Северной Осетии, сочетающее природную красоту с уникальным историческим наследием. Ущелье расположено в Куртатинской котловине, всего в 40 км от Владикавказа, что делает его идеальным для однодневной поездки. Река Фиагдон, давшая ущелью название, прорезала в горах глубокий живописный каньон с отвесными скальными стенами.\n\nГлавные достопримечательности ущелья -- средневековые аланские башни, разбросанные по склонам и вершинам гор. Эти каменные сторожевые и жилые башни были построены в XIII--XVI веках и являются визитной карточкой горной Осетии. Особого внимания заслуживает Аланский Свято-Успенский мужской монастырь -- православная обитель, расположенная в живописном месте на берегу Фиагдона. Монастырь частично высечен в скалах и окружён горами.\n\nВдоль ущелья расположены традиционные горные селения, где можно увидеть старинные каменные дома, святилища и фамильные склепы. Дорога через ущелье -- одна из красивейших в Осетии: серпантин поднимается над ущельем, открывая панорамные виды на горы и долину. Рекомендуется выделить на поездку целый день, чтобы успеть осмотреть основные достопримечательности и насладиться горными пейзажами.",
+        "en": "Fiagdon Gorge is one of the main tourist destinations in North Ossetia, combining natural beauty with unique historical heritage. The gorge lies in the Kurtatinsky basin, just 40 km from Vladikavkaz, making it ideal for a day trip. The Fiagdon River, which gives the gorge its name, has carved a deep scenic canyon with sheer rock walls.\n\nThe gorge's main attractions are medieval Alanian towers scattered across slopes and mountain tops. These stone watchtowers and residential towers were built in the 13th--16th centuries and are the hallmark of mountainous Ossetia. The Alanian Holy Dormition Monastery deserves special attention -- an Orthodox monastery in a picturesque setting on the bank of the Fiagdon, partly carved into the rocks and surrounded by mountains.\n\nTraditional mountain villages line the gorge, where you can see ancient stone houses, sanctuaries, and family crypts. The road through the gorge is one of the most beautiful in Ossetia: switchbacks climb above the gorge, opening panoramic views of the mountains and valley. It is recommended to devote an entire day to the trip to see the main sights and enjoy the mountain scenery."
+      }
+    },
+    "photos": ["images/poi/fiagdonskoe-ushchelye-1.webp", "images/poi/fiagdonskoe-ushchelye-2.webp"],
+    "rating": 4.8,
+    "reviewCount": 378,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["ущелье", "горы", "башни", "монастырь", "история", "природа"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 45000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-020",
+    "slug": "dargavs-gorod-myortvykh",
+    "name": { "ru": "Даргавс -- город мёртвых", "en": "Dargavs -- City of the Dead" },
+    "category": "nature",
+    "subcategory": "Историко-природный комплекс",
+    "location": {
+      "lat": 42.8370,
+      "lng": 44.4530,
+      "address": { "ru": "с. Даргавс, Пригородный район, Северная Осетия", "en": "Dargavs Village, Prigorodny District, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Древний некрополь с каменными склепами в горной долине -- одно из самых загадочных мест Кавказа.",
+        "en": "An ancient necropolis with stone crypts in a mountain valley -- one of the most mysterious places in the Caucasus."
+      },
+      "medium": {
+        "ru": "Даргавс -- уникальный средневековый некрополь, расположенный в живописной горной долине в 37 км от Владикавказа. Комплекс из почти 100 каменных склепов-домиков с островерхими крышами стоит на склоне горы и издалека напоминает маленький город. Некрополь датируется XIV--XVIII веками и является одним из крупнейших на Кавказе. Место овеяно легендами и окружено потрясающими горными пейзажами.",
+        "en": "Dargavs is a unique medieval necropolis in a scenic mountain valley 37 km from Vladikavkaz. The complex of nearly 100 stone crypt-houses with pointed roofs stands on a mountainside and from a distance resembles a small town. The necropolis dates from the 14th--18th centuries and is one of the largest in the Caucasus. The site is steeped in legend and surrounded by stunning mountain landscapes."
+      },
+      "full": {
+        "ru": "Даргавс -- «город мёртвых» -- одно из самых загадочных и впечатляющих мест Северной Осетии. Этот средневековый некрополь расположен в живописной горной долине реки Мидаграбиндон, в 37 км от Владикавказа. На склоне горы стоят почти 100 каменных склепов, напоминающих маленькие домики с островерхими двускатными и четырёхскатными крышами. Издалека некрополь действительно похож на миниатюрный город.\n\nСклепы Даргавса датируются XIV--XVIII веками и являются погребальными сооружениями осетинских фамилий. В некоторых из них до сих пор сохранились останки и предметы быта, положенные с усопшими. Существует несколько версий, почему горцы хоронили мёртвых именно так: от нехватки плодородной земли до эпидемий чумы, когда больные добровольно уходили в склепы.\n\nОкружающие пейзажи усиливают впечатление: зелёная долина в кольце суровых гор, тишина и ощущение вечности. Дорога из Владикавказа занимает около часа и сама по себе является достопримечательностью -- серпантин проходит через Пуриатское ущелье с потрясающими видами. Даргавс -- одно из тех мест, которое оставляет глубокий след в памяти каждого путешественника.",
+        "en": "Dargavs -- the 'City of the Dead' -- is one of the most mysterious and impressive places in North Ossetia. This medieval necropolis sits in the scenic mountain valley of the Midagrabindon River, 37 km from Vladikavkaz. On the mountainside stand nearly 100 stone crypts resembling small houses with pointed gabled and hipped roofs. From a distance the necropolis truly looks like a miniature city.\n\nThe Dargavs crypts date from the 14th--18th centuries and are burial structures of Ossetian families. In some of them remains and everyday objects placed with the deceased are still preserved. There are several theories why highlanders buried their dead this way: from a shortage of fertile land to plague epidemics when the sick voluntarily retreated to the crypts.\n\nThe surrounding landscapes heighten the impression: a green valley ringed by stark mountains, silence, and a sense of eternity. The drive from Vladikavkaz takes about an hour and is itself an attraction -- the switchbacks pass through the Puriat Gorge with stunning views. Dargavs is one of those places that leaves a deep imprint on every traveler's memory."
+      }
+    },
+    "photos": ["images/poi/dargavs-1.webp", "images/poi/dargavs-2.webp"],
+    "rating": 4.9,
+    "reviewCount": 567,
+    "hours": { "mon": "09:00-18:00", "tue": "09:00-18:00", "wed": "09:00-18:00", "thu": "09:00-18:00", "fri": "09:00-18:00", "sat": "09:00-18:00", "sun": "09:00-18:00" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["некрополь", "история", "горы", "загадочное", "архитектура", "природа"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 58000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-021",
+    "slug": "digorskoe-ushchelye",
+    "name": { "ru": "Дигорское ущелье", "en": "Digor Gorge" },
+    "category": "nature",
+    "subcategory": "Ущелье",
+    "location": {
+      "lat": 42.8200,
+      "lng": 43.6500,
+      "address": { "ru": "Дигорское ущелье, Ирафский район, Северная Осетия", "en": "Digor Gorge, Iraf District, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Самое протяжённое и дикое ущелье Осетии с нетронутой природой и древними селениями.",
+        "en": "The longest and wildest gorge in Ossetia with untouched nature and ancient villages."
+      },
+      "medium": {
+        "ru": "Дигорское ущелье -- самое протяжённое и, пожалуй, самое красивое ущелье Северной Осетии. Расположенное в западной части республики, оно менее посещаемо туристами, чем Цей или Фиагдон, что сохраняет его первозданную красоту. Ущелье протянулось на десятки километров вдоль реки Урух и окружено вершинами-четырёхтысячниками. Здесь расположены древние дигорские селения, башни, святилища и уникальные ландшафты -- от субтропических лесов до высокогорных лугов.",
+        "en": "Digor Gorge is the longest and arguably the most beautiful gorge in North Ossetia. Located in the western part of the republic, it sees fewer tourists than Tsey or Fiagdon, preserving its pristine beauty. The gorge stretches for dozens of kilometers along the Urukh River, surrounded by peaks over 4000 meters. Here you will find ancient Digor villages, towers, sanctuaries, and unique landscapes -- from subtropical forests to alpine meadows."
+      },
+      "full": {
+        "ru": "Дигорское ущелье -- настоящая сокровищница Северной Осетии, место, где дикая горная природа сочетается с многовековой историей дигорского народа -- западной ветви осетин. Ущелье расположено в Ирафском районе, в 120 км к западу от Владикавказа, и протянулось на десятки километров вдоль реки Урух и её притоков. Это самое протяжённое и одно из самых труднодоступных ущелий Осетии.\n\nПрирода Дигорского ущелья поражает разнообразием. Нижняя часть покрыта буково-грабовыми лесами, средняя -- хвойными, а верхняя выходит к альпийским лугам и ледникам. Вершины, окружающие ущелье, достигают 4000 метров и более. Здесь расположен национальный парк «Алания» с его нетронутыми экосистемами, редкими растениями и животными.\n\nКультурное наследие ущелья не менее впечатляюще. Древние дигорские селения с каменными башнями, святилищами и фамильными склепами разбросаны по всей долине. Особого внимания заслуживают сёла Задалеск, Донифарс и Стур-Дигора с их средневековой архитектурой. Дорога в ущелье проходит через впечатляющий каньон Ахсинта, где скалы сужаются до нескольких метров. Рекомендуется выделить на поездку минимум два дня, чтобы по-настоящему оценить масштаб и красоту этого места.",
+        "en": "Digor Gorge is a true treasure of North Ossetia, a place where wild mountain nature meets the centuries-old history of the Digor people -- the western branch of the Ossetians. The gorge is located in the Iraf District, 120 km west of Vladikavkaz, stretching for dozens of kilometers along the Urukh River and its tributaries. It is the longest and one of the most remote gorges in Ossetia.\n\nThe nature of Digor Gorge is strikingly diverse. The lower part is covered with beech-hornbeam forests, the middle with conifers, and the upper reaches give way to alpine meadows and glaciers. The peaks surrounding the gorge reach 4000 meters and above. The 'Alania' National Park is located here, with its untouched ecosystems, rare plants, and animals.\n\nThe cultural heritage of the gorge is no less impressive. Ancient Digor villages with stone towers, sanctuaries, and family crypts are scattered throughout the valley. The villages of Zadalesk, Donifars, and Stur-Digora with their medieval architecture deserve special attention. The road into the gorge passes through the impressive Akhsinta Canyon, where the cliffs narrow to just a few meters. It is recommended to devote at least two days to the trip to truly appreciate the scale and beauty of this place."
+      }
+    },
+    "photos": ["images/poi/digorskoe-ushchelye-1.webp", "images/poi/digorskoe-ushchelye-2.webp"],
+    "rating": 4.9,
+    "reviewCount": 312,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["ущелье", "горы", "нацпарк", "дикая природа", "башни", "хайкинг"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 25000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-022",
+    "slug": "gora-kazbek-vid",
+    "name": { "ru": "Вид на Казбек", "en": "Kazbek Viewpoint" },
+    "category": "nature",
+    "subcategory": "Панорамная точка",
+    "location": {
+      "lat": 42.7100,
+      "lng": 44.5200,
+      "address": { "ru": "Военно-Грузинская дорога, вблизи Верхнего Ларса", "en": "Georgian Military Highway, near Verkhny Lars" }
+    },
+    "description": {
+      "short": {
+        "ru": "Панорамная точка на Военно-Грузинской дороге с видом на величественный Казбек (5033 м).",
+        "en": "A panoramic viewpoint on the Georgian Military Highway with a view of majestic Mount Kazbek (5033 m)."
+      },
+      "medium": {
+        "ru": "Военно-Грузинская дорога -- одна из красивейших горных дорог мира, и её главным украшением является вид на гору Казбек. Этот потухший вулкан высотой 5033 метра -- одна из высочайших вершин Кавказа. С нескольких точек по дороге из Владикавказа к границе с Грузией открывается потрясающая панорама заснеженного Казбека. Особенно впечатляющ вид из района Верхнего Ларса и Дарьяльского ущелья.",
+        "en": "The Georgian Military Highway is one of the most beautiful mountain roads in the world, and its crowning jewel is the view of Mount Kazbek. This extinct volcano standing at 5033 meters is one of the highest peaks in the Caucasus. From several points along the road from Vladikavkaz to the Georgian border, a stunning panorama of snow-covered Kazbek unfolds. The view is especially impressive from the area of Verkhny Lars and the Daryal Gorge."
+      },
+      "full": {
+        "ru": "Вид на гору Казбек -- одно из самых грандиозных зрелищ, доступных путешественнику в Северной Осетии. Казбек (осет. Урсхох -- «белая гора») -- потухший вулкан высотой 5033 метра, один из высочайших пиков Кавказа. Его конусообразная вершина, покрытая вечными снегами и ледниками, видна из нескольких точек вдоль Военно-Грузинской дороги -- легендарного пути из России в Грузию через Главный Кавказский хребет.\n\nЛучшие точки для обзора Казбека расположены в районе Верхнего Ларса и Дарьяльского ущелья, в 40--50 км к югу от Владикавказа. Здесь дорога проходит через узкое ущелье с отвесными скалами высотой до 1000 метров, а впереди возвышается белоснежный конус Казбека. Зрелище особенно впечатляюще ранним утром, когда вершина подсвечена первыми лучами солнца, или на закате, когда гора окрашивается в розовые и оранжевые тона.\n\nКазбек овеян легендами. Согласно кавказской мифологии, именно к этой горе был прикован Прометей (в осетинской версии -- Амиран). Поездка по Военно-Грузинской дороге к точке обзора Казбека -- это незабываемое путешествие, где каждый поворот открывает новый потрясающий вид. Дорога хорошего качества, но извилистая -- рекомендуется не спешить и останавливаться на смотровых площадках.",
+        "en": "The view of Mount Kazbek is one of the most grandiose spectacles available to a traveler in North Ossetia. Kazbek (Ossetian: Urskhokh -- 'White Mountain') is an extinct volcano at 5033 meters, one of the highest peaks in the Caucasus. Its cone-shaped summit, covered in eternal snow and glaciers, is visible from several points along the Georgian Military Highway -- the legendary route from Russia to Georgia through the Greater Caucasus Range.\n\nThe best viewpoints for Kazbek are in the area of Verkhny Lars and the Daryal Gorge, 40--50 km south of Vladikavkaz. Here the road passes through a narrow gorge with sheer cliffs up to 1000 meters high, and ahead rises the snow-white cone of Kazbek. The spectacle is especially impressive in the early morning when the summit is lit by the first rays of sun, or at sunset when the mountain turns pink and orange.\n\nKazbek is steeped in legend. According to Caucasian mythology, it was to this mountain that Prometheus (in the Ossetian version -- Amiran) was chained. A drive along the Georgian Military Highway to the Kazbek viewpoint is an unforgettable journey where every turn reveals a new stunning vista. The road is good quality but winding -- it is recommended to take your time and stop at the viewing platforms."
+      }
+    },
+    "photos": ["images/poi/gora-kazbek-vid-1.webp", "images/poi/gora-kazbek-vid-2.webp"],
+    "rating": 4.9,
+    "reviewCount": 445,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["горы", "панорама", "Казбек", "Военно-Грузинская дорога", "фотогеничная"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 42000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-023",
+    "slug": "tseyskiy-lednik",
+    "name": { "ru": "Цейский ледник", "en": "Tsey Glacier" },
+    "category": "nature",
+    "subcategory": "Ледник",
+    "location": {
+      "lat": 42.7560,
+      "lng": 43.8880,
+      "address": { "ru": "Цейское ущелье, Алагирский район, Северная Осетия", "en": "Tsey Gorge, Alagir District, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Один из крупнейших долинных ледников Кавказа, спускающийся до высоты 2200 м.",
+        "en": "One of the largest valley glaciers in the Caucasus, descending to an altitude of 2200 m."
+      },
+      "medium": {
+        "ru": "Цейский ледник -- один из крупнейших и наиболее доступных ледников Северного Кавказа. Он спускается с северных склонов горы Адай-Хох (4408 м) до высоты около 2200 метров, что позволяет подойти к нему без альпинистской подготовки. Длина ледника составляет около 8 км, а его язык впечатляет масштабом и голубоватым оттенком льда. Тропа к леднику проходит через живописные альпийские луга и реликтовые сосновые леса.",
+        "en": "Tsey Glacier is one of the largest and most accessible glaciers in the North Caucasus. It descends from the northern slopes of Mount Adai-Khokh (4408 m) to about 2200 meters, allowing visitors to approach it without mountaineering skills. The glacier is about 8 km long, and its tongue impresses with its scale and bluish hue. The trail to the glacier passes through picturesque alpine meadows and relict pine forests."
+      },
+      "full": {
+        "ru": "Цейский ледник -- одна из главных природных достопримечательностей Северной Осетии и один из самых доступных крупных ледников Кавказа. Он берёт начало на северных склонах горного массива Адай-Хох на высоте более 4000 метров и спускается в Цейское ущелье до отметки около 2200 метров. Общая длина ледника -- около 8 км, а площадь превышает 9 квадратных километров.\n\nДорога к Цейскому леднику -- это самостоятельное приключение. От альплагеря «Цей» маркированная тропа ведёт через реликтовые сосновые леса и альпийские луга, усыпанные цветами. Путь занимает 2--3 часа в одну сторону. По мере приближения к леднику ландшафт меняется: зелень уступает место камням и морене, температура падает, а воздух наполняется свежестью. Язык ледника -- массивная стена голубоватого льда -- производит сильнейшее впечатление.\n\nВажно помнить, что ледник -- живой объект, который постоянно движется. Подходить вплотную к его краю опасно из-за возможных обвалов льда. Лучшее время для посещения -- июль--сентябрь, когда тропа свободна от снега. Рекомендуется взять треккинговую обувь, тёплую одежду и дождевик, так как погода в горах меняется быстро.",
+        "en": "Tsey Glacier is one of the main natural attractions of North Ossetia and one of the most accessible large glaciers in the Caucasus. It originates on the northern slopes of the Adai-Khokh massif at over 4000 meters and descends into Tsey Gorge to about 2200 meters. The glacier's total length is about 8 km, and its area exceeds 9 square kilometers.\n\nThe journey to Tsey Glacier is an adventure in itself. From the 'Tsey' mountaineering camp a marked trail leads through relict pine forests and alpine meadows covered in flowers. The walk takes 2--3 hours one way. As you approach the glacier the landscape changes: greenery gives way to rocks and moraine, the temperature drops, and the air fills with freshness. The glacier's tongue -- a massive wall of bluish ice -- makes a powerful impression.\n\nIt is important to remember that the glacier is a living object in constant motion. Approaching too close to its edge is dangerous due to potential ice falls. The best time to visit is July--September when the trail is free of snow. Trekking boots, warm clothing, and a rain jacket are recommended, as mountain weather changes quickly."
+      }
+    },
+    "photos": ["images/poi/tseyskiy-lednik-1.webp", "images/poi/tseyskiy-lednik-2.webp"],
+    "rating": 4.8,
+    "reviewCount": 298,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["ледник", "горы", "хайкинг", "природа", "альпинизм"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 30000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-024",
+    "slug": "roshcha-khetaga",
+    "name": { "ru": "Роща Хетага", "en": "Khetag's Grove" },
+    "category": "nature",
+    "subcategory": "Священная роща",
+    "location": {
+      "lat": 43.0100,
+      "lng": 44.2900,
+      "address": { "ru": "Роща Хетага, Алагирский район, Северная Осетия", "en": "Khetag's Grove, Alagir District, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Священная роща осетин -- реликтовый лес посреди равнины, овеянный древними легендами.",
+        "en": "A sacred Ossetian grove -- a relict forest in the middle of a plain, steeped in ancient legends."
+      },
+      "medium": {
+        "ru": "Роща Хетага -- одно из самых почитаемых мест в Осетии. Это островок реликтового леса площадью около 13 гектаров, стоящий посреди открытой равнины в 30 км от Владикавказа. Согласно легенде, роща спасла аланского воина Хетага, укрыв его от преследователей, -- деревья сами сошли с гор ему навстречу. Ежегодно во второе воскресенье июля здесь проводится главный осетинский праздник -- День Хетага, собирающий тысячи людей.",
+        "en": "Khetag's Grove is one of the most revered places in Ossetia. It is an island of relict forest covering about 13 hectares, standing in the middle of an open plain 30 km from Vladikavkaz. According to legend, the grove saved the Alanian warrior Khetag by sheltering him from pursuers -- the trees themselves descended from the mountains to meet him. Every year on the second Sunday of July the main Ossetian holiday -- Khetag's Day -- is held here, drawing thousands of people."
+      },
+      "full": {
+        "ru": "Роща Хетага -- святыня осетинского народа и одно из самых необычных природных мест Северного Кавказа. Посреди безлесной равнины, в 30 км к западу от Владикавказа, стоит густой реликтовый лес площадью около 13 гектаров. Буки, грабы, ясени и клёны образуют плотный зелёный массив, который виден издалека и производит впечатление чего-то нездешнего -- острова леса в степи.\n\nСогласно осетинской легенде, молодой аланский воин Хетаг бежал от преследователей-кочевников. Когда силы его иссякли, он воззвал к Богу, и лес с горных склонов сошёл ему навстречу, укрыв от врагов. С тех пор роща считается священной. В ней нельзя ломать ветки, рвать цветы, рубить деревья или выносить что-либо за её пределы. Осетины приходят сюда с молитвами и подношениями.\n\nЕжегодно во второе воскресенье июля в роще проводится Хетæджы Бон -- День Хетага, один из главных осетинских праздников. В этот день тысячи людей собираются в роще для совместной молитвы и трапезы. Для туриста посещение Рощи Хетага -- это возможность прикоснуться к живой традиции осетинского народа и ощутить атмосферу места, которое почитается уже много веков. Роща расположена у дороги Владикавказ -- Алагир, и добраться до неё легко.",
+        "en": "Khetag's Grove is a holy site for the Ossetian people and one of the most unusual natural places in the North Caucasus. In the middle of a treeless plain, 30 km west of Vladikavkaz, stands a dense relict forest covering about 13 hectares. Beeches, hornbeams, ashes, and maples form a dense green mass visible from afar, creating the impression of something otherworldly -- an island of forest in the steppe.\n\nAccording to Ossetian legend, the young Alanian warrior Khetag fled from nomadic pursuers. When his strength gave out, he called upon God, and the forest descended from the mountain slopes to shelter him from his enemies. Since then the grove has been considered sacred. Breaking branches, picking flowers, cutting trees, or removing anything from within its bounds is forbidden. Ossetians come here with prayers and offerings.\n\nEvery year on the second Sunday of July, Khetajy Bon -- Khetag's Day -- is celebrated in the grove, one of the main Ossetian holidays. On this day thousands gather in the grove for communal prayer and feasting. For the tourist, visiting Khetag's Grove is a chance to touch the living tradition of the Ossetian people and feel the atmosphere of a place venerated for many centuries. The grove is located by the Vladikavkaz--Alagir road and is easily accessible."
+      }
+    },
+    "photos": ["images/poi/roshcha-khetaga-1.webp", "images/poi/roshcha-khetaga-2.webp"],
+    "rating": 4.7,
+    "reviewCount": 356,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["священное место", "природа", "легенда", "осетинская культура", "роща"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 40000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-025",
+    "slug": "skazskiy-lednik",
+    "name": { "ru": "Сказский ледник", "en": "Skazsky Glacier" },
+    "category": "nature",
+    "subcategory": "Ледник",
+    "location": {
+      "lat": 42.7700,
+      "lng": 43.8650,
+      "address": { "ru": "Цейское ущелье, Алагирский район, Северная Осетия", "en": "Tsey Gorge, Alagir District, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Живописный ледник в Цейском ущелье, доступный по канатной дороге и пешим маршрутам.",
+        "en": "A picturesque glacier in Tsey Gorge, accessible by cable car and hiking trails."
+      },
+      "medium": {
+        "ru": "Сказский ледник -- второй крупный ледник Цейского ущелья, расположенный западнее Цейского ледника. Он назван по реке Сказдон и спускается с вершин Адай-Хох и Лагау. К леднику можно подняться по канатной дороге курорта «Цей», что делает его одним из самых доступных ледников Кавказа. С верхней станции канатки открывается потрясающий вид на ледяные поля и горные вершины. Далее тропа ведёт к языку ледника.",
+        "en": "Skazsky Glacier is the second major glacier in Tsey Gorge, located west of Tsey Glacier. It is named after the Skazdon River and descends from the peaks of Adai-Khokh and Lagau. The glacier can be reached via the cable car at the 'Tsey' resort, making it one of the most accessible glaciers in the Caucasus. From the upper cable car station there is a stunning view of ice fields and mountain peaks. A trail then leads to the glacier tongue."
+      },
+      "full": {
+        "ru": "Сказский ледник -- одна из жемчужин Цейского ущелья и один из самых доступных ледников на всём Кавказе. Расположенный западнее знаменитого Цейского ледника, он спускается с вершин Адай-Хох и Лагау (Тур-Хох) в долину реки Сказдон. Длина ледника составляет около 3 км, но его компактность компенсируется невероятной живописностью.\n\nГлавное преимущество Сказского ледника -- его доступность. Канатно-кресельная дорога горнолыжного курорта «Цей» поднимает посетителей на высоту около 2500 метров, откуда до ледника остаётся 30--40 минут пешком по размеченной тропе. С верхней станции канатки открывается захватывающая панорама: ледяные поля, скальные стены, и далеко внизу -- зелёная долина ущелья. Язык ледника впечатляет массой голубоватого льда, из-под которого вырывается бурный поток.\n\nРядом с тропой к Сказскому леднику расположено древнее осетинское святилище Реком -- деревянный храм, посвящённый покровителю мужчин и воинов. Это одно из немногих сохранившихся языческих святилищ осетин, внесённое в список объектов культурного наследия. Совместить посещение ледника и святилища можно в рамках одной прогулки, что делает этот маршрут особенно ценным.",
+        "en": "Skazsky Glacier is one of the jewels of Tsey Gorge and one of the most accessible glaciers in the entire Caucasus. Located west of the famous Tsey Glacier, it descends from the peaks of Adai-Khokh and Lagau (Tur-Khokh) into the valley of the Skazdon River. The glacier is about 3 km long, but its compact size is compensated by incredible picturesqueness.\n\nThe main advantage of Skazsky Glacier is its accessibility. The chairlift at the 'Tsey' ski resort carries visitors to about 2500 meters, from where it is a 30--40 minute walk along a marked trail to the glacier. From the upper station a breathtaking panorama unfolds: ice fields, rock walls, and far below -- the green valley of the gorge. The glacier tongue impresses with its mass of bluish ice, from beneath which a rushing stream bursts forth.\n\nNear the trail to Skazsky Glacier stands the ancient Ossetian sanctuary of Rekom -- a wooden temple dedicated to the patron of men and warriors. It is one of the few surviving pagan sanctuaries of the Ossetians, listed as a cultural heritage site. Visiting the glacier and the sanctuary can be combined in a single walk, making this route especially rewarding."
+      }
+    },
+    "photos": ["images/poi/skazskiy-lednik-1.webp", "images/poi/skazskiy-lednik-2.webp"],
+    "rating": 4.7,
+    "reviewCount": 265,
+    "hours": { "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59", "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59" },
+    "phone": null,
+    "website": null,
+    "priceLevel": null,
+    "tags": ["ледник", "горы", "канатная дорога", "хайкинг", "природа", "святилище"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 33000,
+    "hasMenu": false,
+    "hasDelivery": false
+  }
+]

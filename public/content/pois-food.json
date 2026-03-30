@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "poi-026",
+    "slug": "fyddjyn-restaurant",
+    "name": { "ru": "Фыдджын", "en": "Fyddjyn" },
+    "category": "food",
+    "subcategory": "Ресторан",
+    "cuisineType": "national",
+    "location": {
+      "lat": 43.0350,
+      "lng": 44.6700,
+      "address": { "ru": "ул. Кирова, 42, Владикавказ", "en": "42 Kirova St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Ресторан осетинской кухни с лучшими пирогами в городе",
+        "en": "Ossetian cuisine restaurant with the best pies in the city"
+      },
+      "medium": {
+        "ru": "«Фыдджын» — один из самых известных ресторанов национальной кухни во Владикавказе. Здесь готовят настоящие осетинские пироги по традиционным рецептам, а также подают блюда из баранины и говядины.",
+        "en": "Fyddjyn is one of the most famous national cuisine restaurants in Vladikavkaz. They prepare authentic Ossetian pies using traditional recipes, along with lamb and beef dishes."
+      },
+      "full": {
+        "ru": "Ресторан «Фыдджын» назван в честь знаменитого осетинского мясного пирога — фыдджына. Это место, где можно попробовать всё богатство осетинской кухни: от классических трёх пирогов до сытных мясных блюд. Интерьер оформлен в национальном стиле с элементами горской культуры. Повара используют только свежие местные продукты, а тесто для пирогов замешивается вручную. Ресторан популярен как среди местных жителей, так и среди туристов, желающих познакомиться с аутентичной кухней Осетии.",
+        "en": "The restaurant Fyddjyn is named after the famous Ossetian meat pie — fyddjyn. This is a place where you can taste the full richness of Ossetian cuisine: from the classic three pies to hearty meat dishes. The interior is decorated in national style with elements of highland culture. The chefs use only fresh local products, and the dough for pies is kneaded by hand. The restaurant is popular among both locals and tourists who want to experience the authentic cuisine of Ossetia."
+      }
+    },
+    "photos": ["images/poi/fyddjyn-1.webp"],
+    "rating": 4.7,
+    "reviewCount": 156,
+    "hours": {
+      "mon": "10:00-23:00",
+      "tue": "10:00-23:00",
+      "wed": "10:00-23:00",
+      "thu": "10:00-23:00",
+      "fri": "10:00-00:00",
+      "sat": "10:00-00:00",
+      "sun": "11:00-22:00"
+    },
+    "phone": "+7 (8672) 54-12-87",
+    "priceLevel": 2,
+    "tags": ["осетинские пироги", "шашлык", "национальная кухня"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 8500,
+    "hasMenu": true,
+    "hasDelivery": true
+  },
+  {
+    "id": "poi-027",
+    "slug": "nart-restaurant",
+    "name": { "ru": "Нарт", "en": "Nart" },
+    "category": "food",
+    "subcategory": "Ресторан",
+    "cuisineType": "national",
+    "location": {
+      "lat": 43.0385,
+      "lng": 44.6815,
+      "address": { "ru": "пр. Мира, 28, Владикавказ", "en": "28 Mira Ave, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Ресторан национальной кухни в центре города",
+        "en": "National cuisine restaurant in the city center"
+      },
+      "medium": {
+        "ru": "Ресторан «Нарт» — место, где осетинская кухня представлена во всём своём многообразии. Просторный зал, оформленный в стиле нартского эпоса, подходит для семейных обедов и торжеств.",
+        "en": "Restaurant Nart is a place where Ossetian cuisine is presented in all its diversity. The spacious hall, decorated in the style of the Nart epic, is suitable for family dinners and celebrations."
+      },
+      "full": {
+        "ru": "«Нарт» — ресторан, вдохновлённый легендами нартского эпоса, древнего осетинского фольклора. Здесь подают традиционные блюда: цахтон, лывжу, дзыкку, а также разнообразные осетинские пироги. Зал украшен панно с изображениями героев-нартов, деревянной резьбой и коваными элементами. Ресторан славится большими порциями и доступными ценами. Работает банкетный зал на 60 человек. Отличный выбор для знакомства с осетинской гастрономической культурой.",
+        "en": "Nart is a restaurant inspired by the legends of the Nart epic, ancient Ossetian folklore. They serve traditional dishes: tsakhton, lyvzha, dzykka, and various Ossetian pies. The hall is decorated with panels depicting Nart heroes, wood carvings, and forged elements. The restaurant is famous for large portions and affordable prices. A banquet hall for 60 people is available. An excellent choice for discovering Ossetian gastronomic culture."
+      }
+    },
+    "photos": ["images/poi/nart-1.webp"],
+    "rating": 4.5,
+    "reviewCount": 203,
+    "hours": {
+      "mon": "11:00-23:00",
+      "tue": "11:00-23:00",
+      "wed": "11:00-23:00",
+      "thu": "11:00-23:00",
+      "fri": "11:00-00:00",
+      "sat": "11:00-00:00",
+      "sun": "12:00-22:00"
+    },
+    "phone": "+7 (8672) 53-45-19",
+    "priceLevel": 2,
+    "tags": ["национальная кухня", "банкетный зал", "осетинские пироги", "нартский эпос"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 7200,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-028",
+    "slug": "dzuar-restaurant",
+    "name": { "ru": "Дзуар", "en": "Dzuar" },
+    "category": "food",
+    "subcategory": "Ресторан",
+    "cuisineType": "national",
+    "location": {
+      "lat": 43.0412,
+      "lng": 44.6658,
+      "address": { "ru": "ул. Ленина, 15, Владикавказ", "en": "15 Lenina St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Осетинские пироги и шашлык в уютной обстановке",
+        "en": "Ossetian pies and shashlik in a cozy atmosphere"
+      },
+      "medium": {
+        "ru": "«Дзуар» — ресторан, специализирующийся на осетинских пирогах и шашлыке на углях. Уютный интерьер с элементами горского быта создаёт атмосферу гостеприимного кавказского дома.",
+        "en": "Dzuar is a restaurant specializing in Ossetian pies and charcoal shashlik. The cozy interior with elements of highland life creates the atmosphere of a hospitable Caucasian home."
+      },
+      "full": {
+        "ru": "Ресторан «Дзуар» получил своё название от осетинского слова, означающего святилище. Это место, где традиции осетинского застолья соблюдаются с особым уважением. Пироги здесь готовят в дровяной печи — уалибах с сыром, картофджын с картошкой, фыдджын с мясом. Шашлык жарят на настоящих углях из фруктовых деревьев. В меню также лывжа — наваристый мясной суп, и дзыкка — блюдо из сыра и муки. Летом работает открытая веранда с видом на горы.",
+        "en": "Restaurant Dzuar takes its name from the Ossetian word meaning sanctuary. This is a place where the traditions of the Ossetian feast are observed with special respect. Pies are baked in a wood-fired oven — ualibach with cheese, kartofdjyn with potatoes, fyddjyn with meat. Shashlik is grilled on real charcoal from fruit trees. The menu also features lyvzha — a rich meat soup, and dzykka — a dish of cheese and flour. In summer, an open terrace with mountain views is available."
+      }
+    },
+    "photos": ["images/poi/dzuar-1.webp"],
+    "rating": 4.6,
+    "reviewCount": 178,
+    "hours": {
+      "mon": "10:00-23:00",
+      "tue": "10:00-23:00",
+      "wed": "10:00-23:00",
+      "thu": "10:00-23:00",
+      "fri": "10:00-00:00",
+      "sat": "10:00-00:00",
+      "sun": "11:00-23:00"
+    },
+    "phone": "+7 (8672) 51-33-07",
+    "priceLevel": 2,
+    "tags": ["осетинские пироги", "шашлык", "дровяная печь", "национальная кухня"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 6800,
+    "hasMenu": true,
+    "hasDelivery": true
+  },
+  {
+    "id": "poi-029",
+    "slug": "khetag-cafe",
+    "name": { "ru": "Хетаг", "en": "Khetag" },
+    "category": "food",
+    "subcategory": "Кафе",
+    "cuisineType": "national",
+    "location": {
+      "lat": 43.0328,
+      "lng": 44.6742,
+      "address": { "ru": "ул. Барбашова, 67, Владикавказ", "en": "67 Barbashova St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Кафе с национальными блюдами и домашней атмосферой",
+        "en": "Cafe with national dishes and a homely atmosphere"
+      },
+      "medium": {
+        "ru": "Кафе «Хетаг» — уютное заведение с домашней кухней. Здесь подают осетинские пироги, лывжу, цахтон и другие блюда, приготовленные по семейным рецептам.",
+        "en": "Cafe Khetag is a cozy establishment with home cooking. They serve Ossetian pies, lyvzha, tsakhton, and other dishes prepared according to family recipes."
+      },
+      "full": {
+        "ru": "Кафе «Хетаг» названо в честь легендарного осетинского героя. Это семейное заведение, где готовят так, как дома — с душой и из свежих продуктов. В меню представлены все основные блюда осетинской кухни: три вида пирогов, лывжа, шашлык, цахтон — соус из сметаны с чесноком и зеленью. Порции щедрые, цены демократичные. Кафе пользуется большой популярностью у местных жителей — здесь часто обедают семьями. Интерьер простой, но уютный, с национальными мотивами.",
+        "en": "Cafe Khetag is named after the legendary Ossetian hero. This is a family establishment where food is prepared as at home — with soul and from fresh products. The menu features all the main dishes of Ossetian cuisine: three types of pies, lyvzha, shashlik, tsakhton — a sauce of sour cream with garlic and herbs. Portions are generous, prices are democratic. The cafe is very popular among locals — families often dine here. The interior is simple but cozy, with national motifs."
+      }
+    },
+    "photos": ["images/poi/khetag-1.webp"],
+    "rating": 4.4,
+    "reviewCount": 132,
+    "hours": {
+      "mon": "09:00-22:00",
+      "tue": "09:00-22:00",
+      "wed": "09:00-22:00",
+      "thu": "09:00-22:00",
+      "fri": "09:00-23:00",
+      "sat": "09:00-23:00",
+      "sun": "10:00-21:00"
+    },
+    "phone": "+7 (8672) 55-78-34",
+    "priceLevel": 1,
+    "tags": ["национальная кухня", "домашняя еда", "осетинские пироги", "семейное кафе"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 5400,
+    "hasMenu": true,
+    "hasDelivery": true
+  },
+  {
+    "id": "poi-030",
+    "slug": "alan-cafe",
+    "name": { "ru": "Алан", "en": "Alan" },
+    "category": "food",
+    "subcategory": "Кафе",
+    "cuisineType": "national",
+    "location": {
+      "lat": 43.0395,
+      "lng": 44.6780,
+      "address": { "ru": "ул. Коцоева, 30, Владикавказ", "en": "30 Kotsoeva St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Осетинское кафе с традиционным меню",
+        "en": "Ossetian cafe with a traditional menu"
+      },
+      "medium": {
+        "ru": "Кафе «Алан» — заведение, где подают классические осетинские блюда в современном интерьере. Отличный вариант для быстрого и вкусного обеда в центре Владикавказа.",
+        "en": "Cafe Alan is an establishment serving classic Ossetian dishes in a modern interior. A great option for a quick and delicious lunch in the center of Vladikavkaz."
+      },
+      "full": {
+        "ru": "Кафе «Алан» — современное заведение, сочетающее осетинские кулинарные традиции с удобным форматом обслуживания. В меню — осетинские пироги нескольких видов, хычины, шашлык, люля-кебаб, а также супы и салаты. Кафе расположено в центре города, что делает его удобной точкой для обеда во время прогулки. Интерьер лаконичный и современный, обслуживание быстрое. Есть комплексные обеды по выгодной цене. Работает доставка по городу.",
+        "en": "Cafe Alan is a modern establishment combining Ossetian culinary traditions with a convenient service format. The menu includes several types of Ossetian pies, khychiny, shashlik, lyulya-kebab, as well as soups and salads. The cafe is located in the city center, making it a convenient lunch spot during a walk. The interior is minimalist and modern, service is fast. Set lunches at good prices are available. City delivery is available."
+      }
+    },
+    "photos": ["images/poi/alan-1.webp"],
+    "rating": 4.3,
+    "reviewCount": 98,
+    "hours": {
+      "mon": "09:00-22:00",
+      "tue": "09:00-22:00",
+      "wed": "09:00-22:00",
+      "thu": "09:00-22:00",
+      "fri": "09:00-23:00",
+      "sat": "10:00-23:00",
+      "sun": "10:00-21:00"
+    },
+    "phone": "+7 (8672) 50-22-63",
+    "priceLevel": 1,
+    "tags": ["осетинская кухня", "комплексные обеды", "быстрое обслуживание"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 4100,
+    "hasMenu": true,
+    "hasDelivery": true
+  },
+  {
+    "id": "poi-031",
+    "slug": "tamerlan-restaurant",
+    "name": { "ru": "Тамерлан", "en": "Tamerlan" },
+    "category": "food",
+    "subcategory": "Ресторан",
+    "cuisineType": "national",
+    "location": {
+      "lat": 43.0368,
+      "lng": 44.6690,
+      "address": { "ru": "ул. Церетели, 18, Владикавказ", "en": "18 Tsereteli St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Ресторан кавказской кухни с богатым меню",
+        "en": "Caucasian cuisine restaurant with a rich menu"
+      },
+      "medium": {
+        "ru": "«Тамерлан» — ресторан, предлагающий широкий выбор блюд кавказской кухни: осетинской, грузинской, армянской. Роскошный интерьер и большой банкетный зал для торжеств.",
+        "en": "Tamerlan is a restaurant offering a wide selection of Caucasian cuisine: Ossetian, Georgian, Armenian. Luxurious interior and a large banquet hall for celebrations."
+      },
+      "full": {
+        "ru": "Ресторан «Тамерлан» — одно из самых статусных заведений Владикавказа. Здесь представлена кухня народов Кавказа: осетинские пироги и лывжа, грузинские хинкали и хачапури, армянский лаваш и толма. Мясные блюда — коронная позиция: шашлык, люля-кебаб, бараньи рёбрышки на мангале. Интерьер выполнен в восточном стиле с коврами, резным деревом и мягким освещением. Банкетный зал вмещает до 100 человек. Есть VIP-комнаты для приватных мероприятий. Живая музыка по пятницам и субботам.",
+        "en": "Restaurant Tamerlan is one of the most prestigious establishments in Vladikavkaz. It features the cuisine of the Caucasian peoples: Ossetian pies and lyvzha, Georgian khinkali and khachapuri, Armenian lavash and tolma. Meat dishes are the crown specialty: shashlik, lyulya-kebab, lamb ribs on the grill. The interior is done in an Eastern style with carpets, carved wood, and soft lighting. The banquet hall holds up to 100 people. VIP rooms for private events are available. Live music on Fridays and Saturdays."
+      }
+    },
+    "photos": ["images/poi/tamerlan-1.webp"],
+    "rating": 4.6,
+    "reviewCount": 214,
+    "hours": {
+      "mon": "12:00-00:00",
+      "tue": "12:00-00:00",
+      "wed": "12:00-00:00",
+      "thu": "12:00-00:00",
+      "fri": "12:00-01:00",
+      "sat": "12:00-01:00",
+      "sun": "12:00-23:00"
+    },
+    "phone": "+7 (8672) 52-90-15",
+    "priceLevel": 3,
+    "tags": ["кавказская кухня", "банкетный зал", "живая музыка", "VIP"],
+    "isChain": false,
+    "subscriptionTier": "premium",
+    "visitCount": 9200,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-032",
+    "slug": "pirogov-bakery",
+    "name": { "ru": "Пирогов", "en": "Pirogov" },
+    "category": "food",
+    "subcategory": "Пекарня",
+    "cuisineType": "national",
+    "location": {
+      "lat": 43.0342,
+      "lng": 44.6725,
+      "address": { "ru": "ул. Маркуса, 8, Владикавказ", "en": "8 Markusa St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Пекарня осетинских пирогов с доставкой",
+        "en": "Ossetian pie bakery with delivery"
+      },
+      "medium": {
+        "ru": "«Пирогов» — популярная пекарня, специализирующаяся на осетинских пирогах. Более 15 видов начинок, свежая выпечка каждый день и быстрая доставка по городу.",
+        "en": "Pirogov is a popular bakery specializing in Ossetian pies. Over 15 types of fillings, fresh baking every day, and fast delivery across the city."
+      },
+      "full": {
+        "ru": "Пекарня «Пирогов» — любимое место владикавказцев для заказа осетинских пирогов. Здесь готовят более 15 видов: уалибах (с сыром), картофджын (с картошкой и сыром), фыдджын (с мясом), кабускаджын (с капустой), насджын (с тыквой), давонджын (с черемшой) и многие другие. Тесто замешивают вручную, начинки — только из свежих продуктов. Пироги можно купить на месте или заказать доставку — привозят горячими в течение 40 минут. Работает предзаказ на торжества. Цены доступные, качество стабильно высокое.",
+        "en": "Pirogov bakery is a favorite spot for Vladikavkaz residents to order Ossetian pies. They make over 15 types: ualibach (with cheese), kartofdjyn (with potatoes and cheese), fyddjyn (with meat), kabuskajyn (with cabbage), nasjyn (with pumpkin), davondjyn (with wild garlic), and many others. The dough is kneaded by hand, fillings are made only from fresh products. Pies can be bought on-site or ordered for delivery — delivered hot within 40 minutes. Pre-orders for celebrations are available. Prices are affordable, quality is consistently high."
+      }
+    },
+    "photos": ["images/poi/pirogov-1.webp"],
+    "rating": 4.8,
+    "reviewCount": 287,
+    "hours": {
+      "mon": "08:00-21:00",
+      "tue": "08:00-21:00",
+      "wed": "08:00-21:00",
+      "thu": "08:00-21:00",
+      "fri": "08:00-22:00",
+      "sat": "08:00-22:00",
+      "sun": "09:00-20:00"
+    },
+    "phone": "+7 (8672) 57-14-52",
+    "priceLevel": 1,
+    "tags": ["осетинские пироги", "пекарня", "доставка", "выпечка"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 12300,
+    "hasMenu": true,
+    "hasDelivery": true
+  },
+  {
+    "id": "poi-033",
+    "slug": "stolovaya-mira",
+    "name": { "ru": "Столовая Мира", "en": "Stolovaya Mira" },
+    "category": "food",
+    "subcategory": "Столовая",
+    "cuisineType": "national",
+    "location": {
+      "lat": 43.0378,
+      "lng": 44.6802,
+      "address": { "ru": "пр. Мира, 45, Владикавказ", "en": "45 Mira Ave, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Бюджетная столовая с национальной едой",
+        "en": "Budget canteen with national food"
+      },
+      "medium": {
+        "ru": "«Столовая Мира» — недорогое заведение на главном проспекте города. Комплексные обеды, осетинские пироги и домашние блюда по доступным ценам.",
+        "en": "Stolovaya Mira is an affordable establishment on the city's main avenue. Set lunches, Ossetian pies, and home-cooked dishes at accessible prices."
+      },
+      "full": {
+        "ru": "«Столовая Мира» — настоящая находка для бюджетного путешественника. Расположенная на проспекте Мира, она предлагает полноценные обеды по ценам от 200 рублей. В меню — борщ, лывжа, котлеты, осетинские пироги, гарниры и компоты. Формат самообслуживания: берёте поднос, выбираете блюда на раздаче. Порции большие, еда свежая и домашняя. Здесь обедают студенты, офисные работники и туристы. Быстро, вкусно и очень дёшево. Лучший вариант для тех, кто хочет попробовать национальную кухню без переплаты.",
+        "en": "Stolovaya Mira is a real find for budget travelers. Located on Mira Avenue, it offers full meals from 200 rubles. The menu includes borscht, lyvzha, cutlets, Ossetian pies, side dishes, and compotes. Self-service format: take a tray, choose dishes at the counter. Portions are large, food is fresh and homemade. Students, office workers, and tourists dine here. Fast, tasty, and very cheap. The best option for those who want to try national cuisine without overpaying."
+      }
+    },
+    "photos": ["images/poi/stolovaya-mira-1.webp"],
+    "rating": 4.2,
+    "reviewCount": 312,
+    "hours": {
+      "mon": "08:00-20:00",
+      "tue": "08:00-20:00",
+      "wed": "08:00-20:00",
+      "thu": "08:00-20:00",
+      "fri": "08:00-20:00",
+      "sat": "09:00-18:00",
+      "sun": "09:00-18:00"
+    },
+    "phone": "+7 (8672) 53-07-41",
+    "priceLevel": 1,
+    "tags": ["бюджетная еда", "столовая", "комплексный обед", "самообслуживание"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 15600,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-034",
+    "slug": "iron-fyng-restaurant",
+    "name": { "ru": "Ирон Фынг", "en": "Iron Fyng" },
+    "category": "food",
+    "subcategory": "Ресторан",
+    "cuisineType": "national",
+    "location": {
+      "lat": 43.0405,
+      "lng": 44.6635,
+      "address": { "ru": "ул. Джанаева, 22, Владикавказ", "en": "22 Dzhanaeva St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Осетинский ресторан с аутентичной атмосферой",
+        "en": "Ossetian restaurant with an authentic atmosphere"
+      },
+      "medium": {
+        "ru": "«Ирон Фынг» — ресторан, где осетинский стол накрывают по всем правилам традиции. Название переводится как «осетинский стол» — и здесь это не просто название, а философия.",
+        "en": "Iron Fyng is a restaurant where the Ossetian table is set according to all the rules of tradition. The name translates as 'Ossetian table' — and here it's not just a name, but a philosophy."
+      },
+      "full": {
+        "ru": "«Ирон Фынг» (осетинский стол) — ресторан, посвящённый культуре осетинского застолья. Здесь можно не просто поесть, а прикоснуться к вековой традиции: три пирога, три ребра, арака — всё по канону. Меню включает редкие блюда, которые сложно найти в других заведениях: дзыкку (блюдо из свежего сыра с мукой), басылта (новогодние пирожки), сыр из овечьего молока. Интерьер — настоящий этнографический музей: утварь, ковры, оружие, национальные костюмы. Проводятся дегустационные ужины с рассказом об осетинских традициях.",
+        "en": "Iron Fyng (Ossetian table) is a restaurant dedicated to the culture of the Ossetian feast. Here you can not just eat, but touch a centuries-old tradition: three pies, three ribs, araka — everything according to canon. The menu includes rare dishes that are hard to find in other establishments: dzykka (a dish of fresh cheese with flour), basylta (New Year's pies), sheep milk cheese. The interior is a real ethnographic museum: utensils, carpets, weapons, national costumes. Tasting dinners with stories about Ossetian traditions are held."
+      }
+    },
+    "photos": ["images/poi/iron-fyng-1.webp"],
+    "rating": 4.8,
+    "reviewCount": 189,
+    "hours": {
+      "mon": "11:00-23:00",
+      "tue": "11:00-23:00",
+      "wed": "11:00-23:00",
+      "thu": "11:00-23:00",
+      "fri": "11:00-00:00",
+      "sat": "11:00-00:00",
+      "sun": "12:00-22:00"
+    },
+    "phone": "+7 (8672) 56-83-20",
+    "priceLevel": 3,
+    "tags": ["осетинская кухня", "традиции", "дегустация", "этнографический интерьер"],
+    "isChain": false,
+    "subscriptionTier": "premium",
+    "visitCount": 6500,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-035",
+    "slug": "lagidze-cafe",
+    "name": { "ru": "Лагидзе", "en": "Lagidze" },
+    "category": "food",
+    "subcategory": "Кафе",
+    "cuisineType": "national",
+    "location": {
+      "lat": 43.0360,
+      "lng": 44.6755,
+      "address": { "ru": "ул. Плиева, 12, Владикавказ", "en": "12 Plieva St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Кафе с напитками и лёгкими закусками",
+        "en": "Cafe with drinks and light snacks"
+      },
+      "medium": {
+        "ru": "«Лагидзе» — кафе, названное в честь знаменитых грузинских лимонадов. Здесь подают лимонады на натуральных сиропах, осетинские пироги и лёгкие закуски.",
+        "en": "Lagidze is a cafe named after the famous Georgian lemonades. They serve lemonades made with natural syrups, Ossetian pies, and light snacks."
+      },
+      "full": {
+        "ru": "Кафе «Лагидзе» — отсылка к легендарной тбилисской воде Лагидзе, которую любили ещё в советское время. Здесь готовят лимонады на натуральных сиропах: тархун, сливочный, грушевый, вишнёвый. Помимо напитков, в меню — осетинские пироги, хачапури, хычины и лёгкие салаты. Кафе популярно у молодёжи: свободный Wi-Fi, розетки для ноутбуков, спокойная музыка. Отличное место, чтобы сделать паузу во время прогулки по городу. Летом работает вынос напитков через окошко на улицу.",
+        "en": "Cafe Lagidze is a reference to the legendary Tbilisi Lagidze water, loved since Soviet times. They make lemonades from natural syrups: tarragon, cream, pear, cherry. Besides drinks, the menu includes Ossetian pies, khachapuri, khychiny, and light salads. The cafe is popular with young people: free Wi-Fi, laptop outlets, calm music. A great place to take a break during a city walk. In summer, takeaway drinks are available through a street window."
+      }
+    },
+    "photos": ["images/poi/lagidze-1.webp"],
+    "rating": 4.4,
+    "reviewCount": 167,
+    "hours": {
+      "mon": "09:00-22:00",
+      "tue": "09:00-22:00",
+      "wed": "09:00-22:00",
+      "thu": "09:00-22:00",
+      "fri": "09:00-23:00",
+      "sat": "10:00-23:00",
+      "sun": "10:00-21:00"
+    },
+    "phone": "+7 (8672) 54-61-38",
+    "priceLevel": 1,
+    "tags": ["лимонады", "лёгкие закуски", "Wi-Fi", "молодёжное кафе"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 7800,
+    "hasMenu": true,
+    "hasDelivery": true
+  },
+  {
+    "id": "poi-036",
+    "slug": "bergamo-restaurant",
+    "name": { "ru": "Бергамо", "en": "Bergamo" },
+    "category": "food",
+    "subcategory": "Ресторан",
+    "cuisineType": "european",
+    "location": {
+      "lat": 43.0372,
+      "lng": 44.6830,
+      "address": { "ru": "ул. Ватутина, 56, Владикавказ", "en": "56 Vatutina St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Итальянская кухня в центре Владикавказа",
+        "en": "Italian cuisine in the center of Vladikavkaz"
+      },
+      "medium": {
+        "ru": "«Бергамо» — ресторан итальянской кухни с авторскими пастами, пиццей на тонком тесте и изысканными десертами. Стильный интерьер и винная карта.",
+        "en": "Bergamo is an Italian cuisine restaurant with signature pastas, thin-crust pizza, and exquisite desserts. Stylish interior and wine list."
+      },
+      "full": {
+        "ru": "Ресторан «Бергамо» — островок Италии во Владикавказе. Шеф-повар, стажировавшийся в Болонье, готовит пасту из свежего теста: карбонара, аматричана, путтанеска. Пиццу выпекают в дровяной печи при 400 градусах — тесто получается тонким и хрустящим. Винная карта включает итальянские и грузинские вина. Десерты — тирамису, панна-котта, канноли — готовят на месте. Интерьер в тёплых тонах с кирпичной кладкой и мягким светом. По вечерам звучит итальянская музыка. Бронирование столиков рекомендуется на выходные.",
+        "en": "Restaurant Bergamo is an island of Italy in Vladikavkaz. The chef, who trained in Bologna, prepares pasta from fresh dough: carbonara, amatriciana, puttanesca. Pizza is baked in a wood-fired oven at 400 degrees — the dough comes out thin and crispy. The wine list includes Italian and Georgian wines. Desserts — tiramisu, panna cotta, cannoli — are made on-site. The interior features warm tones with brick walls and soft lighting. Italian music plays in the evenings. Table reservations are recommended on weekends."
+      }
+    },
+    "photos": ["images/poi/bergamo-1.webp"],
+    "rating": 4.5,
+    "reviewCount": 145,
+    "hours": {
+      "mon": "12:00-23:00",
+      "tue": "12:00-23:00",
+      "wed": "12:00-23:00",
+      "thu": "12:00-23:00",
+      "fri": "12:00-00:00",
+      "sat": "12:00-00:00",
+      "sun": "12:00-22:00"
+    },
+    "phone": "+7 (8672) 58-27-93",
+    "priceLevel": 3,
+    "tags": ["итальянская кухня", "паста", "пицца", "вино"],
+    "isChain": false,
+    "subscriptionTier": "premium",
+    "visitCount": 5100,
+    "hasMenu": true,
+    "hasDelivery": true
+  },
+  {
+    "id": "poi-037",
+    "slug": "provence-restaurant",
+    "name": { "ru": "Provence", "en": "Provence" },
+    "category": "food",
+    "subcategory": "Ресторан",
+    "cuisineType": "european",
+    "location": {
+      "lat": 43.0418,
+      "lng": 44.6710,
+      "address": { "ru": "ул. Миллера, 9, Владикавказ", "en": "9 Millera St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Ресторан французской кухни с уютной атмосферой",
+        "en": "French cuisine restaurant with a cozy atmosphere"
+      },
+      "medium": {
+        "ru": "«Provence» — изысканный ресторан французской кухни. Авторские блюда, свежие круассаны, утиный конфи и богатая винная карта в атмосфере южной Франции.",
+        "en": "Provence is an exquisite French cuisine restaurant. Signature dishes, fresh croissants, duck confit, and a rich wine list in the atmosphere of southern France."
+      },
+      "full": {
+        "ru": "Ресторан «Provence» переносит гостей на юг Франции — лавандовые тона интерьера, кованая мебель, живые цветы на столах. Меню включает классику французской кухни: луковый суп, утиный конфи, рататуй, стейк с соусом беарнез. На завтрак подают свежие круассаны, багеты и омлеты по-французски. Винная карта — более 40 позиций, включая бордо, бургундию и местные вина. Десерты: крем-брюле, макаруны, тарт-татен. По воскресеньям — бранч с игристым вином. Одно из самых романтичных мест города.",
+        "en": "Restaurant Provence transports guests to the south of France — lavender interior tones, wrought-iron furniture, fresh flowers on tables. The menu includes French cuisine classics: onion soup, duck confit, ratatouille, steak with béarnaise sauce. For breakfast, they serve fresh croissants, baguettes, and French omelets. The wine list has over 40 options, including Bordeaux, Burgundy, and local wines. Desserts: crème brûlée, macarons, tarte tatin. Sundays feature brunch with sparkling wine. One of the most romantic places in the city."
+      }
+    },
+    "photos": ["images/poi/provence-1.webp"],
+    "rating": 4.6,
+    "reviewCount": 112,
+    "hours": {
+      "mon": "08:00-23:00",
+      "tue": "08:00-23:00",
+      "wed": "08:00-23:00",
+      "thu": "08:00-23:00",
+      "fri": "08:00-00:00",
+      "sat": "09:00-00:00",
+      "sun": "09:00-22:00"
+    },
+    "phone": "+7 (8672) 59-34-17",
+    "priceLevel": 3,
+    "tags": ["французская кухня", "завтраки", "вино", "романтическое место"],
+    "isChain": false,
+    "subscriptionTier": "premium",
+    "visitCount": 3900,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-038",
+    "slug": "khmeli-suneli-restaurant",
+    "name": { "ru": "Хмели-Сунели", "en": "Khmeli-Suneli" },
+    "category": "food",
+    "subcategory": "Ресторан",
+    "cuisineType": "european",
+    "location": {
+      "lat": 43.0335,
+      "lng": 44.6790,
+      "address": { "ru": "ул. Кирова, 58, Владикавказ", "en": "58 Kirova St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Грузинская кухня с кавказским колоритом",
+        "en": "Georgian cuisine with Caucasian character"
+      },
+      "medium": {
+        "ru": "«Хмели-Сунели» — ресторан грузинской кухни с хинкали ручной лепки, хачапури из тандыра и богатым выбором грузинских вин.",
+        "en": "Khmeli-Suneli is a Georgian cuisine restaurant with handmade khinkali, tandoor khachapuri, and a rich selection of Georgian wines."
+      },
+      "full": {
+        "ru": "Ресторан «Хмели-Сунели» — дань уважения грузинской кулинарной традиции, столь близкой осетинской. Хинкали здесь лепят вручную — по 18-20 складок на каждом, как положено. Хачапури по-аджарски готовят в тандыре — с яйцом и сливочным маслом. Также в меню: сациви, чахохбили, лобио, пхали, аджапсандали. Винная карта — грузинские вина: Саперави, Мукузани, Киндзмараули, Цинандали. Интерьер стилизован под грузинский духан с глиняными кувшинами и виноградными лозами. Живая музыка по выходным.",
+        "en": "Restaurant Khmeli-Suneli pays tribute to the Georgian culinary tradition, so close to Ossetian. Khinkali are handmade here — with 18-20 folds on each, as required. Adjarian khachapuri is prepared in a tandoor — with egg and butter. Also on the menu: satsivi, chakhokhbili, lobio, pkhali, ajapsandali. The wine list features Georgian wines: Saperavi, Mukuzani, Kindzmarauli, Tsinandali. The interior is styled as a Georgian dukhan with clay jugs and grapevines. Live music on weekends."
+      }
+    },
+    "photos": ["images/poi/khmeli-suneli-1.webp"],
+    "rating": 4.5,
+    "reviewCount": 198,
+    "hours": {
+      "mon": "11:00-23:00",
+      "tue": "11:00-23:00",
+      "wed": "11:00-23:00",
+      "thu": "11:00-23:00",
+      "fri": "11:00-00:00",
+      "sat": "11:00-00:00",
+      "sun": "12:00-22:00"
+    },
+    "phone": "+7 (8672) 51-88-46",
+    "priceLevel": 2,
+    "tags": ["грузинская кухня", "хинкали", "хачапури", "грузинские вина"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 7600,
+    "hasMenu": true,
+    "hasDelivery": true
+  },
+  {
+    "id": "poi-039",
+    "slug": "sakura-restaurant",
+    "name": { "ru": "Сакура", "en": "Sakura" },
+    "category": "food",
+    "subcategory": "Ресторан",
+    "cuisineType": "european",
+    "location": {
+      "lat": 43.0390,
+      "lng": 44.6850,
+      "address": { "ru": "ул. Маркова, 34, Владикавказ", "en": "34 Markova St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Японская кухня: суши, роллы и рамен",
+        "en": "Japanese cuisine: sushi, rolls, and ramen"
+      },
+      "medium": {
+        "ru": "«Сакура» — ресторан японской кухни с широким выбором суши, роллов, сашими и горячих японских блюд. Минималистичный интерьер и быстрая доставка.",
+        "en": "Sakura is a Japanese cuisine restaurant with a wide selection of sushi, rolls, sashimi, and hot Japanese dishes. Minimalist interior and fast delivery."
+      },
+      "full": {
+        "ru": "Ресторан «Сакура» — главное место для любителей японской кухни во Владикавказе. В меню более 80 видов роллов, суши и сашими, а также рамен, удон, темпура и гёдза. Рыбу доставляют свежую дважды в неделю. Интерьер выполнен в японском минимализме: бамбук, рисовая бумага, мягкое освещение. Есть отдельные кабинки для уединённого ужина. Суши-бар за стойкой позволяет наблюдать за работой повара. Доставка работает быстро — в среднем 35 минут по городу. Популярны сеты на компанию по выгодным ценам.",
+        "en": "Restaurant Sakura is the main destination for Japanese cuisine lovers in Vladikavkaz. The menu features over 80 types of rolls, sushi, and sashimi, as well as ramen, udon, tempura, and gyoza. Fish is delivered fresh twice a week. The interior is done in Japanese minimalism: bamboo, rice paper, soft lighting. There are separate booths for private dining. The sushi bar at the counter allows watching the chef at work. Delivery is fast — about 35 minutes across the city. Company sets at good prices are popular."
+      }
+    },
+    "photos": ["images/poi/sakura-1.webp"],
+    "rating": 4.3,
+    "reviewCount": 176,
+    "hours": {
+      "mon": "11:00-23:00",
+      "tue": "11:00-23:00",
+      "wed": "11:00-23:00",
+      "thu": "11:00-23:00",
+      "fri": "11:00-00:00",
+      "sat": "11:00-00:00",
+      "sun": "12:00-22:00"
+    },
+    "phone": "+7 (8672) 55-02-79",
+    "priceLevel": 2,
+    "tags": ["японская кухня", "суши", "роллы", "доставка"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 6200,
+    "hasMenu": true,
+    "hasDelivery": true
+  },
+  {
+    "id": "poi-040",
+    "slug": "pizza-house",
+    "name": { "ru": "Pizza House", "en": "Pizza House" },
+    "category": "food",
+    "subcategory": "Пиццерия",
+    "cuisineType": "european",
+    "location": {
+      "lat": 43.0355,
+      "lng": 44.6768,
+      "address": { "ru": "пр. Мира, 37, Владикавказ", "en": "37 Mira Ave, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Пиццерия с большим выбором пицц и пасты",
+        "en": "Pizzeria with a wide selection of pizzas and pasta"
+      },
+      "medium": {
+        "ru": "«Pizza House» — популярная пиццерия на проспекте Мира. Более 30 видов пиццы, паста, салаты и десерты. Быстрое обслуживание и доставка.",
+        "en": "Pizza House is a popular pizzeria on Mira Avenue. Over 30 types of pizza, pasta, salads, and desserts. Fast service and delivery."
+      },
+      "full": {
+        "ru": "«Pizza House» — любимая пиццерия владикавказской молодёжи. Более 30 видов пиццы на тонком и толстом тесте: от классической маргариты до авторских вариаций с осетинским сыром и зеленью. Также в меню паста, цезарь, картошка фри и молочные коктейли. Формат — фастфуд с возможностью поесть на месте: яркий интерьер, большие столы, экраны с меню. Доставка работает с 11:00, среднее время — 30 минут. Комбо-наборы по акции — отличный вариант для компании. Есть детское меню и зона для проведения дней рождения.",
+        "en": "Pizza House is the favorite pizzeria of Vladikavkaz youth. Over 30 types of pizza on thin and thick crusts: from classic Margherita to signature variations with Ossetian cheese and herbs. The menu also includes pasta, Caesar salad, fries, and milkshakes. The format is fast food with dine-in options: bright interior, large tables, screens with menus. Delivery operates from 11:00, average time — 30 minutes. Combo deals — a great option for groups. There is a children's menu and a birthday party area."
+      }
+    },
+    "photos": ["images/poi/pizza-house-1.webp"],
+    "rating": 4.1,
+    "reviewCount": 234,
+    "hours": {
+      "mon": "10:00-23:00",
+      "tue": "10:00-23:00",
+      "wed": "10:00-23:00",
+      "thu": "10:00-23:00",
+      "fri": "10:00-00:00",
+      "sat": "10:00-00:00",
+      "sun": "10:00-22:00"
+    },
+    "phone": "+7 (8672) 50-65-31",
+    "priceLevel": 1,
+    "tags": ["пицца", "фастфуд", "доставка", "детское меню"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 9800,
+    "hasMenu": true,
+    "hasDelivery": true
+  },
+  {
+    "id": "poi-041",
+    "slug": "coffee-house-vladikavkaz",
+    "name": { "ru": "Coffee House", "en": "Coffee House" },
+    "category": "food",
+    "subcategory": "Кофейня",
+    "cuisineType": "european",
+    "location": {
+      "lat": 43.0382,
+      "lng": 44.6745,
+      "address": { "ru": "ул. Кирова, 50, Владикавказ", "en": "50 Kirova St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Кофейня с авторскими напитками и десертами",
+        "en": "Coffee shop with signature drinks and desserts"
+      },
+      "medium": {
+        "ru": "«Coffee House» — уютная кофейня в центре города. Кофе из зёрен specialty-класса, авторские напитки, свежая выпечка и десерты от собственного кондитера.",
+        "en": "Coffee House is a cozy coffee shop in the city center. Specialty-grade coffee beans, signature drinks, fresh pastries, and desserts from their own pastry chef."
+      },
+      "full": {
+        "ru": "«Coffee House» — третья волна кофейной культуры во Владикавказе. Здесь обжаривают зёрна самостоятельно — из Эфиопии, Колумбии, Бразилии. Готовят на профессиональном оборудовании: эспрессо, V60, кемекс, аэропресс. Авторские напитки — раф с лавандой, латте с осетинским мёдом, бамбл с облепихой. Кондитер готовит на месте: чизкейки, эклеры, тарты. Интерьер — скандинавский минимализм: светлое дерево, растения, большие окна. Wi-Fi, розетки, книжная полка. Идеальное место для работы с ноутбуком или встречи с друзьями.",
+        "en": "Coffee House represents the third wave of coffee culture in Vladikavkaz. They roast beans themselves — from Ethiopia, Colombia, Brazil. Prepared on professional equipment: espresso, V60, Chemex, AeroPress. Signature drinks — raf with lavender, latte with Ossetian honey, bumble with sea buckthorn. The pastry chef prepares on-site: cheesecakes, eclairs, tarts. The interior features Scandinavian minimalism: light wood, plants, large windows. Wi-Fi, outlets, bookshelf. An ideal place for working with a laptop or meeting friends."
+      }
+    },
+    "photos": ["images/poi/coffee-house-1.webp"],
+    "rating": 4.7,
+    "reviewCount": 221,
+    "hours": {
+      "mon": "07:30-22:00",
+      "tue": "07:30-22:00",
+      "wed": "07:30-22:00",
+      "thu": "07:30-22:00",
+      "fri": "07:30-23:00",
+      "sat": "08:00-23:00",
+      "sun": "08:00-21:00"
+    },
+    "phone": "+7 (8672) 57-49-05",
+    "priceLevel": 2,
+    "tags": ["кофе", "specialty", "десерты", "Wi-Fi", "коворкинг"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 11200,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-042",
+    "slug": "barbaris-restaurant",
+    "name": { "ru": "Барбарис", "en": "Barbaris" },
+    "category": "food",
+    "subcategory": "Ресторан",
+    "cuisineType": "mixed",
+    "location": {
+      "lat": 43.0400,
+      "lng": 44.6770,
+      "address": { "ru": "ул. Горького, 14, Владикавказ", "en": "14 Gorkogo St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Ресторан европейской и кавказской кухни",
+        "en": "European and Caucasian cuisine restaurant"
+      },
+      "medium": {
+        "ru": "«Барбарис» — ресторан, объединяющий лучшее из европейской и кавказской кухни. Стейки, пасты, осетинские пироги и грузинские хинкали в одном меню.",
+        "en": "Barbaris is a restaurant combining the best of European and Caucasian cuisine. Steaks, pastas, Ossetian pies, and Georgian khinkali in one menu."
+      },
+      "full": {
+        "ru": "Ресторан «Барбарис» — универсальное заведение для тех, кто не может выбрать между Европой и Кавказом. Европейская часть меню: стейки из мраморной говядины, ризотто, крем-супы, салат нисуаз. Кавказская часть: осетинские пироги, шашлык, хинкали, лобио. Шеф-повар умело сочетает традиции: например, стейк подаётся с соусом ткемали, а паста — с осетинским сыром. Интерьер современный, с элементами лофта. Есть летняя терраса. Бизнес-ланчи в будние дни — от 350 рублей. Подходит для деловых встреч и семейных ужинов.",
+        "en": "Restaurant Barbaris is a versatile establishment for those who can't choose between Europe and the Caucasus. European menu section: marble beef steaks, risotto, cream soups, Niçoise salad. Caucasian section: Ossetian pies, shashlik, khinkali, lobio. The chef skillfully combines traditions: for example, steak is served with tkemali sauce, and pasta with Ossetian cheese. The interior is modern with loft elements. There is a summer terrace. Business lunches on weekdays from 350 rubles. Suitable for business meetings and family dinners."
+      }
+    },
+    "photos": ["images/poi/barbaris-1.webp"],
+    "rating": 4.4,
+    "reviewCount": 165,
+    "hours": {
+      "mon": "11:00-23:00",
+      "tue": "11:00-23:00",
+      "wed": "11:00-23:00",
+      "thu": "11:00-23:00",
+      "fri": "11:00-00:00",
+      "sat": "11:00-00:00",
+      "sun": "12:00-22:00"
+    },
+    "phone": "+7 (8672) 52-17-84",
+    "priceLevel": 2,
+    "tags": ["европейская кухня", "кавказская кухня", "стейки", "бизнес-ланч"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 5800,
+    "hasMenu": true,
+    "hasDelivery": true
+  },
+  {
+    "id": "poi-043",
+    "slug": "terek-restaurant",
+    "name": { "ru": "Терек", "en": "Terek" },
+    "category": "food",
+    "subcategory": "Ресторан",
+    "cuisineType": "mixed",
+    "location": {
+      "lat": 43.0345,
+      "lng": 44.6680,
+      "address": { "ru": "наб. Терека, 5, Владикавказ", "en": "5 Terek Embankment, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Ресторан на набережной с видом на реку Терек",
+        "en": "Restaurant on the embankment with views of the Terek River"
+      },
+      "medium": {
+        "ru": "«Терек» — ресторан на набережной одноимённой реки. Панорамные окна с видом на бурный Терек, разнообразное меню из кавказских и европейских блюд.",
+        "en": "Terek is a restaurant on the embankment of the river of the same name. Panoramic windows with views of the rapid Terek, a diverse menu of Caucasian and European dishes."
+      },
+      "full": {
+        "ru": "Ресторан «Терек» расположен на набережной с потрясающим видом на горную реку. Панорамное остекление позволяет любоваться водой и горами прямо из-за стола. Меню объединяет кавказскую и европейскую кухни: форель из горных рек, стейки на гриле, осетинские пироги, салаты из сезонных овощей. Особая гордость — речная рыба, приготовленная на углях. Летняя веранда нависает прямо над рекой — одно из самых живописных мест для ужина во Владикавказе. Винная карта включает местные и импортные вина. Романтические ужины, дни рождения, корпоративы.",
+        "en": "Restaurant Terek is located on the embankment with a stunning view of the mountain river. Panoramic glazing allows you to admire the water and mountains right from your table. The menu combines Caucasian and European cuisines: trout from mountain rivers, grilled steaks, Ossetian pies, seasonal vegetable salads. The special pride is river fish cooked on charcoal. The summer terrace overhangs the river — one of the most scenic dinner spots in Vladikavkaz. The wine list includes local and imported wines. Romantic dinners, birthdays, corporate events."
+      }
+    },
+    "photos": ["images/poi/terek-1.webp"],
+    "rating": 4.6,
+    "reviewCount": 187,
+    "hours": {
+      "mon": "12:00-23:00",
+      "tue": "12:00-23:00",
+      "wed": "12:00-23:00",
+      "thu": "12:00-23:00",
+      "fri": "12:00-01:00",
+      "sat": "12:00-01:00",
+      "sun": "12:00-22:00"
+    },
+    "phone": "+7 (8672) 56-40-12",
+    "priceLevel": 3,
+    "tags": ["вид на реку", "набережная", "рыба", "романтический ужин"],
+    "isChain": false,
+    "subscriptionTier": "premium",
+    "visitCount": 7400,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-044",
+    "slug": "sky-lounge-restaurant",
+    "name": { "ru": "Sky Lounge", "en": "Sky Lounge" },
+    "category": "food",
+    "subcategory": "Ресторан",
+    "cuisineType": "mixed",
+    "location": {
+      "lat": 43.0365,
+      "lng": 44.6820,
+      "address": { "ru": "пр. Коста, 88, 7 этаж, Владикавказ", "en": "88 Kosta Ave, 7th floor, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Ресторан с панорамным видом на город и горы",
+        "en": "Restaurant with panoramic views of the city and mountains"
+      },
+      "medium": {
+        "ru": "«Sky Lounge» — ресторан на седьмом этаже с панорамным видом на Владикавказ и Кавказский хребет. Авторская кухня, коктейльная карта и атмосфера премиального отдыха.",
+        "en": "Sky Lounge is a restaurant on the seventh floor with panoramic views of Vladikavkaz and the Caucasus Range. Signature cuisine, cocktail menu, and a premium leisure atmosphere."
+      },
+      "full": {
+        "ru": "«Sky Lounge» — самое высокое ресторанное заведение Владикавказа с потрясающими видами на город и снежные вершины Кавказа. Панорамные окна на 360 градусов, на закате горы окрашиваются в розовый и золотой. Авторская кухня сочетает кавказские продукты с европейскими техниками: тартар из говядины с осетинскими травами, ризотто с местными грибами, десерты с горным мёдом. Коктейльная карта — авторские коктейли на основе местных ингредиентов. Диджей по пятницам и субботам. Дресс-код: smart casual. Бронирование обязательно на выходные.",
+        "en": "Sky Lounge is the highest restaurant in Vladikavkaz with stunning views of the city and the snowy peaks of the Caucasus. 360-degree panoramic windows — at sunset the mountains are painted in pink and gold. The signature cuisine combines Caucasian products with European techniques: beef tartare with Ossetian herbs, risotto with local mushrooms, desserts with mountain honey. The cocktail menu features signature cocktails based on local ingredients. DJ on Fridays and Saturdays. Dress code: smart casual. Reservations required on weekends."
+      }
+    },
+    "photos": ["images/poi/sky-lounge-1.webp"],
+    "rating": 4.5,
+    "reviewCount": 134,
+    "hours": {
+      "mon": "17:00-00:00",
+      "tue": "17:00-00:00",
+      "wed": "17:00-00:00",
+      "thu": "17:00-00:00",
+      "fri": "17:00-02:00",
+      "sat": "17:00-02:00",
+      "sun": "15:00-23:00"
+    },
+    "phone": "+7 (8672) 59-71-28",
+    "priceLevel": 3,
+    "tags": ["панорамный вид", "коктейли", "авторская кухня", "premium"],
+    "isChain": false,
+    "subscriptionTier": "premium",
+    "visitCount": 4600,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-045",
+    "slug": "art-cafe",
+    "name": { "ru": "Арт-кафе", "en": "Art Cafe" },
+    "category": "food",
+    "subcategory": "Кафе",
+    "cuisineType": "mixed",
+    "location": {
+      "lat": 43.0415,
+      "lng": 44.6738,
+      "address": { "ru": "ул. Бутырина, 7, Владикавказ", "en": "7 Butyrina St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Креативная кухня в арт-пространстве",
+        "en": "Creative cuisine in an art space"
+      },
+      "medium": {
+        "ru": "«Арт-кафе» — место, где еда встречается с искусством. Креативные блюда, выставки местных художников и поэтические вечера в одном пространстве.",
+        "en": "Art Cafe is a place where food meets art. Creative dishes, exhibitions by local artists, and poetry evenings in one space."
+      },
+      "full": {
+        "ru": "«Арт-кафе» — культурное пространство нового формата во Владикавказе. Стены украшены работами местных художников — экспозиция обновляется каждый месяц. В меню — креативные блюда с кавказским акцентом: боул с булгуром и гранатом, брускетта с осетинским сыром и инжиром, крем-суп из тыквы с горными травами. Каждый четверг — поэтические вечера, каждую субботу — живая акустическая музыка. Кофе варят на зерне из местной обжарки. Атмосфера творческая, публика — художники, музыканты, студенты. Место, где рождаются идеи.",
+        "en": "Art Cafe is a new-format cultural space in Vladikavkaz. Walls are decorated with works by local artists — the exhibition is updated monthly. The menu features creative dishes with a Caucasian accent: bowl with bulgur and pomegranate, bruschetta with Ossetian cheese and figs, pumpkin cream soup with mountain herbs. Every Thursday — poetry evenings, every Saturday — live acoustic music. Coffee is brewed with locally roasted beans. The atmosphere is creative, the crowd — artists, musicians, students. A place where ideas are born."
+      }
+    },
+    "photos": ["images/poi/art-cafe-1.webp"],
+    "rating": 4.5,
+    "reviewCount": 143,
+    "hours": {
+      "mon": "10:00-23:00",
+      "tue": "10:00-23:00",
+      "wed": "10:00-23:00",
+      "thu": "10:00-00:00",
+      "fri": "10:00-00:00",
+      "sat": "10:00-00:00",
+      "sun": "11:00-22:00"
+    },
+    "phone": "+7 (8672) 53-25-67",
+    "priceLevel": 2,
+    "tags": ["креативная кухня", "арт-пространство", "выставки", "живая музыка"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 5300,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-046",
+    "slug": "magnit-supermarket",
+    "name": { "ru": "Магнит", "en": "Magnit" },
+    "category": "shopping",
+    "subcategory": "Супермаркет",
+    "location": {
+      "lat": 43.0358,
+      "lng": 44.6762,
+      "address": { "ru": "пр. Мира, 40, Владикавказ", "en": "40 Mira Ave, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Сетевой супермаркет с продуктами и товарами",
+        "en": "Chain supermarket with groceries and goods"
+      },
+      "medium": {
+        "ru": "«Магнит» — один из крупнейших сетевых супермаркетов России. Широкий ассортимент продуктов, бытовой химии и товаров первой необходимости по доступным ценам.",
+        "en": "Magnit is one of the largest chain supermarkets in Russia. A wide range of groceries, household chemicals, and essential goods at affordable prices."
+      },
+      "full": {
+        "ru": "Супермаркет «Магнит» на проспекте Мира — удобная точка для покупки продуктов в центре Владикавказа. Здесь можно найти всё необходимое: свежие овощи и фрукты, молочные продукты, мясо, хлеб и выпечку, напитки, бытовую химию и товары для дома. Работает собственная пекарня — свежий хлеб и булочки в течение дня. Есть отдел готовой еды: салаты, горячие блюда, выпечка. Принимают банковские карты и бонусную карту «Магнит». Удобные часы работы — до позднего вечера без выходных.",
+        "en": "Magnit supermarket on Mira Avenue is a convenient spot for grocery shopping in central Vladikavkaz. You can find everything you need: fresh vegetables and fruits, dairy products, meat, bread and pastries, drinks, household chemicals, and home goods. They have their own bakery — fresh bread and rolls throughout the day. There is a ready-made food section: salads, hot dishes, pastries. Bank cards and Magnit bonus cards are accepted. Convenient hours — open until late evening every day."
+      }
+    },
+    "photos": ["images/poi/magnit-1.webp"],
+    "rating": 4.0,
+    "reviewCount": 89,
+    "hours": {
+      "mon": "07:00-23:00",
+      "tue": "07:00-23:00",
+      "wed": "07:00-23:00",
+      "thu": "07:00-23:00",
+      "fri": "07:00-23:00",
+      "sat": "07:00-23:00",
+      "sun": "07:00-23:00"
+    },
+    "phone": "+7 (8672) 50-10-01",
+    "priceLevel": 1,
+    "tags": ["супермаркет", "продукты", "бытовая химия", "сеть"],
+    "isChain": true,
+    "subscriptionTier": "free",
+    "visitCount": 22000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-047",
+    "slug": "pyatyorochka-supermarket",
+    "name": { "ru": "Пятёрочка", "en": "Pyatyorochka" },
+    "category": "shopping",
+    "subcategory": "Супермаркет",
+    "location": {
+      "lat": 43.0392,
+      "lng": 44.6795,
+      "address": { "ru": "ул. Кирова, 64, Владикавказ", "en": "64 Kirova St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Сетевой магазин у дома с выгодными ценами",
+        "en": "Chain convenience store with good prices"
+      },
+      "medium": {
+        "ru": "«Пятёрочка» — популярный сетевой магазин формата «у дома». Продукты питания, товары первой необходимости, собственная выпечка и регулярные акции.",
+        "en": "Pyatyorochka is a popular chain convenience store. Groceries, essential goods, own bakery, and regular promotions."
+      },
+      "full": {
+        "ru": "«Пятёрочка» на улице Кирова — магазин шаговой доступности в центре Владикавказа. Ассортимент включает все основные категории: молочные продукты, мясо и рыба, овощи и фрукты, крупы, напитки, снеки, бытовая химия. Собственная пекарня работает с утра — свежий хлеб, пирожки, сладкая выпечка. Регулярные акции и скидки по карте «Пятёрочка». Отдел готовой еды — удобно для перекуса в дороге. Кассы самообслуживания ускоряют процесс покупки. Работает ежедневно до 23:00.",
+        "en": "Pyatyorochka on Kirova Street is a walkable convenience store in central Vladikavkaz. The range includes all main categories: dairy, meat and fish, vegetables and fruits, grains, drinks, snacks, household chemicals. Own bakery operates from morning — fresh bread, pies, sweet pastries. Regular promotions and discounts with the Pyatyorochka card. Ready-made food section — convenient for a snack on the go. Self-checkout registers speed up the shopping process. Open daily until 23:00."
+      }
+    },
+    "photos": ["images/poi/pyatyorochka-1.webp"],
+    "rating": 3.9,
+    "reviewCount": 76,
+    "hours": {
+      "mon": "07:00-23:00",
+      "tue": "07:00-23:00",
+      "wed": "07:00-23:00",
+      "thu": "07:00-23:00",
+      "fri": "07:00-23:00",
+      "sat": "07:00-23:00",
+      "sun": "07:00-23:00"
+    },
+    "phone": "+7 (8672) 50-20-02",
+    "priceLevel": 1,
+    "tags": ["супермаркет", "продукты", "акции", "сеть"],
+    "isChain": true,
+    "subscriptionTier": "free",
+    "visitCount": 19500,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-048",
+    "slug": "lenta-hypermarket",
+    "name": { "ru": "Лента", "en": "Lenta" },
+    "category": "shopping",
+    "subcategory": "Гипермаркет",
+    "location": {
+      "lat": 43.0280,
+      "lng": 44.6620,
+      "address": { "ru": "ул. Пожарского, 3, Владикавказ", "en": "3 Pozharskogo St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Гипермаркет с огромным ассортиментом",
+        "en": "Hypermarket with a huge assortment"
+      },
+      "medium": {
+        "ru": "«Лента» — крупный гипермаркет на окраине центра. Продукты оптом и в розницу, бытовая техника, одежда, товары для дома. Большая бесплатная парковка.",
+        "en": "Lenta is a large hypermarket on the edge of the center. Groceries wholesale and retail, household appliances, clothing, homeware. Large free parking."
+      },
+      "full": {
+        "ru": "Гипермаркет «Лента» — самый большой магазин во Владикавказе. На площади более 5000 кв.м. представлены тысячи товаров: продукты питания, бытовая техника, электроника, одежда, товары для спорта, сада и дома. Выгодно покупать большие упаковки — цена за единицу значительно ниже. Собственные торговые марки «Лента» предлагают качественные продукты по сниженным ценам. Есть кафетерий, аптека и пункт выдачи интернет-заказов. Бесплатная парковка на 200 машин. Удобно для закупки на неделю или для большой семьи.",
+        "en": "Lenta hypermarket is the largest store in Vladikavkaz. On an area of over 5000 sq.m., thousands of products are presented: groceries, household appliances, electronics, clothing, sports, garden, and home goods. Buying large packages is profitable — the unit price is significantly lower. Lenta's own brands offer quality products at reduced prices. There is a cafeteria, pharmacy, and online order pickup point. Free parking for 200 cars. Convenient for weekly shopping or for a large family."
+      }
+    },
+    "photos": ["images/poi/lenta-1.webp"],
+    "rating": 4.1,
+    "reviewCount": 134,
+    "hours": {
+      "mon": "08:00-23:00",
+      "tue": "08:00-23:00",
+      "wed": "08:00-23:00",
+      "thu": "08:00-23:00",
+      "fri": "08:00-23:00",
+      "sat": "08:00-23:00",
+      "sun": "08:00-22:00"
+    },
+    "phone": "+7 (8672) 50-30-03",
+    "priceLevel": 1,
+    "tags": ["гипермаркет", "продукты", "опт", "парковка", "сеть"],
+    "isChain": true,
+    "subscriptionTier": "free",
+    "visitCount": 16800,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-049",
+    "slug": "tsum-vladikavkaz",
+    "name": { "ru": "ЦУМ", "en": "TsUM Department Store" },
+    "category": "shopping",
+    "subcategory": "Универмаг",
+    "location": {
+      "lat": 43.0375,
+      "lng": 44.6750,
+      "address": { "ru": "пр. Мира, 34, Владикавказ", "en": "34 Mira Ave, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Центральный универсальный магазин Владикавказа",
+        "en": "Central department store of Vladikavkaz"
+      },
+      "medium": {
+        "ru": "ЦУМ — главный универмаг Владикавказа на проспекте Мира. Одежда, обувь, аксессуары, косметика и парфюмерия от российских и зарубежных брендов.",
+        "en": "TsUM is the main department store in Vladikavkaz on Mira Avenue. Clothing, shoes, accessories, cosmetics, and perfumery from Russian and international brands."
+      },
+      "full": {
+        "ru": "ЦУМ (Центральный универсальный магазин) — историческое торговое здание на проспекте Мира, работающее с советских времён. Четыре этажа: первый — косметика, парфюмерия, аксессуары; второй — женская одежда и обувь; третий — мужская одежда; четвёртый — детские товары и домашний текстиль. Представлены как известные бренды, так и продукция местных производителей. На первом этаже — отдел сувениров с осетинской тематикой: магниты, кинжалы, национальные украшения. Для туриста — отличное место купить подарки и памятные вещи.",
+        "en": "TsUM (Central Department Store) is a historic shopping building on Mira Avenue, operating since Soviet times. Four floors: first — cosmetics, perfumery, accessories; second — women's clothing and shoes; third — men's clothing; fourth — children's goods and home textiles. Both well-known brands and local manufacturers are represented. On the first floor — a souvenir section with Ossetian themes: magnets, daggers, national jewelry. For tourists — an excellent place to buy gifts and memorabilia."
+      }
+    },
+    "photos": ["images/poi/tsum-1.webp"],
+    "rating": 3.8,
+    "reviewCount": 95,
+    "hours": {
+      "mon": "09:00-20:00",
+      "tue": "09:00-20:00",
+      "wed": "09:00-20:00",
+      "thu": "09:00-20:00",
+      "fri": "09:00-20:00",
+      "sat": "09:00-20:00",
+      "sun": "10:00-18:00"
+    },
+    "phone": "+7 (8672) 53-50-50",
+    "priceLevel": 2,
+    "tags": ["универмаг", "одежда", "сувениры", "косметика"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 8900,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-050",
+    "slug": "central-market",
+    "name": { "ru": "Центральный рынок", "en": "Central Market" },
+    "category": "shopping",
+    "subcategory": "Рынок",
+    "location": {
+      "lat": 43.0340,
+      "lng": 44.6710,
+      "address": { "ru": "ул. Дзержинского, 20, Владикавказ", "en": "20 Dzerzhinskogo St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Главный рынок Владикавказа с местными продуктами",
+        "en": "Main market in Vladikavkaz with local products"
+      },
+      "medium": {
+        "ru": "Центральный рынок — сердце торговой жизни Владикавказа. Свежие фрукты и овощи, осетинский сыр, специи, мёд, мясо и рыба прямо от фермеров.",
+        "en": "The Central Market is the heart of Vladikavkaz's trading life. Fresh fruits and vegetables, Ossetian cheese, spices, honey, meat, and fish directly from farmers."
+      },
+      "full": {
+        "ru": "Центральный рынок Владикавказа — место, которое обязательно нужно посетить туристу. Здесь можно купить настоящий осетинский сыр ручной работы, горный мёд, чурчхелу, аджику, сванскую соль, специи для кавказских блюд. Мясные ряды предлагают свежую баранину и говядину с горных пастбищ. Овощные ряды — сезонные овощи и фрукты: помидоры, перцы, хурма, гранаты. Торговаться — часть культуры! Продавцы охотно угощают и рассказывают о своих продуктах. Лучшее время для визита — утро, когда всё самое свежее. Кошелёк и сумки держите при себе.",
+        "en": "The Central Market of Vladikavkaz is a must-visit for tourists. Here you can buy real handmade Ossetian cheese, mountain honey, churchkhela, adjika, Svan salt, spices for Caucasian dishes. Meat rows offer fresh lamb and beef from mountain pastures. Vegetable rows — seasonal vegetables and fruits: tomatoes, peppers, persimmons, pomegranates. Bargaining is part of the culture! Vendors willingly treat you and tell about their products. Best time to visit is morning, when everything is freshest. Keep your wallet and bags close."
+      }
+    },
+    "photos": ["images/poi/central-market-1.webp"],
+    "rating": 4.3,
+    "reviewCount": 267,
+    "hours": {
+      "mon": "07:00-18:00",
+      "tue": "07:00-18:00",
+      "wed": "07:00-18:00",
+      "thu": "07:00-18:00",
+      "fri": "07:00-18:00",
+      "sat": "06:00-17:00",
+      "sun": "07:00-15:00"
+    },
+    "phone": "+7 (8672) 53-11-22",
+    "priceLevel": 1,
+    "tags": ["рынок", "фермерские продукты", "сыр", "специи", "сувениры"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 25000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-051",
+    "slug": "apteka-zdorovye",
+    "name": { "ru": "Аптека «Здоровье»", "en": "Zdorovye Pharmacy" },
+    "category": "practical",
+    "subcategory": "Аптека",
+    "location": {
+      "lat": 43.0370,
+      "lng": 44.6775,
+      "address": { "ru": "ул. Кирова, 46, Владикавказ", "en": "46 Kirova St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Аптека с широким ассортиментом лекарств",
+        "en": "Pharmacy with a wide range of medicines"
+      },
+      "medium": {
+        "ru": "Аптека «Здоровье» — надёжная аптека в центре города. Лекарства, витамины, медицинские изделия, косметика. Квалифицированная консультация фармацевта.",
+        "en": "Zdorovye Pharmacy is a reliable pharmacy in the city center. Medicines, vitamins, medical products, cosmetics. Qualified pharmacist consultation."
+      },
+      "full": {
+        "ru": "Аптека «Здоровье» работает в центре Владикавказа и предлагает полный ассортимент лекарственных средств, включая рецептурные и безрецептурные препараты. В наличии: обезболивающие, антигистаминные, средства от простуды, антисептики, перевязочные материалы, витамины. Также представлена лечебная косметика, средства гигиены и детское питание. Фармацевты консультируют по подбору аналогов и взаимодействию препаратов. Для туриста — удобное расположение на центральной улице, основные лекарства всегда в наличии. Принимают карты.",
+        "en": "Zdorovye Pharmacy operates in central Vladikavkaz and offers a full range of medicines, including prescription and over-the-counter drugs. Available: painkillers, antihistamines, cold remedies, antiseptics, bandaging materials, vitamins. Also presented: medicinal cosmetics, hygiene products, and baby food. Pharmacists provide consultations on selecting alternatives and drug interactions. For tourists — convenient location on the central street, essential medicines always in stock. Cards accepted."
+      }
+    },
+    "photos": ["images/poi/apteka-zdorovye-1.webp"],
+    "rating": 4.2,
+    "reviewCount": 54,
+    "hours": {
+      "mon": "08:00-21:00",
+      "tue": "08:00-21:00",
+      "wed": "08:00-21:00",
+      "thu": "08:00-21:00",
+      "fri": "08:00-21:00",
+      "sat": "08:00-20:00",
+      "sun": "09:00-18:00"
+    },
+    "phone": "+7 (8672) 54-33-21",
+    "priceLevel": 2,
+    "tags": ["аптека", "лекарства", "витамины", "медицина"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 6700,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-052",
+    "slug": "apteka-farmatsiya",
+    "name": { "ru": "Аптека «Фармация»", "en": "Farmatsiya Pharmacy" },
+    "category": "practical",
+    "subcategory": "Аптека",
+    "location": {
+      "lat": 43.0395,
+      "lng": 44.6825,
+      "address": { "ru": "пр. Коста, 72, Владикавказ", "en": "72 Kosta Ave, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Круглосуточная аптека с доставкой",
+        "en": "24-hour pharmacy with delivery"
+      },
+      "medium": {
+        "ru": "Аптека «Фармация» — круглосуточная аптека на проспекте Коста. Полный ассортимент лекарств, изготовление рецептурных препаратов, доставка по городу.",
+        "en": "Farmatsiya Pharmacy is a 24-hour pharmacy on Kosta Avenue. Full range of medicines, compounding of prescription drugs, city delivery."
+      },
+      "full": {
+        "ru": "Аптека «Фармация» — одна из немногих круглосуточных аптек Владикавказа. Работает без перерывов и выходных, что особенно ценно для туристов. Помимо стандартного ассортимента лекарств, здесь изготавливают рецептурные препараты на заказ — мази, растворы, капли. Есть отдел ортопедических товаров: стельки, бандажи, корсеты. Работает доставка лекарств по городу — заказ через телефон, привозят в течение часа. Фармацевты говорят по-русски и по-осетински. Принимают наличные и карты.",
+        "en": "Farmatsiya Pharmacy is one of the few 24-hour pharmacies in Vladikavkaz. It operates without breaks or days off, which is especially valuable for tourists. In addition to the standard range of medicines, they compound prescription drugs to order — ointments, solutions, drops. There is an orthopedic products section: insoles, braces, corsets. Medicine delivery across the city is available — order by phone, delivered within an hour. Pharmacists speak Russian and Ossetian. Cash and cards accepted."
+      }
+    },
+    "photos": ["images/poi/apteka-farmatsiya-1.webp"],
+    "rating": 4.4,
+    "reviewCount": 87,
+    "hours": {
+      "mon": "00:00-24:00",
+      "tue": "00:00-24:00",
+      "wed": "00:00-24:00",
+      "thu": "00:00-24:00",
+      "fri": "00:00-24:00",
+      "sat": "00:00-24:00",
+      "sun": "00:00-24:00"
+    },
+    "phone": "+7 (8672) 56-19-44",
+    "priceLevel": 2,
+    "tags": ["аптека", "круглосуточно", "доставка", "рецептурный отдел"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 8400,
+    "hasMenu": false,
+    "hasDelivery": true
+  },
+  {
+    "id": "poi-053",
+    "slug": "sberbank-atm",
+    "name": { "ru": "Банкомат Сбер", "en": "Sber ATM" },
+    "category": "practical",
+    "subcategory": "Банкомат",
+    "location": {
+      "lat": 43.0363,
+      "lng": 44.6758,
+      "address": { "ru": "пр. Мира, 36, Владикавказ", "en": "36 Mira Ave, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Банкомат Сбербанка с функцией приёма и выдачи",
+        "en": "Sberbank ATM with deposit and withdrawal functions"
+      },
+      "medium": {
+        "ru": "Банкомат Сбербанка на проспекте Мира — снятие и внесение наличных, оплата услуг, переводы. Работает круглосуточно, поддерживает карты Мир, Visa, Mastercard.",
+        "en": "Sberbank ATM on Mira Avenue — cash withdrawal and deposit, bill payments, transfers. Open 24/7, supports Mir, Visa, Mastercard."
+      },
+      "full": {
+        "ru": "Банкомат Сбербанка расположен в холле отделения на проспекте Мира — одном из самых проходных мест города. Функции: снятие наличных (до 150 000 руб./день), внесение наличных, оплата коммунальных услуг, мобильной связи, штрафов, налогов. Поддерживает бесконтактную оплату и карты систем Мир, Visa, Mastercard. Банкомат работает круглосуточно, даже когда отделение банка закрыто. Для иностранных туристов: возможно снятие наличных с карт международных платёжных систем (комиссия зависит от банка-эмитента).",
+        "en": "The Sberbank ATM is located in the branch lobby on Mira Avenue — one of the busiest spots in the city. Functions: cash withdrawal (up to 150,000 RUB/day), cash deposit, utility payments, mobile top-up, fines, taxes. Supports contactless payment and Mir, Visa, Mastercard systems. The ATM operates 24/7, even when the bank branch is closed. For foreign tourists: cash withdrawal from international payment system cards is possible (commission depends on the issuing bank)."
+      }
+    },
+    "photos": ["images/poi/sber-atm-1.webp"],
+    "rating": 4.0,
+    "reviewCount": 42,
+    "hours": {
+      "mon": "00:00-24:00",
+      "tue": "00:00-24:00",
+      "wed": "00:00-24:00",
+      "thu": "00:00-24:00",
+      "fri": "00:00-24:00",
+      "sat": "00:00-24:00",
+      "sun": "00:00-24:00"
+    },
+    "phone": "900",
+    "priceLevel": 0,
+    "tags": ["банкомат", "Сбербанк", "наличные", "круглосуточно"],
+    "isChain": true,
+    "subscriptionTier": "free",
+    "visitCount": 18000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-054",
+    "slug": "tbank-atm",
+    "name": { "ru": "Банкомат Т-банк", "en": "T-Bank ATM" },
+    "category": "practical",
+    "subcategory": "Банкомат",
+    "location": {
+      "lat": 43.0388,
+      "lng": 44.6808,
+      "address": { "ru": "ул. Ватутина, 48, Владикавказ", "en": "48 Vatutina St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Банкомат Т-банка для снятия и внесения наличных",
+        "en": "T-Bank ATM for cash withdrawal and deposit"
+      },
+      "medium": {
+        "ru": "Банкомат Т-банка (бывший Тинькофф) — снятие наличных без комиссии для клиентов Т-банка, внесение наличных, оплата услуг. Работает круглосуточно.",
+        "en": "T-Bank ATM (formerly Tinkoff) — fee-free cash withdrawal for T-Bank clients, cash deposit, bill payments. Open 24/7."
+      },
+      "full": {
+        "ru": "Банкомат Т-банка (бывший Тинькофф) на улице Ватутина — удобная точка для клиентов одного из самых популярных онлайн-банков России. Снятие наличных для клиентов Т-банка — без комиссии до определённого лимита. Также можно внести наличные на карту, оплатить услуги и совершить перевод. Банкомат принимает карты Мир, Visa и Mastercard. Расположен в торговом центре — легко найти. Работает круглосуточно. Для туристов: если вы клиент Т-банка, это ваш банкомат без дополнительных комиссий.",
+        "en": "T-Bank ATM (formerly Tinkoff) on Vatutina Street is a convenient spot for clients of one of Russia's most popular online banks. Cash withdrawal for T-Bank clients is fee-free up to a certain limit. You can also deposit cash to your card, pay for services, and make transfers. The ATM accepts Mir, Visa, and Mastercard. Located in a shopping center — easy to find. Open 24/7. For tourists: if you are a T-Bank client, this is your fee-free ATM."
+      }
+    },
+    "photos": ["images/poi/tbank-atm-1.webp"],
+    "rating": 4.1,
+    "reviewCount": 38,
+    "hours": {
+      "mon": "00:00-24:00",
+      "tue": "00:00-24:00",
+      "wed": "00:00-24:00",
+      "thu": "00:00-24:00",
+      "fri": "00:00-24:00",
+      "sat": "00:00-24:00",
+      "sun": "00:00-24:00"
+    },
+    "phone": "8-800-555-77-78",
+    "priceLevel": 0,
+    "tags": ["банкомат", "Т-банк", "Тинькофф", "наличные", "круглосуточно"],
+    "isChain": true,
+    "subscriptionTier": "free",
+    "visitCount": 12500,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-055",
+    "slug": "pochta-rossii",
+    "name": { "ru": "Почта России", "en": "Russian Post" },
+    "category": "practical",
+    "subcategory": "Почта",
+    "location": {
+      "lat": 43.0352,
+      "lng": 44.6732,
+      "address": { "ru": "ул. Горького, 6, Владикавказ", "en": "6 Gorkogo St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Главное почтовое отделение Владикавказа",
+        "en": "Main post office of Vladikavkaz"
+      },
+      "medium": {
+        "ru": "Почта России — главное почтовое отделение города. Отправка писем и посылок, получение корреспонденции, денежные переводы и оплата услуг.",
+        "en": "Russian Post — the city's main post office. Sending letters and parcels, receiving mail, money transfers, and bill payments."
+      },
+      "full": {
+        "ru": "Главное почтовое отделение Владикавказа (индекс 362000) расположено на улице Горького. Услуги: отправка писем, бандеролей и посылок по России и за рубеж, получение заказных и международных отправлений, денежные переводы (Почта России, Western Union), оплата коммунальных услуг, подписка на периодику. Работает пункт выдачи интернет-заказов. Для туриста: можно отправить открытку домой из Владикавказа — в продаже есть открытки с видами города и Кавказских гор. Время ожидания в очереди может быть значительным — лучше приходить утром.",
+        "en": "The main post office of Vladikavkaz (postal code 362000) is located on Gorkogo Street. Services: sending letters, parcels domestically and internationally, receiving registered and international mail, money transfers (Russian Post, Western Union), utility payments, periodical subscriptions. Online order pickup point is available. For tourists: you can send a postcard home from Vladikavkaz — postcards with city views and Caucasus mountains are on sale. Queue waiting times can be significant — it's better to come in the morning."
+      }
+    },
+    "photos": ["images/poi/pochta-rossii-1.webp"],
+    "rating": 3.5,
+    "reviewCount": 112,
+    "hours": {
+      "mon": "08:00-20:00",
+      "tue": "08:00-20:00",
+      "wed": "08:00-20:00",
+      "thu": "08:00-20:00",
+      "fri": "08:00-20:00",
+      "sat": "09:00-18:00",
+      "sun": "closed"
+    },
+    "phone": "+7 (8672) 53-00-62",
+    "priceLevel": 1,
+    "tags": ["почта", "посылки", "письма", "переводы", "открытки"],
+    "isChain": true,
+    "subscriptionTier": "free",
+    "visitCount": 9500,
+    "hasMenu": false,
+    "hasDelivery": false
+  }
+]

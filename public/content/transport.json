@@ -1,0 +1,141 @@
+{
+  "routes": [
+    {
+      "id": "route-001",
+      "number": "15",
+      "name": { "ru": "Маршрутка №15: Аэропорт — Центр — Южный район", "en": "Marshrutka #15: Airport — Center — Southern District" },
+      "type": "marshrutka",
+      "fare": 30,
+      "currency": "RUB",
+      "frequency": { "ru": "Каждые 10-15 минут", "en": "Every 10-15 minutes" },
+      "hours": "06:00-22:00",
+      "stops": [
+        { "name": { "ru": "Аэропорт Беслан", "en": "Beslan Airport" }, "lat": 43.2052, "lng": 44.6065 },
+        { "name": { "ru": "Автовокзал", "en": "Bus Station" }, "lat": 43.0458, "lng": 44.6505 },
+        { "name": { "ru": "ул. Кирова", "en": "Kirova St." }, "lat": 43.0420, "lng": 44.6560 },
+        { "name": { "ru": "ЦУМ", "en": "Central Department Store" }, "lat": 43.0388, "lng": 44.6625 },
+        { "name": { "ru": "пр. Мира / Горького", "en": "Mira Ave. / Gorky" }, "lat": 43.0370, "lng": 44.6678 },
+        { "name": { "ru": "Набережная Терека", "en": "Terek Embankment" }, "lat": 43.0350, "lng": 44.6690 },
+        { "name": { "ru": "Площадь Ленина", "en": "Lenin Square" }, "lat": 43.0335, "lng": 44.6720 },
+        { "name": { "ru": "ул. Барбашова", "en": "Barbashova St." }, "lat": 43.0298, "lng": 44.6812 },
+        { "name": { "ru": "Южный район", "en": "Southern District" }, "lat": 43.0240, "lng": 44.6870 }
+      ]
+    },
+    {
+      "id": "route-002",
+      "number": "21",
+      "name": { "ru": "Маршрутка №21: ЖД Вокзал — Проспект Мира — Редант", "en": "Marshrutka #21: Railway Station — Mira Ave. — Redant" },
+      "type": "marshrutka",
+      "fare": 28,
+      "currency": "RUB",
+      "frequency": { "ru": "Каждые 8-12 минут", "en": "Every 8-12 minutes" },
+      "hours": "06:00-22:30",
+      "stops": [
+        { "name": { "ru": "ЖД Вокзал", "en": "Railway Station" }, "lat": 43.0435, "lng": 44.6730 },
+        { "name": { "ru": "ул. Маркуса", "en": "Markusa St." }, "lat": 43.0415, "lng": 44.6715 },
+        { "name": { "ru": "Парк Хетагурова", "en": "Khetagurov Park" }, "lat": 43.0400, "lng": 44.6650 },
+        { "name": { "ru": "пр. Мира / Джанаева", "en": "Mira Ave. / Dzhanaeva" }, "lat": 43.0372, "lng": 44.6665 },
+        { "name": { "ru": "пр. Мира / Горького", "en": "Mira Ave. / Gorky" }, "lat": 43.0370, "lng": 44.6678 },
+        { "name": { "ru": "пр. Мира / Церетели", "en": "Mira Ave. / Tsereteli" }, "lat": 43.0358, "lng": 44.6695 },
+        { "name": { "ru": "Мечеть Мухтарова", "en": "Mukhtarov Mosque" }, "lat": 43.0340, "lng": 44.6720 },
+        { "name": { "ru": "ул. Ватутина", "en": "Vatutina St." }, "lat": 43.0310, "lng": 44.6760 },
+        { "name": { "ru": "Редант", "en": "Redant" }, "lat": 43.0250, "lng": 44.6850 }
+      ]
+    },
+    {
+      "id": "route-003",
+      "number": "35",
+      "name": { "ru": "Автобус №35: Северо-западный — Центр — Молоканка", "en": "Bus #35: Northwest — Center — Molokanka" },
+      "type": "bus",
+      "fare": 25,
+      "currency": "RUB",
+      "frequency": { "ru": "Каждые 12-18 минут", "en": "Every 12-18 minutes" },
+      "hours": "06:30-21:30",
+      "stops": [
+        { "name": { "ru": "Северо-западный район", "en": "Northwestern District" }, "lat": 43.0520, "lng": 44.6420 },
+        { "name": { "ru": "ул. Пушкинская", "en": "Pushkinskaya St." }, "lat": 43.0490, "lng": 44.6480 },
+        { "name": { "ru": "Автовокзал", "en": "Bus Station" }, "lat": 43.0458, "lng": 44.6505 },
+        { "name": { "ru": "ул. Кирова / Тамаева", "en": "Kirova / Tamaeva" }, "lat": 43.0410, "lng": 44.6580 },
+        { "name": { "ru": "пр. Мира / Бутырина", "en": "Mira Ave. / Butyrina" }, "lat": 43.0375, "lng": 44.6658 },
+        { "name": { "ru": "Площадь Свободы", "en": "Freedom Square" }, "lat": 43.0360, "lng": 44.6700 },
+        { "name": { "ru": "Дендрарий", "en": "Dendrarium" }, "lat": 43.0320, "lng": 44.6740 },
+        { "name": { "ru": "Молоканка", "en": "Molokanka" }, "lat": 43.0280, "lng": 44.6780 }
+      ]
+    },
+    {
+      "id": "route-004",
+      "number": "8",
+      "name": { "ru": "Маршрутка №8: Промышленный — Центральный рынок — Горбольница", "en": "Marshrutka #8: Industrial — Central Market — City Hospital" },
+      "type": "marshrutka",
+      "fare": 28,
+      "currency": "RUB",
+      "frequency": { "ru": "Каждые 10-15 минут", "en": "Every 10-15 minutes" },
+      "hours": "06:00-21:00",
+      "stops": [
+        { "name": { "ru": "Промышленный район", "en": "Industrial District" }, "lat": 43.0560, "lng": 44.6580 },
+        { "name": { "ru": "ул. Калинина", "en": "Kalinina St." }, "lat": 43.0500, "lng": 44.6600 },
+        { "name": { "ru": "Центральный рынок", "en": "Central Market" }, "lat": 43.0430, "lng": 44.6605 },
+        { "name": { "ru": "ул. Кирова / Маркуса", "en": "Kirova / Markusa" }, "lat": 43.0400, "lng": 44.6640 },
+        { "name": { "ru": "пр. Мира (центр)", "en": "Mira Ave. (center)" }, "lat": 43.0367, "lng": 44.6678 },
+        { "name": { "ru": "ул. Коста Хетагурова", "en": "Kosta Khetagurov St." }, "lat": 43.0345, "lng": 44.6700 },
+        { "name": { "ru": "Городская больница", "en": "City Hospital" }, "lat": 43.0310, "lng": 44.6590 }
+      ]
+    },
+    {
+      "id": "route-005",
+      "number": "50",
+      "name": { "ru": "Автобус №50: Владикавказ — Беслан (пригородный)", "en": "Bus #50: Vladikavkaz — Beslan (suburban)" },
+      "type": "bus",
+      "fare": 50,
+      "currency": "RUB",
+      "frequency": { "ru": "Каждые 20-30 минут", "en": "Every 20-30 minutes" },
+      "hours": "06:00-20:00",
+      "stops": [
+        { "name": { "ru": "Автовокзал Владикавказ", "en": "Vladikavkaz Bus Station" }, "lat": 43.0458, "lng": 44.6505 },
+        { "name": { "ru": "Выезд из города", "en": "City Exit" }, "lat": 43.0600, "lng": 44.6400 },
+        { "name": { "ru": "с. Карджин", "en": "Kardzhin village" }, "lat": 43.1100, "lng": 44.6200 },
+        { "name": { "ru": "Беслан (центр)", "en": "Beslan (center)" }, "lat": 43.1857, "lng": 44.5433 },
+        { "name": { "ru": "Аэропорт Владикавказ", "en": "Vladikavkaz Airport" }, "lat": 43.2052, "lng": 44.6065 }
+      ]
+    },
+    {
+      "id": "route-006",
+      "number": "12",
+      "name": { "ru": "Маршрутка №12: Владикавказ — Чми — Балта", "en": "Marshrutka #12: Vladikavkaz — Chmi — Balta" },
+      "type": "marshrutka",
+      "fare": 45,
+      "currency": "RUB",
+      "frequency": { "ru": "Каждые 30-40 минут", "en": "Every 30-40 minutes" },
+      "hours": "07:00-19:00",
+      "stops": [
+        { "name": { "ru": "Автовокзал Владикавказ", "en": "Vladikavkaz Bus Station" }, "lat": 43.0458, "lng": 44.6505 },
+        { "name": { "ru": "с. Чми", "en": "Chmi village" }, "lat": 42.9650, "lng": 44.6600 },
+        { "name": { "ru": "с. Балта", "en": "Balta village" }, "lat": 42.9200, "lng": 44.6500 }
+      ]
+    }
+  ],
+  "taxis": [
+    {
+      "name": { "ru": "Яндекс Такси", "en": "Yandex Taxi" },
+      "app": "yandex.taxi",
+      "phone": "8-800-770-00-50",
+      "avgPriceKm": 12,
+      "currency": "RUB",
+      "description": { "ru": "Самое популярное такси во Владикавказе. Работает через приложение.", "en": "The most popular taxi in Vladikavkaz. Works via app." }
+    },
+    {
+      "name": { "ru": "Максим", "en": "Maxim Taxi" },
+      "app": "taximaxim",
+      "phone": "8 (8672) 33-33-33",
+      "avgPriceKm": 10,
+      "currency": "RUB",
+      "description": { "ru": "Бюджетное такси с возможностью заказа по телефону.", "en": "Budget taxi with phone booking option." }
+    }
+  ],
+  "tips": [
+    { "ru": "Маршрутки — основной транспорт. Остановку можно попросить в любом месте маршрута.", "en": "Marshrutkas are the main transport. You can request a stop anywhere along the route." },
+    { "ru": "Оплата наличными водителю при выходе. Готовьте мелкие купюры.", "en": "Pay cash to the driver when exiting. Have small bills ready." },
+    { "ru": "В горные ущелья общественный транспорт не ходит — только такси или экскурсионные туры.", "en": "Public transport doesn't go to mountain gorges — only taxis or guided tours." },
+    { "ru": "Аэропорт находится в Беслане, 25 км от центра. Такси до центра — 500-800 руб.", "en": "The airport is in Beslan, 25 km from the center. Taxi to the center costs 500-800 RUB." }
+  ]
+}

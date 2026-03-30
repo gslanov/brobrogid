@@ -1,0 +1,117 @@
+{
+  "app": {
+    "name": "BROBROGID",
+    "tagline": "Vladikavkaz Travel Guide"
+  },
+  "tabs": {
+    "explore": "Explore",
+    "map": "Map",
+    "saved": "Saved",
+    "profile": "Profile"
+  },
+  "categories": {
+    "attractions": "Attractions",
+    "food": "Food & Drink",
+    "accommodation": "Accommodation",
+    "nature": "Nature",
+    "culture": "Culture & History",
+    "shopping": "Shopping",
+    "nightlife": "Nightlife",
+    "transport": "Transport",
+    "activities": "Activities",
+    "practical": "Practical Info"
+  },
+  "food": {
+    "national": "National Cuisine",
+    "european": "European Cuisine",
+    "mixed": "Mixed"
+  },
+  "poi": {
+    "openNow": "Open Now",
+    "closed": "Closed",
+    "reviews": "Reviews",
+    "photos": "Photos",
+    "directions": "Directions",
+    "save": "Save",
+    "share": "Share",
+    "addToTrip": "Add to Trip",
+    "seeMenu": "See Menu",
+    "order": "Order",
+    "call": "Call",
+    "website": "Website"
+  },
+  "search": {
+    "placeholder": "Search places, tours, restaurants...",
+    "recent": "Recent",
+    "popular": "Popular",
+    "noResults": "No results found",
+    "filters": "Filters"
+  },
+  "tours": {
+    "title": "Tours & Excursions",
+    "recruiting": "Recruiting",
+    "full": "Group Full",
+    "completed": "Completed",
+    "book": "Book Now",
+    "spotsLeft": "{{count}} spots left",
+    "perPerson": "per person",
+    "duration": "Duration"
+  },
+  "guides": {
+    "title": "Guides",
+    "tours": "tours",
+    "languages": "Languages",
+    "rating": "Rating"
+  },
+  "ordering": {
+    "menu": "Menu",
+    "cart": "Cart",
+    "addToCart": "Add to Cart",
+    "total": "Total",
+    "checkout": "Checkout",
+    "payViaSBP": "Pay via SBP",
+    "comment": "Order comment",
+    "empty": "Cart is empty"
+  },
+  "emergency": {
+    "title": "Emergency Services",
+    "police": "Police",
+    "ambulance": "Ambulance",
+    "fire": "Fire Department",
+    "hospital": "Hospitals",
+    "trauma": "Trauma Center",
+    "pharmacy": "Pharmacy",
+    "call": "Call",
+    "navigate": "Navigate"
+  },
+  "subscription": {
+    "title": "Subscription",
+    "1week": "1 Week",
+    "2weeks": "2 Weeks",
+    "3weeks": "3 Weeks",
+    "features": "Features",
+    "subscribe": "Subscribe"
+  },
+  "saved": {
+    "title": "Saved",
+    "empty": "Nothing saved yet",
+    "collections": "Collections"
+  },
+  "profile": {
+    "title": "Profile",
+    "visited": "Places visited",
+    "language": "Language",
+    "settings": "Settings",
+    "about": "About"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "back": "Back",
+    "close": "Close",
+    "more": "More",
+    "showAll": "Show All",
+    "rub": "₽"
+  }
+}

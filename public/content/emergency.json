@@ -1,0 +1,106 @@
+{
+  "emergencyNumbers": [
+    { "service": { "ru": "Единый номер экстренных служб", "en": "Universal Emergency Number" }, "number": "112", "description": { "ru": "Бесплатный вызов с любого телефона", "en": "Free call from any phone" } },
+    { "service": { "ru": "Полиция", "en": "Police" }, "number": "102", "alternativeNumber": "02", "description": { "ru": "Вызов полиции, подача заявлений", "en": "Police call, filing reports" } },
+    { "service": { "ru": "Скорая медицинская помощь", "en": "Ambulance" }, "number": "103", "alternativeNumber": "03", "description": { "ru": "Вызов бригады скорой помощи", "en": "Emergency medical services" } },
+    { "service": { "ru": "Пожарная служба", "en": "Fire Department" }, "number": "101", "alternativeNumber": "01", "description": { "ru": "Вызов пожарной охраны и спасателей", "en": "Fire and rescue services" } },
+    { "service": { "ru": "Газовая служба", "en": "Gas Emergency" }, "number": "104", "alternativeNumber": "04", "description": { "ru": "Утечка газа, аварии газового оборудования", "en": "Gas leaks, gas equipment emergencies" } },
+    { "service": { "ru": "МЧС", "en": "Ministry of Emergency Situations" }, "number": "8 (8672) 53-44-55", "description": { "ru": "Управление МЧС по РСО-Алания", "en": "EMERCOM department for North Ossetia-Alania" } }
+  ],
+  "hospitals": [
+    {
+      "name": { "ru": "Республиканская клиническая больница (РКБ)", "en": "Republican Clinical Hospital" },
+      "address": { "ru": "ул. Барбашова, 39", "en": "39 Barbashova St." },
+      "phone": "8 (8672) 53-75-07",
+      "location": { "lat": 43.0298, "lng": 44.6812 },
+      "type": "hospital",
+      "hasEmergency": true,
+      "description": { "ru": "Крупнейшая многопрофильная больница республики с приёмным отделением 24/7", "en": "The largest multi-specialty hospital in the republic with 24/7 emergency room" }
+    },
+    {
+      "name": { "ru": "Центральная городская клиническая больница (ЦГКБ)", "en": "Central City Clinical Hospital" },
+      "address": { "ru": "ул. Тельмана, 68", "en": "68 Telman St." },
+      "phone": "8 (8672) 76-21-40",
+      "location": { "lat": 43.0412, "lng": 44.6534 },
+      "type": "hospital",
+      "hasEmergency": true,
+      "description": { "ru": "Городская больница с круглосуточным приёмным покоем и отделением скорой помощи", "en": "City hospital with 24/7 emergency room and ambulance department" }
+    },
+    {
+      "name": { "ru": "Клиническая больница скорой помощи (КБСП)", "en": "Emergency Clinical Hospital" },
+      "address": { "ru": "ул. Генерала Плиева, 10", "en": "10 General Pliev St." },
+      "phone": "8 (8672) 54-82-30",
+      "location": { "lat": 43.0355, "lng": 44.6590 },
+      "type": "hospital",
+      "hasEmergency": true,
+      "description": { "ru": "Больница экстренной медицинской помощи, приём круглосуточно", "en": "Emergency medical care hospital, 24/7 admission" }
+    },
+    {
+      "name": { "ru": "Республиканская детская клиническая больница", "en": "Republican Children's Clinical Hospital" },
+      "address": { "ru": "ул. Бутырина, 28", "en": "28 Butyrina St." },
+      "phone": "8 (8672) 53-19-72",
+      "location": { "lat": 43.0340, "lng": 44.6755 },
+      "type": "hospital",
+      "hasEmergency": true,
+      "description": { "ru": "Специализированная детская больница с экстренной помощью", "en": "Specialized children's hospital with emergency care" }
+    }
+  ],
+  "traumaCenters": [
+    {
+      "name": { "ru": "Травматологический пункт КБСП", "en": "KBSP Trauma Center" },
+      "address": { "ru": "ул. Генерала Плиева, 10", "en": "10 General Pliev St." },
+      "phone": "8 (8672) 54-82-35",
+      "location": { "lat": 43.0355, "lng": 44.6590 },
+      "hours": "24/7",
+      "description": { "ru": "Травмпункт при больнице скорой помощи, работает круглосуточно", "en": "Trauma center at the emergency hospital, open 24/7" }
+    },
+    {
+      "name": { "ru": "Травматологический пункт РКБ", "en": "RKB Trauma Center" },
+      "address": { "ru": "ул. Барбашова, 39", "en": "39 Barbashova St." },
+      "phone": "8 (8672) 53-75-12",
+      "location": { "lat": 43.0298, "lng": 44.6812 },
+      "hours": "24/7",
+      "description": { "ru": "Травматологическое отделение при республиканской больнице", "en": "Trauma department at the republican hospital" }
+    }
+  ],
+  "pharmacies": [
+    {
+      "name": { "ru": "Аптека «Фармация» (центральная)", "en": "Pharmacy 'Farmatsiya' (central)" },
+      "address": { "ru": "пр. Мира, 32", "en": "32 Mira Ave." },
+      "phone": "8 (8672) 53-12-45",
+      "location": { "lat": 43.0365, "lng": 44.6680 },
+      "hours": "08:00-22:00",
+      "is24h": false
+    },
+    {
+      "name": { "ru": "Аптека «Будь здоров»", "en": "Pharmacy 'Bud Zdorov'" },
+      "address": { "ru": "ул. Кирова, 15", "en": "15 Kirova St." },
+      "phone": "8 (8672) 75-34-18",
+      "location": { "lat": 43.0380, "lng": 44.6650 },
+      "hours": "24/7",
+      "is24h": true
+    },
+    {
+      "name": { "ru": "Аптека «Ригла»", "en": "Pharmacy 'Rigla'" },
+      "address": { "ru": "ул. Маркуса, 22", "en": "22 Markusa St." },
+      "phone": "8 (8672) 51-67-23",
+      "location": { "lat": 43.0410, "lng": 44.6720 },
+      "hours": "08:00-21:00",
+      "is24h": false
+    },
+    {
+      "name": { "ru": "Аптека «36,6» (круглосуточная)", "en": "Pharmacy '36.6' (24-hour)" },
+      "address": { "ru": "ул. Коста Хетагурова, 48", "en": "48 Kosta Khetagurov St." },
+      "phone": "8 (8672) 54-90-11",
+      "location": { "lat": 43.0345, "lng": 44.6700 },
+      "hours": "24/7",
+      "is24h": true
+    }
+  ],
+  "usefulContacts": [
+    { "service": { "ru": "Туристический информационный центр", "en": "Tourist Information Center" }, "phone": "8 (8672) 54-00-15", "address": { "ru": "пр. Мира, 19", "en": "19 Mira Ave." } },
+    { "service": { "ru": "Аэропорт Владикавказ (Беслан)", "en": "Vladikavkaz Airport (Beslan)" }, "phone": "8 (8672) 23-52-10", "address": { "ru": "г. Беслан, аэропорт", "en": "Beslan, airport" } },
+    { "service": { "ru": "Железнодорожный вокзал", "en": "Railway Station" }, "phone": "8 (8672) 53-14-55", "address": { "ru": "ул. Маркуса, 24", "en": "24 Markusa St." } },
+    { "service": { "ru": "Автовокзал", "en": "Bus Station" }, "phone": "8 (8672) 74-14-74", "address": { "ru": "ул. Кирова, 120", "en": "120 Kirova St." } }
+  ]
+}

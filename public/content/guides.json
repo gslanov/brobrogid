@@ -1,0 +1,114 @@
+[
+  {
+    "id": "guide-001",
+    "name": { "ru": "Алан Дзуцев", "en": "Alan Dzutsev" },
+    "bio": {
+      "ru": "Историк и краевед с 12-летним опытом проведения экскурсий по Владикавказу и горной Осетии. Автор книги «Владикавказ: город на Тереке». Специализируется на архитектуре и истории города.",
+      "en": "Historian and local expert with 12 years of experience leading tours in Vladikavkaz and mountainous Ossetia. Author of 'Vladikavkaz: City on the Terek'. Specializes in architecture and city history."
+    },
+    "photo": "images/guides/alan-dzutsev.webp",
+    "languages": ["ru", "en", "os"],
+    "rating": 4.9,
+    "reviewCount": 187,
+    "tourCount": 342,
+    "specializations": ["История", "Архитектура", "Пешеходные экскурсии"]
+  },
+  {
+    "id": "guide-002",
+    "name": { "ru": "Залина Кокаева", "en": "Zalina Kokaeva" },
+    "bio": {
+      "ru": "Профессиональный гид-переводчик, владеет четырьмя языками. Организует гастрономические туры по Владикавказу и знакомит гостей с осетинской кухней. Выпускница СОГУ.",
+      "en": "Professional guide-interpreter fluent in four languages. Organizes gastronomic tours in Vladikavkaz and introduces guests to Ossetian cuisine. Graduate of NOSU."
+    },
+    "photo": "images/guides/zalina-kokaeva.webp",
+    "languages": ["ru", "en", "de", "os"],
+    "rating": 4.8,
+    "reviewCount": 134,
+    "tourCount": 215,
+    "specializations": ["Гастрономия", "Культура", "Переводы"]
+  },
+  {
+    "id": "guide-003",
+    "name": { "ru": "Тамерлан Габараев", "en": "Tamerlan Gabaraev" },
+    "bio": {
+      "ru": "Горный гид и инструктор по альпинизму. Знает каждую тропу в ущельях Северной Осетии. Проводит пешие и джип-туры по самым живописным маршрутам республики.",
+      "en": "Mountain guide and climbing instructor. Knows every trail in the gorges of North Ossetia. Leads hiking and jeep tours along the most scenic routes of the republic."
+    },
+    "photo": "images/guides/tamerlan-gabaraev.webp",
+    "languages": ["ru", "os"],
+    "rating": 4.9,
+    "reviewCount": 203,
+    "tourCount": 410,
+    "specializations": ["Горы", "Альпинизм", "Джип-туры", "Природа"]
+  },
+  {
+    "id": "guide-004",
+    "name": { "ru": "Мадина Хадикова", "en": "Madina Khadikova" },
+    "bio": {
+      "ru": "Искусствовед и музейный работник. Проводит авторские экскурсии по музеям и галереям Владикавказа. Рассказывает об осетинском искусстве так, что невозможно оторваться.",
+      "en": "Art historian and museum professional. Conducts signature tours of Vladikavkaz museums and galleries. Tells the story of Ossetian art in a captivating way."
+    },
+    "photo": "images/guides/madina-khadikova.webp",
+    "languages": ["ru", "en", "os"],
+    "rating": 4.7,
+    "reviewCount": 89,
+    "tourCount": 156,
+    "specializations": ["Искусство", "Музеи", "Культура"]
+  },
+  {
+    "id": "guide-005",
+    "name": { "ru": "Сослан Тедеев", "en": "Soslan Tedeev" },
+    "bio": {
+      "ru": "Фотограф и гид, специализируется на фототурах по горной Осетии. Знает лучшие точки для съёмки и организует выезды на рассвете к Мидаграбинским водопадам и Даргавсу.",
+      "en": "Photographer and guide specializing in photo tours of mountainous Ossetia. Knows the best shooting spots and organizes sunrise trips to Midagrabin waterfalls and Dargavs."
+    },
+    "photo": "images/guides/soslan-tedeev.webp",
+    "languages": ["ru", "en"],
+    "rating": 4.8,
+    "reviewCount": 112,
+    "tourCount": 198,
+    "specializations": ["Фотография", "Природа", "Горы"]
+  },
+  {
+    "id": "guide-006",
+    "name": { "ru": "Батраз Цомаев", "en": "Batraz Tsomaev" },
+    "bio": {
+      "ru": "Этнограф и знаток осетинских традиций. Проводит туры с погружением в быт горных сёл, рассказывает о нартском эпосе и древних святилищах. Член Русского географического общества.",
+      "en": "Ethnographer and expert on Ossetian traditions. Conducts immersive tours of mountain villages, tells stories of the Nart epic and ancient sanctuaries. Member of the Russian Geographical Society."
+    },
+    "photo": "images/guides/batraz-tsomaev.webp",
+    "languages": ["ru", "os"],
+    "rating": 4.9,
+    "reviewCount": 156,
+    "tourCount": 287,
+    "specializations": ["Этнография", "Традиции", "Горные сёла"]
+  },
+  {
+    "id": "guide-007",
+    "name": { "ru": "Дзерасса Бигаева", "en": "Dzerassa Bigaeva" },
+    "bio": {
+      "ru": "Молодой энергичный гид с фокусом на активный отдых и приключения. Организует рафтинг на Тереке, треккинг и велопрогулки. Сертифицированный инструктор по outdoor-активностям.",
+      "en": "Young energetic guide focused on adventure and outdoor activities. Organizes rafting on the Terek, trekking, and cycling tours. Certified outdoor activities instructor."
+    },
+    "photo": "images/guides/dzerassa-bigaeva.webp",
+    "languages": ["ru", "en", "os"],
+    "rating": 4.7,
+    "reviewCount": 78,
+    "tourCount": 124,
+    "specializations": ["Приключения", "Рафтинг", "Треккинг", "Велосипед"]
+  },
+  {
+    "id": "guide-008",
+    "name": { "ru": "Ирбек Касаев", "en": "Irbek Kasaev" },
+    "bio": {
+      "ru": "Винодел и гид, владелец небольшой винодельни в Пригородном районе. Проводит авторские винные туры с дегустацией и рассказом об истории виноделия в Осетии.",
+      "en": "Winemaker and guide, owner of a small winery in the Prigorodny district. Conducts signature wine tours with tastings and stories about the history of winemaking in Ossetia."
+    },
+    "photo": "images/guides/irbek-kasaev.webp",
+    "languages": ["ru", "os"],
+    "rating": 4.8,
+    "reviewCount": 95,
+    "tourCount": 167,
+    "specializations": ["Вино", "Гастрономия", "Дегустации"]
+  }
+]

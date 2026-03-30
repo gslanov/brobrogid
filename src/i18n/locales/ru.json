@@ -1,0 +1,117 @@
+{
+  "app": {
+    "name": "BROBROGID",
+    "tagline": "Гид по Владикавказу"
+  },
+  "tabs": {
+    "explore": "Главная",
+    "map": "Карта",
+    "saved": "Избранное",
+    "profile": "Профиль"
+  },
+  "categories": {
+    "attractions": "Достопримечательности",
+    "food": "Еда и напитки",
+    "accommodation": "Жильё",
+    "nature": "Природа",
+    "culture": "Культура и история",
+    "shopping": "Магазины",
+    "nightlife": "Ночная жизнь",
+    "transport": "Транспорт",
+    "activities": "Активности",
+    "practical": "Полезное"
+  },
+  "food": {
+    "national": "Национальная кухня",
+    "european": "Европейская кухня",
+    "mixed": "Смешанная"
+  },
+  "poi": {
+    "openNow": "Открыто",
+    "closed": "Закрыто",
+    "reviews": "Отзывы",
+    "photos": "Фото",
+    "directions": "Маршрут",
+    "save": "Сохранить",
+    "share": "Поделиться",
+    "addToTrip": "В маршрут",
+    "seeMenu": "Смотреть меню",
+    "order": "Заказать",
+    "call": "Позвонить",
+    "website": "Сайт"
+  },
+  "search": {
+    "placeholder": "Поиск мест, туров, ресторанов...",
+    "recent": "Недавние",
+    "popular": "Популярное",
+    "noResults": "Ничего не найдено",
+    "filters": "Фильтры"
+  },
+  "tours": {
+    "title": "Туры и экскурсии",
+    "recruiting": "Набор группы",
+    "full": "Группа набрана",
+    "completed": "Завершён",
+    "book": "Забронировать",
+    "spotsLeft": "Осталось мест: {{count}}",
+    "perPerson": "с человека",
+    "duration": "Длительность"
+  },
+  "guides": {
+    "title": "Гиды",
+    "tours": "туров",
+    "languages": "Языки",
+    "rating": "Рейтинг"
+  },
+  "ordering": {
+    "menu": "Меню",
+    "cart": "Корзина",
+    "addToCart": "В корзину",
+    "total": "Итого",
+    "checkout": "Оформить заказ",
+    "payViaSBP": "Оплатить через СБП",
+    "comment": "Комментарий к заказу",
+    "empty": "Корзина пуста"
+  },
+  "emergency": {
+    "title": "Экстренные службы",
+    "police": "Полиция",
+    "ambulance": "Скорая помощь",
+    "fire": "Пожарная",
+    "hospital": "Больницы",
+    "trauma": "Травмпункт",
+    "pharmacy": "Аптеки",
+    "call": "Позвонить",
+    "navigate": "Проложить маршрут"
+  },
+  "subscription": {
+    "title": "Подписка",
+    "1week": "1 неделя",
+    "2weeks": "2 недели",
+    "3weeks": "3 недели",
+    "features": "Что входит",
+    "subscribe": "Оформить"
+  },
+  "saved": {
+    "title": "Избранное",
+    "empty": "Пока ничего не сохранено",
+    "collections": "Коллекции"
+  },
+  "profile": {
+    "title": "Профиль",
+    "visited": "Посещено мест",
+    "language": "Язык",
+    "settings": "Настройки",
+    "about": "О приложении"
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "retry": "Повторить",
+    "back": "Назад",
+    "close": "Закрыть",
+    "more": "Ещё",
+    "showAll": "Показать все",
+    "rub": "₽"
+  }
+}
