@@ -35,3 +35,15 @@
 - Remote: https://github.com/gslanov/brobrogid.git (origin/master set up)
 - Status: ok
 - For next invocation: Repo is clean and fully pushed to GitHub as gslanov/brobrogid. Branch: master. Remote: origin. No pending changes except .agent/BOARD.md which is gitignored.
+
+## 2026-04-05 (session 3 — admin i18n + auth)
+- Action: 4 logical commits + push to origin/master
+- Files: auth.ts, AdminLogin.tsx, AdminLayout.tsx, router.tsx, seed.ts, LanguageToggle.tsx, all admin pages/components (27 files), en.json, ru.json, App.tsx
+- Commits:
+  - `581eb74` "feat: add admin authentication — auth.ts, AdminLogin page, layout auth guard, login route"
+  - `8f457fe` "fix: normalize emergency/transport JSON in seed.ts"
+  - `6e15f87` "feat: add i18n support to admin panel — LanguageToggle, ~230 locale keys, all pages and components migrated to i18next"
+  - `11ec6bd` "fix: restore language preference on app init (App.tsx)"
+- Remote: pushed to https://github.com/gslanov/brobrogid.git — ok
+- Status: ok
+- For next invocation: Repo is clean and pushed. Admin panel now has full i18n (RU/EN) and authentication. Branch: master. No pending changes.
