@@ -1,4 +1,17 @@
 import type { POICategory } from '@/data/types'
+import {
+  Landmark,
+  UtensilsCrossed,
+  Building,
+  TreePine,
+  Palette,
+  ShoppingBag,
+  Moon,
+  Bus,
+  Mountain,
+  Info,
+} from 'lucide-react'
+import type { LucideIcon } from 'lucide-react'
 
 export const CATEGORY_COLORS: Record<POICategory, string> = {
   attractions: '#ef4444',
@@ -13,17 +26,31 @@ export const CATEGORY_COLORS: Record<POICategory, string> = {
   practical: '#14b8a6',
 }
 
-export const CATEGORY_ICONS: Record<POICategory, string> = {
-  attractions: '🏛️',
-  food: '🍽️',
-  accommodation: '🏨',
-  nature: '🌿',
-  culture: '🎭',
-  shopping: '🛍️',
-  nightlife: '🌙',
-  transport: '🚌',
-  activities: '⛷️',
-  practical: 'ℹ️',
+export const CATEGORY_ICONS: Record<POICategory, LucideIcon> = {
+  attractions: Landmark,
+  food: UtensilsCrossed,
+  accommodation: Building,
+  nature: TreePine,
+  culture: Palette,
+  shopping: ShoppingBag,
+  nightlife: Moon,
+  transport: Bus,
+  activities: Mountain,
+  practical: Info,
+}
+
+/** Short text labels for map markers where SVG components cannot be used */
+export const CATEGORY_MAP_LABELS: Record<POICategory, string> = {
+  attractions: 'A',
+  food: 'F',
+  accommodation: 'H',
+  nature: 'N',
+  culture: 'C',
+  shopping: 'S',
+  nightlife: 'M',
+  transport: 'T',
+  activities: 'X',
+  practical: 'i',
 }
 
 export function formatPrice(price: number): string {

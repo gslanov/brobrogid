@@ -2,6 +2,7 @@ import { getDB } from '@/data/db'
 
 async function loadJSON<T>(path: string): Promise<T> {
   const res = await fetch(path)
+  if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`)
   return res.json()
 }
 
@@ -43,5 +44,4 @@ export async function seedDatabase() {
   })
 
   await tx.done
-  console.log('Database seeded successfully')
 }

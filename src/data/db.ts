@@ -19,8 +19,14 @@ let dbInstance: IDBPDatabase<BrobrogidDB> | null = null
 export async function getDB() {
   if (dbInstance) return dbInstance
 
-  dbInstance = await openDB<BrobrogidDB>('brobrogid', 1, {
-    upgrade(db) {
+  dbInstance = await openDB<BrobrogidDB>('brobrogid', 3, {
+    upgrade(db, oldVersion) {
+      // Wipe all stores on version bump to re-seed with fresh data
+      if (oldVersion < 3) {
+        for (const name of db.objectStoreNames) {
+          db.deleteObjectStore(name)
+        }
+      }
       const poiStore = db.createObjectStore('pois', { keyPath: 'id' })
       poiStore.createIndex('by-category', 'category')
       poiStore.createIndex('by-slug', 'slug')

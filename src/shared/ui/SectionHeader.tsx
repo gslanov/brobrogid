@@ -13,9 +13,9 @@ export function SectionHeader({ title, linkTo, linkText }: SectionHeaderProps) {
 
   return (
     <div className="flex items-center justify-between px-4 mb-3">
-      <h2 className="text-lg font-bold">{title}</h2>
+      <h2 className="text-lg font-semibold">{title}</h2>
       {linkTo && (
-        <button onClick={() => navigate(linkTo)} className="text-sm font-medium text-[var(--color-primary)]">
+        <button onClick={() => navigate(linkTo)} className="text-sm font-bold text-[var(--color-primary)]">
           {linkText || t('common.showAll')} →
         </button>
       )}

@@ -13,6 +13,7 @@ interface DataState {
   toggleFavorite: (poiId: string) => Promise<void>
   addToCollection: (collectionId: string, poiId: string) => Promise<void>
   createCollection: (name: string) => Promise<Collection>
+  setLanguage: (lang: 'ru' | 'en') => Promise<void>
 }
 
 const DEFAULT_PREFS: UserPreferences = {
@@ -37,14 +38,16 @@ export const useDataStore = create<DataState>((set, get) => ({
       db.getAll('collections'),
     ])
 
-    const prefs = await db.get('userPrefs', 'ru')
+    // Load prefs — try all possible language keys
+    const allPrefs = await db.getAll('userPrefs')
+    const prefs = allPrefs[0] || DEFAULT_PREFS
 
     set({
       pois,
       tours,
       guides,
       collections,
-      userPrefs: prefs || DEFAULT_PREFS,
+      userPrefs: prefs,
       isLoaded: true,
     })
   },
@@ -68,7 +71,14 @@ export const useDataStore = create<DataState>((set, get) => ({
     }
 
     await db.put('collections', updated)
-    set({ collections: collections.map((c) => (c.id === 'favorites' ? updated : c)) })
+
+    // Upsert: if favorites wasn't in state, add it; otherwise update in place
+    const existsInState = collections.some((c) => c.id === 'favorites')
+    set({
+      collections: existsInState
+        ? collections.map((c) => (c.id === 'favorites' ? updated : c))
+        : [...collections, updated],
+    })
   },
 
   addToCollection: async (collectionId: string, poiId: string) => {
@@ -93,5 +103,12 @@ export const useDataStore = create<DataState>((set, get) => ({
     await db.put('collections', collection)
     set((s) => ({ collections: [...s.collections, collection] }))
     return collection
+  },
+
+  setLanguage: async (lang: 'ru' | 'en') => {
+    const db = await getDB()
+    const prefs = { ...get().userPrefs, language: lang }
+    await db.put('userPrefs', prefs)
+    set({ userPrefs: prefs })
   },
 }))
