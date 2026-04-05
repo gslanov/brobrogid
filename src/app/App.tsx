@@ -35,7 +35,7 @@ export default function App() {
   useEffect(() => {
     if (!ready) return
     const onboarded = localStorage.getItem('brobrogid_onboarding')
-    if (!onboarded && location.pathname !== '/onboarding') {
+    if (!onboarded && location.pathname !== '/onboarding' && !location.pathname.startsWith('/admin')) {
       navigate('/onboarding', { replace: true })
     }
     // Already onboarded but on /onboarding — redirect away
@@ -76,7 +76,7 @@ export default function App() {
   }
 
   // Onboarding page — no AppShell (no tab bar)
-  if (location.pathname === '/onboarding') {
+  if (location.pathname === '/onboarding' || location.pathname.startsWith('/admin')) {
     return <>{routeElement}</>
   }
 

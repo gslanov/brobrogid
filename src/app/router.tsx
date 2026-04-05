@@ -15,6 +15,23 @@ const CartPage = lazy(() => import('@/features/ordering/pages/CartPage'))
 const EmergencyPage = lazy(() => import('@/features/emergency/pages/EmergencyPage'))
 const SubscriptionPage = lazy(() => import('@/features/subscription/pages/SubscriptionPage'))
 const OnboardingPage = lazy(() => import('@/features/onboarding/pages/OnboardingPage'))
+const AdminLayout = lazy(() => import('@/features/admin/pages/AdminLayout'))
+const AdminDashboard = lazy(() => import('@/features/admin/pages/AdminDashboard'))
+const AdminPOIList = lazy(() => import('@/features/admin/pages/AdminPOIList'))
+const AdminPOIForm = lazy(() => import('@/features/admin/pages/AdminPOIForm'))
+const AdminMenuItemList = lazy(() => import('@/features/admin/pages/AdminMenuItemList'))
+const AdminMenuItemForm = lazy(() => import('@/features/admin/pages/AdminMenuItemForm'))
+const AdminTourList = lazy(() => import('@/features/admin/pages/AdminTourList'))
+const AdminTourForm = lazy(() => import('@/features/admin/pages/AdminTourForm'))
+const AdminGuideList = lazy(() => import('@/features/admin/pages/AdminGuideList'))
+const AdminGuideForm = lazy(() => import('@/features/admin/pages/AdminGuideForm'))
+const AdminReviewList = lazy(() => import('@/features/admin/pages/AdminReviewList'))
+const AdminReviewForm = lazy(() => import('@/features/admin/pages/AdminReviewForm'))
+const AdminEmergencyList = lazy(() => import('@/features/admin/pages/AdminEmergencyList'))
+const AdminEmergencyForm = lazy(() => import('@/features/admin/pages/AdminEmergencyForm'))
+const AdminTransportList = lazy(() => import('@/features/admin/pages/AdminTransportList'))
+const AdminTransportForm = lazy(() => import('@/features/admin/pages/AdminTransportForm'))
+const AdminExport = lazy(() => import('@/features/admin/pages/AdminExport'))
 
 function Lazy({ children }: { children: React.ReactNode }) {
   return (
@@ -40,4 +57,33 @@ export const routes: RouteObject[] = [
   { path: 'emergency', element: <Lazy><EmergencyPage /></Lazy> },
   { path: 'subscription', element: <Lazy><SubscriptionPage /></Lazy> },
   { path: 'onboarding', element: <Lazy><OnboardingPage /></Lazy> },
+  {
+    path: 'admin',
+    element: <Lazy><AdminLayout /></Lazy>,
+    children: [
+      { index: true, element: <Lazy><AdminDashboard /></Lazy> },
+      { path: 'pois', element: <Lazy><AdminPOIList /></Lazy> },
+      { path: 'pois/new', element: <Lazy><AdminPOIForm /></Lazy> },
+      { path: 'pois/:id', element: <Lazy><AdminPOIForm /></Lazy> },
+      { path: 'menu-items', element: <Lazy><AdminMenuItemList /></Lazy> },
+      { path: 'menu-items/new', element: <Lazy><AdminMenuItemForm /></Lazy> },
+      { path: 'menu-items/:id', element: <Lazy><AdminMenuItemForm /></Lazy> },
+      { path: 'tours', element: <Lazy><AdminTourList /></Lazy> },
+      { path: 'tours/new', element: <Lazy><AdminTourForm /></Lazy> },
+      { path: 'tours/:id', element: <Lazy><AdminTourForm /></Lazy> },
+      { path: 'guides', element: <Lazy><AdminGuideList /></Lazy> },
+      { path: 'guides/new', element: <Lazy><AdminGuideForm /></Lazy> },
+      { path: 'guides/:id', element: <Lazy><AdminGuideForm /></Lazy> },
+      { path: 'reviews', element: <Lazy><AdminReviewList /></Lazy> },
+      { path: 'reviews/new', element: <Lazy><AdminReviewForm /></Lazy> },
+      { path: 'reviews/:id', element: <Lazy><AdminReviewForm /></Lazy> },
+      { path: 'emergency', element: <Lazy><AdminEmergencyList /></Lazy> },
+      { path: 'emergency/new', element: <Lazy><AdminEmergencyForm /></Lazy> },
+      { path: 'emergency/:id', element: <Lazy><AdminEmergencyForm /></Lazy> },
+      { path: 'transport', element: <Lazy><AdminTransportList /></Lazy> },
+      { path: 'transport/new', element: <Lazy><AdminTransportForm /></Lazy> },
+      { path: 'transport/:id', element: <Lazy><AdminTransportForm /></Lazy> },
+      { path: 'export', element: <Lazy><AdminExport /></Lazy> },
+    ],
+  },
 ]
