@@ -1,346 +1,452 @@
 [
   {
     "id": "tour-001",
-    "name": { "ru": "Старый Владикавказ: от крепости до модерна", "en": "Old Vladikavkaz: From Fortress to Art Nouveau" },
+    "name": {
+      "ru": "Куртатинское ущелье: главные места",
+      "en": "Kurtatinsky Gorge: Main Highlights"
+    },
     "description": {
-      "ru": "Пешеходная прогулка по историческому центру Владикавказа, где каждый дом хранит свою историю. Вы увидите остатки крепостных стен, великолепные особняки XIX века, старинные дворы и узнаете, как маленькая крепость на Тереке превратилась в один из красивейших городов Кавказа.\n\nМаршрут проходит по улицам Горького, Бутырина и Церетели, где сохранились уникальные образцы кавказского модерна. Гид расскажет о семьях, строивших эти дома, о нравах городской жизни позапрошлого века и о том, как переплетались русская, осетинская, грузинская и армянская культуры.\n\nВ конце прогулки — чаепитие в атмосферном дворике с осетинскими пирогами. Тур подходит для всех возрастов и уровней физической подготовки.",
-      "en": "A walking tour through the historic center of Vladikavkaz, where every building tells its own story. You'll see remnants of fortress walls, magnificent 19th-century mansions, old courtyards, and learn how a small fortress on the Terek became one of the most beautiful cities in the Caucasus.\n\nThe route passes through Gorky, Butyrina, and Tsereteli streets, where unique examples of Caucasian Art Nouveau have been preserved. The guide will tell you about the families who built these houses, about the customs of city life two centuries ago, and how Russian, Ossetian, Georgian, and Armenian cultures intertwined.\n\nThe tour ends with tea in a charming courtyard with Ossetian pies. Suitable for all ages and fitness levels."
+      "ru": "Самый доступный и популярный маршрут из Владикавказа. Протяжённое на 50 км Куртатинское ущелье — настоящий музей под открытым небом. По пути вы увидите Кадаргаванский каньон с «Тропой чудес», Дзивгисскую наскальную крепость, средневековые башни, Аланский Свято-Успенский монастырь. Дорога асфальтирована до Верхнего Фиагдона. Рекомендуется выезжать рано утром, чтобы успеть осмотреть все объекты.",
+      "en": "The most accessible and popular route from Vladikavkaz. The 50km Kurtatinsky Gorge is an open-air museum. Along the way you'll see Kadargavan Canyon with its 'Trail of Wonders', the Dzivgis Rock Fortress (largest in the Caucasus), medieval towers, and the Alansky Holy Assumption Monastery. The road is paved to Upper Fiagdon. Start early to cover all the sights."
     },
     "guideId": "guide-001",
-    "price": 2500,
-    "duration": "3 часа",
-    "type": "walking",
-    "maxGroupSize": 12,
-    "currentGroupSize": 7,
-    "status": "recruiting",
-    "dates": ["2026-04-05T10:00:00", "2026-04-12T10:00:00", "2026-04-19T10:00:00", "2026-04-26T10:00:00"],
-    "meetingPoint": { "lat": 43.0380, "lng": 44.6655, "address": { "ru": "Парк им. Хетагурова, центральный вход", "en": "Khetagurov Park, main entrance" } },
-    "route": [
-      { "lat": 43.0380, "lng": 44.6655 },
-      { "lat": 43.0375, "lng": 44.6665 },
-      { "lat": 43.0370, "lng": 44.6678 },
-      { "lat": 43.0360, "lng": 44.6695 },
-      { "lat": 43.0350, "lng": 44.6710 },
-      { "lat": 43.0340, "lng": 44.6720 },
-      { "lat": 43.0335, "lng": 44.6735 }
+    "category": "day_trip",
+    "type": "mixed",
+    "duration": "10-12 hours",
+    "price": 10000,
+    "dates": [
+      "2026-04-15",
+      "2026-04-22",
+      "2026-05-01",
+      "2026-05-10"
     ],
-    "rating": 4.9,
-    "reviewCount": 87,
-    "photos": ["images/tours/old-vladikavkaz-1.webp", "images/tours/old-vladikavkaz-2.webp", "images/tours/old-vladikavkaz-3.webp"],
-    "category": "Культурный"
-  },
-  {
-    "id": "tour-002",
-    "name": { "ru": "Проспект Мира: главная улица Кавказа", "en": "Mira Avenue: The Main Street of the Caucasus" },
-    "description": {
-      "ru": "Проспект Мира — это сердце Владикавказа, одна из самых красивых пешеходных улиц юга России. На этой прогулке вы узнаете историю каждого значимого здания на проспекте: от аптеки Мамукова до гостиницы «Империал».\n\nГид покажет дом, где останавливался Булгаков, расскажет о легендарных кофейнях и магазинах, которые работали здесь сто лет назад. Вы увидите памятник Коста Хетагурову, фонтаны, лучшие образцы городской скульптуры и узнаете, почему местные называют проспект «наш Арбат».\n\nПрогулка завершается у набережной Терека с видом на Столовую гору. По пути — остановка на кофе в одном из лучших заведений проспекта.",
-      "en": "Mira Avenue is the heart of Vladikavkaz, one of the most beautiful pedestrian streets in southern Russia. On this walk, you'll learn the history of every significant building on the avenue: from Mamukov's pharmacy to the 'Imperial' hotel.\n\nThe guide will show you the house where Bulgakov stayed, tell you about legendary cafés and shops that operated here a hundred years ago. You'll see the monument to Kosta Khetagurov, fountains, the best examples of urban sculpture, and learn why locals call the avenue 'our Arbat'.\n\nThe walk ends at the Terek embankment with views of Table Mountain. Along the way — a coffee stop at one of the best spots on the avenue."
-    },
-    "guideId": "guide-001",
-    "price": 1800,
-    "duration": "2 часа",
-    "type": "walking",
-    "maxGroupSize": 15,
-    "currentGroupSize": 11,
-    "status": "recruiting",
-    "dates": ["2026-04-04T11:00:00", "2026-04-06T11:00:00", "2026-04-11T11:00:00", "2026-04-13T11:00:00"],
-    "meetingPoint": { "lat": 43.0395, "lng": 44.6630, "address": { "ru": "Начало пр. Мира, у памятника Коста", "en": "Start of Mira Ave., at the Kosta monument" } },
-    "route": [
-      { "lat": 43.0395, "lng": 44.6630 },
-      { "lat": 43.0385, "lng": 44.6650 },
-      { "lat": 43.0375, "lng": 44.6665 },
-      { "lat": 43.0367, "lng": 44.6678 },
-      { "lat": 43.0355, "lng": 44.6700 },
-      { "lat": 43.0345, "lng": 44.6718 }
-    ],
-    "rating": 4.8,
-    "reviewCount": 124,
-    "photos": ["images/tours/prospekt-mira-tour-1.webp", "images/tours/prospekt-mira-tour-2.webp"],
-    "category": "Культурный"
-  },
-  {
-    "id": "tour-003",
-    "name": { "ru": "Набережная Терека: между водой и горами", "en": "Terek Embankment: Between Water and Mountains" },
-    "description": {
-      "ru": "Прогулка вдоль набережной бурного Терека — реки, которая дала жизнь Владикавказу. Маршрут проходит от Чугунного моста до парка «Нартон» с остановками у ключевых достопримечательностей.\n\nВы увидите мечеть Мухтарова — жемчужину кавказской архитектуры, пройдёте мимо Армянской церкви, узнаете историю мостов Владикавказа и полюбуетесь на Столовую гору, которая словно вырастает прямо из города.\n\nГид расскажет легенды о Тереке, объяснит, почему он такой мутный, и покажет место, где Лермонтов писал свои кавказские зарисовки. Прогулка неспешная, с фотопаузами у лучших видовых точек.",
-      "en": "A walk along the embankment of the turbulent Terek — the river that gave life to Vladikavkaz. The route runs from the Cast Iron Bridge to Narton Park, with stops at key landmarks.\n\nYou'll see the Mukhtarov Mosque — a jewel of Caucasian architecture, pass by the Armenian Church, learn the history of Vladikavkaz's bridges, and admire Table Mountain, which seems to rise directly from the city.\n\nThe guide will share legends about the Terek, explain why it's so murky, and show the spot where Lermontov wrote his Caucasian sketches. A leisurely walk with photo stops at the best viewpoints."
-    },
-    "guideId": "guide-004",
-    "price": 1500,
-    "duration": "2 часа",
-    "type": "walking",
-    "maxGroupSize": 15,
-    "currentGroupSize": 4,
-    "status": "recruiting",
-    "dates": ["2026-04-05T16:00:00", "2026-04-12T16:00:00", "2026-04-19T16:00:00"],
-    "meetingPoint": { "lat": 43.0355, "lng": 44.6690, "address": { "ru": "Набережная Терека, у Чугунного моста", "en": "Terek Embankment, at the Cast Iron Bridge" } },
-    "route": [
-      { "lat": 43.0355, "lng": 44.6690 },
-      { "lat": 43.0348, "lng": 44.6705 },
-      { "lat": 43.0340, "lng": 44.6720 },
-      { "lat": 43.0330, "lng": 44.6740 },
-      { "lat": 43.0320, "lng": 44.6755 }
-    ],
-    "rating": 4.7,
-    "reviewCount": 56,
-    "photos": ["images/tours/naberezhnaya-1.webp", "images/tours/naberezhnaya-2.webp"],
-    "category": "Культурный"
-  },
-  {
-    "id": "tour-004",
-    "name": { "ru": "Городские мурали и стрит-арт Владикавказа", "en": "Urban Murals and Street Art of Vladikavkaz" },
-    "description": {
-      "ru": "Владикавказ — это не только классическая архитектура, но и молодое уличное искусство. На этой прогулке вы увидите лучшие мурали города: от гигантских портретов осетинских героев до абстрактных композиций современных художников.\n\nМаршрут проходит через дворы и переулки, куда обычно не заглядывают туристы. Гид расскажет о каждом художнике, о смысле работ и о том, как стрит-арт меняет облик кавказского города. Некоторые работы посвящены нартскому эпосу, другие — современной осетинской идентичности.\n\nТур подойдёт любителям современного искусства, фотографам и всем, кто хочет увидеть нетуристический Владикавказ. Обязательно возьмите камеру!",
-      "en": "Vladikavkaz is not just classical architecture but also a young street art scene. On this walk, you'll see the city's best murals: from giant portraits of Ossetian heroes to abstract compositions by contemporary artists.\n\nThe route goes through courtyards and alleys that tourists usually miss. The guide will tell you about each artist, the meaning behind the works, and how street art is changing the face of a Caucasian city. Some works are dedicated to the Nart epic, others to contemporary Ossetian identity.\n\nPerfect for modern art lovers, photographers, and anyone who wants to see the non-touristy side of Vladikavkaz. Don't forget your camera!"
-    },
-    "guideId": "guide-005",
-    "price": 2000,
-    "duration": "2.5 часа",
-    "type": "walking",
-    "maxGroupSize": 10,
-    "currentGroupSize": 3,
-    "status": "recruiting",
-    "dates": ["2026-04-06T14:00:00", "2026-04-13T14:00:00", "2026-04-20T14:00:00"],
-    "meetingPoint": { "lat": 43.0388, "lng": 44.6625, "address": { "ru": "ЦУМ, центральный вход", "en": "Central Department Store, main entrance" } },
-    "route": [
-      { "lat": 43.0388, "lng": 44.6625 },
-      { "lat": 43.0395, "lng": 44.6640 },
-      { "lat": 43.0405, "lng": 44.6660 },
-      { "lat": 43.0398, "lng": 44.6680 },
-      { "lat": 43.0380, "lng": 44.6670 },
-      { "lat": 43.0370, "lng": 44.6650 }
-    ],
-    "rating": 4.6,
-    "reviewCount": 34,
-    "photos": ["images/tours/street-art-1.webp", "images/tours/street-art-2.webp"],
-    "category": "Культурный"
-  },
-  {
-    "id": "tour-005",
-    "name": { "ru": "Цейское ущелье: ледники и водопады", "en": "Tsey Gorge: Glaciers and Waterfalls" },
-    "description": {
-      "ru": "Однодневная поездка в легендарное Цейское ущелье — одно из самых красивых мест Кавказа. Вас ждут ледник Сказка, Цейский водопад, реликтовые леса и потрясающие виды на вершины Главного Кавказского хребта.\n\nПо дороге гид расскажет о геологии Кавказских гор, о древних аланах и их святилищах. Вы посетите святилище Реком — одно из важнейших священных мест осетин. Подъём на канатной дороге к леднику Сказка — кульминация тура.\n\nОбед в горном кафе с видом на ущелье. В стоимость входит транспорт, сопровождение гида и подъём на канатке. Рекомендуется тёплая одежда и удобная обувь.",
-      "en": "A day trip to the legendary Tsey Gorge — one of the most beautiful places in the Caucasus. You'll see the Skazka Glacier, Tsey Waterfall, relict forests, and stunning views of the Main Caucasian Range.\n\nAlong the way, the guide will tell you about the geology of the Caucasus Mountains, about the ancient Alans and their sanctuaries. You'll visit the Rekom sanctuary — one of the most important sacred sites for Ossetians. The cable car ride to Skazka Glacier is the highlight.\n\nLunch at a mountain café with gorge views. Price includes transport, guide, and cable car. Warm clothing and comfortable shoes recommended."
-    },
-    "guideId": "guide-003",
-    "price": 5500,
-    "duration": "10 часов",
-    "type": "driving",
-    "maxGroupSize": 8,
-    "currentGroupSize": 5,
-    "status": "recruiting",
-    "dates": ["2026-04-05T07:00:00", "2026-04-12T07:00:00", "2026-04-19T07:00:00", "2026-04-26T07:00:00"],
-    "meetingPoint": { "lat": 43.0367, "lng": 44.6678, "address": { "ru": "пр. Мира, у фонтана (центр)", "en": "Mira Ave., at the fountain (center)" } },
-    "route": [
-      { "lat": 43.0367, "lng": 44.6678 },
-      { "lat": 43.0100, "lng": 44.6400 },
-      { "lat": 42.9500, "lng": 44.5800 },
-      { "lat": 42.8500, "lng": 44.3500 },
-      { "lat": 42.7900, "lng": 44.2200 },
-      { "lat": 42.7560, "lng": 43.8800 }
-    ],
-    "rating": 4.9,
-    "reviewCount": 156,
-    "photos": ["images/tours/tsey-1.webp", "images/tours/tsey-2.webp", "images/tours/tsey-3.webp"],
-    "category": "Природа"
-  },
-  {
-    "id": "tour-006",
-    "name": { "ru": "Даргавс — Город мёртвых", "en": "Dargavs — City of the Dead" },
-    "description": {
-      "ru": "Поездка к одному из самых мистических мест Кавказа — средневековому некрополю Даргавс. Более 90 каменных склепов на склоне горы хранят тайны многих веков. Это место называют «Городом мёртвых», и оно производит незабываемое впечатление.\n\nПо пути вы проедете через живописное Кобанское ущелье и увидите памятники Кобанской культуры — одной из древнейших на Кавказе. Гид расскажет об истории осетинских похоронных традиций и о загадках, которые до сих пор не разгаданы учёными.\n\nВ Даргавсе также сохранились боевые и жилые башни, а виды на Гизельдонское ущелье захватывают дух. Тур включает транспорт и входные билеты.",
-      "en": "A trip to one of the most mystical places in the Caucasus — the medieval necropolis of Dargavs. Over 90 stone crypts on a mountainside hold the secrets of many centuries. Called the 'City of the Dead', it leaves an unforgettable impression.\n\nAlong the way, you'll drive through the picturesque Koban Gorge and see monuments of the Koban culture — one of the oldest in the Caucasus. The guide will tell you about the history of Ossetian funeral traditions and mysteries that scientists still haven't solved.\n\nDargavs also has preserved battle and residential towers, and the views of the Gizeldon Gorge are breathtaking. Tour includes transport and entrance tickets."
-    },
-    "guideId": "guide-006",
-    "price": 4500,
-    "duration": "8 часов",
-    "type": "driving",
     "maxGroupSize": 8,
     "currentGroupSize": 6,
     "status": "recruiting",
-    "dates": ["2026-04-06T08:00:00", "2026-04-13T08:00:00", "2026-04-20T08:00:00", "2026-04-27T08:00:00"],
-    "meetingPoint": { "lat": 43.0367, "lng": 44.6678, "address": { "ru": "пр. Мира, у фонтана", "en": "Mira Ave., at the fountain" } },
-    "route": [
-      { "lat": 43.0367, "lng": 44.6678 },
-      { "lat": 43.0100, "lng": 44.6500 },
-      { "lat": 42.9600, "lng": 44.5800 },
-      { "lat": 42.8900, "lng": 44.4700 },
-      { "lat": 42.8400, "lng": 44.4450 }
-    ],
     "rating": 4.9,
-    "reviewCount": 178,
-    "photos": ["images/tours/dargavs-1.webp", "images/tours/dargavs-2.webp", "images/tours/dargavs-3.webp"],
-    "category": "Природа"
+    "reviewCount": 52,
+    "photos": [
+      "/images/tours/old-vladikavkaz.jpg"
+    ]
   },
   {
-    "id": "tour-007",
-    "name": { "ru": "Фиагдонское ущелье и Аланский монастырь", "en": "Fiagdon Gorge and Alanian Monastery" },
-    "description": {
-      "ru": "Поездка в живописное Куртатинское (Фиагдонское) ущелье — колыбель осетинской цивилизации. Вы посетите Аланский Свято-Успенский мужской монастырь — самый высокогорный в России, расположенный на высоте 2000 метров.\n\nМаршрут проходит через средневековые башни Дзивгиса, наскальную крепость и древние святилища. Гид расскажет о Куртатинском обществе — одном из самых влиятельных в истории Осетии, и о том, как горцы строили свои каменные башни.\n\nВ программе — обед в горном селе с домашними осетинскими пирогами и свежим горным воздухом. Фотогеничность маршрута — 10 из 10.",
-      "en": "A trip to the picturesque Kurtatinsky (Fiagdon) Gorge — the cradle of Ossetian civilization. You'll visit the Alanian Holy Dormition Monastery — the highest-altitude monastery in Russia, located at 2000 meters.\n\nThe route passes through medieval towers of Dzivgis, a cliff fortress, and ancient sanctuaries. The guide will tell you about the Kurtatinsky society — one of the most influential in Ossetian history, and how mountain people built their stone towers.\n\nThe program includes lunch in a mountain village with homemade Ossetian pies and fresh mountain air. Route photogenicity — 10 out of 10."
+    "id": "tour-002",
+    "name": {
+      "ru": "Даргавс — Город мёртвых",
+      "en": "Dargavs — City of the Dead"
     },
-    "guideId": "guide-003",
-    "price": 4000,
-    "duration": "8 часов",
-    "type": "driving",
-    "maxGroupSize": 8,
-    "currentGroupSize": 8,
-    "status": "full",
-    "dates": ["2026-04-05T08:00:00", "2026-04-12T08:00:00", "2026-04-19T08:00:00"],
-    "meetingPoint": { "lat": 43.0367, "lng": 44.6678, "address": { "ru": "пр. Мира, у фонтана", "en": "Mira Ave., at the fountain" } },
-    "route": [
-      { "lat": 43.0367, "lng": 44.6678 },
-      { "lat": 43.0050, "lng": 44.6200 },
-      { "lat": 42.9400, "lng": 44.5400 },
-      { "lat": 42.8800, "lng": 44.4500 },
-      { "lat": 42.8450, "lng": 44.3800 }
-    ],
-    "rating": 4.8,
-    "reviewCount": 142,
-    "photos": ["images/tours/fiagdon-1.webp", "images/tours/fiagdon-2.webp", "images/tours/fiagdon-3.webp"],
-    "category": "Природа"
-  },
-  {
-    "id": "tour-008",
-    "name": { "ru": "Горная Осетия: перевалы и башни", "en": "Mountainous Ossetia: Passes and Towers" },
     "description": {
-      "ru": "Масштабный двухдневный тур по горной Осетии с ночёвкой в гостевом доме. Вы проедете через четыре ущелья, увидите боевые башни, наскальные крепости, горные реки и перевалы с панорамными видами.\n\nПервый день: Кобанское ущелье, Даргавс, ночёвка в горном гостевом доме с ужином. Второй день: Куртатинское ущелье, Аланский монастырь, возвращение через Архонский перевал.\n\nТур на внедорожнике, опытный водитель-гид. В стоимость входит транспорт, проживание, два обеда, ужин, входные билеты. Группа до 6 человек для максимального комфорта.",
-      "en": "An extensive two-day tour of mountainous Ossetia with an overnight stay in a guesthouse. You'll drive through four gorges, see battle towers, cliff fortresses, mountain rivers, and passes with panoramic views.\n\nDay one: Koban Gorge, Dargavs, overnight in a mountain guesthouse with dinner. Day two: Kurtatinsky Gorge, Alanian Monastery, return via Arkhon Pass.\n\nTour by SUV with experienced driver-guide. Price includes transport, accommodation, two lunches, dinner, entrance tickets. Groups of up to 6 for maximum comfort."
-    },
-    "guideId": "guide-006",
-    "price": 15000,
-    "duration": "2 дня",
-    "type": "driving",
-    "maxGroupSize": 6,
-    "currentGroupSize": 2,
-    "status": "recruiting",
-    "dates": ["2026-04-11T07:00:00", "2026-04-25T07:00:00", "2026-05-09T07:00:00"],
-    "meetingPoint": { "lat": 43.0367, "lng": 44.6678, "address": { "ru": "пр. Мира, у фонтана", "en": "Mira Ave., at the fountain" } },
-    "route": [
-      { "lat": 43.0367, "lng": 44.6678 },
-      { "lat": 42.9600, "lng": 44.5800 },
-      { "lat": 42.8400, "lng": 44.4450 },
-      { "lat": 42.8800, "lng": 44.4500 },
-      { "lat": 42.8450, "lng": 44.3800 },
-      { "lat": 42.9200, "lng": 44.5000 },
-      { "lat": 43.0367, "lng": 44.6678 }
-    ],
-    "rating": 5.0,
-    "reviewCount": 43,
-    "photos": ["images/tours/mountain-ossetia-1.webp", "images/tours/mountain-ossetia-2.webp", "images/tours/mountain-ossetia-3.webp"],
-    "category": "Природа"
-  },
-  {
-    "id": "tour-009",
-    "name": { "ru": "Вино и горы: дегустация на высоте", "en": "Wine and Mountains: Tasting at Altitude" },
-    "description": {
-      "ru": "Уникальный тур, сочетающий горные пейзажи и осетинское виноделие. Вы посетите частную винодельню в Пригородном районе, продегустируете местные сорта и узнаете, что виноделие в Осетии имеет тысячелетнюю историю.\n\nПосле дегустации — поездка в горы с пикником на фоне Кавказского хребта. Гид-винодел расскажет о сортах винограда, которые растут только здесь, о традициях осетинского застолья и о роли вина в культуре алан.\n\nВ стоимость входит дегустация 6 сортов, сырная тарелка, пикник в горах, транспорт. Минимальный возраст участников — 18 лет.",
-      "en": "A unique tour combining mountain landscapes and Ossetian winemaking. You'll visit a private winery in the Prigorodny district, taste local varieties, and learn that winemaking in Ossetia has a thousand-year history.\n\nAfter the tasting — a mountain drive with a picnic against the backdrop of the Caucasian Range. The winemaker-guide will tell you about grape varieties that grow only here, about Ossetian feast traditions, and the role of wine in Alanian culture.\n\nPrice includes tasting of 6 varieties, cheese plate, mountain picnic, transport. Minimum age — 18."
-    },
-    "guideId": "guide-008",
-    "price": 6000,
-    "duration": "6 часов",
-    "type": "mixed",
-    "maxGroupSize": 8,
-    "currentGroupSize": 4,
-    "status": "recruiting",
-    "dates": ["2026-04-05T12:00:00", "2026-04-12T12:00:00", "2026-04-19T12:00:00"],
-    "meetingPoint": { "lat": 43.0367, "lng": 44.6678, "address": { "ru": "пр. Мира, у фонтана", "en": "Mira Ave., at the fountain" } },
-    "route": [
-      { "lat": 43.0367, "lng": 44.6678 },
-      { "lat": 43.0200, "lng": 44.6400 },
-      { "lat": 43.0100, "lng": 44.6200 },
-      { "lat": 42.9800, "lng": 44.5900 },
-      { "lat": 43.0367, "lng": 44.6678 }
-    ],
-    "rating": 4.8,
-    "reviewCount": 67,
-    "photos": ["images/tours/wine-mountains-1.webp", "images/tours/wine-mountains-2.webp"],
-    "category": "Гастрономический"
-  },
-  {
-    "id": "tour-010",
-    "name": { "ru": "Гастротур: вкус Осетии", "en": "Gastro Tour: Taste of Ossetia" },
-    "description": {
-      "ru": "Полное погружение в осетинскую кухню за один день. Вы попробуете настоящие осетинские пироги в трёх разных заведениях, научитесь отличать фыдджын от уалибаха, попробуете цахтон, дзыкку и лывжу — блюда, которых нет ни в одном ресторане за пределами Осетии.\n\nГид-гастроном проведёт вас по лучшим точкам Владикавказа: от уличных пирожковых до ресторана высокой осетинской кухни. Вы посетите центральный рынок, где купите специи и домашний сыр, и заглянете на пивоварню, где варят крафтовое осетинское пиво.\n\nВ конце тура — мастер-класс по приготовлению осетинского пирога. Вы увезёте с собой не только впечатления, но и рецепт!",
-      "en": "A full immersion into Ossetian cuisine in one day. You'll taste real Ossetian pies at three different places, learn to tell fydzhyn from ualibach, try tsakhton, dzykka, and lyvzha — dishes you won't find in any restaurant outside Ossetia.\n\nThe gastro-guide will take you to the best spots in Vladikavkaz: from street pie shops to a fine Ossetian cuisine restaurant. You'll visit the central market for spices and homemade cheese, and stop by a brewery for craft Ossetian beer.\n\nThe tour ends with a master class in making Ossetian pie. You'll take home not just memories, but a recipe!"
+      "ru": "Маршрут к знаменитому «Городу мёртвых» — некрополю из более чем 90 каменных склепов XIV-XVIII веков. Из Владикавказа можно добраться через Куртатинское ущелье или через Кармадонское ущелье. Рекомендуется ехать на машине, так как общественный транспорт ходит редко (автобус до Джимары в 16:30). Захватите паспорт — маршрут проходит через пограничную зону.",
+      "en": "Route to the famous 'City of the Dead' — a necropolis of over 90 stone crypts from the 14th-18th centuries. From Vladikavkaz you can reach it via Kurtatinsky or Karmadon gorges. Driving is recommended as public transport is scarce (bus to Djimara at 16:30). Bring your passport — the route passes through a border zone."
     },
     "guideId": "guide-002",
-    "price": 4000,
-    "duration": "5 часов",
+    "category": "day_trip",
     "type": "mixed",
+    "duration": "6-8 hours",
+    "price": 3500,
+    "dates": [
+      "2026-04-15",
+      "2026-04-22",
+      "2026-05-01",
+      "2026-05-10"
+    ],
+    "maxGroupSize": 8,
+    "currentGroupSize": 2,
+    "status": "recruiting",
+    "rating": 4.3,
+    "reviewCount": 98,
+    "photos": [
+      "/images/tours/prospekt-tour.jpg"
+    ]
+  },
+  {
+    "id": "tour-003",
+    "name": {
+      "ru": "Цейское ущелье: канатка и Сказский ледник",
+      "en": "Tsey Gorge: Cable Car & Skazsky Glacier"
+    },
+    "description": {
+      "ru": "Однодневная поездка в Цейское ущелье — жемчужину Северной Осетии. По пути остановка у памятника Уастырджи над Транскамом. В Цее — подъём на канатной дороге (2000-2500 м), затем пешая экотропа 3 км к Сказскому леднику с водопадами. Обязательно посетите древнее святилище Реком. Курорт расположен в 90 км от Владикавказа.",
+      "en": "A day trip to Tsey Gorge — the jewel of North Ossetia. Stop at the Uastyrdzhi monument hanging over Transkam road. At Tsey — ride the chairlift (2000-2500m), then walk the 3km eco-trail to Skazsky Glacier with waterfalls. Visit the ancient Rekom sanctuary. The resort is about 90km from Vladikavkaz."
+    },
+    "guideId": "guide-003",
+    "category": "day_trip",
+    "type": "mixed",
+    "duration": "8-10 hours",
+    "price": 2500,
+    "dates": [
+      "2026-04-15",
+      "2026-04-22",
+      "2026-05-01",
+      "2026-05-10"
+    ],
+    "maxGroupSize": 12,
+    "currentGroupSize": 5,
+    "status": "recruiting",
+    "rating": 4.5,
+    "reviewCount": 49,
+    "photos": [
+      "/images/tours/naberezhnaya-tour.jpg"
+    ]
+  },
+  {
+    "id": "tour-004",
+    "name": {
+      "ru": "Треккинг к Цейскому леднику",
+      "en": "Trekking to Tsey Glacier"
+    },
+    "description": {
+      "ru": "Пеший маршрут от курорта Цей к языку Цейского ледника, спускающегося с массива Адай-Хох (4408 м). Тропа идёт через альпийские луга с потрясающими видами. Перепад высот от 1900 до 2500 м. Лучшее время — с июня по сентябрь. Необходима треккинговая обувь, запас воды и тёплая одежда.",
+      "en": "A hiking trail from Tsey resort to the tongue of the Tsey Glacier, descending from the Adai-Khokh massif (4408m). The path crosses alpine meadows with stunning views. Elevation range: 1900-2500m. Best from June to September. Trekking boots, water, and warm layers required."
+    },
+    "guideId": "guide-001",
+    "category": "hiking",
+    "type": "mixed",
+    "duration": "6-7 hours",
+    "price": 3500,
+    "dates": [
+      "2026-04-15",
+      "2026-04-22",
+      "2026-05-01",
+      "2026-05-10"
+    ],
+    "maxGroupSize": 12,
+    "currentGroupSize": 5,
+    "status": "recruiting",
+    "rating": 4.6,
+    "reviewCount": 90,
+    "photos": [
+      "/images/tours/street-art.jpg"
+    ]
+  },
+  {
+    "id": "tour-005",
+    "name": {
+      "ru": "Мидаграбинские водопады",
+      "en": "Midagrabin Waterfalls"
+    },
+    "description": {
+      "ru": "Путь к Мидаграбинским водопадам — одним из самых высоких в Европе (Большой Зейгелан ~750 м). Из Владикавказа через Куртатинское ущелье (~2 часа езды), затем 7 км пешком по долине от села Джимара (~1,5 часа). Водопады наиболее мощные в июле-августе. ВАЖНО: обязательно возьмите паспорт — это пограничная зона! Дорога от Фазикау грунтовая.",
+      "en": "Trail to Midagrabin Waterfalls — among the tallest in Europe (Bolshoy Zeigelan ~750m). From Vladikavkaz through Kurtatinsky Gorge (~2h drive), then 7km walk through the valley from Djimara village (~1.5h). Waterfalls are most powerful in July-August. IMPORTANT: bring your passport — this is a border zone! Road from Fazikau is unpaved."
+    },
+    "guideId": "guide-002",
+    "category": "day_trip",
+    "type": "mixed",
+    "duration": "8-10 hours (driving + 3h hiking)",
+    "price": 7500,
+    "dates": [
+      "2026-04-15",
+      "2026-04-22",
+      "2026-05-01",
+      "2026-05-10"
+    ],
+    "maxGroupSize": 10,
+    "currentGroupSize": 4,
+    "status": "recruiting",
+    "rating": 4.3,
+    "reviewCount": 11,
+    "photos": [
+      "/images/tours/tsey-tour.jpg"
+    ]
+  },
+  {
+    "id": "tour-006",
+    "name": {
+      "ru": "Дигорское ущелье: водопад Галдоридон и гора Кубус",
+      "en": "Digora Gorge: Galdoridon Waterfall & Kubus Mountain"
+    },
+    "description": {
+      "ru": "Лёгкий пеший маршрут в Дигорском ущелье. От «Тана-парк» 3 км по живописной тропе к пятиступенчатому водопаду Галдоридон (Жемчужный, 35 м). По пути — водопад «Чёртова мельница» и священная гора Кубус. Тропа простая и безопасная. Полный маршрут туда-обратно ~10 км за 4-6 часов. Летом в брызгах водопада видна радуга.",
+      "en": "An easy hiking trail in Digora Gorge. From Tana Park hotel, walk 3km along a scenic path to the five-tiered Galdoridon (Jewel) Waterfall at 35m. Along the way — Devil's Mill waterfall and the sacred Kubus Mountain. Trail is simple and safe. Full round trip ~10km in 4-6 hours. Rainbows appear in the waterfall spray in summer."
+    },
+    "guideId": "guide-003",
+    "category": "hiking",
+    "type": "mixed",
+    "duration": "5-6 hours",
+    "price": 10000,
+    "dates": [
+      "2026-04-15",
+      "2026-04-22",
+      "2026-05-01",
+      "2026-05-10"
+    ],
     "maxGroupSize": 10,
     "currentGroupSize": 7,
     "status": "recruiting",
-    "dates": ["2026-04-04T11:00:00", "2026-04-06T11:00:00", "2026-04-11T11:00:00", "2026-04-13T11:00:00", "2026-04-18T11:00:00"],
-    "meetingPoint": { "lat": 43.0430, "lng": 44.6605, "address": { "ru": "Центральный рынок, главный вход", "en": "Central Market, main entrance" } },
-    "route": [
-      { "lat": 43.0430, "lng": 44.6605 },
-      { "lat": 43.0400, "lng": 44.6620 },
-      { "lat": 43.0375, "lng": 44.6665 },
-      { "lat": 43.0367, "lng": 44.6678 },
-      { "lat": 43.0355, "lng": 44.6700 },
-      { "lat": 43.0370, "lng": 44.6670 }
-    ],
-    "rating": 4.9,
-    "reviewCount": 98,
-    "photos": ["images/tours/gastro-1.webp", "images/tours/gastro-2.webp", "images/tours/gastro-3.webp"],
-    "category": "Гастрономический"
+    "rating": 4.8,
+    "reviewCount": 94,
+    "photos": [
+      "/images/tours/dargavs-tour.jpg"
+    ]
   },
   {
-    "id": "tour-011",
-    "name": { "ru": "Фототур: рассвет над Кавказом", "en": "Photo Tour: Sunrise Over the Caucasus" },
-    "description": {
-      "ru": "Фототур для тех, кто хочет привезти из Осетии невероятные кадры. Ранний выезд к Мидаграбинским водопадам — самым высоким в Европе — чтобы застать рассветный свет на скалах и водных каскадах.\n\nГид-фотограф подскажет лучшие ракурсы, поможет с настройками камеры и покажет точки, которые не найти в путеводителях. По пути — остановки у горных рек, средневековых башен и панорамных смотровых площадок.\n\nТур подходит как для профессионалов, так и для любителей с телефонами. Уровень подготовки не важен — важно желание увидеть красоту. Возвращение к обеду.",
-      "en": "A photo tour for those who want to bring back incredible shots from Ossetia. Early departure to Midagrabin Waterfalls — the highest in Europe — to catch the sunrise light on rocks and cascades.\n\nThe photographer-guide will suggest the best angles, help with camera settings, and show spots you won't find in guidebooks. Along the way — stops at mountain rivers, medieval towers, and panoramic viewpoints.\n\nSuitable for both professionals and amateurs with phones. Skill level doesn't matter — what matters is the desire to see beauty. Return by lunchtime."
+    "id": "tour-007",
+    "name": {
+      "ru": "Таймазинские водопады «Три сестры»",
+      "en": "Taymazi Waterfalls 'Three Sisters'"
     },
-    "guideId": "guide-005",
-    "price": 5000,
-    "duration": "7 часов",
+    "description": {
+      "ru": "Маршрут к знаменитым Таймазинским водопадам «Три сестры» в Дигории. Три мощных потока падают с ледника Таймази, центральный — около 300 м. По пути — каньон Ахсинта с Чёртовым мостом. Перепад высот 1740-2340 м. Требуется хорошая физическая форма и треккинговая обувь. Маршрут туда-обратно ~14 км.",
+      "en": "Route to the famous Taymazi 'Three Sisters' Waterfalls in Digoria. Three powerful streams cascade from the Taymazi glacier — the central one drops ~300m. Along the way — Akhsinta Canyon with Devil's Bridge. Elevation range: 1740-2340m. Good fitness and trekking boots required. Round trip ~14km."
+    },
+    "guideId": "guide-001",
+    "category": "hiking",
     "type": "mixed",
-    "maxGroupSize": 6,
-    "currentGroupSize": 3,
-    "status": "recruiting",
-    "dates": ["2026-04-05T05:00:00", "2026-04-12T05:00:00", "2026-04-19T05:00:00", "2026-04-26T05:00:00"],
-    "meetingPoint": { "lat": 43.0367, "lng": 44.6678, "address": { "ru": "пр. Мира, у фонтана", "en": "Mira Ave., at the fountain" } },
-    "route": [
-      { "lat": 43.0367, "lng": 44.6678 },
-      { "lat": 42.9800, "lng": 44.6200 },
-      { "lat": 42.9200, "lng": 44.5500 },
-      { "lat": 42.8100, "lng": 44.4000 },
-      { "lat": 42.7500, "lng": 44.3300 }
+    "duration": "6-7 hours",
+    "price": 4500,
+    "dates": [
+      "2026-04-15",
+      "2026-04-22",
+      "2026-05-01",
+      "2026-05-10"
     ],
-    "rating": 4.9,
-    "reviewCount": 72,
-    "photos": ["images/tours/photo-tour-1.webp", "images/tours/photo-tour-2.webp", "images/tours/photo-tour-3.webp"],
-    "category": "Фотография"
-  },
-  {
-    "id": "tour-012",
-    "name": { "ru": "Приключенческий: рафтинг + треккинг + пикник", "en": "Adventure: Rafting + Trekking + Picnic" },
-    "description": {
-      "ru": "День для тех, кто любит адреналин! Утром — рафтинг по Тереку на участке 2-й категории сложности (безопасно, но весело). Затем — треккинг по живописной тропе вдоль горной реки с выходом к водопаду.\n\nПосле активной части — заслуженный пикник на берегу реки с шашлыком, свежими овощами и горным чаем. Всё снаряжение для рафтинга предоставляется, инструктаж обязателен.\n\nТур подходит для людей с базовым уровнем физической подготовки. Дети от 12 лет — с родителями. Мокрая одежда гарантирована, запасной комплект — рекомендуется!",
-      "en": "A day for adrenaline lovers! Morning — rafting on the Terek, Class 2 rapids (safe but fun). Then — trekking along a scenic trail by a mountain river leading to a waterfall.\n\nAfter the active part — a well-deserved riverside picnic with shashlik, fresh vegetables, and mountain tea. All rafting equipment provided, briefing is mandatory.\n\nSuitable for people with basic fitness. Children 12+ with parents. Getting wet is guaranteed, spare clothes recommended!"
-    },
-    "guideId": "guide-007",
-    "price": 7000,
-    "duration": "9 часов",
-    "type": "mixed",
     "maxGroupSize": 8,
     "currentGroupSize": 5,
     "status": "recruiting",
-    "dates": ["2026-05-01T08:00:00", "2026-05-09T08:00:00", "2026-05-16T08:00:00", "2026-05-23T08:00:00"],
-    "meetingPoint": { "lat": 43.0367, "lng": 44.6678, "address": { "ru": "пр. Мира, у фонтана", "en": "Mira Ave., at the fountain" } },
-    "route": [
-      { "lat": 43.0367, "lng": 44.6678 },
-      { "lat": 42.9800, "lng": 44.6500 },
-      { "lat": 42.9500, "lng": 44.6300 },
-      { "lat": 42.9200, "lng": 44.6100 },
-      { "lat": 42.9000, "lng": 44.5900 }
+    "rating": 4.5,
+    "reviewCount": 22,
+    "photos": [
+      "/images/tours/fiagdon-tour.jpg"
+    ]
+  },
+  {
+    "id": "tour-008",
+    "name": {
+      "ru": "Караугомский ледник",
+      "en": "Karaugom Glacier Trek"
+    },
+    "description": {
+      "ru": "Сложный дневной треккинг к Караугомскому леднику — второму по величине на Большом Кавказе (длина ~13 км, площадь 35 кв.км). Уникальное явление: ледник спускается прямо в хвойный лес. Маршрут от села Дзинага через ущелье реки Караугом. Перепад высот значительный. Требуется отличная физическая форма, треккинговая обувь, запас воды и еды.",
+      "en": "Challenging day trek to Karaugom Glacier — the second largest on the Greater Caucasus (~13km long, 35 sq km). Unique phenomenon: the glacier descends directly into coniferous forest. Trail from Dzinaga village through the Karaugom River gorge. Significant elevation gain. Excellent fitness, trekking boots, water and food required."
+    },
+    "guideId": "guide-002",
+    "category": "hiking",
+    "type": "mixed",
+    "duration": "8-10 hours",
+    "price": 7500,
+    "dates": [
+      "2026-04-15",
+      "2026-04-22",
+      "2026-05-01",
+      "2026-05-10"
     ],
+    "maxGroupSize": 10,
+    "currentGroupSize": 8,
+    "status": "recruiting",
     "rating": 4.8,
-    "reviewCount": 54,
-    "photos": ["images/tours/adventure-1.webp", "images/tours/adventure-2.webp", "images/tours/adventure-3.webp"],
-    "category": "Приключения"
+    "reviewCount": 23,
+    "photos": [
+      "/images/tours/mountain-towers.jpg"
+    ]
+  },
+  {
+    "id": "tour-009",
+    "name": {
+      "ru": "Транскам: Алагир — Рокский тоннель",
+      "en": "Transkam Highway: Alagir to Roksky Tunnel"
+    },
+    "description": {
+      "ru": "Автомобильный маршрут по Транскавказской магистрали (Транскам) через Алагирское ущелье вдоль реки Ардон. По пути — монумент Уастырджи, минеральные источники Тамиска, заброшенные шахтёрские посёлки Мизур и Садон, Нузальская часовня XIII века с фресками, родина Коста Хетагурова (село Нар), заброшенное средневековое село Лисри. Дорога хорошего качества.",
+      "en": "Road trip along the Transcaucasian Highway (Transkam) through Alagir Gorge along the Ardon River. Highlights include: Uastyrdzhi monument, Tamisk mineral springs, abandoned mining towns of Mizur and Sadon, 13th-century Nuzal Chapel with frescoes, birthplace of Kosta Khetagurov (Nar village), and the ghost village of Lisri with preserved medieval towers. Good quality road."
+    },
+    "guideId": "guide-003",
+    "category": "road_trip",
+    "type": "mixed",
+    "duration": "Full day (8-10 hours with stops)",
+    "price": 5500,
+    "dates": [
+      "2026-04-15",
+      "2026-04-22",
+      "2026-05-01",
+      "2026-05-10"
+    ],
+    "maxGroupSize": 8,
+    "currentGroupSize": 8,
+    "status": "recruiting",
+    "rating": 4.5,
+    "reviewCount": 100,
+    "photos": [
+      "/images/tours/wine-tour.jpg"
+    ]
+  },
+  {
+    "id": "tour-010",
+    "name": {
+      "ru": "Военно-Осетинская дорога: Мамисонское ущелье",
+      "en": "Military-Ossetian Road: Mamison Gorge"
+    },
+    "description": {
+      "ru": "Маршрут по исторической Военно-Осетинской дороге через Мамисонское ущелье — одно из самых красивых и малолюдных мест Осетии. Старая дорога была построена в 1856-1897 гг. для связи с Грузией. По пути — Зарамагское водохранилище, средневековые сёла Тиб и Калак. К Мамисонскому перевалу (2911 м) асфальт заканчивается, далее — грунтовка. Заправьтесь в Алагире!",
+      "en": "Route along the historic Military-Ossetian Road through Mamison Gorge — one of the most beautiful and uncrowded places in Ossetia. The old road was built 1856-1897 to connect with Georgia. Along the way — Zaramag Reservoir, medieval villages of Tib and Kalak. Pavement ends before Mamison Pass (2911m), then gravel road. Fill up gas in Alagir!"
+    },
+    "guideId": "guide-001",
+    "category": "road_trip",
+    "type": "mixed",
+    "duration": "Full day (10-12 hours)",
+    "price": 5500,
+    "dates": [
+      "2026-04-15",
+      "2026-04-22",
+      "2026-05-01",
+      "2026-05-10"
+    ],
+    "maxGroupSize": 8,
+    "currentGroupSize": 7,
+    "status": "recruiting",
+    "rating": 4.9,
+    "reviewCount": 37,
+    "photos": [
+      "/images/tours/gastro-tour.jpg"
+    ]
+  },
+  {
+    "id": "tour-011",
+    "name": {
+      "ru": "Треккинг в Дигории: 7-дневный маршрут",
+      "en": "Digoria Trekking: 7-Day Itinerary"
+    },
+    "description": {
+      "ru": "Полноценный 7-дневный треккинг по Дигории — самому дикому и красивому региону Северной Осетии. Маршрут включает все главные достопримечательности: каньон Ахсинта, Таймазинские водопады, ледник Тана-цете, водопад Галдоридон, подход к Караугомскому леднику. Ночёвки в гостевых домах или палатках. Перепад высот 1740-2500 м. Доступен туристам с базовой подготовкой.",
+      "en": "A full 7-day trek through Digoria — the wildest and most beautiful region of North Ossetia. The route covers all major highlights: Akhsinta Canyon, Taymazi Waterfalls, Tana-tsete Glacier, Galdoridon Waterfall, and approach to Karaugom Glacier. Accommodation in guesthouses or tents. Elevation range: 1740-2500m. Suitable for hikers with basic fitness."
+    },
+    "guideId": "guide-002",
+    "category": "multi_day",
+    "type": "mixed",
+    "duration": "7 days / 6 nights",
+    "price": 7500,
+    "dates": [
+      "2026-04-15",
+      "2026-04-22",
+      "2026-05-01",
+      "2026-05-10"
+    ],
+    "maxGroupSize": 10,
+    "currentGroupSize": 6,
+    "status": "recruiting",
+    "rating": 4.4,
+    "reviewCount": 31,
+    "photos": [
+      "/images/tours/photo-tour.jpg"
+    ]
+  },
+  {
+    "id": "tour-012",
+    "name": {
+      "ru": "Горнолыжный курорт Цей: зимний отдых",
+      "en": "Tsey Ski Resort: Winter Activities"
+    },
+    "description": {
+      "ru": "Горнолыжный курорт Цей — 7 трасс общей протяжённостью более 7 км, от учебных до сложных. Два кресельных подъёмника. Сезон: декабрь — апрель, лучшее катание — январь-март. Есть прокат снаряжения, инструкторы, кафе и гостиницы. Помимо лыж — прогулки на снегоступах по зимнему лесу. 90 км от Владикавказа, дорога обычно чистится зимой.",
+      "en": "Tsey Ski Resort offers 7 runs totaling over 7km, from beginner to advanced. Two chairlift systems. Season: December to April, best skiing January-March. Equipment rental, instructors, cafes and hotels available. Beyond skiing — snowshoe walks through winter forest. 90km from Vladikavkaz, road is usually cleared in winter."
+    },
+    "guideId": "guide-003",
+    "category": "ski",
+    "type": "mixed",
+    "duration": "1-3 days",
+    "price": 2500,
+    "dates": [
+      "2026-04-15",
+      "2026-04-22",
+      "2026-05-01",
+      "2026-05-10"
+    ],
+    "maxGroupSize": 8,
+    "currentGroupSize": 8,
+    "status": "recruiting",
+    "rating": 4.6,
+    "reviewCount": 11,
+    "photos": [
+      "/images/tours/adventure-tour.jpg"
+    ]
+  },
+  {
+    "id": "tour-013",
+    "name": {
+      "ru": "Фиагдон — Гизельдон: треккинг через перевалы",
+      "en": "Fiagdon — Gizeldon: Cross-Pass Trekking"
+    },
+    "description": {
+      "ru": "Многодневный горный маршрут через перевалы Центрального Кавказа, соединяющий долины рек Фиагдон и Гизельдон. Перевал Гулар (~2900 м) — ключевая точка маршрута. Возможен заход к Мидаграбинским водопадам. Финиш в Даргавсе. Требуется горный опыт, палатка, навигатор. Лучший сезон — июль-август, когда перевалы свободны от снега.",
+      "en": "Multi-day mountain route crossing Central Caucasus passes, connecting the Fiagdon and Gizeldon river valleys. Gularsky Pass (~2900m) is the key point. Optional detour to Midagrabin waterfalls. Finish at Dargavs. Mountain experience, tent, and GPS navigation required. Best in July-August when passes are snow-free."
+    },
+    "guideId": "guide-001",
+    "category": "multi_day",
+    "type": "mixed",
+    "duration": "3-4 days",
+    "price": 4500,
+    "dates": [
+      "2026-04-15",
+      "2026-04-22",
+      "2026-05-01",
+      "2026-05-10"
+    ],
+    "maxGroupSize": 12,
+    "currentGroupSize": 3,
+    "status": "recruiting",
+    "rating": 4.7,
+    "reviewCount": 20,
+    "photos": [
+      "/images/tours/mountain-towers.jpg"
+    ]
+  },
+  {
+    "id": "tour-014",
+    "name": {
+      "ru": "Роща Хетага и Алагирское ущелье",
+      "en": "Khetag's Grove & Alagir Gorge"
+    },
+    "description": {
+      "ru": "Короткая и лёгкая однодневная поездка к двум знаковым местам. Роща Хетага — священное место осетин: по легенде, лес сам пришёл, чтобы укрыть воина Кетага от врагов. Ежегодный праздник в июле. Затем — город Алагир с церковью XIX века, расписанной Коста Хетагуровым, и вход в Алагирское ущелье с монументом Уастырджи.",
+      "en": "A short and easy day trip to two landmark sites. Khetag's Grove is the most sacred Ossetian site: legend says the forest moved itself to shelter warrior Khetag from enemies. Annual festival in July. Then — Alagir town with a 19th-century church painted by Kosta Khetagurov, and the entrance to Alagir Gorge with the Uastyrdzhi monument."
+    },
+    "guideId": "guide-002",
+    "category": "day_trip",
+    "type": "mixed",
+    "duration": "5-6 hours",
+    "price": 10000,
+    "dates": [
+      "2026-04-15",
+      "2026-04-22",
+      "2026-05-01",
+      "2026-05-10"
+    ],
+    "maxGroupSize": 12,
+    "currentGroupSize": 4,
+    "status": "recruiting",
+    "rating": 4.7,
+    "reviewCount": 22,
+    "photos": [
+      "/images/tours/mountain-towers.jpg"
+    ]
+  },
+  {
+    "id": "tour-015",
+    "name": {
+      "ru": "Дигорское ущелье: обзорный автомаршрут",
+      "en": "Digora Gorge: Scenic Drive"
+    },
+    "description": {
+      "ru": "Автомобильный обзорный маршрут по всему Дигорскому ущелью — самому дикому и нетронутому в Северной Осетии. Дорога идёт от Чиколы через живописные горные пейзажи до Стур-Дигоры. По пути — каньон Ахсинта, музей «Задалескии нана», средневековые башни Донифарса. Асфальт до Мацуты, далее грунтовка. Рекомендуется полноприводный автомобиль для последнего участка.",
+      "en": "A scenic drive through the entire Digora Gorge — the wildest and most untouched in North Ossetia. The road goes from Chikola through spectacular mountain scenery to Styr-Digora. Along the way — Akhsinta Canyon, Zadalessk Nana Museum, medieval Donifars towers. Paved to Matsuta, then gravel. 4WD recommended for the last section."
+    },
+    "guideId": "guide-003",
+    "category": "road_trip",
+    "type": "mixed",
+    "duration": "Full day (10-12 hours from Vladikavkaz)",
+    "price": 2500,
+    "dates": [
+      "2026-04-15",
+      "2026-04-22",
+      "2026-05-01",
+      "2026-05-10"
+    ],
+    "maxGroupSize": 12,
+    "currentGroupSize": 6,
+    "status": "recruiting",
+    "rating": 4.7,
+    "reviewCount": 32,
+    "photos": [
+      "/images/tours/mountain-towers.jpg"
+    ]
   }
 ]
