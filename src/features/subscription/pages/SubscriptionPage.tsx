@@ -29,7 +29,7 @@ export default function SubscriptionPage() {
             <button
               key={p.plan}
               onClick={() => setSelected(p.plan)}
-              className={`w-full p-4 rounded-2xl border-2 text-left transition-all ${selected === p.plan ? 'border-[var(--color-primary)] bg-blue-50 shadow-md' : 'border-[var(--color-border)] bg-white'}`}
+              className={`w-full p-4 rounded-2xl border-2 text-left transition-all ${selected === p.plan ? 'border-[var(--color-primary)] bg-[var(--color-primary-light)] shadow-md' : 'border-[var(--color-border)] bg-white'}`}
             >
               <div className="flex items-center justify-between mb-2">
                 <h3 className="font-bold text-base">{t(`subscription.${p.plan}`)}</h3>
@@ -43,13 +43,16 @@ export default function SubscriptionPage() {
                 ))}
               </ul>
               {p.plan === '2weeks' && (
-                <span className="inline-block mt-2 px-2.5 py-0.5 bg-[var(--color-accent)] text-white text-[10px] font-bold rounded-full">{'\u041F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u044B\u0439'}</span>
+                <span className="inline-block mt-2 px-2.5 py-0.5 bg-[var(--color-accent)] text-white text-[11px] font-bold rounded-full">{'\u041F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u044B\u0439'}</span>
               )}
             </button>
           ))}
         </div>
 
-        <button className="w-full mt-6 py-3.5 bg-[var(--color-primary)] text-white rounded-xl font-semibold text-sm">
+        <button
+          onClick={() => alert(t('subscription.comingSoon', 'Скоро! Оплата будет доступна в следующем обновлении'))}
+          className="w-full mt-6 py-3.5 bg-[var(--color-primary)] text-white rounded-xl font-semibold text-sm"
+        >
           {t('subscription.subscribe')} {'\u2022'} {formatPrice(PLANS.find((p) => p.plan === selected)!.price)}
         </button>
         <p className="text-center text-xs text-[var(--color-text-secondary)] mt-2">{'\u041E\u043F\u043B\u0430\u0442\u0430 \u0447\u0435\u0440\u0435\u0437 \u0421\u0411\u041F'}</p>

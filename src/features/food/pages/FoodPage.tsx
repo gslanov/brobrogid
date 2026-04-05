@@ -1,18 +1,22 @@
 import { useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { useDataStore } from '@/data/stores/data-store'
 import { PageHeader } from '@/shared/ui/PageHeader'
 import { POICard } from '@/shared/ui/POICard'
 import type { CuisineType } from '@/data/types'
+import { UtensilsCrossed, Soup, Salad, Utensils } from 'lucide-react'
+import type { LucideIcon } from 'lucide-react'
 
-const CUISINE_FILTERS: Array<{ key: CuisineType | 'all'; label: string; icon: string }> = [
-  { key: 'all', label: 'Все', icon: '🍽️' },
-  { key: 'national', label: 'Национальная', icon: '🥟' },
-  { key: 'european', label: 'Европейская', icon: '🍝' },
-  { key: 'mixed', label: 'Смешанная', icon: '🍴' },
+const CUISINE_KEYS: Array<{ key: CuisineType | 'all'; labelKey: string; icon: LucideIcon }> = [
+  { key: 'all', labelKey: 'food.all', icon: UtensilsCrossed },
+  { key: 'national', labelKey: 'food.nationalShort', icon: Soup },
+  { key: 'european', labelKey: 'food.europeanShort', icon: Salad },
+  { key: 'mixed', labelKey: 'food.mixedShort', icon: Utensils },
 ]
 
 export default function FoodPage() {
+  const { t } = useTranslation()
   const [searchParams] = useSearchParams()
   const [filter, setFilter] = useState<CuisineType | 'all'>(
     (searchParams.get('type') as CuisineType) || 'all'
@@ -23,20 +27,20 @@ export default function FoodPage() {
 
   return (
     <div className="min-h-dvh bg-[var(--color-bg)]">
-      <PageHeader title="Еда и напитки" showBack />
+      <PageHeader title={t('food.title')} showBack />
       <div className="flex gap-2 px-4 py-3 overflow-x-auto no-scrollbar">
-        {CUISINE_FILTERS.map((f) => (
+        {CUISINE_KEYS.map((f) => (
           <button
             key={f.key}
             onClick={() => setFilter(f.key)}
             className={`flex-shrink-0 flex items-center gap-1.5 px-3.5 py-2 rounded-full text-sm font-medium border transition-colors ${filter === f.key ? 'bg-[var(--color-primary)] text-white border-[var(--color-primary)]' : 'bg-white border-gray-200'}`}
           >
-            <span>{f.icon}</span> {f.label}
+            <f.icon size={16} /> {t(f.labelKey)}
           </button>
         ))}
       </div>
       <div className="px-4 pb-4 space-y-3">
-        <p className="text-xs text-[var(--color-text-secondary)]">{filtered.length} заведений</p>
+        <p className="text-xs text-[var(--color-text-secondary)]">{t('food.venues', { count: filtered.length })}</p>
         {filtered.map((poi) => <POICard key={poi.id} poi={poi} variant="vertical" />)}
       </div>
     </div>

@@ -41,7 +41,7 @@ export default function EmergencyPage() {
           <a key={d.label} href={`tel:${d.label}`} className="flex flex-col items-center gap-1 py-3 bg-white rounded-2xl shadow-sm border border-[var(--color-border)]">
             <span className="text-2xl">{d.icon}</span>
             <span className="text-lg font-bold" style={{ color: d.color }}>{d.label}</span>
-            <span className="text-[10px] text-[var(--color-text-secondary)]">{d.sublabel}</span>
+            <span className="text-[11px] text-[var(--color-text-secondary)]">{d.sublabel}</span>
           </a>
         ))}
       </div>
@@ -61,7 +61,7 @@ export default function EmergencyPage() {
                     <div>
                       <h4 className="font-medium text-sm">{c.name[lang]}</h4>
                       <p className="text-xs text-[var(--color-text-secondary)] mt-0.5">{c.location.address[lang]}</p>
-                      {c.is24h && <span className="text-[10px] text-green-600 font-medium">{'\u{1F7E2}'} 24/7</span>}
+                      {c.is24h && <span className="text-[11px] text-green-600 font-medium">{'\u{1F7E2}'} 24/7</span>}
                     </div>
                     <a href={`tel:${c.phone}`} className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ background: info.color + '15', color: info.color }}>
                       {'\u{1F4DE}'}

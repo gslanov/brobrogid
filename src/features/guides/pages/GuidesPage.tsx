@@ -15,7 +15,7 @@ export default function GuidesPage() {
       <PageHeader title={t('guides.title')} showBack />
       <div className="px-4 py-3 space-y-3">
         {guides.map((guide) => (
-          <button key={guide.id} onClick={() => navigate(`/guides/${guide.id}`)} className="w-full flex gap-4 bg-white rounded-2xl p-4 shadow-sm border border-[var(--color-border)] text-left">
+          <button key={guide.id} onClick={() => navigate(`/tours/guide/${guide.id}`)} className="w-full flex gap-4 bg-white rounded-2xl p-4 shadow-sm border border-[var(--color-border)] text-left">
             <div className="w-16 h-16 rounded-full bg-[var(--color-primary)] flex items-center justify-center text-white font-bold text-2xl flex-shrink-0">
               {guide.name.ru[0]}
             </div>
@@ -28,7 +28,7 @@ export default function GuidesPage() {
               </div>
               <div className="flex gap-1 mt-1.5">
                 {guide.languages.map((l) => (
-                  <span key={l} className="text-[10px] px-2 py-0.5 bg-gray-100 rounded-full">{l}</span>
+                  <span key={l} className="text-[11px] px-2 py-0.5 bg-gray-100 rounded-full">{l}</span>
                 ))}
               </div>
             </div>

@@ -6,11 +6,12 @@ import { PageHeader } from '@/shared/ui/PageHeader'
 import { Rating } from '@/shared/ui/Rating'
 import { formatPrice } from '@/shared/lib/utils'
 import type { TourStatus } from '@/data/types'
+import { Clock, Users } from 'lucide-react'
 
-const STATUS_FILTERS: Array<{ key: TourStatus | 'all'; label: string }> = [
-  { key: 'all', label: 'Все' },
-  { key: 'recruiting', label: '🟢 Набор' },
-  { key: 'full', label: '🔴 Набрана' },
+const STATUS_FILTER_KEYS: Array<{ key: TourStatus | 'all'; labelKey: string }> = [
+  { key: 'all', labelKey: 'tours.all' },
+  { key: 'recruiting', labelKey: 'tours.filterRecruiting' },
+  { key: 'full', labelKey: 'tours.filterFull' },
 ]
 
 export default function ToursPage() {
@@ -27,13 +28,13 @@ export default function ToursPage() {
     <div className="min-h-dvh bg-[var(--color-bg)]">
       <PageHeader title={t('tours.title')} showBack />
       <div className="flex gap-2 px-4 py-3 overflow-x-auto no-scrollbar">
-        {STATUS_FILTERS.map((f) => (
+        {STATUS_FILTER_KEYS.map((f) => (
           <button
             key={f.key}
             onClick={() => setFilter(f.key)}
             className={`flex-shrink-0 px-3.5 py-2 rounded-full text-sm font-medium border transition-colors ${filter === f.key ? 'bg-[var(--color-primary)] text-white border-[var(--color-primary)]' : 'bg-white border-gray-200'}`}
           >
-            {f.label}
+            {t(f.labelKey)}
           </button>
         ))}
       </div>
@@ -57,15 +58,15 @@ export default function ToursPage() {
                 <h3 className="font-bold text-base">{tour.name[lang]}</h3>
                 <p className="text-sm text-[var(--color-text-secondary)] mt-1 line-clamp-2">{tour.description[lang].slice(0, 120)}...</p>
                 <div className="flex items-center gap-4 mt-3 text-sm text-[var(--color-text-secondary)]">
-                  <span>⏱ {tour.duration}</span>
-                  <span>👥 {tour.currentGroupSize}/{tour.maxGroupSize}</span>
+                  <span className="flex items-center gap-0.5"><Clock size={14} /> {tour.duration}</span>
+                  <span className="flex items-center gap-0.5"><Users size={14} /> {tour.currentGroupSize}/{tour.maxGroupSize}</span>
                   {tour.status === 'recruiting' && spotsLeft > 0 && (
-                    <span className="text-green-600 font-medium">Осталось {spotsLeft} мест</span>
+                    <span className="text-green-600 font-medium">{t('tours.spotsLeft', { count: spotsLeft })}</span>
                   )}
                 </div>
                 <div className="flex items-center justify-between mt-3">
                   <Rating value={tour.rating} count={tour.reviewCount} size="sm" />
-                  {guide && <span className="text-xs text-[var(--color-text-secondary)]">Гид: {guide.name[lang]}</span>}
+                  {guide && <span className="text-xs text-[var(--color-text-secondary)]">{t('tours.guide', { name: guide.name[lang] })}</span>}
                 </div>
               </div>
             </button>
