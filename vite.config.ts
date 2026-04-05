@@ -15,7 +15,7 @@ export default defineConfig({
         name: 'BROBROGID — Гид по Владикавказу',
         short_name: 'BROBROGID',
         description: 'Путеводитель по Владикавказу и Северной Осетии',
-        theme_color: '#1e40af',
+        theme_color: '#E85D26',
         background_color: '#ffffff',
         display: 'standalone',
         start_url: '/',

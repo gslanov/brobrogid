@@ -4,9 +4,9 @@
     "tagline": "Гид по Владикавказу"
   },
   "tabs": {
-    "explore": "Главная",
+    "home": "Главная",
     "map": "Карта",
-    "saved": "Избранное",
+    "tours": "Туры",
     "profile": "Профиль"
   },
   "categories": {
@@ -21,10 +21,37 @@
     "activities": "Активности",
     "practical": "Полезное"
   },
+  "explore": {
+    "quickEmergency": "Экстренные",
+    "quickFood": "Еда",
+    "quickTours": "Туры",
+    "quickTransport": "Транспорт",
+    "popularPlaces": "Популярные места",
+    "natureOssetia": "Природа Осетии",
+    "serviceFood": "Где поесть",
+    "serviceAttractions": "Что посмотреть",
+    "serviceTours": "Туры",
+    "serviceMap": "Карта",
+    "serviceTransport": "Транспорт",
+    "serviceSOS": "SOS",
+    "heroTitle": "Тур дня",
+    "contextMorning": "Завтрак рядом",
+    "contextEvening": "Рестораны вечером",
+    "contextWeekend": "На природу",
+    "contextDefault": "Национальная кухня"
+  },
   "food": {
     "national": "Национальная кухня",
     "european": "Европейская кухня",
-    "mixed": "Смешанная"
+    "mixed": "Смешанная",
+    "title": "Еда и напитки",
+    "all": "Все",
+    "nationalShort": "Национальная",
+    "europeanShort": "Европейская",
+    "mixedShort": "Смешанная",
+    "venues_one": "{{count}} заведение",
+    "venues_few": "{{count}} заведения",
+    "venues_many": "{{count}} заведений"
   },
   "poi": {
     "openNow": "Открыто",
@@ -32,20 +59,39 @@
     "reviews": "Отзывы",
     "photos": "Фото",
     "directions": "Маршрут",
+    "details": "Подробнее",
     "save": "Сохранить",
     "share": "Поделиться",
     "addToTrip": "В маршрут",
     "seeMenu": "Смотреть меню",
     "order": "Заказать",
     "call": "Позвонить",
-    "website": "Сайт"
+    "website": "Сайт",
+    "hasMenu": "Есть меню",
+    "notFound": "Место не найдено",
+    "notFoundHint": "Возможно, оно было удалено или ссылка неверна",
+    "noReviews": "Пока нет отзывов",
+    "delivery": "Доставка",
+    "schedule": "Расписание",
+    "today": "Сегодня",
+    "priceBudget": "Бюджетно",
+    "priceAverage": "Средне",
+    "priceExpensive": "Дорого",
+    "priceVeryExpensive": "Очень дорого",
+    "meetingPoint": "Место встречи",
+    "route": "Маршрут"
   },
   "search": {
     "placeholder": "Поиск мест, туров, ресторанов...",
     "recent": "Недавние",
     "popular": "Популярное",
     "noResults": "Ничего не найдено",
-    "filters": "Фильтры"
+    "noResultsHint": "Попробуйте изменить запрос или фильтры",
+    "filters": "Фильтры",
+    "all": "Все",
+    "results_one": "{{count}} результат",
+    "results_few": "{{count}} результата",
+    "results_many": "{{count}} результатов"
   },
   "tours": {
     "title": "Туры и экскурсии",
@@ -53,15 +99,44 @@
     "full": "Группа набрана",
     "completed": "Завершён",
     "book": "Забронировать",
-    "spotsLeft": "Осталось мест: {{count}}",
+    "spotsLeft": "Осталось {{count}} мест",
     "perPerson": "с человека",
-    "duration": "Длительность"
+    "duration": "Длительность",
+    "all": "Все",
+    "filterRecruiting": "🟢 Набор",
+    "filterFull": "🔴 Набрана",
+    "guide": "Гид: {{name}}",
+    "recruitingShort": "Набор",
+    "fullShort": "Набрана",
+    "notFound": "Тур не найден",
+    "notFoundHint": "Возможно, он был удалён или ссылка неверна",
+    "noReviews": "Пока нет отзывов",
+    "bookingTitle": "Бронирование тура",
+    "bookingName": "Ваше имя",
+    "bookingPhone": "Телефон",
+    "bookingDate": "Дата",
+    "bookingPeople": "Количество человек",
+    "bookingSubmit": "Отправить заявку",
+    "bookingSent": "Заявка отправлена!",
+    "bookingRequest": "Заявка на тур",
+    "schedule": "Расписание",
+    "whatsIncluded": "Что включено",
+    "difficultyEasy": "Легко",
+    "difficultyModerate": "Средне",
+    "difficultyHard": "Сложно",
+    "description": "Описание"
   },
   "guides": {
     "title": "Гиды",
     "tours": "туров",
     "languages": "Языки",
-    "rating": "Рейтинг"
+    "rating": "Рейтинг",
+    "about": "О гиде",
+    "specializations": "Специализации",
+    "reviews": "Отзывы ({{count}})",
+    "notFound": "Гид не найден",
+    "notFoundHint": "Возможно, он был удалён или ссылка неверна",
+    "noReviews": "Пока нет отзывов"
   },
   "ordering": {
     "menu": "Меню",
@@ -70,8 +145,22 @@
     "total": "Итого",
     "checkout": "Оформить заказ",
     "payViaSBP": "Оплатить через СБП",
+    "submitOrder": "Отправить заказ",
     "comment": "Комментарий к заказу",
-    "empty": "Корзина пуста"
+    "empty": "Корзина пуста",
+    "toMenu": "К меню",
+    "clearCart": "Очистить корзину",
+    "orderName": "Имя",
+    "orderPhone": "Телефон",
+    "deliveryMethod": "Способ получения",
+    "pickup": "Самовывоз",
+    "delivery": "Доставка",
+    "address": "Адрес",
+    "addressPlaceholder": "Улица, дом, квартира",
+    "orderSummary": "Ваш заказ",
+    "sendViaWhatsApp": "Отправить через WhatsApp",
+    "notFound": "Заведение не найдено",
+    "notFoundHint": "Возможно, оно было удалено или ссылка неверна"
   },
   "emergency": {
     "title": "Экстренные службы",
@@ -95,14 +184,31 @@
   "saved": {
     "title": "Избранное",
     "empty": "Пока ничего не сохранено",
-    "collections": "Коллекции"
+    "emptyHint": "Нажмите ❤️ на любом месте, чтобы сохранить его",
+    "explore": "Исследовать",
+    "collections": "Коллекции",
+    "places_one": "{{count}} место",
+    "places_few": "{{count}} места",
+    "places_many": "{{count}} мест",
+    "saved": "Сохранено!",
+    "removed": "Удалено",
+    "remove": "Удалить из избранного"
   },
   "profile": {
     "title": "Профиль",
     "visited": "Посещено мест",
     "language": "Язык",
     "settings": "Настройки",
-    "about": "О приложении"
+    "about": "О приложении",
+    "traveler": "Путешественник",
+    "sectionMy": "Мои",
+    "sectionSettings": "Настройки",
+    "sectionHelp": "Помощь",
+    "orderHistory": "История заказов",
+    "notifications": "Уведомления",
+    "feedback": "Обратная связь",
+    "comingSoon": "Скоро",
+    "nearby": "Рядом"
   },
   "common": {
     "loading": "Загрузка...",
@@ -112,6 +218,40 @@
     "close": "Закрыть",
     "more": "Ещё",
     "showAll": "Показать все",
-    "rub": "₽"
+    "hide": "Скрыть",
+    "copied": "Ссылка скопирована",
+    "rub": "₽",
+    "vladikavkaz": "Владикавказ",
+    "undo": "Отменить",
+    "initError": "Не удалось загрузить данные. Попробуйте обновить страницу.",
+    "allCategories": "Все категории"
+  },
+  "offline": {
+    "banner": "Вы офлайн. Некоторые функции могут быть недоступны.",
+    "backOnline": "Вы снова онлайн"
+  },
+  "a11y": {
+    "navigatedTo": "Перешли к"
+  },
+  "onboarding": {
+    "getStarted": "Начать",
+    "skip": "Пропустить",
+    "interestsTitle": "Что вас интересует?",
+    "interestsSubtitle": "Выберите темы для персонализации",
+    "continue": "Продолжить",
+    "locationTitle": "Найдите места рядом",
+    "locationSubtitle": "Разрешите доступ к геолокации для поиска ближайших мест",
+    "enableLocation": "Включить геолокацию",
+    "notNow": "Не сейчас"
+  },
+  "pages": {
+    "explore": "Главная",
+    "map": "Карта",
+    "saved": "Избранное",
+    "profile": "Профиль",
+    "search": "Поиск",
+    "tours": "Туры",
+    "food": "Еда",
+    "emergency": "Экстренные"
   }
 }

@@ -4,9 +4,9 @@
     "tagline": "Vladikavkaz Travel Guide"
   },
   "tabs": {
-    "explore": "Explore",
+    "home": "Home",
     "map": "Map",
-    "saved": "Saved",
+    "tours": "Tours",
     "profile": "Profile"
   },
   "categories": {
@@ -21,10 +21,36 @@
     "activities": "Activities",
     "practical": "Practical Info"
   },
+  "explore": {
+    "quickEmergency": "Emergency",
+    "quickFood": "Food",
+    "quickTours": "Tours",
+    "quickTransport": "Transport",
+    "popularPlaces": "Popular Places",
+    "natureOssetia": "Nature of Ossetia",
+    "serviceFood": "Where to Eat",
+    "serviceAttractions": "What to See",
+    "serviceTours": "Tours",
+    "serviceMap": "Map",
+    "serviceTransport": "Transport",
+    "serviceSOS": "SOS",
+    "heroTitle": "Tour of the Day",
+    "contextMorning": "Breakfast Nearby",
+    "contextEvening": "Evening Dining",
+    "contextWeekend": "Nature Escapes",
+    "contextDefault": "National Cuisine"
+  },
   "food": {
     "national": "National Cuisine",
     "european": "European Cuisine",
-    "mixed": "Mixed"
+    "mixed": "Mixed",
+    "title": "Food & Drink",
+    "all": "All",
+    "nationalShort": "National",
+    "europeanShort": "European",
+    "mixedShort": "Mixed",
+    "venues_one": "{{count}} venue",
+    "venues_other": "{{count}} venues"
   },
   "poi": {
     "openNow": "Open Now",
@@ -32,20 +58,38 @@
     "reviews": "Reviews",
     "photos": "Photos",
     "directions": "Directions",
+    "details": "Details",
     "save": "Save",
     "share": "Share",
     "addToTrip": "Add to Trip",
     "seeMenu": "See Menu",
     "order": "Order",
     "call": "Call",
-    "website": "Website"
+    "website": "Website",
+    "hasMenu": "Has menu",
+    "notFound": "Place not found",
+    "notFoundHint": "It may have been removed or the link is incorrect",
+    "noReviews": "No reviews yet",
+    "delivery": "Delivery",
+    "schedule": "Schedule",
+    "today": "Today",
+    "priceBudget": "Budget",
+    "priceAverage": "Average",
+    "priceExpensive": "Expensive",
+    "priceVeryExpensive": "Very Expensive",
+    "meetingPoint": "Meeting Point",
+    "route": "Route"
   },
   "search": {
     "placeholder": "Search places, tours, restaurants...",
     "recent": "Recent",
     "popular": "Popular",
     "noResults": "No results found",
-    "filters": "Filters"
+    "noResultsHint": "Try changing your query or filters",
+    "filters": "Filters",
+    "all": "All",
+    "results_one": "{{count}} result",
+    "results_other": "{{count}} results"
   },
   "tours": {
     "title": "Tours & Excursions",
@@ -55,13 +99,42 @@
     "book": "Book Now",
     "spotsLeft": "{{count}} spots left",
     "perPerson": "per person",
-    "duration": "Duration"
+    "duration": "Duration",
+    "all": "All",
+    "filterRecruiting": "🟢 Recruiting",
+    "filterFull": "🔴 Full",
+    "guide": "Guide: {{name}}",
+    "recruitingShort": "Recruiting",
+    "fullShort": "Full",
+    "notFound": "Tour not found",
+    "notFoundHint": "It may have been removed or the link is incorrect",
+    "noReviews": "No reviews yet",
+    "bookingTitle": "Book a tour",
+    "bookingName": "Your name",
+    "bookingPhone": "Phone",
+    "bookingDate": "Date",
+    "bookingPeople": "Number of people",
+    "bookingSubmit": "Submit request",
+    "bookingSent": "Request submitted!",
+    "bookingRequest": "Tour booking request",
+    "schedule": "Schedule",
+    "whatsIncluded": "What's included",
+    "difficultyEasy": "Easy",
+    "difficultyModerate": "Moderate",
+    "difficultyHard": "Hard",
+    "description": "Description"
   },
   "guides": {
     "title": "Guides",
     "tours": "tours",
     "languages": "Languages",
-    "rating": "Rating"
+    "rating": "Rating",
+    "about": "About",
+    "specializations": "Specializations",
+    "reviews": "Reviews ({{count}})",
+    "notFound": "Guide not found",
+    "notFoundHint": "It may have been removed or the link is incorrect",
+    "noReviews": "No reviews yet"
   },
   "ordering": {
     "menu": "Menu",
@@ -70,8 +143,22 @@
     "total": "Total",
     "checkout": "Checkout",
     "payViaSBP": "Pay via SBP",
+    "submitOrder": "Submit Order",
     "comment": "Order comment",
-    "empty": "Cart is empty"
+    "empty": "Cart is empty",
+    "toMenu": "Back to menu",
+    "clearCart": "Clear cart",
+    "orderName": "Name",
+    "orderPhone": "Phone",
+    "deliveryMethod": "Delivery method",
+    "pickup": "Pickup",
+    "delivery": "Delivery",
+    "address": "Address",
+    "addressPlaceholder": "Street, building, apartment",
+    "orderSummary": "Your order",
+    "sendViaWhatsApp": "Send via WhatsApp",
+    "notFound": "Venue not found",
+    "notFoundHint": "It may have been removed or the link is incorrect"
   },
   "emergency": {
     "title": "Emergency Services",
@@ -95,14 +182,30 @@
   "saved": {
     "title": "Saved",
     "empty": "Nothing saved yet",
-    "collections": "Collections"
+    "emptyHint": "Tap ❤️ on any place to save it",
+    "explore": "Explore",
+    "collections": "Collections",
+    "places_one": "{{count}} place",
+    "places_other": "{{count}} places",
+    "saved": "Saved!",
+    "removed": "Removed",
+    "remove": "Remove from saved"
   },
   "profile": {
     "title": "Profile",
     "visited": "Places visited",
     "language": "Language",
     "settings": "Settings",
-    "about": "About"
+    "about": "About",
+    "traveler": "Traveler",
+    "sectionMy": "My",
+    "sectionSettings": "Settings",
+    "sectionHelp": "Help",
+    "orderHistory": "Order history",
+    "notifications": "Notifications",
+    "feedback": "Feedback",
+    "comingSoon": "Soon",
+    "nearby": "Nearby"
   },
   "common": {
     "loading": "Loading...",
@@ -112,6 +215,40 @@
     "close": "Close",
     "more": "More",
     "showAll": "Show All",
-    "rub": "₽"
+    "hide": "Hide",
+    "copied": "Link copied",
+    "rub": "₽",
+    "vladikavkaz": "Vladikavkaz",
+    "undo": "Undo",
+    "initError": "Could not load data. Please try refreshing.",
+    "allCategories": "All Categories"
+  },
+  "offline": {
+    "banner": "You're offline. Some features may be limited.",
+    "backOnline": "You're back online"
+  },
+  "a11y": {
+    "navigatedTo": "Navigated to"
+  },
+  "onboarding": {
+    "getStarted": "Get Started",
+    "skip": "Skip",
+    "interestsTitle": "What interests you?",
+    "interestsSubtitle": "Choose topics to personalize your feed",
+    "continue": "Continue",
+    "locationTitle": "Find experiences near you",
+    "locationSubtitle": "Allow location access to discover nearby places",
+    "enableLocation": "Enable Location",
+    "notNow": "Not Now"
+  },
+  "pages": {
+    "explore": "Explore",
+    "map": "Map",
+    "saved": "Saved",
+    "profile": "Profile",
+    "search": "Search",
+    "tours": "Tours",
+    "food": "Food",
+    "emergency": "Emergency"
   }
 }
