@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Plus, Star, Zap } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { useAdminData } from '../hooks/useAdminData'
 import { adminGetAll } from '../lib/admin-db'
 import AdminTable, { type Column } from '../components/AdminTable'
@@ -16,12 +17,6 @@ function buildTargetMap(pois: POI[], tours: Tour[], guides: Guide[]): TargetMap 
   return map
 }
 
-const TARGET_TYPE_LABELS: Record<ReviewTargetType, string> = {
-  poi: 'POI',
-  tour: 'Tour',
-  guide: 'Guide',
-}
-
 const TARGET_TYPE_COLORS: Record<ReviewTargetType, string> = {
   poi: 'bg-blue-100 text-blue-700',
   tour: 'bg-green-100 text-green-700',
@@ -30,6 +25,7 @@ const TARGET_TYPE_COLORS: Record<ReviewTargetType, string> = {
 
 export default function AdminReviewList() {
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const { items, isLoading, remove } = useAdminData<Review>('reviews')
   const [targetMap, setTargetMap] = useState<TargetMap>({})
   const [activeType, setActiveType] = useState<ReviewTargetType | null>(null)
@@ -52,20 +48,20 @@ export default function AdminReviewList() {
   const columns: Column<Review>[] = [
     {
       key: 'targetType',
-      label: 'Type',
+      label: t('admin.reviews.columns.type'),
       sortable: true,
       width: '90px',
       render: (review) => (
         <span
           className={`inline-block px-2 py-0.5 rounded-full text-xs font-semibold ${TARGET_TYPE_COLORS[review.targetType]}`}
         >
-          {TARGET_TYPE_LABELS[review.targetType]}
+          {t(`admin.reviews.targetTypes.${review.targetType}`)}
         </span>
       ),
     },
     {
       key: 'targetId',
-      label: 'Target',
+      label: t('admin.reviews.columns.target'),
       render: (review) => (
         <span className="text-sm text-gray-700">
           {targetMap[review.targetId] ?? review.targetId}
@@ -74,7 +70,7 @@ export default function AdminReviewList() {
     },
     {
       key: 'authorName',
-      label: 'Author',
+      label: t('admin.reviews.columns.author'),
       sortable: true,
       render: (review) => (
         <span className="text-sm text-gray-800">{review.authorName}</span>
@@ -82,7 +78,7 @@ export default function AdminReviewList() {
     },
     {
       key: 'rating',
-      label: 'Rating',
+      label: t('admin.reviews.columns.rating'),
       sortable: true,
       width: '80px',
       render: (review) => (
@@ -94,7 +90,7 @@ export default function AdminReviewList() {
     },
     {
       key: 'date',
-      label: 'Date',
+      label: t('admin.reviews.columns.date'),
       sortable: true,
       width: '110px',
       render: (review) => (
@@ -103,7 +99,7 @@ export default function AdminReviewList() {
     },
     {
       key: 'isGenerated',
-      label: 'Generated',
+      label: t('admin.reviews.columns.generated'),
       width: '90px',
       render: (review) =>
         review.isGenerated ? (
@@ -128,15 +124,15 @@ export default function AdminReviewList() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-xl font-semibold text-gray-900">Reviews</h1>
-          <p className="text-sm text-gray-500 mt-0.5">{items.length} total</p>
+          <h1 className="text-xl font-semibold text-gray-900">{t('admin.reviews.title')}</h1>
+          <p className="text-sm text-gray-500 mt-0.5">{items.length} {t('admin.common.total')}</p>
         </div>
         <button
           onClick={() => navigate('/admin/reviews/new')}
           className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 active:bg-blue-800 transition-colors"
         >
           <Plus size={16} />
-          New Review
+          {t('admin.reviews.newButton')}
         </button>
       </div>
 
@@ -164,7 +160,7 @@ export default function AdminReviewList() {
                 : 'bg-white text-gray-600 border-gray-300 hover:border-gray-400',
             ].join(' ')}
           >
-            {TARGET_TYPE_LABELS[type]} ({counts[type]})
+            {t(`admin.reviews.targetTypes.${type}`)} ({counts[type]})
           </button>
         ))}
       </div>
@@ -177,8 +173,8 @@ export default function AdminReviewList() {
           columns={columns}
           data={filtered}
           searchKeys={['authorName', 'text', 'targetId']}
-          searchPlaceholder="Search reviews…"
-          emptyMessage="No reviews found."
+          searchPlaceholder={t('admin.reviews.searchPlaceholder')}
+          emptyMessage={t('admin.reviews.emptyMessage')}
           onEdit={(review) => navigate(`/admin/reviews/${review.id}`)}
           onDelete={(review) => remove(review.id)}
           getId={(review) => review.id}

@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Plus } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { useAdminData } from '../hooks/useAdminData'
 import AdminTable, { type Column } from '../components/AdminTable'
 import type { MenuItem, POI } from '@/data/types'
 
 export default function AdminMenuItemList() {
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const { items, isLoading, remove } = useAdminData<MenuItem>('menuItems')
   const { items: pois } = useAdminData<POI>('pois')
   const [activePoi, setActivePoi] = useState<string | null>(null)
@@ -23,7 +25,7 @@ export default function AdminMenuItemList() {
   const COLUMNS: Column<MenuItem>[] = [
     {
       key: 'name',
-      label: 'Name',
+      label: t('admin.menuItems.columns.name'),
       sortable: true,
       render: (item) => (
         <span className="font-medium text-gray-900">{item.name.ru}</span>
@@ -31,7 +33,7 @@ export default function AdminMenuItemList() {
     },
     {
       key: 'poiId',
-      label: 'POI Name',
+      label: t('admin.menuItems.columns.poiName'),
       sortable: true,
       render: (item) => (
         <span className="text-gray-600 text-sm">
@@ -41,7 +43,7 @@ export default function AdminMenuItemList() {
     },
     {
       key: 'category',
-      label: 'Category',
+      label: t('admin.menuItems.columns.category'),
       sortable: true,
       render: (item) => (
         <span className="text-gray-600 text-sm">{item.category || '—'}</span>
@@ -49,7 +51,7 @@ export default function AdminMenuItemList() {
     },
     {
       key: 'price',
-      label: 'Price',
+      label: t('admin.menuItems.columns.price'),
       sortable: true,
       width: '100px',
       render: (item) => (
@@ -60,7 +62,7 @@ export default function AdminMenuItemList() {
     },
     {
       key: 'isPopular',
-      label: 'Popular',
+      label: t('admin.menuItems.columns.popular'),
       width: '80px',
       render: (item) => (
         <span
@@ -71,7 +73,7 @@ export default function AdminMenuItemList() {
               : 'bg-gray-100 text-gray-500',
           ].join(' ')}
         >
-          {item.isPopular ? 'Yes' : 'No'}
+          {item.isPopular ? t('admin.common.yes') : t('admin.common.no')}
         </span>
       ),
     },
@@ -82,15 +84,15 @@ export default function AdminMenuItemList() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-xl font-semibold text-gray-900">Menu Items</h1>
-          <p className="text-sm text-gray-500 mt-0.5">{items.length} total</p>
+          <h1 className="text-xl font-semibold text-gray-900">{t('admin.menuItems.title')}</h1>
+          <p className="text-sm text-gray-500 mt-0.5">{items.length} {t('admin.common.total')}</p>
         </div>
         <button
           onClick={() => navigate('/admin/menu-items/new')}
           className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 active:bg-blue-800 transition-colors"
         >
           <Plus size={16} />
-          New Menu Item
+          {t('admin.menuItems.newButton')}
         </button>
       </div>
 
@@ -135,8 +137,8 @@ export default function AdminMenuItemList() {
           columns={COLUMNS}
           data={filtered}
           searchKeys={['name.ru', 'name.en', 'category', 'tags']}
-          searchPlaceholder="Search menu items…"
-          emptyMessage="No menu items found."
+          searchPlaceholder={t('admin.menuItems.searchPlaceholder')}
+          emptyMessage={t('admin.menuItems.emptyMessage')}
           onEdit={(item) => navigate(`/admin/menu-items/${item.id}`)}
           onDelete={(item) => remove(item.id)}
           getId={(item) => item.id}

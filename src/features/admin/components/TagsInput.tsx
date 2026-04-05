@@ -1,4 +1,5 @@
 import { useState, type KeyboardEvent } from 'react'
+import { useTranslation } from 'react-i18next'
 import { X, Plus } from 'lucide-react'
 
 interface TagsInputProps {
@@ -12,9 +13,12 @@ export function TagsInput({
   label,
   value,
   onChange,
-  placeholder = 'Add tag...',
+  placeholder,
 }: TagsInputProps) {
+  const { t } = useTranslation()
   const [input, setInput] = useState('')
+
+  const resolvedPlaceholder = placeholder ?? t('admin.common.addTag')
 
   const addTag = () => {
     const trimmed = input.trim()
@@ -70,7 +74,7 @@ export function TagsInput({
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder={placeholder}
+          placeholder={resolvedPlaceholder}
           className="flex-1 rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
         />
         <button
@@ -79,7 +83,7 @@ export function TagsInput({
           className="inline-flex items-center gap-1 px-3 py-1.5 rounded border border-gray-300 text-sm text-gray-600 bg-white hover:bg-gray-50 transition-colors"
         >
           <Plus size={14} />
-          Add
+          {t('admin.common.add')}
         </button>
       </div>
     </div>

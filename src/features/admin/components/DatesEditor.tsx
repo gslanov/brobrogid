@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Trash2, Plus } from 'lucide-react'
 
 interface DatesEditorProps {
@@ -24,6 +25,7 @@ function formatDate(iso: string): string {
 }
 
 export function DatesEditor({ label, value, onChange }: DatesEditorProps) {
+  const { t } = useTranslation()
   const [input, setInput] = useState('')
 
   const addDate = () => {
@@ -78,7 +80,7 @@ export function DatesEditor({ label, value, onChange }: DatesEditorProps) {
           className="inline-flex items-center gap-1 px-3 py-1.5 rounded border border-gray-300 text-sm text-gray-600 bg-white hover:bg-gray-50 transition-colors whitespace-nowrap"
         >
           <Plus size={14} />
-          Add Date
+          {t('admin.common.addDate')}
         </button>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Trash2, ImageOff, Plus } from 'lucide-react'
 
 interface PhotosManagerProps {
@@ -29,6 +30,7 @@ function PhotoThumbnail({ url }: { url: string }) {
 }
 
 export function PhotosManager({ label, value, onChange }: PhotosManagerProps) {
+  const { t } = useTranslation()
   const [input, setInput] = useState('')
 
   const addPhoto = () => {
@@ -82,7 +84,7 @@ export function PhotosManager({ label, value, onChange }: PhotosManagerProps) {
           className="inline-flex items-center gap-1 px-3 py-1.5 rounded border border-gray-300 text-sm text-gray-600 bg-white hover:bg-gray-50 transition-colors whitespace-nowrap"
         >
           <Plus size={14} />
-          Add Photo
+          {t('admin.common.addPhoto')}
         </button>
       </div>
     </div>

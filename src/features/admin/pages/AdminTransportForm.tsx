@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { Save, X } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { useAdminData } from '../hooks/useAdminData'
 import { LocalizedInput } from '../components/LocalizedInput'
 import SelectField from '../components/SelectField'
@@ -22,10 +23,11 @@ const EMPTY: Omit<TransportRoute, 'id'> = {
   color: '#3b82f6',
 }
 
-const TYPE_OPTIONS = [
-  { value: 'bus', label: 'Bus' },
-  { value: 'marshrutka', label: 'Marshrutka' },
-  { value: 'trolleybus', label: 'Trolleybus' },
+// labelKey pattern — resolved inside component
+const TYPE_OPTIONS: { value: string; labelKey: string }[] = [
+  { value: 'bus', labelKey: 'admin.transport.types.bus' },
+  { value: 'marshrutka', labelKey: 'admin.transport.types.marshrutka' },
+  { value: 'trolleybus', labelKey: 'admin.transport.types.trolleybus' },
 ]
 
 function SectionTitle({ children }: { children: React.ReactNode }) {
@@ -39,6 +41,7 @@ function SectionTitle({ children }: { children: React.ReactNode }) {
 export default function AdminTransportForm() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const isEdit = id !== 'new' && id !== undefined
 
   const { getById, create, update } = useAdminData<TransportRoute>('transport')
@@ -49,6 +52,8 @@ export default function AdminTransportForm() {
   })
   const [isSaving, setIsSaving] = useState(false)
   const [error, setError] = useState<string | null>(null)
+
+  const typeOptions = TYPE_OPTIONS.map((o) => ({ value: o.value, label: t(o.labelKey) }))
 
   useEffect(() => {
     if (!isEdit) return
@@ -100,7 +105,7 @@ export default function AdminTransportForm() {
       {/* Header */}
       <div className="mb-6">
         <h2 className="text-xl font-semibold text-gray-900">
-          {isEdit ? 'Edit Transport Route' : 'New Transport Route'}
+          {isEdit ? t('admin.transport.form.editTitle') : t('admin.transport.form.newTitle')}
         </h2>
         {isEdit && (
           <p className="text-xs text-gray-400 mt-0.5 font-mono">{form.id}</p>
@@ -110,12 +115,12 @@ export default function AdminTransportForm() {
       <form onSubmit={handleSave} className="flex flex-col gap-6">
 
         {/* ── Basic Info ───────────────────────────────────────── */}
-        <SectionTitle>Basic Info</SectionTitle>
+        <SectionTitle>{t('admin.tours.form.basicInfo')}</SectionTitle>
 
         <div className="grid grid-cols-2 gap-4">
           <div className="flex flex-col gap-1">
             <label className="text-sm font-medium text-gray-700">
-              Route Number <span className="text-red-500">*</span>
+              {t('admin.transport.form.number')} <span className="text-red-500">*</span>
             </label>
             <input
               type="text"
@@ -126,28 +131,28 @@ export default function AdminTransportForm() {
             />
           </div>
           <SelectField
-            label="Type"
+            label={t('admin.transport.form.type')}
             value={form.type}
             onChange={(v) => set('type', v as TransportType)}
-            options={TYPE_OPTIONS}
+            options={typeOptions}
             required
           />
         </div>
 
         <LocalizedInput
-          label="Name"
+          label={t('admin.transport.form.name')}
           value={form.name}
           onChange={(v) => set('name', v)}
           required
-          placeholder="Route name"
+          placeholder={t('admin.transport.form.namePlaceholder')}
         />
 
         {/* ── Color ────────────────────────────────────────────── */}
-        <SectionTitle>Color</SectionTitle>
+        <SectionTitle>{t('admin.transport.form.color')}</SectionTitle>
 
         <div className="flex items-end gap-3">
           <div className="flex flex-col gap-1">
-            <label className="text-sm font-medium text-gray-700">Color</label>
+            <label className="text-sm font-medium text-gray-700">{t('admin.transport.form.color')}</label>
             <div className="flex items-center gap-2">
               <input
                 type="color"
@@ -172,11 +177,11 @@ export default function AdminTransportForm() {
         </div>
 
         {/* ── Schedule ─────────────────────────────────────────── */}
-        <SectionTitle>Schedule (optional)</SectionTitle>
+        <SectionTitle>{t('admin.common.schedule')}</SectionTitle>
 
         <div className="grid grid-cols-2 gap-4">
           <div className="flex flex-col gap-1">
-            <label className="text-sm font-medium text-gray-700">Weekday hours</label>
+            <label className="text-sm font-medium text-gray-700">{t('admin.transport.form.scheduleWeekday')}</label>
             <input
               type="text"
               value={form.schedule?.weekday ?? ''}
@@ -186,7 +191,7 @@ export default function AdminTransportForm() {
             />
           </div>
           <div className="flex flex-col gap-1">
-            <label className="text-sm font-medium text-gray-700">Weekend hours</label>
+            <label className="text-sm font-medium text-gray-700">{t('admin.transport.form.scheduleWeekend')}</label>
             <input
               type="text"
               value={form.schedule?.weekend ?? ''}
@@ -198,10 +203,10 @@ export default function AdminTransportForm() {
         </div>
 
         {/* ── Stops ────────────────────────────────────────────── */}
-        <SectionTitle>Stops</SectionTitle>
+        <SectionTitle>{t('admin.transport.form.stops')}</SectionTitle>
 
         <StopsEditor
-          label="Route Stops"
+          label={t('admin.transport.form.stops')}
           value={form.stops}
           onChange={(v) => set('stops', v)}
         />
@@ -221,7 +226,7 @@ export default function AdminTransportForm() {
             className="inline-flex items-center gap-2 px-5 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 active:bg-blue-800 disabled:opacity-50 transition-colors"
           >
             <Save size={15} />
-            {isSaving ? 'Saving…' : 'Save'}
+            {isSaving ? 'Saving…' : t('admin.common.save')}
           </button>
           <button
             type="button"
@@ -229,7 +234,7 @@ export default function AdminTransportForm() {
             className="inline-flex items-center gap-2 px-5 py-2 rounded-lg border border-gray-300 bg-white text-gray-700 text-sm font-medium hover:bg-gray-50 transition-colors"
           >
             <X size={15} />
-            Cancel
+            {t('admin.common.cancel')}
           </button>
         </div>
       </form>

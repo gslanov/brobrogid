@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 
 interface RoutePoint {
   lat: number
@@ -16,6 +17,7 @@ function prettyPrint(points: RoutePoint[]): string {
 }
 
 export function RouteEditor({ label, value, onChange }: RouteEditorProps) {
+  const { t } = useTranslation()
   const [text, setText] = useState(() => prettyPrint(value))
   const [error, setError] = useState<string | null>(null)
 
@@ -40,7 +42,7 @@ export function RouteEditor({ label, value, onChange }: RouteEditorProps) {
   const handleBlur = () => {
     const result = parse(text)
     if (result === null) {
-      setError('Invalid JSON. Expected Array<{ lat: number; lng: number }>.')
+      setError(t('admin.common.invalidJson'))
     } else {
       setError(null)
       onChange(result)
@@ -50,7 +52,7 @@ export function RouteEditor({ label, value, onChange }: RouteEditorProps) {
   const handleFormat = () => {
     const result = parse(text)
     if (result === null) {
-      setError('Cannot format: invalid JSON.')
+      setError(t('admin.common.formatError'))
     } else {
       setError(null)
       const formatted = prettyPrint(result)
@@ -75,7 +77,9 @@ export function RouteEditor({ label, value, onChange }: RouteEditorProps) {
       <div className="flex items-center justify-between">
         <label className="text-sm font-medium text-gray-700">{label}</label>
         <span className="text-xs text-gray-400">
-          {pointCount !== null ? `${pointCount} point${pointCount === 1 ? '' : 's'} in route` : 'invalid JSON'}
+          {pointCount !== null
+            ? t('admin.common.pointsInRoute', { count: pointCount })
+            : t('admin.common.invalidJson')}
         </span>
       </div>
 
@@ -99,14 +103,14 @@ export function RouteEditor({ label, value, onChange }: RouteEditorProps) {
           onClick={handleFormat}
           className="px-3 py-1.5 rounded border border-gray-300 text-xs text-gray-600 bg-white hover:bg-gray-50 transition-colors"
         >
-          Format
+          {t('admin.common.format')}
         </button>
         <button
           type="button"
           onClick={handleClear}
           className="px-3 py-1.5 rounded border border-gray-300 text-xs text-gray-500 bg-white hover:bg-red-50 hover:text-red-600 hover:border-red-300 transition-colors"
         >
-          Clear
+          {t('admin.common.clear')}
         </button>
       </div>
     </div>

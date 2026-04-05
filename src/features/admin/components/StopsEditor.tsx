@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { Trash2, Plus } from 'lucide-react'
 import { LocalizedInput } from './LocalizedInput'
 
@@ -18,6 +19,8 @@ const emptyStop = (): Stop => ({
 })
 
 export function StopsEditor({ label, value, onChange }: StopsEditorProps) {
+  const { t } = useTranslation()
+
   const addStop = () => {
     onChange([...value, emptyStop()])
   }
@@ -56,7 +59,7 @@ export function StopsEditor({ label, value, onChange }: StopsEditorProps) {
               {/* Name */}
               <div className="mb-2">
                 <LocalizedInput
-                  label="Name"
+                  label={t('admin.common.name')}
                   value={stop.name}
                   onChange={(name) => updateStop(i, { ...stop, name })}
                 />
@@ -65,7 +68,7 @@ export function StopsEditor({ label, value, onChange }: StopsEditorProps) {
               {/* Coordinates */}
               <div className="flex gap-2">
                 <div className="flex-1 flex flex-col gap-1">
-                  <label className="text-xs text-gray-500">Lat</label>
+                  <label className="text-xs text-gray-500">{t('admin.common.lat')}</label>
                   <input
                     type="number"
                     step="any"
@@ -80,7 +83,7 @@ export function StopsEditor({ label, value, onChange }: StopsEditorProps) {
                   />
                 </div>
                 <div className="flex-1 flex flex-col gap-1">
-                  <label className="text-xs text-gray-500">Lng</label>
+                  <label className="text-xs text-gray-500">{t('admin.common.lng')}</label>
                   <input
                     type="number"
                     step="any"
@@ -106,7 +109,7 @@ export function StopsEditor({ label, value, onChange }: StopsEditorProps) {
         className="inline-flex items-center gap-1.5 self-start px-3 py-1.5 rounded border border-dashed border-gray-400 text-sm text-gray-600 bg-white hover:bg-gray-50 hover:border-gray-500 transition-colors"
       >
         <Plus size={14} />
-        Add Stop
+        {t('admin.common.addStop')}
       </button>
     </div>
   )

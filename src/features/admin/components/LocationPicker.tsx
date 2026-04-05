@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { LocalizedInput } from './LocalizedInput'
 
 interface LocationPickerProps {
@@ -7,6 +8,8 @@ interface LocationPickerProps {
 }
 
 export function LocationPicker({ label, value, onChange }: LocationPickerProps) {
+  const { t } = useTranslation()
+
   const handleCoord = (field: 'lat' | 'lng', raw: string) => {
     const parsed = parseFloat(raw)
     onChange({ ...value, [field]: isNaN(parsed) ? 0 : parsed })
@@ -19,7 +22,7 @@ export function LocationPicker({ label, value, onChange }: LocationPickerProps) 
       {/* Lat / Lng row */}
       <div className="flex gap-3 mb-3">
         <div className="flex-1 flex flex-col gap-1">
-          <label className="text-xs font-medium text-gray-500">Latitude</label>
+          <label className="text-xs font-medium text-gray-500">{t('admin.common.latitude')}</label>
           <input
             type="number"
             step="any"
@@ -29,7 +32,7 @@ export function LocationPicker({ label, value, onChange }: LocationPickerProps) 
           />
         </div>
         <div className="flex-1 flex flex-col gap-1">
-          <label className="text-xs font-medium text-gray-500">Longitude</label>
+          <label className="text-xs font-medium text-gray-500">{t('admin.common.longitude')}</label>
           <input
             type="number"
             step="any"
@@ -42,10 +45,10 @@ export function LocationPicker({ label, value, onChange }: LocationPickerProps) 
 
       {/* Address */}
       <LocalizedInput
-        label="Address"
+        label={t('admin.common.address')}
         value={value.address}
         onChange={(address) => onChange({ ...value, address })}
-        placeholder="Street, building..."
+        placeholder={t('admin.common.streetPlaceholder')}
       />
     </fieldset>
   )

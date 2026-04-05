@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { Save, X } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { useAdminData } from '../hooks/useAdminData'
 import { LocalizedInput } from '../components/LocalizedInput'
 import { LocationPicker } from '../components/LocationPicker'
@@ -19,13 +20,14 @@ const EMPTY: Omit<EmergencyContact, 'id'> = {
   is24h: false,
 }
 
-const TYPE_OPTIONS = [
-  { value: 'police', label: 'Police' },
-  { value: 'ambulance', label: 'Ambulance' },
-  { value: 'fire', label: 'Fire' },
-  { value: 'hospital', label: 'Hospital' },
-  { value: 'trauma', label: 'Trauma' },
-  { value: 'pharmacy', label: 'Pharmacy' },
+// labelKey pattern — resolved inside component
+const TYPE_OPTIONS: { value: string; labelKey: string }[] = [
+  { value: 'police', labelKey: 'admin.emergency.types.police' },
+  { value: 'ambulance', labelKey: 'admin.emergency.types.ambulance' },
+  { value: 'fire', labelKey: 'admin.emergency.types.fire' },
+  { value: 'hospital', labelKey: 'admin.emergency.types.hospital' },
+  { value: 'trauma', labelKey: 'admin.emergency.types.trauma' },
+  { value: 'pharmacy', labelKey: 'admin.emergency.types.pharmacy' },
 ]
 
 function SectionTitle({ children }: { children: React.ReactNode }) {
@@ -39,6 +41,7 @@ function SectionTitle({ children }: { children: React.ReactNode }) {
 export default function AdminEmergencyForm() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const isEdit = id !== 'new' && id !== undefined
 
   const { getById, create, update } = useAdminData<EmergencyContact>('emergency')
@@ -49,6 +52,8 @@ export default function AdminEmergencyForm() {
   })
   const [isSaving, setIsSaving] = useState(false)
   const [error, setError] = useState<string | null>(null)
+
+  const typeOptions = TYPE_OPTIONS.map((o) => ({ value: o.value, label: t(o.labelKey) }))
 
   useEffect(() => {
     if (!isEdit) return
@@ -93,7 +98,7 @@ export default function AdminEmergencyForm() {
       {/* Header */}
       <div className="mb-6">
         <h2 className="text-xl font-semibold text-gray-900">
-          {isEdit ? 'Edit Emergency Contact' : 'New Emergency Contact'}
+          {isEdit ? t('admin.emergency.form.editTitle') : t('admin.emergency.form.newTitle')}
         </h2>
         {isEdit && (
           <p className="text-xs text-gray-400 mt-0.5 font-mono">{form.id}</p>
@@ -103,27 +108,27 @@ export default function AdminEmergencyForm() {
       <form onSubmit={handleSave} className="flex flex-col gap-6">
 
         {/* ── Details ──────────────────────────────────────────── */}
-        <SectionTitle>Details</SectionTitle>
+        <SectionTitle>{t('admin.common.details')}</SectionTitle>
 
         <SelectField
-          label="Type"
+          label={t('admin.emergency.form.type')}
           value={form.type}
           onChange={(v) => set('type', v as EmergencyType)}
-          options={TYPE_OPTIONS}
+          options={typeOptions}
           required
         />
 
         <LocalizedInput
-          label="Name"
+          label={t('admin.emergency.form.name')}
           value={form.name}
           onChange={(v) => set('name', v)}
           required
-          placeholder="Organisation name"
+          placeholder={t('admin.emergency.form.namePlaceholder')}
         />
 
         <div className="flex flex-col gap-1">
           <label className="text-sm font-medium text-gray-700">
-            Phone <span className="text-red-500">*</span>
+            {t('admin.emergency.form.phone')} <span className="text-red-500">*</span>
           </label>
           <input
             type="text"
@@ -143,15 +148,15 @@ export default function AdminEmergencyForm() {
             className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
           />
           <label htmlFor="is24h" className="text-sm font-medium text-gray-700 cursor-pointer">
-            Open 24 hours
+            {t('admin.emergency.form.is24h')}
           </label>
         </div>
 
         {/* ── Location ─────────────────────────────────────────── */}
-        <SectionTitle>Location</SectionTitle>
+        <SectionTitle>{t('admin.emergency.form.location')}</SectionTitle>
 
         <LocationPicker
-          label="Location"
+          label={t('admin.emergency.form.location')}
           value={form.location}
           onChange={(v) => set('location', v)}
         />
@@ -171,7 +176,7 @@ export default function AdminEmergencyForm() {
             className="inline-flex items-center gap-2 px-5 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 active:bg-blue-800 disabled:opacity-50 transition-colors"
           >
             <Save size={15} />
-            {isSaving ? 'Saving…' : 'Save'}
+            {isSaving ? 'Saving…' : t('admin.common.save')}
           </button>
           <button
             type="button"
@@ -179,7 +184,7 @@ export default function AdminEmergencyForm() {
             className="inline-flex items-center gap-2 px-5 py-2 rounded-lg border border-gray-300 bg-white text-gray-700 text-sm font-medium hover:bg-gray-50 transition-colors"
           >
             <X size={15} />
-            Cancel
+            {t('admin.common.cancel')}
           </button>
         </div>
       </form>

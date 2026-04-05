@@ -250,5 +250,408 @@
     "tours": "Tours",
     "food": "Food",
     "emergency": "Emergency"
+  },
+  "admin": {
+    "common": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "delete": "Delete",
+      "edit": "Edit",
+      "back": "Back",
+      "loading": "Loading…",
+      "actions": "Actions",
+      "search": "Search…",
+      "noItems": "Nothing found.",
+      "showing": "Showing {{start}}–{{end}} of {{total}}",
+      "prev": "Previous",
+      "next": "Next",
+      "deleteTitle": "Delete item",
+      "deleteMessage": "This action cannot be undone. Are you sure?",
+      "new": "Create",
+      "manage": "Manage",
+      "total": "total",
+      "export": "Export",
+      "exportAll": "Export all data",
+      "yes": "Yes",
+      "no": "No",
+      "add": "Add",
+      "addPhoto": "Add photo",
+      "addDate": "Add date",
+      "addTag": "Add tag...",
+      "addStop": "Add stop",
+      "format": "Format",
+      "clear": "Clear",
+      "invalidJson": "Invalid JSON. Expected Array<{ lat: number; lng: number }>.",
+      "formatError": "Could not format: invalid JSON.",
+      "pointsInRoute": "{{count}} points in route",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "address": "Address",
+      "name": "Name",
+      "lat": "Lat.",
+      "lng": "Lng.",
+      "copyMonToAll": "Copy Mon to all days",
+      "editTitle": "Edit",
+      "newTitle": "New",
+      "newHint": "A new item will be created",
+      "selectPlaceholder": "Select…",
+      "details": "Details",
+      "schedule": "Schedule (optional)",
+      "id": "ID",
+      "notSpecified": "Not specified",
+      "streetPlaceholder": "Street, building..."
+    },
+    "days": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    },
+    "layout": {
+      "title": "BROBROGID Admin",
+      "admin": "Admin",
+      "backToApp": "← Back to app",
+      "logout": "Logout"
+    },
+    "sidebar": {
+      "adminPanel": "Admin Panel",
+      "dashboard": "Dashboard",
+      "pois": "POIs",
+      "menuItems": "Menu Items",
+      "tours": "Tours",
+      "guides": "Guides",
+      "reviews": "Reviews",
+      "emergency": "Emergency",
+      "transport": "Transport",
+      "export": "Export"
+    },
+    "login": {
+      "signIn": "Sign In",
+      "signingIn": "Signing in…",
+      "title": "Sign in to continue",
+      "username": "Username",
+      "password": "Password",
+      "errorInvalid": "Invalid username or password",
+      "errorGeneral": "Something went wrong. Please try again."
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "subtitle": "Overview of all content in the BROBROGID database.",
+      "totalRecords": "Total records in DB:",
+      "quickActions": "Quick Actions",
+      "exportAll": "Export all data",
+      "refreshData": "Refresh data",
+      "exportOptions": "Export options",
+      "entities": {
+        "pois": "Points of Interest",
+        "menuItems": "Menu Items",
+        "tours": "Tours",
+        "guides": "Guides",
+        "reviews": "Reviews",
+        "emergency": "Emergency Contacts",
+        "transport": "Transport Routes"
+      }
+    },
+    "export": {
+      "title": "Export Data",
+      "subtitle": "Export IDB stores to JSON files",
+      "exportAll": "Export all",
+      "exporting": "Exporting…",
+      "store": "Store",
+      "file": "File",
+      "records": "Records",
+      "action": "Action",
+      "loadingCounts": "Loading record counts…",
+      "hint": "Files match the public/content/ structure"
+    },
+    "pois": {
+      "title": "Points of Interest",
+      "all": "All ({{count}})",
+      "newButton": "New POI",
+      "searchPlaceholder": "Search POIs…",
+      "emptyMessage": "No POIs found.",
+      "columns": {
+        "name": "Name",
+        "category": "Category",
+        "subcategory": "Subcategory",
+        "rating": "Rating",
+        "price": "Price",
+        "tags": "Tags"
+      },
+      "categories": {
+        "attractions": "Attractions",
+        "food": "Food & Drink",
+        "accommodation": "Accommodation",
+        "nature": "Nature",
+        "culture": "Culture",
+        "shopping": "Shopping",
+        "nightlife": "Nightlife",
+        "transport": "Transport",
+        "activities": "Activities",
+        "practical": "Practical"
+      },
+      "form": {
+        "basicInfo": "Basic Info",
+        "location": "Location",
+        "description": "Description",
+        "media": "Media",
+        "businessInfo": "Business Info",
+        "meta": "Meta",
+        "slug": "URL slug",
+        "subcategory": "Subcategory",
+        "cuisineType": "Cuisine type",
+        "shortDesc": "Short description",
+        "mediumDesc": "Medium description",
+        "fullDesc": "Full description",
+        "photos": "Photos",
+        "rating": "Rating",
+        "reviewCount": "Review count",
+        "hours": "Opening hours",
+        "phone": "Phone",
+        "website": "Website",
+        "priceLevel": "Price level",
+        "tags": "Tags",
+        "isChain": "Chain",
+        "subscriptionTier": "Subscription tier",
+        "visitCount": "Visit count",
+        "hasMenu": "Has menu",
+        "hasDelivery": "Has delivery",
+        "externalOrderUrl": "Order URL",
+        "cuisine": {
+          "national": "National",
+          "european": "European",
+          "mixed": "Mixed"
+        },
+        "price": {
+          "1": "$ — Budget",
+          "2": "$$ — Mid-range",
+          "3": "$$$ — Above average",
+          "4": "$$$$ — Premium"
+        },
+        "subscription": {
+          "free": "Free",
+          "premium": "Premium"
+        },
+        "namePlaceholder": "Name of the place",
+        "cuisinePlaceholder": "Select cuisine…",
+        "shortDescPlaceholder": "One sentence summary",
+        "fullDescPlaceholder": "Detailed description",
+        "tagPlaceholder": "Add tag and press Enter",
+        "editTitle": "Edit POI",
+        "newTitle": "New POI"
+      }
+    },
+    "menuItems": {
+      "title": "Menu Items",
+      "newButton": "New item",
+      "searchPlaceholder": "Search menu items…",
+      "emptyMessage": "No menu items found.",
+      "columns": {
+        "name": "Name",
+        "poiName": "Venue",
+        "category": "Category",
+        "price": "Price",
+        "popular": "Popular"
+      },
+      "form": {
+        "poi": "Venue",
+        "name": "Name",
+        "description": "Description",
+        "price": "Price",
+        "currency": "Currency",
+        "category": "Menu category",
+        "photo": "Photo (URL)",
+        "isPopular": "Popular",
+        "tags": "Tags",
+        "poiPlaceholder": "Select restaurant…",
+        "namePlaceholder": "Dish name",
+        "descPlaceholder": "Short description of the dish",
+        "tagPlaceholder": "Add tag…",
+        "editTitle": "Edit Menu Item",
+        "newTitle": "New Menu Item"
+      }
+    },
+    "tours": {
+      "title": "Tours",
+      "newButton": "New tour",
+      "searchPlaceholder": "Search tours…",
+      "emptyMessage": "No tours found.",
+      "columns": {
+        "name": "Name",
+        "guide": "Guide",
+        "type": "Type",
+        "status": "Status",
+        "price": "Price",
+        "maxGroup": "Max group"
+      },
+      "types": {
+        "walking": "Walking",
+        "driving": "Driving",
+        "mixed": "Mixed"
+      },
+      "statuses": {
+        "recruiting": "Recruiting",
+        "full": "Full",
+        "completed": "Completed"
+      },
+      "form": {
+        "basicInfo": "Basic Info",
+        "guideSchedule": "Guide & Schedule",
+        "route": "Route",
+        "media": "Media",
+        "stats": "Statistics",
+        "name": "Name",
+        "description": "Description",
+        "guide": "Guide",
+        "price": "Price",
+        "duration": "Duration",
+        "type": "Type",
+        "maxGroupSize": "Max group size",
+        "currentGroupSize": "Current group size",
+        "status": "Status",
+        "dates": "Dates",
+        "meetingPoint": "Meeting point",
+        "routeCoords": "Route coordinates",
+        "rating": "Rating",
+        "reviewCount": "Review count",
+        "photos": "Photos",
+        "category": "Category",
+        "namePlaceholder": "Tour name",
+        "descPlaceholder": "Describe the tour",
+        "guidePlaceholder": "Select guide…",
+        "editTitle": "Edit Tour",
+        "newTitle": "New Tour"
+      }
+    },
+    "guides": {
+      "title": "Guides",
+      "newButton": "New guide",
+      "searchPlaceholder": "Search guides…",
+      "emptyMessage": "No guides found.",
+      "columns": {
+        "name": "Name",
+        "languages": "Languages",
+        "specializations": "Specializations",
+        "rating": "Rating",
+        "tours": "Tours"
+      },
+      "form": {
+        "name": "Name",
+        "bio": "Bio",
+        "photo": "Photo (URL)",
+        "languages": "Languages",
+        "rating": "Rating",
+        "reviewCount": "Review count",
+        "tourCount": "Tour count",
+        "specializations": "Specializations",
+        "namePlaceholder": "Guide name",
+        "bioPlaceholder": "Short biography",
+        "editTitle": "Edit Guide",
+        "newTitle": "New Guide",
+        "newHint": "A new guide will be created"
+      }
+    },
+    "reviews": {
+      "title": "Reviews",
+      "newButton": "New review",
+      "searchPlaceholder": "Search reviews…",
+      "emptyMessage": "No reviews found.",
+      "columns": {
+        "type": "Type",
+        "target": "Target",
+        "author": "Author",
+        "rating": "Rating",
+        "date": "Date",
+        "generated": "Generated"
+      },
+      "targetTypes": {
+        "poi": "Point of Interest",
+        "tour": "Tour",
+        "guide": "Guide"
+      },
+      "form": {
+        "targetType": "Target type",
+        "targetId": "Target",
+        "authorName": "Author name",
+        "authorAvatar": "Avatar (URL)",
+        "rating": "Rating",
+        "text": "Review text",
+        "date": "Date",
+        "isGenerated": "Generated",
+        "authorPlaceholder": "John Doe",
+        "textPlaceholder": "Write a review…",
+        "editTitle": "Edit Review",
+        "newTitle": "New Review",
+        "newHint": "A new review will be created",
+        "loadingTargets": "Loading…",
+        "noTargets": "No items found",
+        "selectTarget": "— Select target —"
+      }
+    },
+    "emergency": {
+      "title": "Emergency Contacts",
+      "newButton": "New contact",
+      "searchPlaceholder": "Search contacts…",
+      "emptyMessage": "No contacts found.",
+      "columns": {
+        "name": "Name",
+        "type": "Type",
+        "phone": "Phone",
+        "is24h": "24h",
+        "address": "Address"
+      },
+      "types": {
+        "police": "Police",
+        "ambulance": "Ambulance",
+        "fire": "Fire Department",
+        "hospital": "Hospital",
+        "trauma": "Trauma Center",
+        "pharmacy": "Pharmacy"
+      },
+      "form": {
+        "type": "Type",
+        "name": "Name",
+        "phone": "Phone",
+        "location": "Location",
+        "is24h": "24 hours",
+        "namePlaceholder": "Organisation name",
+        "editTitle": "Edit Emergency Contact",
+        "newTitle": "New Emergency Contact"
+      }
+    },
+    "transport": {
+      "title": "Transport Routes",
+      "newButton": "New route",
+      "searchPlaceholder": "Search routes…",
+      "emptyMessage": "No routes found.",
+      "columns": {
+        "number": "#",
+        "name": "Name",
+        "type": "Type",
+        "stops": "Stops",
+        "color": "Color"
+      },
+      "types": {
+        "bus": "Bus",
+        "marshrutka": "Marshrutka",
+        "trolleybus": "Trolleybus"
+      },
+      "form": {
+        "number": "Route number",
+        "name": "Name",
+        "type": "Type",
+        "stops": "Stops",
+        "scheduleWeekday": "Weekday schedule",
+        "scheduleWeekend": "Weekend schedule",
+        "color": "Color",
+        "namePlaceholder": "Route name",
+        "editTitle": "Edit Transport Route",
+        "newTitle": "New Transport Route"
+      }
+    }
   }
 }

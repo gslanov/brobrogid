@@ -253,5 +253,408 @@
     "tours": "Туры",
     "food": "Еда",
     "emergency": "Экстренные"
+  },
+  "admin": {
+    "common": {
+      "save": "Сохранить",
+      "cancel": "Отмена",
+      "confirm": "Подтвердить",
+      "delete": "Удалить",
+      "edit": "Редактировать",
+      "back": "Назад",
+      "loading": "Загрузка…",
+      "actions": "Действия",
+      "search": "Поиск…",
+      "noItems": "Ничего не найдено.",
+      "showing": "Показано {{start}}–{{end}} из {{total}}",
+      "prev": "Назад",
+      "next": "Далее",
+      "deleteTitle": "Удалить элемент",
+      "deleteMessage": "Это действие нельзя отменить. Вы уверены?",
+      "new": "Создать",
+      "manage": "Управлять",
+      "total": "всего",
+      "export": "Экспорт",
+      "exportAll": "Экспорт всех данных",
+      "yes": "Да",
+      "no": "Нет",
+      "add": "Добавить",
+      "addPhoto": "Добавить фото",
+      "addDate": "Добавить дату",
+      "addTag": "Добавить тег...",
+      "addStop": "Добавить остановку",
+      "format": "Форматировать",
+      "clear": "Очистить",
+      "invalidJson": "Невалидный JSON. Ожидается Array<{ lat: number; lng: number }>.",
+      "formatError": "Не удалось форматировать: невалидный JSON.",
+      "pointsInRoute": "{{count}} точек в маршруте",
+      "latitude": "Широта",
+      "longitude": "Долгота",
+      "address": "Адрес",
+      "name": "Название",
+      "lat": "Шир.",
+      "lng": "Долг.",
+      "copyMonToAll": "Скопировать Пн на все дни",
+      "editTitle": "Редактирование",
+      "newTitle": "Создание",
+      "newHint": "Будет создан новый элемент",
+      "selectPlaceholder": "Выберите…",
+      "details": "Подробности",
+      "schedule": "Расписание (опционально)",
+      "id": "ID",
+      "notSpecified": "Не указано",
+      "streetPlaceholder": "Улица, дом..."
+    },
+    "days": {
+      "mon": "Пн",
+      "tue": "Вт",
+      "wed": "Ср",
+      "thu": "Чт",
+      "fri": "Пт",
+      "sat": "Сб",
+      "sun": "Вс"
+    },
+    "layout": {
+      "title": "BROBROGID Админ",
+      "admin": "Админ",
+      "backToApp": "← К приложению",
+      "logout": "Выход"
+    },
+    "sidebar": {
+      "adminPanel": "Панель управления",
+      "dashboard": "Главная",
+      "pois": "Точки интереса",
+      "menuItems": "Пункты меню",
+      "tours": "Туры",
+      "guides": "Гиды",
+      "reviews": "Отзывы",
+      "emergency": "Экстренные",
+      "transport": "Транспорт",
+      "export": "Экспорт"
+    },
+    "login": {
+      "signIn": "Войти",
+      "signingIn": "Вход…",
+      "title": "Войдите для продолжения",
+      "username": "Имя пользователя",
+      "password": "Пароль",
+      "errorInvalid": "Неверное имя пользователя или пароль",
+      "errorGeneral": "Что-то пошло не так. Попробуйте снова."
+    },
+    "dashboard": {
+      "title": "Главная",
+      "subtitle": "Обзор всего контента в базе данных BROBROGID.",
+      "totalRecords": "Всего записей в БД:",
+      "quickActions": "Быстрые действия",
+      "exportAll": "Экспорт всех данных",
+      "refreshData": "Обновить данные",
+      "exportOptions": "Параметры экспорта",
+      "entities": {
+        "pois": "Точки интереса",
+        "menuItems": "Пункты меню",
+        "tours": "Туры",
+        "guides": "Гиды",
+        "reviews": "Отзывы",
+        "emergency": "Экстренные контакты",
+        "transport": "Маршруты транспорта"
+      }
+    },
+    "export": {
+      "title": "Экспорт данных",
+      "subtitle": "Экспорт хранилищ IDB в JSON-файлы",
+      "exportAll": "Экспорт всех",
+      "exporting": "Экспорт…",
+      "store": "Хранилище",
+      "file": "Файл",
+      "records": "Записей",
+      "action": "Действие",
+      "loadingCounts": "Загрузка количества записей…",
+      "hint": "Файлы соответствуют структуре public/content/"
+    },
+    "pois": {
+      "title": "Точки интереса",
+      "all": "Все ({{count}})",
+      "newButton": "Новая точка",
+      "searchPlaceholder": "Поиск точек интереса…",
+      "emptyMessage": "Точки интереса не найдены.",
+      "columns": {
+        "name": "Название",
+        "category": "Категория",
+        "subcategory": "Подкатегория",
+        "rating": "Рейтинг",
+        "price": "Цена",
+        "tags": "Теги"
+      },
+      "categories": {
+        "attractions": "Достопримечательности",
+        "food": "Еда и напитки",
+        "accommodation": "Жильё",
+        "nature": "Природа",
+        "culture": "Культура",
+        "shopping": "Магазины",
+        "nightlife": "Ночная жизнь",
+        "transport": "Транспорт",
+        "activities": "Активности",
+        "practical": "Полезное"
+      },
+      "form": {
+        "basicInfo": "Основная информация",
+        "location": "Местоположение",
+        "description": "Описание",
+        "media": "Медиа",
+        "businessInfo": "Бизнес-информация",
+        "meta": "Мета",
+        "slug": "URL-slug",
+        "subcategory": "Подкатегория",
+        "cuisineType": "Тип кухни",
+        "shortDesc": "Краткое описание",
+        "mediumDesc": "Среднее описание",
+        "fullDesc": "Полное описание",
+        "photos": "Фотографии",
+        "rating": "Рейтинг",
+        "reviewCount": "Кол-во отзывов",
+        "hours": "Часы работы",
+        "phone": "Телефон",
+        "website": "Сайт",
+        "priceLevel": "Уровень цен",
+        "tags": "Теги",
+        "isChain": "Сеть",
+        "subscriptionTier": "Уровень подписки",
+        "visitCount": "Посещений",
+        "hasMenu": "Есть меню",
+        "hasDelivery": "Есть доставка",
+        "externalOrderUrl": "URL для заказа",
+        "cuisine": {
+          "national": "Национальная",
+          "european": "Европейская",
+          "mixed": "Смешанная"
+        },
+        "price": {
+          "1": "₽ — Бюджет",
+          "2": "₽₽ — Средний",
+          "3": "₽₽₽ — Выше среднего",
+          "4": "₽₽₽₽ — Премиум"
+        },
+        "subscription": {
+          "free": "Бесплатный",
+          "premium": "Премиум"
+        },
+        "namePlaceholder": "Название места",
+        "cuisinePlaceholder": "Выберите кухню…",
+        "shortDescPlaceholder": "Краткое описание в одно предложение",
+        "fullDescPlaceholder": "Подробное описание",
+        "tagPlaceholder": "Добавьте тег и нажмите Enter",
+        "editTitle": "Редактирование точки",
+        "newTitle": "Новая точка"
+      }
+    },
+    "menuItems": {
+      "title": "Пункты меню",
+      "newButton": "Новый пункт",
+      "searchPlaceholder": "Поиск пунктов меню…",
+      "emptyMessage": "Пункты меню не найдены.",
+      "columns": {
+        "name": "Название",
+        "poiName": "Заведение",
+        "category": "Категория",
+        "price": "Цена",
+        "popular": "Популярное"
+      },
+      "form": {
+        "poi": "Заведение",
+        "name": "Название",
+        "description": "Описание",
+        "price": "Цена",
+        "currency": "Валюта",
+        "category": "Категория меню",
+        "photo": "Фото (URL)",
+        "isPopular": "Популярное",
+        "tags": "Теги",
+        "poiPlaceholder": "Выберите заведение…",
+        "namePlaceholder": "Название блюда",
+        "descPlaceholder": "Краткое описание блюда",
+        "tagPlaceholder": "Добавьте тег…",
+        "editTitle": "Редактирование пункта меню",
+        "newTitle": "Новый пункт меню"
+      }
+    },
+    "tours": {
+      "title": "Туры",
+      "newButton": "Новый тур",
+      "searchPlaceholder": "Поиск туров…",
+      "emptyMessage": "Туры не найдены.",
+      "columns": {
+        "name": "Название",
+        "guide": "Гид",
+        "type": "Тип",
+        "status": "Статус",
+        "price": "Цена",
+        "maxGroup": "Макс. группа"
+      },
+      "types": {
+        "walking": "Пеший",
+        "driving": "На транспорте",
+        "mixed": "Смешанный"
+      },
+      "statuses": {
+        "recruiting": "Набор",
+        "full": "Полный",
+        "completed": "Завершён"
+      },
+      "form": {
+        "basicInfo": "Основная информация",
+        "guideSchedule": "Гид и расписание",
+        "route": "Маршрут",
+        "media": "Медиа",
+        "stats": "Статистика",
+        "name": "Название",
+        "description": "Описание",
+        "guide": "Гид",
+        "price": "Цена",
+        "duration": "Продолжительность",
+        "type": "Тип",
+        "maxGroupSize": "Макс. размер группы",
+        "currentGroupSize": "Текущий размер группы",
+        "status": "Статус",
+        "dates": "Даты",
+        "meetingPoint": "Место встречи",
+        "routeCoords": "Координаты маршрута",
+        "rating": "Рейтинг",
+        "reviewCount": "Кол-во отзывов",
+        "photos": "Фотографии",
+        "category": "Категория",
+        "namePlaceholder": "Название тура",
+        "descPlaceholder": "Опишите тур",
+        "guidePlaceholder": "Выберите гида…",
+        "editTitle": "Редактирование тура",
+        "newTitle": "Новый тур"
+      }
+    },
+    "guides": {
+      "title": "Гиды",
+      "newButton": "Новый гид",
+      "searchPlaceholder": "Поиск гидов…",
+      "emptyMessage": "Гиды не найдены.",
+      "columns": {
+        "name": "Имя",
+        "languages": "Языки",
+        "specializations": "Специализации",
+        "rating": "Рейтинг",
+        "tours": "Туры"
+      },
+      "form": {
+        "name": "Имя",
+        "bio": "Биография",
+        "photo": "Фото (URL)",
+        "languages": "Языки",
+        "rating": "Рейтинг",
+        "reviewCount": "Кол-во отзывов",
+        "tourCount": "Кол-во туров",
+        "specializations": "Специализации",
+        "namePlaceholder": "Имя гида",
+        "bioPlaceholder": "Краткая биография",
+        "editTitle": "Редактирование гида",
+        "newTitle": "Новый гид",
+        "newHint": "Будет создан новый гид"
+      }
+    },
+    "reviews": {
+      "title": "Отзывы",
+      "newButton": "Новый отзыв",
+      "searchPlaceholder": "Поиск отзывов…",
+      "emptyMessage": "Отзывы не найдены.",
+      "columns": {
+        "type": "Тип",
+        "target": "Объект",
+        "author": "Автор",
+        "rating": "Рейтинг",
+        "date": "Дата",
+        "generated": "Сгенерирован"
+      },
+      "targetTypes": {
+        "poi": "Точка интереса",
+        "tour": "Тур",
+        "guide": "Гид"
+      },
+      "form": {
+        "targetType": "Тип объекта",
+        "targetId": "Объект",
+        "authorName": "Имя автора",
+        "authorAvatar": "Аватар (URL)",
+        "rating": "Рейтинг",
+        "text": "Текст отзыва",
+        "date": "Дата",
+        "isGenerated": "Сгенерирован",
+        "authorPlaceholder": "Иван Иванов",
+        "textPlaceholder": "Напишите отзыв…",
+        "editTitle": "Редактирование отзыва",
+        "newTitle": "Новый отзыв",
+        "newHint": "Будет создан новый отзыв",
+        "loadingTargets": "Загрузка…",
+        "noTargets": "Ничего не найдено",
+        "selectTarget": "— Выберите объект —"
+      }
+    },
+    "emergency": {
+      "title": "Экстренные контакты",
+      "newButton": "Новый контакт",
+      "searchPlaceholder": "Поиск контактов…",
+      "emptyMessage": "Контакты не найдены.",
+      "columns": {
+        "name": "Название",
+        "type": "Тип",
+        "phone": "Телефон",
+        "is24h": "24ч",
+        "address": "Адрес"
+      },
+      "types": {
+        "police": "Полиция",
+        "ambulance": "Скорая помощь",
+        "fire": "Пожарная",
+        "hospital": "Больница",
+        "trauma": "Травмпункт",
+        "pharmacy": "Аптека"
+      },
+      "form": {
+        "type": "Тип",
+        "name": "Название",
+        "phone": "Телефон",
+        "location": "Местоположение",
+        "is24h": "Круглосуточно",
+        "namePlaceholder": "Название организации",
+        "editTitle": "Редактирование контакта",
+        "newTitle": "Новый контакт"
+      }
+    },
+    "transport": {
+      "title": "Маршруты транспорта",
+      "newButton": "Новый маршрут",
+      "searchPlaceholder": "Поиск маршрутов…",
+      "emptyMessage": "Маршруты не найдены.",
+      "columns": {
+        "number": "№",
+        "name": "Название",
+        "type": "Тип",
+        "stops": "Остановки",
+        "color": "Цвет"
+      },
+      "types": {
+        "bus": "Автобус",
+        "marshrutka": "Маршрутка",
+        "trolleybus": "Троллейбус"
+      },
+      "form": {
+        "number": "Номер маршрута",
+        "name": "Название",
+        "type": "Тип",
+        "stops": "Остановки",
+        "scheduleWeekday": "Расписание (будни)",
+        "scheduleWeekend": "Расписание (выходные)",
+        "color": "Цвет",
+        "namePlaceholder": "Название маршрута",
+        "editTitle": "Редактирование маршрута",
+        "newTitle": "Новый маршрут"
+      }
+    }
   }
 }

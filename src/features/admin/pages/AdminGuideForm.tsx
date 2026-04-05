@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { Save, X, Loader2 } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { useAdminData } from '../hooks/useAdminData'
 import { LocalizedInput } from '../components/LocalizedInput'
 import { LocalizedTextarea } from '../components/LocalizedTextarea'
@@ -26,6 +27,7 @@ function generateId(): string {
 export default function AdminGuideForm() {
   const navigate = useNavigate()
   const { id } = useParams<{ id: string }>()
+  const { t } = useTranslation()
   const isEdit = !!id && id !== 'new'
 
   const { getById, create, update } = useAdminData<Guide>('guides')
@@ -83,10 +85,10 @@ export default function AdminGuideForm() {
       <div className="flex items-center justify-between mb-8">
         <div>
           <h1 className="text-xl font-semibold text-gray-900">
-            {isEdit ? 'Edit Guide' : 'New Guide'}
+            {isEdit ? t('admin.guides.form.editTitle') : t('admin.guides.form.newTitle')}
           </h1>
           <p className="text-sm text-gray-500 mt-0.5">
-            {isEdit ? `ID: ${form.id}` : 'A new guide will be created'}
+            {isEdit ? `${t('admin.common.id')}: ${form.id}` : t('admin.guides.form.newHint')}
           </p>
         </div>
         <div className="flex items-center gap-3">
@@ -96,7 +98,7 @@ export default function AdminGuideForm() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-300 text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 transition-colors"
           >
             <X size={16} />
-            Cancel
+            {t('admin.common.cancel')}
           </button>
           <button
             form="guide-form"
@@ -105,7 +107,7 @@ export default function AdminGuideForm() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 disabled:opacity-60 transition-colors"
           >
             {isSaving ? <Loader2 size={16} className="animate-spin" /> : <Save size={16} />}
-            Save
+            {t('admin.common.save')}
           </button>
         </div>
       </div>
@@ -119,7 +121,7 @@ export default function AdminGuideForm() {
       <form id="guide-form" onSubmit={handleSubmit} className="flex flex-col gap-6">
         {/* ID — readonly in edit mode */}
         {isEdit && (
-          <AdminFormField label="ID">
+          <AdminFormField label={t('admin.common.id')}>
             <input
               type="text"
               value={form.id}
@@ -131,25 +133,25 @@ export default function AdminGuideForm() {
 
         {/* Name */}
         <LocalizedInput
-          label="Name"
+          label={t('admin.guides.form.name')}
           required
           value={form.name}
           onChange={(v) => patch('name', v)}
-          placeholder="Guide name"
+          placeholder={t('admin.guides.form.namePlaceholder')}
         />
 
         {/* Bio */}
         <LocalizedTextarea
-          label="Bio"
+          label={t('admin.guides.form.bio')}
           value={form.bio}
           onChange={(v) => patch('bio', v)}
           rows={5}
-          placeholder="Short biography"
+          placeholder={t('admin.guides.form.bioPlaceholder')}
         />
 
         {/* Photo URL + preview */}
         <div className="flex flex-col gap-2">
-          <AdminFormField label="Photo URL">
+          <AdminFormField label={t('admin.guides.form.photo')}>
             <input
               type="text"
               value={form.photo}
@@ -172,7 +174,7 @@ export default function AdminGuideForm() {
 
         {/* Languages */}
         <TagsInput
-          label="Languages"
+          label={t('admin.guides.form.languages')}
           value={form.languages}
           onChange={(v) => patch('languages', v)}
           placeholder="e.g. Russian, English…"
@@ -180,7 +182,7 @@ export default function AdminGuideForm() {
 
         {/* Specializations */}
         <TagsInput
-          label="Specializations"
+          label={t('admin.guides.form.specializations')}
           value={form.specializations}
           onChange={(v) => patch('specializations', v)}
           placeholder="e.g. History, Trekking…"
@@ -188,7 +190,7 @@ export default function AdminGuideForm() {
 
         {/* Numeric fields */}
         <div className="grid grid-cols-3 gap-4">
-          <AdminFormField label="Rating (0–5)">
+          <AdminFormField label={t('admin.guides.form.rating')}>
             <input
               type="number"
               min={0}
@@ -200,7 +202,7 @@ export default function AdminGuideForm() {
             />
           </AdminFormField>
 
-          <AdminFormField label="Review Count">
+          <AdminFormField label={t('admin.guides.form.reviewCount')}>
             <input
               type="number"
               min={0}
@@ -211,7 +213,7 @@ export default function AdminGuideForm() {
             />
           </AdminFormField>
 
-          <AdminFormField label="Tour Count">
+          <AdminFormField label={t('admin.guides.form.tourCount')}>
             <input
               type="number"
               min={0}

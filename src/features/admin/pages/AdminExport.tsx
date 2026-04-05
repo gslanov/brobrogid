@@ -1,8 +1,10 @@
 import { useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Download, FileJson, Package } from 'lucide-react'
 import { useAdminExport, type StoreInfo } from '../hooks/useAdminExport'
 
 export default function AdminExport() {
+  const { t } = useTranslation()
   const { stores, isLoading, exportStore, exportAll, refreshCounts } = useAdminExport()
 
   useEffect(() => {
@@ -17,8 +19,8 @@ export default function AdminExport() {
           <div className="flex items-center gap-3">
             <Package className="w-7 h-7 text-gray-700" />
             <div>
-              <h1 className="text-2xl font-semibold text-gray-900">Admin Export</h1>
-              <p className="text-sm text-gray-500 mt-0.5">Export IDB stores as JSON files</p>
+              <h1 className="text-2xl font-semibold text-gray-900">{t('admin.export.title')}</h1>
+              <p className="text-sm text-gray-500 mt-0.5">{t('admin.export.subtitle')}</p>
             </div>
           </div>
           <button
@@ -27,7 +29,7 @@ export default function AdminExport() {
             className="flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-lg text-sm font-medium hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
           >
             <Download className="w-4 h-4" />
-            {isLoading ? 'Exporting…' : 'Export All'}
+            {isLoading ? t('admin.export.exporting') : t('admin.export.exportAll')}
           </button>
         </div>
 
@@ -36,17 +38,17 @@ export default function AdminExport() {
           <table className="w-full text-sm">
             <thead>
               <tr className="bg-gray-50 border-b border-gray-200">
-                <th className="text-left px-4 py-3 font-medium text-gray-600">Store</th>
-                <th className="text-left px-4 py-3 font-medium text-gray-600">File</th>
-                <th className="text-right px-4 py-3 font-medium text-gray-600">Records</th>
-                <th className="text-right px-4 py-3 font-medium text-gray-600">Action</th>
+                <th className="text-left px-4 py-3 font-medium text-gray-600">{t('admin.export.store')}</th>
+                <th className="text-left px-4 py-3 font-medium text-gray-600">{t('admin.export.file')}</th>
+                <th className="text-right px-4 py-3 font-medium text-gray-600">{t('admin.export.records')}</th>
+                <th className="text-right px-4 py-3 font-medium text-gray-600">{t('admin.export.action')}</th>
               </tr>
             </thead>
             <tbody>
               {stores.length === 0 ? (
                 <tr>
                   <td colSpan={4} className="px-4 py-8 text-center text-gray-400">
-                    Loading store counts…
+                    {t('admin.export.loadingCounts')}
                   </td>
                 </tr>
               ) : (
@@ -72,7 +74,7 @@ export default function AdminExport() {
                         className="inline-flex items-center gap-1.5 px-3 py-1.5 border border-gray-300 rounded-md text-xs font-medium text-gray-700 hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
                       >
                         <Download className="w-3 h-3" />
-                        Export
+                        {t('admin.common.export')}
                       </button>
                     </td>
                   </tr>
@@ -84,7 +86,7 @@ export default function AdminExport() {
 
         {/* Footer hint */}
         <p className="mt-4 text-xs text-gray-400 text-center">
-          Files match the structure of <span className="font-mono">public/content/</span>
+          {t('admin.export.hint')}
         </p>
       </div>
     </div>

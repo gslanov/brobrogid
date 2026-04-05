@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import {
   MapPin,
   UtensilsCrossed,
@@ -26,7 +27,7 @@ interface Counts {
 }
 
 interface EntityCard {
-  label: string
+  labelKey: string
   key: keyof Counts
   icon: React.ReactNode
   to: string
@@ -36,7 +37,7 @@ interface EntityCard {
 
 const ENTITY_CARDS: EntityCard[] = [
   {
-    label: 'Points of Interest',
+    labelKey: 'admin.dashboard.entities.pois',
     key: 'pois',
     icon: <MapPin size={22} />,
     to: '/admin/pois',
@@ -44,7 +45,7 @@ const ENTITY_CARDS: EntityCard[] = [
     bgColor: 'bg-blue-50',
   },
   {
-    label: 'Menu Items',
+    labelKey: 'admin.dashboard.entities.menuItems',
     key: 'menuItems',
     icon: <UtensilsCrossed size={22} />,
     to: '/admin/menu-items',
@@ -52,7 +53,7 @@ const ENTITY_CARDS: EntityCard[] = [
     bgColor: 'bg-amber-50',
   },
   {
-    label: 'Tours',
+    labelKey: 'admin.dashboard.entities.tours',
     key: 'tours',
     icon: <Route size={22} />,
     to: '/admin/tours',
@@ -60,7 +61,7 @@ const ENTITY_CARDS: EntityCard[] = [
     bgColor: 'bg-green-50',
   },
   {
-    label: 'Guides',
+    labelKey: 'admin.dashboard.entities.guides',
     key: 'guides',
     icon: <Users size={22} />,
     to: '/admin/guides',
@@ -68,7 +69,7 @@ const ENTITY_CARDS: EntityCard[] = [
     bgColor: 'bg-purple-50',
   },
   {
-    label: 'Reviews',
+    labelKey: 'admin.dashboard.entities.reviews',
     key: 'reviews',
     icon: <MessageSquare size={22} />,
     to: '/admin/reviews',
@@ -76,7 +77,7 @@ const ENTITY_CARDS: EntityCard[] = [
     bgColor: 'bg-pink-50',
   },
   {
-    label: 'Emergency Contacts',
+    labelKey: 'admin.dashboard.entities.emergency',
     key: 'emergency',
     icon: <Phone size={22} />,
     to: '/admin/emergency',
@@ -84,7 +85,7 @@ const ENTITY_CARDS: EntityCard[] = [
     bgColor: 'bg-red-50',
   },
   {
-    label: 'Transport Routes',
+    labelKey: 'admin.dashboard.entities.transport',
     key: 'transport',
     icon: <Bus size={22} />,
     to: '/admin/transport',
@@ -94,6 +95,7 @@ const ENTITY_CARDS: EntityCard[] = [
 ]
 
 export default function AdminDashboard() {
+  const { t } = useTranslation()
   const [counts, setCounts] = useState<Counts>({
     pois: 0,
     menuItems: 0,
@@ -169,9 +171,9 @@ export default function AdminDashboard() {
     <div className="p-8 max-w-6xl mx-auto">
       {/* Page title */}
       <div className="mb-8">
-        <h2 className="text-2xl font-bold text-gray-900">Dashboard</h2>
+        <h2 className="text-2xl font-bold text-gray-900">{t('admin.dashboard.title')}</h2>
         <p className="text-sm text-gray-500 mt-1">
-          Overview of all content in the BROBROGID database.
+          {t('admin.dashboard.subtitle')}
         </p>
       </div>
 
@@ -179,7 +181,7 @@ export default function AdminDashboard() {
       <div className="mb-8 flex items-center gap-3 bg-white border border-gray-200 rounded-xl px-5 py-4">
         <Database size={20} className="text-gray-400" />
         <span className="text-sm text-gray-600">
-          Total records in IDB:
+          {t('admin.dashboard.totalRecords')}
         </span>
         <span className="font-bold text-gray-900 text-lg">
           {loading ? '—' : total}
@@ -209,12 +211,12 @@ export default function AdminDashboard() {
 
             {/* Label + link */}
             <div>
-              <div className="text-sm font-medium text-gray-700">{card.label}</div>
+              <div className="text-sm font-medium text-gray-700">{t(card.labelKey)}</div>
               <Link
                 to={card.to}
                 className={`inline-flex items-center gap-1 text-xs font-medium mt-2 ${card.color} hover:underline`}
               >
-                Manage <ArrowRight size={12} />
+                {t('admin.common.manage')} <ArrowRight size={12} />
               </Link>
             </div>
           </div>
@@ -224,7 +226,7 @@ export default function AdminDashboard() {
       {/* Quick actions */}
       <div className="bg-white rounded-xl border border-gray-200 p-6">
         <h3 className="text-sm font-semibold text-gray-700 uppercase tracking-wide mb-4">
-          Quick Actions
+          {t('admin.dashboard.quickActions')}
         </h3>
         <div className="flex items-center gap-3">
           <button
@@ -232,7 +234,7 @@ export default function AdminDashboard() {
             className="inline-flex items-center gap-2 px-4 py-2.5 bg-[#E85D26] hover:bg-[#d4531f] text-white text-sm font-medium rounded-lg transition-colors"
           >
             <Download size={16} />
-            Export All Data
+            {t('admin.dashboard.exportAll')}
           </button>
           <button
             onClick={handleRefresh}
@@ -240,14 +242,14 @@ export default function AdminDashboard() {
             className="inline-flex items-center gap-2 px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-medium rounded-lg transition-colors disabled:opacity-50"
           >
             <RefreshCw size={16} className={refreshing ? 'animate-spin' : ''} />
-            Refresh Data
+            {t('admin.dashboard.refreshData')}
           </button>
           <Link
             to="/admin/export"
             className="inline-flex items-center gap-2 px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-medium rounded-lg transition-colors"
           >
             <ArrowRight size={16} />
-            Export Options
+            {t('admin.dashboard.exportOptions')}
           </Link>
         </div>
       </div>

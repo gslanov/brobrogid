@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import {
   LayoutDashboard,
   MapPin,
@@ -24,28 +25,29 @@ interface NavCounts {
 }
 
 interface NavItem {
-  label: string
+  labelKey: string
   to: string
   icon: React.ReactNode
   countKey?: keyof NavCounts
 }
 
 const navItems: NavItem[] = [
-  { label: 'Dashboard', to: '/admin', icon: <LayoutDashboard size={18} /> },
-  { label: 'POIs', to: '/admin/pois', icon: <MapPin size={18} />, countKey: 'pois' },
-  { label: 'Menu Items', to: '/admin/menu-items', icon: <UtensilsCrossed size={18} />, countKey: 'menuItems' },
-  { label: 'Tours', to: '/admin/tours', icon: <Route size={18} />, countKey: 'tours' },
-  { label: 'Guides', to: '/admin/guides', icon: <Users size={18} />, countKey: 'guides' },
-  { label: 'Reviews', to: '/admin/reviews', icon: <MessageSquare size={18} />, countKey: 'reviews' },
-  { label: 'Emergency', to: '/admin/emergency', icon: <Phone size={18} />, countKey: 'emergency' },
-  { label: 'Transport', to: '/admin/transport', icon: <Bus size={18} />, countKey: 'transport' },
+  { labelKey: 'admin.sidebar.dashboard', to: '/admin', icon: <LayoutDashboard size={18} /> },
+  { labelKey: 'admin.sidebar.pois', to: '/admin/pois', icon: <MapPin size={18} />, countKey: 'pois' },
+  { labelKey: 'admin.sidebar.menuItems', to: '/admin/menu-items', icon: <UtensilsCrossed size={18} />, countKey: 'menuItems' },
+  { labelKey: 'admin.sidebar.tours', to: '/admin/tours', icon: <Route size={18} />, countKey: 'tours' },
+  { labelKey: 'admin.sidebar.guides', to: '/admin/guides', icon: <Users size={18} />, countKey: 'guides' },
+  { labelKey: 'admin.sidebar.reviews', to: '/admin/reviews', icon: <MessageSquare size={18} />, countKey: 'reviews' },
+  { labelKey: 'admin.sidebar.emergency', to: '/admin/emergency', icon: <Phone size={18} />, countKey: 'emergency' },
+  { labelKey: 'admin.sidebar.transport', to: '/admin/transport', icon: <Bus size={18} />, countKey: 'transport' },
 ]
 
 const bottomItems: NavItem[] = [
-  { label: 'Export', to: '/admin/export', icon: <Download size={18} /> },
+  { labelKey: 'admin.sidebar.export', to: '/admin/export', icon: <Download size={18} /> },
 ]
 
 export function AdminSidebar() {
+  const { t } = useTranslation()
   const [counts, setCounts] = useState<NavCounts>({
     pois: 0,
     menuItems: 0,
@@ -90,7 +92,7 @@ export function AdminSidebar() {
       {/* Logo */}
       <div className="px-5 py-6 border-b border-gray-800">
         <div className="text-[#E85D26] font-black text-xl tracking-wide">BROBROGID</div>
-        <div className="text-gray-500 text-xs mt-0.5 uppercase tracking-widest">Admin Panel</div>
+        <div className="text-gray-500 text-xs mt-0.5 uppercase tracking-widest">{t('admin.sidebar.adminPanel')}</div>
       </div>
 
       {/* Main nav */}
@@ -103,7 +105,7 @@ export function AdminSidebar() {
             className={linkClass}
           >
             <span className="flex-shrink-0">{item.icon}</span>
-            <span className="flex-1">{item.label}</span>
+            <span className="flex-1">{t(item.labelKey)}</span>
             {item.countKey != null && counts[item.countKey] > 0 && (
               <span className="ml-auto bg-gray-700 text-gray-300 text-xs font-medium px-2 py-0.5 rounded-full min-w-[24px] text-center">
                 {counts[item.countKey]}
@@ -118,7 +120,7 @@ export function AdminSidebar() {
         {bottomItems.map((item) => (
           <NavLink key={item.to} to={item.to} className={linkClass}>
             <span className="flex-shrink-0">{item.icon}</span>
-            <span className="flex-1">{item.label}</span>
+            <span className="flex-1">{t(item.labelKey)}</span>
           </NavLink>
         ))}
       </nav>

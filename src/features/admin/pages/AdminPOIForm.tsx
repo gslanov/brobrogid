@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { ChevronLeft, Save } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { useAdminData } from '../hooks/useAdminData'
 import { LocalizedInput } from '../components/LocalizedInput'
 import { LocalizedTextarea } from '../components/LocalizedTextarea'
@@ -34,37 +35,37 @@ function toSlug(text: string): string {
 }
 
 // ---------------------------------------------------------------------------
-// Select options
+// Select options — labelKey pattern for out-of-component arrays
 // ---------------------------------------------------------------------------
-const CATEGORY_OPTIONS: { value: string; label: string }[] = [
-  { value: 'attractions', label: 'Attractions' },
-  { value: 'food', label: 'Food' },
-  { value: 'accommodation', label: 'Accommodation' },
-  { value: 'nature', label: 'Nature' },
-  { value: 'culture', label: 'Culture' },
-  { value: 'shopping', label: 'Shopping' },
-  { value: 'nightlife', label: 'Nightlife' },
-  { value: 'transport', label: 'Transport' },
-  { value: 'activities', label: 'Activities' },
-  { value: 'practical', label: 'Practical' },
+const CATEGORY_OPTIONS: { value: string; labelKey: string }[] = [
+  { value: 'attractions', labelKey: 'admin.pois.categories.attractions' },
+  { value: 'food', labelKey: 'admin.pois.categories.food' },
+  { value: 'accommodation', labelKey: 'admin.pois.categories.accommodation' },
+  { value: 'nature', labelKey: 'admin.pois.categories.nature' },
+  { value: 'culture', labelKey: 'admin.pois.categories.culture' },
+  { value: 'shopping', labelKey: 'admin.pois.categories.shopping' },
+  { value: 'nightlife', labelKey: 'admin.pois.categories.nightlife' },
+  { value: 'transport', labelKey: 'admin.pois.categories.transport' },
+  { value: 'activities', labelKey: 'admin.pois.categories.activities' },
+  { value: 'practical', labelKey: 'admin.pois.categories.practical' },
 ]
 
-const CUISINE_OPTIONS: { value: string; label: string }[] = [
-  { value: 'national', label: 'National' },
-  { value: 'european', label: 'European' },
-  { value: 'mixed', label: 'Mixed' },
+const CUISINE_OPTIONS: { value: string; labelKey: string }[] = [
+  { value: 'national', labelKey: 'admin.pois.form.cuisine.national' },
+  { value: 'european', labelKey: 'admin.pois.form.cuisine.european' },
+  { value: 'mixed', labelKey: 'admin.pois.form.cuisine.mixed' },
 ]
 
-const PRICE_LEVEL_OPTIONS: { value: string; label: string }[] = [
-  { value: '1', label: '₽ — Budget' },
-  { value: '2', label: '₽₽ — Moderate' },
-  { value: '3', label: '₽₽₽ — Upscale' },
-  { value: '4', label: '₽₽₽₽ — Luxury' },
+const PRICE_LEVEL_OPTIONS: { value: string; labelKey: string }[] = [
+  { value: '1', labelKey: 'admin.pois.form.price.1' },
+  { value: '2', labelKey: 'admin.pois.form.price.2' },
+  { value: '3', labelKey: 'admin.pois.form.price.3' },
+  { value: '4', labelKey: 'admin.pois.form.price.4' },
 ]
 
-const SUBSCRIPTION_OPTIONS: { value: string; label: string }[] = [
-  { value: 'free', label: 'Free' },
-  { value: 'premium', label: 'Premium' },
+const SUBSCRIPTION_OPTIONS: { value: string; labelKey: string }[] = [
+  { value: 'free', labelKey: 'admin.pois.form.subscription.free' },
+  { value: 'premium', labelKey: 'admin.pois.form.subscription.premium' },
 ]
 
 // ---------------------------------------------------------------------------
@@ -144,6 +145,7 @@ function CheckboxField({
 export default function AdminPOIForm() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const isCreate = id === 'new'
 
   const { getById, create, update } = useAdminData<POI>('pois')
@@ -152,6 +154,12 @@ export default function AdminPOIForm() {
   const [isLoading, setIsLoading] = useState(!isCreate)
   const [isSaving, setIsSaving] = useState(false)
   const [error, setError] = useState<string | null>(null)
+
+  // Resolve labelKey arrays inside component so t() is available
+  const categoryOptions = CATEGORY_OPTIONS.map((o) => ({ value: o.value, label: t(o.labelKey) }))
+  const cuisineOptions = CUISINE_OPTIONS.map((o) => ({ value: o.value, label: t(o.labelKey) }))
+  const priceLevelOptions = PRICE_LEVEL_OPTIONS.map((o) => ({ value: o.value, label: t(o.labelKey) }))
+  const subscriptionOptions = SUBSCRIPTION_OPTIONS.map((o) => ({ value: o.value, label: t(o.labelKey) }))
 
   // Load existing POI in edit mode
   useEffect(() => {
@@ -220,7 +228,7 @@ export default function AdminPOIForm() {
   // ---------------------------------------------------------------------------
   if (isLoading) {
     return (
-      <div className="py-16 text-center text-gray-400 text-sm">Loading…</div>
+      <div className="py-16 text-center text-gray-400 text-sm">{t('admin.common.loading')}</div>
     )
   }
 
@@ -242,17 +250,17 @@ export default function AdminPOIForm() {
           <ChevronLeft size={20} />
         </button>
         <h1 className="text-xl font-semibold text-gray-900">
-          {isCreate ? 'New POI' : `Edit: ${form.name.ru || form.id}`}
+          {isCreate ? t('admin.pois.form.newTitle') : `${t('admin.pois.form.editTitle')}: ${form.name.ru || form.id}`}
         </h1>
       </div>
 
       <form onSubmit={handleSave} className="flex flex-col gap-8">
 
         {/* ── Basic Info ── */}
-        <Section title="Basic Info">
+        <Section title={t('admin.pois.form.basicInfo')}>
           {/* ID (readonly in edit mode) */}
           <div className="flex flex-col gap-1">
-            <label className="text-sm font-medium text-gray-700">ID</label>
+            <label className="text-sm font-medium text-gray-700">{t('admin.common.id')}</label>
             <input
               type="text"
               value={form.id}
@@ -263,7 +271,7 @@ export default function AdminPOIForm() {
 
           {/* Slug */}
           <div className="flex flex-col gap-1">
-            <label className="text-sm font-medium text-gray-700">Slug</label>
+            <label className="text-sm font-medium text-gray-700">{t('admin.pois.form.slug')}</label>
             <input
               type="text"
               value={form.slug}
@@ -274,24 +282,24 @@ export default function AdminPOIForm() {
           </div>
 
           <LocalizedInput
-            label="Name"
+            label={t('admin.common.name')}
             value={form.name}
             onChange={handleNameChange}
             required
-            placeholder="Name of the place"
+            placeholder={t('admin.pois.form.namePlaceholder')}
           />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <SelectField
-              label="Category"
+              label={t('admin.pois.columns.category')}
               value={form.category}
               onChange={(v) => set('category', v as POICategory)}
-              options={CATEGORY_OPTIONS}
+              options={categoryOptions}
               required
             />
 
             <div className="flex flex-col gap-1">
-              <label className="text-sm font-medium text-gray-700">Subcategory</label>
+              <label className="text-sm font-medium text-gray-700">{t('admin.pois.form.subcategory')}</label>
               <input
                 type="text"
                 value={form.subcategory}
@@ -305,63 +313,63 @@ export default function AdminPOIForm() {
           {/* Cuisine type — only visible when category = food */}
           {form.category === 'food' && (
             <SelectField
-              label="Cuisine Type"
+              label={t('admin.pois.form.cuisineType')}
               value={form.cuisineType ?? ''}
               onChange={(v) => set('cuisineType', v as CuisineType)}
-              options={CUISINE_OPTIONS}
-              placeholder="Select cuisine…"
+              options={cuisineOptions}
+              placeholder={t('admin.pois.form.cuisinePlaceholder')}
             />
           )}
         </Section>
 
         {/* ── Location ── */}
-        <Section title="Location">
+        <Section title={t('admin.pois.form.location')}>
           <LocationPicker
-            label="Location"
+            label={t('admin.pois.form.location')}
             value={form.location}
             onChange={(v) => set('location', v)}
           />
         </Section>
 
         {/* ── Description ── */}
-        <Section title="Description">
+        <Section title={t('admin.pois.form.description')}>
           <LocalizedTextarea
-            label="Short description"
+            label={t('admin.pois.form.shortDesc')}
             value={form.description.short}
             onChange={(v) => setForm((prev) => ({ ...prev, description: { ...prev.description, short: v } }))}
             rows={2}
-            placeholder="One sentence summary"
+            placeholder={t('admin.pois.form.shortDescPlaceholder')}
           />
           <LocalizedTextarea
-            label="Medium description"
+            label={t('admin.pois.form.mediumDesc')}
             value={form.description.medium}
             onChange={(v) => setForm((prev) => ({ ...prev, description: { ...prev.description, medium: v } }))}
             rows={4}
             placeholder="2–4 sentences"
           />
           <LocalizedTextarea
-            label="Full description"
+            label={t('admin.pois.form.fullDesc')}
             value={form.description.full}
             onChange={(v) => setForm((prev) => ({ ...prev, description: { ...prev.description, full: v } }))}
             rows={8}
-            placeholder="Detailed description"
+            placeholder={t('admin.pois.form.fullDescPlaceholder')}
           />
         </Section>
 
         {/* ── Media ── */}
-        <Section title="Media">
+        <Section title={t('admin.pois.form.media')}>
           <PhotosManager
-            label="Photos"
+            label={t('admin.pois.form.photos')}
             value={form.photos}
             onChange={(v) => set('photos', v)}
           />
         </Section>
 
         {/* ── Business Info ── */}
-        <Section title="Business Info">
+        <Section title={t('admin.pois.form.businessInfo')}>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="flex flex-col gap-1">
-              <label className="text-sm font-medium text-gray-700">Rating</label>
+              <label className="text-sm font-medium text-gray-700">{t('admin.pois.form.rating')}</label>
               <input
                 type="number"
                 min={0}
@@ -374,7 +382,7 @@ export default function AdminPOIForm() {
             </div>
 
             <div className="flex flex-col gap-1">
-              <label className="text-sm font-medium text-gray-700">Review Count</label>
+              <label className="text-sm font-medium text-gray-700">{t('admin.pois.form.reviewCount')}</label>
               <input
                 type="number"
                 min={0}
@@ -387,14 +395,14 @@ export default function AdminPOIForm() {
           </div>
 
           <HoursEditor
-            label="Opening Hours"
+            label={t('admin.pois.form.hours')}
             value={form.hours ?? {}}
             onChange={(v: OperatingHours) => set('hours', v)}
           />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="flex flex-col gap-1">
-              <label className="text-sm font-medium text-gray-700">Phone</label>
+              <label className="text-sm font-medium text-gray-700">{t('admin.pois.form.phone')}</label>
               <input
                 type="tel"
                 value={form.phone ?? ''}
@@ -405,7 +413,7 @@ export default function AdminPOIForm() {
             </div>
 
             <div className="flex flex-col gap-1">
-              <label className="text-sm font-medium text-gray-700">Website</label>
+              <label className="text-sm font-medium text-gray-700">{t('admin.pois.form.website')}</label>
               <input
                 type="url"
                 value={form.website ?? ''}
@@ -417,33 +425,33 @@ export default function AdminPOIForm() {
           </div>
 
           <SelectField
-            label="Price Level"
+            label={t('admin.pois.form.priceLevel')}
             value={form.priceLevel !== undefined ? String(form.priceLevel) : ''}
             onChange={(v) => set('priceLevel', v ? (parseInt(v, 10) as 1 | 2 | 3 | 4) : undefined)}
-            options={PRICE_LEVEL_OPTIONS}
-            placeholder="Not specified"
+            options={priceLevelOptions}
+            placeholder={t('admin.common.notSpecified')}
           />
 
           <TagsInput
-            label="Tags"
+            label={t('admin.pois.form.tags')}
             value={form.tags}
             onChange={(v) => set('tags', v)}
-            placeholder="Add tag and press Enter"
+            placeholder={t('admin.pois.form.tagPlaceholder')}
           />
 
           <div className="flex flex-wrap gap-6">
             <CheckboxField
-              label="Is Chain"
+              label={t('admin.pois.form.isChain')}
               checked={form.isChain}
               onChange={(v) => set('isChain', v)}
             />
             <CheckboxField
-              label="Has Menu"
+              label={t('admin.pois.form.hasMenu')}
               checked={form.hasMenu}
               onChange={(v) => set('hasMenu', v)}
             />
             <CheckboxField
-              label="Has Delivery"
+              label={t('admin.pois.form.hasDelivery')}
               checked={form.hasDelivery}
               onChange={(v) => set('hasDelivery', v)}
             />
@@ -451,7 +459,7 @@ export default function AdminPOIForm() {
 
           {form.hasDelivery && (
             <div className="flex flex-col gap-1">
-              <label className="text-sm font-medium text-gray-700">External Order URL</label>
+              <label className="text-sm font-medium text-gray-700">{t('admin.pois.form.externalOrderUrl')}</label>
               <input
                 type="url"
                 value={form.externalOrderUrl ?? ''}
@@ -464,18 +472,18 @@ export default function AdminPOIForm() {
         </Section>
 
         {/* ── Meta ── */}
-        <Section title="Meta">
+        <Section title={t('admin.pois.form.meta')}>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <SelectField
-              label="Subscription Tier"
+              label={t('admin.pois.form.subscriptionTier')}
               value={form.subscriptionTier}
               onChange={(v) => set('subscriptionTier', v as 'free' | 'premium')}
-              options={SUBSCRIPTION_OPTIONS}
+              options={subscriptionOptions}
               required
             />
 
             <div className="flex flex-col gap-1">
-              <label className="text-sm font-medium text-gray-700">Visit Count</label>
+              <label className="text-sm font-medium text-gray-700">{t('admin.pois.form.visitCount')}</label>
               <input
                 type="number"
                 min={0}
@@ -503,14 +511,14 @@ export default function AdminPOIForm() {
             className="inline-flex items-center gap-2 px-5 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 active:bg-blue-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
           >
             <Save size={15} />
-            {isSaving ? 'Saving…' : 'Save'}
+            {isSaving ? 'Saving…' : t('admin.common.save')}
           </button>
           <button
             type="button"
             onClick={() => navigate('/admin/pois')}
             className="px-5 py-2 rounded-lg bg-white text-gray-700 text-sm font-medium border border-gray-300 hover:bg-gray-50 active:bg-gray-100 transition-colors"
           >
-            Cancel
+            {t('admin.common.cancel')}
           </button>
         </div>
 

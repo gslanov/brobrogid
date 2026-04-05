@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { Copy } from 'lucide-react'
 
 type DayKey = 'mon' | 'tue' | 'wed' | 'thu' | 'fri' | 'sat' | 'sun'
@@ -8,17 +9,11 @@ interface HoursEditorProps {
   onChange: (value: { mon?: string; tue?: string; wed?: string; thu?: string; fri?: string; sat?: string; sun?: string }) => void
 }
 
-const DAYS: { key: DayKey; label: string }[] = [
-  { key: 'mon', label: 'Mon' },
-  { key: 'tue', label: 'Tue' },
-  { key: 'wed', label: 'Wed' },
-  { key: 'thu', label: 'Thu' },
-  { key: 'fri', label: 'Fri' },
-  { key: 'sat', label: 'Sat' },
-  { key: 'sun', label: 'Sun' },
-]
+const DAY_KEYS: DayKey[] = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']
 
 export function HoursEditor({ label, value, onChange }: HoursEditorProps) {
+  const { t } = useTranslation()
+
   const handleDay = (key: DayKey, text: string) => {
     onChange({ ...value, [key]: text || undefined })
   }
@@ -26,7 +21,7 @@ export function HoursEditor({ label, value, onChange }: HoursEditorProps) {
   const copyMonToAll = () => {
     const monValue = value.mon ?? ''
     const updated: typeof value = {}
-    for (const { key } of DAYS) {
+    for (const key of DAY_KEYS) {
       updated[key] = monValue || undefined
     }
     onChange(updated)
@@ -39,18 +34,20 @@ export function HoursEditor({ label, value, onChange }: HoursEditorProps) {
         <button
           type="button"
           onClick={copyMonToAll}
-          title="Copy Mon to all days"
+          title={t('admin.common.copyMonToAll')}
           className="flex items-center gap-1 text-xs text-blue-500 hover:text-blue-700 transition-colors"
         >
           <Copy size={12} />
-          Copy Mon to all
+          {t('admin.common.copyMonToAll')}
         </button>
       </legend>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-1.5 mt-1">
-        {DAYS.map(({ key, label: dayLabel }) => (
+        {DAY_KEYS.map((key) => (
           <div key={key} className="flex items-center gap-2">
-            <span className="w-8 text-xs font-medium text-gray-500 flex-shrink-0">{dayLabel}</span>
+            <span className="w-8 text-xs font-medium text-gray-500 flex-shrink-0">
+              {t(`admin.days.${key}`)}
+            </span>
             <input
               type="text"
               value={value[key] ?? ''}

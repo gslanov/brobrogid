@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react'
+import { useTranslation } from 'react-i18next'
 import Fuse from 'fuse.js'
 import { Pencil, Trash2, ChevronUp, ChevronDown, ChevronsUpDown } from 'lucide-react'
 import ConfirmDialog from './ConfirmDialog'
@@ -32,15 +33,19 @@ export default function AdminTable<T extends Record<string, unknown>>({
   onEdit,
   onDelete,
   searchKeys = [],
-  searchPlaceholder = 'Search…',
-  emptyMessage = 'No items found.',
+  searchPlaceholder,
+  emptyMessage,
   getId = (item) => String((item as Record<string, unknown>).id ?? ''),
 }: AdminTableProps<T>) {
+  const { t } = useTranslation()
   const [query, setQuery] = useState('')
   const [sortKey, setSortKey] = useState<string | null>(null)
   const [sortDir, setSortDir] = useState<SortDir>(null)
   const [page, setPage] = useState(1)
   const [deleteTarget, setDeleteTarget] = useState<T | null>(null)
+
+  const resolvedSearchPlaceholder = searchPlaceholder ?? t('admin.common.search')
+  const resolvedEmptyMessage = emptyMessage ?? t('admin.common.noItems')
 
   const fuse = useMemo(
     () =>
@@ -106,7 +111,7 @@ export default function AdminTable<T extends Record<string, unknown>>({
         type="search"
         value={query}
         onChange={(e) => handleSearch(e.target.value)}
-        placeholder={searchPlaceholder}
+        placeholder={resolvedSearchPlaceholder}
         className="w-full max-w-sm px-3 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
 
@@ -130,7 +135,7 @@ export default function AdminTable<T extends Record<string, unknown>>({
               ))}
               {showActions && (
                 <th className="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider w-24">
-                  Actions
+                  {t('admin.common.actions')}
                 </th>
               )}
             </tr>
@@ -142,7 +147,7 @@ export default function AdminTable<T extends Record<string, unknown>>({
                   colSpan={columns.length + (showActions ? 1 : 0)}
                   className="px-4 py-12 text-center text-gray-400 text-sm"
                 >
-                  {emptyMessage}
+                  {resolvedEmptyMessage}
                 </td>
               </tr>
             ) : (
@@ -165,7 +170,7 @@ export default function AdminTable<T extends Record<string, unknown>>({
                           <button
                             onClick={() => onEdit(item)}
                             className="p-1.5 text-gray-500 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
-                            title="Edit"
+                            title={t('admin.common.edit')}
                           >
                             <Pencil size={15} />
                           </button>
@@ -174,7 +179,7 @@ export default function AdminTable<T extends Record<string, unknown>>({
                           <button
                             onClick={() => setDeleteTarget(item)}
                             className="p-1.5 text-gray-500 hover:text-red-600 hover:bg-red-50 rounded-lg transition-colors"
-                            title="Delete"
+                            title={t('admin.common.delete')}
                           >
                             <Trash2 size={15} />
                           </button>
@@ -193,7 +198,11 @@ export default function AdminTable<T extends Record<string, unknown>>({
       {sorted.length > 0 && (
         <div className="flex items-center justify-between text-sm text-gray-600">
           <span>
-            Showing {start + 1}–{Math.min(start + PAGE_SIZE, sorted.length)} of {sorted.length}
+            {t('admin.common.showing', {
+              start: start + 1,
+              end: Math.min(start + PAGE_SIZE, sorted.length),
+              total: sorted.length,
+            })}
           </span>
           <div className="flex items-center gap-2">
             <button
@@ -201,7 +210,7 @@ export default function AdminTable<T extends Record<string, unknown>>({
               disabled={safePage === 1}
               className="px-3 py-1.5 rounded-lg border border-gray-300 hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
             >
-              Prev
+              {t('admin.common.prev')}
             </button>
             <span className="px-2">
               {safePage} / {totalPages}
@@ -211,7 +220,7 @@ export default function AdminTable<T extends Record<string, unknown>>({
               disabled={safePage === totalPages}
               className="px-3 py-1.5 rounded-lg border border-gray-300 hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
             >
-              Next
+              {t('admin.common.next')}
             </button>
           </div>
         </div>
@@ -220,8 +229,8 @@ export default function AdminTable<T extends Record<string, unknown>>({
       {/* Delete confirm dialog */}
       <ConfirmDialog
         open={deleteTarget !== null}
-        title="Delete item"
-        message="This action cannot be undone. Are you sure you want to delete this item?"
+        title={t('admin.common.deleteTitle')}
+        message={t('admin.common.deleteMessage')}
         onConfirm={() => {
           if (deleteTarget) onDelete?.(deleteTarget)
           setDeleteTarget(null)

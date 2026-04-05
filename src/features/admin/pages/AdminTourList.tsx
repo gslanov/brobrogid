@@ -1,15 +1,10 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Plus } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { useAdminData } from '../hooks/useAdminData'
 import AdminTable, { type Column } from '../components/AdminTable'
 import type { Tour, TourStatus, Guide } from '@/data/types'
-
-const STATUS_LABELS: Record<TourStatus, string> = {
-  recruiting: 'Recruiting',
-  full: 'Full',
-  completed: 'Completed',
-}
 
 const STATUS_COLORS: Record<TourStatus, string> = {
   recruiting: 'bg-green-100 text-green-700',
@@ -17,16 +12,11 @@ const STATUS_COLORS: Record<TourStatus, string> = {
   completed: 'bg-gray-100 text-gray-500',
 }
 
-const TYPE_LABELS: Record<string, string> = {
-  walking: 'Walking',
-  driving: 'Driving',
-  mixed: 'Mixed',
-}
-
 const ALL_STATUSES: TourStatus[] = ['recruiting', 'full', 'completed']
 
 export default function AdminTourList() {
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const { items, isLoading, remove } = useAdminData<Tour>('tours')
   const { items: guides } = useAdminData<Guide>('guides')
   const [activeStatus, setActiveStatus] = useState<TourStatus | null>(null)
@@ -41,7 +31,7 @@ export default function AdminTourList() {
   const COLUMNS: Column<Tour>[] = [
     {
       key: 'name',
-      label: 'Name',
+      label: t('admin.tours.columns.name'),
       sortable: true,
       render: (tour) => (
         <span className="font-medium text-gray-900">{tour.name.ru}</span>
@@ -49,7 +39,7 @@ export default function AdminTourList() {
     },
     {
       key: 'guideId',
-      label: 'Guide',
+      label: t('admin.tours.columns.guide'),
       sortable: true,
       render: (tour) => (
         <span className="text-gray-600 text-sm">
@@ -59,16 +49,16 @@ export default function AdminTourList() {
     },
     {
       key: 'type',
-      label: 'Type',
+      label: t('admin.tours.columns.type'),
       sortable: true,
       width: '100px',
       render: (tour) => (
-        <span className="text-gray-600 text-sm">{TYPE_LABELS[tour.type] ?? tour.type}</span>
+        <span className="text-gray-600 text-sm">{t(`admin.tours.types.${tour.type}`, { defaultValue: tour.type })}</span>
       ),
     },
     {
       key: 'status',
-      label: 'Status',
+      label: t('admin.tours.columns.status'),
       sortable: true,
       width: '110px',
       render: (tour) => (
@@ -78,13 +68,13 @@ export default function AdminTourList() {
             STATUS_COLORS[tour.status],
           ].join(' ')}
         >
-          {STATUS_LABELS[tour.status]}
+          {t(`admin.tours.statuses.${tour.status}`)}
         </span>
       ),
     },
     {
       key: 'price',
-      label: 'Price',
+      label: t('admin.tours.columns.price'),
       sortable: true,
       width: '100px',
       render: (tour) => (
@@ -95,7 +85,7 @@ export default function AdminTourList() {
     },
     {
       key: 'maxGroupSize',
-      label: 'Max Group',
+      label: t('admin.tours.columns.maxGroup'),
       sortable: true,
       width: '100px',
       render: (tour) => (
@@ -111,15 +101,15 @@ export default function AdminTourList() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-xl font-semibold text-gray-900">Tours</h1>
-          <p className="text-sm text-gray-500 mt-0.5">{items.length} total</p>
+          <h1 className="text-xl font-semibold text-gray-900">{t('admin.tours.title')}</h1>
+          <p className="text-sm text-gray-500 mt-0.5">{items.length} {t('admin.common.total')}</p>
         </div>
         <button
           onClick={() => navigate('/admin/tours/new')}
           className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 active:bg-blue-800 transition-colors"
         >
           <Plus size={16} />
-          New Tour
+          {t('admin.tours.newButton')}
         </button>
       </div>
 
@@ -154,7 +144,7 @@ export default function AdminTourList() {
                   : 'bg-white text-gray-600 border-gray-300 hover:border-gray-400',
               ].join(' ')}
             >
-              {STATUS_LABELS[status]} ({count})
+              {t(`admin.tours.statuses.${status}`)} ({count})
             </button>
           )
         })}
@@ -168,8 +158,8 @@ export default function AdminTourList() {
           columns={COLUMNS}
           data={filtered}
           searchKeys={['name.ru', 'name.en', 'category']}
-          searchPlaceholder="Search tours…"
-          emptyMessage="No tours found."
+          searchPlaceholder={t('admin.tours.searchPlaceholder')}
+          emptyMessage={t('admin.tours.emptyMessage')}
           onEdit={(tour) => navigate(`/admin/tours/${tour.id}`)}
           onDelete={(tour) => remove(tour.id)}
           getId={(tour) => tour.id}

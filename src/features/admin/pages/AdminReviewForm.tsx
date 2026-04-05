@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { Save, X, Loader2, Star } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { useAdminData } from '../hooks/useAdminData'
 import { adminGetAll } from '../lib/admin-db'
 import SelectField from '../components/SelectField'
@@ -12,10 +13,11 @@ interface TargetOption {
   label: string
 }
 
-const TARGET_TYPE_OPTIONS = [
-  { value: 'poi', label: 'POI' },
-  { value: 'tour', label: 'Tour' },
-  { value: 'guide', label: 'Guide' },
+// labelKey pattern — resolved inside component
+const TARGET_TYPE_OPTIONS: { value: string; labelKey: string }[] = [
+  { value: 'poi', labelKey: 'admin.reviews.targetTypes.poi' },
+  { value: 'tour', labelKey: 'admin.reviews.targetTypes.tour' },
+  { value: 'guide', labelKey: 'admin.reviews.targetTypes.guide' },
 ]
 
 function generateId(): string {
@@ -87,6 +89,7 @@ async function loadTargetOptions(type: ReviewTargetType): Promise<TargetOption[]
 export default function AdminReviewForm() {
   const navigate = useNavigate()
   const { id } = useParams<{ id: string }>()
+  const { t } = useTranslation()
   const isEdit = !!id && id !== 'new'
 
   const { getById, create, update } = useAdminData<Review>('reviews')
@@ -98,6 +101,8 @@ export default function AdminReviewForm() {
 
   const [targetOptions, setTargetOptions] = useState<TargetOption[]>([])
   const [targetOptionsLoading, setTargetOptionsLoading] = useState(false)
+
+  const targetTypeOptions = TARGET_TYPE_OPTIONS.map((o) => ({ value: o.value, label: t(o.labelKey) }))
 
   // Load form data in edit mode
   useEffect(() => {
@@ -169,10 +174,10 @@ export default function AdminReviewForm() {
       <div className="flex items-center justify-between mb-8">
         <div>
           <h1 className="text-xl font-semibold text-gray-900">
-            {isEdit ? 'Edit Review' : 'New Review'}
+            {isEdit ? t('admin.reviews.form.editTitle') : t('admin.reviews.form.newTitle')}
           </h1>
           <p className="text-sm text-gray-500 mt-0.5">
-            {isEdit ? `ID: ${form.id}` : 'A new review will be created'}
+            {isEdit ? `${t('admin.common.id')}: ${form.id}` : t('admin.reviews.form.newHint')}
           </p>
         </div>
         <div className="flex items-center gap-3">
@@ -182,7 +187,7 @@ export default function AdminReviewForm() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-300 text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 transition-colors"
           >
             <X size={16} />
-            Cancel
+            {t('admin.common.cancel')}
           </button>
           <button
             form="review-form"
@@ -191,7 +196,7 @@ export default function AdminReviewForm() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 disabled:opacity-60 transition-colors"
           >
             {isSaving ? <Loader2 size={16} className="animate-spin" /> : <Save size={16} />}
-            Save
+            {t('admin.common.save')}
           </button>
         </div>
       </div>
@@ -205,27 +210,27 @@ export default function AdminReviewForm() {
       <form id="review-form" onSubmit={handleSubmit} className="flex flex-col gap-6">
         {/* Target Type */}
         <SelectField
-          label="Target Type"
+          label={t('admin.reviews.form.targetType')}
           required
           value={form.targetType}
           onChange={handleTargetTypeChange}
-          options={TARGET_TYPE_OPTIONS}
+          options={targetTypeOptions}
         />
 
         {/* Target ID — cascading */}
         <div className="flex flex-col gap-1">
           <SelectField
-            label="Target"
+            label={t('admin.reviews.form.targetId')}
             required
             value={form.targetId}
             onChange={(v) => patch('targetId', v)}
             options={targetOptions}
             placeholder={
               targetOptionsLoading
-                ? 'Loading…'
+                ? t('admin.reviews.form.loadingTargets')
                 : targetOptions.length === 0
-                  ? 'No items found'
-                  : '— Select target —'
+                  ? t('admin.reviews.form.noTargets')
+                  : t('admin.reviews.form.selectTarget')
             }
           />
           {targetOptionsLoading && (
@@ -237,19 +242,19 @@ export default function AdminReviewForm() {
         </div>
 
         {/* Author Name */}
-        <AdminFormField label="Author Name" required>
+        <AdminFormField label={t('admin.reviews.form.authorName')} required>
           <input
             type="text"
             value={form.authorName}
             onChange={(e) => patch('authorName', e.target.value)}
             required
-            placeholder="John Doe"
+            placeholder={t('admin.reviews.form.authorPlaceholder')}
             className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           />
         </AdminFormField>
 
         {/* Author Avatar */}
-        <AdminFormField label="Author Avatar URL">
+        <AdminFormField label={t('admin.reviews.form.authorAvatar')}>
           <input
             type="text"
             value={form.authorAvatar ?? ''}
@@ -262,7 +267,7 @@ export default function AdminReviewForm() {
         {/* Rating — visual stars + number */}
         <div className="flex flex-col gap-2">
           <label className="text-sm font-medium text-gray-700">
-            Rating <span className="text-red-500">*</span>
+            {t('admin.reviews.form.rating')} <span className="text-red-500">*</span>
           </label>
           <StarRatingInput
             value={form.rating}
@@ -280,18 +285,18 @@ export default function AdminReviewForm() {
         </div>
 
         {/* Review Text */}
-        <AdminFormField label="Review Text">
+        <AdminFormField label={t('admin.reviews.form.text')}>
           <textarea
             value={form.text}
             onChange={(e) => patch('text', e.target.value)}
             rows={4}
-            placeholder="Write a review…"
+            placeholder={t('admin.reviews.form.textPlaceholder')}
             className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-y"
           />
         </AdminFormField>
 
         {/* Date */}
-        <AdminFormField label="Date" required>
+        <AdminFormField label={t('admin.reviews.form.date')} required>
           <input
             type="date"
             value={form.date}
@@ -311,7 +316,7 @@ export default function AdminReviewForm() {
             className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
           />
           <label htmlFor="isGenerated" className="text-sm font-medium text-gray-700 select-none cursor-pointer">
-            AI-generated review
+            {t('admin.reviews.form.isGenerated')}
           </label>
         </div>
       </form>
