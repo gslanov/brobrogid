@@ -5,6 +5,21 @@
 - Status: ok
 - For next invocation: Large amount of uncommitted changes accumulated since commit ff66266. ~41 modified tracked files + ~18 new untracked files (new components, hooks, stores, features). No remote configured. Only branch is master. Need to stage and commit all accumulated work in logical groups.
 
+## 2026-04-05 (session 2 — admin CMS)
+- Action: Committed admin panel (36 new files) in 7 logical commits, pushed to GitHub.
+- Files: src/features/admin/** (lib, hooks, components, pages), src/app/App.tsx, src/app/router.tsx, deploy.sh
+- Commits:
+  - `ffa0423` "feat: add admin CMS foundation — db layer, hooks, layout, sidebar, dashboard"
+  - `60d4c47` "feat: add admin shared form components (14 components)"
+  - `34a9f8f` "feat: add admin pages for POI, MenuItem, Tour, Guide entities"
+  - `799e1e0` "feat: add admin pages for Review, Emergency, Transport entities"
+  - `9230021` "feat: add AdminExport page — JSON/CSV bulk export for all entities"
+  - `779e396` "feat: wire admin routes into app — bypass AppShell and onboarding for /admin"
+  - `df56a78` "chore: add deploy.sh — build and rsync to Selectel nginx server"
+- Remote: https://github.com/gslanov/brobrogid.git — pushed successfully
+- Status: ok
+- For next invocation: Repo is clean and pushed. Admin CMS fully committed. .agent/ADMIN_ARCHITECTURE.md is local only (gitignored). Branch: master. deploy.sh deploys to 87.228.33.68 via rsync.
+
 ## 2026-04-05
 - Action: Committed all accumulated changes in 8 logical groups, created remote origin, pushed master to GitHub.
 - Files: all project files (~200+ files across 8 commits)
