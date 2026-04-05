@@ -7,6 +7,7 @@ import { seedDatabase } from '@/shared/lib/seed'
 import { useDataStore } from '@/data/stores/data-store'
 import { useRouteAnnounce } from '@/shared/hooks/useRouteAnnounce'
 import { AlertTriangle } from 'lucide-react'
+import i18n from '@/i18n'
 
 export default function App() {
   const [ready, setReady] = useState(false)
@@ -22,6 +23,10 @@ export default function App() {
       try {
         await seedDatabase()
         await loadAll()
+        const storedLang = useDataStore.getState().userPrefs?.language
+        if (storedLang && storedLang !== i18n.language) {
+          i18n.changeLanguage(storedLang)
+        }
         setReady(true)
       } catch (err) {
         console.error('Init failed:', err)
