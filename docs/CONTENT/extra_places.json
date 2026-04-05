@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name_ru": "Кадаргаванский каньон",
+    "name_en": "Kadargavan Canyon",
+    "lat": 42.8822,
+    "lng": 44.3283,
+    "category": "nature",
+    "description_ru": "Узкий скальный каньон в Куртатинском ущелье с глубиной до 60 метров и шириной всего несколько метров. Оборудована «Тропа чудес» — дорожка с перилами над обрывом, со смотровыми площадками. В каньоне установлен арт-объект «Зеркальный барс» — скульптура кавказского леопарда из зеркальной стали, парящая над пропастью. Внизу видна река Фиагдон, пробившая себе путь сквозь скалы.",
+    "description_en": "A narrow rock canyon in Kurtatinsky Gorge, up to 60 meters deep and only a few meters wide. The 'Path of Wonders' trail with railings runs along the cliff edge with viewing platforms. Inside the canyon stands the 'Mirror Leopard' — a mirror-steel sculpture of a Caucasian leopard hovering above the abyss. Below, the Fiagdon River has carved its way through the rocks.",
+    "why_visit": "One of the most dramatic and accessible natural attractions — a vertigo-inducing walkway above a knife-thin canyon with an unforgettable art installation"
+  },
+  {
+    "id": 2,
+    "name_ru": "Дзивгисская наскальная крепость",
+    "name_en": "Dzivgis Rock Fortress",
+    "lat": 42.8385,
+    "lng": 44.3025,
+    "category": "history",
+    "description_ru": "Крупнейшая пещерная крепость на Кавказе, построенная в XIII–XVI веках на склоне скального хребта у села Дзивгис. Комплекс состоит из семи независимых оборонительных сооружений, встроенных в естественные пещерные проёмы. Рядом находится церковь Святого Георгия VII века — одна из древнейших в Осетии. Село также имеет свой небольшой «город мёртвых» со средневековыми склепами.",
+    "description_en": "The largest cave fortress in the Caucasus, built in the 13th–16th centuries on the slopes of a rocky ridge behind Dzivgis village. The complex consists of seven independent defensive structures built into natural cave openings. Nearby stands the 7th-century Church of St. George — one of the oldest in Ossetia. The village also has its own small 'City of the Dead' with medieval crypts.",
+    "why_visit": "An extraordinary fortress literally built into a cliff face — unlike anything else in the Caucasus, combining military architecture with natural caves"
+  },
+  {
+    "id": 3,
+    "name_ru": "Термальные источники Бирагзанг",
+    "name_en": "Biragzang Thermal Springs",
+    "lat": 43.0480,
+    "lng": 44.2260,
+    "category": "springs",
+    "description_ru": "Горячие термальные источники у села Верхний Бирагзанг в Алагирском районе. Вода поднимается с глубины более 2000 метров, её температура не опускается ниже +40°C круглый год. Источники оборудованы для купания — есть бассейны под открытым небом с горячей минеральной водой на фоне горных пейзажей. Вода богата минералами и считается целебной.",
+    "description_en": "Hot thermal springs near the village of Verkhny Biragzang in Alagir District. Water rises from a depth of over 2,000 meters and maintains a temperature above 40°C year-round. The springs are equipped for bathing — open-air pools filled with hot mineral water against a backdrop of mountain scenery. The water is mineral-rich and considered healing.",
+    "why_visit": "Natural hot springs with 40°C water year-round — soak in outdoor pools surrounded by Caucasus mountain views"
+  },
+  {
+    "id": 4,
+    "name_ru": "Памятник Уастырджи",
+    "name_en": "Uastyrdzhi Monument",
+    "lat": 42.9590,
+    "lng": 44.2118,
+    "category": "history",
+    "description_ru": "Грандиозный наскальный монумент покровителю мужчин, путников и воинов — Уастырджи (осетинский аналог Святого Георгия). Создан в 1995 году скульптором Николаем Ходовым у въезда в Алагирское ущелье. Гигантский всадник на коне словно вылетает из скалы. Вес скульптуры — 28 тонн, высота головы коня — 6 метров, размер копыта — 120 см. На сегодня это самый большой конный памятник в мире.",
+    "description_en": "A colossal rock-mounted monument to Uastyrdzhi, patron of men, travelers, and warriors (the Ossetian equivalent of St. George). Created in 1995 by sculptor Nikolai Khodov at the entrance to Alagir Gorge. The giant horseman appears to burst out of the cliff face. The sculpture weighs 28 tons, the horse's head is 6 meters tall, and each hoof is 120 cm. It is currently the largest equestrian monument in the world.",
+    "why_visit": "The world's largest equestrian monument — a 28-ton horseman erupting from a sheer cliff face, absolutely jaw-dropping"
+  },
+  {
+    "id": 5,
+    "name_ru": "Роща Хетага",
+    "name_en": "Khetag's Grove",
+    "lat": 43.0597,
+    "lng": 44.2936,
+    "category": "nature",
+    "description_ru": "Священная роща осетин — реликтовый островной лес практически идеально круглой формы площадью около 13 га, расположенный на равнине у трассы Владикавказ—Алагир. Деревья достигают 50 метров в высоту, возраст некоторых — 250–300 лет. По легенде, роща чудесным образом выросла, чтобы укрыть аланского князя Хетага от преследователей. Осетины почитают рощу как святое место; здесь проводятся ежегодные праздники.",
+    "description_en": "A sacred Ossetian grove — a relict island forest of almost perfectly circular shape spanning about 13 hectares, located on a plain near the Vladikavkaz–Alagir highway. Trees reach 50 meters in height, some aged 250–300 years. According to legend, the grove miraculously grew to shelter Alanian prince Khetag from pursuers. Ossetians revere it as a holy place; annual festivals are held here.",
+    "why_visit": "A mysteriously perfect circle of ancient forest on an open plain — sacred to Ossetians with a beautiful legend and powerful atmosphere"
+  },
+  {
+    "id": 6,
+    "name_ru": "Аланский Успенский монастырь (Хидикус)",
+    "name_en": "Alanian Dormition Monastery (Khidikus)",
+    "lat": 42.8221,
+    "lng": 44.2752,
+    "category": "history",
+    "description_ru": "Самый высокогорный православный монастырь в России, расположенный на высоте 1278 м над уровнем моря в селе Хидикус близ Верхнего Фиагдона. Основан в 2000 году в Куртатинском ущелье. Белые стены и золотые купола на фоне суровых горных вершин создают потрясающий контраст. Монастырь действующий, можно посетить храм и территорию с соблюдением правил.",
+    "description_en": "The highest-altitude Orthodox monastery in Russia, situated at 1,278 m above sea level in the village of Khidikus near Verkhny Fiagdon. Founded in 2000 in Kurtatinsky Gorge. White walls and golden domes against harsh mountain peaks create a stunning contrast. The monastery is active; visitors can enter the church and grounds while following the rules.",
+    "why_visit": "Russia's highest Orthodox monastery — golden domes surrounded by dramatic mountain peaks in a remote gorge"
+  },
+  {
+    "id": 7,
+    "name_ru": "Галиат",
+    "name_en": "Galiat Village",
+    "lat": 42.9194,
+    "lng": 43.8478,
+    "category": "village",
+    "description_ru": "Заброшенный высокогорный город-село на склоне горы в Дигории, чья история уходит к XIII веку. Дома X века возведены ярусами — крыша каждого дома служила двором для другого, и жители ходили друг к другу в гости, оставаясь внутри своих дворов. Сохранились многоэтажные каменные дома, башни, святилища и петроглифы. Галиат называют «осетинским Мачу-Пикчу».",
+    "description_en": "An abandoned high-altitude town-village on a mountainside in Digoria, with history dating back to the 13th century. Houses from the 10th century were built in tiers — each roof served as a courtyard for the house above, so residents could visit each other while staying within their own yards. Multi-story stone houses, towers, sanctuaries, and petroglyphs survive. Galiat is called the 'Ossetian Machu Picchu'.",
+    "why_visit": "The 'Ossetian Machu Picchu' — a stunning terraced ghost town with 1000-year-old houses stacked up a mountainside"
+  },
+  {
+    "id": 8,
+    "name_ru": "Дигорское ущелье",
+    "name_en": "Digora Gorge (Digorskoe Ushchelye)",
+    "lat": 42.9018,
+    "lng": 43.6196,
+    "category": "nature",
+    "description_ru": "Одно из красивейших ущелий Кавказа, расположенное в 120 км от Владикавказа в бассейне реки Урух. Ущелье ведёт в Национальный парк «Алания» и поражает разнообразием ландшафтов: альпийские луга, влажные леса, озёра, водопады и ледники. Здесь находятся древние сёла Галиат, Камунта, Задалеск, Стур-Дигора. Менее посещаемое, чем Куртатинское, оно сохраняет дикую красоту.",
+    "description_en": "One of the most beautiful gorges in the Caucasus, located 120 km from Vladikavkaz in the Urukh River basin. The gorge leads to Alania National Park and stuns with landscape diversity: alpine meadows, humid forests, lakes, waterfalls, and glaciers. Here lie the ancient villages of Galiat, Kamunta, Zadalesk, and Stur-Digora. Less visited than Kurtatinsky Gorge, it preserves wild beauty.",
+    "why_visit": "The wildest and least-visited major gorge in North Ossetia — pristine nature, ancient villages, and the gateway to Alania National Park"
+  },
+  {
+    "id": 9,
+    "name_ru": "Водопады Три сестры (Таймази)",
+    "name_en": "Three Sisters Waterfalls (Taimazi)",
+    "lat": 42.8200,
+    "lng": 43.6550,
+    "category": "nature",
+    "description_ru": "Три мощных водопада в южной части Дигорского ущелья, на правом берегу реки Танадон у подножия горы Таймази. Тающий ледник формирует три потока, которые серебристыми лентами спускаются с высоты почти 300 метров по горному склону. Особенно впечатляют в июле–августе, когда ледник тает интенсивнее. Зрелище напоминает три сверкающих косы, спущенных с небес.",
+    "description_en": "Three powerful waterfalls in the southern part of Digora Gorge, on the right bank of the Tanadon River at the foot of Taimazi Mountain. A melting glacier forms three streams that descend like silver ribbons from nearly 300 meters down the mountainside. Most impressive in July–August when the glacier melts faster. The sight resembles three glittering braids let down from the heavens.",
+    "why_visit": "Three parallel 300-meter waterfalls cascading down a single mountainside — one of the most photogenic spots in all of North Ossetia"
+  },
+  {
+    "id": 10,
+    "name_ru": "Лисри",
+    "name_en": "Lisri Village",
+    "lat": 42.6950,
+    "lng": 44.0700,
+    "category": "village",
+    "description_ru": "Одно из крупнейших и древнейших поселений Северной Осетии, расположенное в Мамисонском ущелье на высоте 2000 м над уровнем моря. Лисри — один из самых крупных комплексов каменных башен в Осетии: боевые, жилые и сторожевые башни выстроились вдоль долины. Рядом, в селе Тиб, находятся минеральные источники. Место поражает масштабом и ощущением затерянного мира.",
+    "description_en": "One of the largest and most ancient settlements in North Ossetia, located in Mamison Gorge at 2,000 m above sea level. Lisri has one of the biggest stone tower complexes in Ossetia: battle, residential, and watchtowers line the valley. Nearby, the village of Tib has mineral springs. The place stuns with its scale and feeling of a lost world.",
+    "why_visit": "A vast lost city of medieval stone towers at 2000m altitude — the largest tower complex in Ossetia, in a remote and dramatic gorge"
+  },
+  {
+    "id": 11,
+    "name_ru": "Донифарс",
+    "name_en": "Donifars",
+    "lat": 42.9100,
+    "lng": 43.7560,
+    "category": "village",
+    "description_ru": "Высокогорное село-некрополь в Дигории, называемое «город мёртвых Дигории». Здесь сохранились древнейшие надземные склепы (могильники), средневековые сторожевые башни, святилище-храм «Сатайи Обау» и родовые гнёзда именитых семей. Аланские катакомбные захоронения добавляют археологическую ценность. В отличие от Даргавса, это место почти не посещается туристами.",
+    "description_en": "A high-altitude village-necropolis in Digoria, called the 'City of the Dead of Digoria'. Ancient above-ground crypts (burial vaults), medieval watchtowers, the sanctuary-temple 'Satayi Obau', and ancestral estates of notable families survive here. Alanian catacomb burials add archaeological value. Unlike Dargavs, this place sees almost no tourists.",
+    "why_visit": "Digoria's own City of the Dead — ancient crypts, towers, and sanctuaries without the tourist crowds of Dargavs"
+  },
+  {
+    "id": 12,
+    "name_ru": "Верхний Фиагдон",
+    "name_en": "Verkhny Fiagdon",
+    "lat": 42.8340,
+    "lng": 44.2900,
+    "category": "village",
+    "description_ru": "Главная туристическая база Куртатинского ущелья на высоте около 1200 м. Село сочетает средневековые аланские сторожевые башни и современные гостевые дома. Здесь установлен один из первых памятников Ленину в мире (1924 год). Отсюда доступны Дзивгисская крепость, Кадаргаванский каньон, Аланский монастырь и «Лавочка любви» на Архонском перевале. Идеальная точка для радиальных вылазок.",
+    "description_en": "The main tourist base of Kurtatinsky Gorge at about 1,200 m elevation. The village combines medieval Alanian watchtowers with modern guesthouses. One of the world's first Lenin monuments (1924) stands here. From this base, Dzivgis Fortress, Kadargavan Canyon, Alanian Monastery, and the 'Love Bench' viewpoint on Arkhon Pass are all accessible. An ideal hub for day trips.",
+    "why_visit": "The perfect base camp for Kurtatinsky Gorge explorations — medieval towers, mountain air, and easy access to the gorge's top attractions"
+  },
+  {
+    "id": 13,
+    "name_ru": "Святилище Реком",
+    "name_en": "Rekom Sanctuary",
+    "lat": 42.7550,
+    "lng": 44.0050,
+    "category": "history",
+    "description_ru": "Древнее осетинское святилище в Цейском ущелье у подножия горы Монах — бревенчатая изба из лиственницы с восемью драконьими головами на крыше. Реком — мужское культовое место, одно из самых почитаемых в нартском пантеоне. Праздник Реком отмечается в июне. По легенде, святилище было построено из дерева, которое само поднялось в горы. Место обладает мощной энергетикой.",
+    "description_en": "An ancient Ossetian sanctuary in Tsey Gorge at the foot of Monk Mountain — a log cabin built of larch with eight dragon heads on its roof. Rekom is a male cult site, one of the most revered in the Nart pantheon. The Rekom festival is celebrated in June. According to legend, the sanctuary was built from wood that climbed the mountains on its own. The place has powerful spiritual energy.",
+    "why_visit": "A sacred pagan sanctuary with dragon-head decorations deep in a mountain gorge — one of the most mystical spots in all of Ossetia"
+  },
+  {
+    "id": 14,
+    "name_ru": "Цамад",
+    "name_en": "Tsamad Village",
+    "lat": 42.8500,
+    "lng": 44.1670,
+    "category": "village",
+    "description_ru": "Одно из самых древних поселений Осетии на высоте 1450 м в Алагирском ущелье. В начале XX века здесь жило около 700 человек, сейчас село заброшено. Осетины считают его особенным — по преданию, именно отсюда пришли их предки. Сохранились руины средневековой крепости и семиэтажная башня Черчесовых, построенная прямо на скале. Место овеяно легендами и тишиной заброшенного мира.",
+    "description_en": "One of the most ancient settlements in Ossetia at 1,450 m elevation in Alagir Gorge. In the early 20th century about 700 people lived here; now the village is abandoned. Ossetians consider it special — according to tradition, this is where their ancestors originated. Ruins of a medieval fortress and the seven-story Cherchesov tower built directly on rock survive. The place is steeped in legends and the silence of an abandoned world.",
+    "why_visit": "An abandoned ancestral village with a seven-story medieval tower built on bare rock — considered the origin point of Ossetian civilization"
+  },
+  {
+    "id": 15,
+    "name_ru": "Музей «Задалески Нана»",
+    "name_en": "Zadalesky Nana Museum",
+    "lat": 42.9200,
+    "lng": 43.6800,
+    "category": "history",
+    "description_ru": "Музей в Нижнем Задалеске посвящён легендарной осетинской женщине Задалески Нана, которая спасла детей от нашествия Золотой Орды, укрыв их в горном ущелье. Музей размещён в старинном каменном доме и рассказывает историю спасения и жизни дигорцев. Нана — символ материнского подвига и один из самых почитаемых образов в осетинской культуре.",
+    "description_en": "A museum in Nizhny Zadalesk dedicated to the legendary Ossetian woman Zadalesky Nana, who saved children from the Golden Horde invasion by hiding them in a mountain gorge. The museum is housed in an old stone building and tells the story of the rescue and Digorian life. Nana is a symbol of maternal heroism and one of the most revered figures in Ossetian culture.",
+    "why_visit": "A touching museum about an Ossetian heroine who saved children from the Mongol invasion — powerful storytelling in an ancient stone house"
+  },
+  {
+    "id": 16,
+    "name_ru": "Касарское ущелье",
+    "name_en": "Kasarskoe Gorge",
+    "lat": 42.9340,
+    "lng": 44.1850,
+    "category": "nature",
+    "description_ru": "Узкое скалистое ущелье на подступах к Алагирскому ущелью, через которое река Ардон прорезала себе путь в скалах. Стены каньона поднимаются на сотни метров, сужаясь местами до ширины дороги. Именно здесь стоит монумент Уастырджи. Касарское ущелье — природные ворота в горную Осетию; за ним начинается совершенно другой мир высокогорья.",
+    "description_en": "A narrow rocky gorge at the approaches to Alagir Gorge, where the Ardon River has carved its way through the rocks. Canyon walls rise hundreds of meters, narrowing in places to road width. This is where the Uastyrdzhi monument stands. Kasarskoe Gorge is the natural gateway to mountainous Ossetia — beyond it begins an entirely different world of highlands.",
+    "why_visit": "The dramatic gateway to mountain Ossetia — towering cliffs narrowing to road width, where the iconic Uastyrdzhi monument erupts from rock"
+  },
+  {
+    "id": 17,
+    "name_ru": "Лавочка любви (Архонский перевал)",
+    "name_en": "Love Bench (Arkhon Pass Viewpoint)",
+    "lat": 42.8100,
+    "lng": 44.3350,
+    "category": "viewpoint",
+    "description_ru": "Смотровая площадка на Архонском перевале на высоте около 2600 м — одно из самых романтичных мест Кавказа. Простая лавочка на краю обрыва с захватывающим панорамным видом на горные вершины и долину реки Фиагдон. Популярное место для фото и предложений руки и сердца. Добраться можно по грунтовой дороге из Верхнего Фиагдона.",
+    "description_en": "A viewpoint on Arkhon Pass at about 2,600 m — one of the most romantic spots in the Caucasus. A simple bench on the edge of a cliff with breathtaking panoramic views of mountain peaks and the Fiagdon River valley. A popular spot for photos and marriage proposals. Accessible via a dirt road from Verkhny Fiagdon.",
+    "why_visit": "A bench at 2600m on a cliff edge with panoramic mountain views — the most romantic and Instagrammable spot in all of North Ossetia"
+  },
+  {
+    "id": 18,
+    "name_ru": "Национальный парк «Алания»",
+    "name_en": "Alania National Park",
+    "lat": 42.8500,
+    "lng": 43.6500,
+    "category": "nature",
+    "description_ru": "Национальный парк площадью 549 км², созданный в 1998 году на северном склоне Центрального Кавказа в Ирафском районе. Охватывает горы, леса, ледники, водопады и альпийские озёра. На территории парка — озёра Микелай, Фастагское, Гуларские и Донисарские; водопады Таймази; ущелья Айгамугидонское и Харресское. Парк — убежище для серн, туров и даже леопардов.",
+    "description_en": "A national park spanning 549 km², established in 1998 on the northern slope of the Central Caucasus in Irafsky District. It encompasses mountains, forests, glaciers, waterfalls, and alpine lakes. Within the park are lakes Mikelai, Fastag, Gular, and Donisar; Taimazi waterfalls; and Aygamughidon and Kharress gorges. The park is a refuge for chamois, tur, and even leopards.",
+    "why_visit": "A vast wild national park with glaciers, alpine lakes, and waterfalls — home to rare Caucasian wildlife and virtually no crowds"
+  },
+  {
+    "id": 19,
+    "name_ru": "Башенный комплекс Цимити",
+    "name_en": "Tsimiti Tower Complex",
+    "lat": 42.8450,
+    "lng": 44.2820,
+    "category": "history",
+    "description_ru": "Горное село Цимити в Куртатинском ущелье — один из крупнейших средневековых башенных комплексов Осетии. Здесь сохранилось более 30 древних боевых и жилых башен, склепов и других архитектурных памятников. Башни датируются XIV–XVIII веками и стоят на фоне величественных горных вершин. Менее известен, чем Даргавс, но не менее впечатляющ.",
+    "description_en": "The mountain village of Tsimiti in Kurtatinsky Gorge is one of the largest medieval tower complexes in Ossetia. Over 30 ancient battle and residential towers, crypts, and other architectural monuments survive here. The towers date from the 14th–18th centuries and stand against a backdrop of majestic mountain peaks. Less known than Dargavs but equally impressive.",
+    "why_visit": "Over 30 medieval stone towers in a single mountain village — an open-air museum of Ossetian defensive architecture"
+  },
+  {
+    "id": 20,
+    "name_ru": "Кармадонские термальные ванны",
+    "name_en": "Karmadon Hot Pools",
+    "lat": 42.8020,
+    "lng": 44.4920,
+    "category": "springs",
+    "description_ru": "Горячие термальные бассейны в Кармадонском (Геналдонском) ущелье. Название «Кармадон» в переводе с осетинского означает «горячая вода». Температура воды +42°C круглый год. Бассейны под открытым небом окружены горным пейзажем. После схода ледника Колка в 2002 году ущелье долго было закрыто, но сейчас снова доступно и набирает популярность. Уникальное сочетание горных ванн и истории.",
+    "description_en": "Hot thermal pools in Karmadon (Genaldon) Gorge. The name 'Karmadon' translates from Ossetian as 'hot water'. Water temperature stays at +42°C year-round. Open-air pools are surrounded by mountain scenery. After the Kolka glacier disaster in 2002, the gorge was closed for years but is now accessible again and gaining popularity. A unique combination of mountain bathing and history.",
+    "why_visit": "Natural +42°C hot pools in a gorge that was sealed by a glacier disaster — a dramatic setting with a powerful backstory"
+  }
+]

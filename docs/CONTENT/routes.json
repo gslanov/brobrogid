@@ -1,0 +1,820 @@
+[
+  {
+    "id": 1,
+    "name_ru": "Куртатинское ущелье: главные места",
+    "name_en": "Kurtatinsky Gorge: Main Highlights",
+    "type": "day_trip",
+    "difficulty": "easy",
+    "duration": "10-12 hours",
+    "distance_km": 100,
+    "start_point": {
+      "name": "Vladikavkaz",
+      "lat": 43.0367,
+      "lng": 44.6678
+    },
+    "end_point": {
+      "name": "Vladikavkaz",
+      "lat": 43.0367,
+      "lng": 44.6678
+    },
+    "waypoints": [
+      {
+        "name": "Kadargavan Canyon & Trail of Wonders",
+        "lat": 42.8430,
+        "lng": 44.3820,
+        "description": "Narrow canyon carved by the Fiagdon River with cliffs up to 30m high. A wooden walkway ('Trail of Wonders') leads over the gorge with a suspension bridge."
+      },
+      {
+        "name": "Dzivgis Rock Fortress",
+        "lat": 42.8350,
+        "lng": 44.3740,
+        "description": "The largest rock fortress complex in the Caucasus — seven independent defensive structures built at cave entrances in the cliff face."
+      },
+      {
+        "name": "Tower of Kurta and Taga",
+        "lat": 42.8290,
+        "lng": 44.3680,
+        "description": "Medieval watchtower named after two legendary brothers, founders of Eastern Ossetia. Panoramic views of the gorge."
+      },
+      {
+        "name": "Tsimiti Village",
+        "lat": 42.8190,
+        "lng": 44.3580,
+        "description": "Open-air architectural museum with over 30 monuments: watchtowers, residential towers, ancient tombs and petroglyphs."
+      },
+      {
+        "name": "Alansky Holy Assumption Monastery",
+        "lat": 42.8370,
+        "lng": 44.3090,
+        "description": "Russia's highest-altitude male monastery (Fiagdon village), beautifully set in the mountains."
+      },
+      {
+        "name": "Upper Fiagdon",
+        "lat": 42.8440,
+        "lng": 44.3050,
+        "description": "Mountain village with the world's first Lenin memorial (1924) and access point to Dargavs valley."
+      }
+    ],
+    "description_ru": "Самый доступный и популярный маршрут из Владикавказа. Протяжённое на 50 км Куртатинское ущелье — настоящий музей под открытым небом. По пути вы увидите Кадаргаванский каньон с «Тропой чудес», Дзивгисскую наскальную крепость, средневековые башни, Аланский Свято-Успенский монастырь. Дорога асфальтирована до Верхнего Фиагдона. Рекомендуется выезжать рано утром, чтобы успеть осмотреть все объекты.",
+    "description_en": "The most accessible and popular route from Vladikavkaz. The 50km Kurtatinsky Gorge is an open-air museum. Along the way you'll see Kadargavan Canyon with its 'Trail of Wonders', the Dzivgis Rock Fortress (largest in the Caucasus), medieval towers, and the Alansky Holy Assumption Monastery. The road is paved to Upper Fiagdon. Start early to cover all the sights.",
+    "best_season": "April — October",
+    "highlights": [
+      "Kadargavan Canyon & Trail of Wonders",
+      "Dzivgis Rock Fortress",
+      "Tsimiti open-air museum",
+      "Alansky Holy Assumption Monastery",
+      "Assembly of Narts in Lats village"
+    ]
+  },
+  {
+    "id": 2,
+    "name_ru": "Даргавс — Город мёртвых",
+    "name_en": "Dargavs — City of the Dead",
+    "type": "day_trip",
+    "difficulty": "easy",
+    "duration": "6-8 hours",
+    "distance_km": 70,
+    "start_point": {
+      "name": "Vladikavkaz",
+      "lat": 43.0367,
+      "lng": 44.6678
+    },
+    "end_point": {
+      "name": "Dargavs Necropolis",
+      "lat": 42.8416,
+      "lng": 44.4450
+    },
+    "waypoints": [
+      {
+        "name": "Koban Village",
+        "lat": 42.8310,
+        "lng": 44.3020,
+        "description": "Ancient settlement, type locality for the Koban archaeological culture (Late Bronze Age). Small museum."
+      },
+      {
+        "name": "Karmadon Gorge viewpoint",
+        "lat": 42.8050,
+        "lng": 44.4900,
+        "description": "Panoramic view of the gorge devastated by the 2002 Kolka glacier collapse. Memorial site."
+      },
+      {
+        "name": "Dargavs Necropolis",
+        "lat": 42.8416,
+        "lng": 44.4450,
+        "description": "Over 90 stone crypts dating from the 14th-18th centuries. One of the most impressive necropolises in the Caucasus."
+      }
+    ],
+    "description_ru": "Маршрут к знаменитому «Городу мёртвых» — некрополю из более чем 90 каменных склепов XIV-XVIII веков. Из Владикавказа можно добраться через Куртатинское ущелье или через Кармадонское ущелье. Рекомендуется ехать на машине, так как общественный транспорт ходит редко (автобус до Джимары в 16:30). Захватите паспорт — маршрут проходит через пограничную зону.",
+    "description_en": "Route to the famous 'City of the Dead' — a necropolis of over 90 stone crypts from the 14th-18th centuries. From Vladikavkaz you can reach it via Kurtatinsky or Karmadon gorges. Driving is recommended as public transport is scarce (bus to Djimara at 16:30). Bring your passport — the route passes through a border zone.",
+    "best_season": "May — October",
+    "highlights": [
+      "Dargavs Necropolis (City of the Dead)",
+      "Karmadon Gorge memorial",
+      "Scenic mountain drive",
+      "Koban Bronze Age site"
+    ]
+  },
+  {
+    "id": 3,
+    "name_ru": "Цейское ущелье: канатка и Сказский ледник",
+    "name_en": "Tsey Gorge: Cable Car & Skazsky Glacier",
+    "type": "day_trip",
+    "difficulty": "easy",
+    "duration": "8-10 hours",
+    "distance_km": 180,
+    "start_point": {
+      "name": "Vladikavkaz",
+      "lat": 43.0367,
+      "lng": 44.6678
+    },
+    "end_point": {
+      "name": "Tsey Resort",
+      "lat": 42.7570,
+      "lng": 43.8900
+    },
+    "waypoints": [
+      {
+        "name": "Alagir — Monument of St. George (Uastyrdzhi)",
+        "lat": 43.0440,
+        "lng": 44.2190,
+        "description": "Massive 2.8-ton statue of St. George on horseback hanging over Transkam road at the entrance to the gorge."
+      },
+      {
+        "name": "Tsey Cable Car lower station",
+        "lat": 42.7580,
+        "lng": 43.8820,
+        "description": "Two chairlifts (single and double) from 2000m to 2500m altitude. Ride takes ~20 minutes."
+      },
+      {
+        "name": "Skazsky Glacier viewpoint",
+        "lat": 42.7500,
+        "lng": 43.8650,
+        "description": "The most accessible glacier in Tsey. 3km eco-trail from the upper cable car station leads to the glacier tongue with waterfalls along the way."
+      },
+      {
+        "name": "Rekom Sanctuary",
+        "lat": 42.7610,
+        "lng": 43.8780,
+        "description": "Ancient wooden sanctuary dedicated to Uastyrdzhi (St. George), sacred to the Ossetian people. One of the most revered sites in Ossetia."
+      }
+    ],
+    "description_ru": "Однодневная поездка в Цейское ущелье — жемчужину Северной Осетии. По пути остановка у памятника Уастырджи над Транскамом. В Цее — подъём на канатной дороге (2000-2500 м), затем пешая экотропа 3 км к Сказскому леднику с водопадами. Обязательно посетите древнее святилище Реком. Курорт расположен в 90 км от Владикавказа.",
+    "description_en": "A day trip to Tsey Gorge — the jewel of North Ossetia. Stop at the Uastyrdzhi monument hanging over Transkam road. At Tsey — ride the chairlift (2000-2500m), then walk the 3km eco-trail to Skazsky Glacier with waterfalls. Visit the ancient Rekom sanctuary. The resort is about 90km from Vladikavkaz.",
+    "best_season": "May — September (cable car operates year-round)",
+    "highlights": [
+      "Skazsky Glacier eco-trail",
+      "Cable car ride to 2500m",
+      "Rekom Sanctuary",
+      "Uastyrdzhi monument",
+      "Glacial waterfalls"
+    ]
+  },
+  {
+    "id": 4,
+    "name_ru": "Треккинг к Цейскому леднику",
+    "name_en": "Trekking to Tsey Glacier",
+    "type": "hiking",
+    "difficulty": "moderate",
+    "duration": "6-7 hours",
+    "distance_km": 14,
+    "start_point": {
+      "name": "Tsey Resort",
+      "lat": 42.7570,
+      "lng": 43.8900
+    },
+    "end_point": {
+      "name": "Tsey Glacier tongue",
+      "lat": 42.7380,
+      "lng": 43.8500
+    },
+    "waypoints": [
+      {
+        "name": "Rekom Sanctuary",
+        "lat": 42.7610,
+        "lng": 43.8780,
+        "description": "Starting point. Ancient wooden sanctuary dedicated to the patron saint of men and warriors."
+      },
+      {
+        "name": "Alpine meadows",
+        "lat": 42.7520,
+        "lng": 43.8700,
+        "description": "Open meadows at ~2200m with panoramic views of the surrounding peaks, including Adai-Khokh (4408m)."
+      },
+      {
+        "name": "Tsey Glacier tongue",
+        "lat": 42.7380,
+        "lng": 43.8500,
+        "description": "The glacier descends from the Adai-Khokh massif to ~2500m. Impressive ice formations and moraine landscape."
+      }
+    ],
+    "description_ru": "Пеший маршрут от курорта Цей к языку Цейского ледника, спускающегося с массива Адай-Хох (4408 м). Тропа идёт через альпийские луга с потрясающими видами. Перепад высот от 1900 до 2500 м. Лучшее время — с июня по сентябрь. Необходима треккинговая обувь, запас воды и тёплая одежда.",
+    "description_en": "A hiking trail from Tsey resort to the tongue of the Tsey Glacier, descending from the Adai-Khokh massif (4408m). The path crosses alpine meadows with stunning views. Elevation range: 1900-2500m. Best from June to September. Trekking boots, water, and warm layers required.",
+    "best_season": "June — September",
+    "highlights": [
+      "Tsey Glacier up close",
+      "Adai-Khokh panorama",
+      "Alpine meadows",
+      "Glacial streams and moraines"
+    ]
+  },
+  {
+    "id": 5,
+    "name_ru": "Мидаграбинские водопады",
+    "name_en": "Midagrabin Waterfalls",
+    "type": "day_trip",
+    "difficulty": "moderate",
+    "duration": "8-10 hours (driving + 3h hiking)",
+    "distance_km": 140,
+    "start_point": {
+      "name": "Vladikavkaz",
+      "lat": 43.0367,
+      "lng": 44.6678
+    },
+    "end_point": {
+      "name": "Midagrabin Valley",
+      "lat": 42.7699,
+      "lng": 44.3618
+    },
+    "waypoints": [
+      {
+        "name": "Djimara Village",
+        "lat": 42.7850,
+        "lng": 44.3900,
+        "description": "Last settlement before the valley. Leave your car here. Border checkpoint — passport required!"
+      },
+      {
+        "name": "Midagrabin Valley entrance",
+        "lat": 42.7780,
+        "lng": 44.3750,
+        "description": "Start of the 7km walking trail through the valley. Flat terrain along the river."
+      },
+      {
+        "name": "Bolshoy Zeigelan (Great Midagrabin Waterfall)",
+        "lat": 42.7699,
+        "lng": 44.3618,
+        "description": "The tallest waterfall in Europe at ~750m (pulsating type). Most powerful in July-August during snowmelt."
+      }
+    ],
+    "description_ru": "Путь к Мидаграбинским водопадам — одним из самых высоких в Европе (Большой Зейгелан ~750 м). Из Владикавказа через Куртатинское ущелье (~2 часа езды), затем 7 км пешком по долине от села Джимара (~1,5 часа). Водопады наиболее мощные в июле-августе. ВАЖНО: обязательно возьмите паспорт — это пограничная зона! Дорога от Фазикау грунтовая.",
+    "description_en": "Trail to Midagrabin Waterfalls — among the tallest in Europe (Bolshoy Zeigelan ~750m). From Vladikavkaz through Kurtatinsky Gorge (~2h drive), then 7km walk through the valley from Djimara village (~1.5h). Waterfalls are most powerful in July-August. IMPORTANT: bring your passport — this is a border zone! Road from Fazikau is unpaved.",
+    "best_season": "July — August (peak water flow)",
+    "highlights": [
+      "Bolshoy Zeigelan — tallest waterfall in Europe",
+      "Midagrabin valley panorama",
+      "Multiple cascading waterfalls",
+      "Mountain peaks along the Georgian border"
+    ]
+  },
+  {
+    "id": 6,
+    "name_ru": "Дигорское ущелье: водопад Галдоридон и гора Кубус",
+    "name_en": "Digora Gorge: Galdoridon Waterfall & Kubus Mountain",
+    "type": "hiking",
+    "difficulty": "easy",
+    "duration": "5-6 hours",
+    "distance_km": 10,
+    "start_point": {
+      "name": "Tana Park Hotel",
+      "lat": 42.9050,
+      "lng": 43.5600
+    },
+    "end_point": {
+      "name": "Galdoridon Waterfall",
+      "lat": 42.9112,
+      "lng": 43.5527
+    },
+    "waypoints": [
+      {
+        "name": "Devil's Mill waterfall",
+        "lat": 42.9070,
+        "lng": 43.5570,
+        "description": "First waterfall along the trail — a powerful stream crashing through dark rock."
+      },
+      {
+        "name": "Kubus Mountain",
+        "lat": 42.9020,
+        "lng": 43.5490,
+        "description": "Sacred mountain shaped like a giant pine cone. Century-old pine tree where visitors tie wish ribbons. A small lake nearby is said to have healing properties."
+      },
+      {
+        "name": "Galdoridon (Jewel) Waterfall",
+        "lat": 42.9112,
+        "lng": 43.5527,
+        "description": "Five-tiered cascade, 35m tall, flowing through black shale cliffs. Rainbows form in summer; ice formations in winter."
+      }
+    ],
+    "description_ru": "Лёгкий пеший маршрут в Дигорском ущелье. От «Тана-парк» 3 км по живописной тропе к пятиступенчатому водопаду Галдоридон (Жемчужный, 35 м). По пути — водопад «Чёртова мельница» и священная гора Кубус. Тропа простая и безопасная. Полный маршрут туда-обратно ~10 км за 4-6 часов. Летом в брызгах водопада видна радуга.",
+    "description_en": "An easy hiking trail in Digora Gorge. From Tana Park hotel, walk 3km along a scenic path to the five-tiered Galdoridon (Jewel) Waterfall at 35m. Along the way — Devil's Mill waterfall and the sacred Kubus Mountain. Trail is simple and safe. Full round trip ~10km in 4-6 hours. Rainbows appear in the waterfall spray in summer.",
+    "best_season": "June — September",
+    "highlights": [
+      "Galdoridon five-tiered waterfall",
+      "Sacred Kubus Mountain",
+      "Devil's Mill waterfall",
+      "Alpine scenery of Digora"
+    ]
+  },
+  {
+    "id": 7,
+    "name_ru": "Таймазинские водопады «Три сестры»",
+    "name_en": "Taymazi Waterfalls 'Three Sisters'",
+    "type": "hiking",
+    "difficulty": "moderate",
+    "duration": "6-7 hours",
+    "distance_km": 14,
+    "start_point": {
+      "name": "Styr-Digora Village",
+      "lat": 42.9140,
+      "lng": 43.5450
+    },
+    "end_point": {
+      "name": "Taymazi Waterfalls viewpoint",
+      "lat": 42.8850,
+      "lng": 43.5100
+    },
+    "waypoints": [
+      {
+        "name": "Akhsinta Canyon & Devil's Bridge",
+        "lat": 42.9080,
+        "lng": 43.5380,
+        "description": "Deep narrow canyon with a natural stone bridge. One of the most dramatic spots in Digoria."
+      },
+      {
+        "name": "Tanaddon River valley",
+        "lat": 42.8950,
+        "lng": 43.5200,
+        "description": "Walk along the river through alpine meadows with views of surrounding peaks."
+      },
+      {
+        "name": "Taymazi Waterfalls",
+        "lat": 42.8850,
+        "lng": 43.5100,
+        "description": "Three powerful waterfalls cascading from the Taymazi glacier. The central one drops ~300m. Known as 'Three Sisters'."
+      }
+    ],
+    "description_ru": "Маршрут к знаменитым Таймазинским водопадам «Три сестры» в Дигории. Три мощных потока падают с ледника Таймази, центральный — около 300 м. По пути — каньон Ахсинта с Чёртовым мостом. Перепад высот 1740-2340 м. Требуется хорошая физическая форма и треккинговая обувь. Маршрут туда-обратно ~14 км.",
+    "description_en": "Route to the famous Taymazi 'Three Sisters' Waterfalls in Digoria. Three powerful streams cascade from the Taymazi glacier — the central one drops ~300m. Along the way — Akhsinta Canyon with Devil's Bridge. Elevation range: 1740-2340m. Good fitness and trekking boots required. Round trip ~14km.",
+    "best_season": "June — September",
+    "highlights": [
+      "Three Sisters waterfalls (300m central cascade)",
+      "Akhsinta Canyon",
+      "Devil's Bridge",
+      "Taymazi glacier views"
+    ]
+  },
+  {
+    "id": 8,
+    "name_ru": "Караугомский ледник",
+    "name_en": "Karaugom Glacier Trek",
+    "type": "hiking",
+    "difficulty": "hard",
+    "duration": "8-10 hours",
+    "distance_km": 20,
+    "start_point": {
+      "name": "Dzinaga Village",
+      "lat": 42.8960,
+      "lng": 43.5330
+    },
+    "end_point": {
+      "name": "Karaugom Glacier tongue",
+      "lat": 42.8400,
+      "lng": 43.4800
+    },
+    "waypoints": [
+      {
+        "name": "Karaugom River gorge entrance",
+        "lat": 42.8800,
+        "lng": 43.5200,
+        "description": "The trail enters the gorge along the Karaugom River through dense pine forest."
+      },
+      {
+        "name": "Forest-glacier boundary",
+        "lat": 42.8600,
+        "lng": 43.5000,
+        "description": "Unique spot where the glacier descends directly into the coniferous forest — an extremely rare natural phenomenon."
+      },
+      {
+        "name": "Karaugom Glacier tongue",
+        "lat": 42.8400,
+        "lng": 43.4800,
+        "description": "Second largest glacier on the Greater Caucasus (~13km long, 35 sq km). Massive ice walls and moraine fields."
+      }
+    ],
+    "description_ru": "Сложный дневной треккинг к Караугомскому леднику — второму по величине на Большом Кавказе (длина ~13 км, площадь 35 кв.км). Уникальное явление: ледник спускается прямо в хвойный лес. Маршрут от села Дзинага через ущелье реки Караугом. Перепад высот значительный. Требуется отличная физическая форма, треккинговая обувь, запас воды и еды.",
+    "description_en": "Challenging day trek to Karaugom Glacier — the second largest on the Greater Caucasus (~13km long, 35 sq km). Unique phenomenon: the glacier descends directly into coniferous forest. Trail from Dzinaga village through the Karaugom River gorge. Significant elevation gain. Excellent fitness, trekking boots, water and food required.",
+    "best_season": "July — September",
+    "highlights": [
+      "Second largest glacier in the Greater Caucasus",
+      "Glacier-forest boundary (rare natural phenomenon)",
+      "Karaugom River gorge",
+      "Remote wilderness experience"
+    ]
+  },
+  {
+    "id": 9,
+    "name_ru": "Транскам: Алагир — Рокский тоннель",
+    "name_en": "Transkam Highway: Alagir to Roksky Tunnel",
+    "type": "road_trip",
+    "difficulty": "easy",
+    "duration": "Full day (8-10 hours with stops)",
+    "distance_km": 170,
+    "start_point": {
+      "name": "Alagir",
+      "lat": 43.0440,
+      "lng": 44.2190
+    },
+    "end_point": {
+      "name": "Roksky Tunnel (North Portal)",
+      "lat": 42.6080,
+      "lng": 44.0700
+    },
+    "waypoints": [
+      {
+        "name": "Uastyrdzhi Monument",
+        "lat": 43.0350,
+        "lng": 44.2050,
+        "description": "2.8-ton bronze statue of St. George on horseback suspended over the road — guards the entrance to Alagir Gorge."
+      },
+      {
+        "name": "Tamisk Mineral Springs",
+        "lat": 42.9500,
+        "lng": 44.1500,
+        "description": "Natural sulfide mineral springs along the road. Locals come here to fill bottles."
+      },
+      {
+        "name": "Mizur & Sadon",
+        "lat": 42.8680,
+        "lng": 44.0700,
+        "description": "Historic mining settlements. Sadon was once the largest lead-zinc mining center in the USSR."
+      },
+      {
+        "name": "Nuzal Chapel",
+        "lat": 42.8200,
+        "lng": 44.0200,
+        "description": "Tiny 13th-century chapel with unique medieval frescoes — believed to contain the burial of an Alanian king."
+      },
+      {
+        "name": "Nar Village",
+        "lat": 42.7100,
+        "lng": 43.9700,
+        "description": "Birthplace of Kosta Khetagurov, founder of Ossetian literature. Preserved medieval tower architecture."
+      },
+      {
+        "name": "Lisri Ghost Village",
+        "lat": 42.6700,
+        "lng": 43.9400,
+        "description": "Abandoned medieval settlement with remarkably preserved towers and defensive architecture of Tuallag (Dvaletia) region."
+      }
+    ],
+    "description_ru": "Автомобильный маршрут по Транскавказской магистрали (Транскам) через Алагирское ущелье вдоль реки Ардон. По пути — монумент Уастырджи, минеральные источники Тамиска, заброшенные шахтёрские посёлки Мизур и Садон, Нузальская часовня XIII века с фресками, родина Коста Хетагурова (село Нар), заброшенное средневековое село Лисри. Дорога хорошего качества.",
+    "description_en": "Road trip along the Transcaucasian Highway (Transkam) through Alagir Gorge along the Ardon River. Highlights include: Uastyrdzhi monument, Tamisk mineral springs, abandoned mining towns of Mizur and Sadon, 13th-century Nuzal Chapel with frescoes, birthplace of Kosta Khetagurov (Nar village), and the ghost village of Lisri with preserved medieval towers. Good quality road.",
+    "best_season": "May — October (year-round except heavy snow)",
+    "highlights": [
+      "Uastyrdzhi monument over Transkam",
+      "Nuzal Chapel (13th century frescoes)",
+      "Lisri ghost village",
+      "Nar — birthplace of Kosta Khetagurov",
+      "Dramatic Alagir Gorge"
+    ]
+  },
+  {
+    "id": 10,
+    "name_ru": "Военно-Осетинская дорога: Мамисонское ущелье",
+    "name_en": "Military-Ossetian Road: Mamison Gorge",
+    "type": "road_trip",
+    "difficulty": "moderate",
+    "duration": "Full day (10-12 hours)",
+    "distance_km": 200,
+    "start_point": {
+      "name": "Vladikavkaz",
+      "lat": 43.0367,
+      "lng": 44.6678
+    },
+    "end_point": {
+      "name": "Mamison Pass area",
+      "lat": 42.6300,
+      "lng": 43.8700
+    },
+    "waypoints": [
+      {
+        "name": "Alagir",
+        "lat": 43.0440,
+        "lng": 44.2190,
+        "description": "Start of the mountain section. Fuel up here — no gas stations ahead."
+      },
+      {
+        "name": "Zaramag Reservoir",
+        "lat": 42.7400,
+        "lng": 43.9800,
+        "description": "Large mountain reservoir with turquoise water surrounded by peaks. The Zaramag plain is a rare flat area in the mountains."
+      },
+      {
+        "name": "Tib Village",
+        "lat": 42.6600,
+        "lng": 43.9000,
+        "description": "Medieval tower settlement with well-preserved architecture. End of the paved road."
+      },
+      {
+        "name": "Mamison Pass (view from below)",
+        "lat": 42.6300,
+        "lng": 43.8700,
+        "description": "Historic pass (2911m) on the old Military-Ossetian Road to Georgia. The road is not passable to the top by car but the approach offers spectacular views."
+      }
+    ],
+    "description_ru": "Маршрут по исторической Военно-Осетинской дороге через Мамисонское ущелье — одно из самых красивых и малолюдных мест Осетии. Старая дорога была построена в 1856-1897 гг. для связи с Грузией. По пути — Зарамагское водохранилище, средневековые сёла Тиб и Калак. К Мамисонскому перевалу (2911 м) асфальт заканчивается, далее — грунтовка. Заправьтесь в Алагире!",
+    "description_en": "Route along the historic Military-Ossetian Road through Mamison Gorge — one of the most beautiful and uncrowded places in Ossetia. The old road was built 1856-1897 to connect with Georgia. Along the way — Zaramag Reservoir, medieval villages of Tib and Kalak. Pavement ends before Mamison Pass (2911m), then gravel road. Fill up gas in Alagir!",
+    "best_season": "June — September",
+    "highlights": [
+      "Zaramag Reservoir",
+      "Medieval tower villages",
+      "Mamison Pass approach",
+      "Historic Military-Ossetian Road",
+      "Remote untouched landscapes"
+    ]
+  },
+  {
+    "id": 11,
+    "name_ru": "Треккинг в Дигории: 7-дневный маршрут",
+    "name_en": "Digoria Trekking: 7-Day Itinerary",
+    "type": "multi_day",
+    "difficulty": "moderate",
+    "duration": "7 days / 6 nights",
+    "distance_km": 80,
+    "start_point": {
+      "name": "Chikola Village",
+      "lat": 43.0650,
+      "lng": 44.0250
+    },
+    "end_point": {
+      "name": "Styr-Digora Village",
+      "lat": 42.9140,
+      "lng": 43.5450
+    },
+    "waypoints": [
+      {
+        "name": "Akhsinta Canyon",
+        "lat": 42.9080,
+        "lng": 43.5380,
+        "description": "Day 1-2: Deep canyon with Devil's Bridge — dramatic entrance to the highland zone."
+      },
+      {
+        "name": "Taymazi Waterfalls",
+        "lat": 42.8850,
+        "lng": 43.5100,
+        "description": "Day 3: Hike to the Three Sisters waterfalls cascading from the Taymazi glacier."
+      },
+      {
+        "name": "Tana Glacier",
+        "lat": 42.8900,
+        "lng": 43.5000,
+        "description": "Day 4: Trek to the Tana-tsete glacier (3.5 sq km) between peaks Laboda and Taymazi."
+      },
+      {
+        "name": "Galdoridon Waterfall",
+        "lat": 42.9112,
+        "lng": 43.5527,
+        "description": "Day 5: Visit the five-tiered Jewel Waterfall and sacred Kubus Mountain."
+      },
+      {
+        "name": "Karaugom Glacier approach",
+        "lat": 42.8600,
+        "lng": 43.5000,
+        "description": "Day 6: Trek toward the Karaugom glacier through pristine pine forest."
+      },
+      {
+        "name": "Donifars ancient towers",
+        "lat": 42.9300,
+        "lng": 43.5700,
+        "description": "Day 7: Visit medieval Digorian tower settlements before departure."
+      }
+    ],
+    "description_ru": "Полноценный 7-дневный треккинг по Дигории — самому дикому и красивому региону Северной Осетии. Маршрут включает все главные достопримечательности: каньон Ахсинта, Таймазинские водопады, ледник Тана-цете, водопад Галдоридон, подход к Караугомскому леднику. Ночёвки в гостевых домах или палатках. Перепад высот 1740-2500 м. Доступен туристам с базовой подготовкой.",
+    "description_en": "A full 7-day trek through Digoria — the wildest and most beautiful region of North Ossetia. The route covers all major highlights: Akhsinta Canyon, Taymazi Waterfalls, Tana-tsete Glacier, Galdoridon Waterfall, and approach to Karaugom Glacier. Accommodation in guesthouses or tents. Elevation range: 1740-2500m. Suitable for hikers with basic fitness.",
+    "best_season": "June — September",
+    "highlights": [
+      "Complete Digoria circuit",
+      "Taymazi Three Sisters waterfalls",
+      "Tana and Karaugom glaciers",
+      "Galdoridon Jewel Waterfall",
+      "Medieval Digorian settlements"
+    ]
+  },
+  {
+    "id": 12,
+    "name_ru": "Горнолыжный курорт Цей: зимний отдых",
+    "name_en": "Tsey Ski Resort: Winter Activities",
+    "type": "ski",
+    "difficulty": "easy",
+    "duration": "1-3 days",
+    "distance_km": null,
+    "start_point": {
+      "name": "Tsey Ski Resort",
+      "lat": 42.7570,
+      "lng": 43.8900
+    },
+    "end_point": {
+      "name": "Tsey Ski Resort",
+      "lat": 42.7570,
+      "lng": 43.8900
+    },
+    "waypoints": [
+      {
+        "name": "Green slope (beginner)",
+        "lat": 42.7575,
+        "lng": 43.8890,
+        "description": "Learning slope with gentle gradient, perfect for first-timers. Instructors available."
+      },
+      {
+        "name": "Blue slopes (intermediate)",
+        "lat": 42.7560,
+        "lng": 43.8850,
+        "description": "Several runs up to 1800m long for intermediate skiers."
+      },
+      {
+        "name": "Red slopes (advanced)",
+        "lat": 42.7540,
+        "lng": 43.8800,
+        "description": "Steep runs through forested sections for experienced skiers."
+      },
+      {
+        "name": "Snowshoe trails",
+        "lat": 42.7590,
+        "lng": 43.8920,
+        "description": "Marked snowshoe routes through winter forest and meadows — a non-skiing alternative."
+      }
+    ],
+    "description_ru": "Горнолыжный курорт Цей — 7 трасс общей протяжённостью более 7 км, от учебных до сложных. Два кресельных подъёмника. Сезон: декабрь — апрель, лучшее катание — январь-март. Есть прокат снаряжения, инструкторы, кафе и гостиницы. Помимо лыж — прогулки на снегоступах по зимнему лесу. 90 км от Владикавказа, дорога обычно чистится зимой.",
+    "description_en": "Tsey Ski Resort offers 7 runs totaling over 7km, from beginner to advanced. Two chairlift systems. Season: December to April, best skiing January-March. Equipment rental, instructors, cafes and hotels available. Beyond skiing — snowshoe walks through winter forest. 90km from Vladikavkaz, road is usually cleared in winter.",
+    "best_season": "December — April (best: January — March)",
+    "highlights": [
+      "7 ski runs for all levels",
+      "Two chairlift systems",
+      "Snowshoe trails",
+      "Stunning winter mountain scenery",
+      "Affordable compared to major resorts"
+    ]
+  },
+  {
+    "id": 13,
+    "name_ru": "Фиагдон — Гизельдон: треккинг через перевалы",
+    "name_en": "Fiagdon — Gizeldon: Cross-Pass Trekking",
+    "type": "multi_day",
+    "difficulty": "hard",
+    "duration": "3-4 days",
+    "distance_km": 45,
+    "start_point": {
+      "name": "Upper Fiagdon",
+      "lat": 42.8440,
+      "lng": 44.3050
+    },
+    "end_point": {
+      "name": "Dargavs",
+      "lat": 42.8416,
+      "lng": 44.4450
+    },
+    "waypoints": [
+      {
+        "name": "Gularsky Pass",
+        "lat": 42.8100,
+        "lng": 44.3500,
+        "description": "Mountain pass at ~2900m connecting Fiagdon and Gizeldon valleys. Requires careful navigation."
+      },
+      {
+        "name": "Gizeldon River valley",
+        "lat": 42.8000,
+        "lng": 44.4200,
+        "description": "Remote valley with alpine meadows, crystal-clear river, and potential wild camping spots."
+      },
+      {
+        "name": "Midagrabin Valley",
+        "lat": 42.7780,
+        "lng": 44.3750,
+        "description": "Optional detour to the Midagrabin waterfalls (adds a full day)."
+      },
+      {
+        "name": "Dargavs Necropolis",
+        "lat": 42.8416,
+        "lng": 44.4450,
+        "description": "Finish at the City of the Dead — a fitting end to a journey through ancient mountain Ossetia."
+      }
+    ],
+    "description_ru": "Многодневный горный маршрут через перевалы Центрального Кавказа, соединяющий долины рек Фиагдон и Гизельдон. Перевал Гулар (~2900 м) — ключевая точка маршрута. Возможен заход к Мидаграбинским водопадам. Финиш в Даргавсе. Требуется горный опыт, палатка, навигатор. Лучший сезон — июль-август, когда перевалы свободны от снега.",
+    "description_en": "Multi-day mountain route crossing Central Caucasus passes, connecting the Fiagdon and Gizeldon river valleys. Gularsky Pass (~2900m) is the key point. Optional detour to Midagrabin waterfalls. Finish at Dargavs. Mountain experience, tent, and GPS navigation required. Best in July-August when passes are snow-free.",
+    "best_season": "July — August",
+    "highlights": [
+      "Gularsky Pass (2900m)",
+      "Remote Gizeldon valley",
+      "Optional Midagrabin waterfalls",
+      "Dargavs City of the Dead",
+      "True wilderness experience"
+    ]
+  },
+  {
+    "id": 14,
+    "name_ru": "Роща Хетага и Алагирское ущелье",
+    "name_en": "Khetag's Grove & Alagir Gorge",
+    "type": "day_trip",
+    "difficulty": "easy",
+    "duration": "5-6 hours",
+    "distance_km": 80,
+    "start_point": {
+      "name": "Vladikavkaz",
+      "lat": 43.0367,
+      "lng": 44.6678
+    },
+    "end_point": {
+      "name": "Alagir",
+      "lat": 43.0440,
+      "lng": 44.2190
+    },
+    "waypoints": [
+      {
+        "name": "Khetag's Grove (Roshcha Khetaga)",
+        "lat": 43.1050,
+        "lng": 44.3450,
+        "description": "Sacred forest grove — the most important Ossetian sacred site. According to legend, the forest moved to protect warrior Khetag. Annual festival in July."
+      },
+      {
+        "name": "Alagir — Church of the Exaltation",
+        "lat": 43.0460,
+        "lng": 44.2200,
+        "description": "19th-century church with frescoes and paintings by Kosta Khetagurov. Ossetian heritage museum nearby."
+      },
+      {
+        "name": "Entrance to Alagir Gorge",
+        "lat": 43.0350,
+        "lng": 44.2050,
+        "description": "Dramatic entrance to the gorge with the Uastyrdzhi monument overhead. Photo stop."
+      }
+    ],
+    "description_ru": "Короткая и лёгкая однодневная поездка к двум знаковым местам. Роща Хетага — священное место осетин: по легенде, лес сам пришёл, чтобы укрыть воина Кетага от врагов. Ежегодный праздник в июле. Затем — город Алагир с церковью XIX века, расписанной Коста Хетагуровым, и вход в Алагирское ущелье с монументом Уастырджи.",
+    "description_en": "A short and easy day trip to two landmark sites. Khetag's Grove is the most sacred Ossetian site: legend says the forest moved itself to shelter warrior Khetag from enemies. Annual festival in July. Then — Alagir town with a 19th-century church painted by Kosta Khetagurov, and the entrance to Alagir Gorge with the Uastyrdzhi monument.",
+    "best_season": "Year-round (July for Khetag festival)",
+    "highlights": [
+      "Khetag's Sacred Grove",
+      "Kosta Khetagurov church paintings",
+      "Uastyrdzhi monument",
+      "Entrance to Alagir Gorge"
+    ]
+  },
+  {
+    "id": 15,
+    "name_ru": "Дигорское ущелье: обзорный автомаршрут",
+    "name_en": "Digora Gorge: Scenic Drive",
+    "type": "road_trip",
+    "difficulty": "easy",
+    "duration": "Full day (10-12 hours from Vladikavkaz)",
+    "distance_km": 260,
+    "start_point": {
+      "name": "Vladikavkaz",
+      "lat": 43.0367,
+      "lng": 44.6678
+    },
+    "end_point": {
+      "name": "Styr-Digora Village",
+      "lat": 42.9140,
+      "lng": 43.5450
+    },
+    "waypoints": [
+      {
+        "name": "Chikola Village",
+        "lat": 43.0650,
+        "lng": 44.0250,
+        "description": "Gateway to Digoria. Fuel and supplies stop."
+      },
+      {
+        "name": "Akhsinta Canyon",
+        "lat": 42.9080,
+        "lng": 43.5380,
+        "description": "Narrow canyon with Devil's Bridge — the most photographed spot in Digoria."
+      },
+      {
+        "name": "Zadalessk Nana Museum",
+        "lat": 42.9200,
+        "lng": 43.5500,
+        "description": "Museum dedicated to the women of Zadale village who fostered children during WWII."
+      },
+      {
+        "name": "Donifars ancient towers",
+        "lat": 42.9300,
+        "lng": 43.5700,
+        "description": "Ruins of medieval Digorian tower settlement with commanding valley views."
+      },
+      {
+        "name": "Styr-Digora",
+        "lat": 42.9140,
+        "lng": 43.5450,
+        "description": "End of the road. The highest village in Digoria, gateway to all major hiking trails."
+      }
+    ],
+    "description_ru": "Автомобильный обзорный маршрут по всему Дигорскому ущелью — самому дикому и нетронутому в Северной Осетии. Дорога идёт от Чиколы через живописные горные пейзажи до Стур-Дигоры. По пути — каньон Ахсинта, музей «Задалескии нана», средневековые башни Донифарса. Асфальт до Мацуты, далее грунтовка. Рекомендуется полноприводный автомобиль для последнего участка.",
+    "description_en": "A scenic drive through the entire Digora Gorge — the wildest and most untouched in North Ossetia. The road goes from Chikola through spectacular mountain scenery to Styr-Digora. Along the way — Akhsinta Canyon, Zadalessk Nana Museum, medieval Donifars towers. Paved to Matsuta, then gravel. 4WD recommended for the last section.",
+    "best_season": "May — October",
+    "highlights": [
+      "Akhsinta Canyon & Devil's Bridge",
+      "Zadalessk Nana Museum",
+      "Medieval Donifars towers",
+      "Pristine mountain wilderness",
+      "Gateway to Digoria hiking trails"
+    ]
+  }
+]

@@ -1,0 +1,260 @@
+{
+  "facts": [
+    {
+      "id": 1,
+      "category": "history",
+      "title_ru": "Три тысячелетия истории",
+      "title_en": "Three Millennia of History",
+      "text_ru": "История осетинского народа насчитывает более трёх тысяч лет. Учёные прослеживают чёткую линию преемственности: скифы → сарматы → аланы → осетины. Это один из немногих народов мира, чья генеалогия уходит корнями к великим кочевым империям древности.",
+      "text_en": "The history of the Ossetian people spans over three thousand years. Scholars trace a clear line of succession: Scythians → Sarmatians → Alans → Ossetians. They are one of the few peoples in the world whose genealogy goes back to the great nomadic empires of antiquity."
+    },
+    {
+      "id": 2,
+      "category": "history",
+      "title_ru": "Аланское царство и Великий шёлковый путь",
+      "title_en": "The Kingdom of Alania and the Silk Road",
+      "text_ru": "В VIII веке аланы создали мощное Аланское царство на Северном Кавказе. В XI веке при правителе Дургулеле Алания достигла расцвета: сильная экономика благодаря Великому шёлковому пути, дипломатические связи с Византией, централизованная монархия с мощной армией.",
+      "text_en": "In the 8th century, the Alans established the powerful Kingdom of Alania in the North Caucasus. In the 11th century under ruler Durgulel, Alania reached its peak: a strong economy fueled by the Silk Road, diplomatic ties with Byzantium, and a centralized monarchy with a formidable army."
+    },
+    {
+      "id": 3,
+      "category": "history",
+      "title_ru": "Христианство с IX века",
+      "title_en": "Christianity Since the 9th Century",
+      "text_ru": "Алания приняла христианство в начале X века, став одним из первых христианских государств на Кавказе. В 2022 году отмечалось 1100-летие крещения Алании. Древние храмы, построенные в X–XII веках, сохранились до наших дней в горных ущельях Осетии.",
+      "text_en": "Alania adopted Christianity in the early 10th century, becoming one of the first Christian states in the Caucasus. The 1100th anniversary of Alania's conversion was celebrated in 2022. Ancient churches built in the 10th–12th centuries still survive in the mountain gorges of Ossetia."
+    },
+    {
+      "id": 4,
+      "category": "history",
+      "title_ru": "Падение Магаса — столицы алан",
+      "title_en": "The Fall of Magas — Capital of the Alans",
+      "text_ru": "В январе 1239 года после трёхмесячной осады монголы захватили аланскую столицу Магас. Это событие положило конец могущественному Аланскому царству. Выжившие аланы укрылись в горных ущельях Кавказа, где сохранили свой язык и культуру на протяжении столетий.",
+      "text_en": "In January 1239, after a three-month siege, the Mongols captured the Alanian capital of Magas. This event marked the end of the mighty Alanian kingdom. The surviving Alans took refuge in the mountain gorges of the Caucasus, where they preserved their language and culture for centuries."
+    },
+    {
+      "id": 5,
+      "category": "history",
+      "title_ru": "Владикавказ — «Владей Кавказом»",
+      "title_en": "Vladikavkaz — 'Ruler of the Caucasus'",
+      "text_ru": "Название столицы Северной Осетии — Владикавказ — буквально переводится как «Владей Кавказом». Город был основан в 1784 году как русская крепость у входа в Дарьяльское ущелье. Сегодня это один из крупнейших городов Северного Кавказа с населением более 300 тысяч человек.",
+      "text_en": "The name of North Ossetia's capital — Vladikavkaz — literally translates as 'Ruler of the Caucasus.' The city was founded in 1784 as a Russian fortress at the entrance to the Darial Gorge. Today it is one of the largest cities in the North Caucasus with a population exceeding 300,000."
+    },
+    {
+      "id": 6,
+      "category": "culture",
+      "title_ru": "Нартский эпос — прототип легенд о короле Артуре",
+      "title_en": "Nart Sagas — Prototype of Arthurian Legends",
+      "text_ru": "Осетинский Нартский эпос — грандиозный свод мифов и легенд — считается одним из возможных источников легенд о короле Артуре. В одной из самых известных нартских саг герой Батраз перед смертью бросает свой меч в море — сцена, поразительно напоминающая историю Экскалибура. Учёные считают, что аланы, мигрировавшие в Западную Европу, принесли эти сюжеты с собой.",
+      "text_en": "The Ossetian Nart Sagas — a grand cycle of myths and legends — are considered one of the possible sources for the legends of King Arthur. In one of the most famous Nart tales, the hero Batraz throws his sword into the sea before dying — a scene strikingly reminiscent of the Excalibur story. Scholars believe the Alans, who migrated to Western Europe, carried these stories with them."
+    },
+    {
+      "id": 7,
+      "category": "culture",
+      "title_ru": "Джеоргуыба — главный осетинский праздник",
+      "title_en": "Jeoргuyba — The Greatest Ossetian Holiday",
+      "text_ru": "Джеоргуыба — осенний праздник в честь Уастырджи, покровителя мужчин и путников. Отмечается в последнюю неделю ноября и длится целую неделю. В этот праздник пекут только пироги с сыром (уалибах), а также особые треугольные пироги — артадзыхон. Женщинам запрещено произносить имя Уастырджи — они называют его «Лагты дзуар» (покровитель мужчин).",
+      "text_en": "Jeoргuyba is an autumn holiday honoring Uastyrdzhi, the patron of men and travelers. It falls in the last week of November and lasts an entire week. Only cheese-filled pies (ualibakh) are baked for this celebration, along with special triangular pies called artadzykhon. Women are forbidden from speaking Uastyrdzhi's name — they call him 'Lagty Dzuar' (patron of men)."
+    },
+    {
+      "id": 8,
+      "category": "culture",
+      "title_ru": "Священная роща Хетага",
+      "title_en": "The Sacred Grove of Khetag",
+      "text_ru": "Роща Хетага — реликтовый лес площадью 13 гектаров, священное место осетин. По легенде, кабардинский князь Хетаг бежал от преследователей за принятие христианства, и перед ним чудесным образом выросла роща, где он укрылся. Ежегодно во второе воскресенье июля сюда съезжаются тысячи людей. Из рощи ничего нельзя выносить — ни листка, ни веточки.",
+      "text_en": "Khetag's Grove is a 13-hectare relict forest and a sacred site for the Ossetians. Legend says the Kabardian prince Khetag fled persecution for converting to Christianity, and a miraculous grove grew before him to provide shelter. Every year on the second Sunday of July, thousands gather here. Nothing may be taken from the grove — not a leaf, not a twig."
+    },
+    {
+      "id": 9,
+      "category": "culture",
+      "title_ru": "Три пирога — символ мироздания",
+      "title_en": "Three Pies — Symbol of the Universe",
+      "text_ru": "На осетинском праздничном столе всегда три пирога, уложенных друг на друга. Они символизируют три стихии: солнце (Бог), землю и воду. На поминках кладут только два пирога — убирая верхний, символизирующий солнце (Бога). Эта традиция неразрывно связана с осетинской космологией и передаётся из поколения в поколение.",
+      "text_en": "An Ossetian festive table always features three pies stacked on top of each other. They symbolize three elements: the sun (God), earth, and water. At funeral meals, only two pies are served — the top one, symbolizing the sun (God), is removed. This tradition is deeply tied to Ossetian cosmology and has been passed down through generations."
+    },
+    {
+      "id": 10,
+      "category": "culture",
+      "title_ru": "Скифские традиции живы до сих пор",
+      "title_en": "Scythian Traditions Are Still Alive",
+      "text_ru": "Скифская культура до сих пор жива среди осетин. Как и скифы, осетины почитают лошадей. Старожилы помнят похороны, где приносили в жертву коней — «если покойный был хорошим наездником». Этот обычай восходит к аланским и скифским временам, когда коня часто хоронили вместе с хозяином.",
+      "text_en": "Scythian culture is still very much alive among the Ossetians. Like the Scythians, Ossetians revere horses. Elders remember funerals where horses were sacrificed — 'if the deceased was a good rider.' This custom dates back to Alan and Scythian times, when a person's horse was often buried alongside them."
+    },
+    {
+      "id": 11,
+      "category": "cuisine",
+      "title_ru": "Осетинские пироги — кулинарный шедевр",
+      "title_en": "Ossetian Pies — A Culinary Masterpiece",
+      "text_ru": "Настоящий осетинский пирог — это тонкий круглый хлеб с обильной начинкой. Классические начинки: осетинский сыр (уалибах), мясо (фыдджын), картофель с сыром (картофджын), свекольная ботва с сыром (цахараджын), тыква (насджын), фасоль (кадурджын). Мастерство пекаря определяется толщиной теста — чем тоньше, тем лучше.",
+      "text_en": "An authentic Ossetian pie is a thin round flatbread with generous filling. Classic fillings include Ossetian cheese (ualibakh), meat (fyddjyn), potato with cheese (kartofdjyn), beet leaves with cheese (tsakharadjyn), pumpkin (nasdjyn), and beans (kadurdjyn). A baker's skill is measured by dough thinness — the thinner, the better."
+    },
+    {
+      "id": 12,
+      "category": "cuisine",
+      "title_ru": "Бабушкино пиво — древняя традиция",
+      "title_en": "Grandma's Beer — An Ancient Tradition",
+      "text_ru": "Осетинское пиво варят с древнейших времён в железных чанах на открытом огне. Пивоварами традиционно являются старшие женщины в семье — не удивляйтесь, если осетин скажет, что лучшее пиво он пил у бабушки. Напиток тёмно-коричневого цвета, почти без пены, крепостью всего 1–2%, по вкусу напоминает квас или какао.",
+      "text_en": "Ossetian beer has been brewed since ancient times in iron vats over open fire. The brewers are traditionally the elder women in the family — don't be surprised if an Ossetian tells you the best beer they ever had was made by their grandmother. The drink is dark brown, nearly foamless, only 1–2% ABV, and tastes like kvass or cocoa."
+    },
+    {
+      "id": 13,
+      "category": "cuisine",
+      "title_ru": "Ирон Бæгæны — осетинский Октоберфест",
+      "title_en": "Iron Bægæny — Ossetian Oktoberfest",
+      "text_ru": "Ирон Бæгæны — пивной фестиваль, аналог немецкого Октоберфеста, посвящённый традиционному осетинскому пиву. На фестивале можно попробовать разные сорта домашнего пива, осетинские пироги и другие блюда национальной кухни. Это праздник, объединяющий древние пивоваренные традиции и современную культуру.",
+      "text_en": "Iron Bægæny is a beer festival, comparable to Germany's Oktoberfest, dedicated to traditional Ossetian beer. At the festival you can taste different varieties of homemade beer, Ossetian pies, and other national dishes. It's a celebration that unites ancient brewing traditions with modern culture."
+    },
+    {
+      "id": 14,
+      "category": "cuisine",
+      "title_ru": "Ритуал первого глотка",
+      "title_en": "The Ritual of the First Sip",
+      "text_ru": "За осетинским столом пиво подаётся в деревянном чане. Старший мужчина произносит молитву, а затем первый глоток даёт самому младшему за столом. Первый тост всегда обращён к Всевышнему, второй — к Уастырджи. Этот ритуал передаётся из поколения в поколение и строго соблюдается.",
+      "text_en": "At an Ossetian table, beer is served in a wooden vat. The eldest man says a prayer, then gives the first sip to the youngest person at the table. The first toast is always addressed to the Almighty, the second to Uastyrdzhi. This ritual has been passed down through generations and is strictly observed."
+    },
+    {
+      "id": 15,
+      "category": "language",
+      "title_ru": "Единственный иранский язык в Европе",
+      "title_en": "The Only Iranian Language in Europe",
+      "text_ru": "Осетинский — единственный язык иранской группы в Европе и единственный живой потомок скифо-сарматских языков. Он относится к северо-восточной ветви иранских языков и является дальним родственником персидского, курдского и пушту. На нём говорят около 600 тысяч человек.",
+      "text_en": "Ossetian is the only Iranian-group language in Europe and the only living descendant of the Scytho-Sarmatian languages. It belongs to the northeastern branch of Iranian languages and is a distant relative of Persian, Kurdish, and Pashto. It is spoken by approximately 600,000 people."
+    },
+    {
+      "id": 16,
+      "category": "language",
+      "title_ru": "Кавказский акцент иранского языка",
+      "title_en": "Caucasian Accent of an Iranian Language",
+      "text_ru": "Осетинский язык уникален тем, что сочетает иранскую основу с кавказскими чертами. Под влиянием соседних кавказских языков в нём появились абруптивные (смычно-гортанные) согласные — крайне редкое явление для индоевропейских языков. Это как если бы французский язык вдруг приобрёл щелкающие звуки африканских языков.",
+      "text_en": "Ossetian is unique in combining an Iranian core with Caucasian features. Under the influence of neighboring Caucasian languages, it developed ejective consonants — an extremely rare phenomenon for Indo-European languages. It's as if French suddenly acquired the click sounds of African languages."
+    },
+    {
+      "id": 17,
+      "category": "language",
+      "title_ru": "Два диалекта — два мира",
+      "title_en": "Two Dialects — Two Worlds",
+      "text_ru": "В осетинском языке существуют два диалекта: иронский (восточный) и дигорский (западный). Иронский — основа литературного языка, на нём говорит большинство осетин. Дигорский настолько отличается, что иронцы и дигорцы иногда с трудом понимают друг друга. Оба диалекта сохраняют архаичные черты древнеиранского языка, включая восемь падежей.",
+      "text_en": "Ossetian has two dialects: Iron (eastern) and Digor (western). Iron is the basis of the literary language and is spoken by most Ossetians. Digor is so different that Iron and Digor speakers sometimes struggle to understand each other. Both dialects preserve archaic features of Old Iranian, including eight grammatical cases."
+    },
+    {
+      "id": 18,
+      "category": "language",
+      "title_ru": "Язык без грамматического рода",
+      "title_en": "A Language Without Grammatical Gender",
+      "text_ru": "Как и персидский, осетинский утратил грамматический род — то, что большинство индоевропейских языков сохранили. Зато осетинский сохранил множественное число с суффиксом -тæ, который он разделяет с вымершим согдийским языком Средней Азии — свидетельство древнего иранского языкового континуума великой степи.",
+      "text_en": "Like Persian, Ossetian has lost grammatical gender — something most Indo-European languages have preserved. However, it retained a plural formed with the suffix -tæ, shared with the extinct Sogdian language of Central Asia — evidence of an ancient Iranian language continuum across the great steppe."
+    },
+    {
+      "id": 19,
+      "category": "people",
+      "title_ru": "Коста Хетагуров — отец осетинской литературы",
+      "title_en": "Kosta Khetagurov — Father of Ossetian Literature",
+      "text_ru": "Коста Хетагуров (1859–1906) — национальный поэт, основоположник осетинской литературы, художник и общественный деятель. Писал на осетинском и русском языках, стандартизировал современный осетинский литературный язык. Был дважды сослан за критику царского правительства. Его именем назван один из университетов Осетии.",
+      "text_en": "Kosta Khetagurov (1859–1906) is the national poet, founder of Ossetian literature, painter, and public figure. He wrote in both Ossetian and Russian and standardized the modern Ossetian literary language. He was exiled twice for criticizing the Imperial Russian government. One of Ossetia's universities bears his name."
+    },
+    {
+      "id": 20,
+      "category": "people",
+      "title_ru": "Валерий Гергиев — маэстро из Владикавказа",
+      "title_en": "Valery Gergiev — Maestro from Vladikavkaz",
+      "text_ru": "Валерий Гергиев — один из самых известных дирижёров мира, генеральный и художественный руководитель Мариинского театра. Родился и вырос во Владикавказе. Гергиева часто называют представителем осетинской «творческой интеллигенции» — Осетия славится своими деятелями искусства.",
+      "text_en": "Valery Gergiev is one of the world's most renowned conductors, general and artistic director of the Mariinsky Theatre. He was born and raised in Vladikavkaz. Gergiev is often cited as a representative of the Ossetian 'creative intelligentsia' — Ossetia is famous for its artists and cultural figures."
+    },
+    {
+      "id": 21,
+      "category": "people",
+      "title_ru": "Осетия — кузница чемпионов по борьбе",
+      "title_en": "Ossetia — Wrestling Champions Factory",
+      "text_ru": "Осетины — один из самых титулованных народов в вольной борьбе. Почти половина сборной России по вольной борьбе традиционно состоит из осетин. Среди легенд — двукратный олимпийский чемпион Арсен Фадзаев, чемпионы мира Бесик Кудухов и многие другие. Борьба — часть национальной идентичности.",
+      "text_en": "Ossetians are one of the most decorated peoples in freestyle wrestling. Nearly half of Russia's freestyle wrestling team has traditionally been Ossetian. Legends include two-time Olympic champion Arsen Fadzayev, world champions Besik Kudukhov, and many others. Wrestling is part of the national identity."
+    },
+    {
+      "id": 22,
+      "category": "people",
+      "title_ru": "Мурат Гассиев — чемпион мира по боксу",
+      "title_en": "Murat Gassiev — World Boxing Champion",
+      "text_ru": "Мурат Гассиев — профессиональный боксёр из Осетии, бывший объединённый чемпион мира в первом тяжёлом весе. Алан Дзагоев — звезда российского футбола, игравший за ЦСКА и сборную России. Тимур Таймазов — олимпийский чемпион 1996 года по тяжёлой атлетике. Спортивные достижения осетин поразительны для небольшого народа.",
+      "text_en": "Murat Gassiev is a professional boxer from Ossetia, former unified cruiserweight world champion. Alan Dzagoev is a Russian football star who played for CSKA Moscow and the national team. Timur Taymazov is a 1996 Olympic weightlifting champion. The sporting achievements of Ossetians are remarkable for such a small nation."
+    },
+    {
+      "id": 23,
+      "category": "geography",
+      "title_ru": "Мидаграбинские водопады — одни из высочайших в Европе",
+      "title_en": "Midagrabin Waterfalls — Among Europe's Highest",
+      "text_ru": "Водопад Большой Зейгелан в Мидаграбинском ущелье высотой около 750 метров — один из высочайших водопадов Европы и пятый в мире. Всего в долине более 50 водопадов разного размера. Они питаются ледниками и меняют мощность в зависимости от сезона — зрелище, от которого захватывает дух.",
+      "text_en": "The Bolshoy Zeigalan waterfall in the Midagrabin gorge, approximately 750 meters tall, is one of Europe's highest waterfalls and the fifth highest in the world. The valley contains over 50 waterfalls of various sizes. They are glacier-fed and change intensity with the seasons — a breathtaking spectacle."
+    },
+    {
+      "id": 24,
+      "category": "geography",
+      "title_ru": "Семь ущелий Северной Осетии",
+      "title_en": "Seven Gorges of North Ossetia",
+      "text_ru": "Северная Осетия занимает всего 8000 квадратных километров, но вмещает несколько живописных ущелий: Дарьяльское, Куртатинское, Алагирское, Дигорское, Кармадонское, Кобанское и Цейское. Через каждое пролегают реки, а горы достигают высоты 4780 метров (гора Джимара). Это одна из самых компактных, но разнообразных горных территорий на Кавказе.",
+      "text_en": "North Ossetia covers just 8,000 square kilometers but contains several spectacular gorges: Darial, Kurtatinsky, Alagirsky, Digorsky, Karmadon, Kobansky, and Tseysky. Rivers flow through each, and mountains reach 4,780 meters (Mount Dzhimara). It's one of the most compact yet diverse mountain territories in the Caucasus."
+    },
+    {
+      "id": 25,
+      "category": "geography",
+      "title_ru": "Дарьяльское ущелье — Врата Кавказа",
+      "title_en": "Darial Gorge — The Gates of the Caucasus",
+      "text_ru": "Дарьяльское ущелье — легендарный проход через Главный Кавказский хребет, известный ещё древним грекам и римлянам как «Ворота алан» (Porta Caucasica). Через него проходила Военно-Грузинская дорога. Отвесные скалы высотой до 1000 метров над рекой Терек создают одно из самых драматичных ущелий мира.",
+      "text_en": "The Darial Gorge is a legendary passage through the Main Caucasus Ridge, known to ancient Greeks and Romans as the 'Gates of the Alans' (Porta Caucasica). The Georgian Military Highway passes through it. Sheer cliffs rising up to 1,000 meters above the Terek River create one of the world's most dramatic gorges."
+    },
+    {
+      "id": 26,
+      "category": "fun",
+      "title_ru": "Даргавс — Город мёртвых",
+      "title_en": "Dargavs — The City of the Dead",
+      "text_ru": "Даргавс — средневековый некрополь из 99 каменных склепов XII–XVII веков, расположенный на холме в безлюдной горной долине. Хотя он выглядит как небольшая деревня с каменными домиками и двускатными крышами, на самом деле это усыпальница. По местной легенде, живой человек, вошедший в Даргавс, уже не вернётся — впрочем, туристы успешно опровергают это поверье.",
+      "text_en": "Dargavs is a medieval necropolis of 99 stone crypts from the 12th–17th centuries, perched on a hill in a desolate mountain valley. Though it looks like a small village with stone houses and gabled roofs, it is actually a burial ground. Local legend says that a living person who enters Dargavs will never return — though tourists have successfully disproven this belief."
+    },
+    {
+      "id": 27,
+      "category": "fun",
+      "title_ru": "Осетинское гостеприимство — закон",
+      "title_en": "Ossetian Hospitality Is Law",
+      "text_ru": "О кавказском гостеприимстве ходят легенды, но в Осетии гость — действительно священная фигура. По древним обычаям, хозяин обязан защищать гостя даже ценой собственной жизни. Гостю подают лучшую еду, его усаживают на почётное место. Отказаться от угощения — значит обидеть хозяина. Будьте готовы к обильным застольям!",
+      "text_en": "Caucasian hospitality is legendary, but in Ossetia a guest is truly a sacred figure. By ancient custom, a host must protect their guest even at the cost of their own life. Guests are served the best food and given the seat of honor. Refusing food means offending the host. Be prepared for lavish feasts!"
+    },
+    {
+      "id": 28,
+      "category": "fun",
+      "title_ru": "Аланы — предки по всей Европе",
+      "title_en": "Alans — Ancestors Across All of Europe",
+      "text_ru": "Аланы — предки осетин — в эпоху Великого переселения народов расселились по всей Европе. Они добрались до Испании, Португалии, Северной Африки и даже основали поселения в Галлии (Франция). Название региона Каталония, возможно, происходит от «Гот-Алания». Осетины шутят, что они — самые широко расселившийся народ, о котором мало кто слышал.",
+      "text_en": "The Alans — ancestors of the Ossetians — spread across all of Europe during the Great Migration. They reached Spain, Portugal, North Africa, and even established settlements in Gaul (France). The name Catalonia may derive from 'Goth-Alania.' Ossetians joke that they are the most widely dispersed people nobody has heard of."
+    },
+    {
+      "id": 29,
+      "category": "fun",
+      "title_ru": "Терра инкогнита для туристов",
+      "title_en": "Terra Incognita for Tourists",
+      "text_ru": "Северная Осетия остаётся одним из наименее посещаемых туристических регионов, несмотря на невероятное богатство природы и культуры. Здесь нет толп туристов, а пейзажи не уступают Швейцарии или Норвегии. Многие путешественники называют Осетию «последним секретом Европы». Именно поэтому сейчас — лучшее время для визита.",
+      "text_en": "North Ossetia remains one of the least visited tourist regions despite its incredible natural and cultural wealth. There are no tourist crowds, and the landscapes rival Switzerland or Norway. Many travelers call Ossetia 'Europe's last secret.' That's exactly why now is the best time to visit."
+    },
+    {
+      "id": 30,
+      "category": "culture",
+      "title_ru": "Святилище Реком — деревянный храм в горах",
+      "title_en": "Rekom Sanctuary — Wooden Temple in the Mountains",
+      "text_ru": "Реком — одно из наиболее почитаемых святилищ Осетии, расположенное в Цейском ущелье. Это деревянное сооружение, построенное без единого гвоздя, посвящённое Уастырджи. Женщинам вход в святилище строго запрещён. Раз в год здесь проводится праздник Реком, на который съезжаются осетины со всей республики. Рядом находится святилище для женщин — Мады Майрам.",
+      "text_en": "Rekom is one of the most revered sanctuaries in Ossetia, located in the Tsey Gorge. It is a wooden structure built without a single nail, dedicated to Uastyrdzhi. Women are strictly forbidden from entering. Once a year, the Rekom festival is held here, attracting Ossetians from across the republic. Nearby is the women's sanctuary — Mady Mairam."
+    },
+    {
+      "id": 31,
+      "category": "culture",
+      "title_ru": "Праздник черпания воды",
+      "title_en": "The Water-Drawing Festival",
+      "text_ru": "Через шесть дней после Нового года осетины отмечают «Праздник черпания воды». По поверью, семью, которая первой наберёт воды в этот день, ждёт Божья благодать на весь год. На рассвете люди спешат к источникам и рекам. Этот языческий праздник сохранился с древнейших времён и до сих пор соблюдается во многих сёлах.",
+      "text_en": "Six days after New Year, Ossetians celebrate the 'Water-Drawing Festival.' According to belief, the family that draws water first on this day will receive God's blessing for the entire year. At dawn, people rush to springs and rivers. This pagan holiday has survived since ancient times and is still observed in many villages."
+    },
+    {
+      "id": 32,
+      "category": "geography",
+      "title_ru": "Герб Осетии — снежный барс и семь гор",
+      "title_en": "Coat of Arms — Snow Leopard and Seven Mountains",
+      "text_ru": "На гербе Северной Осетии изображён кавказский барс (леопард) на фоне семи белых гор. Барс символизирует государственность, силу и ловкость свободолюбивого народа. Золотая земля под его лапами подчёркивает величие и достоинство. Прототипом герба послужило «Знамя Осетии» из атласа грузинского царевича Вахушти 1735 года.",
+      "text_en": "The coat of arms of North Ossetia features a Caucasian leopard (snow leopard) against a backdrop of seven white mountains. The leopard symbolizes statehood, strength, and agility of a freedom-loving people. The golden ground beneath its paws emphasizes greatness and dignity. The prototype was the 'Banner of Ossetia' from the 1735 atlas of Georgian prince Vakhushti."
+    }
+  ]
+}
