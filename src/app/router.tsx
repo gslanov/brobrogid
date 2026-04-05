@@ -16,6 +16,7 @@ const EmergencyPage = lazy(() => import('@/features/emergency/pages/EmergencyPag
 const SubscriptionPage = lazy(() => import('@/features/subscription/pages/SubscriptionPage'))
 const OnboardingPage = lazy(() => import('@/features/onboarding/pages/OnboardingPage'))
 const AdminLayout = lazy(() => import('@/features/admin/pages/AdminLayout'))
+const AdminLogin = lazy(() => import('@/features/admin/pages/AdminLogin'))
 const AdminDashboard = lazy(() => import('@/features/admin/pages/AdminDashboard'))
 const AdminPOIList = lazy(() => import('@/features/admin/pages/AdminPOIList'))
 const AdminPOIForm = lazy(() => import('@/features/admin/pages/AdminPOIForm'))
@@ -57,6 +58,7 @@ export const routes: RouteObject[] = [
   { path: 'emergency', element: <Lazy><EmergencyPage /></Lazy> },
   { path: 'subscription', element: <Lazy><SubscriptionPage /></Lazy> },
   { path: 'onboarding', element: <Lazy><OnboardingPage /></Lazy> },
+  { path: 'admin/login', element: <Lazy><AdminLogin /></Lazy> },
   {
     path: 'admin',
     element: <Lazy><AdminLayout /></Lazy>,
