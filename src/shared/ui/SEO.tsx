@@ -1,7 +1,9 @@
 import { Helmet } from 'react-helmet-async'
 import { useTranslation } from 'react-i18next'
 
-const BASE_URL = 'https://brobrogid.ru'
+// This is the interactive PWA app on app.brobrogid.ru.
+// The content site (brobrogid.ru) is a separate Astro project.
+const BASE_URL = 'https://app.brobrogid.ru'
 
 interface SEOProps {
   title: string

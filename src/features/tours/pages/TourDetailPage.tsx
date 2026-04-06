@@ -162,7 +162,7 @@ export default function TourDetailPage() {
         '@type': 'TouristTrip',
         name: tour.name[lang],
         description: tour.description[lang],
-        image: tour.photos[0] ? `https://brobrogid.ru${tour.photos[0]}` : undefined,
+        image: tour.photos[0] ? `https://app.brobrogid.ru${tour.photos[0]}` : undefined,
         offers: { '@type': 'Offer', price: tour.price, priceCurrency: 'RUB' },
       }} />
       <div className="sticky top-0 z-40 flex items-center px-4 h-14 bg-white/95 backdrop-blur-sm border-b border-[var(--color-border)]">

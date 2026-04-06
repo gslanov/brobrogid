@@ -64,7 +64,7 @@ export default function GuideDetailPage() {
         '@type': 'Person',
         name: guide.name[lang],
         description: guide.bio[lang],
-        image: guide.photo ? `https://brobrogid.ru${guide.photo}` : undefined,
+        image: guide.photo ? `https://app.brobrogid.ru${guide.photo}` : undefined,
         jobTitle: 'Tour Guide',
         knowsLanguage: guide.languages,
       }} />

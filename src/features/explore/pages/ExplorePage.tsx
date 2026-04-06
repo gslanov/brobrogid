@@ -352,11 +352,11 @@ export default function ExplorePage() {
       <JsonLd data={{
         '@type': 'WebSite',
         name: 'BROBROGID',
-        url: 'https://brobrogid.ru',
+        url: 'https://app.brobrogid.ru',
         description: 'Путеводитель по Владикавказу и Северной Осетии',
         potentialAction: {
           '@type': 'SearchAction',
-          target: 'https://brobrogid.ru/search?q={search_term_string}',
+          target: 'https://app.brobrogid.ru/search?q={search_term_string}',
           'query-input': 'required name=search_term_string'
         }
       }} />
