@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { SEO } from '@/shared/ui/SEO'
 import { PageHeader } from '@/shared/ui/PageHeader'
 import { formatPrice } from '@/shared/lib/utils'
 import type { SubscriptionPlan } from '@/data/types'
@@ -16,6 +17,11 @@ export default function SubscriptionPage() {
 
   return (
     <div className="min-h-dvh bg-[var(--color-bg)]">
+      <SEO
+        title="Подписка — BROBROGID"
+        description="Подписка BROBROGID для доступа к премиум-контенту."
+        noindex
+      />
       <PageHeader title={t('subscription.title')} showBack />
 
       <div className="px-4 py-4">

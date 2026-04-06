@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
+import { SEO } from '@/shared/ui/SEO'
 import maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { useDataStore } from '@/data/stores/data-store'
@@ -212,6 +213,11 @@ export default function MapPage() {
 
   return (
     <div className="relative h-[calc(100dvh-var(--bottom-nav-height)-var(--safe-area-bottom))]">
+      <SEO
+        title="Карта Владикавказа — BROBROGID"
+        description="Интерактивная карта Владикавказа с достопримечательностями, ресторанами и маршрутами."
+        url="/map"
+      />
       {/* Step 3.5 — Category filter chips */}
       <div className="absolute top-3 left-0 right-0 z-10 flex gap-2 px-3 overflow-x-auto no-scrollbar">
         <button

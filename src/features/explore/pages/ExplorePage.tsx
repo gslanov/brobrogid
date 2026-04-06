@@ -17,6 +17,8 @@ import { SectionHeader } from '@/shared/ui/SectionHeader'
 import { POICard } from '@/shared/ui/POICard'
 import { CategoryChip } from '@/shared/ui/CategoryChip'
 import { POICardSkeleton } from '@/shared/ui/Skeleton'
+import { SEO } from '@/shared/ui/SEO'
+import { JsonLd } from '@/shared/ui/JsonLd'
 import type { POICategory } from '@/data/types'
 
 const VISIBLE_CATEGORIES: POICategory[] = [
@@ -342,6 +344,22 @@ export default function ExplorePage() {
 
   return (
     <div className="pb-4">
+      <SEO
+        title={t('app.name') + ' — ' + t('app.tagline')}
+        description="Путеводитель по Владикавказу и Северной Осетии. Достопримечательности, рестораны, туры, карта."
+        url="/"
+      />
+      <JsonLd data={{
+        '@type': 'WebSite',
+        name: 'BROBROGID',
+        url: 'https://brobrogid.ru',
+        description: 'Путеводитель по Владикавказу и Северной Осетии',
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: 'https://brobrogid.ru/search?q={search_term_string}',
+          'query-input': 'required name=search_term_string'
+        }
+      }} />
       {/* 1. Compact Header */}
       <ExploreHeader />
 

@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { SEO } from '@/shared/ui/SEO'
+import { JsonLd } from '@/shared/ui/JsonLd'
 import { useDataStore } from '@/data/stores/data-store'
 import { Rating } from '@/shared/ui/Rating'
 import { ImageWithFallback } from '@/shared/ui/ImageWithFallback'
@@ -52,6 +54,20 @@ export default function GuideDetailPage() {
 
   return (
     <div className="min-h-dvh bg-[var(--color-bg)]">
+      <SEO
+        title={`${guide.name[lang]} — Гид`}
+        description={guide.bio[lang].slice(0, 160)}
+        image={guide.photo}
+        url={`/tours/guide/${guide.id}`}
+      />
+      <JsonLd data={{
+        '@type': 'Person',
+        name: guide.name[lang],
+        description: guide.bio[lang],
+        image: guide.photo ? `https://brobrogid.ru${guide.photo}` : undefined,
+        jobTitle: 'Tour Guide',
+        knowsLanguage: guide.languages,
+      }} />
       <div className="sticky top-0 z-40 flex items-center px-4 h-14 bg-white/95 backdrop-blur-sm border-b border-[var(--color-border)]">
         <button onClick={() => navigate(-1)} className="w-10 h-10 flex items-center justify-center -ml-2">
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" /></svg>

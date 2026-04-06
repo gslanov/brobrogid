@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import { SEO } from '@/shared/ui/SEO'
 import { PageHeader } from '@/shared/ui/PageHeader'
 import { getDB } from '@/data/db'
 import type { EmergencyContact, EmergencyType } from '@/data/types'
@@ -34,6 +35,11 @@ export default function EmergencyPage() {
 
   return (
     <div className="min-h-dvh bg-[var(--color-bg)]">
+      <SEO
+        title="Экстренные службы — BROBROGID"
+        description="Телефоны экстренных служб Владикавказа: полиция, скорая, пожарная, больницы, аптеки."
+        url="/emergency"
+      />
       <PageHeader title={t('emergency.title')} showBack />
 
       <div className="grid grid-cols-4 gap-2 px-4 py-4">

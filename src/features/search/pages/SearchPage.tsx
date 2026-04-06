@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect, useCallback } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { SEO } from '@/shared/ui/SEO'
 import Fuse from 'fuse.js'
 import { useDataStore } from '@/data/stores/data-store'
 import { POICard } from '@/shared/ui/POICard'
@@ -136,6 +137,11 @@ export default function SearchPage() {
 
   return (
     <div className="min-h-dvh bg-[var(--color-bg)]">
+      <SEO
+        title="Поиск — BROBROGID"
+        description="Поиск мест, ресторанов, туров и гидов во Владикавказе."
+        url="/search"
+      />
       <div className="sticky top-0 z-40 bg-white border-b border-[var(--color-border)] px-4 pt-3 pb-2">
         <div className="flex items-center gap-2">
           <button onClick={() => navigate(-1)} className="w-10 h-10 flex items-center justify-center flex-shrink-0">

@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { SEO } from '@/shared/ui/SEO'
 import { useDataStore } from '@/data/stores/data-store'
 import { useOrderStore } from '@/data/stores/order-store'
 import { getDB } from '@/data/db'
@@ -267,6 +268,11 @@ export default function MenuPage() {
 
   return (
     <div className="min-h-dvh bg-[var(--color-bg)] pb-24">
+      <SEO
+        title={`Меню — ${poi.name[lang]}`}
+        description={`Меню ресторана ${poi.name[lang]} во Владикавказе`}
+        url={`/poi/${poi.id}/menu`}
+      />
       <div className="sticky top-0 z-40 bg-white border-b border-[var(--color-border)]">
         <div className="flex items-center gap-3 px-4 h-14">
           <button onClick={() => navigate(-1)} className="w-10 h-10 flex items-center justify-center -ml-2">

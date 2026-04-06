@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { SEO } from '@/shared/ui/SEO'
+import { JsonLd } from '@/shared/ui/JsonLd'
 import { useDataStore } from '@/data/stores/data-store'
 import { useToast } from '@/data/stores/toast-store'
 import { Rating } from '@/shared/ui/Rating'
@@ -150,6 +152,19 @@ export default function TourDetailPage() {
 
   return (
     <div className="pb-24">
+      <SEO
+        title={`${tour.name[lang]} — Тур`}
+        description={tour.description[lang].slice(0, 160)}
+        image={tour.photos[0]}
+        url={`/tours/${tour.id}`}
+      />
+      <JsonLd data={{
+        '@type': 'TouristTrip',
+        name: tour.name[lang],
+        description: tour.description[lang],
+        image: tour.photos[0] ? `https://brobrogid.ru${tour.photos[0]}` : undefined,
+        offers: { '@type': 'Offer', price: tour.price, priceCurrency: 'RUB' },
+      }} />
       <div className="sticky top-0 z-40 flex items-center px-4 h-14 bg-white/95 backdrop-blur-sm border-b border-[var(--color-border)]">
         <button onClick={() => navigate(-1)} className="w-10 h-10 flex items-center justify-center -ml-2">
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" /></svg>

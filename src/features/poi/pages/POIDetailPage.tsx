@@ -1,6 +1,8 @@
 import { useState, useMemo, useRef, useEffect, useCallback } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { SEO } from '@/shared/ui/SEO'
+import { JsonLd } from '@/shared/ui/JsonLd'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useDataStore } from '@/data/stores/data-store'
 import { useToast } from '@/data/stores/toast-store'
@@ -167,6 +169,32 @@ export default function POIDetailPage() {
 
   return (
     <div className="pb-40">
+      <SEO
+        title={`${poi.name[lang]} — BROBROGID`}
+        description={poi.description.short[lang]}
+        image={poi.photos[0]}
+        url={`/poi/${poi.id}`}
+        type="place"
+      />
+      <JsonLd data={poi.category === 'food' ? {
+        '@type': 'FoodEstablishment',
+        name: poi.name[lang],
+        description: poi.description.short[lang],
+        image: poi.photos[0] ? `https://brobrogid.ru${poi.photos[0]}` : undefined,
+        address: { '@type': 'PostalAddress', addressLocality: 'Владикавказ', streetAddress: poi.location.address[lang] },
+        geo: { '@type': 'GeoCoordinates', latitude: poi.location.lat, longitude: poi.location.lng },
+        aggregateRating: poi.reviewCount > 0 ? { '@type': 'AggregateRating', ratingValue: poi.rating, reviewCount: poi.reviewCount } : undefined,
+        telephone: poi.phone,
+        priceRange: poi.priceLevel ? '₽'.repeat(poi.priceLevel) : undefined,
+      } : {
+        '@type': 'TouristAttraction',
+        name: poi.name[lang],
+        description: poi.description.short[lang],
+        image: poi.photos[0] ? `https://brobrogid.ru${poi.photos[0]}` : undefined,
+        address: { '@type': 'PostalAddress', addressLocality: 'Владикавказ', streetAddress: poi.location.address[lang] },
+        geo: { '@type': 'GeoCoordinates', latitude: poi.location.lat, longitude: poi.location.lng },
+        aggregateRating: poi.reviewCount > 0 ? { '@type': 'AggregateRating', ratingValue: poi.rating, reviewCount: poi.reviewCount } : undefined,
+      }} />
       {/* Header */}
       <div className="sticky top-0 z-40 flex items-center justify-between px-4 h-14 bg-white/95 backdrop-blur-sm border-b border-[var(--color-border)]">
         <button onClick={() => navigate(-1)} className="w-10 h-10 flex items-center justify-center">

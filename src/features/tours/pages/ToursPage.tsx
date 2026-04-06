@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { SEO } from '@/shared/ui/SEO'
 import { useDataStore } from '@/data/stores/data-store'
 import { PageHeader } from '@/shared/ui/PageHeader'
 import { Rating } from '@/shared/ui/Rating'
@@ -26,6 +27,11 @@ export default function ToursPage() {
 
   return (
     <div className="min-h-dvh bg-[var(--color-bg)]">
+      <SEO
+        title="Туры по Осетии — BROBROGID"
+        description="Пешие, автомобильные и смешанные туры по Владикавказу и горам Северной Осетии."
+        url="/tours"
+      />
       <PageHeader title={t('tours.title')} showBack />
       <div className="flex gap-2 px-4 py-3 overflow-x-auto no-scrollbar">
         {STATUS_FILTER_KEYS.map((f) => (
