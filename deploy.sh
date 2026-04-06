@@ -9,8 +9,8 @@ SSH_KEY="/home/cosmo/.ssh/id_ed25519_selectel"
 REMOTE_DIR="/var/www/brobrogid"
 SSH="ssh -i $SSH_KEY root@$SERVER"
 
-echo "=== 1. Building project ==="
-npm run build
+echo "=== 1. Building project (with SEO prerender) ==="
+npm run build:seo
 
 echo ""
 echo "=== 2. Uploading to server ==="
