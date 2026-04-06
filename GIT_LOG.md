@@ -48,6 +48,24 @@
 - Status: ok
 - For next invocation: Repo is clean and pushed. Admin panel now has full i18n (RU/EN) and authentication. Branch: master. No pending changes.
 
+## 2026-04-06 (session 5 — content expansion + supabase infra)
+- Action: 9 logical commits + push to origin/master
+- Files: public/content/*.json (6 files), public/images/pois/ (252 images), public/robots.txt, index.html, src/shared/ui/SEO.tsx, src/features/admin/components/AdminTable.tsx, deploy.sh, package.json, package-lock.json, supabase/ (migrations x8, docker-compose.yml, seed/import.ts, backup.sh, nginx-api.conf)
+- Commits:
+  - `45763ba` "feat(content): expand content — 119 POIs, 20 tours, 499 reviews, 275 menu items, emergency and transport"
+  - `1f559c2` "feat(images): add 126 new POI images with WebP variants (252 files)"
+  - `0f5235a` "chore: close site from indexing during reconstruction"
+  - `7ad8771` "fix(admin): tighten AdminTable generic constraint to { id: string }"
+  - `185c9b1` "chore(deploy): switch deploy.sh to build:seo, update package deps"
+  - `b9f9912` "feat(supabase): add PostgreSQL migrations — full schema with RLS (0001-0008)"
+  - `f2d16c3` "feat(supabase): add Docker Compose stack — PostgreSQL 16, PostgREST 12, GoTrue 2"
+  - `ebbebde` "feat(supabase): add JSON→PostgreSQL import script and daily pg_dump backup"
+  - `85e32f3` "feat(supabase): add nginx reverse proxy config for api.brobrogid.ru"
+- Security: supabase/.env NOT committed — covered by .env pattern in .gitignore
+- Remote: pushed to https://github.com/gslanov/brobrogid.git — ok
+- Status: ok
+- For next invocation: Repo is clean and pushed. Supabase infrastructure fully committed (no secrets). Site is closed from indexing (SITE_UNDER_CONSTRUCTION=true). Branch: master.
+
 ## 2026-04-06 (session 4 — SEO + WebP)
 - Action: 7 logical commits + push to origin/master
 - Files: SEO.tsx, JsonLd.tsx, main.tsx, index.html, all public pages (10 files), scripts/ (3 files), 62 WebP images (pois+tours), ImageWithFallback.tsx, robots.txt, vite.config.ts, package.json, package-lock.json, info/ (148 files)
