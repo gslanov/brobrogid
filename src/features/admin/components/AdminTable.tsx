@@ -27,7 +27,7 @@ const PAGE_SIZE = 25
 
 type SortDir = 'asc' | 'desc' | null
 
-export default function AdminTable<T extends Record<string, unknown>>({
+export default function AdminTable<T extends { id: string }>({
   columns,
   data,
   onEdit,
@@ -63,8 +63,8 @@ export default function AdminTable<T extends Record<string, unknown>>({
   const sorted = useMemo(() => {
     if (!sortKey || !sortDir) return filtered
     return [...filtered].sort((a, b) => {
-      const av = a[sortKey]
-      const bv = b[sortKey]
+      const av = (a as Record<string, unknown>)[sortKey]
+      const bv = (b as Record<string, unknown>)[sortKey]
       const cmp =
         typeof av === 'number' && typeof bv === 'number'
           ? av - bv
@@ -160,7 +160,7 @@ export default function AdminTable<T extends Record<string, unknown>>({
                     <td key={col.key} className="px-4 py-3 text-gray-800">
                       {col.render
                         ? col.render(item)
-                        : String(item[col.key] ?? '')}
+                        : String((item as Record<string, unknown>)[col.key] ?? '')}
                     </td>
                   ))}
                   {showActions && (
