@@ -47,3 +47,18 @@
 - Remote: pushed to https://github.com/gslanov/brobrogid.git — ok
 - Status: ok
 - For next invocation: Repo is clean and pushed. Admin panel now has full i18n (RU/EN) and authentication. Branch: master. No pending changes.
+
+## 2026-04-06 (session 4 — SEO + WebP)
+- Action: 7 logical commits + push to origin/master
+- Files: SEO.tsx, JsonLd.tsx, main.tsx, index.html, all public pages (10 files), scripts/ (3 files), 62 WebP images (pois+tours), ImageWithFallback.tsx, robots.txt, vite.config.ts, package.json, package-lock.json, info/ (148 files)
+- Commits:
+  - `6259bd6` "feat: add SEO components (SEO.tsx, JsonLd.tsx, HelmetProvider)"
+  - `6776a3c` "feat: add per-page SEO and structured data to all public pages"
+  - `e5f2db6` "feat: add prerender script, sitemap generator, image optimizer"
+  - `c390aca` "feat: convert images to WebP, update ImageWithFallback with <picture>"
+  - `a19d78b` "chore: add robots.txt, update vite.config (SW navigateFallback null)"
+  - `2210f21` "chore: update package.json with build:seo scripts and dependencies"
+  - `c2523c7` "chore: add info/ — research data, scripts, and reference images"
+- Remote: pushed to https://github.com/gslanov/brobrogid.git — ok
+- Status: ok
+- For next invocation: Repo is clean and pushed. SEO layer complete — prerender (141 pages), react-helmet-async, JSON-LD, OG/Twitter Cards, hreflang, robots.txt, sitemap autogen, 62 WebP images, SW navigateFallback null. Branch: master.
