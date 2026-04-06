@@ -39,18 +39,28 @@ export function ImageWithFallback({
           </span>
         </div>
       ) : (
-        <img
-          src={src}
-          alt={alt}
-          onLoad={onLoad}
-          onError={onError}
-          loading="lazy"
-          className={cn(
-            'w-full h-full object-cover transition-opacity',
-            state === 'loaded' ? 'opacity-100 duration-200' : 'opacity-0',
-            imgClassName,
-          )}
-        />
+        (() => {
+          const webpSrc = src?.replace(/\.(jpg|jpeg|png)$/i, '.webp')
+          return (
+            <picture>
+              {webpSrc && webpSrc !== src && (
+                <source srcSet={webpSrc} type="image/webp" />
+              )}
+              <img
+                src={src}
+                alt={alt}
+                onLoad={onLoad}
+                onError={onError}
+                loading="lazy"
+                className={cn(
+                  'w-full h-full object-cover transition-opacity',
+                  state === 'loaded' ? 'opacity-100 duration-200' : 'opacity-0',
+                  imgClassName,
+                )}
+              />
+            </picture>
+          )
+        })()
       )}
     </div>
   )
