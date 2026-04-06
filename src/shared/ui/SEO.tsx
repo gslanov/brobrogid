@@ -12,6 +12,10 @@ interface SEOProps {
   noindex?: boolean
 }
 
+// TEMPORARY: all pages are set to noindex during site reconstruction.
+// When migration to DB + semantic URLs + landing pages completes, remove this flag.
+const SITE_UNDER_CONSTRUCTION = true
+
 export function SEO({ title, description, image, url, type = 'website', noindex }: SEOProps) {
   const { i18n } = useTranslation()
   const lang = i18n.language
@@ -47,7 +51,7 @@ export function SEO({ title, description, image, url, type = 'website', noindex 
       {fullUrl && <link rel="alternate" hrefLang="x-default" href={fullUrl} />}
 
       {/* Noindex */}
-      {noindex && <meta name="robots" content="noindex, nofollow" />}
+      {(noindex || SITE_UNDER_CONSTRUCTION) && <meta name="robots" content="noindex, nofollow" />}
     </Helmet>
   )
 }
