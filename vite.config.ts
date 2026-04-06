@@ -25,6 +25,7 @@ export default defineConfig({
         ],
       },
       workbox: {
+        navigateFallback: null,  // CRITICAL: не перехватывать навигации, дать nginx отдать prerendered HTML
         runtimeCaching: [
           {
             urlPattern: /\.(?:png|jpg|jpeg|webp|svg)$/,

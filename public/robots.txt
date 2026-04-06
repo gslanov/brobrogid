@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+Disallow: /cart
+Disallow: /profile
+Disallow: /onboarding
+
+Sitemap: https://brobrogid.ru/sitemap.xml
