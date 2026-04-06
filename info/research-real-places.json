@@ -1,0 +1,1300 @@
+{
+  "_meta": {
+    "description": "Real verified data for Vladikavkaz & North Ossetia places — restaurants, hotels, shopping, nightlife",
+    "researchDate": "2026-04-06",
+    "sources": [
+      "2gis.ru", "zoon.ru", "yandex.ru/maps", "tripadvisor.com",
+      "allcafe.ru", "e-osetia.ru", "spravker.ru", "official websites"
+    ]
+  },
+
+  "restaurants": [
+    {
+      "id": "real-rest-001",
+      "slug": "kona-restaurant",
+      "name": { "ru": "Къона", "en": "Kona" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "european_russian",
+      "location": {
+        "lat": 43.0190,
+        "lng": 44.6530,
+        "address": { "ru": "просп. Коста, 258, Владикавказ", "en": "258 Kosta Ave, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 95-88-08",
+      "hours": {
+        "mon": "11:00-23:00", "tue": "11:00-23:00", "wed": "11:00-23:00",
+        "thu": "11:00-23:00", "fri": "11:00-23:00", "sat": "11:00-23:00", "sun": "11:00-23:00"
+      },
+      "priceLevel": 2,
+      "website": null,
+      "instagram": "@kona_ir",
+      "tags": ["европейская кухня", "русская кухня", "доставка", "european", "russian"],
+      "hasDelivery": true
+    },
+    {
+      "id": "real-rest-002",
+      "slug": "fyddjynta-cafe",
+      "name": { "ru": "Фыдджынта", "en": "Fyddjynta" },
+      "category": "food",
+      "subcategory": "cafe",
+      "cuisineType": "national",
+      "location": {
+        "lat": 43.0280,
+        "lng": 44.6690,
+        "address": { "ru": "просп. Коста, 178, Владикавказ", "en": "178 Kosta Ave, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 94-55-53",
+      "hours": {
+        "mon": "09:00-21:00", "tue": "09:00-21:00", "wed": "09:00-21:00",
+        "thu": "09:00-21:00", "fri": "09:00-21:00", "sat": "09:00-21:00", "sun": "09:00-21:00"
+      },
+      "priceLevel": 1,
+      "averageCheck": 500,
+      "website": null,
+      "tags": ["осетинские пироги", "фыджын", "национальная кухня", "ossetian pies"],
+      "hasDelivery": false
+    },
+    {
+      "id": "real-rest-003",
+      "slug": "man-gal-restaurant",
+      "name": { "ru": "Man&Гал", "en": "Man&Gal" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "meat_grill",
+      "location": {
+        "lat": 43.0355,
+        "lng": 44.6725,
+        "address": { "ru": "ул. Ватутина, 50, Владикавказ", "en": "50 Vatutina St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 40-34-24",
+      "hours": {
+        "mon": "12:00-23:00", "tue": "12:00-23:00", "wed": "12:00-23:00",
+        "thu": "12:00-23:00", "fri": "12:00-23:00", "sat": "12:00-23:00", "sun": "12:00-23:00"
+      },
+      "priceLevel": 3,
+      "website": null,
+      "tags": ["мясной ресторан", "гриль", "деловые встречи", "meat", "grill"],
+      "hasDelivery": false
+    },
+    {
+      "id": "real-rest-004",
+      "slug": "stary-most-restaurant",
+      "name": { "ru": "Старый мостъ", "en": "Stary Most" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "russian_caucasian",
+      "location": {
+        "lat": 43.0370,
+        "lng": 44.6810,
+        "address": { "ru": "ул. Пашковского, 2/1, Владикавказ", "en": "2/1 Pashkovskogo St, Vladikavkaz" }
+      },
+      "phone": "+7 (918) 821-62-63",
+      "hours": {
+        "mon": "12:00-00:00", "tue": "12:00-00:00", "wed": "12:00-00:00",
+        "thu": "12:00-00:00", "fri": "12:00-00:00", "sat": "12:00-00:00", "sun": "12:00-00:00"
+      },
+      "priceLevel": 2,
+      "averageCheck": 900,
+      "website": null,
+      "tags": ["трактир", "русская кухня", "панорамный вид", "банкеты", "russian", "panoramic view"],
+      "hasDelivery": true
+    },
+    {
+      "id": "real-rest-005",
+      "slug": "modern-chef-restaurant",
+      "name": { "ru": "Модерн Шеф", "en": "Modern Chef" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "european_caucasian",
+      "location": {
+        "lat": 43.0385,
+        "lng": 44.6795,
+        "address": { "ru": "ул. Гаппо Баева, 1, Владикавказ", "en": "1 Gappo Baeva St, Vladikavkaz" }
+      },
+      "phone": "+7 (938) 886-66-33",
+      "hours": {
+        "mon": "11:00-23:00", "tue": "11:00-23:00", "wed": "11:00-23:00",
+        "thu": "11:00-23:00", "fri": "11:00-23:00", "sat": "11:00-23:00", "sun": "11:00-23:00"
+      },
+      "priceLevel": 3,
+      "averageCheck": 1500,
+      "website": "modern-chef.ru",
+      "tags": ["авторская кухня", "гастрономия", "европейская кухня", "кавказская кухня", "gastronomy"],
+      "hasDelivery": false
+    },
+    {
+      "id": "real-rest-006",
+      "slug": "cuprum-restaurant",
+      "name": { "ru": "Купрум", "en": "Cuprum" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "caucasian_european",
+      "location": {
+        "lat": 43.0340,
+        "lng": 44.6805,
+        "address": { "ru": "ул. Коцоева, 75, Владикавказ", "en": "75 Kotsoeva St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 64-92-92",
+      "hours": {
+        "mon": "07:30-00:00", "tue": "07:30-00:00", "wed": "07:30-00:00",
+        "thu": "07:30-00:00", "fri": "07:30-00:00", "sat": "07:30-00:00", "sun": "07:30-00:00"
+      },
+      "priceLevel": 3,
+      "website": "cuprum-restaurant.ru",
+      "tags": ["набережная Терека", "кавказская кухня", "европейская кухня", "осетинские пироги", "при гостинице"],
+      "hasDelivery": false,
+      "note": "Расположен в здании гостиницы «Владикавказ» на набережной Терека"
+    },
+    {
+      "id": "real-rest-007",
+      "slug": "koyroi-restaurant",
+      "name": { "ru": "Куырой", "en": "Koyroi" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "author_caucasian",
+      "location": {
+        "lat": 43.0358,
+        "lng": 44.6798,
+        "address": { "ru": "ул. Коцоева, 26, Владикавказ", "en": "26 Kotsoeva St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 70-03-00",
+      "hours": {
+        "mon": "12:00-02:00", "tue": "12:00-02:00", "wed": "12:00-02:00",
+        "thu": "12:00-02:00", "fri": "12:00-02:00", "sat": "12:00-02:00", "sun": "12:00-02:00"
+      },
+      "priceLevel": 3,
+      "website": "koyroi.com",
+      "tags": ["живая музыка", "авторская кухня", "караоке", "историческая мельница", "live music", "karaoke"],
+      "hasDelivery": false,
+      "note": "В здании исторической мельницы. Летняя веранда, танцпол, караоке."
+    },
+    {
+      "id": "real-rest-008",
+      "slug": "dendrarium-restaurant",
+      "name": { "ru": "Дендрариум", "en": "Dendrarium" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "european_asian_caucasian",
+      "location": {
+        "lat": 43.0450,
+        "lng": 44.6610,
+        "address": { "ru": "Московское шоссе, 14, Владикавказ", "en": "14 Moskovskoye Hwy, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 33-33-90",
+      "hours": {
+        "mon": "07:00-23:00", "tue": "07:00-23:00", "wed": "07:00-23:00",
+        "thu": "07:00-23:00", "fri": "07:00-23:00", "sat": "07:00-23:00", "sun": "07:00-23:00"
+      },
+      "priceLevel": 3,
+      "website": "mercadagroup.ru/restaurants/dendrarium/",
+      "instagram": "@dendrarium_vld",
+      "tags": ["европейская кухня", "кавказская кухня", "японская кухня", "банкеты", "european", "asian"],
+      "hasDelivery": false
+    },
+    {
+      "id": "real-rest-009",
+      "slug": "lookoom-chaikhana",
+      "name": { "ru": "Lookoom Чайхана", "en": "Lookoom Chaikhana" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "uzbek_eastern",
+      "location": {
+        "lat": 43.0380,
+        "lng": 44.6780,
+        "address": { "ru": "просп. Мира, 35, Владикавказ", "en": "35 Mira Ave, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 40-57-52",
+      "hours": {
+        "mon": "11:00-23:00", "tue": "11:00-23:00", "wed": "11:00-23:00",
+        "thu": "11:00-23:00", "fri": "11:00-23:00", "sat": "11:00-23:00", "sun": "11:00-23:00"
+      },
+      "priceLevel": 2,
+      "website": null,
+      "tags": ["узбекская кухня", "восточная кухня", "чайхана", "плов", "uzbek", "eastern"],
+      "hasDelivery": false,
+      "note": "Первый ресторан узбекской кухни во Владикавказе"
+    },
+    {
+      "id": "real-rest-010",
+      "slug": "berdinberg-restaurant",
+      "name": { "ru": "Бердинберг", "en": "Berdinberg" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "beer_european",
+      "location": {
+        "lat": 43.0378,
+        "lng": 44.6770,
+        "address": { "ru": "просп. Мира, 19, Владикавказ", "en": "19 Mira Ave, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 54-06-54",
+      "hours": {
+        "mon": "12:00-23:00", "tue": "12:00-23:00", "wed": "12:00-23:00",
+        "thu": "12:00-23:00", "fri": "12:00-23:00", "sat": "12:00-23:00", "sun": "12:00-23:00"
+      },
+      "priceLevel": 2,
+      "averageCheck": 1200,
+      "website": "berdinberg-restaurant.ru",
+      "tags": ["пивной ресторан", "спорт-трансляции", "банкеты", "beer", "sports bar"],
+      "hasDelivery": false
+    },
+    {
+      "id": "real-rest-011",
+      "slug": "zhar-ptitsa-restaurant",
+      "name": { "ru": "Жар-птица", "en": "Zhar-Ptitsa" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "european_russian_caucasian",
+      "location": {
+        "lat": 43.0295,
+        "lng": 44.6685,
+        "address": { "ru": "ул. Кесаева, 154, Владикавказ", "en": "154 Kesaeva St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 51-38-38",
+      "phoneAlt": "+7 (8672) 50-60-70",
+      "hours": {
+        "mon": "09:00-01:00", "tue": "09:00-01:00", "wed": "09:00-01:00",
+        "thu": "09:00-01:00", "fri": "09:00-01:00", "sat": "09:00-01:00", "sun": "09:00-01:00"
+      },
+      "priceLevel": 2,
+      "website": "bavaria-group.ru",
+      "tags": ["европейская кухня", "русская кухня", "летняя веранда", "пиццерия", "european", "terrace"],
+      "hasDelivery": true
+    },
+    {
+      "id": "real-rest-012",
+      "slug": "osetinskaya-pivovarnya",
+      "name": { "ru": "Осетинская пивоварня", "en": "Ossetian Brewery" },
+      "category": "food",
+      "subcategory": "gastropub",
+      "cuisineType": "beer_caucasian",
+      "location": {
+        "lat": 43.0320,
+        "lng": 44.6850,
+        "address": { "ru": "Весенняя ул., 1а, Владикавказ", "en": "1a Vesennyaya St, Vladikavkaz" }
+      },
+      "phone": "+7 (928) 861-00-86",
+      "hours": {
+        "mon": "12:00-23:00", "tue": "12:00-23:00", "wed": "12:00-23:00",
+        "thu": "12:00-23:00", "fri": "12:00-23:00", "sat": "12:00-23:00", "sun": "12:00-23:00"
+      },
+      "priceLevel": 2,
+      "website": null,
+      "tags": ["крафтовое пиво", "гастропаб", "собственная пивоварня", "спорт-трансляции", "craft beer", "brewery"],
+      "hasDelivery": false
+    },
+    {
+      "id": "real-rest-013",
+      "slug": "limonchello-restaurant",
+      "name": { "ru": "Лимончелло", "en": "Limoncello" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "japanese_pizza",
+      "location": {
+        "lat": 43.0375,
+        "lng": 44.6765,
+        "address": { "ru": "просп. Мира, 45-47, Владикавказ", "en": "45-47 Mira Ave, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 40-36-60",
+      "hours": {
+        "mon": "11:00-23:00", "tue": "11:00-23:00", "wed": "11:00-23:00",
+        "thu": "11:00-23:00", "fri": "11:00-23:00", "sat": "11:00-23:00", "sun": "11:00-23:00"
+      },
+      "priceLevel": 1,
+      "website": null,
+      "tags": ["японская кухня", "пицца", "суши", "доставка", "japanese", "pizza", "sushi", "delivery"],
+      "hasDelivery": true,
+      "branches": [
+        { "name": "Лимончелло гриль", "address": "ул. Гриса Плиева, 11" }
+      ]
+    },
+    {
+      "id": "real-rest-014",
+      "slug": "papa-zhora-restaurant",
+      "name": { "ru": "Папа Жора", "en": "Papa Zhora" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "caucasian_meat",
+      "location": {
+        "lat": 43.0400,
+        "lng": 44.6630,
+        "address": { "ru": "просп. Доватора, 4, Владикавказ", "en": "4 Dovatora Ave, Vladikavkaz" }
+      },
+      "phone": "+7 (918) 828-24-34",
+      "phoneAlt": "+7 (8672) 98-24-34",
+      "hours": {
+        "mon": "12:00-00:00", "tue": "12:00-00:00", "wed": "12:00-00:00",
+        "thu": "12:00-00:00", "fri": "12:00-00:00", "sat": "12:00-00:00", "sun": "12:00-00:00"
+      },
+      "priceLevel": 2,
+      "website": "papa-zhora.clients.site",
+      "tags": ["кавказская кухня", "шашлык", "осетинские пироги", "мясо", "caucasian", "meat"],
+      "hasDelivery": false,
+      "branches": [
+        { "name": "Папа Жора (кафе)", "address": "ул. Барбашова, 55", "phone": "+7 (8672) 96-53-53" }
+      ]
+    },
+    {
+      "id": "real-rest-015",
+      "slug": "minas-restaurant",
+      "name": { "ru": "Минас", "en": "Minas" },
+      "category": "food",
+      "subcategory": "cafe",
+      "cuisineType": "georgian_caucasian",
+      "location": {
+        "lat": 43.0310,
+        "lng": 44.6700,
+        "address": { "ru": "ул. Барбашова, 76, Владикавказ", "en": "76 Barbashova St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 52-17-27",
+      "phoneAlt": "+7 (8672) 33-33-27",
+      "hours": {
+        "mon": "11:00-23:00", "tue": "11:00-23:00", "wed": "11:00-23:00",
+        "thu": "11:00-23:00", "fri": "11:00-23:00", "sat": "11:00-23:00", "sun": "11:00-23:00"
+      },
+      "priceLevel": 2,
+      "website": null,
+      "tags": ["грузинская кухня", "кавказская кухня", "бизнес-ланч", "летняя веранда", "georgian"],
+      "hasDelivery": true
+    },
+    {
+      "id": "real-rest-016",
+      "slug": "bavaria-restaurant",
+      "name": { "ru": "Бавария", "en": "Bavaria" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "european_beer",
+      "location": {
+        "lat": 43.0335,
+        "lng": 44.6750,
+        "address": { "ru": "ул. Цаликова, 25, Владикавказ", "en": "25 Tsalikova St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 76-78-26",
+      "hours": {
+        "mon": "10:00-00:00", "tue": "10:00-00:00", "wed": "10:00-00:00",
+        "thu": "10:00-00:00", "fri": "10:00-00:00", "sat": "10:00-00:00", "sun": "10:00-00:00"
+      },
+      "priceLevel": 2,
+      "website": "bavaria-group.ru",
+      "tags": ["европейская кухня", "пиво", "доставка", "european", "beer", "delivery"],
+      "hasDelivery": true
+    },
+    {
+      "id": "real-rest-017",
+      "slug": "notre-ville-bar",
+      "name": { "ru": "Нотр Виль", "en": "Notre Ville" },
+      "category": "food",
+      "subcategory": "bar",
+      "cuisineType": "european",
+      "location": {
+        "lat": 43.0365,
+        "lng": 44.6830,
+        "address": { "ru": "ул. Гибизова, 3, Владикавказ", "en": "3 Gibizova St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 91-55-13",
+      "hours": {
+        "mon": "10:00-00:00", "tue": "10:00-00:00", "wed": "10:00-00:00",
+        "thu": "10:00-00:00", "fri": "10:00-00:00", "sat": "10:00-00:00", "sun": "10:00-00:00"
+      },
+      "priceLevel": 2,
+      "averageCheck": 700,
+      "website": null,
+      "tags": ["бар", "живая музыка", "европейская кухня", "bar", "live music"],
+      "hasDelivery": false
+    },
+    {
+      "id": "real-rest-018",
+      "slug": "zhemchuzhina-restaurant",
+      "name": { "ru": "Жемчужина", "en": "Zhemchuzhina" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "caucasian_european_georgian",
+      "location": {
+        "lat": 43.0345,
+        "lng": 44.6720,
+        "address": { "ru": "просп. Коста, 11А, Владикавказ", "en": "11A Kosta Ave, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 25-94-34",
+      "phoneAlt": "+7 (8672) 40-37-34",
+      "hours": {
+        "mon": "09:00-23:00", "tue": "09:00-23:00", "wed": "09:00-23:00",
+        "thu": "09:00-23:00", "fri": "09:00-23:00", "sat": "09:00-23:00", "sun": "09:00-23:00"
+      },
+      "priceLevel": 2,
+      "website": "xn----7sbbrcfbq8aggdycnqz5e.xn--p1ai",
+      "tags": ["грузинская кухня", "осетинская кухня", "европейская кухня", "банкеты", "доставка"],
+      "hasDelivery": true
+    },
+    {
+      "id": "real-rest-019",
+      "slug": "tri-piroga-bakery",
+      "name": { "ru": "Три пирога", "en": "Tri Piroga" },
+      "category": "food",
+      "subcategory": "bakery",
+      "cuisineType": "national_bakery",
+      "location": {
+        "lat": 43.0310,
+        "lng": 44.6620,
+        "address": { "ru": "ул. Маркуса, 43, Владикавказ", "en": "43 Markusa St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 50-08-45",
+      "phoneAlt": "+7 (8672) 70-08-45",
+      "hours": {
+        "mon": "08:00-20:00", "tue": "08:00-20:00", "wed": "08:00-20:00",
+        "thu": "08:00-20:00", "fri": "08:00-20:00", "sat": "08:00-20:00", "sun": "08:00-20:00"
+      },
+      "priceLevel": 1,
+      "website": "tripiroga-osetia.ru",
+      "tags": ["осетинские пироги", "пекарня", "выпечка", "кондитерская", "ossetian pies", "bakery"],
+      "hasDelivery": true,
+      "branches": [
+        { "name": "Три пирога", "address": "ул. Леонова, 6А", "phone": "+7 (8672) 40-40-04" }
+      ]
+    },
+    {
+      "id": "real-rest-020",
+      "slug": "shaurmania-fastfood",
+      "name": { "ru": "Шаурмания", "en": "Shaurmania" },
+      "category": "food",
+      "subcategory": "fastfood",
+      "cuisineType": "fastfood",
+      "location": {
+        "lat": 43.0360,
+        "lng": 44.6840,
+        "address": { "ru": "Владикавказская ул., 25б, Владикавказ", "en": "25b Vladikavkazskaya St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 99-99-76",
+      "hours": {
+        "mon": "00:00-23:59", "tue": "00:00-23:59", "wed": "00:00-23:59",
+        "thu": "00:00-23:59", "fri": "00:00-23:59", "sat": "00:00-23:59", "sun": "00:00-23:59"
+      },
+      "priceLevel": 1,
+      "website": "shaurmania15.ru",
+      "tags": ["шаурма", "фастфуд", "бургеры", "доставка", "круглосуточно", "shawarma", "fast food", "24h"],
+      "isChain": true,
+      "hasDelivery": true,
+      "branches": [
+        { "address": "ул. Барбашова, 46А", "phone": "+7 (918) 827-01-07" },
+        { "address": "пгт. Заводской, Кооперативная ул., 17А", "phone": "+7 (918) 828-78-88" },
+        { "address": "ул. Леонова, 3/1", "phone": "+7 (8672) 94-41-43" }
+      ]
+    },
+    {
+      "id": "real-rest-021",
+      "slug": "midov-coffee",
+      "name": { "ru": "Midov Coffee", "en": "Midov Coffee" },
+      "category": "food",
+      "subcategory": "coffeeshop",
+      "cuisineType": "coffee_desserts",
+      "location": {
+        "lat": 43.0388,
+        "lng": 44.6790,
+        "address": { "ru": "ул. Гаппо Баева, 29, Владикавказ", "en": "29 Gappo Baeva St, Vladikavkaz" }
+      },
+      "phone": "+7 (918) 827-88-00",
+      "hours": {
+        "mon": "09:00-22:00", "tue": "09:00-22:00", "wed": "09:00-22:00",
+        "thu": "09:00-22:00", "fri": "09:00-22:00", "sat": "10:00-22:00", "sun": "10:00-22:00"
+      },
+      "priceLevel": 1,
+      "website": null,
+      "tags": ["кофейня", "десерты", "кофе", "coffee", "specialty coffee"],
+      "isChain": true,
+      "hasDelivery": false,
+      "branches": [
+        { "address": "просп. Мира, 12А" },
+        { "address": "ул. Революции, 68" }
+      ]
+    },
+    {
+      "id": "real-rest-022",
+      "slug": "coffenberg-coffee",
+      "name": { "ru": "Коффенберг", "en": "Coffenberg" },
+      "category": "food",
+      "subcategory": "coffeeshop",
+      "cuisineType": "coffee",
+      "location": {
+        "lat": 43.0330,
+        "lng": 44.6720,
+        "address": { "ru": "ул. Тхапсаева, Владикавказ", "en": "Tkhapsaeva St, Vladikavkaz" }
+      },
+      "phone": "+7 (988) 822-20-20",
+      "hours": {
+        "mon": "09:00-22:00", "tue": "09:00-22:00", "wed": "09:00-22:00",
+        "thu": "09:00-22:00", "fri": "09:00-22:00", "sat": "09:00-22:00", "sun": "09:00-22:00"
+      },
+      "priceLevel": 1,
+      "website": null,
+      "tags": ["кофейня", "кофе на вынос", "кофемат", "coffee to go"],
+      "isChain": true,
+      "hasDelivery": false,
+      "branches": [
+        { "address": "ул. Кесаева, 135а" },
+        { "address": "Московское шоссе, 3К" },
+        { "address": "ул. Генерала Плиева, 5" }
+      ]
+    },
+    {
+      "id": "real-rest-023",
+      "slug": "gorka-cafe",
+      "name": { "ru": "Горка", "en": "Gorka" },
+      "category": "food",
+      "subcategory": "coffeeshop",
+      "cuisineType": "coffee_desserts",
+      "location": {
+        "lat": 43.0355,
+        "lng": 44.6760,
+        "address": { "ru": "ПКиО им. К.Л. Хетагурова, Владикавказ", "en": "Khetagurov Park, Vladikavkaz" }
+      },
+      "phone": null,
+      "hours": {
+        "mon": "09:00-22:00", "tue": "09:00-22:00", "wed": "09:00-22:00",
+        "thu": "09:00-22:00", "fri": "09:00-22:00", "sat": "09:00-22:00", "sun": "09:00-22:00"
+      },
+      "priceLevel": 1,
+      "website": null,
+      "tags": ["кофейня", "парк", "панорамный вид", "coffee", "park view"],
+      "hasDelivery": false
+    },
+    {
+      "id": "real-rest-024",
+      "slug": "jazz-code-bar",
+      "name": { "ru": "Джаз Код", "en": "Jazz Code" },
+      "category": "food",
+      "subcategory": "bar",
+      "cuisineType": "european",
+      "location": {
+        "lat": 43.0355,
+        "lng": 44.6730,
+        "address": { "ru": "ул. Бутырина, 33, Владикавказ", "en": "33 Butyrina St, Vladikavkaz" }
+      },
+      "phone": "+7 (938) 864-34-05",
+      "hours": {
+        "mon": "12:00-00:00", "tue": "12:00-00:00", "wed": "12:00-00:00",
+        "thu": "12:00-00:00", "fri": "12:00-00:00", "sat": "12:00-00:00", "sun": "12:00-00:00"
+      },
+      "priceLevel": 3,
+      "website": "jazz-code.ru",
+      "tags": ["джаз", "живая музыка", "бар", "премиум", "jazz", "live music", "premium"],
+      "hasDelivery": false,
+      "note": "Ресторан при гостинице «Планета Люкс»"
+    },
+    {
+      "id": "real-rest-025",
+      "slug": "vertel-grill",
+      "name": { "ru": "Вертел", "en": "Vertel" },
+      "category": "food",
+      "subcategory": "fastfood",
+      "cuisineType": "grill_fastfood",
+      "location": {
+        "lat": 43.0385,
+        "lng": 44.6820,
+        "address": { "ru": "ул. Хаджи Мамсурова, 42, Владикавказ", "en": "42 Khadzhi Mamsurova St, Vladikavkaz" }
+      },
+      "phone": "+7 (961) 822-88-77",
+      "hours": {
+        "mon": "10:00-02:00", "tue": "10:00-02:00", "wed": "10:00-02:00",
+        "thu": "10:00-02:00", "fri": "10:00-02:00", "sat": "10:00-02:00", "sun": "12:00-02:00"
+      },
+      "priceLevel": 1,
+      "website": "vertel-vld.ru",
+      "tags": ["гриль", "фастфуд", "курица на углях", "доставка", "grill", "chicken"],
+      "hasDelivery": true
+    },
+    {
+      "id": "real-rest-026",
+      "slug": "pravy-bereg-cafe",
+      "name": { "ru": "Правый берег", "en": "Pravy Bereg" },
+      "category": "food",
+      "subcategory": "cafe",
+      "cuisineType": "caucasian_national",
+      "location": {
+        "lat": 42.8400,
+        "lng": 44.4500,
+        "address": { "ru": "Фиагдонское ущелье, Северная Осетия", "en": "Fiagdon Gorge, North Ossetia" }
+      },
+      "phone": "+7 (918) 705-82-60",
+      "hours": {
+        "mon": "10:00-22:00", "tue": "10:00-22:00", "wed": "10:00-22:00",
+        "thu": "10:00-22:00", "fri": "10:00-22:00", "sat": "10:00-22:00", "sun": "10:00-22:00"
+      },
+      "priceLevel": 2,
+      "website": null,
+      "instagram": "@kafe_praviy_bereg",
+      "tags": ["горное кафе", "река", "природа", "кавказская кухня", "mountain cafe", "nature"],
+      "hasDelivery": false,
+      "note": "Кафе на реке Фиагдон в горах. Живописная локация."
+    },
+    {
+      "id": "real-rest-027",
+      "slug": "panorama-restaurant",
+      "name": { "ru": "Панорама", "en": "Panorama" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "caucasian",
+      "location": {
+        "lat": 43.0450,
+        "lng": 44.6640,
+        "address": { "ru": "Московская ул., 1/2, Владикавказ", "en": "1/2 Moskovskaya St, Vladikavkaz" }
+      },
+      "phone": "+7 (928) 931-59-77",
+      "hours": {
+        "mon": "10:00-22:00", "tue": "10:00-22:00", "wed": "10:00-22:00",
+        "thu": "10:00-22:00", "fri": "10:00-22:00", "sat": "10:00-22:00", "sun": "10:00-22:00"
+      },
+      "priceLevel": 2,
+      "website": null,
+      "tags": ["доставка", "кавказская кухня", "caucasian", "delivery"],
+      "hasDelivery": true
+    },
+    {
+      "id": "real-rest-028",
+      "slug": "compton-restaurant",
+      "name": { "ru": "Комптон", "en": "Compton" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "american",
+      "location": {
+        "lat": 43.0368,
+        "lng": 44.6835,
+        "address": { "ru": "ул. Гибизова, 7, Владикавказ", "en": "7 Gibizova St, Vladikavkaz" }
+      },
+      "phone": "+7 (989) 135-77-00",
+      "hours": {
+        "mon": "10:00-23:00", "tue": "10:00-23:00", "wed": "10:00-23:00",
+        "thu": "10:00-23:00", "fri": "10:00-23:00", "sat": "10:00-23:00", "sun": "10:00-23:00"
+      },
+      "priceLevel": 2,
+      "website": null,
+      "tags": ["американская кухня", "бургеры", "american", "burgers"],
+      "hasDelivery": false
+    },
+    {
+      "id": "real-rest-029",
+      "slug": "360-restaurant",
+      "name": { "ru": "360 Ресторан", "en": "360 Restaurant" },
+      "category": "food",
+      "subcategory": "restaurant",
+      "cuisineType": "european_author",
+      "location": {
+        "lat": 43.0342,
+        "lng": 44.6808,
+        "address": { "ru": "ул. Коцоева, 73А, Владикавказ (при Парк-Отеле)", "en": "73A Kotsoeva St, Vladikavkaz (Park Hotel)" }
+      },
+      "phone": "+7 (918) 835-03-60",
+      "hours": {
+        "sun": "13:00-01:00", "mon": "13:00-01:00", "tue": "13:00-01:00",
+        "wed": "13:00-01:00", "thu": "13:00-01:00", "fri": "15:00-03:00", "sat": "15:00-03:00"
+      },
+      "priceLevel": 4,
+      "website": "360restaurant.ru",
+      "tags": ["панорамный вид", "караоке", "терраса", "авторская кухня", "Hilton", "premium", "panorama"],
+      "hasDelivery": false,
+      "note": "Ресторан-Терраса-Караоке при DoubleTree by Hilton с панорамным видом на горы"
+    }
+  ],
+
+  "hotels": [
+    {
+      "id": "real-hotel-001",
+      "slug": "park-hotel-vladikavkaz",
+      "name": { "ru": "Парк Отель Владикавказ", "en": "Park Hotel Vladikavkaz" },
+      "category": "accommodation",
+      "subcategory": "hotel",
+      "stars": 5,
+      "location": {
+        "lat": 43.0342,
+        "lng": 44.6808,
+        "address": { "ru": "ул. Коцоева, 73А, Владикавказ", "en": "73A Kotsoeva St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 77-20-50",
+      "email": "reservation@intourist-o.ru",
+      "website": "parkhotel-vladikavkaz.ru",
+      "priceRange": { "from": 14500, "currency": "RUB" },
+      "rooms": null,
+      "rating": 4.9,
+      "tags": ["SPA", "сауна", "завтрак", "набережная", "центр", "Hilton", "5 stars"],
+      "note": "DoubleTree by Hilton. Центр города, набережная Терека, рядом парк Хетагурова."
+    },
+    {
+      "id": "real-hotel-002",
+      "slug": "imperial-hotel",
+      "name": { "ru": "Империал", "en": "Imperial" },
+      "category": "accommodation",
+      "subcategory": "hotel",
+      "stars": 3,
+      "location": {
+        "lat": 43.0378,
+        "lng": 44.6770,
+        "address": { "ru": "просп. Мира, 19, Владикавказ", "en": "19 Mira Ave, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 54-74-74",
+      "website": "intourist-ossetia.ru",
+      "priceRange": { "from": 3800, "currency": "RUB" },
+      "rooms": 25,
+      "rating": 4.2,
+      "tags": ["историческое здание", "центр города", "завтрак шведский стол", "historic", "city center"],
+      "note": "Историческая гостиница конца XIX века в самом центре города"
+    },
+    {
+      "id": "real-hotel-003",
+      "slug": "vladikavkaz-hotel",
+      "name": { "ru": "Гостиница Владикавказ", "en": "Vladikavkaz Hotel" },
+      "category": "accommodation",
+      "subcategory": "hotel",
+      "stars": 4,
+      "location": {
+        "lat": 43.0340,
+        "lng": 44.6805,
+        "address": { "ru": "ул. Коцоева, 75, Владикавказ", "en": "75 Kotsoeva St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 64-94-94",
+      "phoneBooking": "+7 (800) 222-93-55",
+      "email": "vladikavkaz@intourist-ossetia.ru",
+      "website": "vladikavkaz-hotel.ru",
+      "priceRange": { "from": 4500, "currency": "RUB" },
+      "rooms": 203,
+      "rating": 4.3,
+      "tags": ["набережная Терека", "вид на горы", "центр", "ресторан Cuprum", "river view"],
+      "note": "203 номера. Вид на Терек и горы. Ресторан Cuprum на 1 этаже."
+    },
+    {
+      "id": "real-hotel-004",
+      "slug": "aleksandrovski-hotel",
+      "name": { "ru": "Гранд-Отель Александровский", "en": "Grand Hotel Aleksandrovski" },
+      "category": "accommodation",
+      "subcategory": "hotel",
+      "stars": 4,
+      "location": {
+        "lat": 43.0382,
+        "lng": 44.6775,
+        "address": { "ru": "просп. Мира, 29, Владикавказ", "en": "29 Mira Ave, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 40-40-70",
+      "email": "hotel@aleksandrovski.ru",
+      "website": "aleksandrovski.ru",
+      "priceRange": { "from": 4950, "currency": "RUB" },
+      "rooms": null,
+      "rating": 4.6,
+      "tags": ["4 звезды", "центр", "бутик-отель", "просп. Мира", "boutique", "city center"],
+      "note": "Первый 4-звездочный отель мирового уровня в центре Владикавказа"
+    },
+    {
+      "id": "real-hotel-005",
+      "slug": "olimp-plaza-hotel",
+      "name": { "ru": "Олимп Плаза", "en": "Olimp Plaza" },
+      "category": "accommodation",
+      "subcategory": "hotel",
+      "stars": 3,
+      "location": {
+        "lat": 43.0400,
+        "lng": 44.6850,
+        "address": { "ru": "ул. Шмулевича, 6, Владикавказ", "en": "6 Shmulevicha St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 28-27-28",
+      "email": "olimpplaza@mail.ru",
+      "website": "olimpplaza.ru",
+      "priceRange": { "from": 5800, "currency": "RUB" },
+      "rooms": 30,
+      "rating": 4.8,
+      "tags": ["завтрак", "4 этажа", "рядом центр", "breakfast"],
+      "note": "30 номеров, 4-этажное здание, 1.2 км от центра"
+    },
+    {
+      "id": "real-hotel-006",
+      "slug": "boomerang-hotel",
+      "name": { "ru": "Бумеранг", "en": "Boomerang" },
+      "category": "accommodation",
+      "subcategory": "hotel",
+      "stars": 3,
+      "location": {
+        "lat": 43.0300,
+        "lng": 44.6750,
+        "address": { "ru": "ул. Васо Абаева, 69Б, Владикавказ", "en": "69B Vaso Abaeva St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 53-40-00",
+      "website": "boomerang-hotel.ru",
+      "priceRange": { "from": 2900, "currency": "RUB" },
+      "rooms": 15,
+      "rating": 4.9,
+      "tags": ["мини-отель", "баня", "парковка", "бюджетный", "budget", "sauna"],
+      "note": "15 номеров, баня, бесплатная парковка. 2 км от центра."
+    },
+    {
+      "id": "real-hotel-007",
+      "slug": "avtograf-boutique-hotel",
+      "name": { "ru": "Бутик-Отель Автограф", "en": "Boutique Hotel Avtograf" },
+      "category": "accommodation",
+      "subcategory": "hotel",
+      "stars": 3,
+      "location": {
+        "lat": 43.0338,
+        "lng": 44.6815,
+        "address": { "ru": "ул. Коцоева, 81, Владикавказ", "en": "81 Kotsoeva St, Vladikavkaz" }
+      },
+      "phone": "+7 (969) 969-17-17",
+      "email": "avtograf-hotel@ya.ru",
+      "website": "avtograf-hotel.com",
+      "priceRange": { "from": 4000, "currency": "RUB" },
+      "rooms": null,
+      "rating": 4.5,
+      "tags": ["бутик-отель", "набережная", "суннитская мечеть", "boutique", "riverside"],
+      "note": "Бутик-отель на набережной Терека рядом с Суннитской мечетью"
+    },
+    {
+      "id": "real-hotel-008",
+      "slug": "planeta-lux-hotel",
+      "name": { "ru": "Планета Люкс", "en": "Planeta Lux" },
+      "category": "accommodation",
+      "subcategory": "hotel",
+      "stars": 3,
+      "location": {
+        "lat": 43.0355,
+        "lng": 44.6725,
+        "address": { "ru": "ул. Ватутина, 50, Владикавказ", "en": "50 Vatutina St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 40-31-31",
+      "email": "planetlux@mail.ru",
+      "website": "hotelplanetlux.ru",
+      "priceRange": { "from": 3500, "currency": "RUB" },
+      "rooms": null,
+      "rating": 4.0,
+      "tags": ["памятник культуры", "центр", "Jazz Code", "historic building"],
+      "note": "Бывшая гостиница «Кавказ», памятник культуры. Ресторан Jazz Code при отеле."
+    },
+    {
+      "id": "real-hotel-009",
+      "slug": "roza-vetrov-fiagdon",
+      "name": { "ru": "Роза Ветров", "en": "Roza Vetrov" },
+      "category": "accommodation",
+      "subcategory": "resort",
+      "stars": 4,
+      "location": {
+        "lat": 42.8330,
+        "lng": 44.4200,
+        "address": { "ru": "пос. Верхний Фиагдон, Участок 333, Алагирский р-н", "en": "Upper Fiagdon village, 333, Alagirsky district" }
+      },
+      "phone": "+7 (800) 550-90-40",
+      "website": "rozavetrov15.ru",
+      "priceRange": { "from": 9000, "currency": "RUB" },
+      "rooms": 93,
+      "rating": 4.5,
+      "tags": ["горы", "SPA", "бассейн", "фитнес", "ресторан", "трансфер", "mountains", "spa", "pool"],
+      "note": "4* оздоровительный центр в Куртатинском ущелье. 93 номера. 52 км от аэропорта."
+    },
+    {
+      "id": "real-hotel-010",
+      "slug": "art-hotel-fiagdon",
+      "name": { "ru": "Арт Отель Фиагдон", "en": "Art Hotel Fiagdon" },
+      "category": "accommodation",
+      "subcategory": "guesthouse",
+      "stars": 3,
+      "location": {
+        "lat": 42.8200,
+        "lng": 44.4100,
+        "address": { "ru": "пос. Хидикус, Верхний Фиагдон", "en": "Khidikus village, Upper Fiagdon" }
+      },
+      "phone": "+7 (918) 828-98-89",
+      "website": "hotelfiagdon.ru",
+      "priceRange": { "from": 6000, "currency": "RUB" },
+      "rooms": 9,
+      "rating": 4.4,
+      "tags": ["горы", "гостевой дом", "Куртатинское ущелье", "mountains", "guesthouse"],
+      "note": "9 номеров. 65 км от аэропорта Владикавказа."
+    },
+    {
+      "id": "real-hotel-011",
+      "slug": "porog-neba-digoria",
+      "name": { "ru": "Порог Неба", "en": "Porog Neba" },
+      "category": "accommodation",
+      "subcategory": "resort",
+      "stars": null,
+      "location": {
+        "lat": 42.7900,
+        "lng": 43.8500,
+        "address": { "ru": "Дигорское ущелье, с. Стур-Дигора, Ирафский р-н", "en": "Digora Gorge, Stur-Digora village, Irafsky district" }
+      },
+      "phone": "+7 (8672) 33-30-33",
+      "website": "porogneba.ru",
+      "priceRange": { "from": 2400, "currency": "RUB" },
+      "rooms": null,
+      "rating": 4.3,
+      "tags": ["горы", "Дигория", "шале", "природа", "треккинг", "mountains", "digoria", "trekking"],
+      "note": "Спортивно-оздоровительный комплекс на высоте 1750м. Шале, номера, коттеджи."
+    },
+    {
+      "id": "real-hotel-012",
+      "slug": "tana-park-hotel-digoria",
+      "name": { "ru": "Тана Парк Отель", "en": "Tana Park Hotel" },
+      "category": "accommodation",
+      "subcategory": "hotel",
+      "stars": 3,
+      "location": {
+        "lat": 42.8000,
+        "lng": 43.8600,
+        "address": { "ru": "с. Чикола, Ирафский р-н, РСО-Алания", "en": "Chikola village, Irafsky district" }
+      },
+      "phone": "+7 (928) 935-22-60",
+      "phoneReception": "+7 (928) 930-43-22",
+      "email": "info@tanaparkhotel.ru",
+      "website": "tanaparkhotel.ru",
+      "priceRange": { "from": 5000, "currency": "RUB" },
+      "rooms": 17,
+      "rating": 4.2,
+      "tags": ["Дигория", "горы", "ресторан", "природа", "digoria", "mountains"],
+      "note": "17 номеров (15 стандарт + 2 люкс). Дигорское ущелье."
+    },
+    {
+      "id": "real-hotel-013",
+      "slug": "panorama-digoria",
+      "name": { "ru": "Панорама Дигория", "en": "Panorama Digoria" },
+      "category": "accommodation",
+      "subcategory": "resort",
+      "stars": null,
+      "location": {
+        "lat": 42.7950,
+        "lng": 43.8550,
+        "address": { "ru": "Дигорское ущелье, Стур-Дигора, Ирафский р-н", "en": "Digora Gorge, Stur-Digora, Irafsky district" }
+      },
+      "phone": null,
+      "website": "panorama-digoria.ru",
+      "priceRange": { "from": 3000, "currency": "RUB" },
+      "rooms": null,
+      "rating": 4.1,
+      "tags": ["деревянные домики", "сосновая роща", "Дигория", "wooden cabins", "nature"],
+      "note": "Деревянные домики в сосновой роще"
+    },
+    {
+      "id": "real-hotel-014",
+      "slug": "guesthouse-1950-tsey",
+      "name": { "ru": "Гостевой Дом 1950", "en": "Guest House 1950" },
+      "category": "accommodation",
+      "subcategory": "guesthouse",
+      "stars": null,
+      "location": {
+        "lat": 42.7560,
+        "lng": 43.9100,
+        "address": { "ru": "с. Абайтикау (Абаевых), д. 100, Алагирский р-н", "en": "Abaitikau village, 100, Alagirsky district" }
+      },
+      "phone": null,
+      "website": "alt1950.ru",
+      "priceRange": { "from": 5000, "currency": "RUB" },
+      "rooms": null,
+      "rating": 4.6,
+      "tags": ["Цей", "горы", "высота 1950м", "ресторан", "бар", "сад", "Tsey", "mountains"],
+      "note": "На высоте 1950м. 7 км от курорта Цей. Ресторан, бар, сад, парковка."
+    },
+    {
+      "id": "real-hotel-015",
+      "slug": "hostel-baltson",
+      "name": { "ru": "Хостел Baltson", "en": "Hostel Baltson" },
+      "category": "accommodation",
+      "subcategory": "hostel",
+      "stars": null,
+      "location": {
+        "lat": 43.0360,
+        "lng": 44.6790,
+        "address": { "ru": "ул. Дзусова, 42, Владикавказ", "en": "42 Dzusova St, Vladikavkaz" }
+      },
+      "phone": null,
+      "website": null,
+      "priceRange": { "from": 700, "currency": "RUB" },
+      "rooms": null,
+      "rating": 4.0,
+      "tags": ["хостел", "бюджетный", "центр", "hostel", "budget"],
+      "note": "Бюджетный хостел в центре города"
+    },
+    {
+      "id": "real-hotel-016",
+      "slug": "hostel-rok",
+      "name": { "ru": "Хостел Рок", "en": "Hostel Rock" },
+      "category": "accommodation",
+      "subcategory": "hostel",
+      "stars": null,
+      "location": {
+        "lat": 43.0370,
+        "lng": 44.6780,
+        "address": { "ru": "пер. Станиславского, 4, Владикавказ", "en": "4 Stanislavskogo lane, Vladikavkaz" }
+      },
+      "phone": null,
+      "website": null,
+      "priceRange": { "from": 800, "currency": "RUB" },
+      "rooms": null,
+      "rating": 3.8,
+      "tags": ["хостел", "бюджетный", "hostel", "budget"],
+      "note": null
+    },
+    {
+      "id": "real-hotel-017",
+      "slug": "zov-gor-fiagdon",
+      "name": { "ru": "Зов Гор", "en": "Zov Gor" },
+      "category": "accommodation",
+      "subcategory": "guesthouse",
+      "stars": null,
+      "location": {
+        "lat": 42.8350,
+        "lng": 44.4250,
+        "address": { "ru": "пос. Верхний Фиагдон, Алагирский р-н", "en": "Upper Fiagdon, Alagirsky district" }
+      },
+      "phone": null,
+      "website": "zovgor.ru",
+      "priceRange": { "from": 4000, "currency": "RUB" },
+      "rooms": null,
+      "rating": 4.3,
+      "tags": ["горы", "коттедж", "Фиагдон", "семейный отдых", "mountains", "cottage"],
+      "note": "Коттеджи для аренды в Верхнем Фиагдоне, высота 1328м"
+    },
+    {
+      "id": "real-hotel-018",
+      "slug": "asta-village-fiagdon",
+      "name": { "ru": "Аста Виллидж", "en": "Asta Village" },
+      "category": "accommodation",
+      "subcategory": "guesthouse",
+      "stars": null,
+      "location": {
+        "lat": 42.8300,
+        "lng": 44.4150,
+        "address": { "ru": "пос. Верхний Фиагдон, Алагирский р-н", "en": "Upper Fiagdon, Alagirsky district" }
+      },
+      "phone": null,
+      "website": "fiagdon-astavillage.ru",
+      "priceRange": { "from": 5000, "currency": "RUB" },
+      "rooms": null,
+      "rating": 4.4,
+      "tags": ["бревенчатые домики", "горы", "экотуризм", "осетинский сыр", "log cabins", "eco"],
+      "note": "Бревенчатые гостевые домики в горах. Экоопыт: доение коров, приготовление сыра."
+    }
+  ],
+
+  "shopping": [
+    {
+      "id": "real-shop-001",
+      "slug": "central-green-market",
+      "name": { "ru": "Центральный (Зелёный) рынок", "en": "Central (Green) Market" },
+      "category": "shopping",
+      "subcategory": "market",
+      "location": {
+        "lat": 43.0370,
+        "lng": 44.6820,
+        "address": { "ru": "ул. Джанаева, 38, Владикавказ", "en": "38 Dzhanaeva St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 54-41-43",
+      "hours": {
+        "mon": "08:00-18:00", "tue": "08:00-18:00", "wed": "08:00-18:00",
+        "thu": "08:00-18:00", "fri": "08:00-18:00", "sat": "08:00-18:00", "sun": "08:00-18:00"
+      },
+      "tags": ["рынок", "фрукты", "овощи", "сыр", "мясо", "специи", "market", "food", "local"],
+      "note": "Главный продуктовый рынок города. Осетинский сыр, специи, мёд, сухофрукты, мясо."
+    },
+    {
+      "id": "real-shop-002",
+      "slug": "alania-mall",
+      "name": { "ru": "Алания Молл", "en": "Alania Mall" },
+      "category": "shopping",
+      "subcategory": "mall",
+      "location": {
+        "lat": 43.0480,
+        "lng": 44.6580,
+        "address": { "ru": "Московское шоссе, 3К, Владикавказ", "en": "3K Moskovskoye Hwy, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 40-27-85",
+      "website": "alaniamoll.com",
+      "hours": {
+        "mon": "10:00-22:00", "tue": "10:00-22:00", "wed": "10:00-22:00",
+        "thu": "10:00-22:00", "fri": "10:00-22:00", "sat": "10:00-22:00", "sun": "10:00-22:00"
+      },
+      "tags": ["ТРЦ", "кинотеатр", "одежда", "развлечения", "парковка", "mall", "cinema", "shopping"],
+      "note": "Крупнейший ТРЦ. 110 магазинов, кинотеатр, парковка 460 мест."
+    },
+    {
+      "id": "real-shop-003",
+      "slug": "stolica-mall",
+      "name": { "ru": "ТЦ Столица", "en": "Stolitsa Mall" },
+      "category": "shopping",
+      "subcategory": "mall",
+      "location": {
+        "lat": 43.0300,
+        "lng": 44.6680,
+        "address": { "ru": "ул. Астана Кесаева, 2А, Владикавказ", "en": "2A Astana Kesaeva St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 61-53-33",
+      "hours": {
+        "mon": "10:00-21:00", "tue": "10:00-21:00", "wed": "10:00-21:00",
+        "thu": "10:00-21:00", "fri": "10:00-21:00", "sat": "10:00-21:00", "sun": "10:00-21:00"
+      },
+      "tags": ["ТЦ", "одежда", "бренды", "парковка", "mall", "brands"],
+      "note": "Площадь 17200 кв.м, парковка на 350 мест."
+    },
+    {
+      "id": "real-shop-004",
+      "slug": "souvenir-shop-mira-33",
+      "name": { "ru": "Сувенирная лавка (просп. Мира)", "en": "Souvenir Shop (Mira Ave)" },
+      "category": "shopping",
+      "subcategory": "souvenirs",
+      "location": {
+        "lat": 43.0380,
+        "lng": 44.6778,
+        "address": { "ru": "просп. Мира, 33, Владикавказ", "en": "33 Mira Ave, Vladikavkaz" }
+      },
+      "phone": null,
+      "hours": {
+        "mon": "10:00-19:00", "tue": "10:00-19:00", "wed": "10:00-19:00",
+        "thu": "10:00-19:00", "fri": "10:00-19:00", "sat": "10:00-19:00", "sun": "10:00-18:00"
+      },
+      "tags": ["сувениры", "подарки", "осетинские сувениры", "souvenirs", "gifts"],
+      "note": "Осетинские национальные сувениры, изделия ручной работы"
+    },
+    {
+      "id": "real-shop-005",
+      "slug": "souvenir-shop-kuibysheva",
+      "name": { "ru": "Сувенирная лавка (ул. Куйбышева)", "en": "Souvenir Shop (Kuibysheva)" },
+      "category": "shopping",
+      "subcategory": "souvenirs",
+      "location": {
+        "lat": 43.0370,
+        "lng": 44.6800,
+        "address": { "ru": "ул. Куйбышева, 21А к2, Владикавказ", "en": "21A bld.2 Kuibysheva St, Vladikavkaz" }
+      },
+      "phone": null,
+      "hours": {
+        "mon": "10:00-19:00", "tue": "10:00-19:00", "wed": "10:00-19:00",
+        "thu": "10:00-19:00", "fri": "10:00-19:00", "sat": "10:00-19:00", "sun": "10:00-18:00"
+      },
+      "tags": ["сувениры", "подарки", "магнитики", "souvenirs", "gifts"],
+      "note": null
+    },
+    {
+      "id": "real-shop-006",
+      "slug": "souvenir-shop-shmulevicha",
+      "name": { "ru": "Сувенирная лавка (ул. Шмулевича)", "en": "Souvenir Shop (Shmulevicha)" },
+      "category": "shopping",
+      "subcategory": "souvenirs",
+      "location": {
+        "lat": 43.0395,
+        "lng": 44.6845,
+        "address": { "ru": "ул. Шмулевича, 16, Владикавказ", "en": "16 Shmulevicha St, Vladikavkaz" }
+      },
+      "phone": null,
+      "hours": {
+        "mon": "10:00-19:00", "tue": "10:00-19:00", "wed": "10:00-19:00",
+        "thu": "10:00-19:00", "fri": "10:00-19:00", "sat": "10:00-19:00", "sun": "10:00-18:00"
+      },
+      "tags": ["сувениры", "подарки", "souvenirs"],
+      "note": null
+    }
+  ],
+
+  "nightlife": [
+    {
+      "id": "real-night-001",
+      "slug": "soprano-karaoke",
+      "name": { "ru": "Сопрано", "en": "Soprano" },
+      "category": "nightlife",
+      "subcategory": "karaoke",
+      "location": {
+        "lat": 43.0310,
+        "lng": 44.6700,
+        "address": { "ru": "ул. Барбашова, 58, Владикавказ", "en": "58 Barbashova St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 29-05-55",
+      "hours": {
+        "mon": "18:00-02:00", "tue": "18:00-02:00", "wed": "18:00-02:00",
+        "thu": "18:00-02:00", "fri": "18:00-02:00", "sat": "18:00-02:00", "sun": "18:00-02:00"
+      },
+      "tags": ["караоке", "ресторан", "ночная жизнь", "karaoke", "nightlife"]
+    },
+    {
+      "id": "real-night-002",
+      "slug": "maracana-play-bar",
+      "name": { "ru": "Маракана", "en": "Maracana Play Bar" },
+      "category": "nightlife",
+      "subcategory": "bar",
+      "location": {
+        "lat": 43.0380,
+        "lng": 44.6780,
+        "address": { "ru": "просп. Мира, 37, Владикавказ", "en": "37 Mira Ave, Vladikavkaz" }
+      },
+      "phone": "+7 (928) 933-66-44",
+      "hours": {
+        "mon": "12:00-02:00", "tue": "12:00-02:00", "wed": "12:00-02:00",
+        "thu": "12:00-02:00", "fri": "12:00-02:00", "sat": "12:00-02:00", "sun": "12:00-02:00"
+      },
+      "tags": ["спорт-бар", "кальян", "караоке", "sports bar", "hookah", "karaoke"]
+    },
+    {
+      "id": "real-night-003",
+      "slug": "black-hole-bar",
+      "name": { "ru": "Black Hole", "en": "Black Hole" },
+      "category": "nightlife",
+      "subcategory": "bar",
+      "location": {
+        "lat": 43.0370,
+        "lng": 44.6820,
+        "address": { "ru": "ул. Джанаева, 26, Владикавказ", "en": "26 Dzhanaeva St, Vladikavkaz" }
+      },
+      "phone": null,
+      "hours": {
+        "mon": "18:00-02:00", "tue": "18:00-02:00", "wed": "18:00-02:00",
+        "thu": "18:00-02:00", "fri": "18:00-04:00", "sat": "18:00-04:00", "sun": "18:00-02:00"
+      },
+      "tags": ["кальян-бар", "коктейли", "hookah bar", "cocktails"]
+    },
+    {
+      "id": "real-night-004",
+      "slug": "escobar-karaoke",
+      "name": { "ru": "Эскобар", "en": "Escobar" },
+      "category": "nightlife",
+      "subcategory": "karaoke",
+      "location": {
+        "lat": 43.0350,
+        "lng": 44.6740,
+        "address": { "ru": "ул. Маркуса, 18, Владикавказ", "en": "18 Markusa St, Vladikavkaz" }
+      },
+      "phone": null,
+      "hours": {
+        "mon": "20:00-04:00", "tue": "20:00-04:00", "wed": "20:00-04:00",
+        "thu": "20:00-04:00", "fri": "20:00-06:00", "sat": "20:00-06:00", "sun": "20:00-04:00"
+      },
+      "tags": ["караоке", "клуб", "ночная жизнь", "karaoke", "club", "nightlife"]
+    },
+    {
+      "id": "real-night-005",
+      "slug": "360-restaurant-karaoke",
+      "name": { "ru": "360 Ресторан-Караоке", "en": "360 Restaurant Karaoke" },
+      "category": "nightlife",
+      "subcategory": "restaurant_bar",
+      "location": {
+        "lat": 43.0342,
+        "lng": 44.6808,
+        "address": { "ru": "ул. Коцоева, 73А (при Парк-Отеле Hilton)", "en": "73A Kotsoeva St (Park Hotel Hilton)" }
+      },
+      "phone": "+7 (918) 835-03-60",
+      "website": "360restaurant.ru",
+      "hours": {
+        "fri": "15:00-03:00", "sat": "15:00-03:00",
+        "sun": "13:00-01:00", "mon": "13:00-01:00", "tue": "13:00-01:00",
+        "wed": "13:00-01:00", "thu": "13:00-01:00"
+      },
+      "tags": ["панорамный вид", "караоке", "ресторан", "Hilton", "premium", "panorama", "karaoke"]
+    },
+    {
+      "id": "real-night-006",
+      "slug": "koyroi-nightlife",
+      "name": { "ru": "Куырой (караоке и танцпол)", "en": "Koyroi (karaoke & dance)" },
+      "category": "nightlife",
+      "subcategory": "restaurant_bar",
+      "location": {
+        "lat": 43.0358,
+        "lng": 44.6798,
+        "address": { "ru": "ул. Коцоева, 26, Владикавказ", "en": "26 Kotsoeva St, Vladikavkaz" }
+      },
+      "phone": "+7 (8672) 70-03-00",
+      "website": "koyroi.com",
+      "hours": {
+        "mon": "12:00-02:00", "tue": "12:00-02:00", "wed": "12:00-02:00",
+        "thu": "12:00-02:00", "fri": "12:00-02:00", "sat": "12:00-02:00", "sun": "12:00-02:00"
+      },
+      "tags": ["живая музыка", "караоке", "танцпол", "live music", "karaoke", "dance floor"]
+    }
+  ]
+}

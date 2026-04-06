@@ -1,0 +1,779 @@
+{
+  "_meta": {
+    "description": "Verified nature POI data for North Ossetia-Alania, researched April 2026",
+    "sources": [
+      "iskatel.com", "bolshayastrana.com", "club-voshod.com", "kp.ru", "kavkaz.travel",
+      "tourister.ru", "enjoy-kavkaz.ru", "tripster.ru", "tseyski.ru", "alaniazapoved.ru",
+      "tonkosti.ru", "wikimapia.org", "wikipedia.org", "2gis.ru", "geomerid.com"
+    ]
+  },
+  "pois": [
+    {
+      "id": "poi-001",
+      "slug": "midagrabin-waterfalls",
+      "name": {
+        "ru": "Мидаграбинские водопады",
+        "en": "Midagrabin Waterfalls"
+      },
+      "location": {
+        "lat": 42.7699,
+        "lng": 44.3618,
+        "nearest_settlement": {
+          "ru": "село Джимара (1.5 часа пешком)",
+          "en": "Dzhimara village (1.5 hours on foot)"
+        },
+        "address": {
+          "ru": "Пригородный район, Северная Осетия-Алания",
+          "en": "Prigorodny District, North Ossetia-Alania"
+        },
+        "altitude_m": 2000
+      },
+      "description": {
+        "full": {
+          "ru": "Комплекс из более чем 50 водопадов в верховьях реки Мидаграбиндон, в 7 км к югу от села Джимара. Главная жемчужина — водопад Большой Зейгалан с высотой непрерывного падения воды 648 м (по некоторым данным до 750 м), входящий в двадцатку высочайших водопадов мира и считающийся самым высоким в Европе. Всего выделяют 8 основных каскадов: Зейгалан, Тахкадон, четыре Хрустальных каскада и два Зелёных. Водопады питаются талыми водами ледников и наиболее полноводны в конце июля — начале сентября. Территория граничит с Грузией, на подъезде работает пограничный пост — необходим паспорт.",
+          "en": "A complex of over 50 waterfalls at the headwaters of the Midagrabindon River, 7 km south of Dzhimara village. The crown jewel is the Bolshoy Zeygalan waterfall with a continuous drop of 648 m (some sources claim up to 750 m), ranking among the world's 20 tallest waterfalls and considered the highest in Europe. There are 8 main cascades: Zeygalan, Takhkadon, four Crystal Cascades, and two Green Cascades. The waterfalls are fed by glacial meltwater and are most powerful from late July to early September. The area borders Georgia — a border checkpoint operates on the approach road, passport required."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "Из Владикавказа по дороге через село Джимара (~2 часа). От Джимара первые 5 км можно проехать на машине (если не было дождей), далее 1.5 часа пешком. Автобус из Владикавказа до Джимары.",
+          "en": "From Vladikavkaz via Dzhimara village (~2 hours). From Dzhimara, the first 5 km are drivable (if no recent rain), then 1.5 hours on foot. Bus from Vladikavkaz to Dzhimara."
+        },
+        "best_time": {
+          "ru": "Конец июля — начало сентября (максимальная полноводность). Сезон: май-октябрь.",
+          "en": "Late July to early September (peak water flow). Season: May-October."
+        },
+        "entry_fee": {
+          "ru": "Бесплатно. Необходим паспорт для пограничного поста.",
+          "en": "Free. Passport required for border checkpoint."
+        },
+        "zeygalan_height_m": 648,
+        "zeygalan_height_claimed_m": 750
+      }
+    },
+    {
+      "id": "poi-002",
+      "slug": "tsey-gorge",
+      "name": {
+        "ru": "Цейское ущелье",
+        "en": "Tsey Gorge"
+      },
+      "location": {
+        "lat": 42.7858,
+        "lng": 43.9051,
+        "nearest_settlement": {
+          "ru": "посёлок Бурон (вход в ущелье)",
+          "en": "Buron settlement (gorge entrance)"
+        },
+        "address": {
+          "ru": "Алагирский район, Северная Осетия-Алания",
+          "en": "Alagir District, North Ossetia-Alania"
+        },
+        "altitude_range_m": "1300-4646"
+      },
+      "description": {
+        "full": {
+          "ru": "Живописное горное ущелье протяжённостью 25 км на северных склонах Большого Кавказского хребта. Высшая точка — гора Уилпата (4646 м). Горнолыжный курорт «Цей» работает с декабря по апрель: перепад высот в зоне катания 920 м (от 1950 до 2870 м). Действуют две кресельные канатные дороги австрийского производства. Летом — альпийские луга, экотропы к ледникам, святилище Реком. Снег ложится в конце октября — ноябре, толщина покрова 40-80 см, иногда более 100 см.",
+          "en": "A scenic mountain gorge stretching 25 km along the northern slopes of the Greater Caucasus Range. Highest point — Mount Uilpata (4,646 m). The Tsey ski resort operates from December to April: elevation drop in the skiing zone is 920 m (from 1,950 to 2,870 m). Two Austrian-made chairlifts are in operation. In summer — alpine meadows, eco-trails to glaciers, and the ancient Rekom sanctuary. Snow arrives in late October-November, with a depth of 40-80 cm, sometimes over 100 cm."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "Из Владикавказа по Транскаму до Бурона (~80 км), затем поворот направо в ущелье (~12 км). Дорога асфальтирована.",
+          "en": "From Vladikavkaz via TransCam highway to Buron (~80 km), then turn right into the gorge (~12 km). Paved road."
+        },
+        "best_time": {
+          "ru": "Горные лыжи: декабрь-апрель. Пеший туризм: июнь-сентябрь.",
+          "en": "Skiing: December-April. Hiking: June-September."
+        },
+        "cable_car": {
+          "ru": "Парнокресельная канатная дорога — 250 руб./подъём. Канатка к Сказскому леднику — 300-400 руб. (лето).",
+          "en": "Pair-chair lift — 250 RUB/ascent. Cable car to Skazka Glacier — 300-400 RUB (summer)."
+        },
+        "accommodation": {
+          "ru": "От 1000 руб./сутки в альплагере, от 5500 руб. в гостинице.",
+          "en": "From 1,000 RUB/night at alpine camp, from 5,500 RUB at hotel."
+        },
+        "entry_fee": {
+          "ru": "Вход свободный. Канатная дорога — платная.",
+          "en": "Free entry. Cable car — paid."
+        }
+      }
+    },
+    {
+      "id": "poi-003",
+      "slug": "tsey-glacier",
+      "name": {
+        "ru": "Цейский ледник",
+        "en": "Tsey Glacier"
+      },
+      "location": {
+        "lat": 42.7751,
+        "lng": 43.8605,
+        "nearest_settlement": {
+          "ru": "курорт Цей (начало тропы у гостиницы «Горянка»)",
+          "en": "Tsey resort (trail starts near Goryanka hotel)"
+        },
+        "address": {
+          "ru": "Алагирский район, Северная Осетия-Алания",
+          "en": "Alagir District, North Ossetia-Alania"
+        },
+        "altitude_start_m": 1900
+      },
+      "description": {
+        "full": {
+          "ru": "Крупный долинный ледник на северных склонах Кавказского хребта в Цейском ущелье. К леднику ведёт экологическая тропа протяжённостью 4700 м, размеченная зелёными стрелками. Маршрут начинается у бывшей гостиницы «Горянка» на высоте ~1900 м. Путь занимает 6-7 часов (туда-обратно). Тропа проходит по живописному лесу вдоль горной реки Цейдон, затем по каменным россыпям и морене. Территория Североосетинского заповедника — сходить с тропы запрещено.",
+          "en": "A major valley glacier on the northern slopes of the Caucasus range in Tsey Gorge. An eco-trail of 4,700 m marked with green arrows leads to the glacier. The route begins near the former Goryanka hotel at ~1,900 m altitude. The hike takes 6-7 hours (round trip). The path passes through scenic forest along the Tseydon mountain river, then over boulder fields and moraine. North Ossetian Nature Reserve territory — leaving the trail is prohibited."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "На машине до курорта Цей, начало тропы у заброшенной турбазы «Горянка» на высоте 1900-1950 м.",
+          "en": "By car to Tsey resort, trail starts at the abandoned Goryanka tourist base at 1,900-1,950 m altitude."
+        },
+        "best_time": {
+          "ru": "Май-октябрь.",
+          "en": "May-October."
+        },
+        "trail_length_m": 4700,
+        "trail_duration_hours": "6-7 (round trip)",
+        "entry_fee": {
+          "ru": "Вход на территорию заповедника — возможна оплата экологического сбора.",
+          "en": "Nature reserve territory — ecological fee may apply."
+        }
+      }
+    },
+    {
+      "id": "poi-004",
+      "slug": "skaz-glacier",
+      "name": {
+        "ru": "Сказский ледник",
+        "en": "Skaz Glacier"
+      },
+      "location": {
+        "lat": 42.7651,
+        "lng": 43.8912,
+        "nearest_settlement": {
+          "ru": "курорт Цей",
+          "en": "Tsey resort"
+        },
+        "address": {
+          "ru": "Алагирский район, Северная Осетия-Алания",
+          "en": "Alagir District, North Ossetia-Alania"
+        },
+        "altitude_m": 2500
+      },
+      "description": {
+        "full": {
+          "ru": "Ледник на склоне горы Адай-Хох (4408 м), нижняя часть спускается до высоты ~2900 м. Доступнее Цейского ледника — к нему ведёт канатная дорога до высоты ~2500 м, откуда открывается вид на Кальперовский хребет. От верхней станции канатки до ледника — 800 м по оборудованной тропинке. Общая протяжённость маршрута ~3 км, перепад высот 300 м. Время от канатки до ледника — около 30 минут.",
+          "en": "A glacier on the slopes of Mount Aday-Khokh (4,408 m), with its lower section descending to ~2,900 m. More accessible than the Tsey Glacier — a cable car reaches ~2,500 m, offering views of the Kalperovsky Ridge. From the upper station, the glacier is 800 m along a maintained trail. Total route length ~3 km, elevation gain 300 m. Time from cable car to glacier — about 30 minutes."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "Канатная дорога из Цейского ущелья до высоты 2500 м, далее 800 м пешком по тропе.",
+          "en": "Cable car from Tsey Gorge to 2,500 m altitude, then 800 m walk along the trail."
+        },
+        "best_time": {
+          "ru": "Июнь-сентябрь.",
+          "en": "June-September."
+        },
+        "cable_car_price": {
+          "ru": "300-400 руб. (летний сезон).",
+          "en": "300-400 RUB (summer season)."
+        },
+        "trail_length_m": 3000,
+        "trail_duration_minutes": 30,
+        "entry_fee": {
+          "ru": "Канатная дорога: 300-400 руб.",
+          "en": "Cable car: 300-400 RUB."
+        }
+      }
+    },
+    {
+      "id": "poi-005",
+      "slug": "karmadon-gorge",
+      "name": {
+        "ru": "Кармадонское ущелье",
+        "en": "Karmadon Gorge"
+      },
+      "location": {
+        "lat": 42.8429,
+        "lng": 44.5179,
+        "nearest_settlement": {
+          "ru": "село Кармадон / Владикавказ (35 км)",
+          "en": "Karmadon village / Vladikavkaz (35 km)"
+        },
+        "address": {
+          "ru": "Пригородный район, Северная Осетия-Алания",
+          "en": "Prigorodny District, North Ossetia-Alania"
+        },
+        "altitude_range_m": "750-1200"
+      },
+      "description": {
+        "full": {
+          "ru": "Ущелье длиной 17 км в горной системе Большого Кавказа, также известное как Геналдонское. По дну течёт река Геналдон. Место трагедии 20 сентября 2002 года — катастрофического схода ледника Колка, унёсшего жизни более 100 человек, в том числе съёмочной группы Сергея Бодрова-младшего. Ущелье доступно круглый год, дорога проезжая на автомобиле. На территории сохранились мемориалы и следы схода ледника. Ледник Колка активно восстанавливается и быстро наступает. Маршрут на вершину Казбека через ущелье невозможен — восхождения проводятся со стороны Грузии.",
+          "en": "A 17 km gorge in the Greater Caucasus mountain system, also known as Genaldon Gorge. The Genaldon River flows through the bottom. Site of the September 20, 2002 tragedy — the catastrophic collapse of the Kolka glacier, which killed over 100 people, including filmmaker Sergei Bodrov Jr.'s crew. The gorge is accessible year-round by car. Memorials and traces of the glacier collapse remain on site. The Kolka glacier is actively recovering and advancing rapidly. The route to Mount Kazbek summit through the gorge is impassable — ascents are made from the Georgian side."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "Из Владикавказа на автомобиле ~35 км. Дорога асфальтирована, проезд свободный.",
+          "en": "From Vladikavkaz by car ~35 km. Paved road, free access."
+        },
+        "best_time": {
+          "ru": "Круглый год. Наиболее живописно: май-октябрь.",
+          "en": "Year-round. Most scenic: May-October."
+        },
+        "entry_fee": {
+          "ru": "Бесплатно.",
+          "en": "Free."
+        },
+        "accessibility_note": {
+          "ru": "Ущелье открыто для посещения. Некоторые участки в верхней части могут быть ограничены (пограничная зона). Дорога через ущелье проезжая.",
+          "en": "The gorge is open to visitors. Some upper sections may be restricted (border zone). The road through the gorge is passable."
+        }
+      }
+    },
+    {
+      "id": "poi-006",
+      "slug": "galdoridon-pearl-waterfall",
+      "name": {
+        "ru": "Водопад Галдоридон (Жемчужный)",
+        "en": "Galdoridon (Pearl) Waterfall"
+      },
+      "location": {
+        "lat": 42.9112,
+        "lng": 43.5527,
+        "nearest_settlement": {
+          "ru": "село Стур-Дигора (10 км)",
+          "en": "Stur-Digora village (10 km)"
+        },
+        "address": {
+          "ru": "Ирафский район, Дигорское ущелье, нацпарк «Алания»",
+          "en": "Irafsky District, Digora Gorge, Alania National Park"
+        },
+        "altitude_m": 2000
+      },
+      "description": {
+        "full": {
+          "ru": "Пятикаскадный водопад высотой 30 м на территории национального парка «Алания» в Дигорском ущелье, на высоте 2000 м над уровнем моря. Назван «Жемчужным» за мелкие брызги, рассыпающиеся как жемчуг. Тропа начинается от въезда в «Тана парк отель», протяжённость — 3 км, время в пути — около 2 часов в одну сторону. Маршрут живописный, проходит по горным лугам.",
+          "en": "A five-cascade waterfall 30 m high in Alania National Park in Digora Gorge, at 2,000 m altitude. Named 'Pearl' for its fine spray that scatters like pearls. The trail starts from the entrance to Tana Park Hotel, length — 3 km, walking time — about 2 hours one way. The route is scenic, passing through mountain meadows."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "Из Владикавказа до села Стур-Дигора (~120 км), далее 10 км до начала тропы (от «Тана парк отель»). Дорога до Мацуты — асфальт, далее грунтовка.",
+          "en": "From Vladikavkaz to Stur-Digora village (~120 km), then 10 km to the trailhead (from Tana Park Hotel). Road to Matsuta — paved, then gravel."
+        },
+        "best_time": {
+          "ru": "Май-октябрь.",
+          "en": "May-October."
+        },
+        "trail_length_m": 3000,
+        "trail_duration_hours": "2 (one way)",
+        "entry_fee": {
+          "ru": "Входной билет в нацпарк «Алания» — 250 руб.",
+          "en": "Alania National Park entry — 250 RUB."
+        }
+      }
+    },
+    {
+      "id": "poi-007",
+      "slug": "table-mountain-myat-loam",
+      "name": {
+        "ru": "Столовая гора (Мят-Лоам / Мадыхох)",
+        "en": "Table Mountain (Myat-Loam / Madykhokh)"
+      },
+      "location": {
+        "lat": 42.8550,
+        "lng": 44.7192,
+        "nearest_settlement": {
+          "ru": "Владикавказ (15 км к югу); село Бейни (Ингушетия) для маршрута",
+          "en": "Vladikavkaz (15 km south); Beyni village (Ingushetia) for the route"
+        },
+        "address": {
+          "ru": "Граница Северной Осетии и Ингушетии (Джейрахский район)",
+          "en": "Border of North Ossetia and Ingushetia (Dzheirakh District)"
+        },
+        "altitude_m": 3003
+      },
+      "description": {
+        "full": {
+          "ru": "Гора с плоской вершиной высотой 3003 м — символ, видимый из центра Владикавказа (проспект Мира). На осетинском — Мадыхох («гора-мать»), на ингушском — Мят-Лоам («гора отца»). Горный массив расположен на природной границе Северной Осетии и Ингушетии. Наиболее популярный маршрут восхождения — «тропа предков» со стороны Ингушетии из села Бейни (1580 м). Маршрут: 11.2 км, перепад высот 1740-3003 м, время 11-12 часов. На высоте 2560 м — древнее языческое святилище Мят-Сели. Существуют также маршруты со стороны Северной Осетии и от Эзминской ГЭС.",
+          "en": "A flat-topped mountain at 3,003 m — a landmark visible from central Vladikavkaz (Prospekt Mira). In Ossetian — Madykhokh ('mother mountain'), in Ingush — Myat-Loam ('father mountain'). The massif sits on the natural border of North Ossetia and Ingushetia. The most popular ascent route is the 'Ancestors' Trail' from the Ingush side, starting at Beyni village (1,580 m). Route: 11.2 km, elevation range 1,740-3,003 m, time 11-12 hours. At 2,560 m — the ancient pagan sanctuary Myat-Seli. Routes also exist from the North Ossetian side and from the Ezmi hydroelectric station."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "Основной маршрут: Владикавказ → село Бейни (Ингушетия, 8 км от курорта Армхи) → пешее восхождение. До Бейни можно на легковой машине.",
+          "en": "Main route: Vladikavkaz → Beyni village (Ingushetia, 8 km from Armkhi resort) → hiking ascent. Beyni is accessible by regular car."
+        },
+        "best_time": {
+          "ru": "Июнь-сентябрь. Массовые восхождения организуются регулярно.",
+          "en": "June-September. Mass ascents are organized regularly."
+        },
+        "route_details": {
+          "distance_km": 11.2,
+          "elevation_gain_m": 1263,
+          "duration_hours": "11-12",
+          "difficulty": {
+            "ru": "Средняя (тропа без альпинистского снаряжения)",
+            "en": "Moderate (trail, no climbing gear needed)"
+          }
+        },
+        "entry_fee": {
+          "ru": "Бесплатно.",
+          "en": "Free."
+        },
+        "guided_tour_price": {
+          "ru": "Экскурсия с гидом из Владикавказа — от 19 990 руб.",
+          "en": "Guided tour from Vladikavkaz — from 19,990 RUB."
+        }
+      }
+    },
+    {
+      "id": "poi-008",
+      "slug": "alania-national-park",
+      "name": {
+        "ru": "Национальный парк «Алания»",
+        "en": "Alania National Park"
+      },
+      "location": {
+        "lat": 42.9000,
+        "lng": 43.7333,
+        "nearest_settlement": {
+          "ru": "село Мацута (визит-центр)",
+          "en": "Matsuta village (visitor center)"
+        },
+        "address": {
+          "ru": "Ирафский район, Северная Осетия-Алания",
+          "en": "Irafsky District, North Ossetia-Alania"
+        },
+        "area_hectares": 55000
+      },
+      "description": {
+        "full": {
+          "ru": "Высокогорный национальный парк площадью более 55 000 га, основанный в 1998 году в Дигорском ущелье. Ледники, водопады, эндемичные виды флоры и фауны. Включает водопады «Три сестры», водопад Галдоридон, торфяное болото Чифандзар, древние сёла Галиат и Камунта. Управляется объединением «Заповедная Осетия-Алания». Офис: Владикавказ, ул. Гагарина, 30 (2 этаж). Визит-центр: село Мацута.",
+          "en": "A high-altitude national park covering over 55,000 hectares, established in 1998 in Digora Gorge. Glaciers, waterfalls, endemic flora and fauna. Includes the Three Sisters waterfalls, Galdoridon waterfall, Chifandzar peat bog, and the ancient villages of Galiat and Kamunta. Managed by Zapovednaya Osetia-Alania. Office: Vladikavkaz, Gagarina St. 30 (2nd floor). Visitor center: Matsuta village."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "Из Владикавказа по дороге в Дигорское ущелье (~120 км до села Мацута). Въезд через каньон Ахсинта и Чёртов мост.",
+          "en": "From Vladikavkaz via the road to Digora Gorge (~120 km to Matsuta village). Entry through Akhsinta canyon and Devil's Bridge."
+        },
+        "best_time": {
+          "ru": "Июнь-сентябрь.",
+          "en": "June-September."
+        },
+        "entry_fee": {
+          "ru": "Входной билет — 250 руб. (включает прогулку по маршруту).",
+          "en": "Entry ticket — 250 RUB (includes route walk)."
+        },
+        "permits": {
+          "ru": "Разрешение на посещение оформляется в офисе (Владикавказ, ул. Гагарина 30), визит-центре в Мацуте или онлайн на сайте нацпарка. Для пограничной зоны (Чифандзар и др.) — необходим отдельный пограничный пропуск с предъявлением паспорта.",
+          "en": "Visiting permit obtained at the office (Vladikavkaz, Gagarina 30), Matsuta visitor center, or online at the park website. For the border zone (Chifandzar etc.) — a separate border permit with passport required."
+        },
+        "restrictions": {
+          "ru": "С лета 2025 года запрещены ночёвки в палатках (из-за участившихся появлений медведей).",
+          "en": "Since summer 2025, tent camping has been prohibited (due to increasing bear activity)."
+        }
+      }
+    },
+    {
+      "id": "poi-009",
+      "slug": "zaramag-reservoir",
+      "name": {
+        "ru": "Зарамагское водохранилище",
+        "en": "Zaramag Reservoir"
+      },
+      "location": {
+        "lat": 42.6985,
+        "lng": 43.9757,
+        "nearest_settlement": {
+          "ru": "село Нижний Зарамаг (100 м)",
+          "en": "Nizhny Zaramag village (100 m)"
+        },
+        "address": {
+          "ru": "Алагирский район, Кассарское ущелье",
+          "en": "Alagir District, Kassarsky Gorge"
+        },
+        "altitude_m": 1670
+      },
+      "description": {
+        "full": {
+          "ru": "Живописное водохранилище на высоте 1670 м в верхней части Кассарского ущелья, созданное в 2009 году в результате строительства Зарамагской ГЭС. Цвет воды меняется от бирюзового до стального в зависимости от сезона и освещения. На смотровой площадке установлен арт-объект — объёмный портрет поэта Коста Хетагурова, различимый с большого расстояния. Близость к границе с Южной Осетией — необходим паспорт.",
+          "en": "A scenic reservoir at 1,670 m altitude in the upper part of Kassarsky Gorge, created in 2009 with the construction of the Zaramag hydroelectric station. Water color shifts from turquoise to steel depending on season and lighting. At the viewpoint stands an art installation — a 3D portrait of the poet Kosta Khetagurov, visible from a distance. Close to the South Ossetia border — passport required."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "Из Владикавказа по Транскавказской магистрали (~100 км). После Бурона ехать прямо (не сворачивая к Цею) в сторону Южной Осетии. Дорога хорошо асфальтирована.",
+          "en": "From Vladikavkaz via Trans-Caucasus highway (~100 km). After Buron, continue straight (don't turn to Tsey) toward South Ossetia. Well-paved road."
+        },
+        "best_time": {
+          "ru": "Май-октябрь (бирюзовый цвет наиболее яркий летом).",
+          "en": "May-October (turquoise color most vivid in summer)."
+        },
+        "viewpoints": {
+          "ru": "Смотровая площадка с арт-объектом Коста Хетагурова расположена на дороге вдоль водохранилища.",
+          "en": "Viewing platform with Kosta Khetagurov art installation located along the road by the reservoir."
+        },
+        "entry_fee": {
+          "ru": "Бесплатно. Необходим паспорт.",
+          "en": "Free. Passport required."
+        }
+      }
+    },
+    {
+      "id": "poi-010",
+      "slug": "kurtatinsky-gorge",
+      "name": {
+        "ru": "Куртатинское ущелье",
+        "en": "Kurtatinsky Gorge"
+      },
+      "location": {
+        "lat": 42.8589,
+        "lng": 44.3056,
+        "nearest_settlement": {
+          "ru": "село Фиагдон / село Харисджин",
+          "en": "Fiagdon village / Kharisdzhin village"
+        },
+        "address": {
+          "ru": "Алагирский район, Северная Осетия-Алания",
+          "en": "Alagir District, North Ossetia-Alania"
+        },
+        "length_km": 50
+      },
+      "description": {
+        "full": {
+          "ru": "Одно из главных ущелий Осетии протяжённостью более 50 км вдоль реки Фиагдон, в 30 км к югу от Владикавказа. Ключевые остановки по маршруту: Каскадный водопад (рукотворный, с 1974 г.); Кадаргаванский каньон с «Тропой чудес»; село Дзивгис с крупнейшей на Кавказе наскальной крепостью; село Лац с амфитеатром «Собрание Нартов»; Аланский Успенский монастырь; Даргавс — «Город мёртвых». Ущелье — главная туристическая артерия республики.",
+          "en": "One of Ossetia's main gorges stretching over 50 km along the Fiagdon River, 30 km south of Vladikavkaz. Key stops along the route: Cascade waterfall (man-made, since 1974); Kadargavan Canyon with the 'Trail of Wonders'; Dzivgis village with the largest rock fortress in the Caucasus; Lats village with the 'Nart Assembly' amphitheater; Alanian Dormition Monastery; Dargavs — 'City of the Dead'. The gorge is the republic's main tourist artery."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "Из Владикавказа автобусом до села Харисджин (48 км, автовокзал №2) или на автомобиле.",
+          "en": "From Vladikavkaz by bus to Kharisdzhin village (48 km, bus station #2) or by car."
+        },
+        "best_time": {
+          "ru": "Май-август (оптимально), доступно круглый год.",
+          "en": "May-August (optimal), accessible year-round."
+        },
+        "key_stops": [
+          {
+            "name": { "ru": "Каскадный водопад", "en": "Cascade Waterfall" },
+            "note": { "ru": "Рукотворный, создан в 1974 г.", "en": "Man-made, created in 1974" }
+          },
+          {
+            "name": { "ru": "Кадаргаванский каньон", "en": "Kadargavan Canyon" },
+            "note": { "ru": "Тропа чудес, зеркальный барс", "en": "Trail of Wonders, mirror leopard" }
+          },
+          {
+            "name": { "ru": "Дзивгис", "en": "Dzivgis" },
+            "note": { "ru": "Наскальная крепость XIII-XVI вв.", "en": "Rock fortress 13th-16th century" }
+          },
+          {
+            "name": { "ru": "Лац", "en": "Lats" },
+            "note": { "ru": "Амфитеатр «Собрание Нартов»", "en": "Nart Assembly amphitheater" }
+          },
+          {
+            "name": { "ru": "Даргавс", "en": "Dargavs" },
+            "note": { "ru": "«Город мёртвых» — некрополь XIV-XVIII вв.", "en": "City of the Dead — necropolis 14th-18th c." }
+          }
+        ],
+        "entry_fee": {
+          "ru": "Вход свободный.",
+          "en": "Free entry."
+        }
+      }
+    },
+    {
+      "id": "poi-kadargavan",
+      "slug": "kadargavan-canyon",
+      "name": {
+        "ru": "Кадаргаванский каньон и «Тропа чудес»",
+        "en": "Kadargavan Canyon and Trail of Wonders"
+      },
+      "location": {
+        "lat": 42.8819,
+        "lng": 44.3261,
+        "nearest_settlement": {
+          "ru": "село Дзивгис / Фиагдон",
+          "en": "Dzivgis / Fiagdon village"
+        },
+        "address": {
+          "ru": "Куртатинское ущелье, Алагирский район",
+          "en": "Kurtatinsky Gorge, Alagir District"
+        }
+      },
+      "description": {
+        "full": {
+          "ru": "Узкий скальный каньон глубиной до 60 м и шириной около 2-4 м, через который протекает река Фиагдон. Протяжённость каньона — около 200 м. Главная достопримечательность — огромный камень, застрявший между стен теснины, на котором установлена скульптура «Зеркальный барс» (дикая кошка из бетона, покрытая зеркальными пластинами). Рядом оборудована «Тропа чудес» — пешеходный маршрут вдоль обрыва с деревянными настилами, перилами, мостом и смотровыми площадками.",
+          "en": "A narrow rock canyon up to 60 m deep and about 2-4 m wide, with the Fiagdon River flowing through it. Canyon length — about 200 m. The main attraction is a huge boulder wedged between the canyon walls, topped with a 'Mirror Leopard' sculpture (concrete wild cat covered in mirror tiles). Nearby, the 'Trail of Wonders' — a pedestrian route along the cliff edge with wooden walkways, railings, a bridge, and viewing platforms."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "46 км от Владикавказа по дороге в Куртатинское ущелье. На автомобиле или автобусом до Фиагдона.",
+          "en": "46 km from Vladikavkaz via the Kurtatinsky Gorge road. By car or bus to Fiagdon."
+        },
+        "best_time": {
+          "ru": "Круглый год, наиболее комфортно — май-октябрь.",
+          "en": "Year-round, most comfortable — May-October."
+        },
+        "entry_fee": {
+          "ru": "Тропа чудес: взрослые — 100 руб., дети — 50 руб.",
+          "en": "Trail of Wonders: adults — 100 RUB, children — 50 RUB."
+        }
+      }
+    },
+    {
+      "id": "poi-biragzang",
+      "slug": "biragzang-thermal-springs",
+      "name": {
+        "ru": "Термальные источники Бирагзанг",
+        "en": "Biragzang Thermal Springs"
+      },
+      "location": {
+        "lat": 42.9953,
+        "lng": 44.2286,
+        "nearest_settlement": {
+          "ru": "село Верхний Бирагзанг",
+          "en": "Verkhny Biragzang village"
+        },
+        "address": {
+          "ru": "Алагирский район, Северная Осетия-Алания",
+          "en": "Alagir District, North Ossetia-Alania"
+        }
+      },
+      "description": {
+        "full": {
+          "ru": "Термальный комплекс на базе горячего минерального источника в селе Верхний Бирагзанг. Вода поднимается с глубины более 2000 м. Три бассейна: основной (35-38°C), малый горячий (40-43°C) и холодный (5-15°C). Вода минерализована и считается лечебной. Открытые бассейны на фоне горных пейзажей. Также работает отель «Бирагзанг-Терма».",
+          "en": "A thermal complex built around a hot mineral spring in Verkhny Biragzang village. Water rises from over 2,000 m depth. Three pools: main (35-38°C), small hot (40-43°C), and cold (5-15°C). The water is mineral-rich and considered healing. Open-air pools against mountain scenery. The Biragzang-Terma hotel also operates on site."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "Из Владикавказа ~40 км по дороге в Алагир, затем поворот к селу Верхний Бирагзанг.",
+          "en": "From Vladikavkaz ~40 km toward Alagir, then turn to Verkhny Biragzang village."
+        },
+        "best_time": {
+          "ru": "Круглый год.",
+          "en": "Year-round."
+        },
+        "working_hours": {
+          "ru": "Пн, Пт: 10:00-23:00. Вт, Ср, Сб: 06:00-23:00. Чт, Вс: 06:00-22:00.",
+          "en": "Mon, Fri: 10:00-23:00. Tue, Wed, Sat: 06:00-23:00. Thu, Sun: 06:00-22:00."
+        },
+        "entry_fee": {
+          "ru": "250-500 руб./час (цены разнятся по источникам, уточнять по тел. +7 989 134-05-01). Парковка: 100 руб. Дети до 5 лет — бесплатно.",
+          "en": "250-500 RUB/hour (prices vary by source, confirm at +7 989 134-05-01). Parking: 100 RUB. Children under 5 — free."
+        },
+        "contact_phone": "+7 (989) 134-05-01"
+      }
+    },
+    {
+      "id": "poi-digora",
+      "slug": "digora-gorge",
+      "name": {
+        "ru": "Дигорское ущелье",
+        "en": "Digora Gorge"
+      },
+      "location": {
+        "lat": 42.9018,
+        "lng": 43.6196,
+        "nearest_settlement": {
+          "ru": "село Калух (вход в ущелье)",
+          "en": "Kalukh village (gorge entrance)"
+        },
+        "address": {
+          "ru": "Ирафский район, Северная Осетия-Алания",
+          "en": "Irafsky District, North Ossetia-Alania"
+        }
+      },
+      "description": {
+        "full": {
+          "ru": "Одно из красивейших ущелий Кавказа в бассейне реки Урух, в 120 км от Владикавказа. Ведёт к национальному парку «Алания». Въезд через узкий каньон Ахсинта и знаменитый Чёртов мост (высота 80 м над рекой). Ландшафтное разнообразие: альпийские луга, леса, озёра, водопады, ледники. Здесь расположены древние сёла Галиат, Камунта, Задалеск, Стур-Дигора. Менее посещаемо, чем Куртатинское ущелье — сохраняет нетронутую красоту.",
+          "en": "One of the most beautiful gorges in the Caucasus, in the Urukh River basin, 120 km from Vladikavkaz. Leads to Alania National Park. Entry through the narrow Akhsinta canyon and the famous Devil's Bridge (80 m above the river). Landscape diversity: alpine meadows, forests, lakes, waterfalls, glaciers. Ancient villages of Galiat, Kamunta, Zadalesk, and Stur-Digora. Less visited than Kurtatinsky Gorge — preserving untouched beauty."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "Из Владикавказа до села Калух (~1.5 часа), далее единственная дорога через каньон Ахсинта. Рекомендуется внедорожник для дальних участков.",
+          "en": "From Vladikavkaz to Kalukh village (~1.5 hours), then the only road through Akhsinta canyon. Off-road vehicle recommended for distant sections."
+        },
+        "best_time": {
+          "ru": "Июнь-сентябрь.",
+          "en": "June-September."
+        },
+        "key_viewpoints": [
+          {
+            "name": { "ru": "Чёртов мост (каньон Ахсинта)", "en": "Devil's Bridge (Akhsinta Canyon)" },
+            "note": { "ru": "Смотровая площадка, 80 м над рекой Урух", "en": "Viewpoint, 80 m above Urukh River" }
+          },
+          {
+            "name": { "ru": "Гора Кубус", "en": "Mount Kubus" },
+            "note": { "ru": "3 смотровые площадки: виды на Суганский хребет и водопады", "en": "3 viewpoints: views of Sugan range and waterfalls" }
+          }
+        ],
+        "entry_fee": {
+          "ru": "Вход свободный. Нацпарк «Алания» — 250 руб.",
+          "en": "Free access. Alania National Park — 250 RUB."
+        }
+      }
+    },
+    {
+      "id": "poi-three-sisters",
+      "slug": "three-sisters-taimazi-waterfalls",
+      "name": {
+        "ru": "Водопады «Три сестры» (Таймазинские)",
+        "en": "Three Sisters (Taimazi) Waterfalls"
+      },
+      "location": {
+        "lat": 42.8803,
+        "lng": 43.5878,
+        "nearest_settlement": {
+          "ru": "турбаза «Порог неба» / село Стур-Дигора",
+          "en": "Porog Neba tourist base / Stur-Digora village"
+        },
+        "address": {
+          "ru": "Дигорское ущелье, нацпарк «Алания», Ирафский район",
+          "en": "Digora Gorge, Alania National Park, Irafsky District"
+        },
+        "altitude_m": 2200
+      },
+      "description": {
+        "full": {
+          "ru": "Три мощных водопада на северном склоне горного массива Таймази, ниспадающие с высоты ~300 м. Расположены на расстоянии ~200 м друг от друга. Образованы тающим ледником — три серебристых потока спускаются по склону как три косы. Наиболее впечатляющи в июле-августе, когда ледник тает быстрее. В 2026 году запланировано открытие новой экотропы, соединяющей водопады и минеральный источник «Хумес».",
+          "en": "Three powerful waterfalls on the northern slope of the Taimazi mountain massif, cascading from ~300 m height. Spaced ~200 m apart. Formed by a melting glacier — three silvery streams descend like braids. Most impressive in July-August when the glacier melts faster. A new eco-trail connecting the waterfalls to the Khumes mineral spring is planned for 2026."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "Из Владикавказа до села Стур-Дигора (асфальт), далее по грунтовке до турбазы «Порог неба». От турбазы — тропа на юг к массиву Таймази. Дистанция: 5.2 км, набор высоты: 180 м.",
+          "en": "From Vladikavkaz to Stur-Digora village (paved), then gravel road to Porog Neba tourist base. From the base — trail south toward Taimazi massif. Distance: 5.2 km, elevation gain: 180 m."
+        },
+        "best_time": {
+          "ru": "Июль-август (максимальная полноводность).",
+          "en": "July-August (peak water flow)."
+        },
+        "trail_length_km": 5.2,
+        "trail_elevation_gain_m": 180,
+        "trail_duration_hours": 4,
+        "trail_difficulty": {
+          "ru": "Простой",
+          "en": "Easy"
+        },
+        "entry_fee": {
+          "ru": "Входной билет в нацпарк «Алания» — 250 руб.",
+          "en": "Alania National Park entry — 250 RUB."
+        }
+      }
+    },
+    {
+      "id": "poi-kassarsky",
+      "slug": "kassarsky-gorge",
+      "name": {
+        "ru": "Кассарское ущелье",
+        "en": "Kassarsky Gorge"
+      },
+      "location": {
+        "lat": 42.7053,
+        "lng": 43.9744,
+        "nearest_settlement": {
+          "ru": "село Бурон (устье р. Цей) — село Нижний Зарамаг",
+          "en": "Buron village (Tsey river mouth) — Nizhny Zaramag village"
+        },
+        "address": {
+          "ru": "Алагирский район, Северная Осетия-Алания",
+          "en": "Alagir District, North Ossetia-Alania"
+        }
+      },
+      "description": {
+        "full": {
+          "ru": "Скалистое ущелье в долине реки Ардон между селениями Бурон и Зарамаг на северном склоне Большого Кавказа. Одно из наиболее узких и глубоких ущелий Кавказа: глубина до 1000 м, крутизна склонов 45° и более. Через ущелье проходит Транскавказская автомагистраль. Историческая граница между северной Двалетией и осетинским Уалладжиром. Кассарская заградительная стена — средневековое фортификационное сооружение с каменными воротами («Кари», т.е. «двери»).",
+          "en": "A rocky gorge in the Ardon River valley between Buron and Zaramag villages on the northern slope of the Greater Caucasus. One of the narrowest and deepest gorges in the Caucasus: depth up to 1,000 m, slope steepness 45° or more. The Trans-Caucasus Highway passes through the gorge. Historical border between northern Dvaleti and Ossetian Ualladzhir. The Kassarsky barrier wall is a medieval fortification with stone gates ('Kari', meaning 'doors')."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "По Транскавказской автомагистрали из Владикавказа (~80-100 км). Ущелье начинается после Бурона.",
+          "en": "Via Trans-Caucasus Highway from Vladikavkaz (~80-100 km). Gorge starts after Buron."
+        },
+        "best_time": {
+          "ru": "Круглый год (дорога работает круглогодично).",
+          "en": "Year-round (road operates year-round)."
+        },
+        "notable_stops": [
+          {
+            "name": { "ru": "Святилище Мыкалгабырта", "en": "Mykalgabyrta Sanctuary" }
+          },
+          {
+            "name": { "ru": "Кассарская заградительная стена", "en": "Kassarsky Barrier Wall" }
+          },
+          {
+            "name": { "ru": "Плотина Зарамагской ГЭС", "en": "Zaramag Hydroelectric Dam" }
+          },
+          {
+            "name": { "ru": "Памятник З. Магкаеву", "en": "Z. Magkaev Monument" },
+            "note": { "ru": "Глава осетинского посольства в Санкт-Петербурге 1749-1752", "en": "Head of Ossetian embassy in Saint Petersburg 1749-1752" }
+          }
+        ],
+        "entry_fee": {
+          "ru": "Бесплатно.",
+          "en": "Free."
+        }
+      }
+    },
+    {
+      "id": "poi-karmadon-thermal",
+      "slug": "karmadon-thermal-baths",
+      "name": {
+        "ru": "Кармадонские термальные ванны",
+        "en": "Karmadon Thermal Baths"
+      },
+      "location": {
+        "lat": 42.7350,
+        "lng": 44.5240,
+        "nearest_settlement": {
+          "ru": "село Кармадон (нижние ванны); 10 км от ближайшего населённого пункта",
+          "en": "Karmadon village (lower baths); 10 km from nearest settlement"
+        },
+        "address": {
+          "ru": "Геналдонское ущелье, Пригородный район, Северная Осетия-Алания",
+          "en": "Genaldon Gorge, Prigorodny District, North Ossetia-Alania"
+        }
+      },
+      "description": {
+        "full": {
+          "ru": "Два уровня термальных источников в Геналдонском ущелье: Нижние Кармадонские ванны (1645 м, доступнее) и Верхние (2272 м, одни из самых высокогорных в регионе). Температура воды 40-60°C. Вода по минеральному составу сопоставима с Баден-Баденом. Относительная труднодоступность — подъём по горной тропе несколько часов. Мало людей, дикая природа. Объект находится в пограничной зоне — необходим пропуск.",
+          "en": "Two levels of thermal springs in Genaldon Gorge: Lower Karmadon Baths (1,645 m, more accessible) and Upper (2,272 m, among the highest-altitude in the region). Water temperature 40-60°C. Mineral composition comparable to Baden-Baden. Relatively difficult access — several hours climbing mountain trails. Few visitors, wild nature. Border zone — permit required."
+        }
+      },
+      "practical_info": {
+        "how_to_get_there": {
+          "ru": "Из Владикавказа до Кармадона на машине, далее пеший маршрут (несколько часов) по горной тропе. Организованные походы: 4-5 дней.",
+          "en": "From Vladikavkaz to Karmadon by car, then a hiking route (several hours) along mountain trails. Organized treks: 4-5 days."
+        },
+        "best_time": {
+          "ru": "Июнь-сентябрь.",
+          "en": "June-September."
+        },
+        "entry_fee": {
+          "ru": "Бесплатно (дикие источники, необорудованные). Организованные походы: от 6 930 до 13 590 руб. (4-5 дней). Экскурсии из Владикавказа: от 2 700 руб.",
+          "en": "Free (wild, unequipped springs). Organized treks: from 6,930 to 13,590 RUB (4-5 days). Excursions from Vladikavkaz: from 2,700 RUB."
+        },
+        "permits": {
+          "ru": "Необходим пограничный пропуск. Оформляется заранее.",
+          "en": "Border permit required. Must be arranged in advance."
+        },
+        "availability_note": {
+          "ru": "Нижние ванны доступнее, Верхние требуют серьёзной подготовки. Инфраструктура отсутствует — всё необходимое нести с собой.",
+          "en": "Lower baths are more accessible, Upper require serious preparation. No infrastructure — bring everything you need."
+        }
+      }
+    }
+  ]
+}

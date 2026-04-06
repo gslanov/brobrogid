@@ -1,0 +1,829 @@
+{
+  "routes": [
+    {
+      "id": "route-001",
+      "number": "15",
+      "name": {
+        "ru": "Маршрутка №15: Аэропорт — Центр — Южный район",
+        "en": "Marshrutka #15: Airport — Center — Southern District"
+      },
+      "type": "marshrutka",
+      "fare": 30,
+      "currency": "RUB",
+      "color": "#FF6B35",
+      "schedule": {
+        "weekday": "06:00-22:00",
+        "weekend": "07:00-21:00"
+      },
+      "frequency": {
+        "ru": "Каждые 10-15 минут",
+        "en": "Every 10-15 minutes"
+      },
+      "hours": "06:00-22:00",
+      "stops": [
+        {
+          "name": {
+            "ru": "Аэропорт Беслан",
+            "en": "Beslan Airport"
+          },
+          "location": {
+            "lat": 43.2052,
+            "lng": 44.6065
+          }
+        },
+        {
+          "name": {
+            "ru": "Автовокзал",
+            "en": "Bus Station"
+          },
+          "location": {
+            "lat": 43.0458,
+            "lng": 44.6505
+          }
+        },
+        {
+          "name": {
+            "ru": "ул. Кирова",
+            "en": "Kirova St."
+          },
+          "location": {
+            "lat": 43.042,
+            "lng": 44.656
+          }
+        },
+        {
+          "name": {
+            "ru": "ЦУМ",
+            "en": "Central Department Store"
+          },
+          "location": {
+            "lat": 43.0388,
+            "lng": 44.6625
+          }
+        },
+        {
+          "name": {
+            "ru": "пр. Мира / Горького",
+            "en": "Mira Ave. / Gorky"
+          },
+          "location": {
+            "lat": 43.037,
+            "lng": 44.6678
+          }
+        },
+        {
+          "name": {
+            "ru": "Набережная Терека",
+            "en": "Terek Embankment"
+          },
+          "location": {
+            "lat": 43.035,
+            "lng": 44.669
+          }
+        },
+        {
+          "name": {
+            "ru": "Площадь Ленина",
+            "en": "Lenin Square"
+          },
+          "location": {
+            "lat": 43.0335,
+            "lng": 44.672
+          }
+        },
+        {
+          "name": {
+            "ru": "ул. Барбашова",
+            "en": "Barbashova St."
+          },
+          "location": {
+            "lat": 43.0298,
+            "lng": 44.6812
+          }
+        },
+        {
+          "name": {
+            "ru": "Южный район",
+            "en": "Southern District"
+          },
+          "location": {
+            "lat": 43.024,
+            "lng": 44.687
+          }
+        }
+      ]
+    },
+    {
+      "id": "route-002",
+      "number": "21",
+      "name": {
+        "ru": "Маршрутка №21: ЖД Вокзал — Проспект Мира — Редант",
+        "en": "Marshrutka #21: Railway Station — Mira Ave. — Redant"
+      },
+      "type": "marshrutka",
+      "fare": 30,
+      "currency": "RUB",
+      "frequency": {
+        "ru": "Каждые 8-12 минут",
+        "en": "Every 8-12 minutes"
+      },
+      "hours": "06:00-22:30",
+      "stops": [
+        {
+          "name": {
+            "ru": "ЖД Вокзал",
+            "en": "Railway Station"
+          },
+          "location": {
+            "lat": 43.0435,
+            "lng": 44.673
+          }
+        },
+        {
+          "name": {
+            "ru": "ул. Маркуса",
+            "en": "Markusa St."
+          },
+          "location": {
+            "lat": 43.0415,
+            "lng": 44.6715
+          }
+        },
+        {
+          "name": {
+            "ru": "Парк Хетагурова",
+            "en": "Khetagurov Park"
+          },
+          "location": {
+            "lat": 43.04,
+            "lng": 44.665
+          }
+        },
+        {
+          "name": {
+            "ru": "пр. Мира / Джанаева",
+            "en": "Mira Ave. / Dzhanaeva"
+          },
+          "location": {
+            "lat": 43.0372,
+            "lng": 44.6665
+          }
+        },
+        {
+          "name": {
+            "ru": "пр. Мира / Горького",
+            "en": "Mira Ave. / Gorky"
+          },
+          "location": {
+            "lat": 43.037,
+            "lng": 44.6678
+          }
+        },
+        {
+          "name": {
+            "ru": "пр. Мира / Церетели",
+            "en": "Mira Ave. / Tsereteli"
+          },
+          "location": {
+            "lat": 43.0358,
+            "lng": 44.6695
+          }
+        },
+        {
+          "name": {
+            "ru": "Мечеть Мухтарова",
+            "en": "Mukhtarov Mosque"
+          },
+          "location": {
+            "lat": 43.034,
+            "lng": 44.672
+          }
+        },
+        {
+          "name": {
+            "ru": "ул. Ватутина",
+            "en": "Vatutina St."
+          },
+          "location": {
+            "lat": 43.031,
+            "lng": 44.676
+          }
+        },
+        {
+          "name": {
+            "ru": "Редант",
+            "en": "Redant"
+          },
+          "location": {
+            "lat": 43.025,
+            "lng": 44.685
+          }
+        }
+      ],
+      "color": "#2E86AB",
+      "schedule": {
+        "weekday": "06:00-22:30",
+        "weekend": "06:00-22:30"
+      }
+    },
+    {
+      "id": "route-003",
+      "number": "35",
+      "name": {
+        "ru": "Автобус №35: Северо-западный — Центр — Молоканка",
+        "en": "Bus #35: Northwest — Center — Molokanka"
+      },
+      "type": "bus",
+      "fare": 30,
+      "currency": "RUB",
+      "frequency": {
+        "ru": "Каждые 12-18 минут",
+        "en": "Every 12-18 minutes"
+      },
+      "hours": "06:30-21:30",
+      "stops": [
+        {
+          "name": {
+            "ru": "Северо-западный район",
+            "en": "Northwestern District"
+          },
+          "location": {
+            "lat": 43.052,
+            "lng": 44.642
+          }
+        },
+        {
+          "name": {
+            "ru": "ул. Пушкинская",
+            "en": "Pushkinskaya St."
+          },
+          "location": {
+            "lat": 43.049,
+            "lng": 44.648
+          }
+        },
+        {
+          "name": {
+            "ru": "Автовокзал",
+            "en": "Bus Station"
+          },
+          "location": {
+            "lat": 43.0458,
+            "lng": 44.6505
+          }
+        },
+        {
+          "name": {
+            "ru": "ул. Кирова / Тамаева",
+            "en": "Kirova / Tamaeva"
+          },
+          "location": {
+            "lat": 43.041,
+            "lng": 44.658
+          }
+        },
+        {
+          "name": {
+            "ru": "пр. Мира / Бутырина",
+            "en": "Mira Ave. / Butyrina"
+          },
+          "location": {
+            "lat": 43.0375,
+            "lng": 44.6658
+          }
+        },
+        {
+          "name": {
+            "ru": "Площадь Свободы",
+            "en": "Freedom Square"
+          },
+          "location": {
+            "lat": 43.036,
+            "lng": 44.67
+          }
+        },
+        {
+          "name": {
+            "ru": "Дендрарий",
+            "en": "Dendrarium"
+          },
+          "location": {
+            "lat": 43.032,
+            "lng": 44.674
+          }
+        },
+        {
+          "name": {
+            "ru": "Молоканка",
+            "en": "Molokanka"
+          },
+          "location": {
+            "lat": 43.028,
+            "lng": 44.678
+          }
+        }
+      ],
+      "color": "#A23B72",
+      "schedule": {
+        "weekday": "06:30-21:30",
+        "weekend": "06:30-21:30"
+      }
+    },
+    {
+      "id": "route-004",
+      "number": "8",
+      "name": {
+        "ru": "Маршрутка №8: Промышленный — Центральный рынок — Горбольница",
+        "en": "Marshrutka #8: Industrial — Central Market — City Hospital"
+      },
+      "type": "marshrutka",
+      "fare": 30,
+      "currency": "RUB",
+      "frequency": {
+        "ru": "Каждые 10-15 минут",
+        "en": "Every 10-15 minutes"
+      },
+      "hours": "06:00-21:00",
+      "stops": [
+        {
+          "name": {
+            "ru": "Промышленный район",
+            "en": "Industrial District"
+          },
+          "location": {
+            "lat": 43.056,
+            "lng": 44.658
+          }
+        },
+        {
+          "name": {
+            "ru": "ул. Калинина",
+            "en": "Kalinina St."
+          },
+          "location": {
+            "lat": 43.05,
+            "lng": 44.66
+          }
+        },
+        {
+          "name": {
+            "ru": "Центральный рынок",
+            "en": "Central Market"
+          },
+          "location": {
+            "lat": 43.043,
+            "lng": 44.6605
+          }
+        },
+        {
+          "name": {
+            "ru": "ул. Кирова / Маркуса",
+            "en": "Kirova / Markusa"
+          },
+          "location": {
+            "lat": 43.04,
+            "lng": 44.664
+          }
+        },
+        {
+          "name": {
+            "ru": "пр. Мира (центр)",
+            "en": "Mira Ave. (center)"
+          },
+          "location": {
+            "lat": 43.0367,
+            "lng": 44.6678
+          }
+        },
+        {
+          "name": {
+            "ru": "ул. Коста Хетагурова",
+            "en": "Kosta Khetagurov St."
+          },
+          "location": {
+            "lat": 43.0345,
+            "lng": 44.67
+          }
+        },
+        {
+          "name": {
+            "ru": "Городская больница",
+            "en": "City Hospital"
+          },
+          "location": {
+            "lat": 43.031,
+            "lng": 44.659
+          }
+        }
+      ],
+      "color": "#F18F01",
+      "schedule": {
+        "weekday": "06:00-21:00",
+        "weekend": "06:00-21:00"
+      }
+    },
+    {
+      "id": "route-005",
+      "number": "50",
+      "name": {
+        "ru": "Автобус №50: Владикавказ — Беслан (пригородный)",
+        "en": "Bus #50: Vladikavkaz — Beslan (suburban)"
+      },
+      "type": "bus",
+      "fare": 50,
+      "currency": "RUB",
+      "frequency": {
+        "ru": "Каждые 20-30 минут",
+        "en": "Every 20-30 minutes"
+      },
+      "hours": "06:00-20:00",
+      "stops": [
+        {
+          "name": {
+            "ru": "Автовокзал Владикавказ",
+            "en": "Vladikavkaz Bus Station"
+          },
+          "location": {
+            "lat": 43.0458,
+            "lng": 44.6505
+          }
+        },
+        {
+          "name": {
+            "ru": "Выезд из города",
+            "en": "City Exit"
+          },
+          "location": {
+            "lat": 43.06,
+            "lng": 44.64
+          }
+        },
+        {
+          "name": {
+            "ru": "с. Карджин",
+            "en": "Kardzhin village"
+          },
+          "location": {
+            "lat": 43.11,
+            "lng": 44.62
+          }
+        },
+        {
+          "name": {
+            "ru": "Беслан (центр)",
+            "en": "Beslan (center)"
+          },
+          "location": {
+            "lat": 43.1857,
+            "lng": 44.5433
+          }
+        },
+        {
+          "name": {
+            "ru": "Аэропорт Владикавказ",
+            "en": "Vladikavkaz Airport"
+          },
+          "location": {
+            "lat": 43.2052,
+            "lng": 44.6065
+          }
+        }
+      ],
+      "color": "#3B7A57",
+      "schedule": {
+        "weekday": "06:00-20:00",
+        "weekend": "06:00-20:00"
+      }
+    },
+    {
+      "id": "route-006",
+      "number": "12",
+      "name": {
+        "ru": "Маршрутка №12: Владикавказ — Чми — Балта",
+        "en": "Marshrutka #12: Vladikavkaz — Chmi — Balta"
+      },
+      "type": "marshrutka",
+      "fare": 45,
+      "currency": "RUB",
+      "frequency": {
+        "ru": "Каждые 30-40 минут",
+        "en": "Every 30-40 minutes"
+      },
+      "hours": "07:00-19:00",
+      "stops": [
+        {
+          "name": {
+            "ru": "Автовокзал Владикавказ",
+            "en": "Vladikavkaz Bus Station"
+          },
+          "location": {
+            "lat": 43.0458,
+            "lng": 44.6505
+          }
+        },
+        {
+          "name": {
+            "ru": "с. Чми",
+            "en": "Chmi village"
+          },
+          "location": {
+            "lat": 42.965,
+            "lng": 44.66
+          }
+        },
+        {
+          "name": {
+            "ru": "с. Балта",
+            "en": "Balta village"
+          },
+          "location": {
+            "lat": 42.92,
+            "lng": 44.65
+          }
+        }
+      ],
+      "color": "#8B4513",
+      "schedule": {
+        "weekday": "07:00-19:00",
+        "weekend": "07:00-19:00"
+      }
+    },
+    {
+      "id": "route-007",
+      "number": "Алагир",
+      "name": {
+        "ru": "Автобус Владикавказ — Алагир",
+        "en": "Bus Vladikavkaz — Alagir"
+      },
+      "type": "bus",
+      "fare": 120,
+      "currency": "RUB",
+      "color": "#8B0000",
+      "schedule": {
+        "weekday": "07:00-19:00",
+        "weekend": "08:00-18:00"
+      },
+      "frequency": {
+        "ru": "Каждые 40-60 минут",
+        "en": "Every 40-60 minutes"
+      },
+      "hours": "07:00-19:00",
+      "stops": [
+        {
+          "name": {
+            "ru": "Автовокзал Владикавказ",
+            "en": "Vladikavkaz Bus Station"
+          },
+          "location": {
+            "lat": 43.0458,
+            "lng": 44.6505
+          }
+        },
+        {
+          "name": {
+            "ru": "Ардон",
+            "en": "Ardon"
+          },
+          "location": {
+            "lat": 43.177,
+            "lng": 44.296
+          }
+        },
+        {
+          "name": {
+            "ru": "Алагир",
+            "en": "Alagir"
+          },
+          "location": {
+            "lat": 43.0389,
+            "lng": 44.2203
+          }
+        }
+      ]
+    },
+    {
+      "id": "route-008",
+      "number": "Дигора",
+      "name": {
+        "ru": "Автобус Владикавказ — Дигора — Чикола",
+        "en": "Bus Vladikavkaz — Digora — Chikola"
+      },
+      "type": "bus",
+      "fare": 150,
+      "currency": "RUB",
+      "color": "#006400",
+      "schedule": {
+        "weekday": "07:30-18:00",
+        "weekend": "08:00-17:00"
+      },
+      "frequency": {
+        "ru": "3-4 рейса в день",
+        "en": "3-4 departures per day"
+      },
+      "hours": "07:30-18:00",
+      "stops": [
+        {
+          "name": {
+            "ru": "Автовокзал Владикавказ",
+            "en": "Vladikavkaz Bus Station"
+          },
+          "location": {
+            "lat": 43.0458,
+            "lng": 44.6505
+          }
+        },
+        {
+          "name": {
+            "ru": "Дигора",
+            "en": "Digora"
+          },
+          "location": {
+            "lat": 43.157,
+            "lng": 44.153
+          }
+        },
+        {
+          "name": {
+            "ru": "Чикола",
+            "en": "Chikola"
+          },
+          "location": {
+            "lat": 43.078,
+            "lng": 44.063
+          }
+        }
+      ]
+    },
+    {
+      "id": "route-009",
+      "number": "Фиагдон",
+      "name": {
+        "ru": "Автобус Владикавказ — Верхний Фиагдон",
+        "en": "Bus Vladikavkaz — Upper Fiagdon"
+      },
+      "type": "bus",
+      "fare": 100,
+      "currency": "RUB",
+      "color": "#4169E1",
+      "schedule": {
+        "weekday": "08:00, 14:00",
+        "weekend": "08:00, 14:00"
+      },
+      "frequency": {
+        "ru": "2 рейса в день (08:00, 14:00)",
+        "en": "2 departures daily (08:00, 14:00)"
+      },
+      "hours": "08:00-18:00",
+      "stops": [
+        {
+          "name": {
+            "ru": "Автовокзал Владикавказ",
+            "en": "Vladikavkaz Bus Station"
+          },
+          "location": {
+            "lat": 43.0458,
+            "lng": 44.6505
+          }
+        },
+        {
+          "name": {
+            "ru": "Тагардон",
+            "en": "Tagardon"
+          },
+          "location": {
+            "lat": 42.97,
+            "lng": 44.58
+          }
+        },
+        {
+          "name": {
+            "ru": "Дзуарикау",
+            "en": "Dzuarikau"
+          },
+          "location": {
+            "lat": 42.92,
+            "lng": 44.52
+          }
+        },
+        {
+          "name": {
+            "ru": "Верхний Фиагдон",
+            "en": "Upper Fiagdon"
+          },
+          "location": {
+            "lat": 42.835,
+            "lng": 44.312
+          }
+        }
+      ]
+    }
+  ],
+  "taxis": [
+    {
+      "name": {
+        "ru": "Яндекс Такси",
+        "en": "Yandex Taxi"
+      },
+      "app": "yandex.taxi",
+      "phone": "+7 (8672) 333-330",
+      "avgPriceKm": 9.6,
+      "minFare": 79,
+      "currency": "RUB",
+      "description": {
+        "ru": "Самое популярное такси. Работает через приложение. Минимальная поездка 79 руб.",
+        "en": "Most popular taxi. Works via app. Minimum fare 79 RUB."
+      }
+    },
+    {
+      "name": {
+        "ru": "Максим",
+        "en": "Maxim Taxi"
+      },
+      "app": "taximaxim",
+      "phone": "+7 (8672) 33-33-33",
+      "avgPriceKm": 8,
+      "minFare": 30,
+      "currency": "RUB",
+      "description": {
+        "ru": "Бюджетное такси с возможностью заказа по телефону. От 30 руб.",
+        "en": "Budget taxi with phone booking. From 30 RUB."
+      }
+    },
+    {
+      "name": {
+        "ru": "Вариант",
+        "en": "Variant Taxi"
+      },
+      "phone": "+7 (8672) 511-511",
+      "minFare": 60,
+      "currency": "RUB",
+      "description": {
+        "ru": "Местное такси, заказ по телефону.",
+        "en": "Local taxi service, phone booking."
+      }
+    },
+    {
+      "name": {
+        "ru": "Экономъ",
+        "en": "Ekonom Taxi"
+      },
+      "phone": "+7 (8672) 40-40-40",
+      "minFare": 60,
+      "currency": "RUB",
+      "description": {
+        "ru": "Бюджетное такси. Минимум 60 руб.",
+        "en": "Budget taxi. Minimum 60 RUB."
+      }
+    },
+    {
+      "name": {
+        "ru": "АББАТ Межгород",
+        "en": "ABBAT Intercity"
+      },
+      "phone": "+7 (993) 299-00-13",
+      "minFare": 30,
+      "currency": "RUB",
+      "description": {
+        "ru": "Межгородские поездки и трансферы.",
+        "en": "Intercity trips and transfers."
+      }
+    }
+  ],
+  "tips": [
+    {
+      "ru": "Маршрутки — основной транспорт. Остановку можно попросить в любом месте маршрута.",
+      "en": "Marshrutkas are the main transport. You can request a stop anywhere along the route."
+    },
+    {
+      "ru": "Оплата наличными водителю при выходе. Стоимость проезда — 30 руб. с октября 2024.",
+      "en": "Pay cash to the driver when exiting. Fare is 30 RUB since October 2024."
+    },
+    {
+      "ru": "В горные ущелья общественный транспорт не ходит — только такси или экскурсионные туры.",
+      "en": "Public transport doesn't go to mountain gorges — only taxis or guided tours."
+    },
+    {
+      "ru": "Аэропорт в Беслане, 25 км от центра. Автобус 126а (37 руб, 12:00/18:00), такси ~1000 руб.",
+      "en": "Airport is in Beslan, 25km from center. Bus 126a (37 RUB, 12:00/18:00), taxi ~1000 RUB."
+    },
+    {
+      "ru": "Автовокзал: Архонское шоссе, 1. Рейсы в Фиагдон (08:00, 12:00, 14:30), Цей (06:45, 15:20).",
+      "en": "Bus station: Arkhonskoe hwy, 1. Routes to Fiagdon (08:00, 12:00, 14:30), Tsey (06:45, 15:20)."
+    }
+  ],
+  "rentals": [
+    {
+      "name": {
+        "ru": "Прокат авто Владикавказ",
+        "en": "Car Rental Vladikavkaz"
+      },
+      "phone": "8 (928) 069-00-00",
+      "priceFrom": 2500,
+      "currency": "RUB",
+      "description": {
+        "ru": "Аренда автомобилей от 2500 руб/сутки. Внедорожники для горных маршрутов.",
+        "en": "Car rental from 2500 RUB/day. SUVs available for mountain routes."
+      }
+    }
+  ]
+}

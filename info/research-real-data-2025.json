@@ -1,0 +1,629 @@
+{
+  "_meta": {
+    "description": "Verified real data for Vladikavkaz & North Ossetia — cultural sites, transport, emergency, activities. Researched April 2026 from web sources.",
+    "lastUpdated": "2026-04-06",
+    "note": "Prices and hours may change. Verify critical data before production use."
+  },
+
+  "culturalSites": [
+    {
+      "id": "national-museum",
+      "name": { "ru": "Национальный музей РСО-Алания", "en": "National Museum of North Ossetia-Alania" },
+      "address": { "ru": "пр-т Мира, 11, Владикавказ", "en": "11 Mira Ave, Vladikavkaz" },
+      "phone": "+7 (8672) 77-25-15",
+      "coordinates": { "lat": 43.0370, "lng": 44.6680 },
+      "hours": {
+        "ru": "Вт-Вс: 10:00-18:00, Пн — выходной",
+        "en": "Tue-Sun: 10:00-18:00, Mon — closed"
+      },
+      "tickets": {
+        "adult": 200,
+        "student": 100,
+        "pensioner": 100,
+        "child_7_18": 50,
+        "currency": "RUB",
+        "excursion_group": 300,
+        "freeDay": { "ru": "Последний четверг месяца — бесплатно для лиц до 18 лет", "en": "Last Thursday of month — free for under 18" }
+      },
+      "website": "https://xn--80aaaujekkmhb8etb1i.xn--p1ai/",
+      "description": {
+        "ru": "Крупнейший музей республики с богатой коллекцией археологических находок от кобанской бронзы до аланских артефактов, этнографическими экспозициями, отделами природы и истории. Расположен в историческом здании на центральном проспекте. Основан в 1893 году. Принимает Пушкинскую карту (билеты только онлайн).",
+        "en": "The largest museum in the republic with a rich collection of archaeological finds from Koban bronzes to Alanian artifacts, ethnographic exhibits, nature and history departments. Located in a historic building on the central avenue. Founded in 1893. Accepts Pushkin Card (online tickets only)."
+      },
+      "source": "https://xn--80aaaujekkmhb8etb1i.xn--p1ai/posetit-muzei%CC%86/ticket-price/"
+    },
+    {
+      "id": "tuganov-art-museum",
+      "name": { "ru": "Художественный музей им. М.С. Туганова", "en": "Tuganov Art Museum" },
+      "address": { "ru": "пр-т Мира, 12, Владикавказ", "en": "12 Mira Ave, Vladikavkaz" },
+      "phone": "+7 (8672) 53-02-79",
+      "additionalPhones": ["+7 (8672) 53-01-82", "+7 (8672) 53-58-67"],
+      "coordinates": { "lat": 43.0368, "lng": 44.6685 },
+      "hours": {
+        "ru": "Чт-Вт: 11:00-18:00, Ср — выходной",
+        "en": "Thu-Tue: 11:00-18:00, Wed — closed"
+      },
+      "tickets": {
+        "adult": 100,
+        "child_pensioner": 60,
+        "excursion_per_person": 300,
+        "currency": "RUB",
+        "freeDay": { "ru": "Последний четверг месяца — бесплатно для лиц до 18 лет", "en": "Last Thursday of month — free for under 18" },
+        "note": "Prices from 2023, may have increased"
+      },
+      "website": "http://www.hudmuz15.ru",
+      "description": {
+        "ru": "Музей с коллекцией осетинского и русского изобразительного искусства, включая работы Махарбека Туганова — основоположника осетинской профессиональной живописи. Экспозиция включает русское искусство XVIII-XX вв., западноевропейскую графику, осетинское декоративно-прикладное искусство.",
+        "en": "Museum with a collection of Ossetian and Russian fine art, including works by Makharbek Tuganov — the founder of Ossetian professional painting. The exhibition includes Russian art from the 18th-20th centuries, Western European graphics, and Ossetian decorative and applied arts."
+      },
+      "source": "https://www.culture.ru/institutes/11070/khudozhestvennyi-muzei-im-makharbeka-tuganova"
+    },
+    {
+      "id": "vakhtangov-theater",
+      "name": { "ru": "Академический русский театр им. Е. Вахтангова", "en": "Vakhtangov Academic Russian Theater" },
+      "address": { "ru": "пл. Ленина, 3, Владикавказ", "en": "3 Lenin Square, Vladikavkaz" },
+      "phone": "+7 (8672) 54-81-25",
+      "additionalPhones": ["+7 (8672) 53-24-75", "+7 (8672) 53-76-81"],
+      "coordinates": { "lat": 43.0350, "lng": 44.6710 },
+      "hours": {
+        "ru": "Касса: ежедневно, спектакли по расписанию",
+        "en": "Box office: daily, shows per schedule"
+      },
+      "tickets": {
+        "note": { "ru": "Цены варьируются от 300 до 1500 руб. в зависимости от спектакля", "en": "Prices range from 300 to 1500 RUB depending on the show" }
+      },
+      "website": "https://teatr15.ru/",
+      "description": {
+        "ru": "Старейший драматический театр на Северном Кавказе, основан в 1869 году. Зал на 300 мест. Именно на этой сцене начинал свою карьеру великий Евгений Вахтангов. Репертуар включает русскую и мировую классику, современную драматургию.",
+        "en": "The oldest drama theater in the North Caucasus, founded in 1869. The hall seats 300. It was on this stage that the great Evgeny Vakhtangov began his career. The repertoire includes Russian and world classics, and contemporary drama."
+      },
+      "source": "https://teatr15.ru/"
+    },
+    {
+      "id": "ossetian-theater",
+      "name": { "ru": "Северо-Осетинский государственный академический театр им. В.В. Тхапсаева", "en": "V.V. Tkhapsaev North Ossetian State Academic Theater" },
+      "address": { "ru": "ул. Карла Маркса, 77, Владикавказ", "en": "77 Karl Marx St, Vladikavkaz" },
+      "phone": "+7 (8672) 55-14-68",
+      "additionalPhones": ["+7 (8672) 91-02-48"],
+      "email": "osteatr@mail.ru",
+      "coordinates": { "lat": 43.0385, "lng": 44.6625 },
+      "hours": {
+        "ru": "Касса: ежедневно, спектакли по расписанию",
+        "en": "Box office: daily, shows per schedule"
+      },
+      "tickets": {
+        "note": { "ru": "От 500 до 1200 руб.", "en": "500 to 1200 RUB" }
+      },
+      "website": "https://os-teatr.ru/",
+      "description": {
+        "ru": "Осетинский драматический театр, основан в 1935 году. Спектакли на осетинском языке (с субтитрами). Назван в честь народного артиста СССР Владимира Тхапсаева, прославившегося ролью Отелло. Уникальный театр, сохраняющий осетинскую театральную традицию.",
+        "en": "Ossetian drama theater, founded in 1935. Performances in Ossetian language (with subtitles). Named after People's Artist of the USSR Vladimir Tkhapsaev, famous for his role as Othello. A unique theater preserving the Ossetian theatrical tradition."
+      },
+      "source": "https://os-teatr.ru/contacts/"
+    },
+    {
+      "id": "philharmonic",
+      "name": { "ru": "Государственная филармония РСО-Алания (филиал Мариинского театра)", "en": "State Philharmonic of North Ossetia-Alania (Mariinsky Theater Branch)" },
+      "address": { "ru": "ул. Иристонская, 3, Владикавказ", "en": "3 Iristonskaya St, Vladikavkaz" },
+      "phone": "+7 (8672) 53-14-15",
+      "additionalPhones": ["8 800 234 28 38"],
+      "coordinates": { "lat": 43.0382, "lng": 44.6558 },
+      "hours": {
+        "ru": "Касса работает в дни концертов",
+        "en": "Box office open on concert days"
+      },
+      "tickets": {
+        "from": 400,
+        "currency": "RUB",
+        "note": { "ru": "Цена зависит от мероприятия", "en": "Price depends on event" }
+      },
+      "website": "https://alania.mariinsky.ru/",
+      "description": {
+        "ru": "Государственная филармония, являющаяся филиалом Мариинского театра. В концертном зале проходят симфонические концерты, выступления камерных ансамблей, гастрольные программы. Является главной концертной площадкой республики.",
+        "en": "The State Philharmonic, a branch of the Mariinsky Theater. The concert hall hosts symphonic concerts, chamber ensemble performances, and touring programs. It is the republic's main concert venue."
+      },
+      "source": "https://alania.mariinsky.ru/"
+    },
+    {
+      "id": "khetagurov-house-museum",
+      "name": { "ru": "Мемориальный дом-музей К.Л. Хетагурова", "en": "Kosta Khetagurov Memorial House-Museum" },
+      "address": { "ru": "ул. Бутырина, 19, Владикавказ", "en": "19 Butyrina St, Vladikavkaz" },
+      "phone": "+7 (928) 689-53-00",
+      "coordinates": { "lat": 43.0340, "lng": 44.6755 },
+      "hours": {
+        "ru": "Вт-Вс: 10:00-18:00, Пн — выходной",
+        "en": "Tue-Sun: 10:00-18:00, Mon — closed"
+      },
+      "tickets": {
+        "note": { "ru": "Входит в состав Национального музея РСО-Алания. Уточняйте цены по телефону.", "en": "Part of the National Museum of North Ossetia-Alania. Check prices by phone." }
+      },
+      "website": "https://xn--80aaaujekkmhb8etb1i.xn--p1ai/filialy/memorialnyj-dom-muzej-k-l-hetagurova-v-s-nar/",
+      "description": {
+        "ru": "Мемориальный музей основоположника осетинской литературы Коста Левановича Хетагурова (1859-1906), поэта, художника и общественного деятеля. Музей основан в 1939 году в доме, где Коста снимал первый этаж. В экспозиции — копии картин «Моление о чаше», «Скорбящий ангел», личные вещи, мастерская, литературные и архивные материалы.",
+        "en": "Memorial museum of the founder of Ossetian literature Kosta Levanovich Khetagurov (1859-1906), poet, artist and public figure. The museum was founded in 1939 in the house where Kosta rented the first floor. The exhibition includes copies of paintings 'Prayer of the Chalice', 'Mourning Angel', personal belongings, workshop, literary and archival materials."
+      },
+      "source": "https://www.culture.ru/institutes/58732/memorialnyi-dom-muzei-k-l-khetagurova"
+    },
+    {
+      "id": "mukhtarov-mosque",
+      "name": { "ru": "Суннитская мечеть Мухтарова", "en": "Mukhtarov Sunni Mosque" },
+      "address": { "ru": "ул. Коцоева, 62, Владикавказ", "en": "62 Kotsoyeva St, Vladikavkaz" },
+      "phone": null,
+      "coordinates": { "lat": 43.0352, "lng": 44.6732 },
+      "hours": {
+        "ru": "Действующая мечеть. Открыта ежедневно. Пятничный намаз — главная коллективная молитва.",
+        "en": "Active mosque. Open daily. Friday prayer — main collective prayer."
+      },
+      "visitingRules": {
+        "ru": "Снимать обувь при входе. Женщинам — покрывать голову и плечи. Не входить во время молитвы. Фотографировать снаружи свободно, внутри — с разрешения.",
+        "en": "Remove shoes upon entry. Women must cover head and shoulders. Do not enter during prayer. Photography free outside, inside — with permission."
+      },
+      "tickets": { "note": "Free / Бесплатно" },
+      "website": null,
+      "description": {
+        "ru": "Суннитская мечеть, построенная в 1900-1908 гг. на средства бакинского нефтепромышленника и мецената Муртузы Мухтарова. Открыта 14 октября 1908 года. Здание в арабском стиле напоминает каирские мечети X-XII вв. и Аль-Азхар. Выполнено из белого известняка, привезённого из окрестностей Баку. Высота здания 16.5 м, минаретов — 33 м. Является символом Владикавказа. С 1996 года — вновь действующая кафедральная мечеть.",
+        "en": "Sunni mosque built in 1900-1908 with funds from Baku oil magnate and philanthropist Murtuza Mukhtarov. Opened October 14, 1908. The building in Arab style resembles Cairo mosques of the 10th-12th centuries and Al-Azhar. Made of white limestone brought from the outskirts of Baku. Building height 16.5 m, minarets — 33 m. A symbol of Vladikavkaz. Since 1996 — once again an active cathedral mosque."
+      },
+      "source": "https://ru.wikipedia.org/wiki/Мечеть_Мухтарова_(Владикавказ)"
+    },
+    {
+      "id": "armenian-church",
+      "name": { "ru": "Церковь Св. Григория Просветителя (Армянская церковь)", "en": "Church of St. Gregory the Illuminator (Armenian Church)" },
+      "address": { "ru": "ул. Армянская, 1 / ул. Чермена Баева, 15, Владикавказ", "en": "1 Armyanskaya St / 15 Chermena Baeva St, Vladikavkaz" },
+      "phone": null,
+      "coordinates": { "lat": 43.0345, "lng": 44.6710 },
+      "hours": {
+        "ru": "Действующий храм. Открыт ежедневно для посещения.",
+        "en": "Active church. Open daily for visitors."
+      },
+      "tickets": { "note": "Free / Бесплатно" },
+      "website": null,
+      "description": {
+        "ru": "Армянская Апостольская церковь Святого Григория Просветителя, построенная в 1868 году из красного кирпича. Единственный армянский храм во Владикавказе. Расположена на правом берегу Терека недалеко от Чугунного (Ольгинского) моста. Памятник архитектуры XIX века.",
+        "en": "Armenian Apostolic Church of St. Gregory the Illuminator, built in 1868 of red brick. The only Armenian church in Vladikavkaz. Located on the right bank of the Terek near the Cast Iron (Olginsky) Bridge. A 19th-century architectural monument."
+      },
+      "source": "https://www.culture.ru/institutes/785/armyanskaya-apostolskaya-cerkov-svyatogo-grigoriya-prosvetitelya"
+    },
+    {
+      "id": "st-george-cathedral",
+      "name": { "ru": "Свято-Георгиевский кафедральный собор", "en": "St. George's Cathedral" },
+      "address": { "ru": "ул. Барбашова, 38, Владикавказ", "en": "38 Barbashova St, Vladikavkaz" },
+      "phone": "+7 (8672) 25-63-63",
+      "coordinates": { "lat": 43.0300, "lng": 44.6805 },
+      "hours": {
+        "ru": "Ежедневно: 08:00-18:30. Богослужения на церковнославянском и осетинском языках.",
+        "en": "Daily: 08:00-18:30. Services in Church Slavonic and Ossetian."
+      },
+      "tickets": { "note": "Free / Бесплатно" },
+      "website": null,
+      "description": {
+        "ru": "Кафедральный собор Владикавказской епархии Русской Православной Церкви. Главный православный храм Северной Осетии. Богослужения ведутся на церковнославянском и осетинском языках, что отражает уникальный характер местной церковной традиции.",
+        "en": "Cathedral of the Vladikavkaz Diocese of the Russian Orthodox Church. The main Orthodox church of North Ossetia. Services are conducted in Church Slavonic and Ossetian, reflecting the unique character of the local church tradition."
+      },
+      "source": "https://vladikavkaz.jsprav.ru/pravoslavnyie-hramyi/kafedralnyi-sobor-georgiia-pobedonostsa/"
+    },
+    {
+      "id": "dargavs",
+      "name": { "ru": "Даргавс — Город мёртвых", "en": "Dargavs — City of the Dead" },
+      "address": { "ru": "с. Даргавс, Пригородный район, Северная Осетия", "en": "Dargavs Village, Prigorodny District, North Ossetia" },
+      "phone": null,
+      "coordinates": { "lat": 42.8411, "lng": 44.4461 },
+      "hours": {
+        "ru": "Ежедневно кроме понедельника, касса 10:00-18:00",
+        "en": "Daily except Monday, ticket office 10:00-18:00"
+      },
+      "tickets": {
+        "adult": 150,
+        "currency": "RUB",
+        "note": { "ru": "Цена на 2025 год", "en": "2025 price" }
+      },
+      "website": null,
+      "description": {
+        "ru": "Крупнейший некрополь на Северном Кавказе — комплекс из 95 наземных и полуподземных склеповых сооружений XIV-XVIII веков, где покоится около 10 000 человек. Склепы сложены из грубо обработанных камней с известковым раствором. Расположен в 36 км от Владикавказа в горной котловине. Самая посещаемая достопримечательность Северной Осетии.",
+        "en": "The largest necropolis in the North Caucasus — a complex of 95 above-ground and semi-underground crypt structures from the 14th-18th centuries, where about 10,000 people rest. The crypts are built of roughly hewn stones with lime mortar. Located 36 km from Vladikavkaz in a mountain basin. The most visited attraction in North Ossetia."
+      },
+      "source": "https://www.sputnik8.com/ru/vladikavkaz/sights/gorod-mertwyh/info"
+    },
+    {
+      "id": "dzivgis-fortress",
+      "name": { "ru": "Дзивгисская скальная крепость", "en": "Dzivgis Rock Fortress" },
+      "address": { "ru": "с. Дзивгис, Куртатинское ущелье, Северная Осетия", "en": "Dzivgis Village, Kurtatinsky Gorge, North Ossetia" },
+      "phone": null,
+      "coordinates": { "lat": 42.8776, "lng": 44.3147 },
+      "hours": {
+        "ru": "Свободный доступ круглосуточно, бесплатно",
+        "en": "Free access 24/7, no admission fee"
+      },
+      "tickets": { "note": "Free / Бесплатно" },
+      "access": {
+        "ru": "Добраться можно на авто из Владикавказа (~40 км). Два пути: через с. Дзуарикау и Куртатинское ущелье, или через Кармадонское ущелье мимо Даргавса. Оборудованной тропы нет — потребуется карабкаться по камням. Памятник культурного наследия, но не охраняется и не благоустроен.",
+        "en": "Accessible by car from Vladikavkaz (~40 km). Two routes: via Dzuarikau village through Kurtatinsky Gorge, or via Karmadon Gorge past Dargavs. No equipped trail — climbing over rocks required. Cultural heritage site but unprotected and unimproved."
+      },
+      "description": {
+        "ru": "Крупнейшая скальная крепость на Кавказе, состоящая из 7 автономных оборонительных сооружений, оборудованных при входах в естественные пещеры на одном из склонов Скалистого хребта. Датируется XIII-XVI вв. Защищала проход в Куртатинское ущелье. Около 5 км от Верхнего Фиагдона.",
+        "en": "The largest rock fortress in the Caucasus, consisting of 7 autonomous defensive structures built at the entrances to natural caves on one of the slopes of the Scaly Ridge. Dates to the 13th-16th centuries. Guarded the entrance to Kurtatinsky Gorge. About 5 km from Upper Fiagdon."
+      },
+      "source": "https://club-voshod.com/info/pohodnoe_info/dostoprimechatelnosti/severnaya_osetiya/krepost_dzivgis/"
+    },
+    {
+      "id": "nuzal-chapel",
+      "name": { "ru": "Нузальская часовня", "en": "Nuzal Chapel" },
+      "address": { "ru": "с. Нузал, Алагирское ущелье, Северная Осетия", "en": "Nuzal Village, Alagir Gorge, North Ossetia" },
+      "phone": null,
+      "coordinates": { "lat": 42.8244, "lng": 44.0236 },
+      "hours": {
+        "ru": "Доступ ограничен — часовня законсервирована для сохранности фресок. Служб не проводится.",
+        "en": "Access restricted — the chapel is conserved to preserve frescoes. No services held."
+      },
+      "tickets": { "note": "Free / Бесплатно (при возможности доступа)" },
+      "access": {
+        "ru": "66 км от Владикавказа. Из Владикавказа идёт автобус через Нузал. Часовня в самом селе, пешком легко. Внутрь доступ может быть закрыт для охраны фресок.",
+        "en": "66 km from Vladikavkaz. Bus runs from Vladikavkaz through Nuzal. Chapel is in the village, easy walk. Interior access may be closed to protect frescoes."
+      },
+      "description": {
+        "ru": "Уникальный памятник истории и культуры федерального значения, один из трёх средневековых храмов Северного Кавказа, сохранивших фрески. Расположена на высоте 1160 м. В росписях переплетаются традиции Древней Руси, осетинской и грузинской культур. Фрески выполнены мастером Вола Тлийским всего четырьмя пигментами: сажей, белилами, жёлтой и красной охрой.",
+        "en": "A unique monument of history and culture of federal significance, one of three medieval churches in the North Caucasus that preserved frescoes. Located at 1160 m altitude. The murals interweave traditions of Ancient Rus, Ossetian and Georgian cultures. The frescoes were made by master Vola Tlisky using only four pigments: soot, white lead, yellow and red ochre."
+      },
+      "source": "https://enjoy-kavkaz.ru/mesta/nuzalskaya-chasovnya"
+    },
+    {
+      "id": "alansky-monastery",
+      "name": { "ru": "Аланский Свято-Успенский мужской монастырь", "en": "Alanian Holy Dormition Monastery" },
+      "address": { "ru": "с. Хидикус, Алагирский район, Северная Осетия", "en": "Hidikus Village, Alagir District, North Ossetia" },
+      "phone": "+7 (86731) 5-12-44",
+      "coordinates": { "lat": 42.8220, "lng": 44.2749 },
+      "hours": {
+        "ru": "Открыт для паломников и туристов ежедневно. Расписание богослужений уточнять по телефону.",
+        "en": "Open daily for pilgrims and tourists. Service schedule — check by phone."
+      },
+      "tickets": { "note": "Free / Бесплатно" },
+      "description": {
+        "ru": "Высокогорный мужской монастырь в Куртатинском ущелье, в 50 км от Владикавказа вблизи посёлка Верхний Фиагдон. Самый высокогорный монастырь в России. Основан в 2000-х годах. Еженедельно организуются паломнические автобусные рейсы из разных регионов России.",
+        "en": "High-altitude male monastery in Kurtatinsky Gorge, 50 km from Vladikavkaz near the village of Upper Fiagdon. The highest monastery in Russia. Founded in the 2000s. Weekly pilgrimage bus trips are organized from various regions of Russia."
+      },
+      "source": "https://monasterium.ru/monastyri/monastery/alanskiy-uspenskiy-muzhskoy-monastyr/"
+    },
+    {
+      "id": "khetags-grove",
+      "name": { "ru": "Роща Хетага", "en": "Khetag's Grove" },
+      "address": { "ru": "Алагирский район, п. Суадаг, Северная Осетия", "en": "Alagir District, Suadag Village, North Ossetia" },
+      "phone": null,
+      "coordinates": { "lat": 43.0578, "lng": 44.3018 },
+      "hours": {
+        "ru": "Свободный доступ круглосуточно",
+        "en": "Free access 24/7"
+      },
+      "tickets": { "note": "Free / Бесплатно" },
+      "access": {
+        "ru": "30 км от Владикавказа, 5 км от Алагира. Рядом с трассой А-162. Маршрутка от Детской больницы (ул. Барбашова) или автобус от автовокзала на Алагир.",
+        "en": "30 km from Vladikavkaz, 5 km from Alagir. Near highway A-162. Marshrutka from Children's Hospital (Barbashova St) or bus from bus station towards Alagir."
+      },
+      "rules": {
+        "ru": "Запрещено: жечь костры, пить спиртное, проливать кровь, ломать ветки, выносить что-либо из леса. Священное место — соблюдайте тишину и уважение.",
+        "en": "Prohibited: making fires, drinking alcohol, spilling blood, breaking branches, taking anything from the forest. Sacred place — maintain silence and respect."
+      },
+      "significance": {
+        "ru": "Островной реликтовый лес площадью ~13 гектаров почти идеально круглой формы. Священное место осетин. Ежегодно во второе воскресенье июля — Праздник Хетага (до 20 000 участников). По легенде, роща укрыла юношу Хетага, бежавшего от преследователей.",
+        "en": "A relic island forest of ~13 hectares in an almost perfectly round shape. Sacred place of Ossetians. Annually on the second Sunday of July — Festival of Khetag (up to 20,000 participants). According to legend, the grove sheltered young Khetag fleeing from pursuers."
+      },
+      "source": "https://tonkosti.ru/Роща_Хетага"
+    }
+  ],
+
+  "transport": {
+    "marshrutkaFare": {
+      "price": 30,
+      "currency": "RUB",
+      "effectiveDate": "2024-10-11",
+      "note": { "ru": "Повышение с 25 до 30 руб. с 11 октября 2024 г.", "en": "Increase from 25 to 30 RUB since October 11, 2024" },
+      "source": "https://osnova.news/n/26613/"
+    },
+    "routeCount": 41,
+    "routeInfoSources": [
+      "https://routes.one/ru/vladikavkaz",
+      "https://www.24tr.ru/vladikavkaz/marshrutki/",
+      "https://wikiroutes.info/en/vladikavkaz/catalog"
+    ],
+    "airport": {
+      "name": { "ru": "Аэропорт Владикавказ (Беслан)", "en": "Vladikavkaz Airport (Beslan)" },
+      "code": "OGZ",
+      "address": { "ru": "г. Беслан, Правобережный район, Северная Осетия", "en": "Beslan, Pravoberezhy District, North Ossetia" },
+      "distanceToCity": "25 km",
+      "shuttleToCityRoute": "126а",
+      "shuttleSchedule": {
+        "fromCity": ["12:00", "18:00"],
+        "fromAirport": ["13:30", "19:30"],
+        "note": { "ru": "Расписание может меняться, уточняйте", "en": "Schedule may change, verify" }
+      },
+      "shuttleFare": { "price": 37, "currency": "RUB" },
+      "taxiToCity": {
+        "range": { "min": 600, "max": 1200, "currency": "RUB" },
+        "note": { "ru": "Яндекс Такси обычно дешевле ~500-800 руб.", "en": "Yandex Taxi usually cheaper ~500-800 RUB" }
+      },
+      "source": "https://tonkosti.ru/Аэропорт_Владикавказа"
+    },
+    "railwayStation": {
+      "name": { "ru": "Железнодорожный вокзал Владикавказ", "en": "Vladikavkaz Railway Station" },
+      "address": { "ru": "ул. Маркова, 24, Владикавказ", "en": "24 Markova St, Vladikavkaz" },
+      "phone": "8 (800) 775-00-00",
+      "hours": { "ru": "Ежедневно 05:00-20:00", "en": "Daily 05:00-20:00" },
+      "routes": {
+        "ru": "Москва, Санкт-Петербург, Ростов-на-Дону, Минеральные Воды, Новочеркасск и др.",
+        "en": "Moscow, St. Petersburg, Rostov-on-Don, Mineralnye Vody, Novocherkassk, etc."
+      },
+      "wifi": true,
+      "source": "https://vladikavkaz.perrony.ru/60-kontakty"
+    },
+    "busStation": {
+      "name": { "ru": "Автовокзал Владикавказ", "en": "Vladikavkaz Bus Station" },
+      "address": { "ru": "Архонское шоссе, 1, Владикавказ", "en": "1 Arkhonskoe Highway, Vladikavkaz" },
+      "phone": "+7 (8672) 51-12-63",
+      "hours": { "ru": "Ежедневно 06:00-19:30", "en": "Daily 06:00-19:30" },
+      "website": "https://avtovokzal15.ru/",
+      "routes": {
+        "ru": "Грозный, Волгоград, Пятигорск, Черкесск, Тбилиси, Батуми, Беслан и др.",
+        "en": "Grozny, Volgograd, Pyatigorsk, Cherkessk, Tbilisi, Batumi, Beslan, etc."
+      },
+      "source": "https://avtovokzal15.ru/kontakty"
+    },
+    "taxi": {
+      "yandexTaxi": {
+        "available": true,
+        "phone": "+7 (8672) 333-330",
+        "tariffs": ["Econom", "Comfort", "Express", "Courier"],
+        "minimumFare": 79,
+        "currency": "RUB",
+        "freeWait": "4 min",
+        "averageWait": "3 min"
+      },
+      "averagePrices": {
+        "perKm": 9.6,
+        "ride5km": 173,
+        "ride10km": 279,
+        "ride20km": 491,
+        "ride50km": 1126,
+        "currency": "RUB"
+      },
+      "source": "http://taxi-vladikavkaz-north-ossetiaalania-ru.taxigator.ru/"
+    },
+    "carRental": {
+      "available": true,
+      "companies": [
+        { "name": "My Car Rental", "priceFrom": 2000, "currency": "RUB/day", "website": "https://mycarrental.ru/regions/vladikavkaz/" },
+        { "name": "Lend-Auto", "priceFrom": 2000, "currency": "RUB/day", "website": "https://vladikavkaz.lend-auto.ru/" },
+        { "name": "ИЛАН-АВТО", "priceFrom": 3000, "currency": "RUB/day", "website": "https://ilan-avto.ru/" },
+        { "name": "ОсАвто", "priceFrom": 2500, "currency": "RUB/day", "website": "https://osavto.ru/", "note": "Discount 5% from 4 days, 10% from 7 days" },
+        { "name": "Get-rent", "priceFrom": 2500, "currency": "RUB/day", "website": "https://get-rent.ru/" }
+      ],
+      "airportDeliveryFee": 1500,
+      "cityDelivery": "free (most companies)"
+    }
+  },
+
+  "emergency": {
+    "hospitals_verified": [
+      {
+        "name": { "ru": "Республиканская клиническая больница (РКБ)", "en": "Republican Clinical Hospital" },
+        "address": { "ru": "ул. Барбашова, 39", "en": "39 Barbashova St" },
+        "phone_verified": "+7 (8672) 40-56-25",
+        "phone_note": "Приемная главного врача / Chief physician reception",
+        "hasEmergency": true,
+        "source": "https://rkb.minzdravrso.ru/contacts/"
+      },
+      {
+        "name": { "ru": "Республиканская клиническая больница скорой медицинской помощи (РКБСМП / КБСП)", "en": "Republican Emergency Clinical Hospital (KBSP)" },
+        "address_verified": { "ru": "ул. Иристонская, 45", "en": "45 Iristonskaya St" },
+        "phones_verified": {
+          "reception": "+7 (8672) 74-04-43",
+          "inquiry": "+7 (8672) 74-04-71",
+          "chiefPhysician": "+7 (8672) 74-04-52",
+          "resuscitation": "+7 (8672) 51-30-11",
+          "operations": "+7 (8672) 74-74-62"
+        },
+        "hasEmergency": true,
+        "hours": "Admin: Mon-Fri 09:00-18:00, Emergency: 24/7",
+        "source": "https://rkbsmp.minzdravrso.ru/",
+        "note": "IMPORTANT: existing data had wrong address (Gen. Pliev 10) — correct is Iristonskaya 45"
+      },
+      {
+        "name": { "ru": "Республиканская детская клиническая больница", "en": "Republican Children's Clinical Hospital" },
+        "address": { "ru": "ул. Барбашова, 33", "en": "33 Barbashova St" },
+        "phone_verified": "+7 (918) 829-38-30",
+        "hotline_note": "Круглосуточная горячая линия / 24h hotline",
+        "hasEmergency": true,
+        "source": "https://rdkb.minzdravrso.ru/contacts/"
+      },
+      {
+        "name": { "ru": "Центральная городская клиническая больница (ЦГКБ)", "en": "Central City Clinical Hospital" },
+        "address": { "ru": "ул. Тельмана, 68 (требует уточнения)", "en": "68 Telman St (needs verification)" },
+        "phone": "+7 (8672) 76-21-40",
+        "note": "Could not verify independently — address may be different. Check locally.",
+        "hasEmergency": true
+      }
+    ],
+    "mountainRescue": {
+      "name": { "ru": "Северо-Кавказский региональный поисково-спасательный отряд МЧС России", "en": "North Caucasus Regional Search and Rescue Team (EMERCOM)" },
+      "address": { "ru": "пр-т Коста, 273, Владикавказ", "en": "273 Kosta Ave, Vladikavkaz" },
+      "phone_commander": "+7 (8672) 40-54-47",
+      "phone_duty": "+7 (8672) 40-54-47",
+      "commander": "Чегаев Арсен Хадзисмелович",
+      "source": "https://mchs.gov.ru/ministerstvo/uchrezhdeniya-mchs-rossii/spasatelnye-podrazdeleniya/poiskovo-spasatelnye-i-avariyno-spasatelnye-formirovaniya/fgku-severo-kavkazskiy-regionalnyy-poiskovo-spasatelnyy-otryad-mchs-rossii",
+      "mchsMainOffice": {
+        "address": { "ru": "ул. Международная, 1, Владикавказ", "en": "1 Mezhdunarodnaya St, Vladikavkaz" },
+        "phone": "+7 (8672) 70-00-01",
+        "phone2": "+7 (8672) 70-75-78"
+      }
+    },
+    "pharmacies24h": [
+      { "name": "Аптека", "address": { "ru": "пр. Коста, 147", "en": "147 Kosta Ave" }, "phone": "+7 (8672) 52-75-76" },
+      { "name": "Аптека +36,6", "address": { "ru": "ул. Леваневского, 270", "en": "270 Levanevskogo St" }, "phone": "+7 (8672) 74-62-26" },
+      { "name": "Аптека №1", "address": { "ru": "пр. Мира, 40", "en": "40 Mira Ave" }, "phone": "+7 (8672) 53-21-14" },
+      { "name": "Аптека №49", "address": { "ru": "ул. Пожарского, 4", "en": "4 Pozharskogo St" }, "phone": "+7 (8672) 51-94-73" },
+      { "name": "Семейная аптека", "address": { "ru": "пр. Коста, 149", "en": "149 Kosta Ave" }, "phone": null },
+      { "name": "Старый Лекарь", "address": { "ru": "пр. Коста, 193", "en": "193 Kosta Ave" }, "phone": null },
+      { "name": "Аспирин Плюс", "address": { "ru": "пр. Коста, 260", "en": "260 Kosta Ave" }, "phone": null }
+    ],
+    "touristInfoCenter": {
+      "name": { "ru": "Комитет Республики Северная Осетия-Алания по туризму", "en": "Tourism Committee of North Ossetia-Alania" },
+      "address": { "ru": "пл. Свободы, 1, Владикавказ", "en": "1 Freedom Square, Vladikavkaz" },
+      "phone": "+7 (8672) 700-278",
+      "website": "http://tourism.alania.gov.ru/",
+      "portalWebsite": "https://visit-alania.ru/"
+    }
+  },
+
+  "activities": {
+    "rafting": {
+      "status": { "ru": "Организованный рафтинг по Тереку малоразвит. Основные операторы предлагают рафтинг в Дагестане и Адыгее.", "en": "Organized rafting on the Terek is underdeveloped. Main operators offer rafting in Dagestan and Adygea." },
+      "localOption": {
+        "name": "Articool Tour",
+        "price": 9500,
+        "currency": "RUB/person",
+        "website": "https://articool-tour.ru/"
+      },
+      "note": { "ru": "Рекомендуется искать через местные турагентства Владикавказа", "en": "Recommended to search through local travel agencies in Vladikavkaz" }
+    },
+    "paragliding": {
+      "available": true,
+      "locations": ["Даргавс / Dargavs", "Кармадон / Karmadon", "Горная Дигория / Mountain Digoria"],
+      "bestSeason": { "ru": "Июль-Август", "en": "July-August" },
+      "operators": [
+        {
+          "name": "Люди с крыльями / Parakot",
+          "website": "http://parakot.ru/",
+          "note": { "ru": "Тандемные полёты с инструктором", "en": "Tandem flights with instructor" }
+        },
+        {
+          "name": "Альянс тур / Alliance Tour",
+          "website": "https://ta-alliance.ru/ekskursii/polety-na-paraplane-v-osetii/"
+        }
+      ],
+      "aeroclub": {
+        "name": { "ru": "Владикавказский Аэроклуб ДОСААФ", "en": "Vladikavkaz DOSAAF Aeroclub" },
+        "note": { "ru": "Полёты на планерах в горной местности круглый год", "en": "Glider flights in mountain terrain year-round" }
+      },
+      "source": "https://ta-alliance.ru/ekskursii/polety-na-paraplane-v-osetii/"
+    },
+    "horseRiding": {
+      "available": true,
+      "mainOperator": {
+        "name": "Аланья Horses / Alaniya Horses",
+        "website": "https://alaniya-horses.ru",
+        "location": { "ru": "с. Даргавс, Даргавское ущелье (36 км от Владикавказа)", "en": "Dargavs village, Dargavs Gorge (36 km from Vladikavkaz)" },
+        "routes": { "ru": "Даргавское ущелье, Мидаграбинское ущелье, пойма р. Гизельдон", "en": "Dargavs Gorge, Midagrabin Gorge, Gizeldon River floodplain" }
+      },
+      "prices": {
+        "singleRide": { "from": 1500, "currency": "RUB" },
+        "weekendTour": { "from": 27500, "currency": "RUB" },
+        "weekdayTour": { "from": 39000, "currency": "RUB" },
+        "weekTour": { "from": 53500, "currency": "RUB" }
+      },
+      "source": "https://alaniya-horses.ru/turi"
+    },
+    "rockClimbing": {
+      "indoor": [
+        {
+          "name": "RockStar",
+          "address": { "ru": "ул. Московская, 8, Владикавказ", "en": "8 Moskovskaya St, Vladikavkaz" },
+          "phone": "+7 (867) 291-09-20",
+          "hours": { "ru": "Пн-Сб: 15:00-21:00, Вс: 12:00-21:00", "en": "Mon-Sat: 15:00-21:00, Sun: 12:00-21:00" },
+          "area": "250 sq m",
+          "note": { "ru": "Единственный скалодром в Северной Осетии, открыт с 2019 г.", "en": "The only climbing gym in North Ossetia, opened in 2019" }
+        }
+      ],
+      "outdoor": {
+        "name": "Раёк / Rayok",
+        "location": { "ru": "3-й км Военно-Грузинской дороги от Владикавказа", "en": "3rd km of Georgian Military Road from Vladikavkaz" },
+        "routes": "~200",
+        "note": { "ru": "Разная сложность", "en": "Various difficulty levels" }
+      },
+      "source": "https://maps.climbingpro.ru/rockstar/"
+    },
+    "banks": {
+      "majorBanks": ["Сбербанк / Sberbank", "ВТБ / VTB", "Россельхозбанк / Rosselkhozbank", "Газпромбанк / Gazprombank"],
+      "currencyExchange": {
+        "available": true,
+        "note": { "ru": "Обмен долларов и евро доступен в крупных банках. Курсы меняются несколько раз в день. Для крупных сумм возможен льготный курс.", "en": "USD and EUR exchange available in major banks. Rates change several times daily. Preferential rates may apply for large amounts." },
+        "rateInfoSites": ["https://kovalut.ru/kurs/vladikavkaz", "https://www.banki.ru/products/currency/cash/vladikavkaz/"]
+      }
+    },
+    "postOffice": {
+      "main": {
+        "name": { "ru": "Почта России, отделение №39", "en": "Russian Post, Office #39" },
+        "address": { "ru": "ул. Московская, 45/1, Владикавказ", "en": "45/1 Moskovskaya St, Vladikavkaz" },
+        "hours": { "ru": "Пн-Вс: 08:00-19:00", "en": "Mon-Sun: 08:00-19:00" },
+        "phone": "8 (800) 100-00-00",
+        "hotline": "8 (800) 200-58-88"
+      }
+    }
+  },
+
+  "dataCorrections": {
+    "note": "Discrepancies found between existing JSON data and verified web sources:",
+    "items": [
+      {
+        "entity": "КБСП / Emergency Hospital",
+        "field": "address",
+        "existing": "ул. Генерала Плиева, 10",
+        "verified": "ул. Иристонская, 45",
+        "source": "https://rkbsmp.minzdravrso.ru/"
+      },
+      {
+        "entity": "КБСП / Emergency Hospital",
+        "field": "phone",
+        "existing": "8 (8672) 54-82-30",
+        "verified": "+7 (8672) 74-04-43 (reception), 74-04-71 (inquiry)",
+        "source": "https://rkbsmp.minzdravrso.ru/"
+      },
+      {
+        "entity": "РКБ / Republican Hospital",
+        "field": "phone",
+        "existing": "8 (8672) 53-75-07",
+        "verified": "+7 (8672) 40-56-25 (chief physician reception)",
+        "source": "https://rkb.minzdravrso.ru/contacts/"
+      },
+      {
+        "entity": "Детская больница / Children Hospital",
+        "field": "address",
+        "existing": "ул. Бутырина, 28",
+        "verified": "ул. Барбашова, 33",
+        "source": "https://rdkb.minzdravrso.ru/contacts/"
+      },
+      {
+        "entity": "Детская больница / Children Hospital",
+        "field": "phone",
+        "existing": "8 (8672) 53-19-72",
+        "verified": "+7 (918) 829-38-30 (24h hotline)",
+        "source": "https://rdkb.minzdravrso.ru/contacts/"
+      },
+      {
+        "entity": "ЖД вокзал / Railway Station",
+        "field": "address",
+        "existing_in_emergency_json": "ул. Маркуса, 24",
+        "verified": "ул. Маркова, 24",
+        "source": "https://2gis.ru/vladikavkaz/firm/70000001022594479"
+      },
+      {
+        "entity": "Автовокзал / Bus Station",
+        "field": "address",
+        "existing_in_emergency_json": "ул. Кирова, 120",
+        "verified": "Архонское шоссе, 1",
+        "source": "https://avtovokzal15.ru/kontakty"
+      },
+      {
+        "entity": "Автовокзал / Bus Station",
+        "field": "phone",
+        "existing_in_emergency_json": "8 (8672) 74-14-74",
+        "verified": "+7 (8672) 51-12-63",
+        "source": "https://avtovokzal15.ru/kontakty"
+      },
+      {
+        "entity": "Mountain Rescue",
+        "field": "address",
+        "existing_in_emergency_json": "ул. Московская, 17",
+        "verified": "пр-т Коста, 273 (СКРПСО МЧС)",
+        "source": "EMERCOM official site"
+      }
+    ]
+  }
+}

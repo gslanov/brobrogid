@@ -1,0 +1,4992 @@
+[
+  {
+    "id": "rev-001",
+    "targetType": "poi",
+    "targetId": "poi-029",
+    "authorName": "Ирина В.",
+    "rating": 5,
+    "text": "Удобный подъезд, есть парковка. Для инвалидов доступ ограничен.",
+    "date": "2025-09-04",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-002",
+    "targetType": "poi",
+    "targetId": "poi-075",
+    "authorName": "Виктор Н.",
+    "rating": 3,
+    "text": "Порадовало детское меню. Дети всё съели, что бывает редко.",
+    "date": "2025-05-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-003",
+    "targetType": "poi",
+    "targetId": "poi-055",
+    "authorName": "Мадина Х.",
+    "rating": 3,
+    "text": "Мы были в группе с гидом — он рассказал много интересного про историю места.",
+    "date": "2025-04-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-004",
+    "targetType": "poi",
+    "targetId": "poi-081",
+    "authorName": "Дзерасса Х.",
+    "rating": 5,
+    "text": "Порадовало детское меню. Дети всё съели, что бывает редко.",
+    "date": "2025-09-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-005",
+    "targetType": "poi",
+    "targetId": "poi-032",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Величественное место. История чувствуется в каждом камне.",
+    "date": "2025-08-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-006",
+    "targetType": "poi",
+    "targetId": "poi-084",
+    "authorName": "Георгий П.",
+    "rating": 3,
+    "text": "Средний чек нормальный для центра. Качество оправдывает цену.",
+    "date": "2025-01-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-007",
+    "targetType": "poi",
+    "targetId": "poi-006",
+    "authorName": "Наталья С.",
+    "rating": 5,
+    "text": "Лучше приезжать в будние дни — меньше людей. В выходные бывает многолюдно.",
+    "date": "2025-06-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-008",
+    "targetType": "poi",
+    "targetId": "poi-002",
+    "authorName": "Олег Т.",
+    "rating": 4,
+    "text": "Дорога сюда — уже часть приключения. Каждый поворот — новый вид.",
+    "date": "2025-01-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-009",
+    "targetType": "guide",
+    "targetId": "guide-002",
+    "authorName": "Сергей Л.",
+    "rating": 5,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-07-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-010",
+    "targetType": "poi",
+    "targetId": "poi-081",
+    "authorName": "Emma G.",
+    "rating": 5,
+    "text": "Бронируйте столик на выходные — без брони придётся ждать.",
+    "date": "2025-12-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-011",
+    "targetType": "poi",
+    "targetId": "poi-091",
+    "authorName": "James W.",
+    "rating": 5,
+    "text": "Летняя веранда — огромный плюс. Вид на горы и свежий воздух.",
+    "date": "2025-09-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-012",
+    "targetType": "tour",
+    "targetId": "tour-005",
+    "authorName": "Алексей Д.",
+    "rating": 5,
+    "text": "Рекомендую эту экскурсию всем. Организация на высшем уровне, транспорт комфортный.",
+    "date": "2025-06-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-013",
+    "targetType": "poi",
+    "targetId": "poi-021",
+    "authorName": "Карина С.",
+    "rating": 5,
+    "text": "Билет символический, а впечатления — на миллион. Рекомендую!",
+    "date": "2025-07-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-014",
+    "targetType": "poi",
+    "targetId": "poi-024",
+    "authorName": "Эдуард М.",
+    "rating": 5,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-08-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-015",
+    "targetType": "poi",
+    "targetId": "poi-077",
+    "authorName": "Андрей Ф.",
+    "rating": 5,
+    "text": "Заказывали пироги на вынос — привезли горячими, свежими. Сервис на уровне.",
+    "date": "2025-09-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-016",
+    "targetType": "poi",
+    "targetId": "poi-027",
+    "authorName": "Sophie M.",
+    "rating": 5,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-09-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-017",
+    "targetType": "poi",
+    "targetId": "poi-040",
+    "authorName": "Сослан Т.",
+    "rating": 5,
+    "text": "Дорога сюда — уже часть приключения. Каждый поворот — новый вид.",
+    "date": "2025-05-02",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-018",
+    "targetType": "poi",
+    "targetId": "poi-004",
+    "authorName": "Сослан Т.",
+    "rating": 3,
+    "text": "Отличное место для треккинга. Тропа размечена, но удобная обувь обязательна.",
+    "date": "2025-07-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-019",
+    "targetType": "poi",
+    "targetId": "poi-076",
+    "authorName": "Светлана Г.",
+    "rating": 5,
+    "text": "Качество стабильно высокое. Ходим сюда регулярно уже второй год.",
+    "date": "2025-09-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-020",
+    "targetType": "poi",
+    "targetId": "poi-047",
+    "authorName": "Алексей Д.",
+    "rating": 4,
+    "text": "Рекомендую закладывать больше времени, чем кажется. Тут есть чем заняться.",
+    "date": "2025-12-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-021",
+    "targetType": "poi",
+    "targetId": "poi-053",
+    "authorName": "Алина Г.",
+    "rating": 4,
+    "text": "Лучше приезжать в будние дни — меньше людей. В выходные бывает многолюдно.",
+    "date": "2025-08-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-022",
+    "targetType": "poi",
+    "targetId": "poi-070",
+    "authorName": "Дмитрий Р.",
+    "rating": 4,
+    "text": "Шашлык отменный! Мясо нежное, правильно приготовленное. Советую баранину.",
+    "date": "2025-02-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-023",
+    "targetType": "tour",
+    "targetId": "tour-015",
+    "authorName": "Оксана Л.",
+    "rating": 5,
+    "text": "Было здорово! Единственный минус — хотелось бы больше времени на каждой остановке.",
+    "date": "2025-09-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-024",
+    "targetType": "poi",
+    "targetId": "poi-008",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Мы были в группе с гидом — он рассказал много интересного про историю места.",
+    "date": "2025-01-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-025",
+    "targetType": "tour",
+    "targetId": "tour-004",
+    "authorName": "Казбек Т.",
+    "rating": 5,
+    "text": "Рекомендую эту экскурсию всем. Организация на высшем уровне, транспорт комфортный.",
+    "date": "2025-09-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-026",
+    "targetType": "poi",
+    "targetId": "poi-010",
+    "authorName": "Лариса О.",
+    "rating": 5,
+    "text": "Одно из лучших мест для пикника. Берите еду и наслаждайтесь видами.",
+    "date": "2025-02-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-027",
+    "targetType": "tour",
+    "targetId": "tour-001",
+    "authorName": "Валерий К.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-09-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-028",
+    "targetType": "poi",
+    "targetId": "poi-020",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "Маленький, но очень атмосферный. Лучше приходить в будние — тише.",
+    "date": "2025-01-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-029",
+    "targetType": "poi",
+    "targetId": "poi-013",
+    "authorName": "Алексей Д.",
+    "rating": 5,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-06-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-030",
+    "targetType": "poi",
+    "targetId": "poi-016",
+    "authorName": "Анна М.",
+    "rating": 4,
+    "text": "Билет символический, а впечатления — на миллион. Рекомендую!",
+    "date": "2025-04-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-031",
+    "targetType": "guide",
+    "targetId": "guide-005",
+    "authorName": "Диана Г.",
+    "rating": 5,
+    "text": "Очень профессиональный и дружелюбный гид. Отвечает на все вопросы, делится личным опытом.",
+    "date": "2025-05-12",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-032",
+    "targetType": "poi",
+    "targetId": "poi-072",
+    "authorName": "Эдуард М.",
+    "rating": 5,
+    "text": "Вегетарианские пироги тоже вкусные! Картофджын и цахараджын — наши фавориты.",
+    "date": "2025-03-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-033",
+    "targetType": "poi",
+    "targetId": "poi-040",
+    "authorName": "Сослан Т.",
+    "rating": 4,
+    "text": "Горный воздух и тишина — то, чего так не хватает в городе. Место силы.",
+    "date": "2025-06-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-034",
+    "targetType": "poi",
+    "targetId": "poi-092",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Случайно зашли и остались на весь вечер. Меню разнообразное.",
+    "date": "2025-10-20",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-035",
+    "targetType": "poi",
+    "targetId": "poi-085",
+    "authorName": "Лариса О.",
+    "rating": 3,
+    "text": "Лучшие осетинские пироги в городе! Тесто тонкое, начинка сочная.",
+    "date": "2025-02-12",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-036",
+    "targetType": "poi",
+    "targetId": "poi-091",
+    "authorName": "Батраз Д.",
+    "rating": 4,
+    "text": "Средний чек нормальный для центра. Качество оправдывает цену.",
+    "date": "2025-06-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-037",
+    "targetType": "poi",
+    "targetId": "poi-002",
+    "authorName": "Robert F.",
+    "rating": 4,
+    "text": "Лучше приезжать в будние дни — меньше людей. В выходные бывает многолюдно.",
+    "date": "2025-07-19",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-038",
+    "targetType": "poi",
+    "targetId": "poi-009",
+    "authorName": "Anna S.",
+    "rating": 5,
+    "text": "Дорога сюда — уже часть приключения. Каждый поворот — новый вид.",
+    "date": "2025-09-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-039",
+    "targetType": "poi",
+    "targetId": "poi-024",
+    "authorName": "Jennifer L.",
+    "rating": 5,
+    "text": "Маленький, но очень атмосферный. Лучше приходить в будние — тише.",
+    "date": "2025-06-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-040",
+    "targetType": "poi",
+    "targetId": "poi-026",
+    "authorName": "Марина Е.",
+    "rating": 5,
+    "text": "Местные жители очень гордятся этим местом. И правильно делают.",
+    "date": "2025-07-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-041",
+    "targetType": "tour",
+    "targetId": "tour-013",
+    "authorName": "Карина С.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-05-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-042",
+    "targetType": "poi",
+    "targetId": "poi-017",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-12-02",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-043",
+    "targetType": "poi",
+    "targetId": "poi-005",
+    "authorName": "Сергей Л.",
+    "rating": 5,
+    "text": "Фотографии не передают и десятой части красоты. Нужно видеть своими глазами.",
+    "date": "2025-04-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-044",
+    "targetType": "poi",
+    "targetId": "poi-059",
+    "authorName": "Kate N.",
+    "rating": 5,
+    "text": "Второй раз здесь и опять под впечатлением. Осень здесь особенно красива.",
+    "date": "2025-11-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-045",
+    "targetType": "poi",
+    "targetId": "poi-023",
+    "authorName": "Максим И.",
+    "rating": 5,
+    "text": "Второй раз здесь — в первый не успели всё посмотреть.",
+    "date": "2025-07-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-046",
+    "targetType": "poi",
+    "targetId": "poi-074",
+    "authorName": "Дзерасса Х.",
+    "rating": 5,
+    "text": "Лучшие осетинские пироги в городе! Тесто тонкое, начинка сочная.",
+    "date": "2025-02-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-047",
+    "targetType": "poi",
+    "targetId": "poi-025",
+    "authorName": "Зарина Ц.",
+    "rating": 4,
+    "text": "Экскурсовод рассказал много интересного. Два часа пролетели незаметно.",
+    "date": "2025-01-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-048",
+    "targetType": "poi",
+    "targetId": "poi-076",
+    "authorName": "Залина Б.",
+    "rating": 4,
+    "text": "Порадовало детское меню. Дети всё съели, что бывает редко.",
+    "date": "2025-01-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-049",
+    "targetType": "poi",
+    "targetId": "poi-032",
+    "authorName": "Дмитрий Р.",
+    "rating": 5,
+    "text": "Тихое место для размышлений. Туристов немного, что приятно.",
+    "date": "2025-09-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-050",
+    "targetType": "poi",
+    "targetId": "poi-015",
+    "authorName": "Tom H.",
+    "rating": 5,
+    "text": "Вечером с подсветкой выглядит ещё красивее. Приходите на закате.",
+    "date": "2025-04-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-051",
+    "targetType": "poi",
+    "targetId": "poi-050",
+    "authorName": "Эдуард М.",
+    "rating": 4,
+    "text": "Второй раз здесь и опять под впечатлением. Осень здесь особенно красива.",
+    "date": "2025-12-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-052",
+    "targetType": "poi",
+    "targetId": "poi-006",
+    "authorName": "John M.",
+    "rating": 4,
+    "text": "Захватывает дух! Каньон, горы, река — всё в одном месте.",
+    "date": "2025-08-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-053",
+    "targetType": "poi",
+    "targetId": "poi-050",
+    "authorName": "Лариса О.",
+    "rating": 4,
+    "text": "Невероятная красота! Горы просто завораживают. Хочется возвращаться снова и снова.",
+    "date": "2025-03-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-054",
+    "targetType": "poi",
+    "targetId": "poi-017",
+    "authorName": "Michael T.",
+    "rating": 4,
+    "text": "Величественное место. История чувствуется в каждом камне.",
+    "date": "2025-08-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-055",
+    "targetType": "poi",
+    "targetId": "poi-024",
+    "authorName": "James W.",
+    "rating": 5,
+    "text": "Были с детьми — им понравилось. Есть интерактивные элементы.",
+    "date": "2025-07-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-056",
+    "targetType": "poi",
+    "targetId": "poi-059",
+    "authorName": "Michael T.",
+    "rating": 5,
+    "text": "Одно из лучших мест для пикника. Берите еду и наслаждайтесь видами.",
+    "date": "2025-07-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-057",
+    "targetType": "poi",
+    "targetId": "poi-013",
+    "authorName": "Батраз Д.",
+    "rating": 4,
+    "text": "Тихое место для размышлений. Туристов немного, что приятно.",
+    "date": "2025-02-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-058",
+    "targetType": "poi",
+    "targetId": "poi-079",
+    "authorName": "Валерий К.",
+    "rating": 5,
+    "text": "Пришли на обед, ушли довольные. Быстро, вкусно, без лишних ожиданий.",
+    "date": "2025-06-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-059",
+    "targetType": "poi",
+    "targetId": "poi-007",
+    "authorName": "Аида К.",
+    "rating": 4,
+    "text": "Отличное место для треккинга. Тропа размечена, но удобная обувь обязательна.",
+    "date": "2025-05-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-060",
+    "targetType": "poi",
+    "targetId": "poi-095",
+    "authorName": "Robert F.",
+    "rating": 4,
+    "text": "Вегетарианские пироги тоже вкусные! Картофджын и цахараджын — наши фавориты.",
+    "date": "2025-07-20",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-061",
+    "targetType": "poi",
+    "targetId": "poi-019",
+    "authorName": "Anna S.",
+    "rating": 4,
+    "text": "Билет символический, а впечатления — на миллион. Рекомендую!",
+    "date": "2025-05-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-062",
+    "targetType": "poi",
+    "targetId": "poi-090",
+    "authorName": "Руслан М.",
+    "rating": 3,
+    "text": "Уютная атмосфера, внимательный персонал. Еда вкусная, порции щедрые.",
+    "date": "2025-08-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-063",
+    "targetType": "tour",
+    "targetId": "tour-005",
+    "authorName": "Диана Г.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-09-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-064",
+    "targetType": "poi",
+    "targetId": "poi-070",
+    "authorName": "Тамара А.",
+    "rating": 5,
+    "text": "Случайно зашли и остались на весь вечер. Меню разнообразное.",
+    "date": "2025-04-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-065",
+    "targetType": "poi",
+    "targetId": "poi-029",
+    "authorName": "John M.",
+    "rating": 4,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-06-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-066",
+    "targetType": "poi",
+    "targetId": "poi-087",
+    "authorName": "Карина С.",
+    "rating": 3,
+    "text": "Шашлык отменный! Мясо нежное, правильно приготовленное. Советую баранину.",
+    "date": "2025-01-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-067",
+    "targetType": "poi",
+    "targetId": "poi-088",
+    "authorName": "Светлана Г.",
+    "rating": 5,
+    "text": "Порадовало детское меню. Дети всё съели, что бывает редко.",
+    "date": "2025-04-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-068",
+    "targetType": "poi",
+    "targetId": "poi-049",
+    "authorName": "Сослан Т.",
+    "rating": 4,
+    "text": "Место потрясающее, но дорога сложная. Берите внедорожник или экскурсию.",
+    "date": "2025-08-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-069",
+    "targetType": "poi",
+    "targetId": "poi-091",
+    "authorName": "Сослан Т.",
+    "rating": 5,
+    "text": "Качество стабильно высокое. Ходим сюда регулярно уже второй год.",
+    "date": "2025-07-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-070",
+    "targetType": "poi",
+    "targetId": "poi-001",
+    "authorName": "Sarah K.",
+    "rating": 4,
+    "text": "Фотографии не передают и десятой части красоты. Нужно видеть своими глазами.",
+    "date": "2025-12-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-071",
+    "targetType": "poi",
+    "targetId": "poi-015",
+    "authorName": "Валерий К.",
+    "rating": 5,
+    "text": "Экскурсовод рассказал много интересного. Два часа пролетели незаметно.",
+    "date": "2025-08-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-072",
+    "targetType": "poi",
+    "targetId": "poi-082",
+    "authorName": "Нина Р.",
+    "rating": 5,
+    "text": "Хлеб свежевыпеченный, масло домашнее — даже мелочи здесь продуманы.",
+    "date": "2025-07-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-073",
+    "targetType": "poi",
+    "targetId": "poi-049",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Дети были в восторге! Есть где побегать и полазить. Безопасно.",
+    "date": "2025-02-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-074",
+    "targetType": "poi",
+    "targetId": "poi-041",
+    "authorName": "Emma G.",
+    "rating": 4,
+    "text": "Были с детьми — им понравилось. Есть интерактивные элементы.",
+    "date": "2025-08-20",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-075",
+    "targetType": "poi",
+    "targetId": "poi-081",
+    "authorName": "Ирина В.",
+    "rating": 5,
+    "text": "Меню на двух языках — удобно для иностранных гостей. Персонал говорит по-английски.",
+    "date": "2025-03-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-076",
+    "targetType": "poi",
+    "targetId": "poi-097",
+    "authorName": "Светлана Г.",
+    "rating": 5,
+    "text": "Лучшие осетинские пироги в городе! Тесто тонкое, начинка сочная.",
+    "date": "2025-02-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-077",
+    "targetType": "poi",
+    "targetId": "poi-098",
+    "authorName": "Марина Е.",
+    "rating": 3,
+    "text": "Бесплатная парковка рядом. Для центра города — большой плюс.",
+    "date": "2025-01-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-078",
+    "targetType": "poi",
+    "targetId": "poi-018",
+    "authorName": "Игорь В.",
+    "rating": 4,
+    "text": "Удобный подъезд, есть парковка. Для инвалидов доступ ограничен.",
+    "date": "2025-02-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-079",
+    "targetType": "tour",
+    "targetId": "tour-010",
+    "authorName": "Георгий П.",
+    "rating": 5,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-09-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-080",
+    "targetType": "poi",
+    "targetId": "poi-020",
+    "authorName": "Аида К.",
+    "rating": 5,
+    "text": "Узнал много нового об осетинской культуре. Очень познавательно.",
+    "date": "2025-01-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-081",
+    "targetType": "poi",
+    "targetId": "poi-029",
+    "authorName": "David B.",
+    "rating": 5,
+    "text": "Экскурсовод рассказал много интересного. Два часа пролетели незаметно.",
+    "date": "2025-07-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-082",
+    "targetType": "poi",
+    "targetId": "poi-073",
+    "authorName": "Нина Р.",
+    "rating": 5,
+    "text": "Вегетарианские пироги тоже вкусные! Картофджын и цахараджын — наши фавориты.",
+    "date": "2025-03-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-083",
+    "targetType": "poi",
+    "targetId": "poi-051",
+    "authorName": "Alex V.",
+    "rating": 4,
+    "text": "Невероятная красота! Горы просто завораживают. Хочется возвращаться снова и снова.",
+    "date": "2025-03-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-084",
+    "targetType": "tour",
+    "targetId": "tour-011",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-06-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-085",
+    "targetType": "poi",
+    "targetId": "poi-054",
+    "authorName": "Julia W.",
+    "rating": 5,
+    "text": "Местные жители очень гордятся этим местом. И правильно делают.",
+    "date": "2025-06-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-086",
+    "targetType": "poi",
+    "targetId": "poi-083",
+    "authorName": "Виктор Н.",
+    "rating": 5,
+    "text": "Случайно зашли и остались на весь вечер. Меню разнообразное.",
+    "date": "2025-09-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-087",
+    "targetType": "poi",
+    "targetId": "poi-001",
+    "authorName": "Оксана Л.",
+    "rating": 4,
+    "text": "Место потрясающее, но дорога сложная. Берите внедорожник или экскурсию.",
+    "date": "2025-02-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-088",
+    "targetType": "poi",
+    "targetId": "poi-071",
+    "authorName": "Валерий К.",
+    "rating": 3,
+    "text": "Кухня разнообразная — есть и осетинская, и европейская. Каждый найдёт своё.",
+    "date": "2025-07-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-089",
+    "targetType": "poi",
+    "targetId": "poi-078",
+    "authorName": "Лариса О.",
+    "rating": 5,
+    "text": "Порадовало детское меню. Дети всё съели, что бывает редко.",
+    "date": "2025-02-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-090",
+    "targetType": "guide",
+    "targetId": "guide-007",
+    "authorName": "Зарина Ц.",
+    "rating": 4,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-09-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-091",
+    "targetType": "poi",
+    "targetId": "poi-095",
+    "authorName": "Максим И.",
+    "rating": 4,
+    "text": "Бронируйте столик на выходные — без брони придётся ждать.",
+    "date": "2025-09-06",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-092",
+    "targetType": "poi",
+    "targetId": "poi-004",
+    "authorName": "Руслан М.",
+    "rating": 4,
+    "text": "Фотографии не передают и десятой части красоты. Нужно видеть своими глазами.",
+    "date": "2025-02-12",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-093",
+    "targetType": "poi",
+    "targetId": "poi-049",
+    "authorName": "John M.",
+    "rating": 5,
+    "text": "Дети были в восторге! Есть где побегать и полазить. Безопасно.",
+    "date": "2025-04-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-094",
+    "targetType": "poi",
+    "targetId": "poi-025",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "Экскурсовод рассказал много интересного. Два часа пролетели незаметно.",
+    "date": "2025-03-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-095",
+    "targetType": "poi",
+    "targetId": "poi-040",
+    "authorName": "Светлана Г.",
+    "rating": 3,
+    "text": "Были здесь в конце лета — водопады полноводные, зелень пышная. Идеально!",
+    "date": "2025-03-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-096",
+    "targetType": "poi",
+    "targetId": "poi-016",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Билет символический, а впечатления — на миллион. Рекомендую!",
+    "date": "2025-06-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-097",
+    "targetType": "poi",
+    "targetId": "poi-001",
+    "authorName": "Алексей Д.",
+    "rating": 4,
+    "text": "Рекомендую закладывать больше времени, чем кажется. Тут есть чем заняться.",
+    "date": "2025-12-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-098",
+    "targetType": "poi",
+    "targetId": "poi-022",
+    "authorName": "Светлана Г.",
+    "rating": 5,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-03-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-099",
+    "targetType": "poi",
+    "targetId": "poi-096",
+    "authorName": "Залина Б.",
+    "rating": 5,
+    "text": "Меню на двух языках — удобно для иностранных гостей. Персонал говорит по-английски.",
+    "date": "2025-05-06",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-100",
+    "targetType": "poi",
+    "targetId": "poi-090",
+    "authorName": "Георгий П.",
+    "rating": 4,
+    "text": "Бронируйте столик на выходные — без брони придётся ждать.",
+    "date": "2025-03-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-101",
+    "targetType": "poi",
+    "targetId": "poi-080",
+    "authorName": "Daniel R.",
+    "rating": 5,
+    "text": "Попробуйте дзыкка — нигде больше такого не делают. Рецепт уникальный.",
+    "date": "2025-06-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-102",
+    "targetType": "poi",
+    "targetId": "poi-083",
+    "authorName": "Руслан М.",
+    "rating": 5,
+    "text": "Случайно зашли и остались на весь вечер. Меню разнообразное.",
+    "date": "2025-09-12",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-103",
+    "targetType": "poi",
+    "targetId": "poi-020",
+    "authorName": "Алина Г.",
+    "rating": 4,
+    "text": "Маленький, но очень атмосферный. Лучше приходить в будние — тише.",
+    "date": "2025-09-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-104",
+    "targetType": "poi",
+    "targetId": "poi-007",
+    "authorName": "Нина Р.",
+    "rating": 3,
+    "text": "Одно из лучших мест для пикника. Берите еду и наслаждайтесь видами.",
+    "date": "2025-04-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-105",
+    "targetType": "guide",
+    "targetId": "guide-008",
+    "authorName": "Светлана Г.",
+    "rating": 5,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-09-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-106",
+    "targetType": "poi",
+    "targetId": "poi-005",
+    "authorName": "Emily R.",
+    "rating": 5,
+    "text": "Невероятная красота! Горы просто завораживают. Хочется возвращаться снова и снова.",
+    "date": "2025-04-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-107",
+    "targetType": "poi",
+    "targetId": "poi-011",
+    "authorName": "Jennifer L.",
+    "rating": 5,
+    "text": "Второй раз здесь — в первый не успели всё посмотреть.",
+    "date": "2025-12-02",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-108",
+    "targetType": "poi",
+    "targetId": "poi-088",
+    "authorName": "Олег Т.",
+    "rating": 5,
+    "text": "Цены чуть выше среднего, но за качество готов платить.",
+    "date": "2025-02-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-109",
+    "targetType": "poi",
+    "targetId": "poi-050",
+    "authorName": "Emily R.",
+    "rating": 3,
+    "text": "Были здесь в конце лета — водопады полноводные, зелень пышная. Идеально!",
+    "date": "2025-07-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-110",
+    "targetType": "poi",
+    "targetId": "poi-053",
+    "authorName": "Игорь В.",
+    "rating": 3,
+    "text": "Горный воздух и тишина — то, чего так не хватает в городе. Место силы.",
+    "date": "2025-09-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-111",
+    "targetType": "poi",
+    "targetId": "poi-007",
+    "authorName": "Аида К.",
+    "rating": 3,
+    "text": "Мы были в группе с гидом — он рассказал много интересного про историю места.",
+    "date": "2025-11-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-112",
+    "targetType": "poi",
+    "targetId": "poi-055",
+    "authorName": "Вера Б.",
+    "rating": 4,
+    "text": "Парковка неудобная, зато само место великолепное. Готовьтесь к пешей прогулке.",
+    "date": "2025-12-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-113",
+    "targetType": "poi",
+    "targetId": "poi-001",
+    "authorName": "Эдуард М.",
+    "rating": 5,
+    "text": "Отличное место для треккинга. Тропа размечена, но удобная обувь обязательна.",
+    "date": "2025-07-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-114",
+    "targetType": "poi",
+    "targetId": "poi-096",
+    "authorName": "Павел С.",
+    "rating": 4,
+    "text": "Средний чек нормальный для центра. Качество оправдывает цену.",
+    "date": "2025-11-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-115",
+    "targetType": "tour",
+    "targetId": "tour-012",
+    "authorName": "Мадина Х.",
+    "rating": 5,
+    "text": "Было здорово! Единственный минус — хотелось бы больше времени на каждой остановке.",
+    "date": "2025-03-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-116",
+    "targetType": "poi",
+    "targetId": "poi-013",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-04-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-117",
+    "targetType": "poi",
+    "targetId": "poi-084",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Пришли на обед, ушли довольные. Быстро, вкусно, без лишних ожиданий.",
+    "date": "2025-06-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-118",
+    "targetType": "poi",
+    "targetId": "poi-045",
+    "authorName": "Олег Т.",
+    "rating": 5,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-12-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-119",
+    "targetType": "poi",
+    "targetId": "poi-048",
+    "authorName": "Daniel R.",
+    "rating": 5,
+    "text": "Отличное место для треккинга. Тропа размечена, но удобная обувь обязательна.",
+    "date": "2025-11-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-120",
+    "targetType": "poi",
+    "targetId": "poi-018",
+    "authorName": "Казбек Т.",
+    "rating": 5,
+    "text": "Узнал много нового об осетинской культуре. Очень познавательно.",
+    "date": "2025-12-02",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-121",
+    "targetType": "guide",
+    "targetId": "guide-007",
+    "authorName": "Оксана Л.",
+    "rating": 4,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-11-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-122",
+    "targetType": "poi",
+    "targetId": "poi-007",
+    "authorName": "John M.",
+    "rating": 3,
+    "text": "Мы были в группе с гидом — он рассказал много интересного про историю места.",
+    "date": "2025-01-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-123",
+    "targetType": "poi",
+    "targetId": "poi-081",
+    "authorName": "Эдуард М.",
+    "rating": 4,
+    "text": "Качество стабильно высокое. Ходим сюда регулярно уже второй год.",
+    "date": "2025-05-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-124",
+    "targetType": "poi",
+    "targetId": "poi-030",
+    "authorName": "Максим И.",
+    "rating": 5,
+    "text": "Маленький, но очень атмосферный. Лучше приходить в будние — тише.",
+    "date": "2025-03-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-125",
+    "targetType": "poi",
+    "targetId": "poi-093",
+    "authorName": "Вера Б.",
+    "rating": 4,
+    "text": "Кухня разнообразная — есть и осетинская, и европейская. Каждый найдёт своё.",
+    "date": "2025-05-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-126",
+    "targetType": "tour",
+    "targetId": "tour-006",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Рекомендую эту экскурсию всем. Организация на высшем уровне, транспорт комфортный.",
+    "date": "2025-08-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-127",
+    "targetType": "poi",
+    "targetId": "poi-086",
+    "authorName": "Олег Т.",
+    "rating": 5,
+    "text": "Заказывали пироги на вынос — привезли горячими, свежими. Сервис на уровне.",
+    "date": "2025-05-20",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-128",
+    "targetType": "poi",
+    "targetId": "poi-029",
+    "authorName": "Эдуард М.",
+    "rating": 3,
+    "text": "Узнал много нового об осетинской культуре. Очень познавательно.",
+    "date": "2025-06-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-129",
+    "targetType": "tour",
+    "targetId": "tour-009",
+    "authorName": "Виктор Н.",
+    "rating": 5,
+    "text": "Рекомендую эту экскурсию всем. Организация на высшем уровне, транспорт комфортный.",
+    "date": "2025-10-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-130",
+    "targetType": "poi",
+    "targetId": "poi-024",
+    "authorName": "Тамара А.",
+    "rating": 5,
+    "text": "Хорошо сохранившийся памятник истории. Видно, что за ним ухаживают.",
+    "date": "2025-11-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-131",
+    "targetType": "poi",
+    "targetId": "poi-094",
+    "authorName": "Аида К.",
+    "rating": 4,
+    "text": "Вегетарианские пироги тоже вкусные! Картофджын и цахараджын — наши фавориты.",
+    "date": "2025-12-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-132",
+    "targetType": "poi",
+    "targetId": "poi-026",
+    "authorName": "Павел С.",
+    "rating": 5,
+    "text": "Второй раз здесь — в первый не успели всё посмотреть.",
+    "date": "2025-09-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-133",
+    "targetType": "guide",
+    "targetId": "guide-007",
+    "authorName": "Светлана Г.",
+    "rating": 4,
+    "text": "Прекрасный гид! Знает каждый уголок Осетии. Рассказывает так, что не хочется уходить.",
+    "date": "2025-04-04",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-134",
+    "targetType": "poi",
+    "targetId": "poi-096",
+    "authorName": "Алексей Д.",
+    "rating": 4,
+    "text": "Лучшие осетинские пироги в городе! Тесто тонкое, начинка сочная.",
+    "date": "2025-09-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-135",
+    "targetType": "poi",
+    "targetId": "poi-014",
+    "authorName": "Наталья С.",
+    "rating": 5,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-04-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-136",
+    "targetType": "poi",
+    "targetId": "poi-090",
+    "authorName": "Вера Б.",
+    "rating": 3,
+    "text": "Интерьер приятный, музыка ненавязчивая. Хорошее место для ужина вдвоём.",
+    "date": "2025-03-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-137",
+    "targetType": "poi",
+    "targetId": "poi-045",
+    "authorName": "Казбек Т.",
+    "rating": 4,
+    "text": "Были с детьми — им понравилось. Есть интерактивные элементы.",
+    "date": "2025-07-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-138",
+    "targetType": "poi",
+    "targetId": "poi-074",
+    "authorName": "Валерий К.",
+    "rating": 5,
+    "text": "Случайно зашли и остались на весь вечер. Меню разнообразное.",
+    "date": "2025-08-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-139",
+    "targetType": "poi",
+    "targetId": "poi-054",
+    "authorName": "Тамара А.",
+    "rating": 5,
+    "text": "Хорошо сохранившийся памятник истории. Видно, что за ним ухаживают.",
+    "date": "2025-08-19",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-140",
+    "targetType": "poi",
+    "targetId": "poi-045",
+    "authorName": "Лариса О.",
+    "rating": 5,
+    "text": "Вечером с подсветкой выглядит ещё красивее. Приходите на закате.",
+    "date": "2025-10-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-141",
+    "targetType": "poi",
+    "targetId": "poi-030",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-10-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-142",
+    "targetType": "poi",
+    "targetId": "poi-041",
+    "authorName": "Светлана Г.",
+    "rating": 3,
+    "text": "Местные жители очень гордятся этим местом. И правильно делают.",
+    "date": "2025-06-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-143",
+    "targetType": "tour",
+    "targetId": "tour-002",
+    "authorName": "Алексей Д.",
+    "rating": 4,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-06-06",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-144",
+    "targetType": "poi",
+    "targetId": "poi-015",
+    "authorName": "Максим И.",
+    "rating": 4,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-09-06",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-145",
+    "targetType": "poi",
+    "targetId": "poi-032",
+    "authorName": "Chris D.",
+    "rating": 5,
+    "text": "Величественное место. История чувствуется в каждом камне.",
+    "date": "2025-11-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-146",
+    "targetType": "poi",
+    "targetId": "poi-010",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Место потрясающее, но дорога сложная. Берите внедорожник или экскурсию.",
+    "date": "2025-02-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-147",
+    "targetType": "poi",
+    "targetId": "poi-051",
+    "authorName": "Максим И.",
+    "rating": 4,
+    "text": "Горный воздух и тишина — то, чего так не хватает в городе. Место силы.",
+    "date": "2025-10-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-148",
+    "targetType": "poi",
+    "targetId": "poi-048",
+    "authorName": "James W.",
+    "rating": 5,
+    "text": "Место потрясающее, но дорога сложная. Берите внедорожник или экскурсию.",
+    "date": "2025-01-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-149",
+    "targetType": "guide",
+    "targetId": "guide-006",
+    "authorName": "Мадина Х.",
+    "rating": 5,
+    "text": "Очень профессиональный и дружелюбный гид. Отвечает на все вопросы, делится личным опытом.",
+    "date": "2025-10-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-150",
+    "targetType": "poi",
+    "targetId": "poi-079",
+    "authorName": "Игорь В.",
+    "rating": 5,
+    "text": "Случайно зашли и остались на весь вечер. Меню разнообразное.",
+    "date": "2025-06-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-151",
+    "targetType": "poi",
+    "targetId": "poi-090",
+    "authorName": "Казбек Т.",
+    "rating": 5,
+    "text": "Меню на двух языках — удобно для иностранных гостей. Персонал говорит по-английски.",
+    "date": "2025-08-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-152",
+    "targetType": "poi",
+    "targetId": "poi-011",
+    "authorName": "Дзерасса Х.",
+    "rating": 5,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-06-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-153",
+    "targetType": "poi",
+    "targetId": "poi-005",
+    "authorName": "Нина Р.",
+    "rating": 4,
+    "text": "Лучше приезжать в будние дни — меньше людей. В выходные бывает многолюдно.",
+    "date": "2025-10-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-154",
+    "targetType": "poi",
+    "targetId": "poi-079",
+    "authorName": "Аида К.",
+    "rating": 5,
+    "text": "Меню на двух языках — удобно для иностранных гостей. Персонал говорит по-английски.",
+    "date": "2025-12-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-155",
+    "targetType": "poi",
+    "targetId": "poi-099",
+    "authorName": "Аслан Б.",
+    "rating": 4,
+    "text": "Пришли на обед, ушли довольные. Быстро, вкусно, без лишних ожиданий.",
+    "date": "2025-02-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-156",
+    "targetType": "poi",
+    "targetId": "poi-016",
+    "authorName": "Залина Б.",
+    "rating": 5,
+    "text": "Узнал много нового об осетинской культуре. Очень познавательно.",
+    "date": "2025-04-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-157",
+    "targetType": "poi",
+    "targetId": "poi-042",
+    "authorName": "Марина Е.",
+    "rating": 5,
+    "text": "Мы были в группе с гидом — он рассказал много интересного про историю места.",
+    "date": "2025-02-12",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-158",
+    "targetType": "guide",
+    "targetId": "guide-004",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-11-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-159",
+    "targetType": "poi",
+    "targetId": "poi-059",
+    "authorName": "Марина Е.",
+    "rating": 5,
+    "text": "Советую ехать рано утром. Свет идеальный, народу минимум.",
+    "date": "2025-01-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-160",
+    "targetType": "guide",
+    "targetId": "guide-008",
+    "authorName": "Тамара А.",
+    "rating": 5,
+    "text": "Очень профессиональный и дружелюбный гид. Отвечает на все вопросы, делится личным опытом.",
+    "date": "2025-08-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-161",
+    "targetType": "poi",
+    "targetId": "poi-075",
+    "authorName": "Фатима К.",
+    "rating": 5,
+    "text": "Вегетарианские пироги тоже вкусные! Картофджын и цахараджын — наши фавориты.",
+    "date": "2025-03-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-162",
+    "targetType": "guide",
+    "targetId": "guide-003",
+    "authorName": "Аслан Б.",
+    "rating": 4,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-02-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-163",
+    "targetType": "poi",
+    "targetId": "poi-027",
+    "authorName": "Аслан Б.",
+    "rating": 5,
+    "text": "Маленький, но очень атмосферный. Лучше приходить в будние — тише.",
+    "date": "2025-05-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-164",
+    "targetType": "poi",
+    "targetId": "poi-071",
+    "authorName": "Вера Б.",
+    "rating": 5,
+    "text": "Фыдджын просто тает во рту! А домашний лимонад — отдельная песня.",
+    "date": "2025-07-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-165",
+    "targetType": "poi",
+    "targetId": "poi-054",
+    "authorName": "Фатима К.",
+    "rating": 5,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-08-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-166",
+    "targetType": "poi",
+    "targetId": "poi-097",
+    "authorName": "Мадина Х.",
+    "rating": 5,
+    "text": "Летняя веранда — огромный плюс. Вид на горы и свежий воздух.",
+    "date": "2025-12-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-167",
+    "targetType": "poi",
+    "targetId": "poi-085",
+    "authorName": "Rachel K.",
+    "rating": 5,
+    "text": "Лучшие осетинские пироги в городе! Тесто тонкое, начинка сочная.",
+    "date": "2025-08-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-168",
+    "targetType": "poi",
+    "targetId": "poi-055",
+    "authorName": "John M.",
+    "rating": 5,
+    "text": "Второй раз здесь и опять под впечатлением. Осень здесь особенно красива.",
+    "date": "2025-05-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-169",
+    "targetType": "guide",
+    "targetId": "guide-006",
+    "authorName": "Игорь В.",
+    "rating": 5,
+    "text": "Прекрасный гид! Знает каждый уголок Осетии. Рассказывает так, что не хочется уходить.",
+    "date": "2025-08-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-170",
+    "targetType": "poi",
+    "targetId": "poi-094",
+    "authorName": "Максим И.",
+    "rating": 5,
+    "text": "Заказывали пироги на вынос — привезли горячими, свежими. Сервис на уровне.",
+    "date": "2025-01-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-171",
+    "targetType": "tour",
+    "targetId": "tour-008",
+    "authorName": "Вера Б.",
+    "rating": 3,
+    "text": "Было здорово! Единственный минус — хотелось бы больше времени на каждой остановке.",
+    "date": "2025-04-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-172",
+    "targetType": "poi",
+    "targetId": "poi-090",
+    "authorName": "Тамара А.",
+    "rating": 5,
+    "text": "Летняя веранда — огромный плюс. Вид на горы и свежий воздух.",
+    "date": "2025-06-04",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-173",
+    "targetType": "poi",
+    "targetId": "poi-053",
+    "authorName": "Lisa P.",
+    "rating": 4,
+    "text": "Фотографии не передают и десятой части красоты. Нужно видеть своими глазами.",
+    "date": "2025-04-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-174",
+    "targetType": "poi",
+    "targetId": "poi-080",
+    "authorName": "Игорь В.",
+    "rating": 3,
+    "text": "Шашлык отменный! Мясо нежное, правильно приготовленное. Советую баранину.",
+    "date": "2025-11-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-175",
+    "targetType": "poi",
+    "targetId": "poi-095",
+    "authorName": "Sophie M.",
+    "rating": 5,
+    "text": "Средний чек нормальный для центра. Качество оправдывает цену.",
+    "date": "2025-07-02",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-176",
+    "targetType": "poi",
+    "targetId": "poi-031",
+    "authorName": "Виктор Н.",
+    "rating": 3,
+    "text": "Рядом есть кафе, можно совместить культурную программу с обедом.",
+    "date": "2025-05-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-177",
+    "targetType": "poi",
+    "targetId": "poi-022",
+    "authorName": "David B.",
+    "rating": 5,
+    "text": "Рядом есть кафе, можно совместить культурную программу с обедом.",
+    "date": "2025-12-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-178",
+    "targetType": "poi",
+    "targetId": "poi-056",
+    "authorName": "Michael T.",
+    "rating": 4,
+    "text": "Природа нетронутая, дикая. Чувствуешь себя первооткрывателем.",
+    "date": "2025-07-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-179",
+    "targetType": "poi",
+    "targetId": "poi-072",
+    "authorName": "Залина Б.",
+    "rating": 5,
+    "text": "Летняя веранда — огромный плюс. Вид на горы и свежий воздух.",
+    "date": "2025-10-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-180",
+    "targetType": "poi",
+    "targetId": "poi-076",
+    "authorName": "Julia W.",
+    "rating": 4,
+    "text": "Случайно зашли и остались на весь вечер. Меню разнообразное.",
+    "date": "2025-06-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-181",
+    "targetType": "tour",
+    "targetId": "tour-008",
+    "authorName": "Георгий П.",
+    "rating": 5,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-04-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-182",
+    "targetType": "tour",
+    "targetId": "tour-005",
+    "authorName": "Mark S.",
+    "rating": 4,
+    "text": "Excellent tour! The guide was incredibly knowledgeable and passionate about Ossetian history.",
+    "date": "2025-09-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-183",
+    "targetType": "poi",
+    "targetId": "poi-028",
+    "authorName": "Андрей Ф.",
+    "rating": 5,
+    "text": "Экскурсовод рассказал много интересного. Два часа пролетели незаметно.",
+    "date": "2025-01-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-184",
+    "targetType": "guide",
+    "targetId": "guide-002",
+    "authorName": "Mark S.",
+    "rating": 4,
+    "text": "An amazing guide with deep knowledge of local history and culture. Highly recommended!",
+    "date": "2025-05-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-185",
+    "targetType": "poi",
+    "targetId": "poi-078",
+    "authorName": "Елена А.",
+    "rating": 5,
+    "text": "Бесплатная парковка рядом. Для центра города — большой плюс.",
+    "date": "2025-04-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-186",
+    "targetType": "poi",
+    "targetId": "poi-008",
+    "authorName": "Jennifer L.",
+    "rating": 5,
+    "text": "Одно из лучших мест для пикника. Берите еду и наслаждайтесь видами.",
+    "date": "2025-05-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-187",
+    "targetType": "poi",
+    "targetId": "poi-093",
+    "authorName": "Руслан М.",
+    "rating": 5,
+    "text": "Порадовало детское меню. Дети всё съели, что бывает редко.",
+    "date": "2025-08-06",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-188",
+    "targetType": "tour",
+    "targetId": "tour-012",
+    "authorName": "Павел С.",
+    "rating": 4,
+    "text": "Отличная экскурсия! Гид очень знающий и увлечённый. Маршрут продуман до мелочей.",
+    "date": "2025-07-06",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-189",
+    "targetType": "poi",
+    "targetId": "poi-088",
+    "authorName": "Светлана Г.",
+    "rating": 4,
+    "text": "Бронируйте столик на выходные — без брони придётся ждать.",
+    "date": "2025-04-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-190",
+    "targetType": "poi",
+    "targetId": "poi-087",
+    "authorName": "Карина С.",
+    "rating": 3,
+    "text": "Хлеб свежевыпеченный, масло домашнее — даже мелочи здесь продуманы.",
+    "date": "2025-07-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-191",
+    "targetType": "tour",
+    "targetId": "tour-015",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-09-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-192",
+    "targetType": "poi",
+    "targetId": "poi-073",
+    "authorName": "Георгий П.",
+    "rating": 5,
+    "text": "Бесплатная парковка рядом. Для центра города — большой плюс.",
+    "date": "2025-01-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-193",
+    "targetType": "tour",
+    "targetId": "tour-011",
+    "authorName": "Эдуард М.",
+    "rating": 4,
+    "text": "Отличная экскурсия! Гид очень знающий и увлечённый. Маршрут продуман до мелочей.",
+    "date": "2025-06-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-194",
+    "targetType": "poi",
+    "targetId": "poi-006",
+    "authorName": "Алексей Д.",
+    "rating": 5,
+    "text": "Рекомендую закладывать больше времени, чем кажется. Тут есть чем заняться.",
+    "date": "2025-11-12",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-195",
+    "targetType": "poi",
+    "targetId": "poi-071",
+    "authorName": "Игорь В.",
+    "rating": 5,
+    "text": "Цены чуть выше среднего, но за качество готов платить.",
+    "date": "2025-07-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-196",
+    "targetType": "tour",
+    "targetId": "tour-003",
+    "authorName": "Julia W.",
+    "rating": 5,
+    "text": "Best day trip from Vladikavkaz. The scenery was breathtaking and the guide was fantastic.",
+    "date": "2025-05-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-197",
+    "targetType": "poi",
+    "targetId": "poi-008",
+    "authorName": "Мария К.",
+    "rating": 4,
+    "text": "Отличное место для треккинга. Тропа размечена, но удобная обувь обязательна.",
+    "date": "2025-08-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-198",
+    "targetType": "poi",
+    "targetId": "poi-084",
+    "authorName": "Аида К.",
+    "rating": 5,
+    "text": "Порадовало детское меню. Дети всё съели, что бывает редко.",
+    "date": "2025-09-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-199",
+    "targetType": "tour",
+    "targetId": "tour-002",
+    "authorName": "Mark S.",
+    "rating": 5,
+    "text": "Best day trip from Vladikavkaz. The scenery was breathtaking and the guide was fantastic.",
+    "date": "2025-10-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-200",
+    "targetType": "tour",
+    "targetId": "tour-007",
+    "authorName": "Сергей Л.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-08-19",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-201",
+    "targetType": "poi",
+    "targetId": "poi-027",
+    "authorName": "Sophie M.",
+    "rating": 4,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-11-02",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-202",
+    "targetType": "poi",
+    "targetId": "poi-073",
+    "authorName": "Сослан Т.",
+    "rating": 5,
+    "text": "Пришли на обед, ушли довольные. Быстро, вкусно, без лишних ожиданий.",
+    "date": "2025-08-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-203",
+    "targetType": "poi",
+    "targetId": "poi-025",
+    "authorName": "Ирина В.",
+    "rating": 5,
+    "text": "Рядом есть кафе, можно совместить культурную программу с обедом.",
+    "date": "2025-02-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-204",
+    "targetType": "poi",
+    "targetId": "poi-028",
+    "authorName": "Сергей Л.",
+    "rating": 5,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-11-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-205",
+    "targetType": "poi",
+    "targetId": "poi-013",
+    "authorName": "Лариса О.",
+    "rating": 5,
+    "text": "Обязательно к посещению в Осетии. Уникальное культурное наследие.",
+    "date": "2025-04-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-206",
+    "targetType": "poi",
+    "targetId": "poi-091",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "Лучшие осетинские пироги в городе! Тесто тонкое, начинка сочная.",
+    "date": "2025-12-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-207",
+    "targetType": "poi",
+    "targetId": "poi-071",
+    "authorName": "Lisa P.",
+    "rating": 5,
+    "text": "Порадовало детское меню. Дети всё съели, что бывает редко.",
+    "date": "2025-08-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-208",
+    "targetType": "poi",
+    "targetId": "poi-032",
+    "authorName": "Ирина В.",
+    "rating": 5,
+    "text": "Обязательно к посещению в Осетии. Уникальное культурное наследие.",
+    "date": "2025-11-12",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-209",
+    "targetType": "poi",
+    "targetId": "poi-013",
+    "authorName": "Карина С.",
+    "rating": 3,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-10-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-210",
+    "targetType": "poi",
+    "targetId": "poi-072",
+    "authorName": "Вера Б.",
+    "rating": 5,
+    "text": "Случайно зашли и остались на весь вечер. Меню разнообразное.",
+    "date": "2025-10-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-211",
+    "targetType": "poi",
+    "targetId": "poi-086",
+    "authorName": "Оксана Л.",
+    "rating": 5,
+    "text": "Фыдджын просто тает во рту! А домашний лимонад — отдельная песня.",
+    "date": "2025-03-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-212",
+    "targetType": "tour",
+    "targetId": "tour-003",
+    "authorName": "Daniel R.",
+    "rating": 5,
+    "text": "Best day trip from Vladikavkaz. The scenery was breathtaking and the guide was fantastic.",
+    "date": "2025-07-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-213",
+    "targetType": "poi",
+    "targetId": "poi-004",
+    "authorName": "Наталья С.",
+    "rating": 5,
+    "text": "Мы были в группе с гидом — он рассказал много интересного про историю места.",
+    "date": "2025-08-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-214",
+    "targetType": "poi",
+    "targetId": "poi-085",
+    "authorName": "Марина Е.",
+    "rating": 5,
+    "text": "Бесплатная парковка рядом. Для центра города — большой плюс.",
+    "date": "2025-03-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-215",
+    "targetType": "poi",
+    "targetId": "poi-099",
+    "authorName": "Наталья С.",
+    "rating": 3,
+    "text": "Кухня разнообразная — есть и осетинская, и европейская. Каждый найдёт своё.",
+    "date": "2025-02-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-216",
+    "targetType": "poi",
+    "targetId": "poi-083",
+    "authorName": "Дзерасса Х.",
+    "rating": 3,
+    "text": "Интерьер приятный, музыка ненавязчивая. Хорошее место для ужина вдвоём.",
+    "date": "2025-08-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-217",
+    "targetType": "poi",
+    "targetId": "poi-020",
+    "authorName": "Мадина Х.",
+    "rating": 3,
+    "text": "Рядом есть кафе, можно совместить культурную программу с обедом.",
+    "date": "2025-04-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-218",
+    "targetType": "poi",
+    "targetId": "poi-070",
+    "authorName": "Диана Г.",
+    "rating": 5,
+    "text": "Средний чек нормальный для центра. Качество оправдывает цену.",
+    "date": "2025-01-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-219",
+    "targetType": "poi",
+    "targetId": "poi-089",
+    "authorName": "Мадина Х.",
+    "rating": 4,
+    "text": "Средний чек нормальный для центра. Качество оправдывает цену.",
+    "date": "2025-09-19",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-220",
+    "targetType": "poi",
+    "targetId": "poi-088",
+    "authorName": "Георгий П.",
+    "rating": 5,
+    "text": "Случайно зашли и остались на весь вечер. Меню разнообразное.",
+    "date": "2025-07-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-221",
+    "targetType": "poi",
+    "targetId": "poi-010",
+    "authorName": "Валерий К.",
+    "rating": 4,
+    "text": "Отличное место для треккинга. Тропа размечена, но удобная обувь обязательна.",
+    "date": "2025-07-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-222",
+    "targetType": "poi",
+    "targetId": "poi-075",
+    "authorName": "Руслан М.",
+    "rating": 4,
+    "text": "Кухня разнообразная — есть и осетинская, и европейская. Каждый найдёт своё.",
+    "date": "2025-11-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-223",
+    "targetType": "poi",
+    "targetId": "poi-084",
+    "authorName": "Сергей Л.",
+    "rating": 5,
+    "text": "Уютная атмосфера, внимательный персонал. Еда вкусная, порции щедрые.",
+    "date": "2025-03-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-224",
+    "targetType": "poi",
+    "targetId": "poi-086",
+    "authorName": "Аслан Б.",
+    "rating": 3,
+    "text": "Бесплатная парковка рядом. Для центра города — большой плюс.",
+    "date": "2025-03-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-225",
+    "targetType": "poi",
+    "targetId": "poi-004",
+    "authorName": "Валерий К.",
+    "rating": 4,
+    "text": "Горный воздух и тишина — то, чего так не хватает в городе. Место силы.",
+    "date": "2025-02-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-226",
+    "targetType": "poi",
+    "targetId": "poi-019",
+    "authorName": "Артём Ж.",
+    "rating": 5,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-11-04",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-227",
+    "targetType": "guide",
+    "targetId": "guide-006",
+    "authorName": "Олег Т.",
+    "rating": 4,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-09-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-228",
+    "targetType": "poi",
+    "targetId": "poi-049",
+    "authorName": "Вера Б.",
+    "rating": 4,
+    "text": "Горный воздух и тишина — то, чего так не хватает в городе. Место силы.",
+    "date": "2025-03-04",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-229",
+    "targetType": "tour",
+    "targetId": "tour-006",
+    "authorName": "Марина Е.",
+    "rating": 5,
+    "text": "Отличная экскурсия! Гид очень знающий и увлечённый. Маршрут продуман до мелочей.",
+    "date": "2025-04-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-230",
+    "targetType": "poi",
+    "targetId": "poi-086",
+    "authorName": "Jennifer L.",
+    "rating": 4,
+    "text": "Порадовало детское меню. Дети всё съели, что бывает редко.",
+    "date": "2025-10-06",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-231",
+    "targetType": "guide",
+    "targetId": "guide-003",
+    "authorName": "Фатима К.",
+    "rating": 4,
+    "text": "Прекрасный гид! Знает каждый уголок Осетии. Рассказывает так, что не хочется уходить.",
+    "date": "2025-05-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-232",
+    "targetType": "poi",
+    "targetId": "poi-026",
+    "authorName": "Зарина Ц.",
+    "rating": 5,
+    "text": "Тихое место для размышлений. Туристов немного, что приятно.",
+    "date": "2025-09-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-233",
+    "targetType": "poi",
+    "targetId": "poi-031",
+    "authorName": "Lisa P.",
+    "rating": 5,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-03-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-234",
+    "targetType": "tour",
+    "targetId": "tour-002",
+    "authorName": "Нина Р.",
+    "rating": 4,
+    "text": "Рекомендую эту экскурсию всем. Организация на высшем уровне, транспорт комфортный.",
+    "date": "2025-07-12",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-235",
+    "targetType": "poi",
+    "targetId": "poi-075",
+    "authorName": "Светлана Г.",
+    "rating": 5,
+    "text": "Средний чек нормальный для центра. Качество оправдывает цену.",
+    "date": "2025-02-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-236",
+    "targetType": "poi",
+    "targetId": "poi-055",
+    "authorName": "Марина Е.",
+    "rating": 4,
+    "text": "Фотографии не передают и десятой части красоты. Нужно видеть своими глазами.",
+    "date": "2025-12-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-237",
+    "targetType": "poi",
+    "targetId": "poi-080",
+    "authorName": "Артём Ж.",
+    "rating": 3,
+    "text": "Случайно зашли и остались на весь вечер. Меню разнообразное.",
+    "date": "2025-08-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-238",
+    "targetType": "poi",
+    "targetId": "poi-093",
+    "authorName": "Michael T.",
+    "rating": 4,
+    "text": "Интерьер приятный, музыка ненавязчивая. Хорошее место для ужина вдвоём.",
+    "date": "2025-09-12",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-239",
+    "targetType": "poi",
+    "targetId": "poi-031",
+    "authorName": "Игорь В.",
+    "rating": 4,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-07-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-240",
+    "targetType": "poi",
+    "targetId": "poi-003",
+    "authorName": "Chris D.",
+    "rating": 4,
+    "text": "Были здесь в конце лета — водопады полноводные, зелень пышная. Идеально!",
+    "date": "2025-03-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-241",
+    "targetType": "poi",
+    "targetId": "poi-051",
+    "authorName": "Дзерасса Х.",
+    "rating": 4,
+    "text": "Рекомендую закладывать больше времени, чем кажется. Тут есть чем заняться.",
+    "date": "2025-06-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-242",
+    "targetType": "poi",
+    "targetId": "poi-017",
+    "authorName": "Залина Б.",
+    "rating": 5,
+    "text": "Обязательно к посещению в Осетии. Уникальное культурное наследие.",
+    "date": "2025-02-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-243",
+    "targetType": "poi",
+    "targetId": "poi-014",
+    "authorName": "Карина С.",
+    "rating": 4,
+    "text": "Были с детьми — им понравилось. Есть интерактивные элементы.",
+    "date": "2025-09-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-244",
+    "targetType": "poi",
+    "targetId": "poi-047",
+    "authorName": "Алина Г.",
+    "rating": 5,
+    "text": "Захватывает дух! Каньон, горы, река — всё в одном месте.",
+    "date": "2025-07-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-245",
+    "targetType": "poi",
+    "targetId": "poi-024",
+    "authorName": "Тамара А.",
+    "rating": 5,
+    "text": "Были с детьми — им понравилось. Есть интерактивные элементы.",
+    "date": "2025-01-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-246",
+    "targetType": "poi",
+    "targetId": "poi-076",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Летняя веранда — огромный плюс. Вид на горы и свежий воздух.",
+    "date": "2025-09-12",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-247",
+    "targetType": "poi",
+    "targetId": "poi-019",
+    "authorName": "Елена А.",
+    "rating": 5,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-03-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-248",
+    "targetType": "poi",
+    "targetId": "poi-089",
+    "authorName": "Виктор Н.",
+    "rating": 5,
+    "text": "Цены чуть выше среднего, но за качество готов платить.",
+    "date": "2025-02-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-249",
+    "targetType": "poi",
+    "targetId": "poi-055",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Закат здесь — отдельное шоу. Горы окрашиваются в розовый цвет.",
+    "date": "2025-03-20",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-250",
+    "targetType": "poi",
+    "targetId": "poi-009",
+    "authorName": "Аида К.",
+    "rating": 4,
+    "text": "Мы были в группе с гидом — он рассказал много интересного про историю места.",
+    "date": "2025-10-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-251",
+    "targetType": "poi",
+    "targetId": "poi-093",
+    "authorName": "Виктор Н.",
+    "rating": 5,
+    "text": "Меню на двух языках — удобно для иностранных гостей. Персонал говорит по-английски.",
+    "date": "2025-07-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-252",
+    "targetType": "tour",
+    "targetId": "tour-002",
+    "authorName": "Георгий П.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-10-12",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-253",
+    "targetType": "poi",
+    "targetId": "poi-051",
+    "authorName": "Jennifer L.",
+    "rating": 4,
+    "text": "Мы были в группе с гидом — он рассказал много интересного про историю места.",
+    "date": "2025-07-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-254",
+    "targetType": "tour",
+    "targetId": "tour-003",
+    "authorName": "Руслан М.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-10-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-255",
+    "targetType": "poi",
+    "targetId": "poi-002",
+    "authorName": "Игорь В.",
+    "rating": 5,
+    "text": "Фотографии не передают и десятой части красоты. Нужно видеть своими глазами.",
+    "date": "2025-05-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-256",
+    "targetType": "poi",
+    "targetId": "poi-045",
+    "authorName": "Emily R.",
+    "rating": 4,
+    "text": "Были с детьми — им понравилось. Есть интерактивные элементы.",
+    "date": "2025-01-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-257",
+    "targetType": "poi",
+    "targetId": "poi-095",
+    "authorName": "Аида К.",
+    "rating": 4,
+    "text": "Фыдджын просто тает во рту! А домашний лимонад — отдельная песня.",
+    "date": "2025-10-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-258",
+    "targetType": "poi",
+    "targetId": "poi-009",
+    "authorName": "Lisa P.",
+    "rating": 5,
+    "text": "Второй раз здесь и опять под впечатлением. Осень здесь особенно красива.",
+    "date": "2025-04-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-259",
+    "targetType": "poi",
+    "targetId": "poi-088",
+    "authorName": "Сергей Л.",
+    "rating": 5,
+    "text": "Средний чек нормальный для центра. Качество оправдывает цену.",
+    "date": "2025-05-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-260",
+    "targetType": "poi",
+    "targetId": "poi-056",
+    "authorName": "Максим И.",
+    "rating": 5,
+    "text": "Парковка неудобная, зато само место великолепное. Готовьтесь к пешей прогулке.",
+    "date": "2025-09-19",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-261",
+    "targetType": "poi",
+    "targetId": "poi-082",
+    "authorName": "Диана Г.",
+    "rating": 5,
+    "text": "Заказывали пироги на вынос — привезли горячими, свежими. Сервис на уровне.",
+    "date": "2025-10-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-262",
+    "targetType": "poi",
+    "targetId": "poi-021",
+    "authorName": "Ирина В.",
+    "rating": 5,
+    "text": "Местные жители очень гордятся этим местом. И правильно делают.",
+    "date": "2025-01-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-263",
+    "targetType": "poi",
+    "targetId": "poi-086",
+    "authorName": "Нина Р.",
+    "rating": 5,
+    "text": "Кухня разнообразная — есть и осетинская, и европейская. Каждый найдёт своё.",
+    "date": "2025-06-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-264",
+    "targetType": "tour",
+    "targetId": "tour-004",
+    "authorName": "Казбек Т.",
+    "rating": 5,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-05-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-265",
+    "targetType": "poi",
+    "targetId": "poi-031",
+    "authorName": "Валерий К.",
+    "rating": 5,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-08-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-266",
+    "targetType": "poi",
+    "targetId": "poi-012",
+    "authorName": "Дмитрий Р.",
+    "rating": 5,
+    "text": "Вечером с подсветкой выглядит ещё красивее. Приходите на закате.",
+    "date": "2025-07-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-267",
+    "targetType": "guide",
+    "targetId": "guide-004",
+    "authorName": "Jennifer L.",
+    "rating": 5,
+    "text": "Professional and friendly. Made our trip unforgettable with fascinating stories.",
+    "date": "2025-08-20",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-268",
+    "targetType": "poi",
+    "targetId": "poi-098",
+    "authorName": "Алина Г.",
+    "rating": 5,
+    "text": "Пришли на обед, ушли довольные. Быстро, вкусно, без лишних ожиданий.",
+    "date": "2025-05-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-269",
+    "targetType": "tour",
+    "targetId": "tour-008",
+    "authorName": "John M.",
+    "rating": 5,
+    "text": "Well organized tour with a great guide. Highly recommend for first-time visitors.",
+    "date": "2025-09-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-270",
+    "targetType": "poi",
+    "targetId": "poi-078",
+    "authorName": "Игорь В.",
+    "rating": 5,
+    "text": "Средний чек нормальный для центра. Качество оправдывает цену.",
+    "date": "2025-07-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-271",
+    "targetType": "poi",
+    "targetId": "poi-082",
+    "authorName": "Аида К.",
+    "rating": 3,
+    "text": "Заказывали пироги на вынос — привезли горячими, свежими. Сервис на уровне.",
+    "date": "2025-06-19",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-272",
+    "targetType": "poi",
+    "targetId": "poi-048",
+    "authorName": "Наталья С.",
+    "rating": 5,
+    "text": "Дети были в восторге! Есть где побегать и полазить. Безопасно.",
+    "date": "2025-09-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-273",
+    "targetType": "poi",
+    "targetId": "poi-003",
+    "authorName": "Сослан Т.",
+    "rating": 5,
+    "text": "Невероятная красота! Горы просто завораживают. Хочется возвращаться снова и снова.",
+    "date": "2025-02-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-274",
+    "targetType": "tour",
+    "targetId": "tour-004",
+    "authorName": "Валерий К.",
+    "rating": 4,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-09-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-275",
+    "targetType": "poi",
+    "targetId": "poi-042",
+    "authorName": "Руслан М.",
+    "rating": 4,
+    "text": "Рекомендую закладывать больше времени, чем кажется. Тут есть чем заняться.",
+    "date": "2025-06-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-276",
+    "targetType": "poi",
+    "targetId": "poi-070",
+    "authorName": "Артём Ж.",
+    "rating": 4,
+    "text": "Летняя веранда — огромный плюс. Вид на горы и свежий воздух.",
+    "date": "2025-04-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-277",
+    "targetType": "poi",
+    "targetId": "poi-040",
+    "authorName": "Сергей Л.",
+    "rating": 5,
+    "text": "Мы были в группе с гидом — он рассказал много интересного про историю места.",
+    "date": "2025-08-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-278",
+    "targetType": "poi",
+    "targetId": "poi-099",
+    "authorName": "Эдуард М.",
+    "rating": 4,
+    "text": "Случайно зашли и остались на весь вечер. Меню разнообразное.",
+    "date": "2025-12-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-279",
+    "targetType": "poi",
+    "targetId": "poi-074",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "Цены чуть выше среднего, но за качество готов платить.",
+    "date": "2025-11-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-280",
+    "targetType": "poi",
+    "targetId": "poi-012",
+    "authorName": "Павел С.",
+    "rating": 5,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-05-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-281",
+    "targetType": "tour",
+    "targetId": "tour-014",
+    "authorName": "Алина Г.",
+    "rating": 4,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-04-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-282",
+    "targetType": "poi",
+    "targetId": "poi-028",
+    "authorName": "Robert F.",
+    "rating": 3,
+    "text": "Величественное место. История чувствуется в каждом камне.",
+    "date": "2025-11-20",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-283",
+    "targetType": "poi",
+    "targetId": "poi-071",
+    "authorName": "Алексей Д.",
+    "rating": 4,
+    "text": "Кухня разнообразная — есть и осетинская, и европейская. Каждый найдёт своё.",
+    "date": "2025-07-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-284",
+    "targetType": "poi",
+    "targetId": "poi-011",
+    "authorName": "Сергей Л.",
+    "rating": 4,
+    "text": "Были зимой — атмосфера особенная. Снег и древние стены — сказка.",
+    "date": "2025-07-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-285",
+    "targetType": "poi",
+    "targetId": "poi-014",
+    "authorName": "Лариса О.",
+    "rating": 5,
+    "text": "Местные жители очень гордятся этим местом. И правильно делают.",
+    "date": "2025-06-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-286",
+    "targetType": "poi",
+    "targetId": "poi-080",
+    "authorName": "Julia W.",
+    "rating": 5,
+    "text": "Кухня разнообразная — есть и осетинская, и европейская. Каждый найдёт своё.",
+    "date": "2025-11-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-287",
+    "targetType": "poi",
+    "targetId": "poi-023",
+    "authorName": "Олег Т.",
+    "rating": 4,
+    "text": "Рядом есть кафе, можно совместить культурную программу с обедом.",
+    "date": "2025-03-12",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-288",
+    "targetType": "poi",
+    "targetId": "poi-056",
+    "authorName": "Алина Г.",
+    "rating": 3,
+    "text": "Горный воздух и тишина — то, чего так не хватает в городе. Место силы.",
+    "date": "2025-03-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-289",
+    "targetType": "poi",
+    "targetId": "poi-092",
+    "authorName": "Марина Е.",
+    "rating": 5,
+    "text": "Попробуйте дзыкка — нигде больше такого не делают. Рецепт уникальный.",
+    "date": "2025-03-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-290",
+    "targetType": "tour",
+    "targetId": "tour-015",
+    "authorName": "Ирина В.",
+    "rating": 5,
+    "text": "Отличная экскурсия! Гид очень знающий и увлечённый. Маршрут продуман до мелочей.",
+    "date": "2025-07-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-291",
+    "targetType": "poi",
+    "targetId": "poi-019",
+    "authorName": "Jennifer L.",
+    "rating": 5,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-02-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-292",
+    "targetType": "poi",
+    "targetId": "poi-084",
+    "authorName": "Фатима К.",
+    "rating": 5,
+    "text": "Шашлык отменный! Мясо нежное, правильно приготовленное. Советую баранину.",
+    "date": "2025-07-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-293",
+    "targetType": "poi",
+    "targetId": "poi-096",
+    "authorName": "Оксана Л.",
+    "rating": 5,
+    "text": "Хлеб свежевыпеченный, масло домашнее — даже мелочи здесь продуманы.",
+    "date": "2025-10-19",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-294",
+    "targetType": "poi",
+    "targetId": "poi-070",
+    "authorName": "Марина Е.",
+    "rating": 5,
+    "text": "Случайно зашли и остались на весь вечер. Меню разнообразное.",
+    "date": "2025-02-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-295",
+    "targetType": "poi",
+    "targetId": "poi-077",
+    "authorName": "Эдуард М.",
+    "rating": 3,
+    "text": "Кухня разнообразная — есть и осетинская, и европейская. Каждый найдёт своё.",
+    "date": "2025-12-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-296",
+    "targetType": "poi",
+    "targetId": "poi-087",
+    "authorName": "Елена А.",
+    "rating": 4,
+    "text": "Пришли на обед, ушли довольные. Быстро, вкусно, без лишних ожиданий.",
+    "date": "2025-12-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-297",
+    "targetType": "tour",
+    "targetId": "tour-001",
+    "authorName": "Ирина В.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-07-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-298",
+    "targetType": "guide",
+    "targetId": "guide-002",
+    "authorName": "Daniel R.",
+    "rating": 5,
+    "text": "Professional and friendly. Made our trip unforgettable with fascinating stories.",
+    "date": "2025-08-04",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-299",
+    "targetType": "poi",
+    "targetId": "poi-015",
+    "authorName": "Сослан Т.",
+    "rating": 5,
+    "text": "Маленький, но очень атмосферный. Лучше приходить в будние — тише.",
+    "date": "2025-11-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-300",
+    "targetType": "poi",
+    "targetId": "poi-054",
+    "authorName": "Аида К.",
+    "rating": 5,
+    "text": "Величественное место. История чувствуется в каждом камне.",
+    "date": "2025-10-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-301",
+    "targetType": "tour",
+    "targetId": "tour-013",
+    "authorName": "Daniel R.",
+    "rating": 5,
+    "text": "Well organized tour with a great guide. Highly recommend for first-time visitors.",
+    "date": "2025-07-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-302",
+    "targetType": "poi",
+    "targetId": "poi-017",
+    "authorName": "Сергей Л.",
+    "rating": 3,
+    "text": "Экскурсовод рассказал много интересного. Два часа пролетели незаметно.",
+    "date": "2025-12-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-303",
+    "targetType": "poi",
+    "targetId": "poi-073",
+    "authorName": "Елена А.",
+    "rating": 4,
+    "text": "Интерьер приятный, музыка ненавязчивая. Хорошее место для ужина вдвоём.",
+    "date": "2025-10-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-304",
+    "targetType": "guide",
+    "targetId": "guide-001",
+    "authorName": "Олег Т.",
+    "rating": 5,
+    "text": "Прекрасный гид! Знает каждый уголок Осетии. Рассказывает так, что не хочется уходить.",
+    "date": "2025-01-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-305",
+    "targetType": "poi",
+    "targetId": "poi-009",
+    "authorName": "Jennifer L.",
+    "rating": 4,
+    "text": "Закат здесь — отдельное шоу. Горы окрашиваются в розовый цвет.",
+    "date": "2025-08-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-306",
+    "targetType": "poi",
+    "targetId": "poi-030",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Советую начать осмотр именно отсюда — это визитная карточка региона.",
+    "date": "2025-11-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-307",
+    "targetType": "poi",
+    "targetId": "poi-017",
+    "authorName": "Максим И.",
+    "rating": 4,
+    "text": "Вечером с подсветкой выглядит ещё красивее. Приходите на закате.",
+    "date": "2025-03-04",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-308",
+    "targetType": "poi",
+    "targetId": "poi-092",
+    "authorName": "Олег Т.",
+    "rating": 5,
+    "text": "Пришли на обед, ушли довольные. Быстро, вкусно, без лишних ожиданий.",
+    "date": "2025-04-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-309",
+    "targetType": "poi",
+    "targetId": "poi-021",
+    "authorName": "Аслан Б.",
+    "rating": 4,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-06-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-310",
+    "targetType": "poi",
+    "targetId": "poi-022",
+    "authorName": "Елена А.",
+    "rating": 5,
+    "text": "Билет символический, а впечатления — на миллион. Рекомендую!",
+    "date": "2025-02-19",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-311",
+    "targetType": "poi",
+    "targetId": "poi-050",
+    "authorName": "Аида К.",
+    "rating": 3,
+    "text": "Отличное место для треккинга. Тропа размечена, но удобная обувь обязательна.",
+    "date": "2025-09-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-312",
+    "targetType": "poi",
+    "targetId": "poi-048",
+    "authorName": "Павел С.",
+    "rating": 5,
+    "text": "Горный воздух и тишина — то, чего так не хватает в городе. Место силы.",
+    "date": "2025-04-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-313",
+    "targetType": "tour",
+    "targetId": "tour-001",
+    "authorName": "Мадина Х.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-05-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-314",
+    "targetType": "poi",
+    "targetId": "poi-006",
+    "authorName": "Фатима К.",
+    "rating": 4,
+    "text": "Закат здесь — отдельное шоу. Горы окрашиваются в розовый цвет.",
+    "date": "2025-01-19",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-315",
+    "targetType": "poi",
+    "targetId": "poi-006",
+    "authorName": "Тимур Х.",
+    "rating": 4,
+    "text": "Природа нетронутая, дикая. Чувствуешь себя первооткрывателем.",
+    "date": "2025-10-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-316",
+    "targetType": "poi",
+    "targetId": "poi-011",
+    "authorName": "Лариса О.",
+    "rating": 5,
+    "text": "Были зимой — атмосфера особенная. Снег и древние стены — сказка.",
+    "date": "2025-10-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-317",
+    "targetType": "tour",
+    "targetId": "tour-014",
+    "authorName": "Дзерасса Х.",
+    "rating": 5,
+    "text": "Отличная экскурсия! Гид очень знающий и увлечённый. Маршрут продуман до мелочей.",
+    "date": "2025-06-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-318",
+    "targetType": "poi",
+    "targetId": "poi-076",
+    "authorName": "Мадина Х.",
+    "rating": 5,
+    "text": "Цены чуть выше среднего, но за качество готов платить.",
+    "date": "2025-02-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-319",
+    "targetType": "poi",
+    "targetId": "poi-047",
+    "authorName": "Валерий К.",
+    "rating": 4,
+    "text": "Дорога сюда — уже часть приключения. Каждый поворот — новый вид.",
+    "date": "2025-11-02",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-320",
+    "targetType": "poi",
+    "targetId": "poi-081",
+    "authorName": "Алексей Д.",
+    "rating": 5,
+    "text": "Вегетарианские пироги тоже вкусные! Картофджын и цахараджын — наши фавориты.",
+    "date": "2025-11-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-321",
+    "targetType": "tour",
+    "targetId": "tour-004",
+    "authorName": "Сергей Л.",
+    "rating": 5,
+    "text": "Рекомендую эту экскурсию всем. Организация на высшем уровне, транспорт комфортный.",
+    "date": "2025-07-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-322",
+    "targetType": "guide",
+    "targetId": "guide-005",
+    "authorName": "Зарина Ц.",
+    "rating": 5,
+    "text": "Прекрасный гид! Знает каждый уголок Осетии. Рассказывает так, что не хочется уходить.",
+    "date": "2025-11-04",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-323",
+    "targetType": "poi",
+    "targetId": "poi-023",
+    "authorName": "Robert F.",
+    "rating": 5,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-05-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-324",
+    "targetType": "poi",
+    "targetId": "poi-042",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Невероятная красота! Горы просто завораживают. Хочется возвращаться снова и снова.",
+    "date": "2025-09-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-325",
+    "targetType": "poi",
+    "targetId": "poi-091",
+    "authorName": "Мария К.",
+    "rating": 4,
+    "text": "Уютная атмосфера, внимательный персонал. Еда вкусная, порции щедрые.",
+    "date": "2025-03-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-326",
+    "targetType": "guide",
+    "targetId": "guide-003",
+    "authorName": "Дзерасса Х.",
+    "rating": 5,
+    "text": "Прекрасный гид! Знает каждый уголок Осетии. Рассказывает так, что не хочется уходить.",
+    "date": "2025-01-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-327",
+    "targetType": "poi",
+    "targetId": "poi-099",
+    "authorName": "Игорь В.",
+    "rating": 3,
+    "text": "Лучшие осетинские пироги в городе! Тесто тонкое, начинка сочная.",
+    "date": "2025-09-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-328",
+    "targetType": "poi",
+    "targetId": "poi-095",
+    "authorName": "Chris D.",
+    "rating": 5,
+    "text": "Вегетарианские пироги тоже вкусные! Картофджын и цахараджын — наши фавориты.",
+    "date": "2025-08-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-329",
+    "targetType": "poi",
+    "targetId": "poi-022",
+    "authorName": "Emma G.",
+    "rating": 5,
+    "text": "Маленький, но очень атмосферный. Лучше приходить в будние — тише.",
+    "date": "2025-05-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-330",
+    "targetType": "poi",
+    "targetId": "poi-054",
+    "authorName": "Аида К.",
+    "rating": 5,
+    "text": "Величественное место. История чувствуется в каждом камне.",
+    "date": "2025-12-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-331",
+    "targetType": "poi",
+    "targetId": "poi-092",
+    "authorName": "Елена А.",
+    "rating": 5,
+    "text": "Шашлык отменный! Мясо нежное, правильно приготовленное. Советую баранину.",
+    "date": "2025-11-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-332",
+    "targetType": "poi",
+    "targetId": "poi-096",
+    "authorName": "Rachel K.",
+    "rating": 5,
+    "text": "Летняя веранда — огромный плюс. Вид на горы и свежий воздух.",
+    "date": "2025-12-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-333",
+    "targetType": "tour",
+    "targetId": "tour-009",
+    "authorName": "Аслан Б.",
+    "rating": 5,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-09-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-334",
+    "targetType": "tour",
+    "targetId": "tour-007",
+    "authorName": "Марина Е.",
+    "rating": 5,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-09-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-335",
+    "targetType": "poi",
+    "targetId": "poi-080",
+    "authorName": "Tom H.",
+    "rating": 3,
+    "text": "Попробуйте дзыкка — нигде больше такого не делают. Рецепт уникальный.",
+    "date": "2025-03-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-336",
+    "targetType": "poi",
+    "targetId": "poi-047",
+    "authorName": "Дзерасса Х.",
+    "rating": 5,
+    "text": "Горный воздух и тишина — то, чего так не хватает в городе. Место силы.",
+    "date": "2025-04-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-337",
+    "targetType": "poi",
+    "targetId": "poi-001",
+    "authorName": "Лариса О.",
+    "rating": 4,
+    "text": "Фотографии не передают и десятой части красоты. Нужно видеть своими глазами.",
+    "date": "2025-09-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-338",
+    "targetType": "poi",
+    "targetId": "poi-008",
+    "authorName": "Марина Е.",
+    "rating": 3,
+    "text": "Дети были в восторге! Есть где побегать и полазить. Безопасно.",
+    "date": "2025-12-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-339",
+    "targetType": "poi",
+    "targetId": "poi-094",
+    "authorName": "Лариса О.",
+    "rating": 4,
+    "text": "Попробуйте дзыкка — нигде больше такого не делают. Рецепт уникальный.",
+    "date": "2025-03-06",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-340",
+    "targetType": "poi",
+    "targetId": "poi-077",
+    "authorName": "Тимур Х.",
+    "rating": 4,
+    "text": "Порадовало детское меню. Дети всё съели, что бывает редко.",
+    "date": "2025-03-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-341",
+    "targetType": "tour",
+    "targetId": "tour-013",
+    "authorName": "Артём Ж.",
+    "rating": 3,
+    "text": "Было здорово! Единственный минус — хотелось бы больше времени на каждой остановке.",
+    "date": "2025-09-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-342",
+    "targetType": "poi",
+    "targetId": "poi-041",
+    "authorName": "Ирина В.",
+    "rating": 3,
+    "text": "Хорошо сохранившийся памятник истории. Видно, что за ним ухаживают.",
+    "date": "2025-02-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-343",
+    "targetType": "poi",
+    "targetId": "poi-089",
+    "authorName": "Оксана Л.",
+    "rating": 5,
+    "text": "Случайно зашли и остались на весь вечер. Меню разнообразное.",
+    "date": "2025-05-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-344",
+    "targetType": "poi",
+    "targetId": "poi-089",
+    "authorName": "Emma G.",
+    "rating": 5,
+    "text": "Вегетарианские пироги тоже вкусные! Картофджын и цахараджын — наши фавориты.",
+    "date": "2025-01-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-345",
+    "targetType": "tour",
+    "targetId": "tour-003",
+    "authorName": "Tom H.",
+    "rating": 5,
+    "text": "Well organized tour with a great guide. Highly recommend for first-time visitors.",
+    "date": "2025-07-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-346",
+    "targetType": "poi",
+    "targetId": "poi-023",
+    "authorName": "Артём Ж.",
+    "rating": 4,
+    "text": "Были зимой — атмосфера особенная. Снег и древние стены — сказка.",
+    "date": "2025-03-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-347",
+    "targetType": "poi",
+    "targetId": "poi-009",
+    "authorName": "Алексей Д.",
+    "rating": 5,
+    "text": "Фотографии не передают и десятой части красоты. Нужно видеть своими глазами.",
+    "date": "2025-06-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-348",
+    "targetType": "tour",
+    "targetId": "tour-010",
+    "authorName": "Jennifer L.",
+    "rating": 5,
+    "text": "Well organized tour with a great guide. Highly recommend for first-time visitors.",
+    "date": "2025-10-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-349",
+    "targetType": "poi",
+    "targetId": "poi-098",
+    "authorName": "Kate N.",
+    "rating": 5,
+    "text": "Пришли на обед, ушли довольные. Быстро, вкусно, без лишних ожиданий.",
+    "date": "2025-04-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-350",
+    "targetType": "poi",
+    "targetId": "poi-003",
+    "authorName": "Казбек Т.",
+    "rating": 3,
+    "text": "Горный воздух и тишина — то, чего так не хватает в городе. Место силы.",
+    "date": "2025-04-04",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-351",
+    "targetType": "poi",
+    "targetId": "poi-010",
+    "authorName": "Светлана Г.",
+    "rating": 5,
+    "text": "Горный воздух и тишина — то, чего так не хватает в городе. Место силы.",
+    "date": "2025-04-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-352",
+    "targetType": "poi",
+    "targetId": "poi-012",
+    "authorName": "Michael T.",
+    "rating": 5,
+    "text": "Маленький, но очень атмосферный. Лучше приходить в будние — тише.",
+    "date": "2025-10-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-353",
+    "targetType": "poi",
+    "targetId": "poi-029",
+    "authorName": "Марина Е.",
+    "rating": 4,
+    "text": "Тихое место для размышлений. Туристов немного, что приятно.",
+    "date": "2025-07-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-354",
+    "targetType": "guide",
+    "targetId": "guide-005",
+    "authorName": "Казбек Т.",
+    "rating": 4,
+    "text": "Очень профессиональный и дружелюбный гид. Отвечает на все вопросы, делится личным опытом.",
+    "date": "2025-07-06",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-355",
+    "targetType": "poi",
+    "targetId": "poi-056",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "Парковка неудобная, зато само место великолепное. Готовьтесь к пешей прогулке.",
+    "date": "2025-12-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-356",
+    "targetType": "poi",
+    "targetId": "poi-018",
+    "authorName": "Виктор Н.",
+    "rating": 5,
+    "text": "Второй раз здесь — в первый не успели всё посмотреть.",
+    "date": "2025-01-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-357",
+    "targetType": "poi",
+    "targetId": "poi-040",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Второй раз здесь и опять под впечатлением. Осень здесь особенно красива.",
+    "date": "2025-10-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-358",
+    "targetType": "poi",
+    "targetId": "poi-079",
+    "authorName": "Игорь В.",
+    "rating": 5,
+    "text": "Порадовало детское меню. Дети всё съели, что бывает редко.",
+    "date": "2025-02-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-359",
+    "targetType": "poi",
+    "targetId": "poi-097",
+    "authorName": "Алина Г.",
+    "rating": 5,
+    "text": "Заказывали пироги на вынос — привезли горячими, свежими. Сервис на уровне.",
+    "date": "2025-07-06",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-360",
+    "targetType": "poi",
+    "targetId": "poi-047",
+    "authorName": "Артём Ж.",
+    "rating": 5,
+    "text": "Природа нетронутая, дикая. Чувствуешь себя первооткрывателем.",
+    "date": "2025-10-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-361",
+    "targetType": "poi",
+    "targetId": "poi-082",
+    "authorName": "Мадина Х.",
+    "rating": 5,
+    "text": "Случайно зашли и остались на весь вечер. Меню разнообразное.",
+    "date": "2025-05-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-362",
+    "targetType": "poi",
+    "targetId": "poi-077",
+    "authorName": "Тамара А.",
+    "rating": 3,
+    "text": "Бронируйте столик на выходные — без брони придётся ждать.",
+    "date": "2025-03-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-363",
+    "targetType": "poi",
+    "targetId": "poi-015",
+    "authorName": "Alex V.",
+    "rating": 5,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-08-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-364",
+    "targetType": "poi",
+    "targetId": "poi-031",
+    "authorName": "Emily R.",
+    "rating": 5,
+    "text": "Обязательно к посещению в Осетии. Уникальное культурное наследие.",
+    "date": "2025-06-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-365",
+    "targetType": "tour",
+    "targetId": "tour-001",
+    "authorName": "Jennifer L.",
+    "rating": 5,
+    "text": "Best day trip from Vladikavkaz. The scenery was breathtaking and the guide was fantastic.",
+    "date": "2025-08-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-366",
+    "targetType": "guide",
+    "targetId": "guide-001",
+    "authorName": "Наталья С.",
+    "rating": 5,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-10-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-367",
+    "targetType": "poi",
+    "targetId": "poi-011",
+    "authorName": "Анна М.",
+    "rating": 4,
+    "text": "Узнал много нового об осетинской культуре. Очень познавательно.",
+    "date": "2025-11-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-368",
+    "targetType": "poi",
+    "targetId": "poi-100",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "Хорошее соотношение цена/качество. Wi-Fi стабильный. Рекомендую.",
+    "date": "2025-08-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-369",
+    "targetType": "poi",
+    "targetId": "poi-100",
+    "authorName": "Батраз Д.",
+    "rating": 5,
+    "text": "Хорошее соотношение цена/качество. Wi-Fi стабильный. Рекомендую.",
+    "date": "2025-05-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-370",
+    "targetType": "poi",
+    "targetId": "poi-101",
+    "authorName": "James W.",
+    "rating": 4,
+    "text": "Чистый номер, удобная кровать. Завтрак включён и вполне приличный.",
+    "date": "2025-07-02",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-371",
+    "targetType": "poi",
+    "targetId": "poi-101",
+    "authorName": "Sarah K.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-11-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-372",
+    "targetType": "poi",
+    "targetId": "poi-101",
+    "authorName": "Зарина Ц.",
+    "rating": 5,
+    "text": "Приехали поздно — заселили без проблем. Отзывчивый персонал.",
+    "date": "2025-08-04",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-373",
+    "targetType": "poi",
+    "targetId": "poi-101",
+    "authorName": "Сослан Т.",
+    "rating": 4,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-08-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-374",
+    "targetType": "poi",
+    "targetId": "poi-102",
+    "authorName": "Зарина Ц.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-11-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-375",
+    "targetType": "poi",
+    "targetId": "poi-102",
+    "authorName": "Мария К.",
+    "rating": 3,
+    "text": "Чистый номер, удобная кровать. Завтрак включён и вполне приличный.",
+    "date": "2025-10-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-376",
+    "targetType": "poi",
+    "targetId": "poi-102",
+    "authorName": "James W.",
+    "rating": 5,
+    "text": "Уютно и тихо. Горячая вода круглосуточно. Парковка бесплатная.",
+    "date": "2025-11-06",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-377",
+    "targetType": "poi",
+    "targetId": "poi-102",
+    "authorName": "Георгий П.",
+    "rating": 4,
+    "text": "Уютно и тихо. Горячая вода круглосуточно. Парковка бесплатная.",
+    "date": "2025-06-06",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-378",
+    "targetType": "poi",
+    "targetId": "poi-103",
+    "authorName": "Батраз Д.",
+    "rating": 5,
+    "text": "Уютно и тихо. Горячая вода круглосуточно. Парковка бесплатная.",
+    "date": "2025-02-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-379",
+    "targetType": "poi",
+    "targetId": "poi-103",
+    "authorName": "Фатима К.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-12-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-380",
+    "targetType": "poi",
+    "targetId": "poi-103",
+    "authorName": "James W.",
+    "rating": 5,
+    "text": "Чистый номер, удобная кровать. Завтрак включён и вполне приличный.",
+    "date": "2025-12-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-381",
+    "targetType": "poi",
+    "targetId": "poi-104",
+    "authorName": "Наталья С.",
+    "rating": 5,
+    "text": "Хорошее соотношение цена/качество. Wi-Fi стабильный. Рекомендую.",
+    "date": "2025-08-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-382",
+    "targetType": "poi",
+    "targetId": "poi-104",
+    "authorName": "Аслан Б.",
+    "rating": 5,
+    "text": "Чистый номер, удобная кровать. Завтрак включён и вполне приличный.",
+    "date": "2025-08-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-383",
+    "targetType": "poi",
+    "targetId": "poi-104",
+    "authorName": "Мадина Х.",
+    "rating": 4,
+    "text": "Уютно и тихо. Горячая вода круглосуточно. Парковка бесплатная.",
+    "date": "2025-12-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-384",
+    "targetType": "poi",
+    "targetId": "poi-104",
+    "authorName": "Елена А.",
+    "rating": 4,
+    "text": "Чистый номер, удобная кровать. Завтрак включён и вполне приличный.",
+    "date": "2025-10-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-385",
+    "targetType": "poi",
+    "targetId": "poi-105",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-10-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-386",
+    "targetType": "poi",
+    "targetId": "poi-105",
+    "authorName": "John M.",
+    "rating": 5,
+    "text": "Чистый номер, удобная кровать. Завтрак включён и вполне приличный.",
+    "date": "2025-02-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-387",
+    "targetType": "poi",
+    "targetId": "poi-105",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Приехали поздно — заселили без проблем. Отзывчивый персонал.",
+    "date": "2025-06-12",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-388",
+    "targetType": "poi",
+    "targetId": "poi-105",
+    "authorName": "Залина Б.",
+    "rating": 5,
+    "text": "Приехали поздно — заселили без проблем. Отзывчивый персонал.",
+    "date": "2025-01-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-389",
+    "targetType": "poi",
+    "targetId": "poi-106",
+    "authorName": "Зарина Ц.",
+    "rating": 5,
+    "text": "Уютно и тихо. Горячая вода круглосуточно. Парковка бесплатная.",
+    "date": "2025-10-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-390",
+    "targetType": "poi",
+    "targetId": "poi-106",
+    "authorName": "Фатима К.",
+    "rating": 4,
+    "text": "Хорошее соотношение цена/качество. Wi-Fi стабильный. Рекомендую.",
+    "date": "2025-01-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-391",
+    "targetType": "poi",
+    "targetId": "poi-107",
+    "authorName": "Карина С.",
+    "rating": 5,
+    "text": "Приехали поздно — заселили без проблем. Отзывчивый персонал.",
+    "date": "2025-07-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-392",
+    "targetType": "poi",
+    "targetId": "poi-107",
+    "authorName": "Олег Т.",
+    "rating": 4,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-07-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-393",
+    "targetType": "poi",
+    "targetId": "poi-108",
+    "authorName": "Алексей Д.",
+    "rating": 3,
+    "text": "Уютно и тихо. Горячая вода круглосуточно. Парковка бесплатная.",
+    "date": "2025-09-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-394",
+    "targetType": "poi",
+    "targetId": "poi-108",
+    "authorName": "Сослан Т.",
+    "rating": 5,
+    "text": "Хорошее соотношение цена/качество. Wi-Fi стабильный. Рекомендую.",
+    "date": "2025-03-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-395",
+    "targetType": "poi",
+    "targetId": "poi-108",
+    "authorName": "John M.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-08-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-396",
+    "targetType": "poi",
+    "targetId": "poi-109",
+    "authorName": "Руслан М.",
+    "rating": 4,
+    "text": "Приехали поздно — заселили без проблем. Отзывчивый персонал.",
+    "date": "2025-01-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-397",
+    "targetType": "poi",
+    "targetId": "poi-109",
+    "authorName": "Георгий П.",
+    "rating": 5,
+    "text": "Чистый номер, удобная кровать. Завтрак включён и вполне приличный.",
+    "date": "2025-10-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-398",
+    "targetType": "poi",
+    "targetId": "poi-109",
+    "authorName": "David B.",
+    "rating": 4,
+    "text": "Чистый номер, удобная кровать. Завтрак включён и вполне приличный.",
+    "date": "2025-07-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-399",
+    "targetType": "poi",
+    "targetId": "poi-110",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-09-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-400",
+    "targetType": "poi",
+    "targetId": "poi-110",
+    "authorName": "Елена А.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-02-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-401",
+    "targetType": "poi",
+    "targetId": "poi-111",
+    "authorName": "David B.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-11-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-402",
+    "targetType": "poi",
+    "targetId": "poi-111",
+    "authorName": "Аслан Б.",
+    "rating": 5,
+    "text": "Приехали поздно — заселили без проблем. Отзывчивый персонал.",
+    "date": "2025-09-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-403",
+    "targetType": "poi",
+    "targetId": "poi-111",
+    "authorName": "Sarah K.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-04-19",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-404",
+    "targetType": "poi",
+    "targetId": "poi-111",
+    "authorName": "Казбек Т.",
+    "rating": 3,
+    "text": "Чистый номер, удобная кровать. Завтрак включён и вполне приличный.",
+    "date": "2025-07-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-405",
+    "targetType": "poi",
+    "targetId": "poi-112",
+    "authorName": "Карина С.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-12-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-406",
+    "targetType": "poi",
+    "targetId": "poi-112",
+    "authorName": "Sarah K.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-12-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-407",
+    "targetType": "poi",
+    "targetId": "poi-112",
+    "authorName": "James W.",
+    "rating": 5,
+    "text": "Чистый номер, удобная кровать. Завтрак включён и вполне приличный.",
+    "date": "2025-12-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-408",
+    "targetType": "poi",
+    "targetId": "poi-112",
+    "authorName": "Георгий П.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-02-12",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-409",
+    "targetType": "poi",
+    "targetId": "poi-113",
+    "authorName": "Emily R.",
+    "rating": 5,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-07-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-410",
+    "targetType": "poi",
+    "targetId": "poi-113",
+    "authorName": "Зарина Ц.",
+    "rating": 5,
+    "text": "Рядом есть кафе, можно совместить культурную программу с обедом.",
+    "date": "2025-06-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-411",
+    "targetType": "poi",
+    "targetId": "poi-114",
+    "authorName": "Алексей Д.",
+    "rating": 5,
+    "text": "Рядом есть кафе, можно совместить культурную программу с обедом.",
+    "date": "2025-07-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-412",
+    "targetType": "poi",
+    "targetId": "poi-114",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-06-02",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-413",
+    "targetType": "poi",
+    "targetId": "poi-115",
+    "authorName": "Sarah K.",
+    "rating": 5,
+    "text": "Вечером с подсветкой выглядит ещё красивее. Приходите на закате.",
+    "date": "2025-06-20",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-414",
+    "targetType": "poi",
+    "targetId": "poi-115",
+    "authorName": "Анна М.",
+    "rating": 4,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-01-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-415",
+    "targetType": "poi",
+    "targetId": "poi-115",
+    "authorName": "Казбек Т.",
+    "rating": 4,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-04-02",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-416",
+    "targetType": "poi",
+    "targetId": "poi-116",
+    "authorName": "David B.",
+    "rating": 4,
+    "text": "Величественное место. История чувствуется в каждом камне.",
+    "date": "2025-12-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-417",
+    "targetType": "poi",
+    "targetId": "poi-116",
+    "authorName": "Анна М.",
+    "rating": 4,
+    "text": "Второй раз здесь — в первый не успели всё посмотреть.",
+    "date": "2025-05-19",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-418",
+    "targetType": "poi",
+    "targetId": "poi-116",
+    "authorName": "Алексей Д.",
+    "rating": 5,
+    "text": "Вечером с подсветкой выглядит ещё красивее. Приходите на закате.",
+    "date": "2025-08-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-419",
+    "targetType": "poi",
+    "targetId": "poi-117",
+    "authorName": "Фатима К.",
+    "rating": 5,
+    "text": "Обязательно к посещению в Осетии. Уникальное культурное наследие.",
+    "date": "2025-12-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-420",
+    "targetType": "poi",
+    "targetId": "poi-117",
+    "authorName": "Залина Б.",
+    "rating": 3,
+    "text": "Узнал много нового об осетинской культуре. Очень познавательно.",
+    "date": "2025-09-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-421",
+    "targetType": "poi",
+    "targetId": "poi-117",
+    "authorName": "Сослан Т.",
+    "rating": 5,
+    "text": "Местные жители очень гордятся этим местом. И правильно делают.",
+    "date": "2025-08-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-422",
+    "targetType": "poi",
+    "targetId": "poi-117",
+    "authorName": "Сослан Т.",
+    "rating": 4,
+    "text": "Узнал много нового об осетинской культуре. Очень познавательно.",
+    "date": "2025-01-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-423",
+    "targetType": "poi",
+    "targetId": "poi-118",
+    "authorName": "Сослан Т.",
+    "rating": 4,
+    "text": "Маленький, но очень атмосферный. Лучше приходить в будние — тише.",
+    "date": "2025-02-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-424",
+    "targetType": "poi",
+    "targetId": "poi-118",
+    "authorName": "Георгий П.",
+    "rating": 5,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-12-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-425",
+    "targetType": "poi",
+    "targetId": "poi-118",
+    "authorName": "Сослан Т.",
+    "rating": 5,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-07-06",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-426",
+    "targetType": "poi",
+    "targetId": "poi-119",
+    "authorName": "Sarah K.",
+    "rating": 5,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-04-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-427",
+    "targetType": "poi",
+    "targetId": "poi-119",
+    "authorName": "Олег Т.",
+    "rating": 5,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-08-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-428",
+    "targetType": "poi",
+    "targetId": "poi-119",
+    "authorName": "Sarah K.",
+    "rating": 4,
+    "text": "Вечером с подсветкой выглядит ещё красивее. Приходите на закате.",
+    "date": "2025-05-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-429",
+    "targetType": "poi",
+    "targetId": "poi-119",
+    "authorName": "Георгий П.",
+    "rating": 4,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-06-20",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-430",
+    "targetType": "poi",
+    "targetId": "poi-120",
+    "authorName": "Anna S.",
+    "rating": 3,
+    "text": "Тихое место для размышлений. Туристов немного, что приятно.",
+    "date": "2025-06-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-431",
+    "targetType": "poi",
+    "targetId": "poi-120",
+    "authorName": "Алексей Д.",
+    "rating": 5,
+    "text": "Советую начать осмотр именно отсюда — это визитная карточка региона.",
+    "date": "2025-11-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-432",
+    "targetType": "poi",
+    "targetId": "poi-120",
+    "authorName": "Мария К.",
+    "rating": 4,
+    "text": "Местные жители очень гордятся этим местом. И правильно делают.",
+    "date": "2025-07-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-433",
+    "targetType": "poi",
+    "targetId": "poi-121",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-11-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-434",
+    "targetType": "poi",
+    "targetId": "poi-121",
+    "authorName": "Ирина В.",
+    "rating": 5,
+    "text": "Экскурсовод рассказал много интересного. Два часа пролетели незаметно.",
+    "date": "2025-01-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-435",
+    "targetType": "poi",
+    "targetId": "poi-122",
+    "authorName": "Ирина В.",
+    "rating": 4,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-01-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-436",
+    "targetType": "poi",
+    "targetId": "poi-122",
+    "authorName": "Залина Б.",
+    "rating": 4,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-04-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-437",
+    "targetType": "poi",
+    "targetId": "poi-122",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-04-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-438",
+    "targetType": "poi",
+    "targetId": "poi-122",
+    "authorName": "Георгий П.",
+    "rating": 3,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-11-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-439",
+    "targetType": "poi",
+    "targetId": "poi-123",
+    "authorName": "Елена А.",
+    "rating": 5,
+    "text": "Узнал много нового об осетинской культуре. Очень познавательно.",
+    "date": "2025-05-20",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-440",
+    "targetType": "poi",
+    "targetId": "poi-123",
+    "authorName": "Дмитрий Р.",
+    "rating": 4,
+    "text": "Маленький, но очень атмосферный. Лучше приходить в будние — тише.",
+    "date": "2025-08-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-441",
+    "targetType": "poi",
+    "targetId": "poi-123",
+    "authorName": "Аслан Б.",
+    "rating": 5,
+    "text": "Были зимой — атмосфера особенная. Снег и древние стены — сказка.",
+    "date": "2025-08-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-442",
+    "targetType": "poi",
+    "targetId": "poi-123",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Хорошо сохранившийся памятник истории. Видно, что за ним ухаживают.",
+    "date": "2025-05-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-443",
+    "targetType": "poi",
+    "targetId": "poi-124",
+    "authorName": "Георгий П.",
+    "rating": 3,
+    "text": "Вечером с подсветкой выглядит ещё красивее. Приходите на закате.",
+    "date": "2025-02-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-444",
+    "targetType": "poi",
+    "targetId": "poi-124",
+    "authorName": "Мадина Х.",
+    "rating": 5,
+    "text": "Маленький, но очень атмосферный. Лучше приходить в будние — тише.",
+    "date": "2025-12-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-445",
+    "targetType": "poi",
+    "targetId": "poi-125",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-08-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-446",
+    "targetType": "poi",
+    "targetId": "poi-125",
+    "authorName": "Алексей Д.",
+    "rating": 5,
+    "text": "Экскурсовод рассказал много интересного. Два часа пролетели незаметно.",
+    "date": "2025-09-20",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-447",
+    "targetType": "poi",
+    "targetId": "poi-125",
+    "authorName": "Мария К.",
+    "rating": 3,
+    "text": "Обязательно к посещению в Осетии. Уникальное культурное наследие.",
+    "date": "2025-11-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-448",
+    "targetType": "poi",
+    "targetId": "poi-126",
+    "authorName": "Ирина В.",
+    "rating": 5,
+    "text": "Тихое место для размышлений. Туристов немного, что приятно.",
+    "date": "2025-03-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-449",
+    "targetType": "poi",
+    "targetId": "poi-126",
+    "authorName": "Мария К.",
+    "rating": 4,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-07-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-450",
+    "targetType": "poi",
+    "targetId": "poi-127",
+    "authorName": "Наталья С.",
+    "rating": 5,
+    "text": "Второй раз здесь — в первый не успели всё посмотреть.",
+    "date": "2025-02-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-451",
+    "targetType": "poi",
+    "targetId": "poi-127",
+    "authorName": "Георгий П.",
+    "rating": 4,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-12-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-452",
+    "targetType": "poi",
+    "targetId": "poi-128",
+    "authorName": "Казбек Т.",
+    "rating": 5,
+    "text": "Удобный подъезд, есть парковка. Для инвалидов доступ ограничен.",
+    "date": "2025-09-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-453",
+    "targetType": "poi",
+    "targetId": "poi-128",
+    "authorName": "Наталья С.",
+    "rating": 5,
+    "text": "Местные жители очень гордятся этим местом. И правильно делают.",
+    "date": "2025-04-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-454",
+    "targetType": "poi",
+    "targetId": "poi-129",
+    "authorName": "Батраз Д.",
+    "rating": 3,
+    "text": "Величественное место. История чувствуется в каждом камне.",
+    "date": "2025-06-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-455",
+    "targetType": "poi",
+    "targetId": "poi-129",
+    "authorName": "Мария К.",
+    "rating": 4,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-02-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-456",
+    "targetType": "poi",
+    "targetId": "poi-129",
+    "authorName": "Олег Т.",
+    "rating": 5,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-02-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-457",
+    "targetType": "poi",
+    "targetId": "poi-129",
+    "authorName": "James W.",
+    "rating": 4,
+    "text": "Обязательно к посещению в Осетии. Уникальное культурное наследие.",
+    "date": "2025-01-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-458",
+    "targetType": "poi",
+    "targetId": "poi-130",
+    "authorName": "David B.",
+    "rating": 5,
+    "text": "Были зимой — атмосфера особенная. Снег и древние стены — сказка.",
+    "date": "2025-11-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-459",
+    "targetType": "poi",
+    "targetId": "poi-130",
+    "authorName": "Руслан М.",
+    "rating": 4,
+    "text": "Советую начать осмотр именно отсюда — это визитная карточка региона.",
+    "date": "2025-09-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-460",
+    "targetType": "poi",
+    "targetId": "poi-131",
+    "authorName": "James W.",
+    "rating": 3,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-12-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-461",
+    "targetType": "poi",
+    "targetId": "poi-131",
+    "authorName": "Наталья С.",
+    "rating": 5,
+    "text": "Вечером с подсветкой выглядит ещё красивее. Приходите на закате.",
+    "date": "2025-03-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-462",
+    "targetType": "poi",
+    "targetId": "poi-131",
+    "authorName": "Emily R.",
+    "rating": 5,
+    "text": "Хорошо сохранившийся памятник истории. Видно, что за ним ухаживают.",
+    "date": "2025-09-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-463",
+    "targetType": "poi",
+    "targetId": "poi-132",
+    "authorName": "Батраз Д.",
+    "rating": 5,
+    "text": "Удобный подъезд, есть парковка. Для инвалидов доступ ограничен.",
+    "date": "2025-05-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-464",
+    "targetType": "poi",
+    "targetId": "poi-132",
+    "authorName": "Казбек Т.",
+    "rating": 4,
+    "text": "Вечером с подсветкой выглядит ещё красивее. Приходите на закате.",
+    "date": "2025-02-20",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-465",
+    "targetType": "poi",
+    "targetId": "poi-132",
+    "authorName": "Дмитрий Р.",
+    "rating": 4,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-06-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-466",
+    "targetType": "poi",
+    "targetId": "poi-133",
+    "authorName": "Sarah K.",
+    "rating": 5,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-01-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-467",
+    "targetType": "poi",
+    "targetId": "poi-133",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-02-20",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-468",
+    "targetType": "poi",
+    "targetId": "poi-134",
+    "authorName": "Казбек Т.",
+    "rating": 4,
+    "text": "Билет символический, а впечатления — на миллион. Рекомендую!",
+    "date": "2025-04-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-469",
+    "targetType": "poi",
+    "targetId": "poi-134",
+    "authorName": "Олег Т.",
+    "rating": 5,
+    "text": "Местные жители очень гордятся этим местом. И правильно делают.",
+    "date": "2025-01-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-470",
+    "targetType": "poi",
+    "targetId": "poi-134",
+    "authorName": "Мадина Х.",
+    "rating": 5,
+    "text": "Обязательно к посещению в Осетии. Уникальное культурное наследие.",
+    "date": "2025-05-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-471",
+    "targetType": "poi",
+    "targetId": "poi-134",
+    "authorName": "Emily R.",
+    "rating": 5,
+    "text": "Удобный подъезд, есть парковка. Для инвалидов доступ ограничен.",
+    "date": "2025-02-02",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-472",
+    "targetType": "poi",
+    "targetId": "poi-135",
+    "authorName": "David B.",
+    "rating": 5,
+    "text": "Вечером с подсветкой выглядит ещё красивее. Приходите на закате.",
+    "date": "2025-01-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-473",
+    "targetType": "poi",
+    "targetId": "poi-135",
+    "authorName": "Залина Б.",
+    "rating": 4,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-02-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-474",
+    "targetType": "poi",
+    "targetId": "poi-135",
+    "authorName": "Наталья С.",
+    "rating": 3,
+    "text": "Маленький, но очень атмосферный. Лучше приходить в будние — тише.",
+    "date": "2025-05-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-475",
+    "targetType": "poi",
+    "targetId": "poi-135",
+    "authorName": "Елена А.",
+    "rating": 4,
+    "text": "Экскурсовод рассказал много интересного. Два часа пролетели незаметно.",
+    "date": "2025-05-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-476",
+    "targetType": "poi",
+    "targetId": "poi-136",
+    "authorName": "Батраз Д.",
+    "rating": 5,
+    "text": "Были с детьми — им понравилось. Есть интерактивные элементы.",
+    "date": "2025-04-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-477",
+    "targetType": "poi",
+    "targetId": "poi-136",
+    "authorName": "Олег Т.",
+    "rating": 4,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-10-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-478",
+    "targetType": "poi",
+    "targetId": "poi-136",
+    "authorName": "Мадина Х.",
+    "rating": 4,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-01-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-479",
+    "targetType": "poi",
+    "targetId": "poi-137",
+    "authorName": "John M.",
+    "rating": 5,
+    "text": "Рядом есть кафе, можно совместить культурную программу с обедом.",
+    "date": "2025-02-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-480",
+    "targetType": "poi",
+    "targetId": "poi-137",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Были зимой — атмосфера особенная. Снег и древние стены — сказка.",
+    "date": "2025-11-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-481",
+    "targetType": "poi",
+    "targetId": "poi-137",
+    "authorName": "Мадина Х.",
+    "rating": 4,
+    "text": "Билет символический, а впечатления — на миллион. Рекомендую!",
+    "date": "2025-05-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-482",
+    "targetType": "poi",
+    "targetId": "poi-138",
+    "authorName": "Олег Т.",
+    "rating": 4,
+    "text": "Величественное место. История чувствуется в каждом камне.",
+    "date": "2025-04-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-483",
+    "targetType": "poi",
+    "targetId": "poi-138",
+    "authorName": "Алексей Д.",
+    "rating": 5,
+    "text": "Обязательно к посещению в Осетии. Уникальное культурное наследие.",
+    "date": "2025-10-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-484",
+    "targetType": "poi",
+    "targetId": "poi-138",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "Были с детьми — им понравилось. Есть интерактивные элементы.",
+    "date": "2025-03-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-485",
+    "targetType": "poi",
+    "targetId": "poi-138",
+    "authorName": "Казбек Т.",
+    "rating": 5,
+    "text": "Местные жители очень гордятся этим местом. И правильно делают.",
+    "date": "2025-01-19",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-486",
+    "targetType": "poi",
+    "targetId": "poi-139",
+    "authorName": "Алексей Д.",
+    "rating": 4,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-06-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-487",
+    "targetType": "poi",
+    "targetId": "poi-139",
+    "authorName": "Сослан Т.",
+    "rating": 5,
+    "text": "Обязательно к посещению в Осетии. Уникальное культурное наследие.",
+    "date": "2025-09-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-488",
+    "targetType": "poi",
+    "targetId": "poi-139",
+    "authorName": "Батраз Д.",
+    "rating": 5,
+    "text": "Хорошо сохранившийся памятник истории. Видно, что за ним ухаживают.",
+    "date": "2025-05-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-489",
+    "targetType": "poi",
+    "targetId": "poi-139",
+    "authorName": "Зарина Ц.",
+    "rating": 5,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-04-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-490",
+    "targetType": "poi",
+    "targetId": "poi-140",
+    "authorName": "Дмитрий Р.",
+    "rating": 3,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-03-04",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-491",
+    "targetType": "poi",
+    "targetId": "poi-140",
+    "authorName": "Michael T.",
+    "rating": 5,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-10-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-492",
+    "targetType": "poi",
+    "targetId": "poi-140",
+    "authorName": "Наталья С.",
+    "rating": 3,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-10-19",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-493",
+    "targetType": "poi",
+    "targetId": "poi-140",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Рядом есть кафе, можно совместить культурную программу с обедом.",
+    "date": "2025-10-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-494",
+    "targetType": "poi",
+    "targetId": "poi-141",
+    "authorName": "Michael T.",
+    "rating": 3,
+    "text": "Рядом есть кафе, можно совместить культурную программу с обедом.",
+    "date": "2025-11-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-495",
+    "targetType": "poi",
+    "targetId": "poi-141",
+    "authorName": "Мадина Х.",
+    "rating": 5,
+    "text": "Вечером с подсветкой выглядит ещё красивее. Приходите на закате.",
+    "date": "2025-04-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-496",
+    "targetType": "poi",
+    "targetId": "poi-142",
+    "authorName": "Зарина Ц.",
+    "rating": 5,
+    "text": "Второй раз здесь — в первый не успели всё посмотреть.",
+    "date": "2025-03-20",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-497",
+    "targetType": "poi",
+    "targetId": "poi-142",
+    "authorName": "James W.",
+    "rating": 4,
+    "text": "Экскурсовод рассказал много интересного. Два часа пролетели незаметно.",
+    "date": "2025-10-04",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-498",
+    "targetType": "poi",
+    "targetId": "poi-142",
+    "authorName": "Michael T.",
+    "rating": 5,
+    "text": "Хорошо сохранившийся памятник истории. Видно, что за ним ухаживают.",
+    "date": "2025-02-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-499",
+    "targetType": "poi",
+    "targetId": "poi-142",
+    "authorName": "Sarah K.",
+    "rating": 5,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-04-22",
+    "isGenerated": true
+  }
+]

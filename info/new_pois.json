@@ -1,0 +1,1942 @@
+[
+  {
+    "id": "poi-100",
+    "slug": "imperial-hotel",
+    "name": { "ru": "Отель «Империал»", "en": "Imperial Hotel" },
+    "category": "accommodation",
+    "subcategory": "Отель",
+    "location": {
+      "lat": 43.0370,
+      "lng": 44.6780,
+      "address": { "ru": "пр. Мира, 19, Владикавказ", "en": "19 Mira Ave, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Исторический отель 1896 года в самом центре Владикавказа",
+        "en": "Historic 1896 hotel in the very heart of Vladikavkaz"
+      },
+      "medium": {
+        "ru": "Гостиница «Империал» — памятник архитектуры 1896 года постройки, расположенный на проспекте Мира. 25 комфортабельных номеров различных категорий. В отеле есть сауна, бассейн, салон красоты и зимний сад.",
+        "en": "Imperial Hotel is an architectural monument built in 1896, located on Mira Avenue. It offers 25 comfortable rooms of various categories. The hotel features a sauna, pool, beauty salon, and winter garden."
+      },
+      "full": {
+        "ru": "Гостиница «Империал» — один из старейших отелей Владикавказа, построенный в 1896 году и являющийся памятником архитектуры и истории. Расположен в историческом центре города на главном проспекте Мира. Отель предлагает 25 номеров различных категорий — от стандарта до люкса. К услугам гостей — сейф, парковка с круглосуточной охраной, вызов такси, салон красоты, оздоровительный комплекс с сауной и бассейном, зимний сад. Идеальный выбор для тех, кто ценит историческую атмосферу и центральное расположение.",
+        "en": "Imperial Hotel is one of the oldest hotels in Vladikavkaz, built in 1896 and recognized as an architectural and historical monument. Located in the historic city center on the main Mira Avenue, the hotel offers 25 rooms of various categories — from standard to suite. Guests can enjoy a safe, 24-hour guarded parking, taxi service, beauty salon, wellness complex with sauna and pool, and a winter garden. An ideal choice for those who appreciate historic atmosphere and central location."
+      }
+    },
+    "photos": [],
+    "rating": 4.3,
+    "reviewCount": 187,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (8672) 54-74-74",
+    "website": "https://intourist-ossetia.ru/",
+    "priceLevel": 3,
+    "tags": ["исторический отель", "центр города", "бассейн", "сауна", "памятник архитектуры"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 5200,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-101",
+    "slug": "hotel-vladikavkaz",
+    "name": { "ru": "Гостиница «Владикавказ»", "en": "Hotel Vladikavkaz" },
+    "category": "accommodation",
+    "subcategory": "Гостиница",
+    "location": {
+      "lat": 43.0340,
+      "lng": 44.6730,
+      "address": { "ru": "ул. Коцоева, 75, Владикавказ", "en": "75 Kotsoyeva St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Крупнейшая гостиница Владикавказа с видом на Терек и горы",
+        "en": "The largest hotel in Vladikavkaz with views of the Terek and mountains"
+      },
+      "medium": {
+        "ru": "Гостиница «Владикавказ» расположена в центре города с видом на реку Терек и горные хребты. 203 номера со всем необходимым для полноценного отдыха. До аэропорта — 27 км, до ж/д вокзала — 3 км.",
+        "en": "Hotel Vladikavkaz is located in the city center with views of the Terek River and mountain ranges. 203 rooms with everything needed for a comfortable stay. 27 km to the airport, 3 km to the railway station."
+      },
+      "full": {
+        "ru": "Гостиница «Владикавказ» — крупнейший отель города, входящий в группу «Интурист-Осетия». Расположена на набережной реки Терек в самом сердце Владикавказа. Из окон открываются великолепные виды на горные вершины и живописную набережную. 203 номера различных категорий обеспечивают комфортное размещение для деловых путешественников и туристов. На территории работают ресторан, конференц-зал, парковка. Удобное расположение позволяет пешком добраться до основных достопримечательностей города.",
+        "en": "Hotel Vladikavkaz is the city's largest hotel, part of the Intourist-Ossetia group. Located on the embankment of the Terek River in the very heart of Vladikavkaz, its windows offer magnificent views of mountain peaks and the picturesque waterfront. 203 rooms of various categories provide comfortable accommodation for business travelers and tourists. The property features a restaurant, conference hall, and parking. Its convenient location allows walking access to the city's main attractions."
+      }
+    },
+    "photos": [],
+    "rating": 3.9,
+    "reviewCount": 342,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (8672) 64-94-94",
+    "website": "https://vladikavkaz-hotel.ru/",
+    "priceLevel": 2,
+    "tags": ["набережная", "вид на горы", "конференц-зал", "большой отель"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 12000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-102",
+    "slug": "aleksandrovsky-grand-hotel",
+    "name": { "ru": "Гранд-отель «Александровский»", "en": "Aleksandrovsky Grand Hotel" },
+    "category": "accommodation",
+    "subcategory": "Отель",
+    "location": {
+      "lat": 43.0375,
+      "lng": 44.6810,
+      "address": { "ru": "пр. Мира, 29, Владикавказ", "en": "29 Mira Ave, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Первый 4-звёздочный отель мирового уровня во Владикавказе",
+        "en": "The first world-class 4-star hotel in Vladikavkaz"
+      },
+      "medium": {
+        "ru": "«Александровский» — первый 4-звёздочный отель мирового уровня в столице Северной Осетии. Расположен в самом центре Владикавказа на проспекте Мира. Современные номера, ресторан высокой кухни и безупречный сервис.",
+        "en": "Aleksandrovsky is the first world-class 4-star hotel in the capital of North Ossetia. Located in the very center of Vladikavkaz on Mira Avenue. Modern rooms, fine dining restaurant, and impeccable service."
+      },
+      "full": {
+        "ru": "Гранд-отель «Александровский» — флагманский отель Владикавказа и первый в республике, получивший 4 звезды международного уровня. Расположен на главном проспекте Мира в историческом центре города. Отель предлагает элегантные номера с современным дизайном, ресторан с авторской и кавказской кухней, спа-зону, конференц-залы для деловых мероприятий. Бронирование доступно ежедневно. Идеальный выбор для взыскательных путешественников и деловых гостей, ценящих комфорт европейского уровня в сочетании с кавказским гостеприимством.",
+        "en": "Aleksandrovsky Grand Hotel is Vladikavkaz's flagship hotel and the first in the republic to receive an international 4-star rating. Located on the main Mira Avenue in the historic city center, the hotel offers elegant rooms with modern design, a restaurant serving signature and Caucasian cuisine, a spa area, and conference halls for business events. Reservations are available daily. An ideal choice for discerning travelers and business guests who appreciate European-level comfort combined with Caucasian hospitality."
+      }
+    },
+    "photos": [],
+    "rating": 4.6,
+    "reviewCount": 278,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (8672) 40-40-70",
+    "website": "https://aleksandrovski.ru/",
+    "priceLevel": 4,
+    "tags": ["4 звезды", "бизнес-отель", "спа", "ресторан", "центр города"],
+    "isChain": false,
+    "subscriptionTier": "premium",
+    "visitCount": 7800,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-103",
+    "slug": "intourist-ossetia",
+    "name": { "ru": "Интурист-Осетия", "en": "Intourist Ossetia" },
+    "category": "accommodation",
+    "subcategory": "Гостиница",
+    "location": {
+      "lat": 43.0342,
+      "lng": 44.6728,
+      "address": { "ru": "ул. Коцоева, 75, Владикавказ", "en": "75 Kotsoyeva St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Историческая гостиничная сеть «Интурист» на набережной Терека",
+        "en": "Historic Intourist hotel chain on the Terek embankment"
+      },
+      "medium": {
+        "ru": "«Интурист-Осетия» — гостиничная компания, управляющая несколькими отелями во Владикавказе. Головная гостиница расположена на набережной реки Терек в центре города. Классический советский отель с обновлёнными номерами.",
+        "en": "Intourist-Ossetia is a hotel company managing several hotels in Vladikavkaz. The main hotel is located on the Terek River embankment in the city center. A classic Soviet-era hotel with renovated rooms."
+      },
+      "full": {
+        "ru": "«Интурист-Осетия» — одна из старейших гостиничных компаний Северной Осетии, продолжающая традиции советской системы «Интурист». Главное здание расположено на живописной набережной реки Терек в центральной части Владикавказа. Гостиница предлагает номера различных категорий, ресторан с национальной и европейской кухней, а также организует экскурсии по республике через собственный центр путешествий «Кавказ». Удобная отправная точка для знакомства с городом и окрестными горными ущельями.",
+        "en": "Intourist-Ossetia is one of the oldest hotel companies in North Ossetia, continuing the traditions of the Soviet Intourist system. The main building is located on the scenic Terek River embankment in the central part of Vladikavkaz. The hotel offers rooms of various categories, a restaurant with national and European cuisine, and organizes tours around the republic through its own Kavkaz travel center. A convenient starting point for exploring the city and nearby mountain gorges."
+      }
+    },
+    "photos": [],
+    "rating": 3.7,
+    "reviewCount": 215,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (8672) 64-93-55",
+    "website": "https://intourist-ossetia.ru/",
+    "priceLevel": 2,
+    "tags": ["интурист", "набережная", "экскурсии", "советская классика"],
+    "isChain": true,
+    "subscriptionTier": "free",
+    "visitCount": 9500,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-104",
+    "slug": "hotel-kavkaz-planeta-lux",
+    "name": { "ru": "Гостиница «Планета Люкс» (бывш. «Кавказ»)", "en": "Hotel Planeta Lux (former Kavkaz)" },
+    "category": "accommodation",
+    "subcategory": "Гостиница",
+    "location": {
+      "lat": 43.0295,
+      "lng": 44.6685,
+      "address": { "ru": "ул. Ватутина, 50, Владикавказ", "en": "50 Vatutina St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Историческая гостиница «Кавказ», ныне «Планета Люкс» — памятник культуры",
+        "en": "Historic Hotel Kavkaz, now Planeta Lux — a cultural monument"
+      },
+      "medium": {
+        "ru": "Гостиница «Планета Люкс» (бывшая «Кавказ») — историческое здание-памятник культуры во Владикавказе. Обновлённые номера с современным комфортом сочетаются с архитектурным наследием. Расположена в спокойном районе города.",
+        "en": "Hotel Planeta Lux (former Kavkaz) is a historic cultural monument building in Vladikavkaz. Renovated rooms with modern comfort are combined with architectural heritage. Located in a quiet district of the city."
+      },
+      "full": {
+        "ru": "Гостиница «Планета Люкс», ранее известная как «Кавказ», — одно из исторических зданий Владикавказа, находящееся под государственной охраной как памятник культуры. После реконструкции отель сочетает историческую архитектуру с современным комфортом. Номера оснащены всем необходимым для комфортного проживания. Расположена на улице Ватутина, в пешей доступности от центра города. Хороший выбор для путешественников, которые ищут спокойное размещение с историческим шармом и доступными ценами.",
+        "en": "Hotel Planeta Lux, formerly known as Kavkaz, is one of Vladikavkaz's historic buildings, protected by the state as a cultural monument. After reconstruction, the hotel combines historic architecture with modern comfort. Rooms are equipped with everything necessary for a comfortable stay. Located on Vatutina Street within walking distance of the city center. A good choice for travelers looking for quiet accommodation with historic charm and affordable prices."
+      }
+    },
+    "photos": [],
+    "rating": 3.8,
+    "reviewCount": 124,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (8672) 74-20-10",
+    "website": "https://hotelplanetlux.ru/",
+    "priceLevel": 2,
+    "tags": ["памятник культуры", "историческое здание", "бюджетный"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 3800,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-105",
+    "slug": "amran-hotel",
+    "name": { "ru": "Отель «Амран»", "en": "Amran Hotel" },
+    "category": "accommodation",
+    "subcategory": "Отель",
+    "location": {
+      "lat": 43.0248,
+      "lng": 44.6650,
+      "address": { "ru": "ул. Маркова, 28, Владикавказ", "en": "28 Markova St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Уютный 3-звёздочный отель рядом с ж/д вокзалом Владикавказа",
+        "en": "Cozy 3-star hotel near Vladikavkaz railway station"
+      },
+      "medium": {
+        "ru": "Отель «Амран» — комфортная 3-звёздочная гостиница в центре Владикавказа вблизи железнодорожного вокзала. 49 просторных номеров, сауна, бассейн 8 метров, конференц-зал, охраняемая парковка.",
+        "en": "Amran Hotel is a comfortable 3-star hotel in the center of Vladikavkaz near the railway station. 49 spacious rooms, sauna, 8-meter pool, conference hall, and guarded parking."
+      },
+      "full": {
+        "ru": "Отель «Амран» — современная 3-звёздочная гостиница, расположенная в центральной части Владикавказа рядом с железнодорожным вокзалом. Предлагает 49 просторных и комфортабельных номеров с кондиционером. К услугам гостей — сауна, бассейн длиной 8 метров, конференц-зал, прачечная, охраняемая парковка, сейф и камера хранения. Благодаря близости к вокзалу, отель особенно удобен для путешественников, прибывающих поездом. Отличное соотношение цены и качества для делового и туристического размещения.",
+        "en": "Amran Hotel is a modern 3-star hotel located in the central part of Vladikavkaz near the railway station. It offers 49 spacious and comfortable rooms with air conditioning. Guests can enjoy a sauna, 8-meter swimming pool, conference hall, laundry service, guarded parking, safe, and luggage storage. Due to its proximity to the station, the hotel is especially convenient for travelers arriving by train. Excellent value for money for both business and tourist accommodation."
+      }
+    },
+    "photos": [],
+    "rating": 4.1,
+    "reviewCount": 163,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (8672) 53-37-77",
+    "website": "http://vladikavkaz-amran.ru/",
+    "priceLevel": 2,
+    "tags": ["3 звезды", "бассейн", "рядом с вокзалом", "парковка"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 4600,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-106",
+    "slug": "hohland-hostel",
+    "name": { "ru": "Хостел HohlÆnd", "en": "HohlAend Hostel" },
+    "category": "accommodation",
+    "subcategory": "Хостел",
+    "location": {
+      "lat": 43.0310,
+      "lng": 44.6760,
+      "address": { "ru": "пер. Заря, 9, Владикавказ", "en": "9 Zarya Lane, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Молодёжный хостел в центре Владикавказа с домашней атмосферой",
+        "en": "Youth hostel in central Vladikavkaz with a homey atmosphere"
+      },
+      "medium": {
+        "ru": "HohlÆnd — уютный хостел во Владикавказе, популярный среди бэкпекеров и молодых путешественников. Общие и приватные комнаты, кухня, зона отдыха. Дружелюбная атмосфера и доступные цены.",
+        "en": "HohlAend is a cozy hostel in Vladikavkaz, popular among backpackers and young travelers. Shared and private rooms, kitchen, lounge area. Friendly atmosphere and affordable prices."
+      },
+      "full": {
+        "ru": "Хостел HohlÆnd — одно из самых известных бюджетных мест размещения во Владикавказе. Расположен в центре города, предлагает как общие дормитории, так и отдельные комнаты. В распоряжении гостей — полностью оборудованная кухня, общая зона отдыха, бесплатный Wi-Fi. Персонал помогает с планированием маршрутов по Северной Осетии и организацией трансферов в горы. Идеальная база для самостоятельных путешественников, исследующих Кавказ с ограниченным бюджетом.",
+        "en": "HohlAend Hostel is one of the most well-known budget accommodations in Vladikavkaz. Located in the city center, it offers both shared dormitories and private rooms. Guests have access to a fully equipped kitchen, common lounge area, and free Wi-Fi. The staff helps with planning routes around North Ossetia and organizing mountain transfers. An ideal base for independent travelers exploring the Caucasus on a budget."
+      }
+    },
+    "photos": [],
+    "rating": 4.5,
+    "reviewCount": 89,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (928) 487-20-30",
+    "website": "https://hohlandhostel.ru/",
+    "priceLevel": 1,
+    "tags": ["хостел", "бюджетно", "бэкпекеры", "кухня", "Wi-Fi"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 2800,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-107",
+    "slug": "guesthouse-1950-tsey",
+    "name": { "ru": "Гостевой дом «1950» в Цее", "en": "Guesthouse 1950 in Tsey" },
+    "category": "accommodation",
+    "subcategory": "Гостевой дом",
+    "location": {
+      "lat": 42.7560,
+      "lng": 43.8780,
+      "address": { "ru": "Верхний Цей, Алагирский р-н, Северная Осетия", "en": "Verkhny Tsey, Alagirsky District, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Горный гостевой дом на высоте 1950 м в Цейском ущелье",
+        "en": "Mountain guesthouse at 1950 m altitude in Tsey Gorge"
+      },
+      "medium": {
+        "ru": "Гостевой дом «1950» расположен в Цейском ущелье на высоте 1950 метров над уровнем моря, в 80 км от Владикавказа. 12 комфортных номеров с шумоизоляцией, камин, терраса, мангальная зона и потрясающие горные виды.",
+        "en": "Guesthouse 1950 is located in Tsey Gorge at 1950 meters above sea level, 80 km from Vladikavkaz. 12 comfortable soundproofed rooms, fireplace, terrace, BBQ area, and stunning mountain views."
+      },
+      "full": {
+        "ru": "Гостевой дом «1950» — уединённое горное убежище в живописном Цейском ущелье на высоте 1950 метров. Расположен в 80 км от Владикавказа среди хвойных лесов и горных вершин. 12 номеров оборудованы удобной мебелью, рабочим столом и ванной комнатой с хорошей шумоизоляцией. В общих зонах — камин, гостиная, терраса с панорамным видом на горы, собственная мангальная зона. Идеальное место для уединённого ретрита, длительного проживания в горах или как база для треккинга к Цейскому и Сказскому ледникам.",
+        "en": "Guesthouse 1950 is a secluded mountain retreat in the picturesque Tsey Gorge at 1950 meters altitude. Located 80 km from Vladikavkaz among coniferous forests and mountain peaks. 12 rooms are equipped with comfortable furniture, a desk, and a bathroom with good soundproofing. Common areas include a fireplace, living room, panoramic mountain-view terrace, and a private BBQ area. An ideal place for a secluded retreat, extended mountain stays, or as a base for trekking to the Tsey and Skazsky glaciers."
+      }
+    },
+    "photos": [],
+    "rating": 4.7,
+    "reviewCount": 67,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (928) 069-19-50",
+    "website": "https://alt1950.ru/",
+    "priceLevel": 3,
+    "tags": ["горы", "Цейское ущелье", "камин", "треккинг", "уединение"],
+    "isChain": false,
+    "subscriptionTier": "premium",
+    "visitCount": 1900,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-108",
+    "slug": "gorny-rodnik-fiagdon",
+    "name": { "ru": "Гостевой дом «Горный Родник» в Фиагдоне", "en": "Gorny Rodnik Guesthouse in Fiagdon" },
+    "category": "accommodation",
+    "subcategory": "Гостевой дом",
+    "location": {
+      "lat": 42.8350,
+      "lng": 44.2900,
+      "address": { "ru": "с. Верхний Фиагдон, Алагирский р-н, Северная Осетия", "en": "Verkhny Fiagdon, Alagirsky District, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Уютный гостевой дом в горном селе Верхний Фиагдон",
+        "en": "Cozy guesthouse in the mountain village of Upper Fiagdon"
+      },
+      "medium": {
+        "ru": "«Горный Родник» — гостевой дом в живописном горном посёлке Верхний Фиагдон, в Куртатинском ущелье. 7 номеров с видом на горы, домашняя кухня, тишина и чистый горный воздух. Рядом — Аланский монастырь и башенные комплексы.",
+        "en": "Gorny Rodnik is a guesthouse in the picturesque mountain village of Upper Fiagdon, in Kurtatinsky Gorge. 7 rooms with mountain views, home cooking, tranquility, and clean mountain air. Nearby — Alansky Monastery and tower complexes."
+      },
+      "full": {
+        "ru": "Гостевой дом «Горный Родник» расположен в селе Верхний Фиагдон — одном из самых популярных горных курортных посёлков Северной Осетии в Куртатинском ущелье. Предлагает 7 уютных номеров с видами на окружающие горы. Хозяева готовят домашние блюда осетинской кухни. В шаговой доступности — Аланский Успенский мужской монастырь, средневековые башенные комплексы, маршруты для пеших прогулок. Посёлок расположен примерно в 40 км от Владикавказа, добраться можно на машине за час. Отличный вариант для погружения в горную осетинскую культуру.",
+        "en": "Gorny Rodnik Guesthouse is located in the village of Upper Fiagdon — one of the most popular mountain resort villages in North Ossetia in Kurtatinsky Gorge. It offers 7 cozy rooms with views of the surrounding mountains. The hosts prepare homemade Ossetian cuisine. Within walking distance are the Alansky Assumption Monastery, medieval tower complexes, and hiking trails. The village is about 40 km from Vladikavkaz, reachable by car in an hour. An excellent option for immersing yourself in mountain Ossetian culture."
+      }
+    },
+    "photos": [],
+    "rating": 4.4,
+    "reviewCount": 45,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (928) 485-30-10",
+    "priceLevel": 1,
+    "tags": ["горы", "Фиагдон", "домашняя кухня", "монастырь", "башни"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 1400,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-109",
+    "slug": "turbaza-dzinaga",
+    "name": { "ru": "Турбаза «Дзинага»", "en": "Dzinaga Mountain Base" },
+    "category": "accommodation",
+    "subcategory": "Турбаза",
+    "location": {
+      "lat": 42.7800,
+      "lng": 43.6300,
+      "address": { "ru": "с. Дзинага, Ирафский р-н, Северная Осетия", "en": "Dzinaga Village, Irafsky District, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Горная турбаза на 250 мест в Дигорском ущелье на высоте 1490 м",
+        "en": "Mountain base for 250 guests in Digorsky Gorge at 1490 m altitude"
+      },
+      "medium": {
+        "ru": "Турбаза «Дзинага» находится в Дигорском ущелье в 115 км от Владикавказа на высоте 1490 м. Вместимость — 250 человек. Номера стандарт и VIP, столовая на 100 мест, кафе, бассейн, сауна, парковка.",
+        "en": "Dzinaga Mountain Base is located in Digorsky Gorge, 115 km from Vladikavkaz at 1490 m altitude. Capacity — 250 guests. Standard and VIP rooms, 100-seat dining hall, cafe, pool, sauna, parking."
+      },
+      "full": {
+        "ru": "Турбаза «Дзинага» — крупнейшая база отдыха в Дигорском ущелье, одном из самых живописных мест Северной Осетии. Расположена рядом с селением Дзинага в Ирафском районе на высоте 1490 метров, в 115 км от Владикавказа. Одновременно вмещает около 250 человек в номерах стандарт и VIP. На территории — столовая на 100 мест, кафе на 60 мест, бассейн, сауна, бильярд, настольный теннис, спортивный комплекс, танцплощадка, беседки с мангалами, медпункт и охраняемая парковка. В номерах — телевизоры и бесплатный Wi-Fi. Отправная точка для маршрутов к Таймази водопадам и ледникам Дигории.",
+        "en": "Dzinaga Mountain Base is the largest recreation base in Digorsky Gorge, one of the most scenic places in North Ossetia. Located near Dzinaga village in Irafsky District at 1490 meters altitude, 115 km from Vladikavkaz. It accommodates about 250 guests in standard and VIP rooms. The territory features a 100-seat dining hall, 60-seat cafe, pool, sauna, billiards, table tennis, sports complex, dance floor, gazebos with BBQs, medical station, and guarded parking. Rooms have TVs and free Wi-Fi. A starting point for routes to Taymazi waterfalls and Digoria glaciers."
+      }
+    },
+    "photos": [],
+    "rating": 4.0,
+    "reviewCount": 198,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (988) 878-77-22",
+    "website": "https://turbaza-dzinaga.ru/",
+    "priceLevel": 2,
+    "tags": ["Дигория", "турбаза", "бассейн", "горы", "ледники"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 5500,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-110",
+    "slug": "irbis-ecopark-dargavs",
+    "name": { "ru": "Эко-парк «Ирбис» в Даргавсе", "en": "Irbis Eco-Park in Dargavs" },
+    "category": "accommodation",
+    "subcategory": "Гостевой дом",
+    "location": {
+      "lat": 42.8370,
+      "lng": 44.4350,
+      "address": { "ru": "с. Даргавс, Пригородный р-н, Северная Осетия", "en": "Dargavs Village, Prigorodny District, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Эко-парк с видом на «Город мёртвых» в горах Осетии",
+        "en": "Eco-park with views of the City of the Dead in Ossetian mountains"
+      },
+      "medium": {
+        "ru": "«Ирбис» — стильный эко-парк в селе Даргавс рядом со знаменитым «Городом мёртвых». Комфортные номера, ресторан кавказской и европейской кухни, сауна с панорамным остеклением, уличный бассейн с подогревом.",
+        "en": "Irbis is a stylish eco-park in Dargavs village near the famous City of the Dead. Comfortable rooms, Caucasian and European cuisine restaurant, panoramic sauna, heated outdoor pool."
+      },
+      "full": {
+        "ru": "Эко-парк «Ирбис» — современный гостевой комплекс в горном селе Даргавс, известном своим уникальным средневековым некрополем — «Городом мёртвых». В номерах — удобные кровати, интернет, телевизор, санузел с полотенцами и косметикой. В ресторане подают блюда кавказской и европейской кухни. На территории — сауна с панорамным остеклением на горы и уличный бассейн с подогревом. Идеальная база для посещения Даргавского некрополя, башенных комплексов и живописных маршрутов по Гизельдонскому ущелью.",
+        "en": "Irbis Eco-Park is a modern guest complex in the mountain village of Dargavs, known for its unique medieval necropolis — the City of the Dead. Rooms feature comfortable beds, internet, TV, and bathrooms with towels and toiletries. The restaurant serves Caucasian and European cuisine. The grounds include a panoramic mountain-view sauna and a heated outdoor pool. An ideal base for visiting the Dargavs necropolis, tower complexes, and scenic routes through Gizeldon Gorge."
+      }
+    },
+    "photos": [],
+    "rating": 4.6,
+    "reviewCount": 53,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (919) 427-05-23",
+    "priceLevel": 3,
+    "tags": ["эко-парк", "Даргавс", "город мёртвых", "бассейн", "сауна"],
+    "isChain": false,
+    "subscriptionTier": "premium",
+    "visitCount": 1600,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-111",
+    "slug": "alplager-tsey",
+    "name": { "ru": "Альплагерь «Цей»", "en": "Tsey Alpine Camp" },
+    "category": "accommodation",
+    "subcategory": "Альплагерь",
+    "location": {
+      "lat": 42.7540,
+      "lng": 43.8850,
+      "address": { "ru": "Цейское ущелье, Алагирский р-н, Северная Осетия", "en": "Tsey Gorge, Alagirsky District, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Легендарный альплагерь с 1934 года на высоте 2000 м",
+        "en": "Legendary alpine camp since 1934 at 2000 m altitude"
+      },
+      "medium": {
+        "ru": "Альплагерь «Цей» — легендарная база альпинистов, основанная в 1934 году на высоте 2000 м. Размещение в номерах основного здания, коттеджах «Приют Монаха» и «Айсхаус», а также в палаточном лагере.",
+        "en": "Tsey Alpine Camp is a legendary mountaineering base founded in 1934 at 2000 m altitude. Accommodation in main building rooms, Priyut Monakha and Icehouse cottages, and a tent camp."
+      },
+      "full": {
+        "ru": "Альплагерь «Цей» — одна из старейших альпинистских баз Кавказа, основанная в 1934 году и расположенная на высоте 2000 метров в Цейском ущелье. Предлагает несколько видов размещения: номера на 2-8 человек в основном здании с санузлом на этаже, коттедж «Приют Монаха» с пятиэтажной башней и мансардой, коттедж «Айсхаус», а также бюджетный палаточный лагерь от 350 руб/сутки. При заселении обязателен паспорт и страховка от несчастного случая. База используется альпинистами, скалолазами и любителями горного треккинга как отправная точка для восхождений.",
+        "en": "Tsey Alpine Camp is one of the oldest mountaineering bases in the Caucasus, founded in 1934 and located at 2000 meters in Tsey Gorge. It offers several accommodation types: 2-8 person rooms in the main building with shared bathroom, Priyut Monakha cottage with a five-story tower and attic, Icehouse cottage, and a budget tent camp from 350 rubles/night. Check-in requires a passport and accident insurance. The base is used by mountaineers, rock climbers, and hiking enthusiasts as a starting point for ascents."
+      }
+    },
+    "photos": [],
+    "rating": 4.2,
+    "reviewCount": 142,
+    "hours": {
+      "mon": "08:00-22:00",
+      "tue": "08:00-22:00",
+      "wed": "08:00-22:00",
+      "thu": "08:00-22:00",
+      "fri": "08:00-22:00",
+      "sat": "08:00-22:00",
+      "sun": "08:00-22:00"
+    },
+    "phone": "+7 (928) 486-12-34",
+    "website": "https://xn--80aajiayja9ao0e5cg.xn--p1ai/",
+    "priceLevel": 1,
+    "tags": ["альпинизм", "Цейское ущелье", "горы", "палатки", "восхождения"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 3200,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-112",
+    "slug": "alansky-monastery-guesthouse",
+    "name": { "ru": "Паломническая гостиница Аланского монастыря", "en": "Alansky Monastery Pilgrim Guesthouse" },
+    "category": "accommodation",
+    "subcategory": "Паломническая гостиница",
+    "location": {
+      "lat": 42.8280,
+      "lng": 44.2820,
+      "address": { "ru": "с. Хидикус, Алагирский р-н, Северная Осетия", "en": "Khidikus Village, Alagirsky District, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Двухэтажная гостиница для паломников при Аланском монастыре",
+        "en": "Two-story pilgrim guesthouse at Alansky Monastery"
+      },
+      "medium": {
+        "ru": "При Аланском Свято-Успенском мужском монастыре в Куртатинском ущелье действует двухэтажная гостиница для паломников. Простое, но чистое размещение в монастырской тишине среди гор. Возможность участия в богослужениях.",
+        "en": "The Alansky Holy Assumption Monastery in Kurtatinsky Gorge operates a two-story pilgrim guesthouse. Simple but clean accommodation in monastic tranquility among mountains. Opportunity to attend services."
+      },
+      "full": {
+        "ru": "Паломническая гостиница при Аланском Свято-Успенском мужском монастыре — уникальное место проживания в Куртатинском ущелье рядом с селом Хидикус. Двухэтажное здание предлагает скромные, но чистые комнаты для паломников и путешественников. Монастырь — самый высокогорный в России, окружён величественными горами и средневековыми башнями. Гости могут участвовать в богослужениях, посетить монастырский храм и насладиться полной тишиной. В окрестностях — пешие маршруты к башенным комплексам и Верхнему Фиагдону. Размещение по пожертвованию, бронирование рекомендуется заранее.",
+        "en": "The pilgrim guesthouse at the Alansky Holy Assumption Monastery is a unique accommodation in Kurtatinsky Gorge near Khidikus village. The two-story building offers modest but clean rooms for pilgrims and travelers. The monastery is the highest-altitude in Russia, surrounded by majestic mountains and medieval towers. Guests can attend services, visit the monastery church, and enjoy complete silence. Nearby are hiking routes to tower complexes and Upper Fiagdon. Accommodation is by donation; advance booking is recommended."
+      }
+    },
+    "photos": [],
+    "rating": 4.8,
+    "reviewCount": 34,
+    "hours": {
+      "mon": "07:00-21:00",
+      "tue": "07:00-21:00",
+      "wed": "07:00-21:00",
+      "thu": "07:00-21:00",
+      "fri": "07:00-21:00",
+      "sat": "07:00-21:00",
+      "sun": "07:00-21:00"
+    },
+    "priceLevel": 1,
+    "tags": ["монастырь", "паломничество", "горы", "Фиагдон", "тишина"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 2100,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-113",
+    "slug": "central-market-vladikavkaz",
+    "name": { "ru": "Центральный рынок", "en": "Central Market" },
+    "category": "shopping",
+    "subcategory": "Рынок",
+    "location": {
+      "lat": 43.0280,
+      "lng": 44.6690,
+      "address": { "ru": "ул. Джанаева, 38, Владикавказ", "en": "38 Dzhanaeva St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Главный городской рынок с продуктами, одеждой и сувенирами",
+        "en": "Main city market with food, clothing, and souvenirs"
+      },
+      "medium": {
+        "ru": "Центральный рынок Владикавказа — крупнейший городской базар с богатым выбором свежих продуктов, осетинских сыров, мёда, специй, одежды и хозяйственных товаров. Работает ежедневно. Атмосфера настоящего кавказского рынка.",
+        "en": "Vladikavkaz Central Market is the city's largest bazaar with a rich selection of fresh produce, Ossetian cheeses, honey, spices, clothing, and household goods. Open daily. The atmosphere of an authentic Caucasian market."
+      },
+      "full": {
+        "ru": "Центральный рынок Владикавказа — сердце торговой жизни города, расположенный на улице Джанаева. Здесь можно найти всё: от свежайших горных сыров и домашнего мёда до специй, чурчхелы, сухофруктов и национальных сладостей. Мясные и молочные ряды поражают разнообразием. Рынок также предлагает одежду, обувь, посуду и сувениры. Это лучшее место для знакомства с местной гастрономией и покупки подарков. Торговаться здесь — часть культуры. Павильоны Центрального рынка являются архитектурным памятником. Советуем приходить утром, когда самый свежий товар.",
+        "en": "Vladikavkaz Central Market is the heart of the city's commercial life, located on Dzhanaeva Street. Here you can find everything: from the freshest mountain cheeses and homemade honey to spices, churchkhela, dried fruits, and national sweets. The meat and dairy rows impress with their variety. The market also offers clothing, shoes, kitchenware, and souvenirs. It's the best place to explore local gastronomy and buy gifts. Bargaining here is part of the culture. The Central Market pavilions are an architectural monument. We recommend coming in the morning for the freshest goods."
+      }
+    },
+    "photos": [],
+    "rating": 4.3,
+    "reviewCount": 312,
+    "hours": {
+      "mon": "09:00-19:00",
+      "tue": "09:00-19:00",
+      "wed": "09:00-19:00",
+      "thu": "09:00-19:00",
+      "fri": "09:00-19:00",
+      "sat": "08:00-18:00",
+      "sun": "08:00-16:00"
+    },
+    "phone": "+7 (8672) 54-41-43",
+    "priceLevel": 1,
+    "tags": ["рынок", "продукты", "сыры", "мёд", "сувениры"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 25000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-114",
+    "slug": "green-market-vladikavkaz",
+    "name": { "ru": "Зелёный рынок", "en": "Green Market" },
+    "category": "shopping",
+    "subcategory": "Рынок",
+    "location": {
+      "lat": 43.0285,
+      "lng": 44.6695,
+      "address": { "ru": "ул. Куйбышева, 19, Владикавказ", "en": "19 Kuibysheva St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Продуктовый рынок со свежими фруктами, овощами и зеленью",
+        "en": "Produce market with fresh fruits, vegetables, and herbs"
+      },
+      "medium": {
+        "ru": "Зелёный рынок (часть Центрального рынка) — место, где местные фермеры продают свежие фрукты, овощи, зелень и домашние заготовки. Лучший выбор сезонных продуктов прямо с горных огородов.",
+        "en": "Green Market (part of the Central Market) is where local farmers sell fresh fruits, vegetables, herbs, and homemade preserves. The best selection of seasonal produce straight from mountain gardens."
+      },
+      "full": {
+        "ru": "Зелёный рынок — продовольственная часть Центрального рынка Владикавказа, специализирующаяся на свежих фруктах, овощах, зелени и домашних продуктах. Здесь продают сезонные горные яблоки, груши, алычу, грецкие орехи, а также домашние соленья, аджику, ткемали и другие заготовки. Местные фермеры привозят продукцию из горных сёл Осетии. Цены значительно ниже магазинных. Особенно хорош рынок осенью, когда изобилие урожая из горных долин. Незаменимое место для тех, кто готовит сам или хочет попробовать настоящие осетинские продукты.",
+        "en": "Green Market is the food section of the Vladikavkaz Central Market, specializing in fresh fruits, vegetables, herbs, and homemade products. Here they sell seasonal mountain apples, pears, cherry plums, walnuts, as well as homemade pickles, adjika, tkemali, and other preserves. Local farmers bring produce from Ossetian mountain villages. Prices are significantly lower than in stores. The market is especially good in autumn when harvest from mountain valleys is abundant. An essential place for those who cook or want to try authentic Ossetian products."
+      }
+    },
+    "photos": [],
+    "rating": 4.4,
+    "reviewCount": 178,
+    "hours": {
+      "mon": "07:00-18:00",
+      "tue": "07:00-18:00",
+      "wed": "07:00-18:00",
+      "thu": "07:00-18:00",
+      "fri": "07:00-18:00",
+      "sat": "07:00-17:00",
+      "sun": "07:00-15:00"
+    },
+    "phone": "+7 (8672) 54-83-90",
+    "priceLevel": 1,
+    "tags": ["рынок", "фрукты", "овощи", "фермерские продукты", "зелень"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 18000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-115",
+    "slug": "stolitsa-mall",
+    "name": { "ru": "ТРЦ «Столица»", "en": "Stolitsa Mall" },
+    "category": "shopping",
+    "subcategory": "Торговый центр",
+    "location": {
+      "lat": 43.0155,
+      "lng": 44.6530,
+      "address": { "ru": "ул. Астана Кесаева, 2А, Владикавказ", "en": "2A Astana Kesaeva St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Крупнейший торгово-развлекательный центр Северной Осетии",
+        "en": "The largest shopping and entertainment center in North Ossetia"
+      },
+      "medium": {
+        "ru": "ТРЦ «Столица» — самый большой торговый центр Республики Северная Осетия-Алания. Множество магазинов одежды, электроники, продуктовые отделы, фудкорт, кинотеатр и детские развлечения.",
+        "en": "Stolitsa Mall is the largest shopping center in the Republic of North Ossetia-Alania. Numerous clothing and electronics stores, grocery departments, food court, cinema, and children's entertainment."
+      },
+      "full": {
+        "ru": "ТРЦ «Столица» — флагманский торгово-развлекательный центр Северной Осетии, расположенный на улице Астана Кесаева. Здесь сосредоточены десятки магазинов известных брендов одежды и обуви, отделы электроники, товаров для дома, спортивных товаров и косметики. На территории — просторный фудкорт с разнообразной кухней, кинотеатр, боулинг и зона детских развлечений. Удобная парковка. ТРЦ стал главной точкой шопинга и отдыха для жителей и гостей Владикавказа. Работает ежедневно с 10 до 22 часов.",
+        "en": "Stolitsa Mall is the flagship shopping and entertainment center of North Ossetia, located on Astana Kesaeva Street. It houses dozens of well-known clothing and footwear brand stores, electronics, home goods, sporting goods, and cosmetics departments. The territory includes a spacious food court with diverse cuisine, a cinema, bowling alley, and children's entertainment zone. Convenient parking is available. The mall has become the main shopping and leisure destination for residents and visitors of Vladikavkaz. Open daily from 10 AM to 10 PM."
+      }
+    },
+    "photos": [],
+    "rating": 4.1,
+    "reviewCount": 425,
+    "hours": {
+      "mon": "10:00-22:00",
+      "tue": "10:00-22:00",
+      "wed": "10:00-22:00",
+      "thu": "10:00-22:00",
+      "fri": "10:00-22:00",
+      "sat": "10:00-22:00",
+      "sun": "10:00-22:00"
+    },
+    "phone": "+7 (8672) 40-10-10",
+    "priceLevel": 2,
+    "tags": ["торговый центр", "кинотеатр", "фудкорт", "шопинг", "развлечения"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 35000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-116",
+    "slug": "alania-mall",
+    "name": { "ru": "Алания Молл", "en": "Alania Mall" },
+    "category": "shopping",
+    "subcategory": "Торговый центр",
+    "location": {
+      "lat": 43.0420,
+      "lng": 44.7050,
+      "address": { "ru": "Московское шоссе, 3К, Владикавказ", "en": "3K Moskovskoye Highway, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Современный четырёхэтажный торговый центр на Московском шоссе",
+        "en": "Modern four-story shopping center on Moskovskoye Highway"
+      },
+      "medium": {
+        "ru": "«Алания Молл» — торгово-развлекательный центр площадью 28 000 м², открытый в 2015 году. Четыре этажа с магазинами, фудкортом и зонами отдыха. Расположен на восточном въезде в город по Московскому шоссе.",
+        "en": "Alania Mall is a 28,000 m² shopping center opened in 2015. Four floors of shops, food court, and leisure areas. Located at the eastern entrance to the city on Moskovskoye Highway."
+      },
+      "full": {
+        "ru": "«Алания Молл» — современный торгово-развлекательный центр общей площадью 28 000 квадратных метров, расположенный на Московском шоссе при въезде во Владикавказ. Открыт в сентябре 2015 года. На четырёх этажах и цокольном уровне размещены магазины одежды, обуви, электроники, товаров для дома и детей. Просторный фудкорт предлагает разнообразное питание. Удобная бесплатная парковка. Популярен среди молодёжи и семей как место для шопинга и досуга. Работает ежедневно с 10 до 22 часов.",
+        "en": "Alania Mall is a modern shopping and entertainment center with a total area of 28,000 square meters, located on Moskovskoye Highway at the entrance to Vladikavkaz. Opened in September 2015. Four floors and a basement level house clothing, footwear, electronics, home goods, and children's stores. A spacious food court offers diverse dining options. Convenient free parking is available. Popular among youth and families as a place for shopping and leisure. Open daily from 10 AM to 10 PM."
+      }
+    },
+    "photos": [],
+    "rating": 4.0,
+    "reviewCount": 356,
+    "hours": {
+      "mon": "10:00-22:00",
+      "tue": "10:00-22:00",
+      "wed": "10:00-22:00",
+      "thu": "10:00-22:00",
+      "fri": "10:00-22:00",
+      "sat": "10:00-22:00",
+      "sun": "10:00-22:00"
+    },
+    "phone": "+7 (8672) 40-27-85",
+    "website": "https://alaniamoll.com/",
+    "priceLevel": 2,
+    "tags": ["торговый центр", "шопинг", "фудкорт", "парковка"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 28000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-117",
+    "slug": "alania-souvenirs",
+    "name": { "ru": "Сувенирная лавка «Алания»", "en": "Alania Souvenirs" },
+    "category": "shopping",
+    "subcategory": "Сувенирный магазин",
+    "location": {
+      "lat": 43.0365,
+      "lng": 44.6790,
+      "address": { "ru": "пр. Мира, 25, Владикавказ", "en": "25 Mira Ave, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Сувениры и подарки с осетинской символикой на проспекте Мира",
+        "en": "Souvenirs and gifts with Ossetian symbols on Mira Avenue"
+      },
+      "medium": {
+        "ru": "Сувенирная лавка «Алания» на главном проспекте города предлагает подарки с национальной символикой: керамику, магниты, ювелирные изделия с аланскими орнаментами, книги об Осетии и традиционные украшения.",
+        "en": "Alania Souvenirs on the city's main avenue offers gifts with national symbols: ceramics, magnets, jewelry with Alanian ornaments, books about Ossetia, and traditional decorations."
+      },
+      "full": {
+        "ru": "Сувенирная лавка «Алания» расположена на проспекте Мира — главной пешеходной улице Владикавказа. Здесь собрана коллекция подарков и сувениров с осетинской тематикой: авторская керамика с аланскими орнаментами, ювелирные изделия в национальном стиле, магниты, открытки, книги об истории и культуре Осетии, футболки, кружки и другие памятные вещи. Отличное место, чтобы выбрать подарок для друзей и привезти частичку Кавказа домой. Продавцы помогут с выбором и расскажут о символике осетинских узоров.",
+        "en": "Alania Souvenirs is located on Mira Avenue — Vladikavkaz's main pedestrian street. It houses a collection of Ossetia-themed gifts and souvenirs: handcrafted ceramics with Alanian ornaments, national-style jewelry, magnets, postcards, books on Ossetian history and culture, T-shirts, mugs, and other memorabilia. A great place to choose gifts for friends and bring a piece of the Caucasus home. Staff will help with selection and tell you about the symbolism of Ossetian patterns."
+      }
+    },
+    "photos": [],
+    "rating": 4.5,
+    "reviewCount": 67,
+    "hours": {
+      "mon": "10:00-19:00",
+      "tue": "10:00-19:00",
+      "wed": "10:00-19:00",
+      "thu": "10:00-19:00",
+      "fri": "10:00-19:00",
+      "sat": "10:00-18:00",
+      "sun": "11:00-17:00"
+    },
+    "phone": "+7 (928) 490-15-30",
+    "priceLevel": 2,
+    "tags": ["сувениры", "подарки", "осетинская символика", "керамика", "ювелирные изделия"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 4500,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-118",
+    "slug": "ossetian-cheese-shop",
+    "name": { "ru": "Магазин осетинских сыров", "en": "Ossetian Cheese Shop" },
+    "category": "shopping",
+    "subcategory": "Продуктовый магазин",
+    "location": {
+      "lat": 43.0278,
+      "lng": 44.6688,
+      "address": { "ru": "ул. Джанаева, 40, Владикавказ (Центральный рынок)", "en": "40 Dzhanaeva St, Vladikavkaz (Central Market)" }
+    },
+    "description": {
+      "short": {
+        "ru": "Лучший выбор домашних осетинских сыров на Центральном рынке",
+        "en": "Best selection of homemade Ossetian cheeses at the Central Market"
+      },
+      "medium": {
+        "ru": "Специализированный отдел осетинских сыров на Центральном рынке. Свежий и выдержанный осетинский сыр, копчёный сулугуни, рассольные сыры из горных сёл. Всё — от местных фермеров.",
+        "en": "Specialized Ossetian cheese section at the Central Market. Fresh and aged Ossetian cheese, smoked suluguni, brine cheeses from mountain villages. Everything from local farmers."
+      },
+      "full": {
+        "ru": "На Центральном рынке Владикавказа расположены специализированные ряды осетинских сыров — главного гастрономического символа республики. Здесь можно купить знаменитый осетинский сыр (цыхт) — мягкий рассольный сыр, который используется для приготовления осетинских пирогов. Также представлены выдержанные сыры, копчёный сулугуни, творожные сыры и другие молочные продукты из горных сёл. Фермеры привозят сыр напрямую из Куртатинского, Алагирского и Дигорского ущелий. Продавцы дают попробовать перед покупкой. Лучший гастрономический сувенир из Осетии.",
+        "en": "The Vladikavkaz Central Market houses specialized Ossetian cheese rows — the republic's main gastronomic symbol. Here you can buy the famous Ossetian cheese (tsykht) — a soft brine cheese used to make Ossetian pies. Also available are aged cheeses, smoked suluguni, cottage cheeses, and other dairy products from mountain villages. Farmers bring cheese directly from Kurtatinsky, Alagirsky, and Digorsky gorges. Vendors offer tastings before purchase. The best gastronomic souvenir from Ossetia."
+      }
+    },
+    "photos": [],
+    "rating": 4.6,
+    "reviewCount": 93,
+    "hours": {
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "08:00-17:00",
+      "sun": "08:00-15:00"
+    },
+    "priceLevel": 1,
+    "tags": ["осетинский сыр", "фермерские продукты", "рынок", "гастрономия"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 8500,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-119",
+    "slug": "mountain-honey-shop",
+    "name": { "ru": "Магазин горного мёда", "en": "Mountain Honey Shop" },
+    "category": "shopping",
+    "subcategory": "Продуктовый магазин",
+    "location": {
+      "lat": 43.0282,
+      "lng": 44.6692,
+      "address": { "ru": "ул. Джанаева, 38, Владикавказ (Центральный рынок)", "en": "38 Dzhanaeva St, Vladikavkaz (Central Market)" }
+    },
+    "description": {
+      "short": {
+        "ru": "Натуральный горный мёд и продукты пчеловодства из ущелий Осетии",
+        "en": "Natural mountain honey and bee products from Ossetian gorges"
+      },
+      "medium": {
+        "ru": "Торговые ряды горного мёда на Центральном рынке. Липовый, каштановый, цветочный и горный мёд с пасек Северной Осетии. Также — прополис, пыльца, воск и медовуха. Дегустация перед покупкой.",
+        "en": "Mountain honey stalls at the Central Market. Linden, chestnut, flower, and mountain honey from North Ossetian apiaries. Also — propolis, pollen, wax, and mead. Tasting before purchase."
+      },
+      "full": {
+        "ru": "На Центральном рынке Владикавказа расположены специальные ряды горного мёда — одного из главных природных богатств Северной Осетии. Местные пчеловоды привозят мёд с пасек, расположенных в экологически чистых горных ущельях — Цейском, Куртатинском, Дигорском. Представлены разнообразные сорта: липовый, каштановый, горный цветочный, акациевый, а также мёд с диких трав. Кроме мёда продаются прополис, пчелиная пыльца, воск, перга и домашняя медовуха. Продавцы охотно дают попробовать каждый сорт. Горный мёд из Осетии — ценный и вкусный подарок.",
+        "en": "The Vladikavkaz Central Market has special mountain honey rows — one of North Ossetia's main natural treasures. Local beekeepers bring honey from apiaries located in ecologically clean mountain gorges — Tsey, Kurtatinsky, Digorsky. Various varieties are available: linden, chestnut, mountain flower, acacia, and wild herb honey. Besides honey, propolis, bee pollen, wax, bee bread, and homemade mead are sold. Vendors gladly offer tastings of each variety. Mountain honey from Ossetia makes a valuable and delicious gift."
+      }
+    },
+    "photos": [],
+    "rating": 4.7,
+    "reviewCount": 81,
+    "hours": {
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "08:00-17:00",
+      "sun": "08:00-15:00"
+    },
+    "priceLevel": 2,
+    "tags": ["мёд", "пчеловодство", "натуральные продукты", "горный мёд", "подарки"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 7200,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-120",
+    "slug": "privoz-market",
+    "name": { "ru": "Рынок «Привоз»", "en": "Privoz Market" },
+    "category": "shopping",
+    "subcategory": "Рынок",
+    "location": {
+      "lat": 43.0320,
+      "lng": 44.6840,
+      "address": { "ru": "Пушкинская ул., 43, Владикавказ", "en": "43 Pushkinskaya St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Крупный рынок хозяйственных и строительных товаров",
+        "en": "Large market for household and construction goods"
+      },
+      "medium": {
+        "ru": "«Привоз» — один из крупнейших рынков Владикавказа, специализирующийся на хозяйственных товарах, стройматериалах, одежде и обуви. Расположен на Пушкинской улице. Возможность торговаться.",
+        "en": "Privoz is one of Vladikavkaz's largest markets, specializing in household goods, building materials, clothing, and footwear. Located on Pushkinskaya Street. Bargaining is welcome."
+      },
+      "full": {
+        "ru": "Рынок «Привоз» — один из самых больших и известных рынков Владикавказа, расположенный на Пушкинской улице в Иристонском районе. Здесь сосредоточены торговые ряды с хозяйственными товарами, строительными материалами, одеждой, обувью, текстилем и товарами для дома. Рынок привлекает покупателей доступными ценами и возможностью торговаться. Особенно оживлённо по выходным. Хорошее дополнение к продуктовым рынкам для тех, кто ищет практичные товары по невысоким ценам.",
+        "en": "Privoz Market is one of the largest and most well-known markets in Vladikavkaz, located on Pushkinskaya Street in the Iristonsky district. It concentrates trading rows with household goods, building materials, clothing, footwear, textiles, and home goods. The market attracts buyers with affordable prices and the opportunity to bargain. It's especially lively on weekends. A good complement to food markets for those looking for practical goods at low prices."
+      }
+    },
+    "photos": [],
+    "rating": 3.9,
+    "reviewCount": 156,
+    "hours": {
+      "mon": "09:00-18:00",
+      "tue": "09:00-18:00",
+      "wed": "09:00-18:00",
+      "thu": "09:00-18:00",
+      "fri": "09:00-18:00",
+      "sat": "08:00-18:00",
+      "sun": "08:00-16:00"
+    },
+    "phone": "+7 (8672) 53-98-88",
+    "priceLevel": 1,
+    "tags": ["рынок", "хозтовары", "стройматериалы", "одежда", "торговля"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 15000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-121",
+    "slug": "coco-jumbo-karaoke",
+    "name": { "ru": "Coco Jumbo караоке-бар", "en": "Coco Jumbo Karaoke Bar" },
+    "category": "nightlife",
+    "subcategory": "Караоке-бар",
+    "location": {
+      "lat": 43.0338,
+      "lng": 44.6728,
+      "address": { "ru": "ул. Коцоева, 26, Владикавказ", "en": "26 Kotsoyeva St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Популярный караоке-бар на набережной Терека",
+        "en": "Popular karaoke bar on the Terek embankment"
+      },
+      "medium": {
+        "ru": "Coco Jumbo — караоке-бар в ресторанном комплексе KoYROI на набережной Терека. Живая музыка, профессиональное караоке-оборудование, коктейльная карта и кавказская кухня. Работает по вечерам.",
+        "en": "Coco Jumbo is a karaoke bar in the KoYROI restaurant complex on the Terek embankment. Live music, professional karaoke equipment, cocktail menu, and Caucasian cuisine. Open evenings."
+      },
+      "full": {
+        "ru": "Coco Jumbo — один из самых популярных караоке-баров Владикавказа, расположенный в ресторанном комплексе KoYROI на набережной реки Терек. Профессиональное караоке-оборудование с огромной базой песен на русском, осетинском и иностранных языках. Стильный интерьер, качественная звуковая система, барная карта с авторскими коктейлями, закуски и полноценное меню кавказской кухни. Отличное место для вечернего отдыха в компании друзей. Рекомендуется бронировать столик заранее, особенно в пятницу и субботу.",
+        "en": "Coco Jumbo is one of the most popular karaoke bars in Vladikavkaz, located in the KoYROI restaurant complex on the Terek River embankment. Professional karaoke equipment with a huge song database in Russian, Ossetian, and foreign languages. Stylish interior, quality sound system, bar menu with signature cocktails, snacks, and a full Caucasian cuisine menu. A great place for an evening out with friends. Reserving a table in advance is recommended, especially on Friday and Saturday."
+      }
+    },
+    "photos": [],
+    "rating": 4.3,
+    "reviewCount": 134,
+    "hours": {
+      "mon": "19:00-01:00",
+      "tue": "19:00-01:00",
+      "wed": "19:00-01:00",
+      "thu": "19:00-01:00",
+      "fri": "19:00-03:00",
+      "sat": "19:00-03:00",
+      "sun": "19:00-01:00"
+    },
+    "phone": "+7 (960) 400-20-60",
+    "website": "https://cocojumbo.site/",
+    "priceLevel": 3,
+    "tags": ["караоке", "бар", "коктейли", "живая музыка", "набережная"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 6200,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-122",
+    "slug": "escobar-club",
+    "name": { "ru": "Эскобар", "en": "Escobar Club" },
+    "category": "nightlife",
+    "subcategory": "Ночной клуб",
+    "location": {
+      "lat": 43.0350,
+      "lng": 44.6860,
+      "address": { "ru": "ул. Маркуса, 18, Владикавказ", "en": "18 Markusa St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Ночной клуб и караоке с латиноамериканской атмосферой",
+        "en": "Night club and karaoke with Latin American atmosphere"
+      },
+      "medium": {
+        "ru": "«Эскобар» — клуб-караоке во Владикавказе с яркой латиноамериканской стилистикой. DJ-сеты, караоке-зал, танцпол, барная карта. Одно из немногих заведений города с клубной атмосферой до утра.",
+        "en": "Escobar is a club-karaoke venue in Vladikavkaz with vibrant Latin American styling. DJ sets, karaoke hall, dance floor, bar menu. One of the city's few venues with club atmosphere until morning."
+      },
+      "full": {
+        "ru": "«Эскобар» — ночной клуб и караоке-зал во Владикавказе, оформленный в стиле латиноамериканской культуры. Расположен на улице Маркуса. Два зала: основной танцпол с DJ-сетами и отдельный караоке-зал. Барная карта включает коктейли, крепкие напитки и закуски. По пятницам и субботам — тематические вечеринки с приглашёнными диджеями. Одно из главных ночных заведений Владикавказа, привлекающее молодёжь яркой атмосферой, качественным звуком и работой до утра. Фейс-контроль по выходным.",
+        "en": "Escobar is a night club and karaoke venue in Vladikavkaz, styled in Latin American culture. Located on Markusa Street. Two halls: the main dance floor with DJ sets and a separate karaoke room. The bar menu includes cocktails, spirits, and snacks. Themed parties with guest DJs on Fridays and Saturdays. One of Vladikavkaz's main nightlife venues, attracting young crowds with its vibrant atmosphere, quality sound, and late-night hours. Face control on weekends."
+      }
+    },
+    "photos": [],
+    "rating": 4.0,
+    "reviewCount": 178,
+    "hours": {
+      "thu": "22:00-04:00",
+      "fri": "22:00-06:00",
+      "sat": "22:00-06:00"
+    },
+    "phone": "+7 (8672) 44-77-77",
+    "priceLevel": 3,
+    "tags": ["ночной клуб", "караоке", "DJ", "танцпол", "вечеринки"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 7800,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-123",
+    "slug": "green-rose-club",
+    "name": { "ru": "Green Rose караоке-клуб", "en": "Green Rose Karaoke Club" },
+    "category": "nightlife",
+    "subcategory": "Караоке-клуб",
+    "location": {
+      "lat": 43.0300,
+      "lng": 44.6710,
+      "address": { "ru": "Керамический пер., 4, Владикавказ", "en": "4 Keramichesky Lane, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Круглосуточный караоке-клуб с уютной атмосферой",
+        "en": "24-hour karaoke club with a cozy atmosphere"
+      },
+      "medium": {
+        "ru": "Green Rose — караоке-клуб во Владикавказе, работающий до утра. Приватные кабинки, общий зал, богатая коллекция песен. Барная карта, лёгкие закуски, дружелюбный персонал.",
+        "en": "Green Rose is a karaoke club in Vladikavkaz open until morning. Private booths, main hall, rich song collection. Bar menu, light snacks, friendly staff."
+      },
+      "full": {
+        "ru": "Green Rose — один из популярных караоке-клубов Владикавказа, расположенный в Керамическом переулке. Работает ежедневно с вечера до утра, что делает его одним из немногих круглосуточных развлекательных заведений города. Предлагает приватные кабинки для компаний и общий караоке-зал. Огромная база песен — от русской классики до мировых хитов и осетинских песен. Бар с хорошим выбором напитков и лёгких закусок. Уютная атмосфера подходит как для больших компаний, так и для романтического вечера вдвоём.",
+        "en": "Green Rose is one of Vladikavkaz's popular karaoke clubs, located in Keramichesky Lane. Open daily from evening until morning, making it one of the few 24-hour entertainment venues in the city. It offers private booths for groups and a main karaoke hall. A huge song database — from Russian classics to world hits and Ossetian songs. A bar with a good selection of drinks and light snacks. The cozy atmosphere suits both large groups and a romantic evening for two."
+      }
+    },
+    "photos": [],
+    "rating": 4.1,
+    "reviewCount": 97,
+    "hours": {
+      "mon": "19:00-07:00",
+      "tue": "19:00-07:00",
+      "wed": "19:00-07:00",
+      "thu": "19:00-07:00",
+      "fri": "19:00-07:00",
+      "sat": "19:00-07:00",
+      "sun": "19:00-07:00"
+    },
+    "phone": "+7 (989) 747-31-13",
+    "priceLevel": 2,
+    "tags": ["караоке", "ночной клуб", "приватные кабинки", "до утра"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 4100,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-124",
+    "slug": "gitara-karaoke",
+    "name": { "ru": "«Гитара» караоке-кофейня", "en": "Gitara Karaoke Cafe" },
+    "category": "nightlife",
+    "subcategory": "Караоке-бар",
+    "location": {
+      "lat": 43.0355,
+      "lng": 44.6795,
+      "address": { "ru": "пер. Петровский, 8, Владикавказ", "en": "8 Petrovsky Lane, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Атмосферная караоке-кофейня в центре Владикавказа",
+        "en": "Atmospheric karaoke cafe in the center of Vladikavkaz"
+      },
+      "medium": {
+        "ru": "«Гитара» — уютная караоке-кофейня в историческом центре. Днём — кофейня с десертами, вечером — караоке с живой музыкой. Камерная атмосфера, авторские коктейли и тёплый приём.",
+        "en": "Gitara is a cozy karaoke cafe in the historic center. By day — a cafe with desserts, by evening — karaoke with live music. Intimate atmosphere, signature cocktails, and warm hospitality."
+      },
+      "full": {
+        "ru": "«Гитара» — необычное заведение, совмещающее формат кофейни и караоке-бара. Расположено в Петровском переулке в центре Владикавказа. Днём здесь можно насладиться кофе и десертами в спокойной обстановке, а вечером заведение превращается в караоке-бар с живой музыкой. Камерный зал на 30-40 человек создаёт дружескую атмосферу. Барная карта включает авторские коктейли, вино, кофе и лёгкие закуски. Популярно среди местной творческой молодёжи. Работает до поздней ночи по выходным.",
+        "en": "Gitara is an unusual venue combining a cafe and karaoke bar format. Located in Petrovsky Lane in central Vladikavkaz. During the day you can enjoy coffee and desserts in a calm setting, and in the evening the venue transforms into a karaoke bar with live music. The intimate 30-40 person hall creates a friendly atmosphere. The bar menu includes signature cocktails, wine, coffee, and light snacks. Popular among local creative youth. Open until late at night on weekends."
+      }
+    },
+    "photos": [],
+    "rating": 4.4,
+    "reviewCount": 85,
+    "hours": {
+      "mon": "12:00-00:00",
+      "tue": "12:00-00:00",
+      "wed": "12:00-00:00",
+      "thu": "12:00-00:00",
+      "fri": "12:00-04:00",
+      "sat": "12:00-04:00",
+      "sun": "12:00-23:00"
+    },
+    "phone": "+7 (918) 708-72-44",
+    "priceLevel": 2,
+    "tags": ["караоке", "кофейня", "живая музыка", "коктейли", "уютный"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 3500,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-125",
+    "slug": "sumrak-loft-bar",
+    "name": { "ru": "Сумрак Loft Bar", "en": "Sumrak Loft Bar" },
+    "category": "nightlife",
+    "subcategory": "Бар",
+    "location": {
+      "lat": 43.0295,
+      "lng": 44.6660,
+      "address": { "ru": "ул. Ватутина, 64, 2 этаж, Владикавказ", "en": "64 Vatutina St, 2nd floor, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Лофт-бар с индустриальным дизайном и авторскими коктейлями",
+        "en": "Loft bar with industrial design and craft cocktails"
+      },
+      "medium": {
+        "ru": "«Сумрак» — модный лофт-бар на втором этаже на улице Ватутина. Индустриальный интерьер, крафтовые коктейли, кальяны, DJ-музыка по выходным. Молодёжная атмосфера и современный формат.",
+        "en": "Sumrak is a trendy loft bar on the second floor of Vatutina Street. Industrial interior, craft cocktails, hookah, DJ music on weekends. Youthful atmosphere and modern format."
+      },
+      "full": {
+        "ru": "«Сумрак» Loft Bar — одно из самых современных барных заведений Владикавказа, оформленное в популярном лофт-стиле с кирпичными стенами, открытыми коммуникациями и приглушённым освещением. Расположен на втором этаже на улице Ватутина. Барная карта включает крафтовые коктейли, импортное и местное пиво, виски, вино. Кальянное меню. По пятницам и субботам — DJ-сеты с электронной и хип-хоп музыкой. Заведение привлекает молодую аудиторию, которая ищет альтернативу классическим ночным клубам. Отличное место для неформального вечера.",
+        "en": "Sumrak Loft Bar is one of Vladikavkaz's most modern bar venues, designed in popular loft style with brick walls, exposed utilities, and dim lighting. Located on the second floor of Vatutina Street. The bar menu includes craft cocktails, imported and local beer, whiskey, and wine. Hookah menu available. DJ sets with electronic and hip-hop music on Fridays and Saturdays. The venue attracts a young audience seeking an alternative to classic nightclubs. A great spot for an informal evening out."
+      }
+    },
+    "photos": [],
+    "rating": 4.2,
+    "reviewCount": 112,
+    "hours": {
+      "wed": "18:00-02:00",
+      "thu": "18:00-02:00",
+      "fri": "18:00-04:00",
+      "sat": "18:00-04:00",
+      "sun": "18:00-00:00"
+    },
+    "phone": "+7 (928) 069-64-00",
+    "priceLevel": 2,
+    "tags": ["лофт", "бар", "коктейли", "кальян", "DJ"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 5100,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-126",
+    "slug": "360-restaurant-karaoke",
+    "name": { "ru": "360 Restaurant & Karaoke", "en": "360 Restaurant & Karaoke" },
+    "category": "nightlife",
+    "subcategory": "Ресторан-караоке",
+    "location": {
+      "lat": 43.0335,
+      "lng": 44.6740,
+      "address": { "ru": "ул. Коцоева, 73А, Владикавказ", "en": "73A Kotsoyeva St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Панорамный ресторан-караоке с видом на Владикавказ",
+        "en": "Panoramic restaurant-karaoke with Vladikavkaz views"
+      },
+      "medium": {
+        "ru": "360 — ресторан с панорамным видом и караоке-залом на верхнем этаже. Авторская кухня, живая музыка по выходным, элегантный интерьер. Одно из лучших мест для особого вечера.",
+        "en": "360 is a restaurant with panoramic views and a karaoke hall on the top floor. Signature cuisine, live music on weekends, elegant interior. One of the best places for a special evening."
+      },
+      "full": {
+        "ru": "360 Restaurant & Karaoke — премиальное заведение Владикавказа, расположенное на верхних этажах здания на улице Коцоева с панорамным видом на город, реку Терек и горы. Ресторан предлагает авторскую кухню с элементами кавказской и европейской гастрономии. Караоке-зал оснащён профессиональным оборудованием. По выходным — живая музыка и DJ-сеты. Элегантный интерьер с панорамными окнами создаёт атмосферу роскоши. Идеальное место для романтического ужина, торжества или вечеринки в кругу друзей. Рекомендуется бронирование.",
+        "en": "360 Restaurant & Karaoke is a premium venue in Vladikavkaz, located on the upper floors of a building on Kotsoyeva Street with panoramic views of the city, Terek River, and mountains. The restaurant offers signature cuisine with Caucasian and European gastronomy elements. The karaoke hall features professional equipment. Live music and DJ sets on weekends. An elegant interior with panoramic windows creates a luxurious atmosphere. An ideal place for a romantic dinner, celebration, or party with friends. Reservations recommended."
+      }
+    },
+    "photos": [],
+    "rating": 4.5,
+    "reviewCount": 203,
+    "hours": {
+      "mon": "12:00-00:00",
+      "tue": "12:00-00:00",
+      "wed": "12:00-00:00",
+      "thu": "12:00-00:00",
+      "fri": "12:00-02:00",
+      "sat": "12:00-02:00",
+      "sun": "12:00-23:00"
+    },
+    "phone": "+7 (8672) 40-03-60",
+    "priceLevel": 4,
+    "tags": ["панорамный вид", "караоке", "ресторан", "живая музыка", "премиум"],
+    "isChain": false,
+    "subscriptionTier": "premium",
+    "visitCount": 8900,
+    "hasMenu": true,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-127",
+    "slug": "terek-rafting",
+    "name": { "ru": "Рафтинг на Тереке", "en": "Terek River Rafting" },
+    "category": "activities",
+    "subcategory": "Рафтинг",
+    "location": {
+      "lat": 42.9200,
+      "lng": 44.5500,
+      "address": { "ru": "Дарьяльское ущелье, Военно-Грузинская дорога", "en": "Daryal Gorge, Georgian Military Highway" }
+    },
+    "description": {
+      "short": {
+        "ru": "Экстремальный сплав по горной реке Терек в Дарьяльском ущелье",
+        "en": "Extreme rafting on the Terek mountain river in Daryal Gorge"
+      },
+      "medium": {
+        "ru": "Рафтинг на реке Терек — один из самых захватывающих видов активного отдыха в Северной Осетии. Маршруты от простых до экстремальных проходят через живописное Дарьяльское ущелье с порогами 2-4 категории сложности.",
+        "en": "Rafting on the Terek River is one of the most thrilling outdoor activities in North Ossetia. Routes from easy to extreme pass through the picturesque Daryal Gorge with grade 2-4 rapids."
+      },
+      "full": {
+        "ru": "Рафтинг на реке Терек — визитная карточка экстремального туризма Северной Осетии. Маршруты начинаются в Дарьяльском ущелье вдоль легендарной Военно-Грузинской дороги. Река предлагает пороги от 2 до 4 категории сложности, что позволяет участвовать как новичкам, так и опытным рафтерам. Продолжительность сплава — от 1 до 3 часов. Все участники обеспечиваются касками, спасжилетами и инструктажем. Сезон — с мая по сентябрь, наиболее полноводный период — июнь-июль. Организаторы забирают группы из Владикавказа. Незабываемый адреналиновый опыт на фоне величественных гор.",
+        "en": "Terek River rafting is the hallmark of extreme tourism in North Ossetia. Routes begin in Daryal Gorge along the legendary Georgian Military Highway. The river offers grade 2 to 4 rapids, allowing both beginners and experienced rafters to participate. Rafting duration is 1 to 3 hours. All participants are provided with helmets, life jackets, and briefings. Season runs from May to September, with the highest water levels in June-July. Organizers pick up groups from Vladikavkaz. An unforgettable adrenaline experience against the backdrop of majestic mountains."
+      }
+    },
+    "photos": [],
+    "rating": 4.8,
+    "reviewCount": 76,
+    "phone": "+7 (928) 490-55-10",
+    "priceLevel": 2,
+    "tags": ["рафтинг", "экстрим", "Терек", "Дарьяльское ущелье", "активный отдых"],
+    "isChain": false,
+    "subscriptionTier": "premium",
+    "visitCount": 2400,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-128",
+    "slug": "paragliding-vladikavkaz",
+    "name": { "ru": "Параглайдинг над горами Осетии", "en": "Paragliding over Ossetian Mountains" },
+    "category": "activities",
+    "subcategory": "Параглайдинг",
+    "location": {
+      "lat": 42.8500,
+      "lng": 44.3000,
+      "address": { "ru": "Куртатинское ущелье, Северная Осетия", "en": "Kurtatinsky Gorge, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Полёт на параплане с видом на Кавказские горы",
+        "en": "Paragliding flight with Caucasus mountain views"
+      },
+      "medium": {
+        "ru": "Параглайдинг в горах Северной Осетии — возможность увидеть Кавказский хребет с высоты птичьего полёта. Тандемные полёты с инструктором доступны без опыта. Старт с горных склонов Куртатинского ущелья.",
+        "en": "Paragliding in the mountains of North Ossetia — a chance to see the Caucasus Range from a bird's-eye view. Tandem flights with an instructor are available without experience. Launch from the mountain slopes of Kurtatinsky Gorge."
+      },
+      "full": {
+        "ru": "Параглайдинг в Северной Осетии — уникальная возможность увидеть горы Кавказа с высоты полёта параплана. Тандемные полёты с опытными инструкторами доступны для всех желающих без специальной подготовки. Старт осуществляется с горных склонов Куртатинского ущелья, откуда открываются потрясающие виды на заснеженные вершины, зелёные долины и средневековые башни. Продолжительность полёта — 15-30 минут в зависимости от погодных условий. Сезон — с мая по октябрь. В стоимость входит трансфер из Владикавказа, инструктаж и видеосъёмка полёта. Минимальный возраст участника — 14 лет.",
+        "en": "Paragliding in North Ossetia is a unique opportunity to see the Caucasus mountains from a paraglider's altitude. Tandem flights with experienced instructors are available to everyone without special training. Launch is from the mountain slopes of Kurtatinsky Gorge, offering stunning views of snow-capped peaks, green valleys, and medieval towers. Flight duration is 15-30 minutes depending on weather conditions. Season runs from May to October. The price includes transfer from Vladikavkaz, briefing, and flight video recording. Minimum participant age is 14."
+      }
+    },
+    "photos": [],
+    "rating": 4.9,
+    "reviewCount": 48,
+    "phone": "+7 (928) 073-15-00",
+    "priceLevel": 3,
+    "tags": ["параглайдинг", "полёт", "горы", "экстрим", "виды"],
+    "isChain": false,
+    "subscriptionTier": "premium",
+    "visitCount": 1200,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-129",
+    "slug": "horse-riding-dargavs",
+    "name": { "ru": "Конные прогулки по горам Осетии", "en": "Horse Riding Tours in Ossetian Mountains" },
+    "category": "activities",
+    "subcategory": "Конные прогулки",
+    "location": {
+      "lat": 42.8370,
+      "lng": 44.4400,
+      "address": { "ru": "с. Даргавс, Пригородный р-н, Северная Осетия", "en": "Dargavs Village, Prigorodny District, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Конные маршруты по горным ущельям с видом на «Город мёртвых»",
+        "en": "Horse riding routes through mountain gorges with City of the Dead views"
+      },
+      "medium": {
+        "ru": "Конные прогулки из села Даргавс по живописным горным тропам. Маршруты проходят через Даргавское и Мидаграбинское ущелья мимо средневековых башен и водопадов. Доступны для новичков. Цены от 1200 руб.",
+        "en": "Horse riding from Dargavs village along scenic mountain trails. Routes pass through Dargavs and Midagrabin gorges past medieval towers and waterfalls. Suitable for beginners. Prices from 1200 RUB."
+      },
+      "full": {
+        "ru": "Конные прогулки в горах Северной Осетии организуются из конюшни в селе Даргавс — знаменитом месте с крупнейшим на Кавказе склеповым комплексом «Город мёртвых». Маршруты проходят по Даргавскому и Мидаграбинскому ущельям, вдоль горной реки Гизельдон, мимо средневековых башен и водопадов. Продолжительность — от 1 до 4 часов. Лошади спокойные и обученные, подходят для начинающих наездников. Инструкторы сопровождают группу на всём маршруте. Стоимость начинается от 1200 рублей. Необходимо бронирование. Сезон — с апреля по ноябрь. Одно из лучших впечатлений для любителей природы.",
+        "en": "Horse riding tours in the mountains of North Ossetia are organized from a stable in Dargavs village — famous for the Caucasus's largest burial vault complex, the City of the Dead. Routes pass through Dargavs and Midagrabin gorges, along the Gizeldon mountain river, past medieval towers and waterfalls. Duration is 1 to 4 hours. Horses are calm and trained, suitable for beginner riders. Instructors accompany the group throughout the route. Prices start from 1200 rubles. Booking required. Season from April to November. One of the best experiences for nature lovers."
+      }
+    },
+    "photos": [],
+    "rating": 4.7,
+    "reviewCount": 62,
+    "phone": "+7 (928) 861-30-50",
+    "priceLevel": 2,
+    "tags": ["конные прогулки", "горы", "Даргавс", "природа", "ущелья"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 1800,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-130",
+    "slug": "tsey-ski-resort",
+    "name": { "ru": "Горнолыжный курорт «Цей»", "en": "Tsey Ski Resort" },
+    "category": "activities",
+    "subcategory": "Горнолыжный курорт",
+    "location": {
+      "lat": 42.7550,
+      "lng": 43.8800,
+      "address": { "ru": "Цейское ущелье, Алагирский р-н, Северная Осетия", "en": "Tsey Gorge, Alagirsky District, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Горнолыжные трассы от 1850 до 2870 м в Цейском ущелье",
+        "en": "Ski slopes from 1850 to 2870 m in Tsey Gorge"
+      },
+      "medium": {
+        "ru": "Горнолыжный курорт «Цей» — главное место зимнего отдыха в Северной Осетии. Трассы всех уровней сложности на высотах 1850-2870 м. Парнокресельная и однокресельная канатные дороги. Сезон — декабрь-апрель.",
+        "en": "Tsey Ski Resort is the main winter destination in North Ossetia. Slopes of all difficulty levels at 1850-2870 m elevation. Double and single chairlifts. Season — December to April."
+      },
+      "full": {
+        "ru": "Горнолыжный курорт «Цей» расположен в Цейском ущелье у подножия гор Адайхох и Монах, в 90 км от Владикавказа. Трассы от «зелёных» до «чёрных» на высотах от 1850 до 2870 метров. Две канатные дороги — парнокресельная и однокресельная — поднимают лыжников на вершины. Высота снежного покрова в разгар сезона достигает двух метров. Ущелье входит в состав Северо-Осетинского заповедника, поэтому катание проходит на фоне первозданной природы. На курорте работают отели «Сказка» и «Вертикаль», гостиница «Осетия», прокат снаряжения. Сезон с декабря по апрель, но курорт работает круглый год как база для горного туризма.",
+        "en": "Tsey Ski Resort is located in Tsey Gorge at the foot of Mount Adaykhokh and Mount Monakh, 90 km from Vladikavkaz. Slopes range from green to black at elevations from 1850 to 2870 meters. Two cable lifts — double and single chairlifts — take skiers to the peaks. Snow depth reaches two meters at the height of the season. The gorge is part of the North Ossetian Nature Reserve, so skiing takes place against pristine natural scenery. The resort features hotels Skazka and Vertikal, Ossetia hotel, and equipment rental. Season from December to April, but the resort operates year-round as a base for mountain tourism."
+      }
+    },
+    "photos": [],
+    "rating": 4.3,
+    "reviewCount": 234,
+    "hours": {
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-17:00",
+      "sun": "09:00-17:00"
+    },
+    "website": "https://tseyski.ru/",
+    "priceLevel": 2,
+    "tags": ["горные лыжи", "сноуборд", "канатная дорога", "Цей", "зимний спорт"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 15000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-131",
+    "slug": "rope-park-vladikavkaz",
+    "name": { "ru": "Верёвочный парк", "en": "Rope Adventure Park" },
+    "category": "activities",
+    "subcategory": "Верёвочный парк",
+    "location": {
+      "lat": 43.0400,
+      "lng": 44.6900,
+      "address": { "ru": "Олимпийский парк, Владикавказ", "en": "Olympic Park, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Верёвочный парк с трассами разной сложности для всей семьи",
+        "en": "Rope park with courses of varying difficulty for the whole family"
+      },
+      "medium": {
+        "ru": "Верёвочный парк во Владикавказе — отличное развлечение для детей и взрослых. Несколько уровней сложности, зиплайн, подвесные мосты и платформы на деревьях. Инструкторы и страховка включены.",
+        "en": "The rope park in Vladikavkaz is great fun for children and adults. Several difficulty levels, zipline, suspension bridges, and tree platforms. Instructors and safety gear included."
+      },
+      "full": {
+        "ru": "Верёвочный парк во Владикавказе предлагает активный отдых на свежем воздухе для всей семьи. Трассы разделены по уровням сложности: детские (от 5 лет), подростковые и взрослые. Маршруты включают подвесные мосты, канатные переправы, зиплайн, лазание по сеткам и переход по качающимся платформам среди деревьев. Все участники обеспечиваются страховочным снаряжением и проходят инструктаж перед стартом. Прохождение одной трассы занимает 30-60 минут. Работает в тёплый сезон с апреля по октябрь. Популярное место для семейного отдыха и корпоративных мероприятий.",
+        "en": "The rope park in Vladikavkaz offers active outdoor recreation for the whole family. Courses are divided by difficulty: children's (from age 5), teen, and adult. Routes include suspension bridges, rope crossings, ziplines, net climbing, and swaying platform traversals among trees. All participants are provided with safety equipment and receive a briefing before starting. Completing one course takes 30-60 minutes. Open in warm season from April to October. A popular spot for family recreation and corporate events."
+      }
+    },
+    "photos": [],
+    "rating": 4.4,
+    "reviewCount": 56,
+    "hours": {
+      "mon": "10:00-19:00",
+      "tue": "10:00-19:00",
+      "wed": "10:00-19:00",
+      "thu": "10:00-19:00",
+      "fri": "10:00-20:00",
+      "sat": "10:00-20:00",
+      "sun": "10:00-19:00"
+    },
+    "phone": "+7 (928) 490-70-70",
+    "priceLevel": 1,
+    "tags": ["верёвочный парк", "зиплайн", "семейный отдых", "дети", "активный отдых"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 3400,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-132",
+    "slug": "rockstar-climbing",
+    "name": { "ru": "Скалодром RockStar", "en": "RockStar Climbing Wall" },
+    "category": "activities",
+    "subcategory": "Скалодром",
+    "location": {
+      "lat": 43.0420,
+      "lng": 44.7020,
+      "address": { "ru": "Московская ул., 8, Владикавказ", "en": "8 Moskovskaya St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Первый профессиональный скалодром Северной Осетии",
+        "en": "First professional climbing wall in North Ossetia"
+      },
+      "medium": {
+        "ru": "RockStar — единственный скалодром во всей Северной Осетии, открытый в 2019 году. 250 м² скалолазных стен, трассы от боулдеринга до лазания на трудность. Подходит для новичков и опытных скалолазов.",
+        "en": "RockStar is the only climbing wall in all of North Ossetia, opened in 2019. 250 m² of climbing walls, routes from bouldering to lead climbing. Suitable for beginners and experienced climbers."
+      },
+      "full": {
+        "ru": "Скалодром RockStar — первая и единственная искусственная скалолазная площадка во всей Северной Осетии, открытая в 2019 году на Московской улице. Общая площадь скалолазных стен составляет около 250 квадратных метров. Накручены трассы разной сложности: невысокие боулдеринговые участки для лазания без верёвки и высокие стены для лазания на трудность со страховкой. Регулярно обновляются маршруты. Проводятся тренировки для детей и взрослых, индивидуальные занятия с инструктором. Отличная подготовка перед выходом на настоящие скалы Кавказа.",
+        "en": "RockStar is the first and only artificial climbing wall in all of North Ossetia, opened in 2019 on Moskovskaya Street. The total climbing wall area is about 250 square meters. Routes of varying difficulty are set: low bouldering sections for ropeless climbing and tall walls for lead climbing with belaying. Routes are regularly updated. Training is available for children and adults, with individual instructor sessions. Excellent preparation before heading out to real Caucasus rock faces."
+      }
+    },
+    "photos": [],
+    "rating": 4.6,
+    "reviewCount": 74,
+    "hours": {
+      "mon": "10:00-22:00",
+      "tue": "10:00-22:00",
+      "wed": "10:00-22:00",
+      "thu": "10:00-22:00",
+      "fri": "10:00-22:00",
+      "sat": "10:00-21:00",
+      "sun": "10:00-21:00"
+    },
+    "phone": "+7 (928) 069-00-19",
+    "priceLevel": 2,
+    "tags": ["скалодром", "скалолазание", "боулдеринг", "спорт", "тренировки"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 2600,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-133",
+    "slug": "bike-rental-vladikavkaz",
+    "name": { "ru": "Велопрокат на набережной", "en": "Bike Rental on the Embankment" },
+    "category": "activities",
+    "subcategory": "Велопрокат",
+    "location": {
+      "lat": 43.0340,
+      "lng": 44.6735,
+      "address": { "ru": "ул. Коцоева (набережная Терека), Владикавказ", "en": "Kotsoyeva St (Terek Embankment), Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Прокат велосипедов на набережной Терека для прогулок по городу",
+        "en": "Bicycle rental on the Terek embankment for city rides"
+      },
+      "medium": {
+        "ru": "Пункт проката велосипедов на живописной набережной Терека. Городские, горные и детские велосипеды. Удобный способ осмотреть достопримечательности Владикавказа вдоль реки и проспекта Мира.",
+        "en": "Bicycle rental point on the scenic Terek embankment. City, mountain, and children's bikes. A convenient way to explore Vladikavkaz sights along the river and Mira Avenue."
+      },
+      "full": {
+        "ru": "Велопрокат на набережной Терека — удобный способ исследовать Владикавказ на двух колёсах. Расположен на улице Коцоева, в самом живописном месте городской набережной. В ассортименте — городские велосипеды для неспешных прогулок, горные для более активных маршрутов и детские. Аренда почасовая или на весь день. Популярные маршруты: вдоль набережной Терека, через парк Коста Хетагурова, по проспекту Мира до Суннитской мечети. Для любителей более серьёзных покатушек — маршрут в сторону Редантской долины. Работает ежедневно с 10 утра.",
+        "en": "Bike rental on the Terek embankment is a convenient way to explore Vladikavkaz on two wheels. Located on Kotsoyeva Street at the most scenic spot of the city embankment. The selection includes city bikes for leisurely rides, mountain bikes for more active routes, and children's bikes. Hourly or full-day rental available. Popular routes: along the Terek embankment, through Kosta Khetagurov Park, along Mira Avenue to the Sunni Mosque. For more serious cycling enthusiasts — a route toward Redant Valley. Open daily from 10 AM."
+      }
+    },
+    "photos": [],
+    "rating": 4.2,
+    "reviewCount": 43,
+    "hours": {
+      "mon": "10:00-22:00",
+      "tue": "10:00-22:00",
+      "wed": "10:00-22:00",
+      "thu": "10:00-22:00",
+      "fri": "10:00-23:00",
+      "sat": "10:00-23:00",
+      "sun": "10:00-22:00"
+    },
+    "priceLevel": 1,
+    "tags": ["велопрокат", "велосипеды", "набережная", "прогулки", "активный отдых"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 4200,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-134",
+    "slug": "midagrabin-canyoning",
+    "name": { "ru": "Каньонинг Мидаграбин", "en": "Midagrabin Canyoning" },
+    "category": "activities",
+    "subcategory": "Каньонинг",
+    "location": {
+      "lat": 42.7500,
+      "lng": 44.3800,
+      "address": { "ru": "Мидаграбинское ущелье, Северная Осетия", "en": "Midagrabin Gorge, North Ossetia" }
+    },
+    "description": {
+      "short": {
+        "ru": "Каньонинг у высочайших водопадов Европы в Мидаграбинском ущелье",
+        "en": "Canyoning at Europe's highest waterfalls in Midagrabin Gorge"
+      },
+      "medium": {
+        "ru": "Каньонинг в Мидаграбинском ущелье — экстремальное приключение у подножия водопадов высотой до 750 м. Спуск по каньонам, переправы через горные потоки и купание в природных бассейнах.",
+        "en": "Canyoning in Midagrabin Gorge is an extreme adventure at the foot of waterfalls up to 750 m high. Canyon descents, mountain stream crossings, and swimming in natural pools."
+      },
+      "full": {
+        "ru": "Каньонинг в Мидаграбинском ущелье — одно из самых ярких экстремальных приключений Северной Осетии. Мидаграбинские водопады (Большой Зейгалан достигает 750 метров) считаются высочайшими в Европе. Маршрут включает спуск по узким скальным каньонам, переправы через ледяные горные потоки, прыжки в природные бассейны и дюльфер по водопадным уступам. Продолжительность — 4-6 часов. Необходима хорошая физическая форма. Снаряжение (гидрокостюм, каска, обвязка) предоставляется. Группы сопровождают сертифицированные гиды. Сезон — июнь-сентябрь. Трансфер из Владикавказа включён.",
+        "en": "Canyoning in Midagrabin Gorge is one of the most spectacular extreme adventures in North Ossetia. Midagrabin waterfalls (Big Zeygalan reaches 750 meters) are considered the highest in Europe. The route includes descending narrow rock canyons, crossing icy mountain streams, jumping into natural pools, and rappelling along waterfall ledges. Duration is 4-6 hours. Good physical fitness required. Equipment (wetsuit, helmet, harness) is provided. Groups are accompanied by certified guides. Season — June to September. Transfer from Vladikavkaz included."
+      }
+    },
+    "photos": [],
+    "rating": 4.9,
+    "reviewCount": 35,
+    "phone": "+7 (928) 073-20-00",
+    "priceLevel": 3,
+    "tags": ["каньонинг", "Мидаграбин", "водопады", "экстрим", "приключения"],
+    "isChain": false,
+    "subscriptionTier": "premium",
+    "visitCount": 900,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-135",
+    "slug": "vladikavkaz-railway-station",
+    "name": { "ru": "Железнодорожный вокзал Владикавказ", "en": "Vladikavkaz Railway Station" },
+    "category": "practical",
+    "subcategory": "Вокзал",
+    "location": {
+      "lat": 43.0235,
+      "lng": 44.6630,
+      "address": { "ru": "ул. Маркова, 24, Владикавказ", "en": "24 Markova St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Главный ж/д вокзал города с поездами в Москву и Ростов",
+        "en": "Main railway station with trains to Moscow and Rostov"
+      },
+      "medium": {
+        "ru": "Железнодорожный вокзал Владикавказа — главный транспортный узел города. Поезда в Москву, Ростов-на-Дону, Санкт-Петербург и другие города. Зал ожидания, камеры хранения, билетные кассы.",
+        "en": "Vladikavkaz Railway Station is the city's main transportation hub. Trains to Moscow, Rostov-on-Don, St. Petersburg, and other cities. Waiting hall, luggage storage, ticket offices."
+      },
+      "full": {
+        "ru": "Железнодорожный вокзал Владикавказа расположен на улице Маркова в центральной части города. Это конечная станция Северо-Кавказской железной дороги. Отсюда отправляются поезда дальнего следования в Москву, Ростов-на-Дону, Санкт-Петербург, Адлер и другие города России. На вокзале работают билетные кассы, зал ожидания, камеры хранения, буфет. Единая справочная РЖД: 8-800-775-00-00. В пешей доступности — отель «Амран» и остановки городского транспорта. Рекомендуется приобретать билеты заранее, особенно в летний сезон.",
+        "en": "Vladikavkaz Railway Station is located on Markova Street in the central part of the city. It is the terminal station of the North Caucasus Railway. Long-distance trains depart from here to Moscow, Rostov-on-Don, St. Petersburg, Adler, and other Russian cities. The station has ticket offices, a waiting hall, luggage storage, and a cafeteria. Russian Railways unified hotline: 8-800-775-00-00. Within walking distance are the Amran Hotel and public transport stops. Advance ticket purchase is recommended, especially during summer season."
+      }
+    },
+    "photos": [],
+    "rating": 3.8,
+    "reviewCount": 267,
+    "hours": {
+      "mon": "05:00-20:00",
+      "tue": "05:00-20:00",
+      "wed": "05:00-20:00",
+      "thu": "05:00-20:00",
+      "fri": "05:00-20:00",
+      "sat": "05:00-20:00",
+      "sun": "05:00-20:00"
+    },
+    "phone": "+7 (800) 775-00-00",
+    "website": "http://vladikavkaz.dzvr.ru/",
+    "tags": ["ж/д вокзал", "поезда", "транспорт", "билеты"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 45000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-136",
+    "slug": "vladikavkaz-bus-station",
+    "name": { "ru": "Автовокзал Владикавказ", "en": "Vladikavkaz Bus Station" },
+    "category": "practical",
+    "subcategory": "Автовокзал",
+    "location": {
+      "lat": 43.0200,
+      "lng": 44.6470,
+      "address": { "ru": "Архонское шоссе, 1, Владикавказ", "en": "1 Arkhonskoe Highway, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Главный автовокзал с рейсами по Осетии и Кавказу",
+        "en": "Main bus station with routes across Ossetia and the Caucasus"
+      },
+      "medium": {
+        "ru": "Автовокзал Владикавказа — отправная точка для автобусных маршрутов по Северной Осетии и соседним регионам Кавказа. Рейсы в Нальчик, Грозный, Пятигорск, а также в горные посёлки республики.",
+        "en": "Vladikavkaz Bus Station is the departure point for bus routes across North Ossetia and neighboring Caucasus regions. Services to Nalchik, Grozny, Pyatigorsk, and mountain villages of the republic."
+      },
+      "full": {
+        "ru": "Автовокзал Владикавказа расположен на Архонском шоссе и обслуживает междугородние и пригородные маршруты. Отсюда отправляются автобусы в соседние столицы республик СКФО — Нальчик, Грозный, Махачкалу, а также в города Кавказских Минеральных Вод — Пятигорск, Кисловодск, Минеральные Воды. Пригородные маршруты связывают Владикавказ с горными посёлками: Верхний Фиагдон, Алагир, Дигора. Зал ожидания, билетные кассы, справочная. Расписание может меняться в зависимости от сезона. Справочная: +7 (8672) 51-12-63.",
+        "en": "Vladikavkaz Bus Station is located on Arkhonskoe Highway and serves intercity and suburban routes. Buses depart from here to neighboring republic capitals — Nalchik, Grozny, Makhachkala — as well as to Caucasus Mineral Waters cities — Pyatigorsk, Kislovodsk, Mineralnye Vody. Suburban routes connect Vladikavkaz with mountain villages: Upper Fiagdon, Alagir, Digora. Waiting hall, ticket offices, information desk available. Schedules may vary by season. Information: +7 (8672) 51-12-63."
+      }
+    },
+    "photos": [],
+    "rating": 3.5,
+    "reviewCount": 189,
+    "hours": {
+      "mon": "06:00-19:30",
+      "tue": "06:00-19:30",
+      "wed": "06:00-19:30",
+      "thu": "06:00-19:30",
+      "fri": "06:00-19:30",
+      "sat": "06:00-19:30",
+      "sun": "06:00-19:30"
+    },
+    "phone": "+7 (8672) 51-12-63",
+    "website": "https://avtovokzal15.ru/",
+    "tags": ["автовокзал", "автобусы", "транспорт", "маршруты"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 32000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-137",
+    "slug": "beslan-airport-ogz",
+    "name": { "ru": "Аэропорт Беслан (OGZ)", "en": "Beslan Airport (OGZ)" },
+    "category": "practical",
+    "subcategory": "Аэропорт",
+    "location": {
+      "lat": 43.2050,
+      "lng": 44.6060,
+      "address": { "ru": "г. Беслан, аэропорт «Владикавказ»", "en": "Beslan, Vladikavkaz Airport" }
+    },
+    "description": {
+      "short": {
+        "ru": "Международный аэропорт в 26 км от Владикавказа (код OGZ)",
+        "en": "International airport 26 km from Vladikavkaz (code OGZ)"
+      },
+      "medium": {
+        "ru": "Аэропорт «Владикавказ» (Беслан, OGZ) — единственный аэропорт Северной Осетии. Расположен в 26 км от Владикавказа. Рейсы в Москву, Санкт-Петербург, Сочи и другие города. Работает круглосуточно.",
+        "en": "Vladikavkaz Airport (Beslan, OGZ) is the only airport in North Ossetia. Located 26 km from Vladikavkaz. Flights to Moscow, St. Petersburg, Sochi, and other cities. Open 24 hours."
+      },
+      "full": {
+        "ru": "Аэропорт «Владикавказ» (IATA: OGZ, ICAO: URMO) расположен вблизи города Беслан в 26 километрах от Владикавказа. Это единственный аэропорт Республики Северная Осетия-Алания, обслуживающий регулярные рейсы в Москву (Внуково, Домодедово, Шереметьево), Санкт-Петербург, Сочи, Сургут и другие города. Авиакомпании: «Победа», S7, «Россия», Utair и другие. В здании аэропорта — зал ожидания, кафе, магазин, пункт обмена валюты. Добраться из Владикавказа можно на такси (30-40 минут) или маршрутке. Справочная: +7 (8672) 33-36-53.",
+        "en": "Vladikavkaz Airport (IATA: OGZ, ICAO: URMO) is located near the city of Beslan, 26 kilometers from Vladikavkaz. It is the only airport in the Republic of North Ossetia-Alania, serving regular flights to Moscow (Vnukovo, Domodedovo, Sheremetyevo), St. Petersburg, Sochi, Surgut, and other cities. Airlines: Pobeda, S7, Rossiya, Utair, and others. The airport building has a waiting hall, cafe, shop, and currency exchange. Reachable from Vladikavkaz by taxi (30-40 minutes) or minibus. Information: +7 (8672) 33-36-53."
+      }
+    },
+    "photos": [],
+    "rating": 3.6,
+    "reviewCount": 456,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "phone": "+7 (8672) 33-36-53",
+    "tags": ["аэропорт", "авиабилеты", "OGZ", "Беслан", "транспорт"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 120000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-138",
+    "slug": "post-office-vladikavkaz",
+    "name": { "ru": "Почта России (центральное отделение)", "en": "Russian Post (Central Office)" },
+    "category": "practical",
+    "subcategory": "Почта",
+    "location": {
+      "lat": 43.0360,
+      "lng": 44.6800,
+      "address": { "ru": "пр. Мира, 34, Владикавказ", "en": "34 Mira Ave, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Центральное почтовое отделение на проспекте Мира",
+        "en": "Central post office on Mira Avenue"
+      },
+      "medium": {
+        "ru": "Центральное отделение Почты России во Владикавказе на проспекте Мира. Отправка писем, посылок, денежных переводов. EMS-доставка, подписка на периодику, оплата коммунальных услуг.",
+        "en": "Central Russian Post office in Vladikavkaz on Mira Avenue. Sending letters, packages, money transfers. EMS delivery, periodical subscriptions, utility payments."
+      },
+      "full": {
+        "ru": "Центральное отделение Почты России во Владикавказе расположено на главном проспекте Мира. Предоставляет полный спектр почтовых услуг: отправка писем, бандеролей и посылок по России и за рубеж, EMS-доставка, денежные переводы, оплата коммунальных услуг, подписка на газеты и журналы. Для туристов полезна услуга отправки открыток и сувениров домой. Также работает пункт выдачи интернет-заказов. Индекс центрального отделения: 362040. Работает по будням с перерывом на обед, в субботу — сокращённый день.",
+        "en": "The central Russian Post office in Vladikavkaz is located on the main Mira Avenue. It provides a full range of postal services: sending letters, parcels, and packages within Russia and abroad, EMS delivery, money transfers, utility payments, newspaper and magazine subscriptions. Tourists find it useful for mailing postcards and souvenirs home. An online order pickup point also operates here. Central office postal code: 362040. Open on weekdays with a lunch break, shortened hours on Saturday."
+      }
+    },
+    "photos": [],
+    "rating": 3.5,
+    "reviewCount": 87,
+    "hours": {
+      "mon": "08:00-20:00",
+      "tue": "08:00-20:00",
+      "wed": "08:00-20:00",
+      "thu": "08:00-20:00",
+      "fri": "08:00-20:00",
+      "sat": "09:00-15:00"
+    },
+    "phone": "+7 (800) 100-00-00",
+    "website": "https://www.pochta.ru/",
+    "tags": ["почта", "посылки", "переводы", "открытки"],
+    "isChain": true,
+    "subscriptionTier": "free",
+    "visitCount": 15000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-139",
+    "slug": "sberbank-central-vladikavkaz",
+    "name": { "ru": "Сбербанк (центральный)", "en": "Sberbank (Central Branch)" },
+    "category": "practical",
+    "subcategory": "Банк",
+    "location": {
+      "lat": 43.0358,
+      "lng": 44.6785,
+      "address": { "ru": "ул. Коцоева, 68, Владикавказ", "en": "68 Kotsoyeva St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Центральное отделение Сбербанка с полным спектром услуг",
+        "en": "Central Sberbank branch with full range of services"
+      },
+      "medium": {
+        "ru": "Центральное отделение Сбербанка во Владикавказе на улице Коцоева. Обмен валюты, снятие наличных, переводы, кредиты, открытие счетов. Банкоматы работают круглосуточно.",
+        "en": "Central Sberbank branch in Vladikavkaz on Kotsoyeva Street. Currency exchange, cash withdrawal, transfers, loans, account opening. ATMs operate 24/7."
+      },
+      "full": {
+        "ru": "Центральное отделение Сбербанка во Владикавказе расположено на улице Коцоева, в пешей доступности от набережной Терека и проспекта Мира. Предоставляет полный спектр банковских услуг: обмен валюты (доллары, евро), снятие наличных, международные переводы, оформление карт, кредиты, страхование. Для туристов наиболее актуальны обмен валюты и снятие наличных в банкоматах. Банкоматы Сбербанка принимают карты международных платёжных систем. В городе работают ещё более 15 отделений и множество банкоматов. Отделение оснащено электронной очередью.",
+        "en": "The central Sberbank branch in Vladikavkaz is located on Kotsoyeva Street, within walking distance of the Terek embankment and Mira Avenue. It provides a full range of banking services: currency exchange (dollars, euros), cash withdrawal, international transfers, card issuance, loans, and insurance. For tourists, currency exchange and ATM cash withdrawal are most relevant. Sberbank ATMs accept international payment system cards. The city has over 15 more branches and numerous ATMs. The branch is equipped with an electronic queue system."
+      }
+    },
+    "photos": [],
+    "rating": 3.7,
+    "reviewCount": 134,
+    "hours": {
+      "mon": "09:00-18:00",
+      "tue": "09:00-18:00",
+      "wed": "09:00-18:00",
+      "thu": "09:00-18:00",
+      "fri": "09:00-17:00",
+      "sat": "10:00-14:00"
+    },
+    "phone": "+7 (800) 555-55-50",
+    "website": "https://www.sberbank.ru/",
+    "tags": ["банк", "обмен валюты", "банкомат", "переводы"],
+    "isChain": true,
+    "subscriptionTier": "free",
+    "visitCount": 22000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-140",
+    "slug": "tinkoff-atm-vladikavkaz",
+    "name": { "ru": "Банкомат Тинькофф", "en": "Tinkoff ATM" },
+    "category": "practical",
+    "subcategory": "Банкомат",
+    "location": {
+      "lat": 43.0370,
+      "lng": 44.6810,
+      "address": { "ru": "пр. Мира, 29, Владикавказ (Гранд-отель «Александровский»)", "en": "29 Mira Ave, Vladikavkaz (Aleksandrovsky Grand Hotel)" }
+    },
+    "description": {
+      "short": {
+        "ru": "Банкомат Тинькофф Банка в центре города для снятия наличных",
+        "en": "Tinkoff Bank ATM in the city center for cash withdrawal"
+      },
+      "medium": {
+        "ru": "Банкомат Тинькофф Банка расположен в вестибюле Гранд-отеля «Александровский» на проспекте Мира. Снятие наличных без комиссии для клиентов Тинькофф, пополнение счёта и переводы.",
+        "en": "Tinkoff Bank ATM located in the lobby of the Aleksandrovsky Grand Hotel on Mira Avenue. Commission-free cash withdrawal for Tinkoff clients, account top-up, and transfers."
+      },
+      "full": {
+        "ru": "Банкомат Тинькофф Банка установлен в вестибюле Гранд-отеля «Александровский» на проспекте Мира — главной пешеходной улице Владикавказа. Для клиентов Тинькофф — снятие наличных без комиссии до установленных лимитов. Принимает карты Visa, Mastercard, МИР. Доступны операции: снятие и внесение наличных, переводы между счетами, оплата услуг. Работает круглосуточно. В городе есть ещё несколько банкоматов Тинькофф — их расположение можно найти в приложении банка. Ближайшие к центру — в торговых центрах и крупных магазинах.",
+        "en": "The Tinkoff Bank ATM is installed in the lobby of the Aleksandrovsky Grand Hotel on Mira Avenue — Vladikavkaz's main pedestrian street. For Tinkoff clients — commission-free cash withdrawal up to set limits. Accepts Visa, Mastercard, and MIR cards. Available operations: cash withdrawal and deposit, transfers between accounts, bill payments. Open 24/7. The city has several more Tinkoff ATMs — their locations can be found in the bank's app. The closest to the center are in shopping malls and large stores."
+      }
+    },
+    "photos": [],
+    "rating": 4.0,
+    "reviewCount": 28,
+    "hours": {
+      "mon": "00:00-23:59",
+      "tue": "00:00-23:59",
+      "wed": "00:00-23:59",
+      "thu": "00:00-23:59",
+      "fri": "00:00-23:59",
+      "sat": "00:00-23:59",
+      "sun": "00:00-23:59"
+    },
+    "website": "https://www.tinkoff.ru/",
+    "tags": ["банкомат", "Тинькофф", "наличные", "Visa", "Mastercard"],
+    "isChain": true,
+    "subscriptionTier": "free",
+    "visitCount": 8000,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-141",
+    "slug": "kavkaz-travel-center",
+    "name": { "ru": "Центр путешествий «Кавказ»", "en": "Kavkaz Travel Center" },
+    "category": "practical",
+    "subcategory": "Туристический центр",
+    "location": {
+      "lat": 43.0342,
+      "lng": 44.6730,
+      "address": { "ru": "ул. Коцоева, 75 (гостиница «Владикавказ»), Владикавказ", "en": "75 Kotsoyeva St (Hotel Vladikavkaz), Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Туристическое бюро с экскурсиями по Северной Осетии",
+        "en": "Tourist bureau with tours across North Ossetia"
+      },
+      "medium": {
+        "ru": "Центр путешествий «Кавказ» в гостинице «Владикавказ» — туристическое бюро, организующее экскурсии по Северной Осетии: в горные ущелья, к историческим памятникам, на горнолыжные курорты и к водопадам.",
+        "en": "Kavkaz Travel Center in Hotel Vladikavkaz is a tourist bureau organizing tours across North Ossetia: to mountain gorges, historical monuments, ski resorts, and waterfalls."
+      },
+      "full": {
+        "ru": "Центр путешествий «Кавказ» расположен в здании гостиницы «Владикавказ» на улице Коцоева. Это одно из старейших туристических бюро Северной Осетии, предлагающее широкий выбор экскурсий: Даргавс и «Город мёртвых», Цейское ущелье и ледники, Дигорское ущелье, Мидаграбинские водопады, Куртатинское ущелье и Аланский монастырь, Кармадонское ущелье. Организуют трансферы в горы, джип-туры, пешие маршруты с гидом. Сотрудники говорят на русском и английском, помогут спланировать маршрут по республике. Бронирование и консультации — ежедневно.",
+        "en": "Kavkaz Travel Center is located in the Hotel Vladikavkaz building on Kotsoyeva Street. It is one of the oldest tourist bureaus in North Ossetia, offering a wide selection of tours: Dargavs and the City of the Dead, Tsey Gorge and glaciers, Digorsky Gorge, Midagrabin Waterfalls, Kurtatinsky Gorge and Alansky Monastery, Karmadon Gorge. They organize mountain transfers, jeep tours, and guided hiking routes. Staff speak Russian and English and will help plan your route around the republic. Booking and consultations available daily."
+      }
+    },
+    "photos": [],
+    "rating": 4.2,
+    "reviewCount": 78,
+    "hours": {
+      "mon": "09:00-18:00",
+      "tue": "09:00-18:00",
+      "wed": "09:00-18:00",
+      "thu": "09:00-18:00",
+      "fri": "09:00-18:00",
+      "sat": "10:00-16:00",
+      "sun": "10:00-15:00"
+    },
+    "phone": "+7 (8672) 64-94-94",
+    "tags": ["туризм", "экскурсии", "турбюро", "информация", "маршруты"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 6500,
+    "hasMenu": false,
+    "hasDelivery": false
+  },
+  {
+    "id": "poi-142",
+    "slug": "toprent-car-rental",
+    "name": { "ru": "TopRent прокат авто", "en": "TopRent Car Rental" },
+    "category": "practical",
+    "subcategory": "Прокат автомобилей",
+    "location": {
+      "lat": 43.0180,
+      "lng": 44.6490,
+      "address": { "ru": "ул. Гриса Плиева, 5Б, Владикавказ", "en": "5B Grisa Pliyeva St, Vladikavkaz" }
+    },
+    "description": {
+      "short": {
+        "ru": "Прокат автомобилей для путешествий по Северной Осетии",
+        "en": "Car rental for traveling across North Ossetia"
+      },
+      "medium": {
+        "ru": "TopRent — служба проката автомобилей во Владикавказе. Новые и надёжные машины от 2000 руб/день. Внедорожники для горных дорог, седаны для города. Доставка к аэропорту и вокзалу.",
+        "en": "TopRent is a car rental service in Vladikavkaz. New and reliable cars from 2000 RUB/day. SUVs for mountain roads, sedans for the city. Delivery to airport and railway station."
+      },
+      "full": {
+        "ru": "TopRent — одна из ведущих компаний по прокату автомобилей в Северной Осетии, расположенная на улице Гриса Плиева в Затеречном районе Владикавказа. Автопарк включает седаны, кроссоверы и полноприводные внедорожники — незаменимые для поездок по горным дорогам к Цейскому ущелью, Дигории, Даргавсу и другим достопримечательностям. Цены начинаются от 2000 рублей в день. Возможна доставка автомобиля к аэропорту Беслан, ж/д вокзалу или любой точке города. Требования: возраст от 21 года, стаж вождения от 2 лет, паспорт и водительские права. Для горных маршрутов рекомендуется полноприводный автомобиль.",
+        "en": "TopRent is one of the leading car rental companies in North Ossetia, located on Grisa Pliyeva Street in the Zaterechny district of Vladikavkaz. The fleet includes sedans, crossovers, and all-wheel-drive SUVs — essential for trips on mountain roads to Tsey Gorge, Digoria, Dargavs, and other attractions. Prices start from 2000 rubles per day. Car delivery to Beslan Airport, railway station, or any point in the city is available. Requirements: age 21+, 2+ years driving experience, passport and driver's license. All-wheel-drive vehicles are recommended for mountain routes."
+      }
+    },
+    "photos": [],
+    "rating": 4.4,
+    "reviewCount": 92,
+    "hours": {
+      "mon": "08:00-19:00",
+      "tue": "08:00-19:00",
+      "wed": "08:00-19:00",
+      "thu": "08:00-19:00",
+      "fri": "08:00-19:00",
+      "sat": "09:00-18:00",
+      "sun": "09:00-17:00"
+    },
+    "phone": "+7 (928) 069-00-00",
+    "website": "https://en.toprent.ru/",
+    "priceLevel": 2,
+    "tags": ["прокат авто", "аренда машины", "внедорожник", "доставка"],
+    "isChain": false,
+    "subscriptionTier": "free",
+    "visitCount": 5400,
+    "hasMenu": false,
+    "hasDelivery": false
+  }
+]
