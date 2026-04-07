@@ -1,7 +1,7 @@
 [
   {
     "id": "poi-001",
-    "slug": "midagrabin-waterfalls",
+    "slug": "midagrabinskie-vodopady",
     "name": {
       "ru": "Мидаграбинские водопады",
       "en": "Midagrabin Waterfalls"
@@ -46,7 +46,7 @@
   },
   {
     "id": "poi-002",
-    "slug": "tsey-gorge",
+    "slug": "tseyskoe-uschele",
     "name": {
       "ru": "Цейское ущелье",
       "en": "Tsey Gorge"
@@ -102,7 +102,7 @@
   },
   {
     "id": "poi-003",
-    "slug": "tsey-glacier",
+    "slug": "tseyskiy-lednik",
     "name": {
       "ru": "Цейский ледник",
       "en": "Tsey Glacier"
@@ -147,7 +147,7 @@
   },
   {
     "id": "poi-004",
-    "slug": "skaz-glacier",
+    "slug": "skazskiy-lednik",
     "name": {
       "ru": "Сказский ледник",
       "en": "Skaz Glacier"
@@ -192,7 +192,7 @@
   },
   {
     "id": "poi-005",
-    "slug": "karmadon-gorge",
+    "slug": "karmadonskoe-uschele",
     "name": {
       "ru": "Кармадонское ущелье",
       "en": "Karmadon Gorge"
@@ -237,7 +237,7 @@
   },
   {
     "id": "poi-006",
-    "slug": "galdoridon-(pearl)-waterfall",
+    "slug": "vodopad-galdoridon-zhemchuzhnyy",
     "name": {
       "ru": "Водопад Галдоридон (Жемчужный)",
       "en": "Galdoridon (Pearl) Waterfall"
@@ -282,7 +282,7 @@
   },
   {
     "id": "poi-007",
-    "slug": "table-mountain-(myat-loam)",
+    "slug": "stolovaya-gora-myat-loam",
     "name": {
       "ru": "Столовая гора (Мят-Лоам)",
       "en": "Table Mountain (Myat-Loam)"
@@ -327,7 +327,7 @@
   },
   {
     "id": "poi-008",
-    "slug": "alania-national-park",
+    "slug": "natsionalnyy-park-alaniya",
     "name": {
       "ru": "Национальный парк «Алания»",
       "en": "Alania National Park"
@@ -377,7 +377,7 @@
   },
   {
     "id": "poi-009",
-    "slug": "zaramag-reservoir",
+    "slug": "zaramagskoe-vodohranilische",
     "name": {
       "ru": "Зарамагское водохранилище",
       "en": "Zaramag Reservoir"
@@ -422,7 +422,7 @@
   },
   {
     "id": "poi-010",
-    "slug": "kurtatinsky-gorge",
+    "slug": "kurtatinskoe-uschele",
     "name": {
       "ru": "Куртатинское ущелье",
       "en": "Kurtatinsky Gorge"
@@ -467,7 +467,7 @@
   },
   {
     "id": "poi-011",
-    "slug": "dargavs--city-of-the-dead",
+    "slug": "dargavs-gorod-myortvyh",
     "name": {
       "ru": "Даргавс — «Город мёртвых»",
       "en": "Dargavs — City of the Dead"
@@ -522,7 +522,7 @@
   },
   {
     "id": "poi-012",
-    "slug": "dzivgis-rock-fortress",
+    "slug": "dzivgisskaya-skalnaya-krepost",
     "name": {
       "ru": "Дзивгисская скальная крепость",
       "en": "Dzivgis Rock Fortress"
@@ -571,7 +571,7 @@
   },
   {
     "id": "poi-013",
-    "slug": "tsimiti-tower-complex",
+    "slug": "bashennyy-kompleks-tsimiti",
     "name": {
       "ru": "Башенный комплекс Цимити",
       "en": "Tsimiti Tower Complex"
@@ -617,7 +617,7 @@
   },
   {
     "id": "poi-014",
-    "slug": "nuzal-chapel",
+    "slug": "nuzalskaya-chasovnya",
     "name": {
       "ru": "Нузальская часовня",
       "en": "Nuzal Chapel"
@@ -663,7 +663,7 @@
   },
   {
     "id": "poi-015",
-    "slug": "galiat-village",
+    "slug": "galiat",
     "name": {
       "ru": "Галиат",
       "en": "Galiat Village"
@@ -709,7 +709,7 @@
   },
   {
     "id": "poi-016",
-    "slug": "kadargavan-trail-of-wonders",
+    "slug": "tropa-chudes-v-kadargavane",
     "name": {
       "ru": "Тропа чудес в Кадаргаване",
       "en": "Kadargavan Trail of Wonders"
@@ -755,7 +755,7 @@
   },
   {
     "id": "poi-017",
-    "slug": "uastyrdzhi-monument",
+    "slug": "pamyatnik-uastyrdzhi",
     "name": {
       "ru": "Памятник Уастырджи",
       "en": "Uastyrdzhi Monument"
@@ -801,7 +801,7 @@
   },
   {
     "id": "poi-018",
-    "slug": "city-of-angels-(beslan-memorial)",
+    "slug": "gorod-angelov-memorial-beslana",
     "name": {
       "ru": "«Город ангелов» (мемориал Беслана)",
       "en": "City of Angels (Beslan Memorial)"
@@ -847,7 +847,7 @@
   },
   {
     "id": "poi-019",
-    "slug": "sergei-bodrov-memorial",
+    "slug": "pamyatnik-sergeyu-bodrovu",
     "name": {
       "ru": "Памятник Сергею Бодрову",
       "en": "Sergei Bodrov Memorial"
@@ -893,7 +893,7 @@
   },
   {
     "id": "poi-020",
-    "slug": "nart-soslan-fountain",
+    "slug": "fontan-nart-soslan",
     "name": {
       "ru": "Фонтан «Нарт Сослан»",
       "en": "Nart Soslan Fountain"
@@ -939,7 +939,7 @@
   },
   {
     "id": "poi-021",
-    "slug": "rekom-sanctuary",
+    "slug": "svyatilische-rekom",
     "name": {
       "ru": "Святилище Реком",
       "en": "Rekom Sanctuary"
@@ -985,7 +985,7 @@
   },
   {
     "id": "poi-022",
-    "slug": "alansky-holy-dormition-monastery",
+    "slug": "alanskiy-svyato-uspenskiy-monastyr",
     "name": {
       "ru": "Аланский Свято-Успенский монастырь",
       "en": "Alansky Holy Dormition Monastery"
@@ -1031,7 +1031,7 @@
   },
   {
     "id": "poi-023",
-    "slug": "mukhtarov-mosque",
+    "slug": "sunnitskaya-mechet-muhtarova",
     "name": {
       "ru": "Суннитская мечеть Мухтарова",
       "en": "Mukhtarov Mosque"
@@ -1078,7 +1078,7 @@
   },
   {
     "id": "poi-024",
-    "slug": "armenian-church-of-st.-gregory-the-illum",
+    "slug": "tserkov-sv-grigoriya-prosvetitelya",
     "name": {
       "ru": "Церковь Св. Григория Просветителя",
       "en": "Armenian Church of St. Gregory the Illuminator"
@@ -1124,7 +1124,7 @@
   },
   {
     "id": "poi-025",
-    "slug": "st.-georges-cathedral",
+    "slug": "svyato-georgievskiy-sobor",
     "name": {
       "ru": "Свято-Георгиевский собор",
       "en": "St. George's Cathedral"
@@ -1178,7 +1178,7 @@
   },
   {
     "id": "poi-026",
-    "slug": "khetags-grove",
+    "slug": "roscha-hetaga",
     "name": {
       "ru": "Роща Хетага",
       "en": "Khetag's Grove"
@@ -1224,7 +1224,7 @@
   },
   {
     "id": "poi-027",
-    "slug": "prospekt-mira-(peace-avenue)",
+    "slug": "prospekt-mira",
     "name": {
       "ru": "Проспект Мира",
       "en": "Prospekt Mira (Peace Avenue)"
@@ -1270,7 +1270,7 @@
   },
   {
     "id": "poi-028",
-    "slug": "terek-river-embankment",
+    "slug": "naberezhnaya-reki-terek",
     "name": {
       "ru": "Набережная реки Терек",
       "en": "Terek River Embankment"
@@ -1316,7 +1316,7 @@
   },
   {
     "id": "poi-029",
-    "slug": "kosta-khetagurov-park",
+    "slug": "park-im-kosta-hetagurova",
     "name": {
       "ru": "Парк им. Коста Хетагурова",
       "en": "Kosta Khetagurov Park"
@@ -1371,7 +1371,7 @@
   },
   {
     "id": "poi-030",
-    "slug": "national-museum-of-north-ossetia-alania",
+    "slug": "natsionalnyy-muzey-rso-alaniya",
     "name": {
       "ru": "Национальный музей РСО-Алания",
       "en": "National Museum of North Ossetia-Alania"
@@ -1426,7 +1426,7 @@
   },
   {
     "id": "poi-031",
-    "slug": "tuganov-art-museum",
+    "slug": "hudozhestvennyy-muzey-im-tuganova",
     "name": {
       "ru": "Художественный музей им. Туганова",
       "en": "Tuganov Art Museum"
@@ -1481,7 +1481,7 @@
   },
   {
     "id": "poi-032",
-    "slug": "vakhtangov-russian-theatre",
+    "slug": "russkiy-teatr-im-vahtangova",
     "name": {
       "ru": "Русский театр им. Вахтангова",
       "en": "Vakhtangov Russian Theatre"
@@ -1536,7 +1536,7 @@
   },
   {
     "id": "poi-040",
-    "slug": "kadargavan-canyon",
+    "slug": "kadargavanskiy-kanon",
     "name": {
       "ru": "Кадаргаванский каньон",
       "en": "Kadargavan Canyon"
@@ -1581,7 +1581,7 @@
   },
   {
     "id": "poi-041",
-    "slug": "dzivgis-cliff-fortress",
+    "slug": "dzivgisskaya-naskalnaya-krepost",
     "name": {
       "ru": "Дзивгисская наскальная крепость",
       "en": "Dzivgis Rock Fortress"
@@ -1629,7 +1629,7 @@
   },
   {
     "id": "poi-042",
-    "slug": "biragzang-thermal-springs",
+    "slug": "termalnye-istochniki-biragzang",
     "name": {
       "ru": "Термальные источники Бирагзанг",
       "en": "Biragzang Thermal Springs"
@@ -1683,7 +1683,7 @@
   },
   {
     "id": "poi-045",
-    "slug": "alanian-dormition-monastery-(khidikus)",
+    "slug": "alanskiy-uspenskiy-monastyr-hidikus",
     "name": {
       "ru": "Аланский Успенский монастырь (Хидикус)",
       "en": "Alanian Dormition Monastery (Khidikus)"
@@ -1728,7 +1728,7 @@
   },
   {
     "id": "poi-047",
-    "slug": "digora-gorge-(digorskoe-ushchelye)",
+    "slug": "digorskoe-uschele",
     "name": {
       "ru": "Дигорское ущелье",
       "en": "Digora Gorge (Digorskoe Ushchelye)"
@@ -1773,7 +1773,7 @@
   },
   {
     "id": "poi-048",
-    "slug": "three-sisters-waterfalls-(taimazi)",
+    "slug": "vodopady-tri-sestry-taymazi",
     "name": {
       "ru": "Водопады Три сестры (Таймази)",
       "en": "Three Sisters Waterfalls (Taimazi)"
@@ -1818,7 +1818,7 @@
   },
   {
     "id": "poi-049",
-    "slug": "lisri-village",
+    "slug": "lisri",
     "name": {
       "ru": "Лисри",
       "en": "Lisri Village"
@@ -1908,7 +1908,7 @@
   },
   {
     "id": "poi-051",
-    "slug": "verkhny-fiagdon",
+    "slug": "verhniy-fiagdon",
     "name": {
       "ru": "Верхний Фиагдон",
       "en": "Verkhny Fiagdon"
@@ -1953,7 +1953,7 @@
   },
   {
     "id": "poi-053",
-    "slug": "tsamad-village",
+    "slug": "tsamad",
     "name": {
       "ru": "Цамад",
       "en": "Tsamad Village"
@@ -1998,7 +1998,7 @@
   },
   {
     "id": "poi-054",
-    "slug": "zadalesky-nana-museum",
+    "slug": "muzey-zadaleski-nana",
     "name": {
       "ru": "Музей «Задалески Нана»",
       "en": "Zadalesky Nana Museum"
@@ -2043,7 +2043,7 @@
   },
   {
     "id": "poi-055",
-    "slug": "kasarskoe-gorge",
+    "slug": "kasarskoe-uschele",
     "name": {
       "ru": "Касарское ущелье",
       "en": "Kasarskoe Gorge"
@@ -2086,7 +2086,7 @@
   },
   {
     "id": "poi-056",
-    "slug": "love-bench-(arkhon-pass-viewpoint)",
+    "slug": "lavochka-lyubvi-arhonskiy-pereval",
     "name": {
       "ru": "Лавочка любви (Архонский перевал)",
       "en": "Love Bench (Arkhon Pass Viewpoint)"
@@ -2131,7 +2131,7 @@
   },
   {
     "id": "poi-059",
-    "slug": "karmadon-hot-pools",
+    "slug": "karmadonskie-termalnye-vanny",
     "name": {
       "ru": "Кармадонские термальные ванны",
       "en": "Karmadon Hot Pools"
@@ -2237,7 +2237,7 @@
   },
   {
     "id": "poi-071",
-    "slug": "fydzhynta",
+    "slug": "fyddzhyntae",
     "name": {
       "ru": "Фыдджынтæ",
       "en": "Fydzhynta"
@@ -2297,7 +2297,7 @@
   },
   {
     "id": "poi-072",
-    "slug": "manandgal",
+    "slug": "man-gal",
     "name": {
       "ru": "Man&Гал",
       "en": "Man&Gal"
@@ -2358,7 +2358,7 @@
   },
   {
     "id": "poi-073",
-    "slug": "stary-most-(old-bridge)",
+    "slug": "staryy-most",
     "name": {
       "ru": "Старый мостъ",
       "en": "Stary Most (Old Bridge)"
@@ -2419,7 +2419,7 @@
   },
   {
     "id": "poi-074",
-    "slug": "modern-chef",
+    "slug": "modern-shef",
     "name": {
       "ru": "Модерн Шеф",
       "en": "Modern Chef"
@@ -2541,7 +2541,7 @@
   },
   {
     "id": "poi-076",
-    "slug": "koyroi",
+    "slug": "kuyroy",
     "name": {
       "ru": "Куырой",
       "en": "Koyroi"
@@ -2665,7 +2665,7 @@
   },
   {
     "id": "poi-078",
-    "slug": "lookoom-chaikhana",
+    "slug": "lookoom-chayhana",
     "name": {
       "ru": "Lookoom Чайхана",
       "en": "Lookoom Chaikhana"
@@ -2788,7 +2788,7 @@
   },
   {
     "id": "poi-080",
-    "slug": "zhar-ptitsa-(firebird)",
+    "slug": "zhar-ptitsa",
     "name": {
       "ru": "Жар-птица",
       "en": "Zhar-Ptitsa (Firebird)"
@@ -2849,7 +2849,7 @@
   },
   {
     "id": "poi-081",
-    "slug": "ossetian-brewery",
+    "slug": "osetinskaya-pivovarnya",
     "name": {
       "ru": "Осетинская пивоварня",
       "en": "Ossetian Brewery"
@@ -2910,7 +2910,7 @@
   },
   {
     "id": "poi-082",
-    "slug": "limoncello",
+    "slug": "limonchello",
     "name": {
       "ru": "Лимончелло",
       "en": "Limoncello"
@@ -3094,7 +3094,7 @@
   },
   {
     "id": "poi-085",
-    "slug": "bavaria",
+    "slug": "bavariya",
     "name": {
       "ru": "Бавария",
       "en": "Bavaria"
@@ -3216,7 +3216,7 @@
   },
   {
     "id": "poi-087",
-    "slug": "zhemchuzhina-(pearl)",
+    "slug": "zhemchuzhina",
     "name": {
       "ru": "Жемчужина",
       "en": "Zhemchuzhina (Pearl)"
@@ -3277,7 +3277,7 @@
   },
   {
     "id": "poi-088",
-    "slug": "tri-piroga-(three-pies)",
+    "slug": "tri-piroga",
     "name": {
       "ru": "Три пирога",
       "en": "Tri Piroga (Three Pies)"
@@ -3338,7 +3338,7 @@
   },
   {
     "id": "poi-089",
-    "slug": "shaurmanya",
+    "slug": "shaurmaniya",
     "name": {
       "ru": "Шаурмания",
       "en": "Shaurmanya"
@@ -3637,7 +3637,7 @@
   },
   {
     "id": "poi-094",
-    "slug": "vertel-(grill-house)",
+    "slug": "vertel-grill-house",
     "name": {
       "ru": "Вертел (Grill House)",
       "en": "Vertel (Grill House)"
@@ -3699,7 +3699,7 @@
   },
   {
     "id": "poi-095",
-    "slug": "pravy-bereg-(right-bank)",
+    "slug": "pravyy-bereg",
     "name": {
       "ru": "Правый берег",
       "en": "Pravy Bereg (Right Bank)"
@@ -3821,7 +3821,7 @@
   },
   {
     "id": "poi-097",
-    "slug": "roots-hotel-restaurant",
+    "slug": "roots-restoran-pri-otele",
     "name": {
       "ru": "ROOTS (ресторан при отеле)",
       "en": "ROOTS Hotel Restaurant"
@@ -3944,7 +3944,7 @@
   },
   {
     "id": "poi-099",
-    "slug": "roza-vetrov-(wind-rose)",
+    "slug": "roza-vetrov",
     "name": {
       "ru": "Роза ветров",
       "en": "Roza Vetrov (Wind Rose)"
@@ -4000,7 +4000,7 @@
   },
   {
     "id": "poi-100",
-    "slug": "imperial-hotel",
+    "slug": "otel-imperial",
     "name": {
       "ru": "Отель «Империал»",
       "en": "Imperial Hotel"
@@ -4055,7 +4055,7 @@
   },
   {
     "id": "poi-101",
-    "slug": "hotel-vladikavkaz",
+    "slug": "gostinitsa-vladikavkaz",
     "name": {
       "ru": "Гостиница «Владикавказ»",
       "en": "Hotel Vladikavkaz"
@@ -4109,7 +4109,7 @@
   },
   {
     "id": "poi-102",
-    "slug": "aleksandrovsky-grand-hotel",
+    "slug": "grand-otel-aleksandrovskiy",
     "name": {
       "ru": "Гранд-отель «Александровский»",
       "en": "Aleksandrovsky Grand Hotel"
@@ -4170,7 +4170,7 @@
   },
   {
     "id": "poi-103",
-    "slug": "intourist-ossetia",
+    "slug": "inturist-osetiya",
     "name": {
       "ru": "Интурист-Осетия",
       "en": "Intourist Ossetia"
@@ -4226,7 +4226,7 @@
   },
   {
     "id": "poi-104",
-    "slug": "hotel-kavkaz-planeta-lux",
+    "slug": "gostinitsa-planeta-lyuks-byvsh-kavkaz",
     "name": {
       "ru": "Гостиница «Планета Люкс» (бывш. «Кавказ»)",
       "en": "Hotel Planeta Lux (former Kavkaz)"
@@ -4279,7 +4279,7 @@
   },
   {
     "id": "poi-105",
-    "slug": "amran-hotel",
+    "slug": "otel-amran",
     "name": {
       "ru": "Отель «Амран»",
       "en": "Amran Hotel"
@@ -4339,7 +4339,7 @@
   },
   {
     "id": "poi-106",
-    "slug": "hohland-hostel",
+    "slug": "hostel-hohlaend",
     "name": {
       "ru": "Хостел HohlÆnd",
       "en": "HohlAend Hostel"
@@ -4400,7 +4400,7 @@
   },
   {
     "id": "poi-107",
-    "slug": "guesthouse-1950-tsey",
+    "slug": "gostevoy-dom-1950-v-tsee",
     "name": {
       "ru": "Гостевой дом «1950» в Цее",
       "en": "Guesthouse 1950 in Tsey"
@@ -4461,7 +4461,7 @@
   },
   {
     "id": "poi-108",
-    "slug": "gorny-rodnik-fiagdon",
+    "slug": "gostevoy-dom-gornyy-rodnik-v-fiagdone",
     "name": {
       "ru": "Гостевой дом «Горный Родник» в Фиагдоне",
       "en": "Gorny Rodnik Guesthouse in Fiagdon"
@@ -4577,7 +4577,7 @@
   },
   {
     "id": "poi-110",
-    "slug": "irbis-ecopark-dargavs",
+    "slug": "eko-park-irbis-v-dargavse",
     "name": {
       "ru": "Эко-парк «Ирбис» в Даргавсе",
       "en": "Irbis Eco-Park in Dargavs"
@@ -4699,7 +4699,7 @@
   },
   {
     "id": "poi-112",
-    "slug": "alansky-monastery-guesthouse",
+    "slug": "palomnicheskaya-gostinitsa-alanskogo-monastyrya",
     "name": {
       "ru": "Паломническая гостиница Аланского монастыря",
       "en": "Alansky Monastery Pilgrim Guesthouse"
@@ -4758,7 +4758,7 @@
   },
   {
     "id": "poi-113",
-    "slug": "central-market-vladikavkaz",
+    "slug": "tsentralnyy-rynok",
     "name": {
       "ru": "Центральный рынок",
       "en": "Central Market"
@@ -4818,7 +4818,7 @@
   },
   {
     "id": "poi-114",
-    "slug": "green-market-vladikavkaz",
+    "slug": "zelyonyy-rynok",
     "name": {
       "ru": "Зелёный рынок",
       "en": "Green Market"
@@ -4878,7 +4878,7 @@
   },
   {
     "id": "poi-115",
-    "slug": "stolitsa-mall",
+    "slug": "trts-stolitsa",
     "name": {
       "ru": "ТРЦ «Столица»",
       "en": "Stolitsa Mall"
@@ -4938,7 +4938,7 @@
   },
   {
     "id": "poi-116",
-    "slug": "alania-mall",
+    "slug": "alaniya-moll",
     "name": {
       "ru": "Алания Молл",
       "en": "Alania Mall"
@@ -4998,7 +4998,7 @@
   },
   {
     "id": "poi-117",
-    "slug": "alania-souvenirs",
+    "slug": "suvenirnaya-lavka-alaniya",
     "name": {
       "ru": "Сувенирная лавка «Алания»",
       "en": "Alania Souvenirs"
@@ -5059,7 +5059,7 @@
   },
   {
     "id": "poi-118",
-    "slug": "ossetian-cheese-shop",
+    "slug": "magazin-osetinskih-syrov",
     "name": {
       "ru": "Магазин осетинских сыров",
       "en": "Ossetian Cheese Shop"
@@ -5118,7 +5118,7 @@
   },
   {
     "id": "poi-119",
-    "slug": "mountain-honey-shop",
+    "slug": "magazin-gornogo-myoda",
     "name": {
       "ru": "Магазин горного мёда",
       "en": "Mountain Honey Shop"
@@ -5179,7 +5179,7 @@
   },
   {
     "id": "poi-120",
-    "slug": "privoz-market",
+    "slug": "rynok-privoz",
     "name": {
       "ru": "Рынок «Привоз»",
       "en": "Privoz Market"
@@ -5239,7 +5239,7 @@
   },
   {
     "id": "poi-121",
-    "slug": "coco-jumbo-karaoke",
+    "slug": "coco-jumbo-karaoke-bar",
     "name": {
       "ru": "Coco Jumbo караоке-бар",
       "en": "Coco Jumbo Karaoke Bar"
@@ -5300,7 +5300,7 @@
   },
   {
     "id": "poi-122",
-    "slug": "escobar-club",
+    "slug": "eskobar",
     "name": {
       "ru": "Эскобар",
       "en": "Escobar Club"
@@ -5360,7 +5360,7 @@
   },
   {
     "id": "poi-123",
-    "slug": "green-rose-club",
+    "slug": "green-rose-karaoke-klub",
     "name": {
       "ru": "Green Rose караоке-клуб",
       "en": "Green Rose Karaoke Club"
@@ -5419,7 +5419,7 @@
   },
   {
     "id": "poi-124",
-    "slug": "gitara-karaoke",
+    "slug": "gitara-karaoke-kofeynya",
     "name": {
       "ru": "«Гитара» караоке-кофейня",
       "en": "Gitara Karaoke Cafe"
@@ -5594,7 +5594,7 @@
   },
   {
     "id": "poi-127",
-    "slug": "terek-rafting",
+    "slug": "rafting-na-tereke",
     "name": {
       "ru": "Рафтинг на Тереке",
       "en": "Terek River Rafting"
@@ -5655,7 +5655,7 @@
   },
   {
     "id": "poi-128",
-    "slug": "paragliding-vladikavkaz",
+    "slug": "paraglayding-nad-gorami-osetii",
     "name": {
       "ru": "Параглайдинг над горами Осетии",
       "en": "Paragliding over Ossetian Mountains"
@@ -5716,7 +5716,7 @@
   },
   {
     "id": "poi-129",
-    "slug": "horse-riding-dargavs",
+    "slug": "konnye-progulki-po-goram-osetii",
     "name": {
       "ru": "Конные прогулки по горам Осетии",
       "en": "Horse Riding Tours in Ossetian Mountains"
@@ -5776,7 +5776,7 @@
   },
   {
     "id": "poi-130",
-    "slug": "tsey-ski-resort",
+    "slug": "gornolyzhnyy-kurort-tsey",
     "name": {
       "ru": "Горнолыжный курорт «Цей»",
       "en": "Tsey Ski Resort"
@@ -5837,7 +5837,7 @@
   },
   {
     "id": "poi-131",
-    "slug": "rope-park-vladikavkaz",
+    "slug": "veryovochnyy-park",
     "name": {
       "ru": "Верёвочный парк",
       "en": "Rope Adventure Park"
@@ -5896,7 +5896,7 @@
   },
   {
     "id": "poi-132",
-    "slug": "rockstar-climbing",
+    "slug": "skalodrom-rockstar",
     "name": {
       "ru": "Скалодром RockStar",
       "en": "RockStar Climbing Wall"
@@ -5956,7 +5956,7 @@
   },
   {
     "id": "poi-133",
-    "slug": "bike-rental-vladikavkaz",
+    "slug": "veloprokat-na-naberezhnoy",
     "name": {
       "ru": "Велопрокат на набережной",
       "en": "Bike Rental on the Embankment"
@@ -6015,7 +6015,7 @@
   },
   {
     "id": "poi-134",
-    "slug": "midagrabin-canyoning",
+    "slug": "kanoning-midagrabin",
     "name": {
       "ru": "Каньонинг Мидаграбин",
       "en": "Midagrabin Canyoning"
@@ -6066,7 +6066,7 @@
   },
   {
     "id": "poi-135",
-    "slug": "vladikavkaz-railway-station",
+    "slug": "zheleznodorozhnyy-vokzal-vladikavkaz",
     "name": {
       "ru": "Железнодорожный вокзал Владикавказ",
       "en": "Vladikavkaz Railway Station"
@@ -6125,7 +6125,7 @@
   },
   {
     "id": "poi-136",
-    "slug": "vladikavkaz-bus-station",
+    "slug": "avtovokzal-vladikavkaz",
     "name": {
       "ru": "Автовокзал Владикавказ",
       "en": "Vladikavkaz Bus Station"
@@ -6184,7 +6184,7 @@
   },
   {
     "id": "poi-137",
-    "slug": "beslan-airport-ogz",
+    "slug": "aeroport-beslan-ogz",
     "name": {
       "ru": "Аэропорт Беслан (OGZ)",
       "en": "Beslan Airport (OGZ)"
@@ -6244,7 +6244,7 @@
   },
   {
     "id": "poi-138",
-    "slug": "post-office-vladikavkaz",
+    "slug": "pochta-rossii-tsentralnoe-otdelenie",
     "name": {
       "ru": "Почта России (центральное отделение)",
       "en": "Russian Post (Central Office)"
@@ -6302,7 +6302,7 @@
   },
   {
     "id": "poi-139",
-    "slug": "sberbank-central-vladikavkaz",
+    "slug": "sberbank-tsentralnyy",
     "name": {
       "ru": "Сбербанк (центральный)",
       "en": "Sberbank (Central Branch)"
@@ -6360,7 +6360,7 @@
   },
   {
     "id": "poi-140",
-    "slug": "tinkoff-atm-vladikavkaz",
+    "slug": "bankomat-tinkoff",
     "name": {
       "ru": "Банкомат Тинькофф",
       "en": "Tinkoff ATM"
@@ -6420,7 +6420,7 @@
   },
   {
     "id": "poi-141",
-    "slug": "kavkaz-travel-center",
+    "slug": "tsentr-puteshestviy-kavkaz",
     "name": {
       "ru": "Центр путешествий «Кавказ»",
       "en": "Kavkaz Travel Center"
@@ -6478,7 +6478,7 @@
   },
   {
     "id": "poi-142",
-    "slug": "toprent-car-rental",
+    "slug": "toprent-prokat-avto",
     "name": {
       "ru": "TopRent прокат авто",
       "en": "TopRent Car Rental"
