@@ -2,53 +2,75 @@
 title: SEO — section index
 type: overview
 audience: seo, content, brobrogid-site-agent
-owner: TBD (SEO agent)
+owner: archimag (taskwriter), to be filled by SEO agent
 last_updated: 2026-04-07
-stub: true
 ---
 
 # 07_seo — SEO стратегия
 
-> Эта секция **для SEO агентов и нового агента**. Archimag создал структуру и ключевой `launch_procedure.md` — остальное заполняется теми кто ведёт SEO работу.
+## Статус заполнения
 
-## Заполнено
+| Файл | Статус | Кто заполняет |
+|---|---|---|
+| `README.md` | ✅ ты здесь | archimag |
+| `TASKS.md` | ✅ готов | archimag (master task list) |
+| `launch_procedure.md` | ✅ готов | archimag |
+| `keyword_research.md` | 🔴 stub (priority 1) | SEO agent |
+| `url_structure.md` | 🔴 stub (priority 2) | SEO agent |
+| `meta_strategy.md` | 🟡 stub (priority 3) | SEO agent |
+| `json_ld_strategy.md` | 🟡 stub (priority 4) | SEO agent |
+| `sitemap.md` | 🟢 stub (priority 5) | SEO agent |
+| `robots_and_noindex.md` | 🟢 stub (priority 6) | SEO agent |
+| `sensitive_topics.md` | 🟢 stub (priority 7) | SEO agent |
 
-- **`launch_procedure.md`** — runbook открытия индексации. Готов.
+## Для SEO агента
 
-## Stubs (требуют заполнения)
+**Стартовая точка:** прочитай `TASKS.md` — там полный план работ с приоритетами, источниками данных, deliverables и правилами.
 
-- `keyword_research.md` — **stub** — 14 312 ключей, 13 кластеров, топ-приоритеты. Источник: `/home/cosmo/SOFT/COSMO/BROMARKET/data/`
-- `url_structure.md` — **stub** — почему выбрана структура `/ossetia/{category}/{slug}/`, rationale для разделения транспорта vs мест vs туров
-- `meta_strategy.md` — **stub** — title формулы, description templates, OG теги, Twitter cards
-- `json_ld_strategy.md` — **stub** — какие schema.org типы на каких страницах, как обрабатывать AggregateRating для is_generated reviews
-- `sitemap.md` — **stub** — генерация, обновление, что попадает, что нет
-- `robots_and_noindex.md` — **stub** — defense-in-depth стратегия (nginx + Astro + file)
-- `sensitive_topics.md` — **stub** — Бодров/Кармадон, Беслан, древние аланы, осетинский язык. Было в `BRIEFING_sprint3.md`, нужно вынести сюда как постоянный reference
+Каждый stub файл содержит свою задачу с конкретной структурой документа который нужно написать. Нельзя ошибиться — всё разжёвано.
 
-## Context для агента который это будет заполнять
+**Порядок работы:**
+1. Прочти `TASKS.md`
+2. Прочти `docs/project/CONTRIBUTING.md` (правила формата)
+3. Прочти `docs/project/00_overview/{README,architecture}.md` (контекст)
+4. Бери задачи в порядке приоритета (1 → 7)
+5. После каждого файла — обнови `TASKS.md` (отметь как done) + этот README
 
-**Уже сделано:**
-- Собрано 14 312 ключей по Wordstat в `/home/cosmo/SOFT/COSMO/BROMARKET/data/`
-- 13 кластеров: история_культура (580K суммарной частотности — но много мусора про актёров/ведущих "алан"), места (430K), другое (357K), еда_кухня (121K), транспорт (56K), ущелья_природа (55K), отдых_проживание (23K), туры (14K), погода_когда (13K), достопримечательности (3.8K), маршруты (3.3K), карты_навигация (2.9K), фото_видео (1.4K)
-- Очищена "Алания Турция" — 268 ключей / 31K фейковой частотности удалены
-- Sprint 1: 7 landing pages под топ конверсионные запросы
-- Sprint 2-3: хабы городов, категории, туры, блог
-- Sprint 6: русские slugs (критично для Yandex, важно для Google)
+## Готовые материалы
 
-**Что решено:**
-- Приоритет: русскоязычная аудитория (Москва, СПб → Владикавказ)
-- Вторичная: московские пирожковые (15-20K кластер, воронка в туризм)
-- Оба сайта под noindex до завершения контента
+Эти 3 файла уже написаны и можно использовать как reference:
 
-**Open questions (для будущего SEO агента):**
-- Нужна ли английская версия (hreflang)? Сейчас решили нет.
-- Когда добавлять Кабардино-Балкарию, Дагестан? После стабилизации осетинской части.
-- Структурирование блога: категории vs теги vs хронология?
-- Стратегия внутренней перелинковки между спринтами
+### `TASKS.md`
+
+Master task list. Источники данных, приоритеты, deliverables, координация с archimag.
+
+### `launch_procedure.md`
+
+Полный runbook открытия индексации. Описаны все 4 уровня noindex защиты, как снимать атомарно, что делать после, как rollback.
+
+**КРИТИЧНО:** не запускать до сигнала пользователя. Сейчас сайт под noindex.
+
+## Что НЕ должен делать SEO агент
+
+- ❌ Открывать индексацию (это решение пользователя + отдельная процедура)
+- ❌ Менять URL структуру (Sprint 6 завершён, slugs русские)
+- ❌ Предлагать архитектурные изменения (Pool 4 и т.д. — отдельная зона)
+- ❌ Дублировать контент между файлами
+- ❌ Выдумывать числа (запускай curl + Python для реальных)
+- ❌ Удалять stubs других файлов (только своих)
+
+## Координация с archimag
+
+Если нужно:
+- Данные из БД → запросить через пользователя
+- Конфиги nginx → запросить
+- Текущие HTML страницы → curl сам, но если нужен SSH доступ → запросить
+- Брифинги спринтов → читай в `/home/cosmo/SOFT/COSMO/BROMARKET/BRIEFING_*.md`
 
 ## Related
 
-- `../03_content_site/seo.md` — техническая реализация в Astro
-- `../04_pwa_app/seo.md` — SEO для PWA (минимальная важность)
-- `launch_procedure.md` — открытие индексации (готов)
-- `/home/cosmo/SOFT/COSMO/BROMARKET/ossetia-structure.md` — целевая структура (source of truth для URL)
+- `../00_overview/architecture.md` — общая архитектура
+- `../03_content_site/seo.md` (stub новым агентом) — техническая реализация SEO в Astro
+- `../06_security/README.md` — security overlapping concerns
+- `/home/cosmo/SOFT/COSMO/BROMARKET/SEO/SEO_AUDIT_brobrogid.md` — внешний аудит
+- `/home/cosmo/SOFT/COSMO/BROMARKET/ossetia-structure.md` — целевая структура

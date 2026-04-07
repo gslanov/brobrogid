@@ -91,11 +91,11 @@ add_header X-Robots-Tag "noindex, nofollow" always;
 <meta name="yandex" content="noindex, nofollow" />
 ```
 
-Контролируется константой `SITE_UNDER_CONSTRUCTION = true` в `src/lib/site.ts`.
+Контролируется константой `SITE_UNDER_CONSTRUCTION = true` в `src/data/site.ts`.
 
 ### 4. `SITE_UNDER_CONSTRUCTION` константа
 
-В `src/lib/site.ts` нового агента:
+В `src/data/site.ts` нового агента:
 
 ```typescript
 export const SITE_UNDER_CONSTRUCTION = true
@@ -151,7 +151,7 @@ curl -sk https://brobrogid.ru/sitemap-0.xml | \
 ```
 Открываем индексацию. Выполни атомарно:
 
-1. Отредактируй src/lib/site.ts:
+1. Отредактируй src/data/site.ts:
    - SITE_UNDER_CONSTRUCTION = false
 
 2. Проверь что BaseLayout.astro больше НЕ эмитит meta noindex tags
