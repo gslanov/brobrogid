@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "prerender": "tsx scripts/prerender.ts",
-    "sitemap": "tsx scripts/generate-sitemap.ts",
+    "sitemap": "node scripts/generate-sitemap.mjs",
     "images": "tsx scripts/optimize-images.ts",
     "build:seo": "npm run build && npm run prerender && npm run sitemap"
   },

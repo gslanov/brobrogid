@@ -345,18 +345,20 @@ export default function ExplorePage() {
   return (
     <div className="pb-4">
       <SEO
-        title={t('app.name') + ' — ' + t('app.tagline')}
-        description="Путеводитель по Владикавказу и Северной Осетии. Достопримечательности, рестораны, туры, карта."
-        url="/"
+        title="BROBROGID — Гид по Владикавказу и Северной Осетии: туры, рестораны, ущелья"
+        description="Путеводитель по Владикавказу и Северной Осетии: что посмотреть, ущелья и горы, туры и гиды, где поесть и остановиться, как добраться."
+        canonical="/"
+        ogImage="/og/home.jpg"
+        ogType="website"
       />
       <JsonLd data={{
         '@type': 'WebSite',
         name: 'BROBROGID',
-        url: 'https://app.brobrogid.ru',
+        url: 'https://brobrogid.ru',
         description: 'Путеводитель по Владикавказу и Северной Осетии',
         potentialAction: {
           '@type': 'SearchAction',
-          target: 'https://app.brobrogid.ru/search?q={search_term_string}',
+          target: 'https://brobrogid.ru/search?q={search_term_string}',
           'query-input': 'required name=search_term_string'
         }
       }} />

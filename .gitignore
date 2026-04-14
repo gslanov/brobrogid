@@ -18,6 +18,8 @@ dist-ssr
 # Agent directories
 .agent/
 .claude/
+CLAUDE.md
+error.md
 
 # Editor directories and files
 .vscode/*

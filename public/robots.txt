@@ -1,6 +1,20 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /admin/
+Disallow: /cart
+Disallow: /profile
+Disallow: /onboarding
+Disallow: /search
+Disallow: /*?*
+Allow: /search?category=
+Sitemap: https://brobrogid.ru/sitemap.xml
 
-# TEMPORARILY CLOSED FROM INDEXING
-# Site is under reconstruction — URL structure and content are being rebuilt.
-# Will be reopened after migration completes.
+User-agent: Yandex
+Allow: /
+Disallow: /admin/
+Disallow: /cart
+Disallow: /profile
+Disallow: /onboarding
+Disallow: /search
+Clean-param: utm_source&utm_medium&utm_campaign
+Host: brobrogid.ru

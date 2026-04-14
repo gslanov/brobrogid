@@ -9,7 +9,10 @@ SSH_KEY="/home/cosmo/.ssh/id_ed25519_selectel"
 REMOTE_DIR="/var/www/brobrogid"
 SSH="ssh -i $SSH_KEY root@$SERVER"
 
-echo "=== 1. Building project (with SEO prerender) ==="
+echo "=== 1a. Generating sitemap (before build, writes to public/) ==="
+npm run sitemap
+
+echo "=== 1b. Building project (with SEO prerender) ==="
 npm run build:seo
 
 echo ""
