@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import { Save, X } from 'lucide-react'
+import { Save, X, Eye, EyeOff } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { useAdminData } from '../hooks/useAdminData'
 import { LocalizedInput } from '../components/LocalizedInput'
@@ -10,6 +10,8 @@ import { DatesEditor } from '../components/DatesEditor'
 import { LocationPicker } from '../components/LocationPicker'
 import { RouteEditor } from '../components/RouteEditor'
 import { PhotosManager } from '../components/PhotosManager'
+import PhoneFrame from '../components/PhoneFrame'
+import { TourDetailView } from '@/features/tours/components/TourDetailView'
 import type { Tour, TourType, TourStatus, Guide } from '@/data/types'
 
 function generateId(): string {
@@ -71,6 +73,17 @@ export default function AdminTourForm() {
   })
   const [isSaving, setIsSaving] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [previewVisible, setPreviewVisible] = useState(() => {
+    const stored = localStorage.getItem('admin-preview-visible')
+    return stored === null ? true : stored === 'true'
+  })
+
+  function togglePreview() {
+    setPreviewVisible((prev) => {
+      localStorage.setItem('admin-preview-visible', String(!prev))
+      return !prev
+    })
+  }
 
   const typeOptions = TYPE_OPTIONS.map((o) => ({ value: o.value, label: t(o.labelKey) }))
   const statusOptions = STATUS_OPTIONS.map((o) => ({ value: o.value, label: t(o.labelKey) }))
@@ -86,6 +99,8 @@ export default function AdminTourForm() {
     value: g.id,
     label: g.name.ru,
   }))
+
+  const selectedGuide = guides.find((g) => g.id === form.guideId)
 
   function set<K extends keyof Tour>(key: K, value: Tour[K]) {
     setForm((prev) => ({ ...prev, [key]: value }))
@@ -119,213 +134,225 @@ export default function AdminTourForm() {
   }
 
   return (
-    <div className="p-8 max-w-3xl mx-auto">
-      {/* Header */}
-      <div className="mb-6">
-        <h2 className="text-xl font-semibold text-gray-900">
-          {isEdit ? t('admin.tours.form.editTitle') : t('admin.tours.form.newTitle')}
-        </h2>
-        {isEdit && (
-          <p className="text-xs text-gray-400 mt-0.5 font-mono">{form.id}</p>
-        )}
-      </div>
-
-      <form onSubmit={handleSave} className="flex flex-col gap-6">
-
-        {/* ── Basic Info ─────────────────────────────────────── */}
-        <SectionTitle>{t('admin.tours.form.basicInfo')}</SectionTitle>
-
-        <LocalizedInput
-          label={t('admin.tours.form.name')}
-          value={form.name}
-          onChange={(v) => set('name', v)}
-          required
-          placeholder={t('admin.tours.form.namePlaceholder')}
-        />
-
-        <LocalizedTextarea
-          label={t('admin.tours.form.description')}
-          value={form.description}
-          onChange={(v) => set('description', v)}
-          placeholder={t('admin.tours.form.descPlaceholder')}
-          rows={4}
-        />
-
-        <div className="flex gap-4">
-          <div className="flex flex-col gap-1 flex-1">
-            <label className="text-sm font-medium text-gray-700">
-              {t('admin.tours.form.price')} <span className="text-red-500">*</span>
-            </label>
-            <input
-              type="number"
-              min={0}
-              step={1}
-              value={form.price}
-              onChange={(e) => set('price', Number(e.target.value))}
-              required
-              className="w-full rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
-            />
+    <div className="flex flex-row">
+      <div className="flex-1 min-w-0 overflow-y-auto p-8 max-w-3xl mx-auto">
+        <div className="mb-6 flex items-start justify-between">
+          <div>
+            <h2 className="text-xl font-semibold text-gray-900">
+              {isEdit ? t('admin.tours.form.editTitle') : t('admin.tours.form.newTitle')}
+            </h2>
+            {isEdit && (
+              <p className="text-xs text-gray-400 mt-0.5 font-mono">{form.id}</p>
+            )}
           </div>
-          <div className="flex flex-col gap-1 flex-1">
-            <label className="text-sm font-medium text-gray-700">{t('admin.tours.form.duration')}</label>
-            <input
-              type="text"
-              value={form.duration}
-              onChange={(e) => set('duration', e.target.value)}
-              placeholder="e.g. 3 hours"
-              className="w-full rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
-            />
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-1">
-          <label className="text-sm font-medium text-gray-700">{t('admin.tours.form.category')}</label>
-          <input
-            type="text"
-            value={form.category}
-            onChange={(e) => set('category', e.target.value)}
-            placeholder="e.g. History, Nature, Gastro"
-            className="w-full rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
-          />
-        </div>
-
-        <div className="grid grid-cols-2 gap-4">
-          <SelectField
-            label={t('admin.tours.form.type')}
-            value={form.type}
-            onChange={(v) => set('type', v as TourType)}
-            options={typeOptions}
-            required
-          />
-          <SelectField
-            label={t('admin.tours.form.status')}
-            value={form.status}
-            onChange={(v) => set('status', v as TourStatus)}
-            options={statusOptions}
-            required
-          />
-        </div>
-
-        {/* ── Guide & Schedule ───────────────────────────────── */}
-        <SectionTitle>{t('admin.tours.form.guideSchedule')}</SectionTitle>
-
-        <SelectField
-          label={t('admin.tours.form.guide')}
-          value={form.guideId}
-          onChange={(v) => set('guideId', v)}
-          options={guideOptions}
-          required
-          placeholder={t('admin.tours.form.guidePlaceholder')}
-        />
-
-        <div className="grid grid-cols-2 gap-4">
-          <div className="flex flex-col gap-1">
-            <label className="text-sm font-medium text-gray-700">{t('admin.tours.form.maxGroupSize')}</label>
-            <input
-              type="number"
-              min={1}
-              value={form.maxGroupSize}
-              onChange={(e) => set('maxGroupSize', Number(e.target.value))}
-              className="w-full rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
-            />
-          </div>
-          <div className="flex flex-col gap-1">
-            <label className="text-sm font-medium text-gray-700">{t('admin.tours.form.currentGroupSize')}</label>
-            <input
-              type="number"
-              min={0}
-              value={form.currentGroupSize}
-              onChange={(e) => set('currentGroupSize', Number(e.target.value))}
-              className="w-full rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
-            />
-          </div>
-        </div>
-
-        <DatesEditor
-          label={t('admin.tours.form.dates')}
-          value={form.dates}
-          onChange={(v) => set('dates', v)}
-        />
-
-        {/* ── Route ─────────────────────────────────────────── */}
-        <SectionTitle>{t('admin.tours.form.route')}</SectionTitle>
-
-        <LocationPicker
-          label={t('admin.tours.form.meetingPoint')}
-          value={form.meetingPoint}
-          onChange={(v) => set('meetingPoint', v)}
-        />
-
-        <RouteEditor
-          label={t('admin.tours.form.routeCoords')}
-          value={form.route}
-          onChange={(v) => set('route', v)}
-        />
-
-        {/* ── Media ─────────────────────────────────────────── */}
-        <SectionTitle>{t('admin.tours.form.media')}</SectionTitle>
-
-        <PhotosManager
-          label={t('admin.tours.form.photos')}
-          value={form.photos}
-          onChange={(v) => set('photos', v)}
-        />
-
-        {/* ── Stats ─────────────────────────────────────────── */}
-        <SectionTitle>{t('admin.tours.form.stats')}</SectionTitle>
-
-        <div className="grid grid-cols-2 gap-4">
-          <div className="flex flex-col gap-1">
-            <label className="text-sm font-medium text-gray-700">{t('admin.tours.form.rating')}</label>
-            <input
-              type="number"
-              min={0}
-              max={5}
-              step={0.1}
-              value={form.rating}
-              onChange={(e) => set('rating', Number(e.target.value))}
-              className="w-full rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
-            />
-          </div>
-          <div className="flex flex-col gap-1">
-            <label className="text-sm font-medium text-gray-700">{t('admin.tours.form.reviewCount')}</label>
-            <input
-              type="number"
-              min={0}
-              value={form.reviewCount}
-              onChange={(e) => set('reviewCount', Number(e.target.value))}
-              className="w-full rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
-            />
-          </div>
-        </div>
-
-        {/* Error */}
-        {error && (
-          <p className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-4 py-2">
-            {error}
-          </p>
-        )}
-
-        {/* Actions */}
-        <div className="flex items-center gap-3 pt-2">
-          <button
-            type="submit"
-            disabled={isSaving}
-            className="inline-flex items-center gap-2 px-5 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 active:bg-blue-800 disabled:opacity-50 transition-colors"
-          >
-            <Save size={15} />
-            {isSaving ? 'Saving…' : t('admin.common.save')}
-          </button>
           <button
             type="button"
-            onClick={() => navigate('/admin/tours')}
-            className="inline-flex items-center gap-2 px-5 py-2 rounded-lg border border-gray-300 bg-white text-gray-700 text-sm font-medium hover:bg-gray-50 transition-colors"
+            onClick={togglePreview}
+            className="hidden min-[1200px]:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-gray-300 bg-white text-gray-600 text-sm font-medium hover:bg-gray-50 transition-colors"
           >
-            <X size={15} />
-            {t('admin.common.cancel')}
+            {previewVisible ? <EyeOff size={15} /> : <Eye size={15} />}
+            {previewVisible ? t('admin.tours.form.hidePreview', 'Hide preview') : t('admin.tours.form.showPreview', 'Preview')}
           </button>
         </div>
-      </form>
+
+        <form onSubmit={handleSave} className="flex flex-col gap-6">
+
+          <SectionTitle>{t('admin.tours.form.basicInfo')}</SectionTitle>
+
+          <LocalizedInput
+            label={t('admin.tours.form.name')}
+            value={form.name}
+            onChange={(v) => set('name', v)}
+            required
+            placeholder={t('admin.tours.form.namePlaceholder')}
+          />
+
+          <LocalizedTextarea
+            label={t('admin.tours.form.description')}
+            value={form.description}
+            onChange={(v) => set('description', v)}
+            placeholder={t('admin.tours.form.descPlaceholder')}
+            rows={4}
+          />
+
+          <div className="flex gap-4">
+            <div className="flex flex-col gap-1 flex-1">
+              <label className="text-sm font-medium text-gray-700">
+                {t('admin.tours.form.price')} <span className="text-red-500">*</span>
+              </label>
+              <input
+                type="number"
+                min={0}
+                step={1}
+                value={form.price}
+                onChange={(e) => set('price', Number(e.target.value))}
+                required
+                className="w-full rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+              />
+            </div>
+            <div className="flex flex-col gap-1 flex-1">
+              <label className="text-sm font-medium text-gray-700">{t('admin.tours.form.duration')}</label>
+              <input
+                type="text"
+                value={form.duration}
+                onChange={(e) => set('duration', e.target.value)}
+                placeholder="e.g. 3 hours"
+                className="w-full rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-1">
+            <label className="text-sm font-medium text-gray-700">{t('admin.tours.form.category')}</label>
+            <input
+              type="text"
+              value={form.category}
+              onChange={(e) => set('category', e.target.value)}
+              placeholder="e.g. History, Nature, Gastro"
+              className="w-full rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+            />
+          </div>
+
+          <div className="grid grid-cols-2 gap-4">
+            <SelectField
+              label={t('admin.tours.form.type')}
+              value={form.type}
+              onChange={(v) => set('type', v as TourType)}
+              options={typeOptions}
+              required
+            />
+            <SelectField
+              label={t('admin.tours.form.status')}
+              value={form.status}
+              onChange={(v) => set('status', v as TourStatus)}
+              options={statusOptions}
+              required
+            />
+          </div>
+
+          <SectionTitle>{t('admin.tours.form.guideSchedule')}</SectionTitle>
+
+          <SelectField
+            label={t('admin.tours.form.guide')}
+            value={form.guideId}
+            onChange={(v) => set('guideId', v)}
+            options={guideOptions}
+            required
+            placeholder={t('admin.tours.form.guidePlaceholder')}
+          />
+
+          <div className="grid grid-cols-2 gap-4">
+            <div className="flex flex-col gap-1">
+              <label className="text-sm font-medium text-gray-700">{t('admin.tours.form.maxGroupSize')}</label>
+              <input
+                type="number"
+                min={1}
+                value={form.maxGroupSize}
+                onChange={(e) => set('maxGroupSize', Number(e.target.value))}
+                className="w-full rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+              />
+            </div>
+            <div className="flex flex-col gap-1">
+              <label className="text-sm font-medium text-gray-700">{t('admin.tours.form.currentGroupSize')}</label>
+              <input
+                type="number"
+                min={0}
+                value={form.currentGroupSize}
+                onChange={(e) => set('currentGroupSize', Number(e.target.value))}
+                className="w-full rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+              />
+            </div>
+          </div>
+
+          <DatesEditor
+            label={t('admin.tours.form.dates')}
+            value={form.dates}
+            onChange={(v) => set('dates', v)}
+          />
+
+          <SectionTitle>{t('admin.tours.form.route')}</SectionTitle>
+
+          <LocationPicker
+            label={t('admin.tours.form.meetingPoint')}
+            value={form.meetingPoint}
+            onChange={(v) => set('meetingPoint', v)}
+          />
+
+          <RouteEditor
+            label={t('admin.tours.form.routeCoords')}
+            value={form.route}
+            onChange={(v) => set('route', v)}
+          />
+
+          <SectionTitle>{t('admin.tours.form.media')}</SectionTitle>
+
+          <PhotosManager
+            label={t('admin.tours.form.photos')}
+            value={form.photos}
+            onChange={(v) => set('photos', v)}
+          />
+
+          <SectionTitle>{t('admin.tours.form.stats')}</SectionTitle>
+
+          <div className="grid grid-cols-2 gap-4">
+            <div className="flex flex-col gap-1">
+              <label className="text-sm font-medium text-gray-700">{t('admin.tours.form.rating')}</label>
+              <input
+                type="number"
+                min={0}
+                max={5}
+                step={0.1}
+                value={form.rating}
+                onChange={(e) => set('rating', Number(e.target.value))}
+                className="w-full rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+              />
+            </div>
+            <div className="flex flex-col gap-1">
+              <label className="text-sm font-medium text-gray-700">{t('admin.tours.form.reviewCount')}</label>
+              <input
+                type="number"
+                min={0}
+                value={form.reviewCount}
+                onChange={(e) => set('reviewCount', Number(e.target.value))}
+                className="w-full rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+              />
+            </div>
+          </div>
+
+          {error && (
+            <p className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-4 py-2">
+              {error}
+            </p>
+          )}
+
+          <div className="flex items-center gap-3 pt-2">
+            <button
+              type="submit"
+              disabled={isSaving}
+              className="inline-flex items-center gap-2 px-5 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 active:bg-blue-800 disabled:opacity-50 transition-colors"
+            >
+              <Save size={15} />
+              {isSaving ? 'Saving…' : t('admin.common.save')}
+            </button>
+            <button
+              type="button"
+              onClick={() => navigate('/admin/tours')}
+              className="inline-flex items-center gap-2 px-5 py-2 rounded-lg border border-gray-300 bg-white text-gray-700 text-sm font-medium hover:bg-gray-50 transition-colors"
+            >
+              <X size={15} />
+              {t('admin.common.cancel')}
+            </button>
+          </div>
+        </form>
+      </div>
+
+      {previewVisible && (
+        <div className="hidden min-[1200px]:flex sticky top-0 h-screen w-[420px] shrink-0 bg-gray-100 items-center justify-center p-6">
+          <PhoneFrame>
+            <TourDetailView tour={form} guide={selectedGuide} />
+          </PhoneFrame>
+        </div>
+      )}
     </div>
   )
 }
