@@ -51,7 +51,7 @@ export default function PhoneFrame({ children, className }: PhoneFrameProps) {
           <div className="shrink-0 bg-black relative">
             <StatusBar />
           </div>
-          <div className="flex-1 overflow-y-auto overflow-x-hidden">
+          <div className="flex-1 overflow-y-auto overflow-x-hidden" style={{ transform: 'translateZ(0)' }}>
             {children}
           </div>
           <div className="shrink-0 bg-white">

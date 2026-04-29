@@ -272,7 +272,7 @@ export function TourDetailView({ tour, guide, reviews = [], onBack, onGuideClick
         )}
       </div>
 
-      <div className="fixed bottom-[calc(var(--bottom-nav-height)+var(--safe-area-bottom))] left-0 right-0 z-30 px-4 py-3 bg-white/95 backdrop-blur-sm border-t border-[var(--color-border)]">
+      <div className="sticky bottom-0 left-0 right-0 z-30 px-4 py-3 bg-white/95 backdrop-blur-sm border-t border-[var(--color-border)]">
         <div className="flex items-center justify-between max-w-lg mx-auto">
           <div>
             <p className="text-xl font-bold">{formatPrice(tour.price)}</p>
