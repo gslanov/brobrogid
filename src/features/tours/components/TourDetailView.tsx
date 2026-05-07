@@ -203,7 +203,7 @@ export function TourDetailView({ tour, guide, reviews = [], onBack, onGuideClick
             <p className="text-sm text-[var(--color-text)]">{tour.meetingPoint.address[lang]}</p>
             {onBack && (
               <button
-                onClick={() => window.open(`https://yandex.ru/maps/?rtext=~${tour.meetingPoint.lat},${tour.meetingPoint.lng}&rtt=auto`)}
+                onClick={() => window.open(`https://www.google.com/maps/dir/?api=1&destination=${tour.meetingPoint.lat},${tour.meetingPoint.lng}`)}
                 className="mt-2 px-4 py-2 bg-[var(--color-primary)] text-white rounded-lg text-sm font-medium inline-flex items-center gap-1.5"
               >
                 <Navigation size={16} /> {t('poi.route')}

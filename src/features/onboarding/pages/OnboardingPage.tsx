@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
+import { Geolocation } from '@capacitor/geolocation'
 import type { POICategory } from '@/data/types'
 import { CATEGORY_ICONS } from '@/shared/lib/utils'
 import { Mountain as MountainIcon, MapPin } from 'lucide-react'
@@ -13,7 +14,6 @@ const INTEREST_OPTIONS: { key: POICategory; icon: LucideIcon }[] = [
   { key: 'nature', icon: CATEGORY_ICONS.nature },
   { key: 'culture', icon: CATEGORY_ICONS.culture },
   { key: 'activities', icon: CATEGORY_ICONS.activities },
-  { key: 'nightlife', icon: CATEGORY_ICONS.nightlife },
 ]
 
 export default function OnboardingPage() {
@@ -32,11 +32,14 @@ export default function OnboardingPage() {
     navigate('/', { replace: true })
   }
 
-  const requestLocation = () => {
-    navigator.geolocation?.getCurrentPosition(
-      () => complete(),
-      () => complete(),
-    )
+  const requestLocation = async () => {
+    try {
+      await Geolocation.requestPermissions()
+      await Geolocation.getCurrentPosition()
+    } catch (_) {
+      // permission denied or error — proceed anyway
+    }
+    complete()
   }
 
   return (
@@ -78,7 +81,7 @@ export default function OnboardingPage() {
                   }`}
                 >
                   {(() => { const Icon = icon; return <Icon size={24} /> })()}
-                  <span className="text-sm font-medium">{t(`categories.${key}`)}</span>
+                  <span className="text-sm font-medium leading-tight min-w-0 flex-1">{t(`categories.${key}`)}</span>
                 </button>
               ))}
             </div>

@@ -8,7 +8,7 @@ import { useDataStore } from '@/data/stores/data-store'
 import { useToast } from '@/data/stores/toast-store'
 import { FavoriteButton } from '@/shared/ui/FavoriteButton'
 import { getDB } from '@/data/db'
-import { Navigation, Phone, Share2, UtensilsCrossed, Search, Heart, HeartOff } from 'lucide-react'
+import { Navigation, Phone, Share2, Search, Heart, HeartOff } from 'lucide-react'
 import { POIDetailView } from '@/features/poi/components/POIDetailView'
 
 function useReviews(poiId: string) {
@@ -90,7 +90,7 @@ export default function POIDetailPage() {
   const actionsSlot = (
     <div ref={actionsRef} className="flex gap-2 overflow-x-auto no-scrollbar pb-1">
       <button
-        onClick={() => window.open(`https://yandex.ru/maps/?rtext=~${poi.location.lat},${poi.location.lng}&rtt=auto`)}
+        onClick={() => window.open(`https://www.google.com/maps/dir/?api=1&destination=${poi.location.lat},${poi.location.lng}`)}
         className="flex items-center gap-1.5 px-4 h-12 bg-gray-100 rounded-full text-sm font-medium flex-shrink-0"
       >
         <Navigation size={16} /> {t('poi.directions')}
@@ -116,11 +116,6 @@ export default function POIDetailPage() {
       >
         <Share2 size={16} /> {t('poi.share')}
       </button>
-      {poi.hasMenu && (
-        <button onClick={() => navigate(`/poi/${poi.id}/menu`)} className="flex items-center gap-1.5 px-4 h-12 bg-[var(--color-primary)] text-white rounded-full text-sm font-medium flex-shrink-0">
-          <UtensilsCrossed size={16} /> {t('poi.seeMenu')}
-        </button>
-      )}
     </div>
   )
 
@@ -174,19 +169,7 @@ export default function POIDetailPage() {
             className="fixed bottom-[calc(var(--bottom-nav-height)+var(--safe-area-bottom))] left-0 right-0 z-30 px-4 py-3 bg-white/95 backdrop-blur-sm border-t border-[var(--color-border)]"
           >
             <div className="flex gap-2 max-w-lg mx-auto">
-              {poi.hasMenu ? (
-                <>
-                  <button onClick={() => navigate(`/poi/${poi.id}/menu`)} className="flex-1 py-3 bg-[var(--color-primary)] text-white rounded-xl font-semibold text-sm">
-                    {t('poi.order')}
-                  </button>
-                  <button
-                    onClick={() => window.open(`https://yandex.ru/maps/?rtext=~${poi.location.lat},${poi.location.lng}&rtt=auto`)}
-                    className="py-3 px-4 border border-[var(--color-border)] rounded-xl text-sm font-medium"
-                  >
-                    <Navigation size={16} className="inline-block mr-1" />{t('poi.directions')}
-                  </button>
-                </>
-              ) : (
+              {false ? null : (
                 <>
                   <button
                     onClick={() => {
@@ -203,7 +186,7 @@ export default function POIDetailPage() {
                     {isFav ? <><HeartOff size={16} /> {t('saved.remove')}</> : <><Heart size={16} /> {t('poi.save')}</>}
                   </button>
                   <button
-                    onClick={() => window.open(`https://yandex.ru/maps/?rtext=~${poi.location.lat},${poi.location.lng}&rtt=auto`)}
+                    onClick={() => window.open(`https://www.google.com/maps/dir/?api=1&destination=${poi.location.lat},${poi.location.lng}`)}
                     className="py-3 px-4 border border-[var(--color-border)] rounded-xl text-sm font-medium flex items-center gap-1.5"
                   >
                     <Navigation size={16} /> {t('poi.directions')}

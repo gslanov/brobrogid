@@ -37,7 +37,7 @@ export function MapPOISheet({ poi, state }: MapPOISheetProps) {
             {t('poi.details')}
           </button>
           <button
-            onClick={() => window.open(`https://yandex.ru/maps/?rtext=~${poi.location.lat},${poi.location.lng}&rtt=auto`)}
+            onClick={() => window.open(`https://www.google.com/maps/dir/?api=1&destination=${poi.location.lat},${poi.location.lng}`)}
             className="px-3 py-2 bg-gray-100 rounded-lg text-xs font-medium"
           >
             {t('poi.directions')}
@@ -74,7 +74,7 @@ export function MapPOISheet({ poi, state }: MapPOISheetProps) {
               {t('poi.details')}
             </button>
             <button
-              onClick={() => window.open(`https://yandex.ru/maps/?rtext=~${poi.location.lat},${poi.location.lng}&rtt=auto`)}
+              onClick={() => window.open(`https://www.google.com/maps/dir/?api=1&destination=${poi.location.lat},${poi.location.lng}`)}
               className="flex-1 py-2 bg-gray-100 rounded-lg text-xs font-medium text-center"
             >
               {t('poi.directions')}
