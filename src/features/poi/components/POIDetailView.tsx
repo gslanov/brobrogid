@@ -44,20 +44,30 @@ export function POIDetailView({ poi, reviews = [], nearbyPois = [], actionsSlot 
   }, [])
 
   const isOpenNow = () => {
-    if (!poi.hours) return null
-    const days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'] as const
-    const now = new Date()
-    const dayKey = days[now.getDay()]
-    const hours = poi.hours[dayKey]
-    if (!hours) return false
-    const [open, close] = hours.split('-')
-    const nowMin = now.getHours() * 60 + now.getMinutes()
-    const [oh, om] = open.split(':').map(Number)
-    const [ch, cm] = close.split(':').map(Number)
-    const openMin = oh * 60 + om
-    const closeMin = ch * 60 + cm
-    if (closeMin < openMin) return nowMin >= openMin || nowMin <= closeMin
-    return nowMin >= openMin && nowMin <= closeMin
+    try {
+      if (!poi.hours) return null
+      const days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'] as const
+      const now = new Date()
+      const dayKey = days[now.getDay()]
+      const hours = poi.hours[dayKey]
+      if (!hours || typeof hours !== 'string') return false
+      // Normalize dashes: en-dash (–), em-dash (—) → hyphen-minus (-)
+      const normalized = hours.replace(/[–—]/g, '-')
+      const parts = normalized.split('-')
+      if (parts.length < 2) return false
+      const [open, close] = parts
+      if (!open || !close) return false
+      const nowMin = now.getHours() * 60 + now.getMinutes()
+      const [oh, om] = open.split(':').map(Number)
+      const [ch, cm] = close.split(':').map(Number)
+      if ([oh, om, ch, cm].some(isNaN)) return false
+      const openMin = oh * 60 + om
+      const closeMin = ch * 60 + cm
+      if (closeMin < openMin) return nowMin >= openMin || nowMin <= closeMin
+      return nowMin >= openMin && nowMin <= closeMin
+    } catch {
+      return null
+    }
   }
 
   const openStatus = isOpenNow()

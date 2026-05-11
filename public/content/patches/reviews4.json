@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "batch": "reviews4",
+    "range": "150-199",
+    "total_checked": 50,
+    "deleted_count": 14,
+    "reason_no_poi": [
+      "rev-158",
+      "rev-160",
+      "rev-162",
+      "rev-169",
+      "rev-171",
+      "rev-181",
+      "rev-182",
+      "rev-184",
+      "rev-188",
+      "rev-191",
+      "rev-193",
+      "rev-196",
+      "rev-199",
+      "rev-200"
+    ],
+    "reason_category_mismatch": []
+  },
+  "delete": [
+    "rev-158",
+    "rev-160",
+    "rev-162",
+    "rev-169",
+    "rev-171",
+    "rev-181",
+    "rev-182",
+    "rev-184",
+    "rev-188",
+    "rev-191",
+    "rev-193",
+    "rev-196",
+    "rev-199",
+    "rev-200"
+  ]
+}

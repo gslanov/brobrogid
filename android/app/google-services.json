@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "402973227869",
+    "project_id": "brobrogid",
+    "storage_bucket": "brobrogid.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402973227869:android:939a3239bca4a22f9706b4",
+        "android_client_info": {
+          "package_name": "com.brobrogid.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk3iw4P38RfGpTHdSLtbywOw_gVWluSYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

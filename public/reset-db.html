@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Сброс БД…</title></head>
+<body>
+<p>Удаляю базу данных…</p>
+<script>
+  const req = indexedDB.deleteDatabase('brobrogid')
+  req.onsuccess = () => { document.querySelector('p').textContent = 'Готово! Перенаправление…'; setTimeout(() => location.replace('/'), 500) }
+  req.onerror = () => { document.querySelector('p').textContent = 'Ошибка: ' + req.error; }
+  req.onblocked = () => { document.querySelector('p').textContent = 'Заблокировано — закрой другие вкладки с приложением и обнови эту страницу.'; }
+</script>
+</body>
+</html>

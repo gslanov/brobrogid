@@ -7,6 +7,8 @@ import App from './app/App'
 import './i18n'
 import './index.css'
 
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual'
+
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {

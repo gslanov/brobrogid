@@ -45,8 +45,10 @@ export default function ProfilePage() {
   const { t, i18n } = useTranslation()
   const navigate = useNavigate()
   const collections = useDataStore((s) => s.collections)
+  const visitedIds = useDataStore((s) => s.userPrefs.visitedPois)
   const setLanguage = useDataStore((s) => s.setLanguage)
   const favCount = collections.find((c) => c.id === 'favorites')?.poiIds.length || 0
+  const visitedCount = visitedIds.length
   const [showAbout, setShowAbout] = useState(false)
 
   const toggleLang = () => {
@@ -75,7 +77,7 @@ export default function ProfilePage() {
             <p className="text-xs text-[var(--color-text-secondary)]">{t('saved.title')}</p>
           </div>
           <div className="text-center">
-            <p className="text-xl font-bold text-[var(--color-accent)]">0</p>
+            <p className="text-xl font-bold text-[var(--color-accent)]">{visitedCount}</p>
             <p className="text-xs text-[var(--color-text-secondary)]">{t('profile.visited')}</p>
           </div>
         </div>

@@ -9,14 +9,11 @@ import {
 
 type StoreName =
   | 'pois'
-  | 'menuItems'
   | 'tours'
-  | 'guides'
   | 'reviews'
   | 'emergency'
   | 'transport'
   | 'collections'
-  | 'orders'
 
 interface UseAdminDataResult<T> {
   items: T[]

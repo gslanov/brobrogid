@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { resetScroll } from '@/shared/lib/utils'
 
 const tabs = [
   { key: 'home', path: '/', icon: 'house' },
@@ -40,8 +41,10 @@ export function BottomTabs() {
   const handleTabClick = (path: string) => {
     const isActive = path === '/' ? location.pathname === '/' : location.pathname.startsWith(path)
     if (isActive) {
-      window.scrollTo({ top: 0, behavior: 'smooth' })
+      const el = document.getElementById('scroll-root')
+      if (el) el.scrollTo({ top: 0, behavior: 'smooth' })
     } else {
+      resetScroll()
       navigate(path)
     }
   }

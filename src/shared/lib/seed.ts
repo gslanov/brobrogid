@@ -99,10 +99,15 @@ function normalizeTransport(raw: Record<string, unknown[]>): TransportRoute[] {
       type: (item.type as TransportRoute['type']) || 'bus',
       stops: rawStops.map((s) => ({
         name: (s.name as { ru: string; en: string }) || { ru: '', en: '' },
-        location: { lat: (s.lat as number) || 0, lng: (s.lng as number) || 0 },
+        location: {
+          lat: ((s.location as Record<string, number>)?.lat ?? (s.lat as number)) || 0,
+          lng: ((s.location as Record<string, number>)?.lng ?? (s.lng as number)) || 0,
+        },
       })),
-      schedule: item.hours ? { weekday: item.hours as string, weekend: item.hours as string } : undefined,
-      color: '#3B82F6',
+      schedule: item.schedule
+        ? (item.schedule as { weekday: string; weekend: string })
+        : item.hours ? { weekday: item.hours as string, weekend: item.hours as string } : undefined,
+      color: (item.color as string) || '#3B82F6',
     })
   }
 
@@ -118,20 +123,20 @@ export async function seedDatabase() {
   // Fetch all content — sequential to reduce server load, with individual error handling
   let pois: unknown[] = []
   let tours: unknown[] = []
-  let guides: unknown[] = []
   let reviews: unknown[] = []
-  let menuItems: unknown[] = []
   let emergencyContacts: EmergencyContact[] = []
   let transportRoutes: TransportRoute[] = []
 
   try {
-    ;[pois, tours, guides, reviews, menuItems] = await Promise.all([
-      loadJSON<unknown[]>('/content/pois.json'),
-      loadJSON<unknown[]>('/content/tours.json'),
-      loadJSON<unknown[]>('/content/guides.json'),
-      loadJSON<unknown[]>('/content/reviews.json'),
-      loadJSON<unknown[]>('/content/menu-items.json'),
+    const [rawPois, rawTours, rawReviews] = await Promise.all([
+      loadJSON<unknown>('/content/pois.json'),
+      loadJSON<unknown>('/content/tours.json'),
+      loadJSON<unknown>('/content/reviews.json'),
     ])
+    const toArray = (v: unknown) => (Array.isArray(v) ? v : Object.values(v as Record<string, unknown>)).filter(Boolean)
+    pois = toArray(rawPois)
+    tours = toArray(rawTours)
+    reviews = toArray(rawReviews)
   } catch (err) {
     console.error('Seed: failed to load core content', err)
     throw err
@@ -154,17 +159,15 @@ export async function seedDatabase() {
 
   // Write to IDB in a single transaction
   const tx = db.transaction(
-    ['pois', 'tours', 'guides', 'reviews', 'emergency', 'transport', 'menuItems', 'collections'],
+    ['pois', 'tours', 'reviews', 'emergency', 'transport', 'collections'],
     'readwrite',
   )
 
   for (const poi of pois as Record<string, unknown>[]) await tx.objectStore('pois').put(poi as never)
   for (const tour of tours as Record<string, unknown>[]) await tx.objectStore('tours').put(tour as never)
-  for (const guide of guides as Record<string, unknown>[]) await tx.objectStore('guides').put(guide as never)
   for (const review of reviews as Record<string, unknown>[]) await tx.objectStore('reviews').put(review as never)
   for (const item of emergencyContacts) await tx.objectStore('emergency').put(item as never)
   for (const route of transportRoutes) await tx.objectStore('transport').put(route as never)
-  for (const item of menuItems as Record<string, unknown>[]) await tx.objectStore('menuItems').put(item as never)
 
   // Create default favorites collection
   await tx.objectStore('collections').put({

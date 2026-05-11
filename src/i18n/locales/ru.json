@@ -6,7 +6,7 @@
   "tabs": {
     "home": "Главная",
     "map": "Карта",
-    "tours": "Туры",
+    "tours": "Туризм",
     "profile": "Профиль"
   },
   "categories": {
@@ -16,10 +16,10 @@
     "nature": "Природа",
     "culture": "Культура и история",
     "shopping": "Магазины",
-    "nightlife": "Ночная жизнь",
     "transport": "Транспорт",
     "activities": "Активности",
-    "practical": "Полезное"
+    "practical": "Полезное",
+    "tours": "Туризм"
   },
   "explore": {
     "quickEmergency": "Экстренные",
@@ -91,7 +91,18 @@
     "all": "Все",
     "results_one": "{{count}} результат",
     "results_few": "{{count}} результата",
-    "results_many": "{{count}} результатов"
+    "results_many": "{{count}} результатов",
+    "sort_relevance": "Релевантность",
+    "sort_rating": "Рейтинг",
+    "sort_popularity": "Популярность",
+    "priceLevel": "Уровень цен",
+    "minRating": "Мин. рейтинг",
+    "any": "Любой",
+    "reset": "Сбросить",
+    "showResults_one": "Показать {{count}} место",
+    "showResults_few": "Показать {{count}} места",
+    "showResults_many": "Показать {{count}} мест",
+    "showResults_other": "Показать {{count}} мест"
   },
   "tours": {
     "title": "Туры и экскурсии",
@@ -325,7 +336,7 @@
       "dashboard": "Главная",
       "pois": "Точки интереса",
       "menuItems": "Пункты меню",
-      "tours": "Туры",
+      "tours": "Туризм",
       "guides": "Гиды",
       "reviews": "Отзывы",
       "emergency": "Экстренные",
@@ -352,7 +363,7 @@
       "entities": {
         "pois": "Точки интереса",
         "menuItems": "Пункты меню",
-        "tours": "Туры",
+        "tours": "Туризм",
         "guides": "Гиды",
         "reviews": "Отзывы",
         "emergency": "Экстренные контакты",
@@ -392,7 +403,6 @@
         "nature": "Природа",
         "culture": "Культура",
         "shopping": "Магазины",
-        "nightlife": "Ночная жизнь",
         "transport": "Транспорт",
         "activities": "Активности",
         "practical": "Полезное"
@@ -641,7 +651,7 @@
       "types": {
         "bus": "Автобус",
         "marshrutka": "Маршрутка",
-        "trolleybus": "Троллейбус"
+        "tram": "Трамвай"
       },
       "form": {
         "number": "Номер маршрута",

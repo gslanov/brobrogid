@@ -8,9 +8,6 @@ import { getSession, isAuthenticated, clearSession } from '../lib/auth'
 const BREADCRUMB_KEYS: Record<string, string> = {
   '/admin': 'admin.sidebar.dashboard',
   '/admin/pois': 'admin.sidebar.pois',
-  '/admin/menu-items': 'admin.sidebar.menuItems',
-  '/admin/tours': 'admin.sidebar.tours',
-  '/admin/guides': 'admin.sidebar.guides',
   '/admin/reviews': 'admin.sidebar.reviews',
   '/admin/emergency': 'admin.sidebar.emergency',
   '/admin/transport': 'admin.sidebar.transport',

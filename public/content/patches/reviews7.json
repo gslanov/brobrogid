@@ -1,0 +1,20 @@
+{
+  "description": "reviews7: удалены отзывы на несуществующие POI (индексы 300-349)",
+  "checked_range": "300-349",
+  "total_checked": 50,
+  "delete": [
+    "rev-304",
+    "rev-313",
+    "rev-317",
+    "rev-321",
+    "rev-322",
+    "rev-326",
+    "rev-333",
+    "rev-334",
+    "rev-341",
+    "rev-345",
+    "rev-348"
+  ],
+  "delete_count": 11,
+  "reason": "targetId не существует в pois.json"
+}

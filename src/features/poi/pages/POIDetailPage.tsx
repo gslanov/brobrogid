@@ -8,11 +8,14 @@ import { useDataStore } from '@/data/stores/data-store'
 import { useToast } from '@/data/stores/toast-store'
 import { FavoriteButton } from '@/shared/ui/FavoriteButton'
 import { getDB } from '@/data/db'
-import { Navigation, Phone, Share2, Search, Heart, HeartOff } from 'lucide-react'
+import { Navigation, Phone, Share2, Search, Heart, HeartOff, Volume2, VolumeX } from 'lucide-react'
+import { resetScroll } from '@/shared/lib/utils'
+import type { Review } from '@/data/types'
 import { POIDetailView } from '@/features/poi/components/POIDetailView'
+import { useTTS } from '@/shared/hooks/useTTS'
 
 function useReviews(poiId: string) {
-  const [reviews, setReviews] = useState<any[]>([])
+  const [reviews, setReviews] = useState<Review[]>([])
   const [loaded, setLoaded] = useState(false)
   useEffect(() => {
     let cancelled = false
@@ -28,6 +31,7 @@ function useReviews(poiId: string) {
 export default function POIDetailPage() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
+  const goBack = () => { resetScroll(); navigate(-1) }
   const { i18n, t } = useTranslation()
   const lang = i18n.language as 'ru' | 'en'
   const pois = useDataStore((s) => s.pois)
@@ -50,6 +54,11 @@ export default function POIDetailPage() {
     observer.observe(actionsRef.current)
     return () => observer.disconnect()
   }, [poi])
+
+  const ttsCategories = ['attractions', 'culture', 'nature']
+  const ttsLang = lang === 'ru' ? 'ru-RU' : 'en-US'
+  const ttsText = poi?.description?.full?.[lang] ?? ''
+  const { speaking, toggle: toggleTTS, supported: ttsSupported } = useTTS(ttsText, ttsLang)
 
   const nearbyPois = useMemo(() => {
     if (!poi) return []
@@ -74,7 +83,7 @@ export default function POIDetailPage() {
           <span className="text-[var(--color-text-secondary)]"><Search size={48} /></span>
           <h2 className="text-xl font-bold">{t('poi.notFound')}</h2>
           <p className="text-sm text-[var(--color-text-secondary)]">{t('poi.notFoundHint')}</p>
-          <button onClick={() => navigate(-1)} className="mt-2 px-6 py-2.5 bg-[var(--color-primary)] text-white rounded-xl font-medium text-sm">
+          <button onClick={goBack} className="mt-2 px-6 py-2.5 bg-[var(--color-primary)] text-white rounded-xl font-medium text-sm">
             ← {t('common.back')}
           </button>
         </div>
@@ -116,6 +125,21 @@ export default function POIDetailPage() {
       >
         <Share2 size={16} /> {t('poi.share')}
       </button>
+      {ttsSupported && ttsCategories.includes(poi.category) && (
+        <button
+          onClick={toggleTTS}
+          className={`flex items-center gap-1.5 px-4 h-12 rounded-full text-sm font-medium flex-shrink-0 transition-colors ${
+            speaking
+              ? 'bg-[var(--color-primary)] text-white'
+              : 'bg-gray-100 text-[var(--color-text)]'
+          }`}
+          aria-label={speaking ? t('poi.stopAudio', 'Остановить') : t('poi.playAudio', 'Слушать')}
+        >
+          {speaking ? <VolumeX size={16} /> : <Volume2 size={16} />}
+          {speaking ? t('poi.stopAudio', 'Стоп') : t('poi.playAudio', 'Слушать')}
+        </button>
+      )}
+
     </div>
   )
 
@@ -149,7 +173,7 @@ export default function POIDetailPage() {
       }} />
 
       <div className="sticky top-0 z-40 flex items-center justify-between px-4 h-14 bg-white/95 backdrop-blur-sm border-b border-[var(--color-border)]">
-        <button onClick={() => navigate(-1)} className="w-10 h-10 flex items-center justify-center">
+        <button onClick={goBack} className="w-10 h-10 flex items-center justify-center">
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
           </svg>

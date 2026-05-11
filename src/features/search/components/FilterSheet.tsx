@@ -3,6 +3,15 @@ import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import type { PriceLevel } from '@/data/types'
 
+function pluralPlace(n: number): string {
+  const mod10 = n % 10
+  const mod100 = n % 100
+  if (mod100 >= 11 && mod100 <= 19) return `${n} мест`
+  if (mod10 === 1) return `${n} место`
+  if (mod10 >= 2 && mod10 <= 4) return `${n} места`
+  return `${n} мест`
+}
+
 interface Filters {
   minRating: number
   priceLevels: PriceLevel[]
@@ -53,13 +62,15 @@ export function FilterSheet({ isOpen, onClose, filters, onApply, resultCount }: 
             animate={{ y: 0 }}
             exit={{ y: '100%' }}
             transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-            className="fixed bottom-0 left-0 right-0 z-50 bg-white rounded-t-2xl max-w-lg mx-auto"
+            className="fixed bottom-[calc(var(--bottom-nav-height)+var(--safe-area-bottom))] left-0 right-0 z-50 bg-white rounded-t-2xl max-w-lg mx-auto max-h-[85vh] flex flex-col"
           >
-            <div className="flex justify-center py-3">
+            {/* Handle */}
+            <div className="flex justify-center py-3 flex-shrink-0">
               <div className="w-8 h-1 bg-gray-300 rounded-full" />
             </div>
 
-            <div className="px-4 pb-6 space-y-5">
+            {/* Scrollable content */}
+            <div className="px-4 space-y-5 overflow-y-auto flex-1">
               <h3 className="text-base font-bold">{t('search.filters')}</h3>
 
               {/* Price level */}
@@ -72,8 +83,8 @@ export function FilterSheet({ isOpen, onClose, filters, onApply, resultCount }: 
                       onClick={() => togglePrice(level)}
                       className={`px-4 py-2 rounded-lg text-sm font-medium border transition-colors ${
                         local.priceLevels.includes(level)
-                          ? 'bg-[var(--color-primary)] text-white border-[var(--color-primary)]'
-                          : 'bg-white border-gray-200'
+                          ? 'bg-[var(--color-primary)] text-white border-[var(--color-primary)] shadow-sm'
+                          : 'bg-white border-gray-300 text-gray-600'
                       }`}
                     >
                       {'₽'.repeat(level)}
@@ -107,18 +118,19 @@ export function FilterSheet({ isOpen, onClose, filters, onApply, resultCount }: 
                 </button>
               </label>
 
-              {/* Bottom actions */}
-              <div className="flex gap-3 pt-2">
-                <button onClick={reset} className="flex-1 py-3 text-sm font-medium text-[var(--color-text-secondary)]">
-                  {t('search.reset', 'Reset')}
-                </button>
-                <button
-                  onClick={() => { onApply(local); onClose() }}
-                  className="flex-1 py-3 bg-[var(--color-primary)] text-white rounded-xl text-sm font-bold"
-                >
-                  {t('search.showResults', 'Show {{count}} results').replace('{{count}}', String(resultCount))}
-                </button>
-              </div>
+            </div>
+
+            {/* Bottom actions — always visible */}
+            <div className="px-4 pt-2 pb-6 flex gap-3 flex-shrink-0 border-t border-gray-100 mt-2">
+              <button onClick={reset} className="flex-1 py-3 text-sm font-medium text-[var(--color-text-secondary)]">
+                {t('search.reset', 'Reset')}
+              </button>
+              <button
+                onClick={() => { onApply(local); onClose() }}
+                className="flex-1 py-3 bg-[var(--color-primary)] text-white rounded-xl text-sm font-bold"
+              >
+                {`Показать ${pluralPlace(resultCount)}`}
+              </button>
             </div>
           </motion.div>
         </>

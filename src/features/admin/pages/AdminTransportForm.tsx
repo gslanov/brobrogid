@@ -27,7 +27,7 @@ const EMPTY: Omit<TransportRoute, 'id'> = {
 const TYPE_OPTIONS: { value: string; labelKey: string }[] = [
   { value: 'bus', labelKey: 'admin.transport.types.bus' },
   { value: 'marshrutka', labelKey: 'admin.transport.types.marshrutka' },
-  { value: 'trolleybus', labelKey: 'admin.transport.types.trolleybus' },
+  { value: 'tram', labelKey: 'admin.transport.types.tram' },
 ]
 
 function SectionTitle({ children }: { children: React.ReactNode }) {

@@ -3,33 +3,25 @@ import { adminGetAll, adminCount } from '../lib/admin-db'
 
 type StoreName =
   | 'pois'
-  | 'menuItems'
   | 'tours'
-  | 'guides'
   | 'reviews'
   | 'emergency'
   | 'transport'
   | 'collections'
-  | 'orders'
 
 const STORE_FILE_MAP: Record<StoreName, string> = {
   pois: 'pois.json',
   tours: 'tours.json',
-  guides: 'guides.json',
   reviews: 'reviews.json',
-  menuItems: 'menu-items.json',
   emergency: 'emergency.json',
   transport: 'transport.json',
   collections: 'collections.json',
-  orders: 'orders.json',
 }
 
 const EXPORTABLE_STORES: StoreName[] = [
   'pois',
   'tours',
-  'guides',
   'reviews',
-  'menuItems',
   'emergency',
   'transport',
 ]

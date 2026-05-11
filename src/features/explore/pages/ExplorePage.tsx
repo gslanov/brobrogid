@@ -9,7 +9,6 @@ import {
   MapPin,
   Bus,
   AlertTriangle,
-  Star,
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
@@ -28,7 +27,6 @@ const VISIBLE_CATEGORIES: POICategory[] = [
   'culture',
   'activities',
   'shopping',
-  'nightlife',
 ]
 
 const GHOST_PLACEHOLDERS_RU = [
@@ -152,7 +150,7 @@ const SERVICES: {
     key: 'tours',
     icon: MapPin,
     labelKey: 'explore.serviceTours',
-    path: '/tours',
+    path: '/search?category=tours',
     bg: 'bg-[var(--color-primary-light)]',
     iconColor: 'text-[var(--color-primary)]',
   },
@@ -168,7 +166,7 @@ const SERVICES: {
     key: 'transport',
     icon: Bus,
     labelKey: 'explore.serviceTransport',
-    path: '/search?category=transport',
+    path: '/transport',
     bg: 'bg-slate-50',
     iconColor: 'text-slate-500',
   },
@@ -209,38 +207,21 @@ function HeroCard() {
   const navigate = useNavigate()
   const { t, i18n } = useTranslation()
   const lang = i18n.language as 'ru' | 'en'
-  const tours = useDataStore((s) => s.tours)
   const pois = useDataStore((s) => s.pois)
 
-  const heroTour = useMemo(
-    () =>
-      tours.find((tour) => tour.status === 'recruiting') ||
-      [...tours].sort((a, b) => b.rating - a.rating)[0],
-    [tours]
-  )
   const heroPoi = useMemo(
     () => [...pois].sort((a, b) => b.rating - a.rating)[0],
     [pois]
   )
 
-  const heroImage =
-    heroTour?.photos?.[0] || heroPoi?.photos?.[0] || '/images/placeholder.webp'
-  const heroTitle = heroTour ? heroTour.name[lang] : heroPoi?.name[lang] || ''
-  const heroSubtitle = t('explore.heroTitle')
-
-  const handleTap = () => {
-    if (heroTour) navigate(`/tours/${heroTour.id}`)
-    else if (heroPoi) navigate(`/poi/${heroPoi.id}`)
-  }
-
-  if (!heroTour && !heroPoi) return null
+  if (!heroPoi) return null
 
   return (
-    <button onClick={handleTap} className="block w-full px-4 mb-5 text-left">
+    <button onClick={() => navigate(`/poi/${heroPoi.id}`)} className="block w-full px-4 mb-5 text-left">
       <div className="relative w-full h-[200px] rounded-2xl overflow-hidden">
         <img
-          src={heroImage}
-          alt={heroTitle}
+          src={heroPoi.photos?.[0] || '/images/placeholder.webp'}
+          alt={heroPoi.name[lang] || ''}
           className="w-full h-full object-cover"
           loading="eager"
           onError={(e) => {
@@ -251,22 +232,11 @@ function HeroCard() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-4">
           <span className="text-xs font-semibold text-white/80 uppercase tracking-wider">
-            {heroSubtitle}
+            {t('explore.heroTitle')}
           </span>
           <h2 className="text-lg font-bold text-white mt-0.5 line-clamp-2">
-            {heroTitle}
+            {heroPoi.name[lang] || ''}
           </h2>
-          {heroTour && (
-            <div className="flex items-center gap-3 mt-1.5">
-              <span className="text-sm text-white/90 flex items-center gap-1">
-                <Star size={14} className="fill-yellow-400 text-yellow-400" />
-                {heroTour.rating.toFixed(1)}
-              </span>
-              <span className="text-sm text-white/80">
-                {heroTour.price.toLocaleString('ru-RU')} ₽
-              </span>
-            </div>
-          )}
         </div>
       </div>
     </button>

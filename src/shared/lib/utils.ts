@@ -6,10 +6,10 @@ import {
   TreePine,
   Palette,
   ShoppingBag,
-  Moon,
   Bus,
   Mountain,
   Info,
+  Compass,
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
@@ -20,10 +20,10 @@ export const CATEGORY_COLORS: Record<POICategory, string> = {
   nature: '#10b981',
   culture: '#3b82f6',
   shopping: '#ec4899',
-  nightlife: '#6366f1',
   transport: '#64748b',
   activities: '#f97316',
   practical: '#14b8a6',
+  tours: '#0ea5e9',
 }
 
 export const CATEGORY_ICONS: Record<POICategory, LucideIcon> = {
@@ -33,10 +33,10 @@ export const CATEGORY_ICONS: Record<POICategory, LucideIcon> = {
   nature: TreePine,
   culture: Palette,
   shopping: ShoppingBag,
-  nightlife: Moon,
   transport: Bus,
   activities: Mountain,
   practical: Info,
+  tours: Compass,
 }
 
 /** Short text labels for map markers where SVG components cannot be used */
@@ -47,10 +47,10 @@ export const CATEGORY_MAP_LABELS: Record<POICategory, string> = {
   nature: 'N',
   culture: 'C',
   shopping: 'S',
-  nightlife: 'M',
   transport: 'T',
   activities: 'X',
   practical: 'i',
+  tours: 'T',
 }
 
 export function formatPrice(price: number): string {
@@ -78,4 +78,10 @@ export function formatDistance(km: number): string {
 
 export function cn(...classes: (string | false | undefined | null)[]): string {
   return classes.filter(Boolean).join(' ')
+}
+
+export function resetScroll() {
+  const el = document.getElementById('scroll-root')
+  if (el) el.scrollTop = 0
+  window.scrollTo(0, 0)
 }

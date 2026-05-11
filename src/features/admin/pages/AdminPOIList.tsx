@@ -14,8 +14,6 @@ const ALL_CATEGORIES: POICategory[] = [
   'nature',
   'culture',
   'shopping',
-  'nightlife',
-  'transport',
   'activities',
   'practical',
 ]

@@ -46,7 +46,6 @@ const CATEGORY_OPTIONS: { value: string; labelKey: string }[] = [
   { value: 'nature', labelKey: 'admin.pois.categories.nature' },
   { value: 'culture', labelKey: 'admin.pois.categories.culture' },
   { value: 'shopping', labelKey: 'admin.pois.categories.shopping' },
-  { value: 'nightlife', labelKey: 'admin.pois.categories.nightlife' },
   { value: 'transport', labelKey: 'admin.pois.categories.transport' },
   { value: 'activities', labelKey: 'admin.pois.categories.activities' },
   { value: 'practical', labelKey: 'admin.pois.categories.practical' },
@@ -96,7 +95,6 @@ function emptyPOI(): POI {
     isChain: false,
     subscriptionTier: 'free',
     visitCount: 0,
-    hasMenu: false,
     hasDelivery: false,
     externalOrderUrl: '',
   }
@@ -467,11 +465,6 @@ export default function AdminPOIForm() {
               label={t('admin.pois.form.isChain')}
               checked={form.isChain}
               onChange={(v) => set('isChain', v)}
-            />
-            <CheckboxField
-              label={t('admin.pois.form.hasMenu')}
-              checked={form.hasMenu}
-              onChange={(v) => set('hasMenu', v)}
             />
             <CheckboxField
               label={t('admin.pois.form.hasDelivery')}

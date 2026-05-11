@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import type { POI } from '@/data/types'
-import { CATEGORY_COLORS, formatRating } from '@/shared/lib/utils'
+import { CATEGORY_COLORS, formatRating, resetScroll } from '@/shared/lib/utils'
 import { FavoriteButton } from './FavoriteButton'
 import { Star } from 'lucide-react'
 
@@ -13,13 +13,14 @@ interface POICardProps {
 
 export function POICard({ poi, variant = 'vertical', showDistance }: POICardProps) {
   const navigate = useNavigate()
-  const { i18n, t } = useTranslation()
+  const { i18n } = useTranslation()
   const lang = i18n.language as 'ru' | 'en'
+  const goToPoi = () => { resetScroll(); navigate(`/poi/${poi.id}`) }
 
   if (variant === 'horizontal') {
     return (
       <button
-        onClick={() => navigate(`/poi/${poi.id}`)}
+        onClick={goToPoi}
         className="flex-shrink-0 w-[220px] bg-white rounded-2xl shadow-sm overflow-hidden text-left hover:shadow-md transition-shadow"
       >
         <div className="relative h-[130px] bg-gray-100">
@@ -55,7 +56,7 @@ export function POICard({ poi, variant = 'vertical', showDistance }: POICardProp
 
   return (
     <button
-      onClick={() => navigate(`/poi/${poi.id}`)}
+      onClick={() => { resetScroll(); navigate(`/poi/${poi.id}`) }}
       className="flex bg-white rounded-2xl shadow-sm overflow-hidden text-left hover:shadow-md transition-shadow w-full"
     >
       <div className="relative w-[120px] min-h-[120px] bg-gray-100 flex-shrink-0">
@@ -85,9 +86,6 @@ export function POICard({ poi, variant = 'vertical', showDistance }: POICardProp
           {poi.priceLevel && <span className="text-xs text-[var(--color-text-secondary)] ml-auto">{'₽'.repeat(poi.priceLevel)}</span>}
           {showDistance && <span className="text-[11px] text-[var(--color-text-secondary)] ml-auto">{showDistance}</span>}
         </div>
-        {poi.hasMenu && (
-          <span className="inline-block mt-1.5 text-[11px] font-medium text-[var(--color-primary)] bg-[var(--color-primary-light)] px-2 py-0.5 rounded-full">{t('poi.hasMenu')}</span>
-        )}
       </div>
     </button>
   )

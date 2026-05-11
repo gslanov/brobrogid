@@ -6,7 +6,7 @@
   "tabs": {
     "home": "Home",
     "map": "Map",
-    "tours": "Tours",
+    "tours": "Tourism",
     "profile": "Profile"
   },
   "categories": {
@@ -16,10 +16,10 @@
     "nature": "Nature",
     "culture": "Culture & History",
     "shopping": "Shopping",
-    "nightlife": "Nightlife",
     "transport": "Transport",
     "activities": "Activities",
-    "practical": "Practical Info"
+    "practical": "Practical Info",
+    "tours": "Tourism"
   },
   "explore": {
     "quickEmergency": "Emergency",
@@ -389,7 +389,6 @@
         "nature": "Nature",
         "culture": "Culture",
         "shopping": "Shopping",
-        "nightlife": "Nightlife",
         "transport": "Transport",
         "activities": "Activities",
         "practical": "Practical"
@@ -638,7 +637,7 @@
       "types": {
         "bus": "Bus",
         "marshrutka": "Marshrutka",
-        "trolleybus": "Trolleybus"
+        "tram": "Tram"
       },
       "form": {
         "number": "Route number",

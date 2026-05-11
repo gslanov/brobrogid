@@ -1,11 +1,9 @@
 import { create } from 'zustand'
-import type { POI, Tour, Guide, Collection, UserPreferences } from '../types'
+import type { POI, Collection, UserPreferences } from '../types'
 import { getDB } from '../db'
 
 interface DataState {
   pois: POI[]
-  tours: Tour[]
-  guides: Guide[]
   collections: Collection[]
   userPrefs: UserPreferences
   isLoaded: boolean
@@ -14,6 +12,7 @@ interface DataState {
   addToCollection: (collectionId: string, poiId: string) => Promise<void>
   createCollection: (name: string) => Promise<Collection>
   setLanguage: (lang: 'ru' | 'en') => Promise<void>
+  markVisited: (poiId: string) => Promise<void>
 }
 
 const DEFAULT_PREFS: UserPreferences = {
@@ -23,29 +22,22 @@ const DEFAULT_PREFS: UserPreferences = {
 
 export const useDataStore = create<DataState>((set, get) => ({
   pois: [],
-  tours: [],
-  guides: [],
   collections: [],
   userPrefs: DEFAULT_PREFS,
   isLoaded: false,
 
   loadAll: async () => {
     const db = await getDB()
-    const [pois, tours, guides, collections] = await Promise.all([
+    const [pois, collections] = await Promise.all([
       db.getAll('pois'),
-      db.getAll('tours'),
-      db.getAll('guides'),
       db.getAll('collections'),
     ])
 
-    // Load prefs — try all possible language keys
     const allPrefs = await db.getAll('userPrefs')
     const prefs = allPrefs[0] || DEFAULT_PREFS
 
     set({
       pois,
-      tours,
-      guides,
       collections,
       userPrefs: prefs,
       isLoaded: true,
@@ -108,6 +100,15 @@ export const useDataStore = create<DataState>((set, get) => ({
   setLanguage: async (lang: 'ru' | 'en') => {
     const db = await getDB()
     const prefs = { ...get().userPrefs, language: lang }
+    await db.put('userPrefs', prefs)
+    set({ userPrefs: prefs })
+  },
+
+  markVisited: async (poiId: string) => {
+    const { userPrefs } = get()
+    if (userPrefs.visitedPois.includes(poiId)) return
+    const db = await getDB()
+    const prefs = { ...userPrefs, visitedPois: [...userPrefs.visitedPois, poiId] }
     await db.put('userPrefs', prefs)
     set({ userPrefs: prefs })
   },

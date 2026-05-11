@@ -76,12 +76,12 @@ export default function OnboardingPage() {
                 <button
                   key={key}
                   onClick={() => toggleInterest(key)}
-                  className={`flex items-center gap-3 p-4 rounded-2xl border-2 transition-colors text-left ${
+                  className={`flex flex-col items-center justify-center gap-2 p-4 rounded-2xl border-2 transition-colors text-center min-h-[88px] ${
                     interests.includes(key) ? 'border-[var(--color-primary)] bg-[var(--color-primary-light)]' : 'border-gray-200'
                   }`}
                 >
                   {(() => { const Icon = icon; return <Icon size={24} /> })()}
-                  <span className="text-sm font-medium leading-tight min-w-0 flex-1">{t(`categories.${key}`)}</span>
+                  <span className="text-sm font-medium leading-tight break-words w-full">{t(`categories.${key}`)}</span>
                 </button>
               ))}
             </div>

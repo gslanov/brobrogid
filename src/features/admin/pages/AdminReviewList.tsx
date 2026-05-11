@@ -5,22 +5,20 @@ import { useTranslation } from 'react-i18next'
 import { useAdminData } from '../hooks/useAdminData'
 import { adminGetAll } from '../lib/admin-db'
 import AdminTable, { type Column } from '../components/AdminTable'
-import type { Review, ReviewTargetType, POI, Tour, Guide } from '@/data/types'
+import type { Review, ReviewTargetType, POI, Tour } from '@/data/types'
 
 type TargetMap = Record<string, string>
 
-function buildTargetMap(pois: POI[], tours: Tour[], guides: Guide[]): TargetMap {
+function buildTargetMap(pois: POI[], tours: Tour[]): TargetMap {
   const map: TargetMap = {}
   for (const p of pois) map[p.id] = p.name.ru
   for (const t of tours) map[t.id] = t.name.ru
-  for (const g of guides) map[g.id] = g.name.ru
   return map
 }
 
 const TARGET_TYPE_COLORS: Record<ReviewTargetType, string> = {
   poi: 'bg-blue-100 text-blue-700',
   tour: 'bg-green-100 text-green-700',
-  guide: 'bg-purple-100 text-purple-700',
 }
 
 export default function AdminReviewList() {
@@ -34,9 +32,8 @@ export default function AdminReviewList() {
     Promise.all([
       adminGetAll<POI>('pois'),
       adminGetAll<Tour>('tours'),
-      adminGetAll<Guide>('guides'),
-    ]).then(([pois, tours, guides]) => {
-      setTargetMap(buildTargetMap(pois, tours, guides))
+    ]).then(([pois, tours]) => {
+      setTargetMap(buildTargetMap(pois, tours))
     })
   }, [])
 
@@ -116,7 +113,6 @@ export default function AdminReviewList() {
   const counts: Record<ReviewTargetType, number> = {
     poi: items.filter((r) => r.targetType === 'poi').length,
     tour: items.filter((r) => r.targetType === 'tour').length,
-    guide: items.filter((r) => r.targetType === 'guide').length,
   }
 
   return (
@@ -149,7 +145,7 @@ export default function AdminReviewList() {
         >
           All ({items.length})
         </button>
-        {(['poi', 'tour', 'guide'] as ReviewTargetType[]).map((type) => (
+        {(['poi', 'tour'] as ReviewTargetType[]).map((type) => (
           <button
             key={type}
             onClick={() => setActiveType(activeType === type ? null : type)}

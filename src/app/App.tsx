@@ -1,9 +1,12 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useRoutes, useNavigate, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { App as CapApp } from '@capacitor/app'
+import { Capacitor } from '@capacitor/core'
 import { routes } from './router'
 import { AppShell } from './layout/AppShell'
 import { seedDatabase } from '@/shared/lib/seed'
+import { initNotifications } from '@/shared/lib/notifications'
 import { useDataStore } from '@/data/stores/data-store'
 import { useRouteAnnounce } from '@/shared/hooks/useRouteAnnounce'
 import { AlertTriangle } from 'lucide-react'
@@ -17,12 +20,15 @@ export default function App() {
   const navigate = useNavigate()
   const location = useLocation()
   const { t } = useTranslation()
+  const lastBackPress = useRef<number>(0)
+  const [exitToast, setExitToast] = useState(false)
 
   useEffect(() => {
     async function init() {
       try {
         await seedDatabase()
         await loadAll()
+        initNotifications()
         const storedLang = useDataStore.getState().userPrefs?.language
         if (storedLang && storedLang !== i18n.language) {
           i18n.changeLanguage(storedLang)
@@ -35,6 +41,22 @@ export default function App() {
     }
     init()
   }, [loadAll])
+
+  // Double back press to exit (Android only)
+  useEffect(() => {
+    if (Capacitor.getPlatform() !== 'android') return
+    const listener = CapApp.addListener('backButton', () => {
+      const now = Date.now()
+      if (now - lastBackPress.current < 2000) {
+        CapApp.exitApp()
+      } else {
+        lastBackPress.current = now
+        setExitToast(true)
+        setTimeout(() => setExitToast(false), 2000)
+      }
+    })
+    return () => { listener.then(h => h.remove()) }
+  }, [])
 
   // Redirect logic — after ready
   useEffect(() => {
@@ -89,6 +111,11 @@ export default function App() {
     <AppShell>
       {routeElement}
       <div ref={announceRef} aria-live="polite" aria-atomic="true" className="sr-only" />
+      {exitToast && (
+        <div className="fixed bottom-24 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-sm px-4 py-2 rounded-full shadow-lg z-50 pointer-events-none">
+          {t('common.pressBackAgain', 'Нажмите «Назад» ещё раз для выхода')}
+        </div>
+      )}
     </AppShell>
   )
 }
