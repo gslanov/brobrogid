@@ -1,50 +1,36 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 
-export function useTTS(text: string, lang: string) {
+const TTS_CATEGORIES = ['attractions', 'culture', 'nature', 'springs']
+
+export function useTTS(poiId: string, category: string) {
   const [speaking, setSpeaking] = useState(false)
-  const supported = typeof window !== 'undefined' && 'speechSynthesis' in window
+  const audioRef = useRef<HTMLAudioElement | null>(null)
+  const supported = TTS_CATEGORIES.includes(category)
 
   const stop = useCallback(() => {
-    if (!supported) return
-    window.speechSynthesis.cancel()
+    if (audioRef.current) {
+      audioRef.current.pause()
+      audioRef.current.currentTime = 0
+    }
     setSpeaking(false)
-  }, [supported])
+  }, [])
 
   const toggle = useCallback(() => {
     if (!supported) return
     if (speaking) {
       stop()
-    } else {
-      window.speechSynthesis.cancel()
-      const utterance = new SpeechSynthesisUtterance(text)
-      utterance.lang = lang
-      utterance.rate = 0.85
-      utterance.pitch = 0
-      utterance.volume = 1
-
-      // Выбираем мужской голос если доступен
-      const voices = window.speechSynthesis.getVoices()
-      const maleKeywords = ['male', 'man', 'pavel', 'dmitri', 'yuri', 'google русский', 'microsoft pavel', 'microsoft dmitry']
-      const langCode = lang.split('-')[0]
-      const langVoices = voices.filter(v => v.lang.startsWith(langCode))
-      const maleVoice = langVoices.find(v =>
-        maleKeywords.some(k => v.name.toLowerCase().includes(k))
-      ) ?? langVoices[0]
-      if (maleVoice) utterance.voice = maleVoice
-
-      utterance.onend = () => setSpeaking(false)
-      utterance.onerror = () => setSpeaking(false)
-      window.speechSynthesis.speak(utterance)
-      setSpeaking(true)
+      return
     }
-  }, [supported, speaking, text, lang, stop])
+    const audio = new Audio(`/audio/pois/${poiId}.mp3`)
+    audioRef.current = audio
+    audio.onended = () => setSpeaking(false)
+    audio.onerror = () => setSpeaking(false)
+    audio.play().then(() => setSpeaking(true)).catch(() => setSpeaking(false))
+  }, [supported, speaking, stop, poiId])
 
-  // Останавливаем при уходе со страницы
   useEffect(() => {
-    return () => {
-      if (supported) window.speechSynthesis.cancel()
-    }
-  }, [supported])
+    return () => stop()
+  }, [stop])
 
   return { speaking, toggle, supported }
 }

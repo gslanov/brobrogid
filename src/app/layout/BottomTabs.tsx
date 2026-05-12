@@ -6,7 +6,7 @@ import { resetScroll } from '@/shared/lib/utils'
 const tabs = [
   { key: 'home', path: '/', icon: 'house' },
   { key: 'map', path: '/map', icon: 'map' },
-  { key: 'tours', path: '/tours', icon: 'backpack' },
+  { key: 'sos', path: '/emergency', icon: 'sos' },
   { key: 'profile', path: '/profile', icon: 'user' },
 ] as const
 
@@ -21,9 +21,9 @@ const icons: Record<string, (active: boolean) => React.ReactNode> = {
       <path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z" />
     </svg>
   ),
-  backpack: (a) => (
-    <svg className="w-6 h-6" fill={a ? 'currentColor' : 'none'} viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M15 6V3.75A2.25 2.25 0 0012.75 1.5h-1.5A2.25 2.25 0 009 3.75V6M6.75 6h10.5A2.25 2.25 0 0119.5 8.25v11.25a2.25 2.25 0 01-2.25 2.25H6.75a2.25 2.25 0 01-2.25-2.25V8.25A2.25 2.25 0 016.75 6zM9 14h6M9 17.5h6" />
+  sos: (a) => (
+    <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke={a ? 'currentColor' : 'currentColor'}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
     </svg>
   ),
   user: (a) => (

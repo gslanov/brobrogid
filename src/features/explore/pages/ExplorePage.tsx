@@ -2,31 +2,25 @@ import { useMemo, useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useDataStore } from '@/data/stores/data-store'
-import {
-  UtensilsCrossed,
-  Landmark,
-  Map,
-  MapPin,
-  Bus,
-  AlertTriangle,
-} from 'lucide-react'
-import type { LucideIcon } from 'lucide-react'
+import { Bus } from 'lucide-react'
 
 import { SectionHeader } from '@/shared/ui/SectionHeader'
 import { POICard } from '@/shared/ui/POICard'
-import { CategoryChip } from '@/shared/ui/CategoryChip'
 import { POICardSkeleton } from '@/shared/ui/Skeleton'
 import { SEO } from '@/shared/ui/SEO'
 import { JsonLd } from '@/shared/ui/JsonLd'
+import { CATEGORY_COLORS, CATEGORY_ICONS } from '@/shared/lib/utils'
 import type { POICategory } from '@/data/types'
 
-const VISIBLE_CATEGORIES: POICategory[] = [
+const POI_CATEGORIES: POICategory[] = [
   'attractions',
   'food',
   'nature',
   'culture',
   'activities',
   'shopping',
+  'springs',
+  'tours',
 ]
 
 const GHOST_PLACEHOLDERS_RU = [
@@ -121,83 +115,37 @@ function AnimatedSearchBar() {
   )
 }
 
-/* ── Services Grid (2x3) ── */
-const SERVICES: {
-  key: string
-  icon: LucideIcon
-  labelKey: string
-  path: string
-  bg: string
-  iconColor: string
-}[] = [
-  {
-    key: 'food',
-    icon: UtensilsCrossed,
-    labelKey: 'explore.serviceFood',
-    path: '/search?category=food',
-    bg: 'bg-amber-50',
-    iconColor: 'text-amber-500',
-  },
-  {
-    key: 'attractions',
-    icon: Landmark,
-    labelKey: 'explore.serviceAttractions',
-    path: '/search?category=attractions',
-    bg: 'bg-red-50',
-    iconColor: 'text-red-500',
-  },
-  {
-    key: 'tours',
-    icon: MapPin,
-    labelKey: 'explore.serviceTours',
-    path: '/search?category=tours',
-    bg: 'bg-[var(--color-primary-light)]',
-    iconColor: 'text-[var(--color-primary)]',
-  },
-  {
-    key: 'map',
-    icon: Map,
-    labelKey: 'explore.serviceMap',
-    path: '/map',
-    bg: 'bg-emerald-50',
-    iconColor: 'text-emerald-500',
-  },
-  {
-    key: 'transport',
-    icon: Bus,
-    labelKey: 'explore.serviceTransport',
-    path: '/transport',
-    bg: 'bg-slate-50',
-    iconColor: 'text-slate-500',
-  },
-  {
-    key: 'sos',
-    icon: AlertTriangle,
-    labelKey: 'explore.serviceSOS',
-    path: '/emergency',
-    bg: 'bg-orange-50',
-    iconColor: 'text-orange-600',
-  },
-]
-
-function ServicesGrid() {
+/* ── Categories + Services Grid ── */
+function CategoriesGrid() {
   const navigate = useNavigate()
   const { t } = useTranslation()
 
   return (
     <div className="grid grid-cols-3 gap-2 px-4 mb-5">
-      {SERVICES.map(({ key, icon: Icon, labelKey, path, bg, iconColor }) => (
-        <button
-          key={key}
-          onClick={() => navigate(path)}
-          className={`flex flex-col items-center justify-center gap-1.5 ${bg} rounded-2xl py-3.5`}
-        >
-          <Icon size={22} className={iconColor} />
-          <span className="text-[13px] font-medium leading-tight text-center">
-            {t(labelKey)}
-          </span>
-        </button>
-      ))}
+      {POI_CATEGORIES.map((cat) => {
+        const Icon = CATEGORY_ICONS[cat]
+        const color = CATEGORY_COLORS[cat]
+        return (
+          <button
+            key={cat}
+            onClick={() => navigate(`/search?category=${cat}`)}
+            className="flex flex-col items-center justify-center gap-1.5 rounded-2xl py-3.5"
+            style={{ backgroundColor: color + '18' }}
+          >
+            <Icon size={22} style={{ color }} />
+            <span className="text-[12px] font-medium leading-tight text-center px-1 w-full break-words">
+              {t(`categories.${cat}`)}
+            </span>
+          </button>
+        )
+      })}
+      <button
+        onClick={() => navigate('/transport')}
+        className="flex flex-col items-center justify-center gap-1.5 bg-slate-50 rounded-2xl py-3.5"
+      >
+        <Bus size={22} className="text-slate-500" />
+        <span className="text-[12px] font-medium leading-tight text-center">{t('explore.serviceTransport')}</span>
+      </button>
     </div>
   )
 }
@@ -297,7 +245,6 @@ function getContextualConfig(): {
 /* ── Main Page ── */
 export default function ExplorePage() {
   const { t } = useTranslation()
-  const navigate = useNavigate()
   const pois = useDataStore((s) => s.pois)
   const isLoading = pois.length === 0
 
@@ -340,27 +287,13 @@ export default function ExplorePage() {
         <AnimatedSearchBar />
       </div>
 
-      {/* 3. Services Grid (2x3) */}
-      <ServicesGrid />
+      {/* 3. Categories Grid */}
+      <CategoriesGrid />
 
       {/* 4. Hero Card */}
       <HeroCard />
 
-      {/* 5. Category Chips */}
-      <div className="relative mb-4">
-        <div className="flex gap-2 px-4 overflow-x-auto no-scrollbar">
-          {VISIBLE_CATEGORIES.map((cat) => (
-            <CategoryChip
-              key={cat}
-              category={cat}
-              onClick={() => navigate(`/search?category=${cat}`)}
-            />
-          ))}
-        </div>
-        <div className="absolute top-0 right-0 bottom-0 w-8 bg-gradient-to-l from-white to-transparent pointer-events-none" />
-      </div>
-
-      {/* 6. Popular carousel */}
+      {/* 5. Popular carousel */}
       <SectionHeader
         title={t('explore.popularPlaces')}
         linkTo="/search?sort=popular"

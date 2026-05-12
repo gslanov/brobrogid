@@ -10,6 +10,7 @@ import { FavoriteButton } from '@/shared/ui/FavoriteButton'
 import { getDB } from '@/data/db'
 import { Navigation, Phone, Share2, Search, Heart, HeartOff, Volume2, VolumeX } from 'lucide-react'
 import { resetScroll } from '@/shared/lib/utils'
+import { trackEvent } from '@/shared/lib/tracking'
 import type { Review } from '@/data/types'
 import { POIDetailView } from '@/features/poi/components/POIDetailView'
 import { useTTS } from '@/shared/hooks/useTTS'
@@ -55,10 +56,8 @@ export default function POIDetailPage() {
     return () => observer.disconnect()
   }, [poi])
 
-  const ttsCategories = ['attractions', 'culture', 'nature']
-  const ttsLang = lang === 'ru' ? 'ru-RU' : 'en-US'
-  const ttsText = poi?.description?.full?.[lang] ?? ''
-  const { speaking, toggle: toggleTTS, supported: ttsSupported } = useTTS(ttsText, ttsLang)
+  const ttsCategories = ['attractions', 'culture', 'nature', 'springs']
+  const { speaking, toggle: toggleTTS, supported: ttsSupported } = useTTS(poi?.id ?? '', poi?.category ?? '')
 
   const nearbyPois = useMemo(() => {
     if (!poi) return []
@@ -99,17 +98,23 @@ export default function POIDetailPage() {
   const actionsSlot = (
     <div ref={actionsRef} className="flex gap-2 overflow-x-auto no-scrollbar pb-1">
       <button
-        onClick={() => window.open(`https://www.google.com/maps/dir/?api=1&destination=${poi.location.lat},${poi.location.lng}`)}
-        className="flex items-center gap-1.5 px-4 h-12 bg-gray-100 rounded-full text-sm font-medium flex-shrink-0"
+        onClick={() => {
+          trackEvent('directions', poi.id)
+          window.open(`https://www.google.com/maps/dir/?api=1&destination=${poi.location.lat},${poi.location.lng}`)
+        }}
+        className="flex items-center gap-1 px-3 h-10 bg-gray-100 rounded-full text-xs font-medium flex-shrink-0"
       >
-        <Navigation size={16} /> {t('poi.directions')}
+        <Navigation size={14} /> {t('poi.directions')}
       </button>
       {poi.phone && (
-        <a href={`tel:${poi.phone}`} className="flex items-center gap-1.5 px-4 h-12 bg-green-50 text-green-700 rounded-full text-sm font-medium flex-shrink-0">
-          <Phone size={16} /> {t('poi.call')}
+        <a
+          href={`tel:${poi.phone}`}
+          onClick={() => trackEvent('call', poi.id)}
+          className="flex items-center gap-1 px-3 h-10 bg-green-50 text-green-700 rounded-full text-xs font-medium flex-shrink-0"
+        >
+          <Phone size={14} /> {t('poi.call')}
         </a>
       )}
-      <FavoriteButton poiId={poi.id} />
       <button
         onClick={async () => {
           if (navigator.share) {
@@ -121,25 +126,24 @@ export default function POIDetailPage() {
             toast.show(t('common.copied', 'Link copied'), { type: 'success' })
           }
         }}
-        className="flex items-center gap-1.5 px-4 h-12 bg-gray-100 rounded-full text-sm font-medium flex-shrink-0"
+        className="flex items-center gap-1 px-3 h-10 bg-gray-100 rounded-full text-xs font-medium flex-shrink-0"
       >
-        <Share2 size={16} /> {t('poi.share')}
+        <Share2 size={14} /> {t('poi.share')}
       </button>
       {ttsSupported && ttsCategories.includes(poi.category) && (
         <button
           onClick={toggleTTS}
-          className={`flex items-center gap-1.5 px-4 h-12 rounded-full text-sm font-medium flex-shrink-0 transition-colors ${
+          className={`flex items-center gap-1 px-3 h-10 rounded-full text-xs font-medium flex-shrink-0 transition-colors ${
             speaking
               ? 'bg-[var(--color-primary)] text-white'
               : 'bg-gray-100 text-[var(--color-text)]'
           }`}
           aria-label={speaking ? t('poi.stopAudio', 'Остановить') : t('poi.playAudio', 'Слушать')}
         >
-          {speaking ? <VolumeX size={16} /> : <Volume2 size={16} />}
+          {speaking ? <VolumeX size={14} /> : <Volume2 size={14} />}
           {speaking ? t('poi.stopAudio', 'Стоп') : t('poi.playAudio', 'Слушать')}
         </button>
       )}
-
     </div>
   )
 

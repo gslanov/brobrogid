@@ -16,6 +16,8 @@ const ALL_CATEGORIES: POICategory[] = [
   'shopping',
   'activities',
   'practical',
+  'tours',
+  'springs',
 ]
 
 const PRICE_LEVEL_LABELS: Record<number, string> = {

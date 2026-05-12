@@ -6,7 +6,7 @@
   "tabs": {
     "home": "Home",
     "map": "Map",
-    "tours": "Tourism",
+    "sos": "SOS",
     "profile": "Profile"
   },
   "categories": {
@@ -19,7 +19,8 @@
     "transport": "Transport",
     "activities": "Activities",
     "practical": "Practical Info",
-    "tours": "Tourism"
+    "tours": "Tours",
+    "springs": "Springs of Ossetia"
   },
   "explore": {
     "quickEmergency": "Emergency",
@@ -391,7 +392,9 @@
         "shopping": "Shopping",
         "transport": "Transport",
         "activities": "Activities",
-        "practical": "Practical"
+        "practical": "Practical",
+        "tours": "Tours",
+        "springs": "Springs of Ossetia"
       },
       "form": {
         "basicInfo": "Basic Info",

@@ -10,6 +10,7 @@ import {
   Mountain,
   Info,
   Compass,
+  Droplets,
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
@@ -24,6 +25,7 @@ export const CATEGORY_COLORS: Record<POICategory, string> = {
   activities: '#f97316',
   practical: '#14b8a6',
   tours: '#0ea5e9',
+  springs: '#0891b2',
 }
 
 export const CATEGORY_ICONS: Record<POICategory, LucideIcon> = {
@@ -37,6 +39,7 @@ export const CATEGORY_ICONS: Record<POICategory, LucideIcon> = {
   activities: Mountain,
   practical: Info,
   tours: Compass,
+  springs: Droplets,
 }
 
 /** Short text labels for map markers where SVG components cannot be used */
@@ -51,6 +54,7 @@ export const CATEGORY_MAP_LABELS: Record<POICategory, string> = {
   activities: 'X',
   practical: 'i',
   tours: 'T',
+  springs: 'W',
 }
 
 export function formatPrice(price: number): string {

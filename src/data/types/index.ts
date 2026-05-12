@@ -20,6 +20,7 @@ export type POICategory =
   | 'activities'
   | 'practical'
   | 'tours'
+  | 'springs'
 
 export type CuisineType = 'national' | 'european' | 'mixed'
 
@@ -144,4 +145,6 @@ export interface UserPreferences {
   language: 'ru' | 'en'
   visitedPois: string[]
   subscription?: Subscription
+  directionsCounts: Record<string, number>
+  callsCounts: Record<string, number>
 }

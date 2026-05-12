@@ -23,6 +23,7 @@ dist-ssr
 .claude/
 CLAUDE.md
 error.md
+memory/
 
 # Editor directories and files
 .vscode/*

@@ -11,7 +11,7 @@ import { FilterSheet, type Filters } from '@/features/search/components/FilterSh
 import type { POI, POICategory } from '@/data/types'
 import { Search, X } from 'lucide-react'
 
-const ALL_CATEGORIES: POICategory[] = ['attractions', 'food', 'nature', 'culture', 'accommodation', 'shopping', 'activities', 'practical']
+const ALL_CATEGORIES: POICategory[] = ['attractions', 'food', 'nature', 'culture', 'accommodation', 'shopping', 'activities', 'practical', 'springs']
 const SORT_OPTIONS = ['relevance', 'rating', 'popularity'] as const
 type SortOption = typeof SORT_OPTIONS[number]
 

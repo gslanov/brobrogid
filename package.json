@@ -15,6 +15,7 @@
     "build:seo": "npm run build && npm run prerender && npm run sitemap"
   },
   "dependencies": {
+    "@capacitor-community/text-to-speech": "^8.0.0",
     "@capacitor/android": "^8.3.1",
     "@capacitor/app": "^8.1.0",
     "@capacitor/cli": "^8.3.1",

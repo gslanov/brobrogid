@@ -18,6 +18,8 @@ interface DataState {
 const DEFAULT_PREFS: UserPreferences = {
   language: 'ru',
   visitedPois: [],
+  directionsCounts: {},
+  callsCounts: {},
 }
 
 export const useDataStore = create<DataState>((set, get) => ({

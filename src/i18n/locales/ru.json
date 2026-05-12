@@ -6,7 +6,7 @@
   "tabs": {
     "home": "Главная",
     "map": "Карта",
-    "tours": "Туризм",
+    "sos": "SOS",
     "profile": "Профиль"
   },
   "categories": {
@@ -19,7 +19,8 @@
     "transport": "Транспорт",
     "activities": "Активности",
     "practical": "Полезное",
-    "tours": "Туризм"
+    "tours": "Туры",
+    "springs": "Источники Осетии"
   },
   "explore": {
     "quickEmergency": "Экстренные",
@@ -336,7 +337,7 @@
       "dashboard": "Главная",
       "pois": "Точки интереса",
       "menuItems": "Пункты меню",
-      "tours": "Туризм",
+      "tours": "Туры",
       "guides": "Гиды",
       "reviews": "Отзывы",
       "emergency": "Экстренные",
@@ -363,7 +364,7 @@
       "entities": {
         "pois": "Точки интереса",
         "menuItems": "Пункты меню",
-        "tours": "Туризм",
+        "tours": "Туры",
         "guides": "Гиды",
         "reviews": "Отзывы",
         "emergency": "Экстренные контакты",
@@ -405,7 +406,9 @@
         "shopping": "Магазины",
         "transport": "Транспорт",
         "activities": "Активности",
-        "practical": "Полезное"
+        "practical": "Полезное",
+        "tours": "Туры",
+        "springs": "Источники Осетии"
       },
       "form": {
         "basicInfo": "Основная информация",
