@@ -15,12 +15,12 @@ export type POICategory =
   | 'accommodation'
   | 'nature'
   | 'culture'
-  | 'shopping'
+  | 'museums'
+
   | 'transport'
   | 'activities'
   | 'practical'
   | 'tours'
-  | 'springs'
 
 export type CuisineType = 'national' | 'european' | 'mixed'
 
@@ -147,4 +147,21 @@ export interface UserPreferences {
   subscription?: Subscription
   directionsCounts: Record<string, number>
   callsCounts: Record<string, number>
+}
+
+export interface Event {
+  id: string
+  title: string
+  description: string
+  date: string
+  endDate?: string
+  time?: string
+  image: string
+  venue: string
+  address?: string
+  price?: string
+  category?: string
+  source: 'gorodzovet' | 'afishagoroda' | 'manual'
+  sourceUrl: string
+  fetchedAt: string
 }

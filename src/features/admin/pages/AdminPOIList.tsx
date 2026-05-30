@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useEffect } from 'react'
+import { useNavigate, useSearchParams } from 'react-router-dom'
 import { Plus } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { useAdminData } from '../hooks/useAdminData'
@@ -13,11 +13,11 @@ const ALL_CATEGORIES: POICategory[] = [
   'accommodation',
   'nature',
   'culture',
-  'shopping',
+  'museums',
+
   'activities',
   'practical',
   'tours',
-  'springs',
 ]
 
 const PRICE_LEVEL_LABELS: Record<number, string> = {
@@ -31,7 +31,33 @@ export default function AdminPOIList() {
   const navigate = useNavigate()
   const { t } = useTranslation()
   const { items, isLoading, remove } = useAdminData<POI>('pois')
-  const [activeCategory, setActiveCategory] = useState<POICategory | null>(null)
+  const [searchParams, setSearchParams] = useSearchParams()
+  const activeCategory = (searchParams.get('category') as POICategory) || null
+
+  function setActiveCategory(cat: POICategory | null) {
+    sessionStorage.removeItem(`admin-pois-table-${activeCategory ?? 'all'}`)
+    if (cat) {
+      setSearchParams({ category: cat }, { replace: true })
+    } else {
+      setSearchParams({}, { replace: true })
+    }
+  }
+
+  useEffect(() => {
+    if (isLoading) return
+    const saved = sessionStorage.getItem('admin-pois-scroll')
+    if (saved) {
+      const main = document.querySelector('main')
+      if (main) main.scrollTop = parseInt(saved, 10)
+      sessionStorage.removeItem('admin-pois-scroll')
+    }
+  }, [isLoading])
+
+  function handleEdit(poi: POI) {
+    const main = document.querySelector('main')
+    if (main) sessionStorage.setItem('admin-pois-scroll', String(main.scrollTop))
+    navigate(`/admin/pois/${poi.id}${activeCategory ? `?from=${activeCategory}` : ''}`)
+  }
 
   const filtered =
     activeCategory === null
@@ -153,12 +179,14 @@ export default function AdminPOIList() {
         <div className="py-16 text-center text-gray-400 text-sm">{t('admin.common.loading')}</div>
       ) : (
         <AdminTable<POI>
+          key={`admin-pois-table-${activeCategory ?? 'all'}`}
           columns={COLUMNS}
           data={filtered}
           searchKeys={['name.ru', 'name.en', 'subcategory', 'tags']}
           searchPlaceholder={t('admin.pois.searchPlaceholder')}
           emptyMessage={t('admin.pois.emptyMessage')}
-          onEdit={(poi) => navigate(`/admin/pois/${poi.id}`)}
+          onEdit={handleEdit}
+          storageKey={`admin-pois-table-${activeCategory ?? 'all'}`}
           onDelete={(poi) => remove(poi.id)}
           getId={(poi) => poi.id}
         />

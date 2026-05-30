@@ -10,16 +10,17 @@ import { POICardSkeleton } from '@/shared/ui/Skeleton'
 import { SEO } from '@/shared/ui/SEO'
 import { JsonLd } from '@/shared/ui/JsonLd'
 import { CATEGORY_COLORS, CATEGORY_ICONS } from '@/shared/lib/utils'
-import type { POICategory } from '@/data/types'
+import type { POI, POICategory } from '@/data/types'
 
 const POI_CATEGORIES: POICategory[] = [
   'attractions',
   'food',
+  'accommodation',
   'nature',
   'culture',
+  'museums',
   'activities',
-  'shopping',
-  'springs',
+
   'tours',
 ]
 
@@ -206,7 +207,7 @@ function CardCarousel({ children }: { children: React.ReactNode }) {
 /* ── Contextual section logic ── */
 function getContextualConfig(): {
   titleKey: string
-  filter: (pois: any[]) => any[]
+  filter: (pois: POI[]) => POI[]
 } {
   const hour = new Date().getHours()
   const day = new Date().getDay()

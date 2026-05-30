@@ -3,9 +3,18 @@
     "name": "BROBROGID",
     "tagline": "Vladikavkaz Travel Guide"
   },
+  "afisha": {
+    "title": "Events",
+    "subtitle": "What's on in Vladikavkaz",
+    "empty": "No events yet",
+    "emptyHint": "Concerts, exhibitions and events coming soon",
+    "goToSource": "More details",
+    "source": "Source"
+  },
   "tabs": {
     "home": "Home",
     "map": "Map",
+    "afisha": "Events",
     "sos": "SOS",
     "profile": "Profile"
   },
@@ -15,12 +24,12 @@
     "accommodation": "Accommodation",
     "nature": "Nature",
     "culture": "Culture & History",
+    "museums": "Museums",
     "shopping": "Shopping",
     "transport": "Transport",
     "activities": "Activities",
     "practical": "Practical Info",
-    "tours": "Tours",
-    "springs": "Springs of Ossetia"
+    "tours": "Tours"
   },
   "explore": {
     "quickEmergency": "Emergency",
@@ -328,7 +337,8 @@
       "reviews": "Reviews",
       "emergency": "Emergency",
       "transport": "Transport",
-      "export": "Export"
+      "export": "Export",
+      "afisha": "Events"
     },
     "login": {
       "signIn": "Sign In",
@@ -389,12 +399,12 @@
         "accommodation": "Accommodation",
         "nature": "Nature",
         "culture": "Culture",
+        "museums": "Museums",
         "shopping": "Shopping",
         "transport": "Transport",
         "activities": "Activities",
         "practical": "Practical",
-        "tours": "Tours",
-        "springs": "Springs of Ossetia"
+        "tours": "Tours"
       },
       "form": {
         "basicInfo": "Basic Info",

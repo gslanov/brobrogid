@@ -3,24 +3,33 @@
     "name": "BROBROGID",
     "tagline": "Гид по Владикавказу"
   },
+  "afisha": {
+    "title": "Афиша",
+    "subtitle": "События Владикавказа",
+    "empty": "Событий пока нет",
+    "emptyHint": "Скоро появятся концерты, выставки и мероприятия",
+    "goToSource": "Подробнее на сайте",
+    "source": "Источник"
+  },
   "tabs": {
     "home": "Главная",
     "map": "Карта",
+    "afisha": "Афиша",
     "sos": "SOS",
     "profile": "Профиль"
   },
   "categories": {
     "attractions": "Достопримечательности",
-    "food": "Еда и напитки",
+    "food": "Кафе и рестораны",
     "accommodation": "Жильё",
     "nature": "Природа",
     "culture": "Культура и история",
+    "museums": "Музеи",
     "shopping": "Магазины",
     "transport": "Транспорт",
     "activities": "Активности",
     "practical": "Полезное",
-    "tours": "Туры",
-    "springs": "Источники Осетии"
+    "tours": "Туры"
   },
   "explore": {
     "quickEmergency": "Экстренные",
@@ -342,7 +351,8 @@
       "reviews": "Отзывы",
       "emergency": "Экстренные",
       "transport": "Транспорт",
-      "export": "Экспорт"
+      "export": "Экспорт",
+      "afisha": "Афиша"
     },
     "login": {
       "signIn": "Войти",
@@ -399,16 +409,16 @@
       },
       "categories": {
         "attractions": "Достопримечательности",
-        "food": "Еда и напитки",
+        "food": "Кафе и рестораны",
         "accommodation": "Жильё",
         "nature": "Природа",
         "culture": "Культура",
+        "museums": "Музеи",
         "shopping": "Магазины",
         "transport": "Транспорт",
         "activities": "Активности",
         "practical": "Полезное",
-        "tours": "Туры",
-        "springs": "Источники Осетии"
+        "tours": "Туры"
       },
       "form": {
         "basicInfo": "Основная информация",
