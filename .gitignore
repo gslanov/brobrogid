@@ -15,15 +15,11 @@ dist
 dist-ssr
 *.local
 
-# Firebase service account keys (NEVER commit these)
-*-firebase-adminsdk-*.json
-
 # Agent directories
 .agent/
 .claude/
 CLAUDE.md
 error.md
-memory/
 
 # Editor directories and files
 .vscode/*

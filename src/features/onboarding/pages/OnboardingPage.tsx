@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Geolocation } from '@capacitor/geolocation'
 import type { POICategory } from '@/data/types'
 import { CATEGORY_ICONS } from '@/shared/lib/utils'
 import { Mountain as MountainIcon, MapPin } from 'lucide-react'
@@ -14,6 +13,7 @@ const INTEREST_OPTIONS: { key: POICategory; icon: LucideIcon }[] = [
   { key: 'nature', icon: CATEGORY_ICONS.nature },
   { key: 'culture', icon: CATEGORY_ICONS.culture },
   { key: 'activities', icon: CATEGORY_ICONS.activities },
+  { key: 'nightlife', icon: CATEGORY_ICONS.nightlife },
 ]
 
 export default function OnboardingPage() {
@@ -32,14 +32,11 @@ export default function OnboardingPage() {
     navigate('/', { replace: true })
   }
 
-  const requestLocation = async () => {
-    try {
-      await Geolocation.requestPermissions()
-      await Geolocation.getCurrentPosition()
-    } catch (_) {
-      // permission denied or error — proceed anyway
-    }
-    complete()
+  const requestLocation = () => {
+    navigator.geolocation?.getCurrentPosition(
+      () => complete(),
+      () => complete(),
+    )
   }
 
   return (
@@ -76,12 +73,12 @@ export default function OnboardingPage() {
                 <button
                   key={key}
                   onClick={() => toggleInterest(key)}
-                  className={`flex flex-col items-center justify-center gap-2 p-4 rounded-2xl border-2 transition-colors text-center min-h-[88px] ${
+                  className={`flex items-center gap-3 p-4 rounded-2xl border-2 transition-colors text-left ${
                     interests.includes(key) ? 'border-[var(--color-primary)] bg-[var(--color-primary-light)]' : 'border-gray-200'
                   }`}
                 >
                   {(() => { const Icon = icon; return <Icon size={24} /> })()}
-                  <span className="text-sm font-medium leading-tight break-words w-full">{t(`categories.${key}`)}</span>
+                  <span className="text-sm font-medium">{t(`categories.${key}`)}</span>
                 </button>
               ))}
             </div>

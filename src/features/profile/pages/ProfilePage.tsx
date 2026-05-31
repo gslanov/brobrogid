@@ -1,11 +1,9 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 import { useDataStore } from '@/data/stores/data-store'
-import { Globe, Heart, Info, Siren, Star, Bell, Clock, MessageCircle, Navigation, Phone } from 'lucide-react'
+import { Globe, Heart, Info, Siren, Star, Bell, Clock, MessageCircle } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
-import { fetchStats } from '@/shared/lib/tracking'
-import type { TrackStats } from '@/shared/lib/tracking'
 
 function SectionLabel({ label }: { label: string }) {
   return (
@@ -43,88 +41,13 @@ function LangToggle({ currentLang, onToggle }: { currentLang: string; onToggle: 
   )
 }
 
-function StatsSection({ lang }: { lang: 'ru' | 'en' }) {
-  const pois = useDataStore((s) => s.pois)
-  const [stats, setStats] = useState<TrackStats>({ directions: {}, calls: {} })
-
-  useEffect(() => {
-    fetchStats().then(setStats)
-  }, [])
-
-  const top = (counts: Record<string, number>, limit = 50) =>
-    Object.entries(counts)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, limit)
-      .map(([id, count]) => ({
-        count,
-        name: pois.find((p) => p.id === id)?.name[lang] || id,
-      }))
-
-  const totalDirections = Object.values(stats.directions).reduce((s, n) => s + n, 0)
-  const totalCalls = Object.values(stats.calls).reduce((s, n) => s + n, 0)
-
-  if (totalDirections === 0 && totalCalls === 0) return null
-
-  return (
-    <div className="mt-2">
-      <div className="px-4 pt-5 pb-1.5">
-        <span className="text-xs font-semibold text-[var(--color-text-secondary)] uppercase tracking-wide">Аналитика</span>
-      </div>
-      <div className="bg-white border-b border-[var(--color-border)]">
-        {/* Totals */}
-        <div className="flex divide-x divide-[var(--color-border)] border-b border-[var(--color-border)]">
-          <div className="flex-1 py-4 flex flex-col items-center gap-1">
-            <Navigation size={18} className="text-[var(--color-primary)]" />
-            <p className="text-xl font-bold text-[var(--color-primary)]">{totalDirections}</p>
-            <p className="text-xs text-[var(--color-text-secondary)]">Маршрутов</p>
-          </div>
-          <div className="flex-1 py-4 flex flex-col items-center gap-1">
-            <Phone size={18} className="text-green-600" />
-            <p className="text-xl font-bold text-green-600">{totalCalls}</p>
-            <p className="text-xs text-[var(--color-text-secondary)]">Звонков</p>
-          </div>
-        </div>
-
-        {/* Top by directions */}
-        {top(stats.directions).length > 0 && (
-          <div className="px-4 py-3 border-b border-[var(--color-border)]">
-            <p className="text-xs font-semibold text-[var(--color-text-secondary)] mb-2 flex items-center gap-1"><Navigation size={12} /> Топ по маршрутам</p>
-            {top(stats.directions).map(({ name, count }, i) => (
-              <div key={i} className="flex items-center justify-between py-1">
-                <span className="text-sm text-[var(--color-text)] truncate flex-1">{i + 1}. {name}</span>
-                <span className="text-sm font-semibold text-[var(--color-primary)] ml-2">{count}</span>
-              </div>
-            ))}
-          </div>
-        )}
-
-        {/* Top by calls */}
-        {top(stats.calls).length > 0 && (
-          <div className="px-4 py-3">
-            <p className="text-xs font-semibold text-[var(--color-text-secondary)] mb-2 flex items-center gap-1"><Phone size={12} /> Топ по звонкам</p>
-            {top(stats.calls).map(({ name, count }, i) => (
-              <div key={i} className="flex items-center justify-between py-1">
-                <span className="text-sm text-[var(--color-text)] truncate flex-1">{i + 1}. {name}</span>
-                <span className="text-sm font-semibold text-green-600 ml-2">{count}</span>
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
-    </div>
-  )
-}
-
 export default function ProfilePage() {
   const { t, i18n } = useTranslation()
   const navigate = useNavigate()
   const collections = useDataStore((s) => s.collections)
-  const visitedIds = useDataStore((s) => s.userPrefs.visitedPois)
   const setLanguage = useDataStore((s) => s.setLanguage)
   const favCount = collections.find((c) => c.id === 'favorites')?.poiIds.length || 0
-  const visitedCount = visitedIds.length
   const [showAbout, setShowAbout] = useState(false)
-  const lang = i18n.language as 'ru' | 'en'
 
   const toggleLang = () => {
     const newLang = i18n.language === 'ru' ? 'en' : 'ru'
@@ -152,14 +75,11 @@ export default function ProfilePage() {
             <p className="text-xs text-[var(--color-text-secondary)]">{t('saved.title')}</p>
           </div>
           <div className="text-center">
-            <p className="text-xl font-bold text-[var(--color-accent)]">{visitedCount}</p>
+            <p className="text-xl font-bold text-[var(--color-accent)]">0</p>
             <p className="text-xs text-[var(--color-text-secondary)]">{t('profile.visited')}</p>
           </div>
         </div>
       </div>
-
-      {/* Analytics */}
-      <StatsSection lang={lang} />
 
       {/* Section: My */}
       <SectionLabel label={t('profile.sectionMy')} />

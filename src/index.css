@@ -149,6 +149,7 @@ body {
 .cat-nature { --cat-color: #10b981; }
 .cat-culture { --cat-color: #3b82f6; }
 .cat-shopping { --cat-color: #ec4899; }
+.cat-nightlife { --cat-color: #6366f1; }
 .cat-transport { --cat-color: #64748b; }
 .cat-activities { --cat-color: #f97316; }
 .cat-practical { --cat-color: #14b8a6; }
@@ -165,11 +166,6 @@ button:active:not([data-nav-tab]), [role="button"]:active {
   transform: scale(0.97);
   opacity: 0.9;
   transition: transform var(--duration-micro) ease-out;
-}
-
-/* Disable scroll anchoring so navigation always starts at top */
-#scroll-root {
-  overflow-anchor: none;
 }
 
 /* Reduced motion */

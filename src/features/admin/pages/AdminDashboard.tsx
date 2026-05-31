@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import {
   MapPin,
+  UtensilsCrossed,
+  Route,
+  Users,
   MessageSquare,
   Phone,
   Bus,
@@ -15,6 +18,9 @@ import { getDB } from '@/data/db'
 
 interface Counts {
   pois: number
+  menuItems: number
+  tours: number
+  guides: number
   reviews: number
   emergency: number
   transport: number
@@ -37,6 +43,30 @@ const ENTITY_CARDS: EntityCard[] = [
     to: '/admin/pois',
     color: 'text-blue-600',
     bgColor: 'bg-blue-50',
+  },
+  {
+    labelKey: 'admin.dashboard.entities.menuItems',
+    key: 'menuItems',
+    icon: <UtensilsCrossed size={22} />,
+    to: '/admin/menu-items',
+    color: 'text-amber-600',
+    bgColor: 'bg-amber-50',
+  },
+  {
+    labelKey: 'admin.dashboard.entities.tours',
+    key: 'tours',
+    icon: <Route size={22} />,
+    to: '/admin/tours',
+    color: 'text-green-600',
+    bgColor: 'bg-green-50',
+  },
+  {
+    labelKey: 'admin.dashboard.entities.guides',
+    key: 'guides',
+    icon: <Users size={22} />,
+    to: '/admin/guides',
+    color: 'text-purple-600',
+    bgColor: 'bg-purple-50',
   },
   {
     labelKey: 'admin.dashboard.entities.reviews',
@@ -68,6 +98,9 @@ export default function AdminDashboard() {
   const { t } = useTranslation()
   const [counts, setCounts] = useState<Counts>({
     pois: 0,
+    menuItems: 0,
+    tours: 0,
+    guides: 0,
     reviews: 0,
     emergency: 0,
     transport: 0,
@@ -78,13 +111,16 @@ export default function AdminDashboard() {
   async function loadCounts() {
     try {
       const db = await getDB()
-      const [pois, reviews, emergency, transport] = await Promise.all([
+      const [pois, menuItems, tours, guides, reviews, emergency, transport] = await Promise.all([
         db.count('pois'),
+        db.count('menuItems'),
+        db.count('tours'),
+        db.count('guides'),
         db.count('reviews'),
         db.count('emergency'),
         db.count('transport'),
       ])
-      setCounts({ pois, reviews, emergency, transport })
+      setCounts({ pois, menuItems, tours, guides, reviews, emergency, transport })
     } catch (err) {
       console.error('AdminDashboard: failed to load counts', err)
     } finally {
@@ -100,13 +136,16 @@ export default function AdminDashboard() {
   async function handleExport() {
     try {
       const db = await getDB()
-      const [pois, reviews, emergency, transport] = await Promise.all([
+      const [pois, menuItems, tours, guides, reviews, emergency, transport] = await Promise.all([
         db.getAll('pois'),
+        db.getAll('menuItems'),
+        db.getAll('tours'),
+        db.getAll('guides'),
         db.getAll('reviews'),
         db.getAll('emergency'),
         db.getAll('transport'),
       ])
-      const data = { pois, reviews, emergency, transport, exportedAt: new Date().toISOString() }
+      const data = { pois, menuItems, tours, guides, reviews, emergency, transport, exportedAt: new Date().toISOString() }
       const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })
       const url = URL.createObjectURL(blob)
       const a = document.createElement('a')

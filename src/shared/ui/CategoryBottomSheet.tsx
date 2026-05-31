@@ -6,7 +6,7 @@ import { CATEGORY_COLORS, CATEGORY_ICONS } from '@/shared/lib/utils'
 
 const ALL_CATEGORIES: POICategory[] = [
   'attractions', 'food', 'nature', 'culture', 'activities',
-  'shopping', 'transport', 'accommodation', 'practical',
+  'shopping', 'nightlife', 'transport', 'accommodation', 'practical',
 ]
 
 interface CategoryBottomSheetProps {

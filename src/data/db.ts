@@ -1,13 +1,16 @@
 import { openDB, type DBSchema, type IDBPDatabase } from 'idb'
-import type { POI, Tour, Review, EmergencyContact, TransportRoute, Collection, UserPreferences } from './types'
+import type { POI, MenuItem, Tour, Guide, Review, EmergencyContact, TransportRoute, Collection, Order, UserPreferences } from './types'
 
 interface BrobrogidDB extends DBSchema {
   pois: { key: string; value: POI; indexes: { 'by-category': string; 'by-slug': string } }
-  tours: { key: string; value: Tour; indexes: { 'by-status': string } }
+  menuItems: { key: string; value: MenuItem; indexes: { 'by-poi': string } }
+  tours: { key: string; value: Tour; indexes: { 'by-guide': string; 'by-status': string } }
+  guides: { key: string; value: Guide }
   reviews: { key: string; value: Review; indexes: { 'by-target': [string, string] } }
   emergency: { key: string; value: EmergencyContact; indexes: { 'by-type': string } }
   transport: { key: string; value: TransportRoute }
   collections: { key: string; value: Collection }
+  orders: { key: string; value: Order; indexes: { 'by-status': string } }
   userPrefs: { key: string; value: UserPreferences }
 }
 
@@ -16,10 +19,10 @@ let dbInstance: IDBPDatabase<BrobrogidDB> | null = null
 export async function getDB() {
   if (dbInstance) return dbInstance
 
-  dbInstance = await openDB<BrobrogidDB>('brobrogid', 31, {
+  dbInstance = await openDB<BrobrogidDB>('brobrogid', 3, {
     upgrade(db, oldVersion) {
       // Wipe all stores on version bump to re-seed with fresh data
-      if (oldVersion < 31) {
+      if (oldVersion < 3) {
         for (const name of db.objectStoreNames) {
           db.deleteObjectStore(name)
         }
@@ -28,8 +31,14 @@ export async function getDB() {
       poiStore.createIndex('by-category', 'category')
       poiStore.createIndex('by-slug', 'slug')
 
+      const menuStore = db.createObjectStore('menuItems', { keyPath: 'id' })
+      menuStore.createIndex('by-poi', 'poiId')
+
       const tourStore = db.createObjectStore('tours', { keyPath: 'id' })
+      tourStore.createIndex('by-guide', 'guideId')
       tourStore.createIndex('by-status', 'status')
+
+      db.createObjectStore('guides', { keyPath: 'id' })
 
       const reviewStore = db.createObjectStore('reviews', { keyPath: 'id' })
       reviewStore.createIndex('by-target', ['targetType', 'targetId'])
@@ -39,6 +48,10 @@ export async function getDB() {
 
       db.createObjectStore('transport', { keyPath: 'id' })
       db.createObjectStore('collections', { keyPath: 'id' })
+
+      const orderStore = db.createObjectStore('orders', { keyPath: 'id' })
+      orderStore.createIndex('by-status', 'status')
+
       db.createObjectStore('userPrefs', { keyPath: 'language' })
     },
   })

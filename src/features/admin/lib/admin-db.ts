@@ -2,11 +2,14 @@ import { getDB } from '@/data/db'
 
 type StoreName =
   | 'pois'
+  | 'menuItems'
   | 'tours'
+  | 'guides'
   | 'reviews'
   | 'emergency'
   | 'transport'
   | 'collections'
+  | 'orders'
 
 export async function adminGetAll<T>(storeName: StoreName): Promise<T[]> {
   const db = await getDB()

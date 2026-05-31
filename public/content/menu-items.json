@@ -1,0 +1,5645 @@
+[
+  {
+    "id": "menu-001",
+    "poiId": "poi-070",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-002",
+    "poiId": "poi-070",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-003",
+    "poiId": "poi-070",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-004",
+    "poiId": "poi-070",
+    "name": {
+      "ru": "Цахараджын (пирог со свекольной ботвой)",
+      "en": "Tsakharadjyn (beet greens pie)"
+    },
+    "description": {
+      "ru": "Оригинальный осетинский пиро�� со свекольной ботвой и сыром. Лёгкий, с травяным вкусом.",
+      "en": "Original Ossetian pie with beet greens and cheese. Light, herbal flavor."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/tsakharadjyn-beet-greens-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-005",
+    "poiId": "poi-070",
+    "name": {
+      "ru": "Насджын (пирог с тыквой)",
+      "en": "Nasdjyn (pumpkin pie)"
+    },
+    "description": {
+      "ru": "Сладковатый осетинский пирог с начинкой из тыквы. Нежная текстура.",
+      "en": "Slightly sweet Ossetian pie with pumpkin filling. Tender texture."
+    },
+    "price": 370,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/nasdjyn-pumpkin-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-006",
+    "poiId": "poi-070",
+    "name": {
+      "ru": "Лывжа (мясной суп)",
+      "en": "Lyvzha (meat soup)"
+    },
+    "description": {
+      "ru": "Наваристый осетинский суп из говядины с картофелем, луком и специями.",
+      "en": "Rich Ossetian beef soup with potatoes, onions and spices."
+    },
+    "price": 420,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/lyvzha-meat-soup.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-007",
+    "poiId": "poi-070",
+    "name": {
+      "ru": "Дзыкка (сырная каша)",
+      "en": "Dzykka (cheese porridge)"
+    },
+    "description": {
+      "ru": "Традиционная осетинская каша из пшеничной муки, свежего сыра и сметаны.",
+      "en": "Traditional Ossetian porridge of wheat flour, fresh cheese and sour cream."
+    },
+    "price": 350,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/dzykka-cheese-porridge.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-008",
+    "poiId": "poi-070",
+    "name": {
+      "ru": "Шашлык из баранины",
+      "en": "Lamb shashlik"
+    },
+    "description": {
+      "ru": "Сочный шашлык из отборной баранины, маринованной в специях. С луком и лавашом.",
+      "en": "Juicy lamb shashlik marinated in spices. With onions and lavash."
+    },
+    "price": 650,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/lamb-shashlik.webp",
+    "isPopular": true,
+    "tags": [
+      "мясо",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-009",
+    "poiId": "poi-070",
+    "name": {
+      "ru": "Цæхдон (чесночный соус)",
+      "en": "Tsakhdon (garlic sauce)"
+    },
+    "description": {
+      "ru": "Острый чесночный соус со сметаной — обязательное дополнение к пирогам.",
+      "en": "Spicy garlic sauce with sour cream — essential accompaniment to pies."
+    },
+    "price": 80,
+    "currency": "RUB",
+    "category": "Соусы",
+    "photo": "images/menu/tsakhdon-garlic-sauce.webp",
+    "isPopular": false,
+    "tags": [
+      "соус",
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-010",
+    "poiId": "poi-070",
+    "name": {
+      "ru": "Осетинское пиво (Иронæг)",
+      "en": "Ossetian beer (Ironag)"
+    },
+    "description": {
+      "ru": "Традиционное осетинское светлое пиво, сваренное по местным рецептам.",
+      "en": "Traditional Ossetian light beer brewed with local recipes."
+    },
+    "price": 250,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/ossetian-beer-ironag.webp",
+    "isPopular": true,
+    "tags": [
+      "напитки",
+      "осетинское"
+    ]
+  },
+  {
+    "id": "menu-011",
+    "poiId": "poi-071",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-012",
+    "poiId": "poi-071",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-013",
+    "poiId": "poi-071",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-014",
+    "poiId": "poi-071",
+    "name": {
+      "ru": "Цахараджын (пирог со свекольной ботвой)",
+      "en": "Tsakharadjyn (beet greens pie)"
+    },
+    "description": {
+      "ru": "Оригинальный осетинский пиро�� со свекольной ботвой и сыром. Лёгкий, с травяным вкусом.",
+      "en": "Original Ossetian pie with beet greens and cheese. Light, herbal flavor."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/tsakharadjyn-beet-greens-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-015",
+    "poiId": "poi-071",
+    "name": {
+      "ru": "Насджын (пирог с тыквой)",
+      "en": "Nasdjyn (pumpkin pie)"
+    },
+    "description": {
+      "ru": "Сладковатый осетинский пирог с начинкой из тыквы. Нежная текстура.",
+      "en": "Slightly sweet Ossetian pie with pumpkin filling. Tender texture."
+    },
+    "price": 370,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/nasdjyn-pumpkin-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-016",
+    "poiId": "poi-071",
+    "name": {
+      "ru": "Лывжа (мясной суп)",
+      "en": "Lyvzha (meat soup)"
+    },
+    "description": {
+      "ru": "Наваристый осетинский суп из говядины с картофелем, луком и специями.",
+      "en": "Rich Ossetian beef soup with potatoes, onions and spices."
+    },
+    "price": 420,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/lyvzha-meat-soup.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-017",
+    "poiId": "poi-071",
+    "name": {
+      "ru": "Дзыкка (сырная каша)",
+      "en": "Dzykka (cheese porridge)"
+    },
+    "description": {
+      "ru": "Традиционная осетинская каша из пшеничной муки, свежего сыра и сметаны.",
+      "en": "Traditional Ossetian porridge of wheat flour, fresh cheese and sour cream."
+    },
+    "price": 350,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/dzykka-cheese-porridge.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-018",
+    "poiId": "poi-071",
+    "name": {
+      "ru": "Шашлык из баранины",
+      "en": "Lamb shashlik"
+    },
+    "description": {
+      "ru": "Сочный шашлык из отборной баранины, маринованной в специях. С луком и лавашом.",
+      "en": "Juicy lamb shashlik marinated in spices. With onions and lavash."
+    },
+    "price": 650,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/lamb-shashlik.webp",
+    "isPopular": true,
+    "tags": [
+      "мясо",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-019",
+    "poiId": "poi-071",
+    "name": {
+      "ru": "Цæхдон (чесночный соус)",
+      "en": "Tsakhdon (garlic sauce)"
+    },
+    "description": {
+      "ru": "Острый чесночный соус со сметаной — обязательное дополнение к пирогам.",
+      "en": "Spicy garlic sauce with sour cream — essential accompaniment to pies."
+    },
+    "price": 80,
+    "currency": "RUB",
+    "category": "Соусы",
+    "photo": "images/menu/tsakhdon-garlic-sauce.webp",
+    "isPopular": false,
+    "tags": [
+      "соус",
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-020",
+    "poiId": "poi-071",
+    "name": {
+      "ru": "Осетинское пиво (Иронæг)",
+      "en": "Ossetian beer (Ironag)"
+    },
+    "description": {
+      "ru": "Традиционное осетинское светлое пиво, сваренное по местным рецептам.",
+      "en": "Traditional Ossetian light beer brewed with local recipes."
+    },
+    "price": 250,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/ossetian-beer-ironag.webp",
+    "isPopular": true,
+    "tags": [
+      "напитки",
+      "осетинское"
+    ]
+  },
+  {
+    "id": "menu-021",
+    "poiId": "poi-076",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-022",
+    "poiId": "poi-076",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-023",
+    "poiId": "poi-076",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-024",
+    "poiId": "poi-076",
+    "name": {
+      "ru": "Цахараджын (пирог со свекольной ботвой)",
+      "en": "Tsakharadjyn (beet greens pie)"
+    },
+    "description": {
+      "ru": "Оригинальный осетинский пиро�� со свекольной ботвой и сыром. Лёгкий, с травяным вкусом.",
+      "en": "Original Ossetian pie with beet greens and cheese. Light, herbal flavor."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/tsakharadjyn-beet-greens-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-025",
+    "poiId": "poi-076",
+    "name": {
+      "ru": "Насджын (пирог с тыквой)",
+      "en": "Nasdjyn (pumpkin pie)"
+    },
+    "description": {
+      "ru": "Сладковатый осетинский пирог с начинкой из тыквы. Нежная текстура.",
+      "en": "Slightly sweet Ossetian pie with pumpkin filling. Tender texture."
+    },
+    "price": 370,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/nasdjyn-pumpkin-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-026",
+    "poiId": "poi-076",
+    "name": {
+      "ru": "Лывжа (мясной суп)",
+      "en": "Lyvzha (meat soup)"
+    },
+    "description": {
+      "ru": "Наваристый осетинский суп из говядины с картофелем, луком и специями.",
+      "en": "Rich Ossetian beef soup with potatoes, onions and spices."
+    },
+    "price": 420,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/lyvzha-meat-soup.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-027",
+    "poiId": "poi-076",
+    "name": {
+      "ru": "Дзыкка (сырная каша)",
+      "en": "Dzykka (cheese porridge)"
+    },
+    "description": {
+      "ru": "Традиционная осетинская каша из пшеничной муки, свежего сыра и сметаны.",
+      "en": "Traditional Ossetian porridge of wheat flour, fresh cheese and sour cream."
+    },
+    "price": 350,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/dzykka-cheese-porridge.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-028",
+    "poiId": "poi-076",
+    "name": {
+      "ru": "Шашлык из баранины",
+      "en": "Lamb shashlik"
+    },
+    "description": {
+      "ru": "Сочный шашлык из отборной баранины, маринованной в специях. С луком и лавашом.",
+      "en": "Juicy lamb shashlik marinated in spices. With onions and lavash."
+    },
+    "price": 650,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/lamb-shashlik.webp",
+    "isPopular": true,
+    "tags": [
+      "мясо",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-029",
+    "poiId": "poi-076",
+    "name": {
+      "ru": "Цæхдон (чесночный соус)",
+      "en": "Tsakhdon (garlic sauce)"
+    },
+    "description": {
+      "ru": "Острый чесночный соус со сметаной — обязательное дополнение к пирогам.",
+      "en": "Spicy garlic sauce with sour cream — essential accompaniment to pies."
+    },
+    "price": 80,
+    "currency": "RUB",
+    "category": "Соусы",
+    "photo": "images/menu/tsakhdon-garlic-sauce.webp",
+    "isPopular": false,
+    "tags": [
+      "соус",
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-030",
+    "poiId": "poi-076",
+    "name": {
+      "ru": "Осетинское пиво (Иронæг)",
+      "en": "Ossetian beer (Ironag)"
+    },
+    "description": {
+      "ru": "Традиционное осетинское светлое пиво, сваренное по местным рецептам.",
+      "en": "Traditional Ossetian light beer brewed with local recipes."
+    },
+    "price": 250,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/ossetian-beer-ironag.webp",
+    "isPopular": true,
+    "tags": [
+      "напитки",
+      "осетинское"
+    ]
+  },
+  {
+    "id": "menu-031",
+    "poiId": "poi-088",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-032",
+    "poiId": "poi-088",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-033",
+    "poiId": "poi-088",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-034",
+    "poiId": "poi-088",
+    "name": {
+      "ru": "Цахараджын (пирог со свекольной ботвой)",
+      "en": "Tsakharadjyn (beet greens pie)"
+    },
+    "description": {
+      "ru": "Оригинальный осетинский пиро�� со свекольной ботвой и сыром. Лёгкий, с травяным вкусом.",
+      "en": "Original Ossetian pie with beet greens and cheese. Light, herbal flavor."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/tsakharadjyn-beet-greens-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-035",
+    "poiId": "poi-088",
+    "name": {
+      "ru": "Насджын (пирог с тыквой)",
+      "en": "Nasdjyn (pumpkin pie)"
+    },
+    "description": {
+      "ru": "Сладковатый осетинский пирог с начинкой из тыквы. Нежная текстура.",
+      "en": "Slightly sweet Ossetian pie with pumpkin filling. Tender texture."
+    },
+    "price": 370,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/nasdjyn-pumpkin-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-036",
+    "poiId": "poi-088",
+    "name": {
+      "ru": "Лывжа (мясной суп)",
+      "en": "Lyvzha (meat soup)"
+    },
+    "description": {
+      "ru": "Наваристый осетинский суп из говядины с картофелем, луком и специями.",
+      "en": "Rich Ossetian beef soup with potatoes, onions and spices."
+    },
+    "price": 420,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/lyvzha-meat-soup.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-037",
+    "poiId": "poi-088",
+    "name": {
+      "ru": "Дзыкка (сырная каша)",
+      "en": "Dzykka (cheese porridge)"
+    },
+    "description": {
+      "ru": "Традиционная осетинская каша из пшеничной муки, свежего сыра и сметаны.",
+      "en": "Traditional Ossetian porridge of wheat flour, fresh cheese and sour cream."
+    },
+    "price": 350,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/dzykka-cheese-porridge.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-038",
+    "poiId": "poi-088",
+    "name": {
+      "ru": "Шашлык из баранины",
+      "en": "Lamb shashlik"
+    },
+    "description": {
+      "ru": "Сочный шашлык из отборной баранины, маринованной в специях. С луком и лавашом.",
+      "en": "Juicy lamb shashlik marinated in spices. With onions and lavash."
+    },
+    "price": 650,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/lamb-shashlik.webp",
+    "isPopular": true,
+    "tags": [
+      "мясо",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-039",
+    "poiId": "poi-088",
+    "name": {
+      "ru": "Цæхдон (чесночный соус)",
+      "en": "Tsakhdon (garlic sauce)"
+    },
+    "description": {
+      "ru": "Острый чесночный соус со сметаной — обязательное дополнение к пирогам.",
+      "en": "Spicy garlic sauce with sour cream — essential accompaniment to pies."
+    },
+    "price": 80,
+    "currency": "RUB",
+    "category": "Соусы",
+    "photo": "images/menu/tsakhdon-garlic-sauce.webp",
+    "isPopular": false,
+    "tags": [
+      "соус",
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-040",
+    "poiId": "poi-088",
+    "name": {
+      "ru": "Осетинское пиво (Иронæг)",
+      "en": "Ossetian beer (Ironag)"
+    },
+    "description": {
+      "ru": "Традиционное осетинское светлое пиво, сваренное по местным рецептам.",
+      "en": "Traditional Ossetian light beer brewed with local recipes."
+    },
+    "price": 250,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/ossetian-beer-ironag.webp",
+    "isPopular": true,
+    "tags": [
+      "напитки",
+      "осетинское"
+    ]
+  },
+  {
+    "id": "menu-041",
+    "poiId": "poi-072",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-042",
+    "poiId": "poi-072",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-043",
+    "poiId": "poi-072",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-044",
+    "poiId": "poi-072",
+    "name": {
+      "ru": "Цахараджын (пирог со свекольной ботвой)",
+      "en": "Tsakharadjyn (beet greens pie)"
+    },
+    "description": {
+      "ru": "Оригинальный осетинский пиро�� со свекольной ботвой и сыром. Лёгкий, с травяным вкусом.",
+      "en": "Original Ossetian pie with beet greens and cheese. Light, herbal flavor."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/tsakharadjyn-beet-greens-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-045",
+    "poiId": "poi-072",
+    "name": {
+      "ru": "Насджын (пирог с тыквой)",
+      "en": "Nasdjyn (pumpkin pie)"
+    },
+    "description": {
+      "ru": "Сладковатый осетинский пирог с начинкой из тыквы. Нежная текстура.",
+      "en": "Slightly sweet Ossetian pie with pumpkin filling. Tender texture."
+    },
+    "price": 370,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/nasdjyn-pumpkin-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-046",
+    "poiId": "poi-072",
+    "name": {
+      "ru": "Цезарь с курицей",
+      "en": "Caesar salad with chicken"
+    },
+    "description": {
+      "ru": "Классический салат Цезарь с куриной грудкой, сыром пармезан и соусом.",
+      "en": "Classic Caesar salad with chicken breast, parmesan and dressing."
+    },
+    "price": 520,
+    "currency": "RUB",
+    "category": "Салаты",
+    "photo": "images/menu/caesar-salad-with-chicken.webp",
+    "isPopular": true,
+    "tags": [
+      "салат"
+    ]
+  },
+  {
+    "id": "menu-047",
+    "poiId": "poi-072",
+    "name": {
+      "ru": "��инкали",
+      "en": "Khinkali (dumplings)"
+    },
+    "description": {
+      "ru": "Грузинские пельмени с мясной начинкой и бульоном внутри. 5 штук.",
+      "en": "Georgian dumplings with meat filling and broth inside. 5 pieces."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/khinkali-dumplings.webp",
+    "isPopular": true,
+    "tags": [
+      "грузинская кухня"
+    ]
+  },
+  {
+    "id": "menu-048",
+    "poiId": "poi-072",
+    "name": {
+      "ru": "Стейк рибай",
+      "en": "Ribeye steak"
+    },
+    "description": {
+      "ru": "Стейк рибай из мраморной говядины, прожарка на выбор. С овощами гриль.",
+      "en": "Marble beef ribeye steak, doneness by choice. With grilled vegetables."
+    },
+    "price": 1800,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/ribeye-steak.webp",
+    "isPopular": true,
+    "tags": [
+      "стейк",
+      "мясо"
+    ]
+  },
+  {
+    "id": "menu-049",
+    "poiId": "poi-072",
+    "name": {
+      "ru": "Форель на гриле",
+      "en": "Grilled trout"
+    },
+    "description": {
+      "ru": "Свежая горная форель на гриле с лимоном и зеленью.",
+      "en": "Fresh mountain trout grilled with lemon and herbs."
+    },
+    "price": 850,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/grilled-trout.webp",
+    "isPopular": false,
+    "tags": [
+      "рыба",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-050",
+    "poiId": "poi-072",
+    "name": {
+      "ru": "Тирамису",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "ru": "Классический итальянский десерт с маскарпоне и кофейной пропиткой.",
+      "en": "Classic Italian dessert with mascarpone and coffee soaking."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/tiramisu.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-051",
+    "poiId": "poi-072",
+    "name": {
+      "ru": "Лимонад домашний",
+      "en": "Homemade lemonade"
+    },
+    "description": {
+      "ru": "Свежий лимонад собственного приготовления. Тархун, клубника или классический.",
+      "en": "Fresh homemade lemonade. Tarragon, strawberry or classic."
+    },
+    "price": 280,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/homemade-lemonade.webp",
+    "isPopular": false,
+    "tags": [
+      "напитки"
+    ]
+  },
+  {
+    "id": "menu-052",
+    "poiId": "poi-073",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-053",
+    "poiId": "poi-073",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-054",
+    "poiId": "poi-073",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-055",
+    "poiId": "poi-073",
+    "name": {
+      "ru": "Цахараджын (пирог со свекольной ботвой)",
+      "en": "Tsakharadjyn (beet greens pie)"
+    },
+    "description": {
+      "ru": "Оригинальный осетинский пиро�� со свекольной ботвой и сыром. Лёгкий, с травяным вкусом.",
+      "en": "Original Ossetian pie with beet greens and cheese. Light, herbal flavor."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/tsakharadjyn-beet-greens-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-056",
+    "poiId": "poi-073",
+    "name": {
+      "ru": "Насджын (пирог с тыквой)",
+      "en": "Nasdjyn (pumpkin pie)"
+    },
+    "description": {
+      "ru": "Сладковатый осетинский пирог с начинкой из тыквы. Нежная текстура.",
+      "en": "Slightly sweet Ossetian pie with pumpkin filling. Tender texture."
+    },
+    "price": 370,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/nasdjyn-pumpkin-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-057",
+    "poiId": "poi-073",
+    "name": {
+      "ru": "Цезарь с курицей",
+      "en": "Caesar salad with chicken"
+    },
+    "description": {
+      "ru": "Классический салат Цезарь с куриной грудкой, сыром пармезан и соусом.",
+      "en": "Classic Caesar salad with chicken breast, parmesan and dressing."
+    },
+    "price": 520,
+    "currency": "RUB",
+    "category": "Салаты",
+    "photo": "images/menu/caesar-salad-with-chicken.webp",
+    "isPopular": true,
+    "tags": [
+      "салат"
+    ]
+  },
+  {
+    "id": "menu-058",
+    "poiId": "poi-073",
+    "name": {
+      "ru": "��инкали",
+      "en": "Khinkali (dumplings)"
+    },
+    "description": {
+      "ru": "Грузинские пельмени с мясной начинкой и бульоном внутри. 5 штук.",
+      "en": "Georgian dumplings with meat filling and broth inside. 5 pieces."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/khinkali-dumplings.webp",
+    "isPopular": true,
+    "tags": [
+      "грузинская кухня"
+    ]
+  },
+  {
+    "id": "menu-059",
+    "poiId": "poi-073",
+    "name": {
+      "ru": "Стейк рибай",
+      "en": "Ribeye steak"
+    },
+    "description": {
+      "ru": "Стейк рибай из мраморной говядины, прожарка на выбор. С овощами гриль.",
+      "en": "Marble beef ribeye steak, doneness by choice. With grilled vegetables."
+    },
+    "price": 1800,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/ribeye-steak.webp",
+    "isPopular": true,
+    "tags": [
+      "стейк",
+      "мясо"
+    ]
+  },
+  {
+    "id": "menu-060",
+    "poiId": "poi-073",
+    "name": {
+      "ru": "Форель на гриле",
+      "en": "Grilled trout"
+    },
+    "description": {
+      "ru": "Свежая горная форель на гриле с лимоном и зеленью.",
+      "en": "Fresh mountain trout grilled with lemon and herbs."
+    },
+    "price": 850,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/grilled-trout.webp",
+    "isPopular": false,
+    "tags": [
+      "рыба",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-061",
+    "poiId": "poi-073",
+    "name": {
+      "ru": "Тирамису",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "ru": "Классический итальянский десерт с маскарпоне и кофейной пропиткой.",
+      "en": "Classic Italian dessert with mascarpone and coffee soaking."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/tiramisu.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-062",
+    "poiId": "poi-073",
+    "name": {
+      "ru": "Лимонад домашний",
+      "en": "Homemade lemonade"
+    },
+    "description": {
+      "ru": "Свежий лимонад собственного приготовления. Тархун, клубника или классический.",
+      "en": "Fresh homemade lemonade. Tarragon, strawberry or classic."
+    },
+    "price": 280,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/homemade-lemonade.webp",
+    "isPopular": false,
+    "tags": [
+      "напитки"
+    ]
+  },
+  {
+    "id": "menu-063",
+    "poiId": "poi-074",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-064",
+    "poiId": "poi-074",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-065",
+    "poiId": "poi-074",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-066",
+    "poiId": "poi-074",
+    "name": {
+      "ru": "Цахараджын (пирог со свекольной ботвой)",
+      "en": "Tsakharadjyn (beet greens pie)"
+    },
+    "description": {
+      "ru": "Оригинальный осетинский пиро�� со свекольной ботвой и сыром. Лёгкий, с травяным вкусом.",
+      "en": "Original Ossetian pie with beet greens and cheese. Light, herbal flavor."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/tsakharadjyn-beet-greens-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-067",
+    "poiId": "poi-074",
+    "name": {
+      "ru": "Насджын (пирог с тыквой)",
+      "en": "Nasdjyn (pumpkin pie)"
+    },
+    "description": {
+      "ru": "Сладковатый осетинский пирог с начинкой из тыквы. Нежная текстура.",
+      "en": "Slightly sweet Ossetian pie with pumpkin filling. Tender texture."
+    },
+    "price": 370,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/nasdjyn-pumpkin-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-068",
+    "poiId": "poi-074",
+    "name": {
+      "ru": "Цезарь с курицей",
+      "en": "Caesar salad with chicken"
+    },
+    "description": {
+      "ru": "Классический салат Цезарь с куриной грудкой, сыром пармезан и соусом.",
+      "en": "Classic Caesar salad with chicken breast, parmesan and dressing."
+    },
+    "price": 520,
+    "currency": "RUB",
+    "category": "Салаты",
+    "photo": "images/menu/caesar-salad-with-chicken.webp",
+    "isPopular": true,
+    "tags": [
+      "салат"
+    ]
+  },
+  {
+    "id": "menu-069",
+    "poiId": "poi-074",
+    "name": {
+      "ru": "��инкали",
+      "en": "Khinkali (dumplings)"
+    },
+    "description": {
+      "ru": "Грузинские пельмени с мясной начинкой и бульоном внутри. 5 штук.",
+      "en": "Georgian dumplings with meat filling and broth inside. 5 pieces."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/khinkali-dumplings.webp",
+    "isPopular": true,
+    "tags": [
+      "грузинская кухня"
+    ]
+  },
+  {
+    "id": "menu-070",
+    "poiId": "poi-074",
+    "name": {
+      "ru": "Стейк рибай",
+      "en": "Ribeye steak"
+    },
+    "description": {
+      "ru": "Стейк рибай из мраморной говядины, прожарка на выбор. С овощами гриль.",
+      "en": "Marble beef ribeye steak, doneness by choice. With grilled vegetables."
+    },
+    "price": 1800,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/ribeye-steak.webp",
+    "isPopular": true,
+    "tags": [
+      "стейк",
+      "мясо"
+    ]
+  },
+  {
+    "id": "menu-071",
+    "poiId": "poi-074",
+    "name": {
+      "ru": "Форель на гриле",
+      "en": "Grilled trout"
+    },
+    "description": {
+      "ru": "Свежая горная форель на гриле с лимоном и зеленью.",
+      "en": "Fresh mountain trout grilled with lemon and herbs."
+    },
+    "price": 850,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/grilled-trout.webp",
+    "isPopular": false,
+    "tags": [
+      "рыба",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-072",
+    "poiId": "poi-074",
+    "name": {
+      "ru": "Тирамису",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "ru": "Классический итальянский десерт с маскарпоне и кофейной пропиткой.",
+      "en": "Classic Italian dessert with mascarpone and coffee soaking."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/tiramisu.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-073",
+    "poiId": "poi-074",
+    "name": {
+      "ru": "Лимонад домашний",
+      "en": "Homemade lemonade"
+    },
+    "description": {
+      "ru": "Свежий лимонад собственного приготовления. Тархун, клубника или классический.",
+      "en": "Fresh homemade lemonade. Tarragon, strawberry or classic."
+    },
+    "price": 280,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/homemade-lemonade.webp",
+    "isPopular": false,
+    "tags": [
+      "напитки"
+    ]
+  },
+  {
+    "id": "menu-074",
+    "poiId": "poi-077",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-075",
+    "poiId": "poi-077",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-076",
+    "poiId": "poi-077",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-077",
+    "poiId": "poi-077",
+    "name": {
+      "ru": "Цахараджын (пирог со свекольной ботвой)",
+      "en": "Tsakharadjyn (beet greens pie)"
+    },
+    "description": {
+      "ru": "Оригинальный осетинский пиро�� со свекольной ботвой и сыром. Лёгкий, с травяным вкусом.",
+      "en": "Original Ossetian pie with beet greens and cheese. Light, herbal flavor."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/tsakharadjyn-beet-greens-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-078",
+    "poiId": "poi-077",
+    "name": {
+      "ru": "Насджын (пирог с тыквой)",
+      "en": "Nasdjyn (pumpkin pie)"
+    },
+    "description": {
+      "ru": "Сладковатый осетинский пирог с начинкой из тыквы. Нежная текстура.",
+      "en": "Slightly sweet Ossetian pie with pumpkin filling. Tender texture."
+    },
+    "price": 370,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/nasdjyn-pumpkin-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-079",
+    "poiId": "poi-077",
+    "name": {
+      "ru": "Цезарь с курицей",
+      "en": "Caesar salad with chicken"
+    },
+    "description": {
+      "ru": "Классический салат Цезарь с куриной грудкой, сыром пармезан и соусом.",
+      "en": "Classic Caesar salad with chicken breast, parmesan and dressing."
+    },
+    "price": 520,
+    "currency": "RUB",
+    "category": "Салаты",
+    "photo": "images/menu/caesar-salad-with-chicken.webp",
+    "isPopular": true,
+    "tags": [
+      "салат"
+    ]
+  },
+  {
+    "id": "menu-080",
+    "poiId": "poi-077",
+    "name": {
+      "ru": "��инкали",
+      "en": "Khinkali (dumplings)"
+    },
+    "description": {
+      "ru": "Грузинские пельмени с мясной начинкой и бульоном внутри. 5 штук.",
+      "en": "Georgian dumplings with meat filling and broth inside. 5 pieces."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/khinkali-dumplings.webp",
+    "isPopular": true,
+    "tags": [
+      "грузинская кухня"
+    ]
+  },
+  {
+    "id": "menu-081",
+    "poiId": "poi-077",
+    "name": {
+      "ru": "Стейк рибай",
+      "en": "Ribeye steak"
+    },
+    "description": {
+      "ru": "Стейк рибай из мраморной говядины, прожарка на выбор. С овощами гриль.",
+      "en": "Marble beef ribeye steak, doneness by choice. With grilled vegetables."
+    },
+    "price": 1800,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/ribeye-steak.webp",
+    "isPopular": true,
+    "tags": [
+      "стейк",
+      "мясо"
+    ]
+  },
+  {
+    "id": "menu-082",
+    "poiId": "poi-077",
+    "name": {
+      "ru": "Форель на гриле",
+      "en": "Grilled trout"
+    },
+    "description": {
+      "ru": "Свежая горная форель на гриле с лимоном и зеленью.",
+      "en": "Fresh mountain trout grilled with lemon and herbs."
+    },
+    "price": 850,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/grilled-trout.webp",
+    "isPopular": false,
+    "tags": [
+      "рыба",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-083",
+    "poiId": "poi-077",
+    "name": {
+      "ru": "Тирамису",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "ru": "Классический итальянский десерт с маскарпоне и кофейной пропиткой.",
+      "en": "Classic Italian dessert with mascarpone and coffee soaking."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/tiramisu.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-084",
+    "poiId": "poi-077",
+    "name": {
+      "ru": "Лимонад домашний",
+      "en": "Homemade lemonade"
+    },
+    "description": {
+      "ru": "Свежий лимонад собственного приготовления. Тархун, клубника или классический.",
+      "en": "Fresh homemade lemonade. Tarragon, strawberry or classic."
+    },
+    "price": 280,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/homemade-lemonade.webp",
+    "isPopular": false,
+    "tags": [
+      "напитки"
+    ]
+  },
+  {
+    "id": "menu-085",
+    "poiId": "poi-080",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-086",
+    "poiId": "poi-080",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-087",
+    "poiId": "poi-080",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-088",
+    "poiId": "poi-080",
+    "name": {
+      "ru": "Цахараджын (пирог со свекольной ботвой)",
+      "en": "Tsakharadjyn (beet greens pie)"
+    },
+    "description": {
+      "ru": "Оригинальный осетинский пиро�� со свекольной ботвой и сыром. Лёгкий, с травяным вкусом.",
+      "en": "Original Ossetian pie with beet greens and cheese. Light, herbal flavor."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/tsakharadjyn-beet-greens-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-089",
+    "poiId": "poi-080",
+    "name": {
+      "ru": "Насджын (пирог с тыквой)",
+      "en": "Nasdjyn (pumpkin pie)"
+    },
+    "description": {
+      "ru": "Сладковатый осетинский пирог с начинкой из тыквы. Нежная текстура.",
+      "en": "Slightly sweet Ossetian pie with pumpkin filling. Tender texture."
+    },
+    "price": 370,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/nasdjyn-pumpkin-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-090",
+    "poiId": "poi-080",
+    "name": {
+      "ru": "Цезарь с курицей",
+      "en": "Caesar salad with chicken"
+    },
+    "description": {
+      "ru": "Классический салат Цезарь с куриной грудкой, сыром пармезан и соусом.",
+      "en": "Classic Caesar salad with chicken breast, parmesan and dressing."
+    },
+    "price": 520,
+    "currency": "RUB",
+    "category": "Салаты",
+    "photo": "images/menu/caesar-salad-with-chicken.webp",
+    "isPopular": true,
+    "tags": [
+      "салат"
+    ]
+  },
+  {
+    "id": "menu-091",
+    "poiId": "poi-080",
+    "name": {
+      "ru": "��инкали",
+      "en": "Khinkali (dumplings)"
+    },
+    "description": {
+      "ru": "Грузинские пельмени с мясной начинкой и бульоном внутри. 5 штук.",
+      "en": "Georgian dumplings with meat filling and broth inside. 5 pieces."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/khinkali-dumplings.webp",
+    "isPopular": true,
+    "tags": [
+      "грузинская кухня"
+    ]
+  },
+  {
+    "id": "menu-092",
+    "poiId": "poi-080",
+    "name": {
+      "ru": "Стейк рибай",
+      "en": "Ribeye steak"
+    },
+    "description": {
+      "ru": "Стейк рибай из мраморной говядины, прожарка на выбор. С овощами гриль.",
+      "en": "Marble beef ribeye steak, doneness by choice. With grilled vegetables."
+    },
+    "price": 1800,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/ribeye-steak.webp",
+    "isPopular": true,
+    "tags": [
+      "стейк",
+      "мясо"
+    ]
+  },
+  {
+    "id": "menu-093",
+    "poiId": "poi-080",
+    "name": {
+      "ru": "Форель на гриле",
+      "en": "Grilled trout"
+    },
+    "description": {
+      "ru": "Свежая горная форель на гриле с лимоном и зеленью.",
+      "en": "Fresh mountain trout grilled with lemon and herbs."
+    },
+    "price": 850,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/grilled-trout.webp",
+    "isPopular": false,
+    "tags": [
+      "рыба",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-094",
+    "poiId": "poi-080",
+    "name": {
+      "ru": "Тирамису",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "ru": "Классический итальянский десерт с маскарпоне и кофейной пропиткой.",
+      "en": "Classic Italian dessert with mascarpone and coffee soaking."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/tiramisu.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-095",
+    "poiId": "poi-080",
+    "name": {
+      "ru": "Лимонад домашний",
+      "en": "Homemade lemonade"
+    },
+    "description": {
+      "ru": "Свежий лимонад собственного приготовления. Тархун, клубника или классический.",
+      "en": "Fresh homemade lemonade. Tarragon, strawberry or classic."
+    },
+    "price": 280,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/homemade-lemonade.webp",
+    "isPopular": false,
+    "tags": [
+      "напитки"
+    ]
+  },
+  {
+    "id": "menu-096",
+    "poiId": "poi-087",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-097",
+    "poiId": "poi-087",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-098",
+    "poiId": "poi-087",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-099",
+    "poiId": "poi-087",
+    "name": {
+      "ru": "Цахараджын (пирог со свекольной ботвой)",
+      "en": "Tsakharadjyn (beet greens pie)"
+    },
+    "description": {
+      "ru": "Оригинальный осетинский пиро�� со свекольной ботвой и сыром. Лёгкий, с травяным вкусом.",
+      "en": "Original Ossetian pie with beet greens and cheese. Light, herbal flavor."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/tsakharadjyn-beet-greens-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-100",
+    "poiId": "poi-087",
+    "name": {
+      "ru": "Насджын (пирог с тыквой)",
+      "en": "Nasdjyn (pumpkin pie)"
+    },
+    "description": {
+      "ru": "Сладковатый осетинский пирог с начинкой из тыквы. Нежная текстура.",
+      "en": "Slightly sweet Ossetian pie with pumpkin filling. Tender texture."
+    },
+    "price": 370,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/nasdjyn-pumpkin-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-101",
+    "poiId": "poi-087",
+    "name": {
+      "ru": "Цезарь с курицей",
+      "en": "Caesar salad with chicken"
+    },
+    "description": {
+      "ru": "Классический салат Цезарь с куриной грудкой, сыром пармезан и соусом.",
+      "en": "Classic Caesar salad with chicken breast, parmesan and dressing."
+    },
+    "price": 520,
+    "currency": "RUB",
+    "category": "Салаты",
+    "photo": "images/menu/caesar-salad-with-chicken.webp",
+    "isPopular": true,
+    "tags": [
+      "салат"
+    ]
+  },
+  {
+    "id": "menu-102",
+    "poiId": "poi-087",
+    "name": {
+      "ru": "��инкали",
+      "en": "Khinkali (dumplings)"
+    },
+    "description": {
+      "ru": "Грузинские пельмени с мясной начинкой и бульоном внутри. 5 штук.",
+      "en": "Georgian dumplings with meat filling and broth inside. 5 pieces."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/khinkali-dumplings.webp",
+    "isPopular": true,
+    "tags": [
+      "грузинская кухня"
+    ]
+  },
+  {
+    "id": "menu-103",
+    "poiId": "poi-087",
+    "name": {
+      "ru": "Стейк рибай",
+      "en": "Ribeye steak"
+    },
+    "description": {
+      "ru": "Стейк рибай из мраморной говядины, прожарка на выбор. С овощами гриль.",
+      "en": "Marble beef ribeye steak, doneness by choice. With grilled vegetables."
+    },
+    "price": 1800,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/ribeye-steak.webp",
+    "isPopular": true,
+    "tags": [
+      "стейк",
+      "мясо"
+    ]
+  },
+  {
+    "id": "menu-104",
+    "poiId": "poi-087",
+    "name": {
+      "ru": "Форель на гриле",
+      "en": "Grilled trout"
+    },
+    "description": {
+      "ru": "Свежая горная форель на гриле с лимоном и зеленью.",
+      "en": "Fresh mountain trout grilled with lemon and herbs."
+    },
+    "price": 850,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/grilled-trout.webp",
+    "isPopular": false,
+    "tags": [
+      "рыба",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-105",
+    "poiId": "poi-087",
+    "name": {
+      "ru": "Тирамису",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "ru": "Классический итальянский десерт с маскарпоне и кофейной пропиткой.",
+      "en": "Classic Italian dessert with mascarpone and coffee soaking."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/tiramisu.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-106",
+    "poiId": "poi-087",
+    "name": {
+      "ru": "Лимонад домашний",
+      "en": "Homemade lemonade"
+    },
+    "description": {
+      "ru": "Свежий лимонад собственного приготовления. Тархун, клубника или классический.",
+      "en": "Fresh homemade lemonade. Tarragon, strawberry or classic."
+    },
+    "price": 280,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/homemade-lemonade.webp",
+    "isPopular": false,
+    "tags": [
+      "напитки"
+    ]
+  },
+  {
+    "id": "menu-107",
+    "poiId": "poi-092",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-108",
+    "poiId": "poi-092",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-109",
+    "poiId": "poi-092",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-110",
+    "poiId": "poi-092",
+    "name": {
+      "ru": "Цахараджын (пирог со свекольной ботвой)",
+      "en": "Tsakharadjyn (beet greens pie)"
+    },
+    "description": {
+      "ru": "Оригинальный осетинский пиро�� со свекольной ботвой и сыром. Лёгкий, с травяным вкусом.",
+      "en": "Original Ossetian pie with beet greens and cheese. Light, herbal flavor."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/tsakharadjyn-beet-greens-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-111",
+    "poiId": "poi-092",
+    "name": {
+      "ru": "Насджын (пирог с тыквой)",
+      "en": "Nasdjyn (pumpkin pie)"
+    },
+    "description": {
+      "ru": "Сладковатый осетинский пирог с начинкой из тыквы. Нежная текстура.",
+      "en": "Slightly sweet Ossetian pie with pumpkin filling. Tender texture."
+    },
+    "price": 370,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/nasdjyn-pumpkin-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-112",
+    "poiId": "poi-092",
+    "name": {
+      "ru": "Цезарь с курицей",
+      "en": "Caesar salad with chicken"
+    },
+    "description": {
+      "ru": "Классический салат Цезарь с куриной грудкой, сыром пармезан и соусом.",
+      "en": "Classic Caesar salad with chicken breast, parmesan and dressing."
+    },
+    "price": 520,
+    "currency": "RUB",
+    "category": "Салаты",
+    "photo": "images/menu/caesar-salad-with-chicken.webp",
+    "isPopular": true,
+    "tags": [
+      "салат"
+    ]
+  },
+  {
+    "id": "menu-113",
+    "poiId": "poi-092",
+    "name": {
+      "ru": "��инкали",
+      "en": "Khinkali (dumplings)"
+    },
+    "description": {
+      "ru": "Грузинские пельмени с мясной начинкой и бульоном внутри. 5 штук.",
+      "en": "Georgian dumplings with meat filling and broth inside. 5 pieces."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/khinkali-dumplings.webp",
+    "isPopular": true,
+    "tags": [
+      "грузинская кухня"
+    ]
+  },
+  {
+    "id": "menu-114",
+    "poiId": "poi-092",
+    "name": {
+      "ru": "Стейк рибай",
+      "en": "Ribeye steak"
+    },
+    "description": {
+      "ru": "Стейк рибай из мраморной говядины, прожарка на выбор. С овощами гриль.",
+      "en": "Marble beef ribeye steak, doneness by choice. With grilled vegetables."
+    },
+    "price": 1800,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/ribeye-steak.webp",
+    "isPopular": true,
+    "tags": [
+      "стейк",
+      "мясо"
+    ]
+  },
+  {
+    "id": "menu-115",
+    "poiId": "poi-092",
+    "name": {
+      "ru": "Форель на гриле",
+      "en": "Grilled trout"
+    },
+    "description": {
+      "ru": "Свежая горная форель на гриле с лимоном и зеленью.",
+      "en": "Fresh mountain trout grilled with lemon and herbs."
+    },
+    "price": 850,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/grilled-trout.webp",
+    "isPopular": false,
+    "tags": [
+      "рыба",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-116",
+    "poiId": "poi-092",
+    "name": {
+      "ru": "Тирамису",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "ru": "Классический итальянский десерт с маскарпоне и кофейной пропиткой.",
+      "en": "Classic Italian dessert with mascarpone and coffee soaking."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/tiramisu.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-117",
+    "poiId": "poi-092",
+    "name": {
+      "ru": "Лимонад домашний",
+      "en": "Homemade lemonade"
+    },
+    "description": {
+      "ru": "Свежий лимонад собственного приготовления. Тархун, клубника или классический.",
+      "en": "Fresh homemade lemonade. Tarragon, strawberry or classic."
+    },
+    "price": 280,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/homemade-lemonade.webp",
+    "isPopular": false,
+    "tags": [
+      "напитки"
+    ]
+  },
+  {
+    "id": "menu-118",
+    "poiId": "poi-095",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-119",
+    "poiId": "poi-095",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-120",
+    "poiId": "poi-095",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-121",
+    "poiId": "poi-095",
+    "name": {
+      "ru": "Цахараджын (пирог со свекольной ботвой)",
+      "en": "Tsakharadjyn (beet greens pie)"
+    },
+    "description": {
+      "ru": "Оригинальный осетинский пиро�� со свекольной ботвой и сыром. Лёгкий, с травяным вкусом.",
+      "en": "Original Ossetian pie with beet greens and cheese. Light, herbal flavor."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/tsakharadjyn-beet-greens-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-122",
+    "poiId": "poi-095",
+    "name": {
+      "ru": "Насджын (пирог с тыквой)",
+      "en": "Nasdjyn (pumpkin pie)"
+    },
+    "description": {
+      "ru": "Сладковатый осетинский пирог с начинкой из тыквы. Нежная текстура.",
+      "en": "Slightly sweet Ossetian pie with pumpkin filling. Tender texture."
+    },
+    "price": 370,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/nasdjyn-pumpkin-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-123",
+    "poiId": "poi-095",
+    "name": {
+      "ru": "Цезарь с курицей",
+      "en": "Caesar salad with chicken"
+    },
+    "description": {
+      "ru": "Классический салат Цезарь с куриной грудкой, сыром пармезан и соусом.",
+      "en": "Classic Caesar salad with chicken breast, parmesan and dressing."
+    },
+    "price": 520,
+    "currency": "RUB",
+    "category": "Салаты",
+    "photo": "images/menu/caesar-salad-with-chicken.webp",
+    "isPopular": true,
+    "tags": [
+      "салат"
+    ]
+  },
+  {
+    "id": "menu-124",
+    "poiId": "poi-095",
+    "name": {
+      "ru": "��инкали",
+      "en": "Khinkali (dumplings)"
+    },
+    "description": {
+      "ru": "Грузинские пельмени с мясной начинкой и бульоном внутри. 5 штук.",
+      "en": "Georgian dumplings with meat filling and broth inside. 5 pieces."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/khinkali-dumplings.webp",
+    "isPopular": true,
+    "tags": [
+      "грузинская кухня"
+    ]
+  },
+  {
+    "id": "menu-125",
+    "poiId": "poi-095",
+    "name": {
+      "ru": "Стейк рибай",
+      "en": "Ribeye steak"
+    },
+    "description": {
+      "ru": "Стейк рибай из мраморной говядины, прожарка на выбор. С овощами гриль.",
+      "en": "Marble beef ribeye steak, doneness by choice. With grilled vegetables."
+    },
+    "price": 1800,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/ribeye-steak.webp",
+    "isPopular": true,
+    "tags": [
+      "стейк",
+      "мясо"
+    ]
+  },
+  {
+    "id": "menu-126",
+    "poiId": "poi-095",
+    "name": {
+      "ru": "Форель на гриле",
+      "en": "Grilled trout"
+    },
+    "description": {
+      "ru": "Свежая горная форель на гриле с лимоном и зеленью.",
+      "en": "Fresh mountain trout grilled with lemon and herbs."
+    },
+    "price": 850,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/grilled-trout.webp",
+    "isPopular": false,
+    "tags": [
+      "рыба",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-127",
+    "poiId": "poi-095",
+    "name": {
+      "ru": "Тирамису",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "ru": "Классический итальянский десерт с маскарпоне и кофейной пропиткой.",
+      "en": "Classic Italian dessert with mascarpone and coffee soaking."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/tiramisu.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-128",
+    "poiId": "poi-095",
+    "name": {
+      "ru": "Лимонад домашний",
+      "en": "Homemade lemonade"
+    },
+    "description": {
+      "ru": "Свежий лимонад собственного приготовления. Тархун, клубника или классический.",
+      "en": "Fresh homemade lemonade. Tarragon, strawberry or classic."
+    },
+    "price": 280,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/homemade-lemonade.webp",
+    "isPopular": false,
+    "tags": [
+      "напитки"
+    ]
+  },
+  {
+    "id": "menu-129",
+    "poiId": "poi-096",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-130",
+    "poiId": "poi-096",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-131",
+    "poiId": "poi-096",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-132",
+    "poiId": "poi-096",
+    "name": {
+      "ru": "Цахараджын (пирог со свекольной ботвой)",
+      "en": "Tsakharadjyn (beet greens pie)"
+    },
+    "description": {
+      "ru": "Оригинальный осетинский пиро�� со свекольной ботвой и сыром. Лёгкий, с травяным вкусом.",
+      "en": "Original Ossetian pie with beet greens and cheese. Light, herbal flavor."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/tsakharadjyn-beet-greens-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-133",
+    "poiId": "poi-096",
+    "name": {
+      "ru": "Насджын (пирог с тыквой)",
+      "en": "Nasdjyn (pumpkin pie)"
+    },
+    "description": {
+      "ru": "Сладковатый осетинский пирог с начинкой из тыквы. Нежная текстура.",
+      "en": "Slightly sweet Ossetian pie with pumpkin filling. Tender texture."
+    },
+    "price": 370,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/nasdjyn-pumpkin-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-134",
+    "poiId": "poi-096",
+    "name": {
+      "ru": "Цезарь с курицей",
+      "en": "Caesar salad with chicken"
+    },
+    "description": {
+      "ru": "Классический салат Цезарь с куриной грудкой, сыром пармезан и соусом.",
+      "en": "Classic Caesar salad with chicken breast, parmesan and dressing."
+    },
+    "price": 520,
+    "currency": "RUB",
+    "category": "Салаты",
+    "photo": "images/menu/caesar-salad-with-chicken.webp",
+    "isPopular": true,
+    "tags": [
+      "салат"
+    ]
+  },
+  {
+    "id": "menu-135",
+    "poiId": "poi-096",
+    "name": {
+      "ru": "��инкали",
+      "en": "Khinkali (dumplings)"
+    },
+    "description": {
+      "ru": "Грузинские пельмени с мясной начинкой и бульоном внутри. 5 штук.",
+      "en": "Georgian dumplings with meat filling and broth inside. 5 pieces."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/khinkali-dumplings.webp",
+    "isPopular": true,
+    "tags": [
+      "грузинская кухня"
+    ]
+  },
+  {
+    "id": "menu-136",
+    "poiId": "poi-096",
+    "name": {
+      "ru": "Стейк рибай",
+      "en": "Ribeye steak"
+    },
+    "description": {
+      "ru": "Стейк рибай из мраморной говядины, прожарка на выбор. С овощами гриль.",
+      "en": "Marble beef ribeye steak, doneness by choice. With grilled vegetables."
+    },
+    "price": 1800,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/ribeye-steak.webp",
+    "isPopular": true,
+    "tags": [
+      "стейк",
+      "мясо"
+    ]
+  },
+  {
+    "id": "menu-137",
+    "poiId": "poi-096",
+    "name": {
+      "ru": "Форель на гриле",
+      "en": "Grilled trout"
+    },
+    "description": {
+      "ru": "Свежая горная форель на гриле с лимоном и зеленью.",
+      "en": "Fresh mountain trout grilled with lemon and herbs."
+    },
+    "price": 850,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/grilled-trout.webp",
+    "isPopular": false,
+    "tags": [
+      "рыба",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-138",
+    "poiId": "poi-096",
+    "name": {
+      "ru": "Тирамису",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "ru": "Классический итальянский десерт с маскарпоне и кофейной пропиткой.",
+      "en": "Classic Italian dessert with mascarpone and coffee soaking."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/tiramisu.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-139",
+    "poiId": "poi-096",
+    "name": {
+      "ru": "Лимонад домашний",
+      "en": "Homemade lemonade"
+    },
+    "description": {
+      "ru": "Свежий лимонад собственного приготовления. Тархун, клубника или классический.",
+      "en": "Fresh homemade lemonade. Tarragon, strawberry or classic."
+    },
+    "price": 280,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/homemade-lemonade.webp",
+    "isPopular": false,
+    "tags": [
+      "напитки"
+    ]
+  },
+  {
+    "id": "menu-140",
+    "poiId": "poi-075",
+    "name": {
+      "ru": "Паста карбонара",
+      "en": "Pasta carbonara"
+    },
+    "description": {
+      "ru": "Спагетти с беконом, яичным соусом и пармезаном. Классика итальянской кухни.",
+      "en": "Spaghetti with bacon, egg sauce and parmesan. Italian classic."
+    },
+    "price": 580,
+    "currency": "RUB",
+    "category": "Паста",
+    "photo": "images/menu/pasta-carbonara.webp",
+    "isPopular": true,
+    "tags": [
+      "паста",
+      "итальянская"
+    ]
+  },
+  {
+    "id": "menu-141",
+    "poiId": "poi-075",
+    "name": {
+      "ru": "Пицца Маргарита",
+      "en": "Pizza Margherita"
+    },
+    "description": {
+      "ru": "Классическая пицца с томатным соусом, моцареллой и базиликом.",
+      "en": "Classic pizza with tomato sauce, mozzarella and basil."
+    },
+    "price": 520,
+    "currency": "RUB",
+    "category": "Пицца",
+    "photo": "images/menu/pizza-margherita.webp",
+    "isPopular": true,
+    "tags": [
+      "пицца"
+    ]
+  },
+  {
+    "id": "menu-142",
+    "poiId": "poi-075",
+    "name": {
+      "ru": "Бургер классический",
+      "en": "Classic burger"
+    },
+    "description": {
+      "ru": "Сочный бургер с говяжьей котлетой, сыром чеддер, салатом и соусом.",
+      "en": "Juicy burger with beef patty, cheddar, lettuce and sauce."
+    },
+    "price": 480,
+    "currency": "RUB",
+    "category": "Бургеры",
+    "photo": "images/menu/classic-burger.webp",
+    "isPopular": true,
+    "tags": [
+      "бургер"
+    ]
+  },
+  {
+    "id": "menu-143",
+    "poiId": "poi-075",
+    "name": {
+      "ru": "Суп-крем из тыквы",
+      "en": "Pumpkin cream soup"
+    },
+    "description": {
+      "ru": "Бархатистый крем-суп из запечённой тыквы с семечками и сливками.",
+      "en": "Velvety cream soup from roasted pumpkin with seeds and cream."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Супы",
+    "photo": "images/menu/pumpkin-cream-soup.webp",
+    "isPopular": false,
+    "tags": [
+      "суп",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-144",
+    "poiId": "poi-075",
+    "name": {
+      "ru": "Брускетта с томатами",
+      "en": "Bruschetta with tomatoes"
+    },
+    "description": {
+      "ru": "Хрустящий хлеб с свежими томатами, базиликом и оливковым маслом.",
+      "en": "Crispy bread with fresh tomatoes, basil and olive oil."
+    },
+    "price": 320,
+    "currency": "RUB",
+    "category": "Закуски",
+    "photo": "images/menu/bruschetta-with-tomatoes.webp",
+    "isPopular": false,
+    "tags": [
+      "закуска",
+      "итальянская"
+    ]
+  },
+  {
+    "id": "menu-145",
+    "poiId": "poi-075",
+    "name": {
+      "ru": "Форель на гриле",
+      "en": "Grilled trout"
+    },
+    "description": {
+      "ru": "Свежая горная форель на гриле с лимоном и зеленью.",
+      "en": "Fresh mountain trout grilled with lemon and herbs."
+    },
+    "price": 850,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/grilled-trout.webp",
+    "isPopular": false,
+    "tags": [
+      "рыба",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-146",
+    "poiId": "poi-075",
+    "name": {
+      "ru": "Тирамису",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "ru": "Классический итальянский десерт с маскарпоне и кофейной пропиткой.",
+      "en": "Classic Italian dessert with mascarpone and coffee soaking."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/tiramisu.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-147",
+    "poiId": "poi-075",
+    "name": {
+      "ru": "Лимонад домашний",
+      "en": "Homemade lemonade"
+    },
+    "description": {
+      "ru": "Свежий лимонад собственного приготовления. Тархун, клубника или классический.",
+      "en": "Fresh homemade lemonade. Tarragon, strawberry or classic."
+    },
+    "price": 280,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/homemade-lemonade.webp",
+    "isPopular": false,
+    "tags": [
+      "напитки"
+    ]
+  },
+  {
+    "id": "menu-148",
+    "poiId": "poi-079",
+    "name": {
+      "ru": "Паста карбонара",
+      "en": "Pasta carbonara"
+    },
+    "description": {
+      "ru": "Спагетти с беконом, яичным соусом и пармезаном. Классика итальянской кухни.",
+      "en": "Spaghetti with bacon, egg sauce and parmesan. Italian classic."
+    },
+    "price": 580,
+    "currency": "RUB",
+    "category": "Паста",
+    "photo": "images/menu/pasta-carbonara.webp",
+    "isPopular": true,
+    "tags": [
+      "паста",
+      "итальянская"
+    ]
+  },
+  {
+    "id": "menu-149",
+    "poiId": "poi-079",
+    "name": {
+      "ru": "Пицца Маргарита",
+      "en": "Pizza Margherita"
+    },
+    "description": {
+      "ru": "Классическая пицца с томатным соусом, моцареллой и базиликом.",
+      "en": "Classic pizza with tomato sauce, mozzarella and basil."
+    },
+    "price": 520,
+    "currency": "RUB",
+    "category": "Пицца",
+    "photo": "images/menu/pizza-margherita.webp",
+    "isPopular": true,
+    "tags": [
+      "пицца"
+    ]
+  },
+  {
+    "id": "menu-150",
+    "poiId": "poi-079",
+    "name": {
+      "ru": "Бургер классический",
+      "en": "Classic burger"
+    },
+    "description": {
+      "ru": "Сочный бургер с говяжьей котлетой, сыром чеддер, салатом и соусом.",
+      "en": "Juicy burger with beef patty, cheddar, lettuce and sauce."
+    },
+    "price": 480,
+    "currency": "RUB",
+    "category": "Бургеры",
+    "photo": "images/menu/classic-burger.webp",
+    "isPopular": true,
+    "tags": [
+      "бургер"
+    ]
+  },
+  {
+    "id": "menu-151",
+    "poiId": "poi-079",
+    "name": {
+      "ru": "Суп-крем из тыквы",
+      "en": "Pumpkin cream soup"
+    },
+    "description": {
+      "ru": "Бархатистый крем-суп из запечённой тыквы с семечками и сливками.",
+      "en": "Velvety cream soup from roasted pumpkin with seeds and cream."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Супы",
+    "photo": "images/menu/pumpkin-cream-soup.webp",
+    "isPopular": false,
+    "tags": [
+      "суп",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-152",
+    "poiId": "poi-079",
+    "name": {
+      "ru": "Брускетта с томатами",
+      "en": "Bruschetta with tomatoes"
+    },
+    "description": {
+      "ru": "Хрустящий хлеб с свежими томатами, базиликом и оливковым маслом.",
+      "en": "Crispy bread with fresh tomatoes, basil and olive oil."
+    },
+    "price": 320,
+    "currency": "RUB",
+    "category": "Закуски",
+    "photo": "images/menu/bruschetta-with-tomatoes.webp",
+    "isPopular": false,
+    "tags": [
+      "закуска",
+      "итальянская"
+    ]
+  },
+  {
+    "id": "menu-153",
+    "poiId": "poi-079",
+    "name": {
+      "ru": "Форель на гриле",
+      "en": "Grilled trout"
+    },
+    "description": {
+      "ru": "Свежая горная форель на гриле с лимоном и зеленью.",
+      "en": "Fresh mountain trout grilled with lemon and herbs."
+    },
+    "price": 850,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/grilled-trout.webp",
+    "isPopular": false,
+    "tags": [
+      "рыба",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-154",
+    "poiId": "poi-079",
+    "name": {
+      "ru": "Тирамису",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "ru": "Классический итальянский десерт с маскарпоне и кофейной пропиткой.",
+      "en": "Classic Italian dessert with mascarpone and coffee soaking."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/tiramisu.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-155",
+    "poiId": "poi-079",
+    "name": {
+      "ru": "Лимонад домашний",
+      "en": "Homemade lemonade"
+    },
+    "description": {
+      "ru": "Свежий лимонад собственного приготовления. Тархун, клубника или классический.",
+      "en": "Fresh homemade lemonade. Tarragon, strawberry or classic."
+    },
+    "price": 280,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/homemade-lemonade.webp",
+    "isPopular": false,
+    "tags": [
+      "напитки"
+    ]
+  },
+  {
+    "id": "menu-156",
+    "poiId": "poi-082",
+    "name": {
+      "ru": "Паста карбонара",
+      "en": "Pasta carbonara"
+    },
+    "description": {
+      "ru": "Спагетти с беконом, яичным соусом и пармезаном. Классика итальянской кухни.",
+      "en": "Spaghetti with bacon, egg sauce and parmesan. Italian classic."
+    },
+    "price": 580,
+    "currency": "RUB",
+    "category": "Паста",
+    "photo": "images/menu/pasta-carbonara.webp",
+    "isPopular": true,
+    "tags": [
+      "паста",
+      "итальянская"
+    ]
+  },
+  {
+    "id": "menu-157",
+    "poiId": "poi-082",
+    "name": {
+      "ru": "Пицца Маргарита",
+      "en": "Pizza Margherita"
+    },
+    "description": {
+      "ru": "Классическая пицца с томатным соусом, моцареллой и базиликом.",
+      "en": "Classic pizza with tomato sauce, mozzarella and basil."
+    },
+    "price": 520,
+    "currency": "RUB",
+    "category": "Пицца",
+    "photo": "images/menu/pizza-margherita.webp",
+    "isPopular": true,
+    "tags": [
+      "пицца"
+    ]
+  },
+  {
+    "id": "menu-158",
+    "poiId": "poi-082",
+    "name": {
+      "ru": "Бургер классический",
+      "en": "Classic burger"
+    },
+    "description": {
+      "ru": "Сочный бургер с говяжьей котлетой, сыром чеддер, салатом и соусом.",
+      "en": "Juicy burger with beef patty, cheddar, lettuce and sauce."
+    },
+    "price": 480,
+    "currency": "RUB",
+    "category": "Бургеры",
+    "photo": "images/menu/classic-burger.webp",
+    "isPopular": true,
+    "tags": [
+      "бургер"
+    ]
+  },
+  {
+    "id": "menu-159",
+    "poiId": "poi-082",
+    "name": {
+      "ru": "Суп-крем из тыквы",
+      "en": "Pumpkin cream soup"
+    },
+    "description": {
+      "ru": "Бархатистый крем-суп из запечённой тыквы с семечками и сливками.",
+      "en": "Velvety cream soup from roasted pumpkin with seeds and cream."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Супы",
+    "photo": "images/menu/pumpkin-cream-soup.webp",
+    "isPopular": false,
+    "tags": [
+      "суп",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-160",
+    "poiId": "poi-082",
+    "name": {
+      "ru": "Брускетта с томатами",
+      "en": "Bruschetta with tomatoes"
+    },
+    "description": {
+      "ru": "Хрустящий хлеб с свежими томатами, базиликом и оливковым маслом.",
+      "en": "Crispy bread with fresh tomatoes, basil and olive oil."
+    },
+    "price": 320,
+    "currency": "RUB",
+    "category": "Закуски",
+    "photo": "images/menu/bruschetta-with-tomatoes.webp",
+    "isPopular": false,
+    "tags": [
+      "закуска",
+      "итальянская"
+    ]
+  },
+  {
+    "id": "menu-161",
+    "poiId": "poi-082",
+    "name": {
+      "ru": "Форель на гриле",
+      "en": "Grilled trout"
+    },
+    "description": {
+      "ru": "Свежая горная форель на гриле с лимоном и зеленью.",
+      "en": "Fresh mountain trout grilled with lemon and herbs."
+    },
+    "price": 850,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/grilled-trout.webp",
+    "isPopular": false,
+    "tags": [
+      "рыба",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-162",
+    "poiId": "poi-082",
+    "name": {
+      "ru": "Тирамису",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "ru": "Классический итальянский десерт с маскарпоне и кофейной пропиткой.",
+      "en": "Classic Italian dessert with mascarpone and coffee soaking."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/tiramisu.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-163",
+    "poiId": "poi-082",
+    "name": {
+      "ru": "Лимонад домашний",
+      "en": "Homemade lemonade"
+    },
+    "description": {
+      "ru": "Свежий лимонад собственного приготовления. Тархун, клубника или классический.",
+      "en": "Fresh homemade lemonade. Tarragon, strawberry or classic."
+    },
+    "price": 280,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/homemade-lemonade.webp",
+    "isPopular": false,
+    "tags": [
+      "напитки"
+    ]
+  },
+  {
+    "id": "menu-164",
+    "poiId": "poi-085",
+    "name": {
+      "ru": "Паста карбонара",
+      "en": "Pasta carbonara"
+    },
+    "description": {
+      "ru": "Спагетти с беконом, яичным соусом и пармезаном. Классика итальянской кухни.",
+      "en": "Spaghetti with bacon, egg sauce and parmesan. Italian classic."
+    },
+    "price": 580,
+    "currency": "RUB",
+    "category": "Паста",
+    "photo": "images/menu/pasta-carbonara.webp",
+    "isPopular": true,
+    "tags": [
+      "паста",
+      "итальянская"
+    ]
+  },
+  {
+    "id": "menu-165",
+    "poiId": "poi-085",
+    "name": {
+      "ru": "Пицца Маргарита",
+      "en": "Pizza Margherita"
+    },
+    "description": {
+      "ru": "Классическая пицца с томатным соусом, моцареллой и базиликом.",
+      "en": "Classic pizza with tomato sauce, mozzarella and basil."
+    },
+    "price": 520,
+    "currency": "RUB",
+    "category": "Пицца",
+    "photo": "images/menu/pizza-margherita.webp",
+    "isPopular": true,
+    "tags": [
+      "пицца"
+    ]
+  },
+  {
+    "id": "menu-166",
+    "poiId": "poi-085",
+    "name": {
+      "ru": "Бургер классический",
+      "en": "Classic burger"
+    },
+    "description": {
+      "ru": "Сочный бургер с говяжьей котлетой, сыром чеддер, салатом и соусом.",
+      "en": "Juicy burger with beef patty, cheddar, lettuce and sauce."
+    },
+    "price": 480,
+    "currency": "RUB",
+    "category": "Бургеры",
+    "photo": "images/menu/classic-burger.webp",
+    "isPopular": true,
+    "tags": [
+      "бургер"
+    ]
+  },
+  {
+    "id": "menu-167",
+    "poiId": "poi-085",
+    "name": {
+      "ru": "Суп-крем из тыквы",
+      "en": "Pumpkin cream soup"
+    },
+    "description": {
+      "ru": "Бархатистый крем-суп из запечённой тыквы с семечками и сливками.",
+      "en": "Velvety cream soup from roasted pumpkin with seeds and cream."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Супы",
+    "photo": "images/menu/pumpkin-cream-soup.webp",
+    "isPopular": false,
+    "tags": [
+      "суп",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-168",
+    "poiId": "poi-085",
+    "name": {
+      "ru": "Брускетта с томатами",
+      "en": "Bruschetta with tomatoes"
+    },
+    "description": {
+      "ru": "Хрустящий хлеб с свежими томатами, базиликом и оливковым маслом.",
+      "en": "Crispy bread with fresh tomatoes, basil and olive oil."
+    },
+    "price": 320,
+    "currency": "RUB",
+    "category": "Закуски",
+    "photo": "images/menu/bruschetta-with-tomatoes.webp",
+    "isPopular": false,
+    "tags": [
+      "закуска",
+      "итальянская"
+    ]
+  },
+  {
+    "id": "menu-169",
+    "poiId": "poi-085",
+    "name": {
+      "ru": "Форель на гриле",
+      "en": "Grilled trout"
+    },
+    "description": {
+      "ru": "Свежая горная форель на гриле с лимоном и зеленью.",
+      "en": "Fresh mountain trout grilled with lemon and herbs."
+    },
+    "price": 850,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/grilled-trout.webp",
+    "isPopular": false,
+    "tags": [
+      "рыба",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-170",
+    "poiId": "poi-085",
+    "name": {
+      "ru": "Тирамису",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "ru": "Классический итальянский десерт с маскарпоне и кофейной пропиткой.",
+      "en": "Classic Italian dessert with mascarpone and coffee soaking."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/tiramisu.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-171",
+    "poiId": "poi-085",
+    "name": {
+      "ru": "Лимонад домашний",
+      "en": "Homemade lemonade"
+    },
+    "description": {
+      "ru": "Свежий лимонад собственного приготовления. Тархун, клубника или классический.",
+      "en": "Fresh homemade lemonade. Tarragon, strawberry or classic."
+    },
+    "price": 280,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/homemade-lemonade.webp",
+    "isPopular": false,
+    "tags": [
+      "напитки"
+    ]
+  },
+  {
+    "id": "menu-172",
+    "poiId": "poi-086",
+    "name": {
+      "ru": "Паста карбонара",
+      "en": "Pasta carbonara"
+    },
+    "description": {
+      "ru": "Спагетти с беконом, яичным соусом и пармезаном. Классика итальянской кухни.",
+      "en": "Spaghetti with bacon, egg sauce and parmesan. Italian classic."
+    },
+    "price": 580,
+    "currency": "RUB",
+    "category": "Паста",
+    "photo": "images/menu/pasta-carbonara.webp",
+    "isPopular": true,
+    "tags": [
+      "паста",
+      "итальянская"
+    ]
+  },
+  {
+    "id": "menu-173",
+    "poiId": "poi-086",
+    "name": {
+      "ru": "Пицца Маргарита",
+      "en": "Pizza Margherita"
+    },
+    "description": {
+      "ru": "Классическая пицца с томатным соусом, моцареллой и базиликом.",
+      "en": "Classic pizza with tomato sauce, mozzarella and basil."
+    },
+    "price": 520,
+    "currency": "RUB",
+    "category": "Пицца",
+    "photo": "images/menu/pizza-margherita.webp",
+    "isPopular": true,
+    "tags": [
+      "пицца"
+    ]
+  },
+  {
+    "id": "menu-174",
+    "poiId": "poi-086",
+    "name": {
+      "ru": "Бургер классический",
+      "en": "Classic burger"
+    },
+    "description": {
+      "ru": "Сочный бургер с говяжьей котлетой, сыром чеддер, салатом и соусом.",
+      "en": "Juicy burger with beef patty, cheddar, lettuce and sauce."
+    },
+    "price": 480,
+    "currency": "RUB",
+    "category": "Бургеры",
+    "photo": "images/menu/classic-burger.webp",
+    "isPopular": true,
+    "tags": [
+      "бургер"
+    ]
+  },
+  {
+    "id": "menu-175",
+    "poiId": "poi-086",
+    "name": {
+      "ru": "Суп-крем из тыквы",
+      "en": "Pumpkin cream soup"
+    },
+    "description": {
+      "ru": "Бархатистый крем-суп из запечённой тыквы с семечками и сливками.",
+      "en": "Velvety cream soup from roasted pumpkin with seeds and cream."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Супы",
+    "photo": "images/menu/pumpkin-cream-soup.webp",
+    "isPopular": false,
+    "tags": [
+      "суп",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-176",
+    "poiId": "poi-086",
+    "name": {
+      "ru": "Брускетта с томатами",
+      "en": "Bruschetta with tomatoes"
+    },
+    "description": {
+      "ru": "Хрустящий хлеб с свежими томатами, базиликом и оливковым маслом.",
+      "en": "Crispy bread with fresh tomatoes, basil and olive oil."
+    },
+    "price": 320,
+    "currency": "RUB",
+    "category": "Закуски",
+    "photo": "images/menu/bruschetta-with-tomatoes.webp",
+    "isPopular": false,
+    "tags": [
+      "закуска",
+      "итальянская"
+    ]
+  },
+  {
+    "id": "menu-177",
+    "poiId": "poi-086",
+    "name": {
+      "ru": "Форель на гриле",
+      "en": "Grilled trout"
+    },
+    "description": {
+      "ru": "Свежая горная форель на гриле с лимоном и зеленью.",
+      "en": "Fresh mountain trout grilled with lemon and herbs."
+    },
+    "price": 850,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/grilled-trout.webp",
+    "isPopular": false,
+    "tags": [
+      "рыба",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-178",
+    "poiId": "poi-086",
+    "name": {
+      "ru": "Тирамису",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "ru": "Классический итальянский десерт с маскарпоне и кофейной пропиткой.",
+      "en": "Classic Italian dessert with mascarpone and coffee soaking."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/tiramisu.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-179",
+    "poiId": "poi-086",
+    "name": {
+      "ru": "Лимонад домашний",
+      "en": "Homemade lemonade"
+    },
+    "description": {
+      "ru": "Свежий лимонад собственного приготовления. Тархун, клубника или классический.",
+      "en": "Fresh homemade lemonade. Tarragon, strawberry or classic."
+    },
+    "price": 280,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/homemade-lemonade.webp",
+    "isPopular": false,
+    "tags": [
+      "напитки"
+    ]
+  },
+  {
+    "id": "menu-180",
+    "poiId": "poi-097",
+    "name": {
+      "ru": "Паста карбонара",
+      "en": "Pasta carbonara"
+    },
+    "description": {
+      "ru": "Спагетти с беконом, яичным соусом и пармезаном. Классика итальянской кухни.",
+      "en": "Spaghetti with bacon, egg sauce and parmesan. Italian classic."
+    },
+    "price": 580,
+    "currency": "RUB",
+    "category": "Паста",
+    "photo": "images/menu/pasta-carbonara.webp",
+    "isPopular": true,
+    "tags": [
+      "паста",
+      "итальянская"
+    ]
+  },
+  {
+    "id": "menu-181",
+    "poiId": "poi-097",
+    "name": {
+      "ru": "Пицца Маргарита",
+      "en": "Pizza Margherita"
+    },
+    "description": {
+      "ru": "Классическая пицца с томатным соусом, моцареллой и базиликом.",
+      "en": "Classic pizza with tomato sauce, mozzarella and basil."
+    },
+    "price": 520,
+    "currency": "RUB",
+    "category": "Пицца",
+    "photo": "images/menu/pizza-margherita.webp",
+    "isPopular": true,
+    "tags": [
+      "пицца"
+    ]
+  },
+  {
+    "id": "menu-182",
+    "poiId": "poi-097",
+    "name": {
+      "ru": "Бургер классический",
+      "en": "Classic burger"
+    },
+    "description": {
+      "ru": "Сочный бургер с говяжьей котлетой, сыром чеддер, салатом и соусом.",
+      "en": "Juicy burger with beef patty, cheddar, lettuce and sauce."
+    },
+    "price": 480,
+    "currency": "RUB",
+    "category": "Бургеры",
+    "photo": "images/menu/classic-burger.webp",
+    "isPopular": true,
+    "tags": [
+      "бургер"
+    ]
+  },
+  {
+    "id": "menu-183",
+    "poiId": "poi-097",
+    "name": {
+      "ru": "Суп-крем из тыквы",
+      "en": "Pumpkin cream soup"
+    },
+    "description": {
+      "ru": "Бархатистый крем-суп из запечённой тыквы с семечками и сливками.",
+      "en": "Velvety cream soup from roasted pumpkin with seeds and cream."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Супы",
+    "photo": "images/menu/pumpkin-cream-soup.webp",
+    "isPopular": false,
+    "tags": [
+      "суп",
+      "вегетарианское"
+    ]
+  },
+  {
+    "id": "menu-184",
+    "poiId": "poi-097",
+    "name": {
+      "ru": "Брускетта с томатами",
+      "en": "Bruschetta with tomatoes"
+    },
+    "description": {
+      "ru": "Хрустящий хлеб с свежими томатами, базиликом и оливковым маслом.",
+      "en": "Crispy bread with fresh tomatoes, basil and olive oil."
+    },
+    "price": 320,
+    "currency": "RUB",
+    "category": "Закуски",
+    "photo": "images/menu/bruschetta-with-tomatoes.webp",
+    "isPopular": false,
+    "tags": [
+      "закуска",
+      "итальянская"
+    ]
+  },
+  {
+    "id": "menu-185",
+    "poiId": "poi-097",
+    "name": {
+      "ru": "Форель на гриле",
+      "en": "Grilled trout"
+    },
+    "description": {
+      "ru": "Свежая горная форель на гриле с лимоном и зеленью.",
+      "en": "Fresh mountain trout grilled with lemon and herbs."
+    },
+    "price": 850,
+    "currency": "RUB",
+    "category": "Горячее",
+    "photo": "images/menu/grilled-trout.webp",
+    "isPopular": false,
+    "tags": [
+      "рыба",
+      "гриль"
+    ]
+  },
+  {
+    "id": "menu-186",
+    "poiId": "poi-097",
+    "name": {
+      "ru": "Тирамису",
+      "en": "Tiramisu"
+    },
+    "description": {
+      "ru": "Классический итальянский десерт с маскарпоне и кофейной пропиткой.",
+      "en": "Classic Italian dessert with mascarpone and coffee soaking."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/tiramisu.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-187",
+    "poiId": "poi-097",
+    "name": {
+      "ru": "Лимонад домашний",
+      "en": "Homemade lemonade"
+    },
+    "description": {
+      "ru": "Свежий лимонад собственного приготовления. Тархун, клубника или классический.",
+      "en": "Fresh homemade lemonade. Tarragon, strawberry or classic."
+    },
+    "price": 280,
+    "currency": "RUB",
+    "category": "Напитки",
+    "photo": "images/menu/homemade-lemonade.webp",
+    "isPopular": false,
+    "tags": [
+      "напитки"
+    ]
+  },
+  {
+    "id": "menu-188",
+    "poiId": "poi-078",
+    "name": {
+      "ru": "Капучино",
+      "en": "Cappuccino"
+    },
+    "description": {
+      "ru": "Классический капучино на зерновом кофе с пышной молочной пенкой.",
+      "en": "Classic cappuccino with grain coffee and fluffy milk foam."
+    },
+    "price": 220,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/cappuccino.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-189",
+    "poiId": "poi-078",
+    "name": {
+      "ru": "Л��тте",
+      "en": "Latte"
+    },
+    "description": {
+      "ru": "Нежный латте с большим количеством вспененного молока.",
+      "en": "Gentle latte with plenty of frothed milk."
+    },
+    "price": 250,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/latte.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-190",
+    "poiId": "poi-078",
+    "name": {
+      "ru": "Раф кофе",
+      "en": "Raf coffee"
+    },
+    "description": {
+      "ru": "Авторский раф с ванильным сиропом и сливками.",
+      "en": "Signature raf with vanilla syrup and cream."
+    },
+    "price": 300,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/raf-coffee.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе",
+      "авторское"
+    ]
+  },
+  {
+    "id": "menu-191",
+    "poiId": "poi-078",
+    "name": {
+      "ru": "Чизкейк Нью-Йорк",
+      "en": "New York cheesecake"
+    },
+    "description": {
+      "ru": "Классический американский чизкейк с нежной сырной начинкой.",
+      "en": "Classic American cheesecake with delicate cheese filling."
+    },
+    "price": 350,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/new-york-cheesecake.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-192",
+    "poiId": "poi-078",
+    "name": {
+      "ru": "Круассан с лососем",
+      "en": "Croissant with salmon"
+    },
+    "description": {
+      "ru": "Свежий круассан с копчёным лососем, сливочным сыром и рукколой.",
+      "en": "Fresh croissant with smoked salmon, cream cheese and arugula."
+    },
+    "price": 420,
+    "currency": "RUB",
+    "category": "Завтраки",
+    "photo": "images/menu/croissant-with-salmon.webp",
+    "isPopular": false,
+    "tags": [
+      "завтрак"
+    ]
+  },
+  {
+    "id": "menu-193",
+    "poiId": "poi-078",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-194",
+    "poiId": "poi-078",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-195",
+    "poiId": "poi-078",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-196",
+    "poiId": "poi-083",
+    "name": {
+      "ru": "Капучино",
+      "en": "Cappuccino"
+    },
+    "description": {
+      "ru": "Классический капучино на зерновом кофе с пышной молочной пенкой.",
+      "en": "Classic cappuccino with grain coffee and fluffy milk foam."
+    },
+    "price": 220,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/cappuccino.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-197",
+    "poiId": "poi-083",
+    "name": {
+      "ru": "Л��тте",
+      "en": "Latte"
+    },
+    "description": {
+      "ru": "Нежный латте с большим количеством вспененного молока.",
+      "en": "Gentle latte with plenty of frothed milk."
+    },
+    "price": 250,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/latte.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-198",
+    "poiId": "poi-083",
+    "name": {
+      "ru": "Раф кофе",
+      "en": "Raf coffee"
+    },
+    "description": {
+      "ru": "Авторский раф с ванильным сиропом и сливками.",
+      "en": "Signature raf with vanilla syrup and cream."
+    },
+    "price": 300,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/raf-coffee.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе",
+      "авторское"
+    ]
+  },
+  {
+    "id": "menu-199",
+    "poiId": "poi-083",
+    "name": {
+      "ru": "Чизкейк Нью-Йорк",
+      "en": "New York cheesecake"
+    },
+    "description": {
+      "ru": "Классический американский чизкейк с нежной сырной начинкой.",
+      "en": "Classic American cheesecake with delicate cheese filling."
+    },
+    "price": 350,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/new-york-cheesecake.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-200",
+    "poiId": "poi-083",
+    "name": {
+      "ru": "Круассан с лососем",
+      "en": "Croissant with salmon"
+    },
+    "description": {
+      "ru": "Свежий круассан с копчёным лососем, сливочным сыром и рукколой.",
+      "en": "Fresh croissant with smoked salmon, cream cheese and arugula."
+    },
+    "price": 420,
+    "currency": "RUB",
+    "category": "Завтраки",
+    "photo": "images/menu/croissant-with-salmon.webp",
+    "isPopular": false,
+    "tags": [
+      "завтрак"
+    ]
+  },
+  {
+    "id": "menu-201",
+    "poiId": "poi-083",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-202",
+    "poiId": "poi-083",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-203",
+    "poiId": "poi-083",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-204",
+    "poiId": "poi-084",
+    "name": {
+      "ru": "Капучино",
+      "en": "Cappuccino"
+    },
+    "description": {
+      "ru": "Классический капучино на зерновом кофе с пышной молочной пенкой.",
+      "en": "Classic cappuccino with grain coffee and fluffy milk foam."
+    },
+    "price": 220,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/cappuccino.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-205",
+    "poiId": "poi-084",
+    "name": {
+      "ru": "Л��тте",
+      "en": "Latte"
+    },
+    "description": {
+      "ru": "Нежный латте с большим количеством вспененного молока.",
+      "en": "Gentle latte with plenty of frothed milk."
+    },
+    "price": 250,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/latte.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-206",
+    "poiId": "poi-084",
+    "name": {
+      "ru": "Раф кофе",
+      "en": "Raf coffee"
+    },
+    "description": {
+      "ru": "Авторский раф с ванильным сиропом и сливками.",
+      "en": "Signature raf with vanilla syrup and cream."
+    },
+    "price": 300,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/raf-coffee.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе",
+      "авторское"
+    ]
+  },
+  {
+    "id": "menu-207",
+    "poiId": "poi-084",
+    "name": {
+      "ru": "Чизкейк Нью-Йорк",
+      "en": "New York cheesecake"
+    },
+    "description": {
+      "ru": "Классический американский чизкейк с нежной сырной начинкой.",
+      "en": "Classic American cheesecake with delicate cheese filling."
+    },
+    "price": 350,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/new-york-cheesecake.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-208",
+    "poiId": "poi-084",
+    "name": {
+      "ru": "Круассан с лососем",
+      "en": "Croissant with salmon"
+    },
+    "description": {
+      "ru": "Свежий круассан с копчёным лососем, сливочным сыром и рукколой.",
+      "en": "Fresh croissant with smoked salmon, cream cheese and arugula."
+    },
+    "price": 420,
+    "currency": "RUB",
+    "category": "Завтраки",
+    "photo": "images/menu/croissant-with-salmon.webp",
+    "isPopular": false,
+    "tags": [
+      "завтрак"
+    ]
+  },
+  {
+    "id": "menu-209",
+    "poiId": "poi-084",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-210",
+    "poiId": "poi-084",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-211",
+    "poiId": "poi-084",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-212",
+    "poiId": "poi-089",
+    "name": {
+      "ru": "Капучино",
+      "en": "Cappuccino"
+    },
+    "description": {
+      "ru": "Классический капучино на зерновом кофе с пышной молочной пенкой.",
+      "en": "Classic cappuccino with grain coffee and fluffy milk foam."
+    },
+    "price": 220,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/cappuccino.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-213",
+    "poiId": "poi-089",
+    "name": {
+      "ru": "Л��тте",
+      "en": "Latte"
+    },
+    "description": {
+      "ru": "Нежный латте с большим количеством вспененного молока.",
+      "en": "Gentle latte with plenty of frothed milk."
+    },
+    "price": 250,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/latte.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-214",
+    "poiId": "poi-089",
+    "name": {
+      "ru": "Раф кофе",
+      "en": "Raf coffee"
+    },
+    "description": {
+      "ru": "Авторский раф с ванильным сиропом и сливками.",
+      "en": "Signature raf with vanilla syrup and cream."
+    },
+    "price": 300,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/raf-coffee.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе",
+      "авторское"
+    ]
+  },
+  {
+    "id": "menu-215",
+    "poiId": "poi-089",
+    "name": {
+      "ru": "Чизкейк Нью-Йорк",
+      "en": "New York cheesecake"
+    },
+    "description": {
+      "ru": "Классический американский чизкейк с нежной сырной начинкой.",
+      "en": "Classic American cheesecake with delicate cheese filling."
+    },
+    "price": 350,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/new-york-cheesecake.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-216",
+    "poiId": "poi-089",
+    "name": {
+      "ru": "Круассан с лососем",
+      "en": "Croissant with salmon"
+    },
+    "description": {
+      "ru": "Свежий круассан с копчёным лососем, сливочным сыром и рукколой.",
+      "en": "Fresh croissant with smoked salmon, cream cheese and arugula."
+    },
+    "price": 420,
+    "currency": "RUB",
+    "category": "Завтраки",
+    "photo": "images/menu/croissant-with-salmon.webp",
+    "isPopular": false,
+    "tags": [
+      "завтрак"
+    ]
+  },
+  {
+    "id": "menu-217",
+    "poiId": "poi-089",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-218",
+    "poiId": "poi-089",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-219",
+    "poiId": "poi-089",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-220",
+    "poiId": "poi-090",
+    "name": {
+      "ru": "Капучино",
+      "en": "Cappuccino"
+    },
+    "description": {
+      "ru": "Классический капучино на зерновом кофе с пышной молочной пенкой.",
+      "en": "Classic cappuccino with grain coffee and fluffy milk foam."
+    },
+    "price": 220,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/cappuccino.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-221",
+    "poiId": "poi-090",
+    "name": {
+      "ru": "Л��тте",
+      "en": "Latte"
+    },
+    "description": {
+      "ru": "Нежный латте с большим количеством вспененного молока.",
+      "en": "Gentle latte with plenty of frothed milk."
+    },
+    "price": 250,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/latte.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-222",
+    "poiId": "poi-090",
+    "name": {
+      "ru": "Раф кофе",
+      "en": "Raf coffee"
+    },
+    "description": {
+      "ru": "Авторский раф с ванильным сиропом и сливками.",
+      "en": "Signature raf with vanilla syrup and cream."
+    },
+    "price": 300,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/raf-coffee.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе",
+      "авторское"
+    ]
+  },
+  {
+    "id": "menu-223",
+    "poiId": "poi-090",
+    "name": {
+      "ru": "Чизкейк Нью-Йорк",
+      "en": "New York cheesecake"
+    },
+    "description": {
+      "ru": "Классический американский чизкейк с нежной сырной начинкой.",
+      "en": "Classic American cheesecake with delicate cheese filling."
+    },
+    "price": 350,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/new-york-cheesecake.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-224",
+    "poiId": "poi-090",
+    "name": {
+      "ru": "Круассан с лососем",
+      "en": "Croissant with salmon"
+    },
+    "description": {
+      "ru": "Свежий круассан с копчёным лососем, сливочным сыром и рукколой.",
+      "en": "Fresh croissant with smoked salmon, cream cheese and arugula."
+    },
+    "price": 420,
+    "currency": "RUB",
+    "category": "Завтраки",
+    "photo": "images/menu/croissant-with-salmon.webp",
+    "isPopular": false,
+    "tags": [
+      "завтрак"
+    ]
+  },
+  {
+    "id": "menu-225",
+    "poiId": "poi-090",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-226",
+    "poiId": "poi-090",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-227",
+    "poiId": "poi-090",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-228",
+    "poiId": "poi-091",
+    "name": {
+      "ru": "Капучино",
+      "en": "Cappuccino"
+    },
+    "description": {
+      "ru": "Классический капучино на зерновом кофе с пышной молочной пенкой.",
+      "en": "Classic cappuccino with grain coffee and fluffy milk foam."
+    },
+    "price": 220,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/cappuccino.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-229",
+    "poiId": "poi-091",
+    "name": {
+      "ru": "Л��тте",
+      "en": "Latte"
+    },
+    "description": {
+      "ru": "Нежный латте с большим количеством вспененного молока.",
+      "en": "Gentle latte with plenty of frothed milk."
+    },
+    "price": 250,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/latte.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-230",
+    "poiId": "poi-091",
+    "name": {
+      "ru": "Раф кофе",
+      "en": "Raf coffee"
+    },
+    "description": {
+      "ru": "Авторский раф с ванильным сиропом и сливками.",
+      "en": "Signature raf with vanilla syrup and cream."
+    },
+    "price": 300,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/raf-coffee.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе",
+      "авторское"
+    ]
+  },
+  {
+    "id": "menu-231",
+    "poiId": "poi-091",
+    "name": {
+      "ru": "Чизкейк Нью-Йорк",
+      "en": "New York cheesecake"
+    },
+    "description": {
+      "ru": "Классический американский чизкейк с нежной сырной начинкой.",
+      "en": "Classic American cheesecake with delicate cheese filling."
+    },
+    "price": 350,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/new-york-cheesecake.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-232",
+    "poiId": "poi-091",
+    "name": {
+      "ru": "Круассан с лососем",
+      "en": "Croissant with salmon"
+    },
+    "description": {
+      "ru": "Свежий круассан с копчёным лососем, сливочным сыром и рукколой.",
+      "en": "Fresh croissant with smoked salmon, cream cheese and arugula."
+    },
+    "price": 420,
+    "currency": "RUB",
+    "category": "Завтраки",
+    "photo": "images/menu/croissant-with-salmon.webp",
+    "isPopular": false,
+    "tags": [
+      "завтрак"
+    ]
+  },
+  {
+    "id": "menu-233",
+    "poiId": "poi-091",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-234",
+    "poiId": "poi-091",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-235",
+    "poiId": "poi-091",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-236",
+    "poiId": "poi-093",
+    "name": {
+      "ru": "Капучино",
+      "en": "Cappuccino"
+    },
+    "description": {
+      "ru": "Классический капучино на зерновом кофе с пышной молочной пенкой.",
+      "en": "Classic cappuccino with grain coffee and fluffy milk foam."
+    },
+    "price": 220,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/cappuccino.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-237",
+    "poiId": "poi-093",
+    "name": {
+      "ru": "Л��тте",
+      "en": "Latte"
+    },
+    "description": {
+      "ru": "Нежный латте с большим количеством вспененного молока.",
+      "en": "Gentle latte with plenty of frothed milk."
+    },
+    "price": 250,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/latte.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-238",
+    "poiId": "poi-093",
+    "name": {
+      "ru": "Раф кофе",
+      "en": "Raf coffee"
+    },
+    "description": {
+      "ru": "Авторский раф с ванильным сиропом и сливками.",
+      "en": "Signature raf with vanilla syrup and cream."
+    },
+    "price": 300,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/raf-coffee.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе",
+      "авторское"
+    ]
+  },
+  {
+    "id": "menu-239",
+    "poiId": "poi-093",
+    "name": {
+      "ru": "Чизкейк Нью-Йорк",
+      "en": "New York cheesecake"
+    },
+    "description": {
+      "ru": "Классический американский чизкейк с нежной сырной начинкой.",
+      "en": "Classic American cheesecake with delicate cheese filling."
+    },
+    "price": 350,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/new-york-cheesecake.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-240",
+    "poiId": "poi-093",
+    "name": {
+      "ru": "Круассан с лососем",
+      "en": "Croissant with salmon"
+    },
+    "description": {
+      "ru": "Свежий круассан с копчёным лососем, сливочным сыром и рукколой.",
+      "en": "Fresh croissant with smoked salmon, cream cheese and arugula."
+    },
+    "price": 420,
+    "currency": "RUB",
+    "category": "Завтраки",
+    "photo": "images/menu/croissant-with-salmon.webp",
+    "isPopular": false,
+    "tags": [
+      "завтрак"
+    ]
+  },
+  {
+    "id": "menu-241",
+    "poiId": "poi-093",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-242",
+    "poiId": "poi-093",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-243",
+    "poiId": "poi-093",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-244",
+    "poiId": "poi-098",
+    "name": {
+      "ru": "Капучино",
+      "en": "Cappuccino"
+    },
+    "description": {
+      "ru": "Классический капучино на зерновом кофе с пышной молочной пенкой.",
+      "en": "Classic cappuccino with grain coffee and fluffy milk foam."
+    },
+    "price": 220,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/cappuccino.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-245",
+    "poiId": "poi-098",
+    "name": {
+      "ru": "Л��тте",
+      "en": "Latte"
+    },
+    "description": {
+      "ru": "Нежный латте с большим количеством вспененного молока.",
+      "en": "Gentle latte with plenty of frothed milk."
+    },
+    "price": 250,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/latte.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-246",
+    "poiId": "poi-098",
+    "name": {
+      "ru": "Раф кофе",
+      "en": "Raf coffee"
+    },
+    "description": {
+      "ru": "Авторский раф с ванильным сиропом и сливками.",
+      "en": "Signature raf with vanilla syrup and cream."
+    },
+    "price": 300,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/raf-coffee.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе",
+      "авторское"
+    ]
+  },
+  {
+    "id": "menu-247",
+    "poiId": "poi-098",
+    "name": {
+      "ru": "Чизкейк Нью-Йорк",
+      "en": "New York cheesecake"
+    },
+    "description": {
+      "ru": "Классический американский чизкейк с нежной сырной начинкой.",
+      "en": "Classic American cheesecake with delicate cheese filling."
+    },
+    "price": 350,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/new-york-cheesecake.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-248",
+    "poiId": "poi-098",
+    "name": {
+      "ru": "Круассан с лососем",
+      "en": "Croissant with salmon"
+    },
+    "description": {
+      "ru": "Свежий круассан с копчёным лососем, сливочным сыром и рукколой.",
+      "en": "Fresh croissant with smoked salmon, cream cheese and arugula."
+    },
+    "price": 420,
+    "currency": "RUB",
+    "category": "Завтраки",
+    "photo": "images/menu/croissant-with-salmon.webp",
+    "isPopular": false,
+    "tags": [
+      "завтрак"
+    ]
+  },
+  {
+    "id": "menu-249",
+    "poiId": "poi-098",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-250",
+    "poiId": "poi-098",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-251",
+    "poiId": "poi-098",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-252",
+    "poiId": "poi-094",
+    "name": {
+      "ru": "Капучино",
+      "en": "Cappuccino"
+    },
+    "description": {
+      "ru": "Классический капучино на зерновом кофе с пышной молочной пенкой.",
+      "en": "Classic cappuccino with grain coffee and fluffy milk foam."
+    },
+    "price": 220,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/cappuccino.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-253",
+    "poiId": "poi-094",
+    "name": {
+      "ru": "Л��тте",
+      "en": "Latte"
+    },
+    "description": {
+      "ru": "Нежный латте с большим количеством вспененного молока.",
+      "en": "Gentle latte with plenty of frothed milk."
+    },
+    "price": 250,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/latte.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-254",
+    "poiId": "poi-094",
+    "name": {
+      "ru": "Раф кофе",
+      "en": "Raf coffee"
+    },
+    "description": {
+      "ru": "Авторский раф с ванильным сиропом и сливками.",
+      "en": "Signature raf with vanilla syrup and cream."
+    },
+    "price": 300,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/raf-coffee.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе",
+      "авторское"
+    ]
+  },
+  {
+    "id": "menu-255",
+    "poiId": "poi-094",
+    "name": {
+      "ru": "Чизкейк Нью-Йорк",
+      "en": "New York cheesecake"
+    },
+    "description": {
+      "ru": "Классический американский чизкейк с нежной сырной начинкой.",
+      "en": "Classic American cheesecake with delicate cheese filling."
+    },
+    "price": 350,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/new-york-cheesecake.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-256",
+    "poiId": "poi-094",
+    "name": {
+      "ru": "Круассан с лососем",
+      "en": "Croissant with salmon"
+    },
+    "description": {
+      "ru": "Свежий круассан с копчёным лососем, сливочным сыром и рукколой.",
+      "en": "Fresh croissant with smoked salmon, cream cheese and arugula."
+    },
+    "price": 420,
+    "currency": "RUB",
+    "category": "Завтраки",
+    "photo": "images/menu/croissant-with-salmon.webp",
+    "isPopular": false,
+    "tags": [
+      "завтрак"
+    ]
+  },
+  {
+    "id": "menu-257",
+    "poiId": "poi-094",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-258",
+    "poiId": "poi-094",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-259",
+    "poiId": "poi-094",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-260",
+    "poiId": "poi-099",
+    "name": {
+      "ru": "Капучино",
+      "en": "Cappuccino"
+    },
+    "description": {
+      "ru": "Классический капучино на зерновом кофе с пышной молочной пенкой.",
+      "en": "Classic cappuccino with grain coffee and fluffy milk foam."
+    },
+    "price": 220,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/cappuccino.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-261",
+    "poiId": "poi-099",
+    "name": {
+      "ru": "Л��тте",
+      "en": "Latte"
+    },
+    "description": {
+      "ru": "Нежный латте с большим количеством вспененного молока.",
+      "en": "Gentle latte with plenty of frothed milk."
+    },
+    "price": 250,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/latte.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-262",
+    "poiId": "poi-099",
+    "name": {
+      "ru": "Раф кофе",
+      "en": "Raf coffee"
+    },
+    "description": {
+      "ru": "Авторский раф с ванильным сиропом и сливками.",
+      "en": "Signature raf with vanilla syrup and cream."
+    },
+    "price": 300,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/raf-coffee.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе",
+      "авторское"
+    ]
+  },
+  {
+    "id": "menu-263",
+    "poiId": "poi-099",
+    "name": {
+      "ru": "Чизкейк Нью-Йорк",
+      "en": "New York cheesecake"
+    },
+    "description": {
+      "ru": "Классический американский чизкейк с нежной сырной начинкой.",
+      "en": "Classic American cheesecake with delicate cheese filling."
+    },
+    "price": 350,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/new-york-cheesecake.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-264",
+    "poiId": "poi-099",
+    "name": {
+      "ru": "Круассан с лососем",
+      "en": "Croissant with salmon"
+    },
+    "description": {
+      "ru": "Свежий круассан с копчёным лососем, сливочным сыром и рукколой.",
+      "en": "Fresh croissant with smoked salmon, cream cheese and arugula."
+    },
+    "price": 420,
+    "currency": "RUB",
+    "category": "Завтраки",
+    "photo": "images/menu/croissant-with-salmon.webp",
+    "isPopular": false,
+    "tags": [
+      "завтрак"
+    ]
+  },
+  {
+    "id": "menu-265",
+    "poiId": "poi-099",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-266",
+    "poiId": "poi-099",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-267",
+    "poiId": "poi-099",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  },
+  {
+    "id": "menu-268",
+    "poiId": "poi-081",
+    "name": {
+      "ru": "Капучино",
+      "en": "Cappuccino"
+    },
+    "description": {
+      "ru": "Классический капучино на зерновом кофе с пышной молочной пенкой.",
+      "en": "Classic cappuccino with grain coffee and fluffy milk foam."
+    },
+    "price": 220,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/cappuccino.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-269",
+    "poiId": "poi-081",
+    "name": {
+      "ru": "Л��тте",
+      "en": "Latte"
+    },
+    "description": {
+      "ru": "Нежный латте с большим количеством вспененного молока.",
+      "en": "Gentle latte with plenty of frothed milk."
+    },
+    "price": 250,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/latte.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе"
+    ]
+  },
+  {
+    "id": "menu-270",
+    "poiId": "poi-081",
+    "name": {
+      "ru": "Раф кофе",
+      "en": "Raf coffee"
+    },
+    "description": {
+      "ru": "Авторский раф с ванильным сиропом и сливками.",
+      "en": "Signature raf with vanilla syrup and cream."
+    },
+    "price": 300,
+    "currency": "RUB",
+    "category": "Кофе",
+    "photo": "images/menu/raf-coffee.webp",
+    "isPopular": true,
+    "tags": [
+      "кофе",
+      "авторское"
+    ]
+  },
+  {
+    "id": "menu-271",
+    "poiId": "poi-081",
+    "name": {
+      "ru": "Чизкейк Нью-Йорк",
+      "en": "New York cheesecake"
+    },
+    "description": {
+      "ru": "Классический американский чизкейк с нежной сырной начинкой.",
+      "en": "Classic American cheesecake with delicate cheese filling."
+    },
+    "price": 350,
+    "currency": "RUB",
+    "category": "Десерты",
+    "photo": "images/menu/new-york-cheesecake.webp",
+    "isPopular": true,
+    "tags": [
+      "десерт"
+    ]
+  },
+  {
+    "id": "menu-272",
+    "poiId": "poi-081",
+    "name": {
+      "ru": "Круассан с лососем",
+      "en": "Croissant with salmon"
+    },
+    "description": {
+      "ru": "Свежий круассан с копчёным лососем, сливочным сыром и рукколой.",
+      "en": "Fresh croissant with smoked salmon, cream cheese and arugula."
+    },
+    "price": 420,
+    "currency": "RUB",
+    "category": "Завтраки",
+    "photo": "images/menu/croissant-with-salmon.webp",
+    "isPopular": false,
+    "tags": [
+      "завтрак"
+    ]
+  },
+  {
+    "id": "menu-273",
+    "poiId": "poi-081",
+    "name": {
+      "ru": "Фыдджын (мясной пирог)",
+      "en": "Fyddjyn (meat pie)"
+    },
+    "description": {
+      "ru": "Традиционный осетинский пирог с рубленой говядиной и бульоном. Золотистая корочка, сочная начинка.",
+      "en": "Traditional Ossetian pie with minced beef and broth. Golden crust, juicy filling."
+    },
+    "price": 450,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/fyddjyn-meat-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-274",
+    "poiId": "poi-081",
+    "name": {
+      "ru": "Уалибах (пирог с сыром)",
+      "en": "Ualibach (cheese pie)"
+    },
+    "description": {
+      "ru": "Нежный осетинский пирог с начинкой из свежего осетинского сыра. Тонкое тесто, тягучая сырная начинка.",
+      "en": "Delicate Ossetian pie with fresh Ossetian cheese filling. Thin dough, stretchy cheese."
+    },
+    "price": 400,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/ualibach-cheese-pie.webp",
+    "isPopular": true,
+    "tags": [
+      "осетинская кухня",
+      "фирменное"
+    ]
+  },
+  {
+    "id": "menu-275",
+    "poiId": "poi-081",
+    "name": {
+      "ru": "Картофджын (пирог с картошкой и сыром)",
+      "en": "Kartofdjyn (potato and cheese pie)"
+    },
+    "description": {
+      "ru": "О��етинский пирог с начинкой из картофельного пюре и осетинского сыра.",
+      "en": "Ossetian pie with mashed potato and Ossetian cheese filling."
+    },
+    "price": 380,
+    "currency": "RUB",
+    "category": "Осетинские пироги",
+    "photo": "images/menu/kartofdjyn-potato-and-cheese-pie.webp",
+    "isPopular": false,
+    "tags": [
+      "осетинская кухня"
+    ]
+  }
+]

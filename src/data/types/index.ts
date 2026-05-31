@@ -15,12 +15,11 @@ export type POICategory =
   | 'accommodation'
   | 'nature'
   | 'culture'
-  | 'museums'
-
+  | 'shopping'
+  | 'nightlife'
   | 'transport'
   | 'activities'
   | 'practical'
-  | 'tours'
 
 export type CuisineType = 'national' | 'european' | 'mixed'
 
@@ -60,11 +59,42 @@ export interface POI {
   isChain: boolean
   subscriptionTier: 'free' | 'premium'
   visitCount: number
+  hasMenu: boolean
   hasDelivery: boolean
   externalOrderUrl?: string
-  radius?: number
 }
 
+export interface MenuItem {
+  id: string
+  poiId: string
+  name: LocalizedText
+  description: LocalizedText
+  price: number
+  currency: 'RUB'
+  category: string
+  photo?: string
+  isPopular: boolean
+  tags: string[]
+}
+
+export interface OrderItem {
+  menuItemId: string
+  quantity: number
+  price: number
+}
+
+export type OrderStatus = 'cart' | 'pending' | 'paid' | 'confirmed'
+
+export interface Order {
+  id: string
+  poiId: string
+  items: OrderItem[]
+  total: number
+  status: OrderStatus
+  paymentMethod: 'sbp'
+  createdAt: string
+  comment?: string
+}
 
 export type TourType = 'walking' | 'driving' | 'mixed'
 export type TourStatus = 'recruiting' | 'full' | 'completed'
@@ -89,7 +119,19 @@ export interface Tour {
   category: string
 }
 
-export type ReviewTargetType = 'poi' | 'tour'
+export interface Guide {
+  id: string
+  name: LocalizedText
+  bio: LocalizedText
+  photo: string
+  languages: string[]
+  rating: number
+  reviewCount: number
+  tourCount: number
+  specializations: string[]
+}
+
+export type ReviewTargetType = 'poi' | 'tour' | 'guide'
 
 export interface Review {
   id: string
@@ -128,7 +170,7 @@ export interface TransportRoute {
   id: string
   number: string
   name: LocalizedText
-  type: 'bus' | 'marshrutka' | 'tram'
+  type: 'bus' | 'marshrutka' | 'trolleybus'
   stops: Array<{ name: LocalizedText; location: { lat: number; lng: number } }>
   schedule?: { weekday: string; weekend: string }
   color: string
@@ -145,23 +187,4 @@ export interface UserPreferences {
   language: 'ru' | 'en'
   visitedPois: string[]
   subscription?: Subscription
-  directionsCounts: Record<string, number>
-  callsCounts: Record<string, number>
-}
-
-export interface Event {
-  id: string
-  title: string
-  description: string
-  date: string
-  endDate?: string
-  time?: string
-  image: string
-  venue: string
-  address?: string
-  price?: string
-  category?: string
-  source: 'gorodzovet' | 'afishagoroda' | 'manual'
-  sourceUrl: string
-  fetchedAt: string
 }

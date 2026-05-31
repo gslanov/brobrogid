@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom'
-import { resetScroll } from '@/shared/lib/utils'
 import { useTranslation } from 'react-i18next'
 import type { POI } from '@/data/types'
 import type { SheetState } from '@/shared/ui/BottomSheet'
@@ -32,13 +31,13 @@ export function MapPOISheet({ poi, state }: MapPOISheetProps) {
         </div>
         <div className="flex gap-2 flex-shrink-0">
           <button
-            onClick={() => { resetScroll(); navigate(`/poi/${poi.id}`) }}
+            onClick={() => navigate(`/poi/${poi.id}`)}
             className="px-3 py-2 bg-[var(--color-primary)] text-white rounded-lg text-xs font-medium"
           >
             {t('poi.details')}
           </button>
           <button
-            onClick={() => window.open(`https://www.google.com/maps/dir/?api=1&destination=${poi.location.lat},${poi.location.lng}`)}
+            onClick={() => window.open(`https://yandex.ru/maps/?rtext=~${poi.location.lat},${poi.location.lng}&rtt=auto`)}
             className="px-3 py-2 bg-gray-100 rounded-lg text-xs font-medium"
           >
             {t('poi.directions')}
@@ -71,11 +70,11 @@ export function MapPOISheet({ poi, state }: MapPOISheetProps) {
 
           {/* Action buttons */}
           <div className="flex gap-2 mb-3">
-            <button onClick={() => { resetScroll(); navigate(`/poi/${poi.id}`) }} className="flex-1 py-2 bg-[var(--color-primary)] text-white rounded-lg text-xs font-medium">
+            <button onClick={() => navigate(`/poi/${poi.id}`)} className="flex-1 py-2 bg-[var(--color-primary)] text-white rounded-lg text-xs font-medium">
               {t('poi.details')}
             </button>
             <button
-              onClick={() => window.open(`https://www.google.com/maps/dir/?api=1&destination=${poi.location.lat},${poi.location.lng}`)}
+              onClick={() => window.open(`https://yandex.ru/maps/?rtext=~${poi.location.lat},${poi.location.lng}&rtt=auto`)}
               className="flex-1 py-2 bg-gray-100 rounded-lg text-xs font-medium text-center"
             >
               {t('poi.directions')}
@@ -110,7 +109,7 @@ export function MapPOISheet({ poi, state }: MapPOISheetProps) {
           )}
 
           <button
-            onClick={() => { resetScroll(); navigate(`/poi/${poi.id}`) }}
+            onClick={() => navigate(`/poi/${poi.id}`)}
             className="w-full mt-4 py-3 border border-[var(--color-primary)] text-[var(--color-primary)] rounded-xl text-sm font-medium"
           >
             {t('common.showAll')} →

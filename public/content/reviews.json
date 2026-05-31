@@ -80,6 +80,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-009",
+    "targetType": "guide",
+    "targetId": "guide-002",
+    "authorName": "Сергей Л.",
+    "rating": 5,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-07-22",
+    "isGenerated": true
+  },
+  {
     "id": "rev-010",
     "targetType": "poi",
     "targetId": "poi-081",
@@ -97,6 +107,16 @@
     "rating": 5,
     "text": "Летняя веранда — огромный плюс. Вид на горы и свежий воздух.",
     "date": "2025-09-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-012",
+    "targetType": "tour",
+    "targetId": "tour-005",
+    "authorName": "Алексей Д.",
+    "rating": 5,
+    "text": "Рекомендую эту экскурсию всем. Организация на высшем уровне, транспорт комфортный.",
+    "date": "2025-06-14",
     "isGenerated": true
   },
   {
@@ -200,6 +220,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-023",
+    "targetType": "tour",
+    "targetId": "tour-015",
+    "authorName": "Оксана Л.",
+    "rating": 5,
+    "text": "Было здорово! Единственный минус — хотелось бы больше времени на каждой остановке.",
+    "date": "2025-09-08",
+    "isGenerated": true
+  },
+  {
     "id": "rev-024",
     "targetType": "poi",
     "targetId": "poi-008",
@@ -210,6 +240,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-025",
+    "targetType": "tour",
+    "targetId": "tour-004",
+    "authorName": "Казбек Т.",
+    "rating": 5,
+    "text": "Рекомендую эту экскурсию всем. Организация на высшем уровне, транспорт комфортный.",
+    "date": "2025-09-17",
+    "isGenerated": true
+  },
+  {
     "id": "rev-026",
     "targetType": "poi",
     "targetId": "poi-010",
@@ -217,6 +257,16 @@
     "rating": 5,
     "text": "Одно из лучших мест для пикника. Берите еду и наслаждайтесь видами.",
     "date": "2025-02-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-027",
+    "targetType": "tour",
+    "targetId": "tour-001",
+    "authorName": "Валерий К.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-09-23",
     "isGenerated": true
   },
   {
@@ -247,6 +297,16 @@
     "rating": 4,
     "text": "Билет символический, а впечатления — на миллион. Рекомендую!",
     "date": "2025-04-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-031",
+    "targetType": "guide",
+    "targetId": "guide-005",
+    "authorName": "Диана Г.",
+    "rating": 5,
+    "text": "Очень профессиональный и дружелюбный гид. Отвечает на все вопросы, делится личным опытом.",
+    "date": "2025-05-12",
     "isGenerated": true
   },
   {
@@ -337,6 +397,26 @@
     "rating": 5,
     "text": "Местные жители очень гордятся этим местом. И правильно делают.",
     "date": "2025-07-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-041",
+    "targetType": "tour",
+    "targetId": "tour-013",
+    "authorName": "Карина С.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-05-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-042",
+    "targetType": "poi",
+    "targetId": "poi-017",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-12-02",
     "isGenerated": true
   },
   {
@@ -460,6 +540,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-055",
+    "targetType": "poi",
+    "targetId": "poi-024",
+    "authorName": "James W.",
+    "rating": 5,
+    "text": "Были с детьми — им понравилось. Есть интерактивные элементы.",
+    "date": "2025-07-14",
+    "isGenerated": true
+  },
+  {
     "id": "rev-056",
     "targetType": "poi",
     "targetId": "poi-059",
@@ -510,6 +600,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-061",
+    "targetType": "poi",
+    "targetId": "poi-019",
+    "authorName": "Anna S.",
+    "rating": 4,
+    "text": "Билет символический, а впечатления — на миллион. Рекомендую!",
+    "date": "2025-05-05",
+    "isGenerated": true
+  },
+  {
     "id": "rev-062",
     "targetType": "poi",
     "targetId": "poi-090",
@@ -520,6 +620,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-063",
+    "targetType": "tour",
+    "targetId": "tour-005",
+    "authorName": "Диана Г.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-09-16",
+    "isGenerated": true
+  },
+  {
     "id": "rev-064",
     "targetType": "poi",
     "targetId": "poi-070",
@@ -527,6 +637,16 @@
     "rating": 5,
     "text": "Случайно зашли и остались на весь вечер. Меню разнообразное.",
     "date": "2025-04-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-065",
+    "targetType": "poi",
+    "targetId": "poi-029",
+    "authorName": "John M.",
+    "rating": 4,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-06-09",
     "isGenerated": true
   },
   {
@@ -610,6 +730,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-074",
+    "targetType": "poi",
+    "targetId": "poi-041",
+    "authorName": "Emma G.",
+    "rating": 4,
+    "text": "Были с детьми — им понравилось. Есть интерактивные элементы.",
+    "date": "2025-08-20",
+    "isGenerated": true
+  },
+  {
     "id": "rev-075",
     "targetType": "poi",
     "targetId": "poi-081",
@@ -650,6 +780,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-079",
+    "targetType": "tour",
+    "targetId": "tour-010",
+    "authorName": "Георгий П.",
+    "rating": 5,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-09-16",
+    "isGenerated": true
+  },
+  {
     "id": "rev-080",
     "targetType": "poi",
     "targetId": "poi-020",
@@ -687,6 +827,16 @@
     "rating": 4,
     "text": "Невероятная красота! Горы просто завораживают. Хочется возвращаться снова и снова.",
     "date": "2025-03-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-084",
+    "targetType": "tour",
+    "targetId": "tour-011",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-06-25",
     "isGenerated": true
   },
   {
@@ -737,6 +887,16 @@
     "rating": 5,
     "text": "Порадовало детское меню. Дети всё съели, что бывает редко.",
     "date": "2025-02-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-090",
+    "targetType": "guide",
+    "targetId": "guide-007",
+    "authorName": "Зарина Ц.",
+    "rating": 4,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-09-18",
     "isGenerated": true
   },
   {
@@ -880,6 +1040,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-105",
+    "targetType": "guide",
+    "targetId": "guide-008",
+    "authorName": "Светлана Г.",
+    "rating": 5,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-09-01",
+    "isGenerated": true
+  },
+  {
     "id": "rev-106",
     "targetType": "poi",
     "targetId": "poi-005",
@@ -970,6 +1140,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-115",
+    "targetType": "tour",
+    "targetId": "tour-012",
+    "authorName": "Мадина Х.",
+    "rating": 5,
+    "text": "Было здорово! Единственный минус — хотелось бы больше времени на каждой остановке.",
+    "date": "2025-03-01",
+    "isGenerated": true
+  },
+  {
     "id": "rev-116",
     "targetType": "poi",
     "targetId": "poi-013",
@@ -1020,6 +1200,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-121",
+    "targetType": "guide",
+    "targetId": "guide-007",
+    "authorName": "Оксана Л.",
+    "rating": 4,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-11-09",
+    "isGenerated": true
+  },
+  {
     "id": "rev-122",
     "targetType": "poi",
     "targetId": "poi-007",
@@ -1060,6 +1250,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-126",
+    "targetType": "tour",
+    "targetId": "tour-006",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Рекомендую эту экскурсию всем. Организация на высшем уровне, транспорт комфортный.",
+    "date": "2025-08-18",
+    "isGenerated": true
+  },
+  {
     "id": "rev-127",
     "targetType": "poi",
     "targetId": "poi-086",
@@ -1077,6 +1277,16 @@
     "rating": 3,
     "text": "Узнал много нового об осетинской культуре. Очень познавательно.",
     "date": "2025-06-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-129",
+    "targetType": "tour",
+    "targetId": "tour-009",
+    "authorName": "Виктор Н.",
+    "rating": 5,
+    "text": "Рекомендую эту экскурсию всем. Организация на высшем уровне, транспорт комфортный.",
+    "date": "2025-10-14",
     "isGenerated": true
   },
   {
@@ -1107,6 +1317,16 @@
     "rating": 5,
     "text": "Второй раз здесь — в первый не успели всё посмотреть.",
     "date": "2025-09-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-133",
+    "targetType": "guide",
+    "targetId": "guide-007",
+    "authorName": "Светлана Г.",
+    "rating": 4,
+    "text": "Прекрасный гид! Знает каждый уголок Осетии. Рассказывает так, что не хочется уходить.",
+    "date": "2025-04-04",
     "isGenerated": true
   },
   {
@@ -1200,6 +1420,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-143",
+    "targetType": "tour",
+    "targetId": "tour-002",
+    "authorName": "Алексей Д.",
+    "rating": 4,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-06-06",
+    "isGenerated": true
+  },
+  {
     "id": "rev-144",
     "targetType": "poi",
     "targetId": "poi-015",
@@ -1247,6 +1477,16 @@
     "rating": 5,
     "text": "Место потрясающее, но дорога сложная. Берите внедорожник или экскурсию.",
     "date": "2025-01-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-149",
+    "targetType": "guide",
+    "targetId": "guide-006",
+    "authorName": "Мадина Х.",
+    "rating": 5,
+    "text": "Очень профессиональный и дружелюбный гид. Отвечает на все вопросы, делится личным опытом.",
+    "date": "2025-10-14",
     "isGenerated": true
   },
   {
@@ -1330,6 +1570,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-158",
+    "targetType": "guide",
+    "targetId": "guide-004",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-11-18",
+    "isGenerated": true
+  },
+  {
     "id": "rev-159",
     "targetType": "poi",
     "targetId": "poi-059",
@@ -1340,6 +1590,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-160",
+    "targetType": "guide",
+    "targetId": "guide-008",
+    "authorName": "Тамара А.",
+    "rating": 5,
+    "text": "Очень профессиональный и дружелюбный гид. Отвечает на все вопросы, делится личным опытом.",
+    "date": "2025-08-24",
+    "isGenerated": true
+  },
+  {
     "id": "rev-161",
     "targetType": "poi",
     "targetId": "poi-075",
@@ -1347,6 +1607,16 @@
     "rating": 5,
     "text": "Вегетарианские пироги тоже вкусные! Картофджын и цахараджын — наши фавориты.",
     "date": "2025-03-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-162",
+    "targetType": "guide",
+    "targetId": "guide-003",
+    "authorName": "Аслан Б.",
+    "rating": 4,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-02-17",
     "isGenerated": true
   },
   {
@@ -1410,6 +1680,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-169",
+    "targetType": "guide",
+    "targetId": "guide-006",
+    "authorName": "Игорь В.",
+    "rating": 5,
+    "text": "Прекрасный гид! Знает каждый уголок Осетии. Рассказывает так, что не хочется уходить.",
+    "date": "2025-08-17",
+    "isGenerated": true
+  },
+  {
     "id": "rev-170",
     "targetType": "poi",
     "targetId": "poi-094",
@@ -1417,6 +1697,16 @@
     "rating": 5,
     "text": "Заказывали пироги на вынос — привезли горячими, свежими. Сервис на уровне.",
     "date": "2025-01-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-171",
+    "targetType": "tour",
+    "targetId": "tour-008",
+    "authorName": "Вера Б.",
+    "rating": 3,
+    "text": "Было здорово! Единственный минус — хотелось бы больше времени на каждой остановке.",
+    "date": "2025-04-07",
     "isGenerated": true
   },
   {
@@ -1510,6 +1800,26 @@
     "isGenerated": true
   },
   {
+    "id": "rev-181",
+    "targetType": "tour",
+    "targetId": "tour-008",
+    "authorName": "Георгий П.",
+    "rating": 5,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-04-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-182",
+    "targetType": "tour",
+    "targetId": "tour-005",
+    "authorName": "Mark S.",
+    "rating": 4,
+    "text": "Excellent tour! The guide was incredibly knowledgeable and passionate about Ossetian history.",
+    "date": "2025-09-05",
+    "isGenerated": true
+  },
+  {
     "id": "rev-183",
     "targetType": "poi",
     "targetId": "poi-028",
@@ -1517,6 +1827,16 @@
     "rating": 5,
     "text": "Экскурсовод рассказал много интересного. Два часа пролетели незаметно.",
     "date": "2025-01-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-184",
+    "targetType": "guide",
+    "targetId": "guide-002",
+    "authorName": "Mark S.",
+    "rating": 4,
+    "text": "An amazing guide with deep knowledge of local history and culture. Highly recommended!",
+    "date": "2025-05-07",
     "isGenerated": true
   },
   {
@@ -1550,6 +1870,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-188",
+    "targetType": "tour",
+    "targetId": "tour-012",
+    "authorName": "Павел С.",
+    "rating": 4,
+    "text": "Отличная экскурсия! Гид очень знающий и увлечённый. Маршрут продуман до мелочей.",
+    "date": "2025-07-06",
+    "isGenerated": true
+  },
+  {
     "id": "rev-189",
     "targetType": "poi",
     "targetId": "poi-088",
@@ -1570,6 +1900,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-191",
+    "targetType": "tour",
+    "targetId": "tour-015",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-09-09",
+    "isGenerated": true
+  },
+  {
     "id": "rev-192",
     "targetType": "poi",
     "targetId": "poi-073",
@@ -1577,6 +1917,16 @@
     "rating": 5,
     "text": "Бесплатная парковка рядом. Для центра города — большой плюс.",
     "date": "2025-01-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-193",
+    "targetType": "tour",
+    "targetId": "tour-011",
+    "authorName": "Эдуард М.",
+    "rating": 4,
+    "text": "Отличная экскурсия! Гид очень знающий и увлечённый. Маршрут продуман до мелочей.",
+    "date": "2025-06-27",
     "isGenerated": true
   },
   {
@@ -1600,6 +1950,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-196",
+    "targetType": "tour",
+    "targetId": "tour-003",
+    "authorName": "Julia W.",
+    "rating": 5,
+    "text": "Best day trip from Vladikavkaz. The scenery was breathtaking and the guide was fantastic.",
+    "date": "2025-05-28",
+    "isGenerated": true
+  },
+  {
     "id": "rev-197",
     "targetType": "poi",
     "targetId": "poi-008",
@@ -1620,6 +1980,26 @@
     "isGenerated": true
   },
   {
+    "id": "rev-199",
+    "targetType": "tour",
+    "targetId": "tour-002",
+    "authorName": "Mark S.",
+    "rating": 5,
+    "text": "Best day trip from Vladikavkaz. The scenery was breathtaking and the guide was fantastic.",
+    "date": "2025-10-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-200",
+    "targetType": "tour",
+    "targetId": "tour-007",
+    "authorName": "Сергей Л.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-08-19",
+    "isGenerated": true
+  },
+  {
     "id": "rev-201",
     "targetType": "poi",
     "targetId": "poi-027",
@@ -1637,6 +2017,16 @@
     "rating": 5,
     "text": "Пришли на обед, ушли довольные. Быстро, вкусно, без лишних ожиданий.",
     "date": "2025-08-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-203",
+    "targetType": "poi",
+    "targetId": "poi-025",
+    "authorName": "Ирина В.",
+    "rating": 5,
+    "text": "Рядом есть кафе, можно совместить культурную программу с обедом.",
+    "date": "2025-02-22",
     "isGenerated": true
   },
   {
@@ -1720,6 +2110,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-212",
+    "targetType": "tour",
+    "targetId": "tour-003",
+    "authorName": "Daniel R.",
+    "rating": 5,
+    "text": "Best day trip from Vladikavkaz. The scenery was breathtaking and the guide was fantastic.",
+    "date": "2025-07-14",
+    "isGenerated": true
+  },
+  {
     "id": "rev-213",
     "targetType": "poi",
     "targetId": "poi-004",
@@ -1757,6 +2157,16 @@
     "rating": 3,
     "text": "Интерьер приятный, музыка ненавязчивая. Хорошее место для ужина вдвоём.",
     "date": "2025-08-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-217",
+    "targetType": "poi",
+    "targetId": "poi-020",
+    "authorName": "Мадина Х.",
+    "rating": 3,
+    "text": "Рядом есть кафе, можно совместить культурную программу с обедом.",
+    "date": "2025-04-09",
     "isGenerated": true
   },
   {
@@ -1840,6 +2250,26 @@
     "isGenerated": true
   },
   {
+    "id": "rev-226",
+    "targetType": "poi",
+    "targetId": "poi-019",
+    "authorName": "Артём Ж.",
+    "rating": 5,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-11-04",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-227",
+    "targetType": "guide",
+    "targetId": "guide-006",
+    "authorName": "Олег Т.",
+    "rating": 4,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-09-13",
+    "isGenerated": true
+  },
+  {
     "id": "rev-228",
     "targetType": "poi",
     "targetId": "poi-049",
@@ -1850,6 +2280,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-229",
+    "targetType": "tour",
+    "targetId": "tour-006",
+    "authorName": "Марина Е.",
+    "rating": 5,
+    "text": "Отличная экскурсия! Гид очень знающий и увлечённый. Маршрут продуман до мелочей.",
+    "date": "2025-04-13",
+    "isGenerated": true
+  },
+  {
     "id": "rev-230",
     "targetType": "poi",
     "targetId": "poi-086",
@@ -1857,6 +2297,16 @@
     "rating": 4,
     "text": "Порадовало детское меню. Дети всё съели, что бывает редко.",
     "date": "2025-10-06",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-231",
+    "targetType": "guide",
+    "targetId": "guide-003",
+    "authorName": "Фатима К.",
+    "rating": 4,
+    "text": "Прекрасный гид! Знает каждый уголок Осетии. Рассказывает так, что не хочется уходить.",
+    "date": "2025-05-17",
     "isGenerated": true
   },
   {
@@ -1877,6 +2327,16 @@
     "rating": 5,
     "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
     "date": "2025-03-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-234",
+    "targetType": "tour",
+    "targetId": "tour-002",
+    "authorName": "Нина Р.",
+    "rating": 4,
+    "text": "Рекомендую эту экскурсию всем. Организация на высшем уровне, транспорт комфортный.",
+    "date": "2025-07-12",
     "isGenerated": true
   },
   {
@@ -1960,6 +2420,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-243",
+    "targetType": "poi",
+    "targetId": "poi-014",
+    "authorName": "Карина С.",
+    "rating": 4,
+    "text": "Были с детьми — им понравилось. Есть интерактивные элементы.",
+    "date": "2025-09-03",
+    "isGenerated": true
+  },
+  {
     "id": "rev-244",
     "targetType": "poi",
     "targetId": "poi-047",
@@ -1967,6 +2437,16 @@
     "rating": 5,
     "text": "Захватывает дух! Каньон, горы, река — всё в одном месте.",
     "date": "2025-07-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-245",
+    "targetType": "poi",
+    "targetId": "poi-024",
+    "authorName": "Тамара А.",
+    "rating": 5,
+    "text": "Были с детьми — им понравилось. Есть интерактивные элементы.",
+    "date": "2025-01-08",
     "isGenerated": true
   },
   {
@@ -2030,6 +2510,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-252",
+    "targetType": "tour",
+    "targetId": "tour-002",
+    "authorName": "Георгий П.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-10-12",
+    "isGenerated": true
+  },
+  {
     "id": "rev-253",
     "targetType": "poi",
     "targetId": "poi-051",
@@ -2037,6 +2527,16 @@
     "rating": 4,
     "text": "Мы были в группе с гидом — он рассказал много интересного про историю места.",
     "date": "2025-07-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-254",
+    "targetType": "tour",
+    "targetId": "tour-003",
+    "authorName": "Руслан М.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-10-08",
     "isGenerated": true
   },
   {
@@ -2130,6 +2630,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-264",
+    "targetType": "tour",
+    "targetId": "tour-004",
+    "authorName": "Казбек Т.",
+    "rating": 5,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-05-24",
+    "isGenerated": true
+  },
+  {
     "id": "rev-265",
     "targetType": "poi",
     "targetId": "poi-031",
@@ -2150,6 +2660,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-267",
+    "targetType": "guide",
+    "targetId": "guide-004",
+    "authorName": "Jennifer L.",
+    "rating": 5,
+    "text": "Professional and friendly. Made our trip unforgettable with fascinating stories.",
+    "date": "2025-08-20",
+    "isGenerated": true
+  },
+  {
     "id": "rev-268",
     "targetType": "poi",
     "targetId": "poi-098",
@@ -2157,6 +2677,16 @@
     "rating": 5,
     "text": "Пришли на обед, ушли довольные. Быстро, вкусно, без лишних ожиданий.",
     "date": "2025-05-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-269",
+    "targetType": "tour",
+    "targetId": "tour-008",
+    "authorName": "John M.",
+    "rating": 5,
+    "text": "Well organized tour with a great guide. Highly recommend for first-time visitors.",
+    "date": "2025-09-26",
     "isGenerated": true
   },
   {
@@ -2197,6 +2727,16 @@
     "rating": 5,
     "text": "Невероятная красота! Горы просто завораживают. Хочется возвращаться снова и снова.",
     "date": "2025-02-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-274",
+    "targetType": "tour",
+    "targetId": "tour-004",
+    "authorName": "Валерий К.",
+    "rating": 4,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-09-25",
     "isGenerated": true
   },
   {
@@ -2257,6 +2797,16 @@
     "rating": 5,
     "text": "Фотографировать разрешают. Получились прекрасные снимки.",
     "date": "2025-05-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-281",
+    "targetType": "tour",
+    "targetId": "tour-014",
+    "authorName": "Алина Г.",
+    "rating": 4,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-04-03",
     "isGenerated": true
   },
   {
@@ -2340,6 +2890,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-290",
+    "targetType": "tour",
+    "targetId": "tour-015",
+    "authorName": "Ирина В.",
+    "rating": 5,
+    "text": "Отличная экскурсия! Гид очень знающий и увлечённый. Маршрут продуман до мелочей.",
+    "date": "2025-07-17",
+    "isGenerated": true
+  },
+  {
     "id": "rev-291",
     "targetType": "poi",
     "targetId": "poi-019",
@@ -2400,6 +2960,26 @@
     "isGenerated": true
   },
   {
+    "id": "rev-297",
+    "targetType": "tour",
+    "targetId": "tour-001",
+    "authorName": "Ирина В.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-07-22",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-298",
+    "targetType": "guide",
+    "targetId": "guide-002",
+    "authorName": "Daniel R.",
+    "rating": 5,
+    "text": "Professional and friendly. Made our trip unforgettable with fascinating stories.",
+    "date": "2025-08-04",
+    "isGenerated": true
+  },
+  {
     "id": "rev-299",
     "targetType": "poi",
     "targetId": "poi-015",
@@ -2420,6 +3000,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-301",
+    "targetType": "tour",
+    "targetId": "tour-013",
+    "authorName": "Daniel R.",
+    "rating": 5,
+    "text": "Well organized tour with a great guide. Highly recommend for first-time visitors.",
+    "date": "2025-07-10",
+    "isGenerated": true
+  },
+  {
     "id": "rev-302",
     "targetType": "poi",
     "targetId": "poi-017",
@@ -2437,6 +3027,16 @@
     "rating": 4,
     "text": "Интерьер приятный, музыка ненавязчивая. Хорошее место для ужина вдвоём.",
     "date": "2025-10-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-304",
+    "targetType": "guide",
+    "targetId": "guide-001",
+    "authorName": "Олег Т.",
+    "rating": 5,
+    "text": "Прекрасный гид! Знает каждый уголок Осетии. Рассказывает так, что не хочется уходить.",
+    "date": "2025-01-21",
     "isGenerated": true
   },
   {
@@ -2520,6 +3120,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-313",
+    "targetType": "tour",
+    "targetId": "tour-001",
+    "authorName": "Мадина Х.",
+    "rating": 5,
+    "text": "Замечательная поездка. Увидели столько красоты за один день! Спасибо гиду за интересный рассказ.",
+    "date": "2025-05-08",
+    "isGenerated": true
+  },
+  {
     "id": "rev-314",
     "targetType": "poi",
     "targetId": "poi-006",
@@ -2547,6 +3157,16 @@
     "rating": 5,
     "text": "Были зимой — атмосфера особенная. Снег и древние стены — сказка.",
     "date": "2025-10-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-317",
+    "targetType": "tour",
+    "targetId": "tour-014",
+    "authorName": "Дзерасса Х.",
+    "rating": 5,
+    "text": "Отличная экскурсия! Гид очень знающий и увлечённый. Маршрут продуман до мелочей.",
+    "date": "2025-06-28",
     "isGenerated": true
   },
   {
@@ -2580,6 +3200,26 @@
     "isGenerated": true
   },
   {
+    "id": "rev-321",
+    "targetType": "tour",
+    "targetId": "tour-004",
+    "authorName": "Сергей Л.",
+    "rating": 5,
+    "text": "Рекомендую эту экскурсию всем. Организация на высшем уровне, транспорт комфортный.",
+    "date": "2025-07-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-322",
+    "targetType": "guide",
+    "targetId": "guide-005",
+    "authorName": "Зарина Ц.",
+    "rating": 5,
+    "text": "Прекрасный гид! Знает каждый уголок Осетии. Рассказывает так, что не хочется уходить.",
+    "date": "2025-11-04",
+    "isGenerated": true
+  },
+  {
     "id": "rev-323",
     "targetType": "poi",
     "targetId": "poi-023",
@@ -2607,6 +3247,16 @@
     "rating": 4,
     "text": "Уютная атмосфера, внимательный персонал. Еда вкусная, порции щедрые.",
     "date": "2025-03-11",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-326",
+    "targetType": "guide",
+    "targetId": "guide-003",
+    "authorName": "Дзерасса Х.",
+    "rating": 5,
+    "text": "Прекрасный гид! Знает каждый уголок Осетии. Рассказывает так, что не хочется уходить.",
+    "date": "2025-01-26",
     "isGenerated": true
   },
   {
@@ -2670,6 +3320,26 @@
     "isGenerated": true
   },
   {
+    "id": "rev-333",
+    "targetType": "tour",
+    "targetId": "tour-009",
+    "authorName": "Аслан Б.",
+    "rating": 5,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-09-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-334",
+    "targetType": "tour",
+    "targetId": "tour-007",
+    "authorName": "Марина Е.",
+    "rating": 5,
+    "text": "Гид не только показал все достопримечательности, но и рассказал легенды и историю. Очень интересно!",
+    "date": "2025-09-01",
+    "isGenerated": true
+  },
+  {
     "id": "rev-335",
     "targetType": "poi",
     "targetId": "poi-080",
@@ -2730,6 +3400,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-341",
+    "targetType": "tour",
+    "targetId": "tour-013",
+    "authorName": "Артём Ж.",
+    "rating": 3,
+    "text": "Было здорово! Единственный минус — хотелось бы больше времени на каждой остановке.",
+    "date": "2025-09-03",
+    "isGenerated": true
+  },
+  {
     "id": "rev-342",
     "targetType": "poi",
     "targetId": "poi-041",
@@ -2760,6 +3440,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-345",
+    "targetType": "tour",
+    "targetId": "tour-003",
+    "authorName": "Tom H.",
+    "rating": 5,
+    "text": "Well organized tour with a great guide. Highly recommend for first-time visitors.",
+    "date": "2025-07-18",
+    "isGenerated": true
+  },
+  {
     "id": "rev-346",
     "targetType": "poi",
     "targetId": "poi-023",
@@ -2777,6 +3467,16 @@
     "rating": 5,
     "text": "Фотографии не передают и десятой части красоты. Нужно видеть своими глазами.",
     "date": "2025-06-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-348",
+    "targetType": "tour",
+    "targetId": "tour-010",
+    "authorName": "Jennifer L.",
+    "rating": 5,
+    "text": "Well organized tour with a great guide. Highly recommend for first-time visitors.",
+    "date": "2025-10-05",
     "isGenerated": true
   },
   {
@@ -2827,6 +3527,16 @@
     "rating": 4,
     "text": "Тихое место для размышлений. Туристов немного, что приятно.",
     "date": "2025-07-18",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-354",
+    "targetType": "guide",
+    "targetId": "guide-005",
+    "authorName": "Казбек Т.",
+    "rating": 4,
+    "text": "Очень профессиональный и дружелюбный гид. Отвечает на все вопросы, делится личным опытом.",
+    "date": "2025-07-06",
     "isGenerated": true
   },
   {
@@ -2930,6 +3640,26 @@
     "isGenerated": true
   },
   {
+    "id": "rev-365",
+    "targetType": "tour",
+    "targetId": "tour-001",
+    "authorName": "Jennifer L.",
+    "rating": 5,
+    "text": "Best day trip from Vladikavkaz. The scenery was breathtaking and the guide was fantastic.",
+    "date": "2025-08-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-366",
+    "targetType": "guide",
+    "targetId": "guide-001",
+    "authorName": "Наталья С.",
+    "rating": 5,
+    "text": "С этим гидом экскурсия превращается в приключение. Обязательно ещё поедем!",
+    "date": "2025-10-09",
+    "isGenerated": true
+  },
+  {
     "id": "rev-367",
     "targetType": "poi",
     "targetId": "poi-011",
@@ -2947,6 +3677,16 @@
     "rating": 5,
     "text": "Хорошее соотношение цена/качество. Wi-Fi стабильный. Рекомендую.",
     "date": "2025-08-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-369",
+    "targetType": "poi",
+    "targetId": "poi-100",
+    "authorName": "Батраз Д.",
+    "rating": 5,
+    "text": "Хорошее соотношение цена/качество. Wi-Fi стабильный. Рекомендую.",
+    "date": "2025-05-08",
     "isGenerated": true
   },
   {
@@ -2980,6 +3720,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-373",
+    "targetType": "poi",
+    "targetId": "poi-101",
+    "authorName": "Сослан Т.",
+    "rating": 4,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-08-28",
+    "isGenerated": true
+  },
+  {
     "id": "rev-374",
     "targetType": "poi",
     "targetId": "poi-102",
@@ -3007,6 +3757,16 @@
     "rating": 5,
     "text": "Уютно и тихо. Горячая вода круглосуточно. Парковка бесплатная.",
     "date": "2025-11-06",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-377",
+    "targetType": "poi",
+    "targetId": "poi-102",
+    "authorName": "Георгий П.",
+    "rating": 4,
+    "text": "Уютно и тихо. Горячая вода круглосуточно. Парковка бесплатная.",
+    "date": "2025-06-06",
     "isGenerated": true
   },
   {
@@ -3070,6 +3830,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-384",
+    "targetType": "poi",
+    "targetId": "poi-104",
+    "authorName": "Елена А.",
+    "rating": 4,
+    "text": "Чистый номер, удобная кровать. Завтрак включён и вполне приличный.",
+    "date": "2025-10-23",
+    "isGenerated": true
+  },
+  {
     "id": "rev-385",
     "targetType": "poi",
     "targetId": "poi-105",
@@ -3097,6 +3867,16 @@
     "rating": 5,
     "text": "Приехали поздно — заселили без проблем. Отзывчивый персонал.",
     "date": "2025-06-12",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-388",
+    "targetType": "poi",
+    "targetId": "poi-105",
+    "authorName": "Залина Б.",
+    "rating": 5,
+    "text": "Приехали поздно — заселили без проблем. Отзывчивый персонал.",
+    "date": "2025-01-14",
     "isGenerated": true
   },
   {
@@ -3190,6 +3970,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-398",
+    "targetType": "poi",
+    "targetId": "poi-109",
+    "authorName": "David B.",
+    "rating": 4,
+    "text": "Чистый номер, удобная кровать. Завтрак включён и вполне приличный.",
+    "date": "2025-07-23",
+    "isGenerated": true
+  },
+  {
     "id": "rev-399",
     "targetType": "poi",
     "targetId": "poi-110",
@@ -3197,6 +3987,16 @@
     "rating": 5,
     "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
     "date": "2025-09-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-400",
+    "targetType": "poi",
+    "targetId": "poi-110",
+    "authorName": "Елена А.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-02-07",
     "isGenerated": true
   },
   {
@@ -3240,6 +4040,46 @@
     "isGenerated": true
   },
   {
+    "id": "rev-405",
+    "targetType": "poi",
+    "targetId": "poi-112",
+    "authorName": "Карина С.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-12-25",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-406",
+    "targetType": "poi",
+    "targetId": "poi-112",
+    "authorName": "Sarah K.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-12-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-407",
+    "targetType": "poi",
+    "targetId": "poi-112",
+    "authorName": "James W.",
+    "rating": 5,
+    "text": "Чистый номер, удобная кровать. Завтрак включён и вполне приличный.",
+    "date": "2025-12-24",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-408",
+    "targetType": "poi",
+    "targetId": "poi-112",
+    "authorName": "Георгий П.",
+    "rating": 5,
+    "text": "Расположение идеальное — всё в пешей доступности. Персонал дружелюбный.",
+    "date": "2025-02-12",
+    "isGenerated": true
+  },
+  {
     "id": "rev-409",
     "targetType": "poi",
     "targetId": "poi-113",
@@ -3270,6 +4110,16 @@
     "isGenerated": true
   },
   {
+    "id": "rev-412",
+    "targetType": "poi",
+    "targetId": "poi-114",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-06-02",
+    "isGenerated": true
+  },
+  {
     "id": "rev-413",
     "targetType": "poi",
     "targetId": "poi-115",
@@ -3287,6 +4137,26 @@
     "rating": 4,
     "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
     "date": "2025-01-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-415",
+    "targetType": "poi",
+    "targetId": "poi-115",
+    "authorName": "Казбек Т.",
+    "rating": 4,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-04-02",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-416",
+    "targetType": "poi",
+    "targetId": "poi-116",
+    "authorName": "David B.",
+    "rating": 4,
+    "text": "Величественное место. История чувствуется в каждом камне.",
+    "date": "2025-12-15",
     "isGenerated": true
   },
   {
@@ -3360,6 +4230,26 @@
     "isGenerated": true
   },
   {
+    "id": "rev-424",
+    "targetType": "poi",
+    "targetId": "poi-118",
+    "authorName": "Георгий П.",
+    "rating": 5,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-12-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-425",
+    "targetType": "poi",
+    "targetId": "poi-118",
+    "authorName": "Сослан Т.",
+    "rating": 5,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-07-06",
+    "isGenerated": true
+  },
+  {
     "id": "rev-426",
     "targetType": "poi",
     "targetId": "poi-119",
@@ -3430,6 +4320,66 @@
     "isGenerated": true
   },
   {
+    "id": "rev-433",
+    "targetType": "poi",
+    "targetId": "poi-121",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-11-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-434",
+    "targetType": "poi",
+    "targetId": "poi-121",
+    "authorName": "Ирина В.",
+    "rating": 5,
+    "text": "Экскурсовод рассказал много интересного. Два часа пролетели незаметно.",
+    "date": "2025-01-17",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-435",
+    "targetType": "poi",
+    "targetId": "poi-122",
+    "authorName": "Ирина В.",
+    "rating": 4,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-01-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-436",
+    "targetType": "poi",
+    "targetId": "poi-122",
+    "authorName": "Залина Б.",
+    "rating": 4,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-04-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-437",
+    "targetType": "poi",
+    "targetId": "poi-122",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-04-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-438",
+    "targetType": "poi",
+    "targetId": "poi-122",
+    "authorName": "Георгий П.",
+    "rating": 3,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-11-09",
+    "isGenerated": true
+  },
+  {
     "id": "rev-439",
     "targetType": "poi",
     "targetId": "poi-123",
@@ -3450,6 +4400,36 @@
     "isGenerated": true
   },
   {
+    "id": "rev-441",
+    "targetType": "poi",
+    "targetId": "poi-123",
+    "authorName": "Аслан Б.",
+    "rating": 5,
+    "text": "Были зимой — атмосфера особенная. Снег и древние стены — сказка.",
+    "date": "2025-08-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-442",
+    "targetType": "poi",
+    "targetId": "poi-123",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Хорошо сохранившийся памятник истории. Видно, что за ним ухаживают.",
+    "date": "2025-05-15",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-443",
+    "targetType": "poi",
+    "targetId": "poi-124",
+    "authorName": "Георгий П.",
+    "rating": 3,
+    "text": "Вечером с подсветкой выглядит ещё красивее. Приходите на закате.",
+    "date": "2025-02-14",
+    "isGenerated": true
+  },
+  {
     "id": "rev-444",
     "targetType": "poi",
     "targetId": "poi-124",
@@ -3460,6 +4440,36 @@
     "isGenerated": true
   },
   {
+    "id": "rev-445",
+    "targetType": "poi",
+    "targetId": "poi-125",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-08-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-446",
+    "targetType": "poi",
+    "targetId": "poi-125",
+    "authorName": "Алексей Д.",
+    "rating": 5,
+    "text": "Экскурсовод рассказал много интересного. Два часа пролетели незаметно.",
+    "date": "2025-09-20",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-447",
+    "targetType": "poi",
+    "targetId": "poi-125",
+    "authorName": "Мария К.",
+    "rating": 3,
+    "text": "Обязательно к посещению в Осетии. Уникальное культурное наследие.",
+    "date": "2025-11-16",
+    "isGenerated": true
+  },
+  {
     "id": "rev-448",
     "targetType": "poi",
     "targetId": "poi-126",
@@ -3467,6 +4477,16 @@
     "rating": 5,
     "text": "Тихое место для размышлений. Туристов немного, что приятно.",
     "date": "2025-03-03",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-449",
+    "targetType": "poi",
+    "targetId": "poi-126",
+    "authorName": "Мария К.",
+    "rating": 4,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-07-15",
     "isGenerated": true
   },
   {
@@ -3510,6 +4530,46 @@
     "isGenerated": true
   },
   {
+    "id": "rev-454",
+    "targetType": "poi",
+    "targetId": "poi-129",
+    "authorName": "Батраз Д.",
+    "rating": 3,
+    "text": "Величественное место. История чувствуется в каждом камне.",
+    "date": "2025-06-10",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-455",
+    "targetType": "poi",
+    "targetId": "poi-129",
+    "authorName": "Мария К.",
+    "rating": 4,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-02-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-456",
+    "targetType": "poi",
+    "targetId": "poi-129",
+    "authorName": "Олег Т.",
+    "rating": 5,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-02-09",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-457",
+    "targetType": "poi",
+    "targetId": "poi-129",
+    "authorName": "James W.",
+    "rating": 4,
+    "text": "Обязательно к посещению в Осетии. Уникальное культурное наследие.",
+    "date": "2025-01-22",
+    "isGenerated": true
+  },
+  {
     "id": "rev-458",
     "targetType": "poi",
     "targetId": "poi-130",
@@ -3527,6 +4587,36 @@
     "rating": 4,
     "text": "Советую начать осмотр именно отсюда — это визитная карточка региона.",
     "date": "2025-09-07",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-460",
+    "targetType": "poi",
+    "targetId": "poi-131",
+    "authorName": "James W.",
+    "rating": 3,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-12-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-461",
+    "targetType": "poi",
+    "targetId": "poi-131",
+    "authorName": "Наталья С.",
+    "rating": 5,
+    "text": "Вечером с подсветкой выглядит ещё красивее. Приходите на закате.",
+    "date": "2025-03-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-462",
+    "targetType": "poi",
+    "targetId": "poi-131",
+    "authorName": "Emily R.",
+    "rating": 5,
+    "text": "Хорошо сохранившийся памятник истории. Видно, что за ним ухаживают.",
+    "date": "2025-09-11",
     "isGenerated": true
   },
   {
@@ -3550,6 +4640,36 @@
     "isGenerated": true
   },
   {
+    "id": "rev-465",
+    "targetType": "poi",
+    "targetId": "poi-132",
+    "authorName": "Дмитрий Р.",
+    "rating": 4,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-06-16",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-466",
+    "targetType": "poi",
+    "targetId": "poi-133",
+    "authorName": "Sarah K.",
+    "rating": 5,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-01-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-467",
+    "targetType": "poi",
+    "targetId": "poi-133",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-02-20",
+    "isGenerated": true
+  },
+  {
     "id": "rev-468",
     "targetType": "poi",
     "targetId": "poi-134",
@@ -3567,6 +4687,16 @@
     "rating": 5,
     "text": "Местные жители очень гордятся этим местом. И правильно делают.",
     "date": "2025-01-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-470",
+    "targetType": "poi",
+    "targetId": "poi-134",
+    "authorName": "Мадина Х.",
+    "rating": 5,
+    "text": "Обязательно к посещению в Осетии. Уникальное культурное наследие.",
+    "date": "2025-05-28",
     "isGenerated": true
   },
   {
@@ -3610,6 +4740,26 @@
     "isGenerated": true
   },
   {
+    "id": "rev-475",
+    "targetType": "poi",
+    "targetId": "poi-135",
+    "authorName": "Елена А.",
+    "rating": 4,
+    "text": "Экскурсовод рассказал много интересного. Два часа пролетели незаметно.",
+    "date": "2025-05-28",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-476",
+    "targetType": "poi",
+    "targetId": "poi-136",
+    "authorName": "Батраз Д.",
+    "rating": 5,
+    "text": "Были с детьми — им понравилось. Есть интерактивные элементы.",
+    "date": "2025-04-05",
+    "isGenerated": true
+  },
+  {
     "id": "rev-477",
     "targetType": "poi",
     "targetId": "poi-136",
@@ -3617,6 +4767,76 @@
     "rating": 4,
     "text": "Фотографировать разрешают. Получились прекрасные снимки.",
     "date": "2025-10-08",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-478",
+    "targetType": "poi",
+    "targetId": "poi-136",
+    "authorName": "Мадина Х.",
+    "rating": 4,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-01-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-479",
+    "targetType": "poi",
+    "targetId": "poi-137",
+    "authorName": "John M.",
+    "rating": 5,
+    "text": "Рядом есть кафе, можно совместить культурную программу с обедом.",
+    "date": "2025-02-14",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-480",
+    "targetType": "poi",
+    "targetId": "poi-137",
+    "authorName": "Анна М.",
+    "rating": 5,
+    "text": "Были зимой — атмосфера особенная. Снег и древние стены — сказка.",
+    "date": "2025-11-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-481",
+    "targetType": "poi",
+    "targetId": "poi-137",
+    "authorName": "Мадина Х.",
+    "rating": 4,
+    "text": "Билет символический, а впечатления — на миллион. Рекомендую!",
+    "date": "2025-05-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-482",
+    "targetType": "poi",
+    "targetId": "poi-138",
+    "authorName": "Олег Т.",
+    "rating": 4,
+    "text": "Величественное место. История чувствуется в каждом камне.",
+    "date": "2025-04-13",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-483",
+    "targetType": "poi",
+    "targetId": "poi-138",
+    "authorName": "Алексей Д.",
+    "rating": 5,
+    "text": "Обязательно к посещению в Осетии. Уникальное культурное наследие.",
+    "date": "2025-10-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-484",
+    "targetType": "poi",
+    "targetId": "poi-138",
+    "authorName": "Тимур Х.",
+    "rating": 5,
+    "text": "Были с детьми — им понравилось. Есть интерактивные элементы.",
+    "date": "2025-03-11",
     "isGenerated": true
   },
   {
@@ -3630,6 +4850,86 @@
     "isGenerated": true
   },
   {
+    "id": "rev-486",
+    "targetType": "poi",
+    "targetId": "poi-139",
+    "authorName": "Алексей Д.",
+    "rating": 4,
+    "text": "Красивое здание снаружи и внутри. Стоит зайти даже ненадолго.",
+    "date": "2025-06-27",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-487",
+    "targetType": "poi",
+    "targetId": "poi-139",
+    "authorName": "Сослан Т.",
+    "rating": 5,
+    "text": "Обязательно к посещению в Осетии. Уникальное культурное наследие.",
+    "date": "2025-09-01",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-488",
+    "targetType": "poi",
+    "targetId": "poi-139",
+    "authorName": "Батраз Д.",
+    "rating": 5,
+    "text": "Хорошо сохранившийся памятник истории. Видно, что за ним ухаживают.",
+    "date": "2025-05-23",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-489",
+    "targetType": "poi",
+    "targetId": "poi-139",
+    "authorName": "Зарина Ц.",
+    "rating": 5,
+    "text": "Фотографировать разрешают. Получились прекрасные снимки.",
+    "date": "2025-04-26",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-490",
+    "targetType": "poi",
+    "targetId": "poi-140",
+    "authorName": "Дмитрий Р.",
+    "rating": 3,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-03-04",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-491",
+    "targetType": "poi",
+    "targetId": "poi-140",
+    "authorName": "Michael T.",
+    "rating": 5,
+    "text": "Архитектура поражает. Столько деталей — можно рассматривать часами.",
+    "date": "2025-10-05",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-492",
+    "targetType": "poi",
+    "targetId": "poi-140",
+    "authorName": "Наталья С.",
+    "rating": 3,
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-10-19",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-493",
+    "targetType": "poi",
+    "targetId": "poi-140",
+    "authorName": "Мария К.",
+    "rating": 5,
+    "text": "Рядом есть кафе, можно совместить культурную программу с обедом.",
+    "date": "2025-10-14",
+    "isGenerated": true
+  },
+  {
     "id": "rev-494",
     "targetType": "poi",
     "targetId": "poi-141",
@@ -3637,6 +4937,16 @@
     "rating": 3,
     "text": "Рядом есть кафе, можно совместить культурную программу с обедом.",
     "date": "2025-11-21",
+    "isGenerated": true
+  },
+  {
+    "id": "rev-495",
+    "targetType": "poi",
+    "targetId": "poi-141",
+    "authorName": "Мадина Х.",
+    "rating": 5,
+    "text": "Вечером с подсветкой выглядит ещё красивее. Приходите на закате.",
+    "date": "2025-04-16",
     "isGenerated": true
   },
   {
@@ -3652,301 +4962,31 @@
   {
     "id": "rev-497",
     "targetType": "poi",
-    "targetId": "poi-229",
-    "authorName": "Залина Дзгоева",
-    "rating": 5,
-    "text": "Пришли сюда 9 Мая с дедушкой — он стоял молча минуты три, смотрел на огонь. Имена на плитах читала и не могла остановиться: среди них есть наша фамилия. Место, которое не отпускает.",
-    "date": "2024-05-09",
+    "targetId": "poi-142",
+    "authorName": "James W.",
+    "rating": 4,
+    "text": "Экскурсовод рассказал много интересного. Два часа пролетели незаметно.",
+    "date": "2025-10-04",
     "isGenerated": true
   },
   {
     "id": "rev-498",
     "targetType": "poi",
-    "targetId": "poi-229",
-    "authorName": "Артём Соколов",
-    "rating": 4,
-    "text": "Приезжал по делам во Владикавказ, вечером прогуливался по проспекту Коста и зашёл. Огонь горит ровно, тихо, рядом почти никого не было. Чугунные плиты с именами аккуратно встроены в ограждение — всё сделано без пафоса, и от этого серьёзнее.",
-    "date": "2024-09-14",
+    "targetId": "poi-142",
+    "authorName": "Michael T.",
+    "rating": 5,
+    "text": "Хорошо сохранившийся памятник истории. Видно, что за ним ухаживают.",
+    "date": "2025-02-10",
     "isGenerated": true
   },
   {
     "id": "rev-499",
     "targetType": "poi",
-    "targetId": "poi-229",
-    "authorName": "Мария Тотиева",
+    "targetId": "poi-142",
+    "authorName": "Sarah K.",
     "rating": 5,
-    "text": "После свадьбы приехали сюда с мужем — традиция в нашей семье. Положили цветы к огню, постояли. Рядом проходила детская железная дорога: поезд притормозил у остановки «Вечный огонь», дети выглядывали в окна. Получилось одновременно торжественно и живо.",
-    "date": "2024-08-03",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-500",
-    "targetType": "poi",
-    "targetId": "poi-230",
-    "authorName": "Тамерлан Цаликов",
-    "rating": 5,
-    "text": "Меч стоит прямо в долине, на фоне водопадов — картина нереальная. Металл потемнел от горной влаги, валун огромный, меч уходит в него будто вправду вонзили. Нартский эпос здесь чувствуется физически, а не как надпись на табличке.",
-    "date": "2024-07-20",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-501",
-    "targetType": "poi",
-    "targetId": "poi-230",
-    "authorName": "Светлана Рябова",
-    "rating": 4,
-    "text": "Ехали специально в Мидаграбинскую долину смотреть водопады, меч нашли уже на месте — не ожидали. Конструкция внушительная, хорошо держится в камне. Интересно, что та же легенда есть и у кельтов — стоишь и думаешь, как далеко расходятся одни и те же истории.",
-    "date": "2024-06-11",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-502",
-    "targetType": "poi",
-    "targetId": "poi-230",
-    "authorName": "Руслан Бекоев",
-    "rating": 5,
-    "text": "Добрались пешком от стоянки минут сорок — и сразу увидели меч на валуне под открытым небом. Небо было чистое, вокруг горы и шум водопадов. Сфотографировали со всех сторон, но ни один кадр не передаёт масштаб — это надо видеть вживую.",
-    "date": "2024-08-27",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-503",
-    "targetType": "poi",
-    "targetId": "poi-231",
-    "authorName": "Тамара Кесаева",
-    "rating": 5,
-    "text": "Стояла у скульптуры минут двадцать и не могла оторваться. Зеркальные осколки на барсе отражают всё — скалы каньона, небо, воду Ардона внизу. В один момент казалось, что барс буквально сливается с горой и исчезает. Мощная идея: животное с герба — и оно уходит, растворяется.",
-    "date": "2024-08-14",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-504",
-    "targetType": "poi",
-    "targetId": "poi-231",
-    "authorName": "Руслан Дзугаев",
-    "rating": 5,
-    "text": "Каньон сам по себе впечатляет — узкая теснина, скалы нависают с двух сторон, Ардон грохочет где-то внизу. А барс на входе как будто встречает. Зеркала на нём отражают именно этот пейзаж, не абстрактный, а вот этот конкретный камень и это небо над тобой. Очень точная работа.",
-    "date": "2024-07-03",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-505",
-    "targetType": "poi",
-    "targetId": "poi-231",
-    "authorName": "Ольга Николаева",
-    "rating": 4,
-    "text": "Интересный арт-объект, хотя я не сразу поняла смысл. Потом кто-то объяснил, что переднеазиатский леопард почти исчез — и скульптура про это, про исчезновение. Зеркала дают ощущение, что зверь уже наполовину там, в скале. Фотографировала с разных ракурсов — в каждом отражение разное.",
-    "date": "2024-09-21",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-506",
-    "targetType": "poi",
-    "targetId": "poi-232",
-    "authorName": "Аслан Цаллагов",
-    "rating": 5,
-    "text": "«Æ» — это не просто буква, это звук которого нет больше нигде. Стоишь внутри металлической конструкции, горные хребты вокруг, и чувствуешь что-то родное. Мой дед говорил на осетинском с этим звуком постоянно. Хорошо, что кто-то поставил памятник именно языку, а не очередному герою.",
-    "date": "2024-06-18",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-507",
-    "targetType": "poi",
-    "targetId": "poi-232",
-    "authorName": "Светлана Воронова",
-    "rating": 5,
-    "text": "Ехали мимо в сторону Даргавса и остановились. Буква огромная, металлическая, внутрь можно забраться и сесть — что все и делают. Вид на хребты оттуда просто открыточный. Потом уже в городе погуглила: «Æ» правда нигде в кириллице больше нет. Маленькое открытие по дороге к городу мёртвых.",
-    "date": "2024-08-30",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-508",
-    "targetType": "poi",
-    "targetId": "poi-232",
-    "authorName": "Георгий Плиев",
-    "rating": 4,
-    "text": "Сфоткался сидя внутри «Æ» с панорамой хребтов позади — получилась лучшая фотка всей поездки. Конструкция добротная, не шатается, ржавчины нет. Место выбрано точно: между Даргавсом и Фиагдоном, на горном маршруте, где думаешь о вечном. Хочется, чтобы таких штук было больше.",
-    "date": "2024-07-25",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-509",
-    "targetType": "poi",
-    "targetId": "poi-233",
-    "authorName": "Тамара Дзгоева",
-    "rating": 5,
-    "text": "Стоишь перед хаосом металлических стержней и не понимаешь, что перед тобой — пока не находишь ту самую точку. И вдруг из прутьев разной высоты собирается лицо. Портрет Косты — это что-то из разряда невозможного. Зарамагское водохранилище и скалы вокруг делают момент ещё мощнее.",
-    "date": "2024-08-14",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-510",
-    "targetType": "poi",
-    "targetId": "poi-233",
-    "authorName": "Руслан Кесаев",
-    "rating": 5,
-    "text": "Дорога туда — отдельное приключение, высокогорье не шутит. Но когда встаёшь с нужной точки и стержни вдруг складываются в чёткий профиль Хетагурова — понимаешь, зачем ехал. Анаморфная оптика в металле, на фоне воды и скал — это не просто арт-объект, это ощущение.",
-    "date": "2024-09-03",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-511",
-    "targetType": "poi",
-    "targetId": "poi-233",
-    "authorName": "Залина Бекоева",
-    "rating": 4,
-    "text": "Подошла с неправильной стороны — увидела просто торчащие прутья разной высоты, ничего не поняла. Потом муж показал точку — и всё, портрет как будто материализовался из воздуха. Жаль, что место такое труднодоступное — многие просто не доезжают.",
-    "date": "2024-07-22",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-512",
-    "targetType": "poi",
-    "targetId": "poi-234",
-    "authorName": "Георгий Плиев",
-    "rating": 5,
-    "text": "Колесо Балсага стоит в самом сердце Даргавского ущелья, и это абсолютно правильное место для него. Рядом средневековый город мёртвых — и вот перед тобой металлическое огненное колесо из нартского эпоса, которое в мифе покалечило самого Сослана. Атмосфера такая, что мурашки.",
-    "date": "2024-06-18",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-513",
-    "targetType": "poi",
-    "targetId": "poi-234",
-    "authorName": "Ирина Хугаева",
-    "rating": 5,
-    "text": "Если вы едете в Даргавс смотреть склепы — не проезжайте мимо этой скульптуры. Металлическое колесо масштабное, агрессивное по форме — именно таким и должно быть орудие из нартского эпоса. Историю про Сослана я прочитала уже дома, и всё встало на своё место.",
-    "date": "2024-10-05",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-514",
-    "targetType": "poi",
-    "targetId": "poi-234",
-    "authorName": "Азамат Цориев",
-    "rating": 4,
-    "text": "Колесо Балсага производит впечатление именно в связке с Даргавсом рядом — один контекст усиливает другой. Металл, ущелье, башни на склоне. Сама скульптура грубоватая, тяжёлая — но это и есть нартский эпос, там ничего лёгкого нет.",
-    "date": "2024-08-29",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-515",
-    "targetType": "poi",
-    "targetId": "poi-235",
-    "authorName": "Тамара Гагиева",
-    "rating": 5,
-    "text": "Рог висит прямо в скале на цепях — смотришь и не сразу веришь, что это реальная конструкция. Мы ехали по трассе, я заметила его краем глаза и попросила остановить. Внизу шумит слияние Ардона и Закки — место очень живое. Символ выбран идеально: рог изобилия здесь не декорация, а часть горного духа.",
-    "date": "2024-08-14",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-516",
-    "targetType": "poi",
-    "targetId": "poi-235",
-    "authorName": "Виталий Касаев",
-    "rating": 5,
-    "text": "Проезжал мимо Бурона несколько раз, но только сейчас остановился у Рога. Цепи толстые, кованые — явно сделано на века, не для галочки. Скала, в которую он вбит, нависает прямо над дорогой. На фоне хребта и речных порогов выглядит как настоящий горский артефакт.",
-    "date": "2024-07-03",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-517",
-    "targetType": "poi",
-    "targetId": "poi-235",
-    "authorName": "Ольга Фёдорова",
-    "rating": 4,
-    "text": "Арт-объект запоминается именно благодаря месту: скала, цепи, Транскавказская магистраль прямо рядом. Рог символизирует осетинское гостеприимство — и это чувствуется. Единственное — парковки нормальной нет, пришлось вставать на обочине трассы.",
-    "date": "2024-09-22",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-518",
-    "targetType": "poi",
-    "targetId": "poi-236",
-    "authorName": "Зелим Дзгоев",
-    "rating": 5,
-    "text": "Добраться сюда непросто — Садонское ущелье не самое доступное место, но оно того стоит. Скульптура джигита с кинжалами стоит прямо среди суровых скал, как будто он всегда здесь был. Видно, что автор понимал осетинский танец изнутри: поза, наклон, кинжалы подняты в правильный момент.",
-    "date": "2024-06-18",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-519",
-    "targetType": "poi",
-    "targetId": "poi-236",
-    "authorName": "Марина Плиева",
-    "rating": 5,
-    "text": "Мы специально поехали в Верхний Згид ради этой скульптуры — не пожалели ни секунды. Кинжалы у фигуры проработаны в деталях, металл уже чуть потемнел от горного воздуха. Вокруг — старые руины рудников и отвесные стены ущелья. Атмосфера абсолютно другая, не похожая на туристические точки.",
-    "date": "2024-08-30",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-520",
-    "targetType": "poi",
-    "targetId": "poi-236",
-    "authorName": "Артём Хугаев",
-    "rating": 4,
-    "text": "Интересно, что именно здесь, в бывшем горнодобывающем районе, поставили танцора с кинжалами. Как будто культура держит форпост там, куда промышленность уже ушла. Скульптура крепкая, ухоженная — кто-то за ней явно следит. Дорога в Садонском ущелье местами разбита, но сам объект стоит поездки.",
-    "date": "2024-10-05",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-521",
-    "targetType": "poi",
-    "targetId": "poi-237",
-    "authorName": "Аслан Дзиоев",
-    "rating": 5,
-    "text": "Три металлические стрелы торчат из земли — огромные, почти угрожающие. Стоишь рядом и понимаешь масштаб: они выше человека в несколько раз, а за ними — хребты Дигории. Место для такого монумента выбрано идеально: нартский герой должен стоять именно в этих горах, нигде больше.",
-    "date": "2024-07-11",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-522",
-    "targetType": "poi",
-    "targetId": "poi-237",
-    "authorName": "Светлана Гурджибекова",
-    "rating": 5,
-    "text": "Ехала в Мацуту смотреть средневековые башни и совсем не ожидала встретить такое. Три исполинские стрелы, вонзённые в землю — как будто Сослан только что метнул их и ушёл за перевал. На фоне альпийских лугов и скальных хребтов это выглядит абсолютно органично, не как туристический арт-объект, а как часть ландшафта.",
-    "date": "2024-08-20",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-523",
-    "targetType": "poi",
-    "targetId": "poi-237",
-    "authorName": "Марат Кануков",
-    "rating": 4,
-    "text": "Дигорское ущелье само по себе другой мир — тише, суровее, без толп. А эти три стрелы добавляют к пейзажу нужный смысловой слой: нартский эпос здесь не декорация, это живая традиция. Немного жаль, что рядом нет никакой таблички с историей Сослана — без контекста половина посетителей просто фотографируется и едет дальше.",
-    "date": "2024-09-14",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-524",
-    "targetType": "poi",
-    "targetId": "poi-239",
-    "authorName": "Залина Хадарцева",
-    "rating": 5,
-    "text": "Пятиметровый металлический хъисын фандыр на фоне водопада — это что-то запредельное. Шум воды вокруг создаёт ощущение, что инструмент звучит сам по себе. Узнала, что это предок скрипки — теперь смотрю на европейскую классику чуть иначе.",
-    "date": "2024-07-30",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-525",
-    "targetType": "poi",
-    "targetId": "poi-239",
-    "authorName": "Тимур Бзаров",
-    "rating": 5,
-    "text": "Галиатский водопад сам по себе стоит поездки, но скульптура рядом делает остановку обязательной. Огромный смычковый инструмент из металла — хъисын фандыр — стоит так, что вода как будто обходит его с уважением. За спиной старинный Галиат с башнями, перед тобой водопад и эта скульптура. Дигория умеет удивлять.",
-    "date": "2024-08-05",
-    "isGenerated": true
-  },
-  {
-    "id": "rev-526",
-    "targetType": "poi",
-    "targetId": "poi-239",
-    "authorName": "Екатерина Вакулова",
-    "rating": 4,
-    "text": "Я не знала, что такой инструмент вообще существует, пока не увидела скульптуру. Пятиметровый хъисын фандыр рядом с водопадом — звук воды постоянно в ушах, и как-то начинаешь слышать в нём что-то музыкальное. Место немного сложно найти с первого раза, но когда выходишь на него — точно не жалеешь.",
-    "date": "2024-09-27",
+    "text": "Интересная экспозиция. Рекомендую с экскурсоводом — без него многое упустите.",
+    "date": "2025-04-22",
     "isGenerated": true
   }
 ]

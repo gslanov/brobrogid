@@ -1,35 +1,36 @@
 # BOARD
 
 ## INTENTION
-Travel guide PWA (React-based, offline-first) for Vladikavkaz & North Ossetia.
+Travel guide PWA (React-based, offline-first). "Baby" web/PWA version first, then port to React Native mobile. Maps via MapLibre GL JS + PMTiles. Full POI system with categories, favorites, offline support, bottom sheet navigation.
 
 ## NOW
-Explore content cards (tours, transport, etc.): copy to separate "info" folder, fill with real content from the internet.
+Project kickoff — architecture and stack decisions. Blueprint read and digested. No git repo yet. No code written.
 
 ## CONTEXT
-Project is Vite+React+TypeScript PWA. Path: /home/cosmo/SOFT/COSMO/BROBROGID
-Feature-based structure under src/features/. i18n ru/en. Zustand stores. Dexie/IndexedDB.
-Admin panel fully i18n-ized. LanguageToggle in header. ~230 translation keys in ru.json/en.json under admin.* namespace.
+Blueprint: /home/cosmo/Загрузки/travel_guide_blueprint.md
+Key features from blueprint:
+- 4-tab nav: Explore, Map, Saved/Trips, Profile
+- Map + draggable bottom sheet (peek / half / full states)
+- POI system: 8-10 top-level categories, 3 max per POI, tags for attributes
+- Offline: PMTiles (IndexedDB), Workbox service worker, Cache-First for tiles
+- iOS limits: 50MB Cache API, 7-day eviction, no bg location — handle defensively
+- Progressive disclosure: card → expanded preview → full detail page
+- Stack from blueprint: Next.js 14+ OR SvelteKit, MapLibre GL JS, Tailwind CSS, idb
+- User wants React-based for easier React Native port later → lean toward Next.js + React
 
 ## PINNED
-- Stack is React-based (Vite+React, not Next.js) — required for future React Native portability
-- MapLibre GL JS is the chosen map library
+- Stack must be React-based (Next.js) — required for future React Native portability
+- Start with PWA "baby" version, keep code portable
+- MapLibre GL JS is the chosen map library (open-source, offline-capable)
 
 ## NEXT
-1. Code review / QA pass if requested
+1. Confirm stack details with user (Next.js App Router? Vite+React? State management?)
+2. Initialize git repo and scaffold project
+3. Implement core screens in order: Map view → Explore feed → POI detail → Saved
 
 ## ARCHITECTURE
-Vite + React + TypeScript + Tailwind. Feature folders: explore, map, guides, tours, food,
-emergency, ordering, poi, profile, saved, search, subscription, onboarding.
-MapLibre GL JS + PMTiles. Dexie (IndexedDB). Zustand stores. i18n (en/ru).
-Bottom tabs nav: Explore, Map, Saved, Food, Tours, Emergency, Profile.
-Admin panel: auth (admin/bro1/bro2), full i18n, LanguageToggle.
+Not yet defined. Decision pending stack confirmation.
 
 ## DONE
-- Blueprint analyzed
-- Project scaffolded and fully developed (commit ff66266)
-- BOARD updated to reflect actual code state
-- Documentation task initiated (prior session)
-- Admin panel i18n (RU/EN) — все 20+ файлов мигрированы
-- Auth для админки (admin/bro1/bro2)
-- Fix seed.ts emergency/transport normalization
+- Blueprint read and analyzed (/home/cosmo/Загрузки/travel_guide_blueprint.md)
+- BOARD initialized

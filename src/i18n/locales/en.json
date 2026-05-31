@@ -3,19 +3,10 @@
     "name": "BROBROGID",
     "tagline": "Vladikavkaz Travel Guide"
   },
-  "afisha": {
-    "title": "Events",
-    "subtitle": "What's on in Vladikavkaz",
-    "empty": "No events yet",
-    "emptyHint": "Concerts, exhibitions and events coming soon",
-    "goToSource": "More details",
-    "source": "Source"
-  },
   "tabs": {
     "home": "Home",
     "map": "Map",
-    "afisha": "Events",
-    "sos": "SOS",
+    "tours": "Tours",
     "profile": "Profile"
   },
   "categories": {
@@ -24,12 +15,11 @@
     "accommodation": "Accommodation",
     "nature": "Nature",
     "culture": "Culture & History",
-    "museums": "Museums",
     "shopping": "Shopping",
+    "nightlife": "Nightlife",
     "transport": "Transport",
     "activities": "Activities",
-    "practical": "Practical Info",
-    "tours": "Tours"
+    "practical": "Practical Info"
   },
   "explore": {
     "quickEmergency": "Emergency",
@@ -337,8 +327,7 @@
       "reviews": "Reviews",
       "emergency": "Emergency",
       "transport": "Transport",
-      "export": "Export",
-      "afisha": "Events"
+      "export": "Export"
     },
     "login": {
       "signIn": "Sign In",
@@ -399,12 +388,11 @@
         "accommodation": "Accommodation",
         "nature": "Nature",
         "culture": "Culture",
-        "museums": "Museums",
         "shopping": "Shopping",
+        "nightlife": "Nightlife",
         "transport": "Transport",
         "activities": "Activities",
-        "practical": "Practical",
-        "tours": "Tours"
+        "practical": "Practical"
       },
       "form": {
         "basicInfo": "Basic Info",
@@ -650,7 +638,7 @@
       "types": {
         "bus": "Bus",
         "marshrutka": "Marshrutka",
-        "tram": "Tram"
+        "trolleybus": "Trolleybus"
       },
       "form": {
         "number": "Route number",

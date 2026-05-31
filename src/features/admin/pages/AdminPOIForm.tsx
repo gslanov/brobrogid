@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import { ChevronLeft, Save, Eye, EyeOff } from 'lucide-react'
+import { ChevronLeft, Save } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { useAdminData } from '../hooks/useAdminData'
 import { LocalizedInput } from '../components/LocalizedInput'
@@ -10,8 +10,6 @@ import { HoursEditor } from '../components/HoursEditor'
 import { TagsInput } from '../components/TagsInput'
 import { PhotosManager } from '../components/PhotosManager'
 import SelectField from '../components/SelectField'
-import PhoneFrame from '../components/PhoneFrame'
-import { POIDetailView } from '@/features/poi/components/POIDetailView'
 import type { POI, POICategory, CuisineType, OperatingHours } from '@/data/types'
 
 // ---------------------------------------------------------------------------
@@ -46,6 +44,7 @@ const CATEGORY_OPTIONS: { value: string; labelKey: string }[] = [
   { value: 'nature', labelKey: 'admin.pois.categories.nature' },
   { value: 'culture', labelKey: 'admin.pois.categories.culture' },
   { value: 'shopping', labelKey: 'admin.pois.categories.shopping' },
+  { value: 'nightlife', labelKey: 'admin.pois.categories.nightlife' },
   { value: 'transport', labelKey: 'admin.pois.categories.transport' },
   { value: 'activities', labelKey: 'admin.pois.categories.activities' },
   { value: 'practical', labelKey: 'admin.pois.categories.practical' },
@@ -95,6 +94,7 @@ function emptyPOI(): POI {
     isChain: false,
     subscriptionTier: 'free',
     visitCount: 0,
+    hasMenu: false,
     hasDelivery: false,
     externalOrderUrl: '',
   }
@@ -154,18 +154,6 @@ export default function AdminPOIForm() {
   const [isLoading, setIsLoading] = useState(!isCreate)
   const [isSaving, setIsSaving] = useState(false)
   const [error, setError] = useState<string | null>(null)
-  const [showPreview, setShowPreview] = useState<boolean>(() => {
-    const stored = localStorage.getItem('admin-preview-visible')
-    return stored !== null ? stored === 'true' : true
-  })
-
-  function togglePreview() {
-    setShowPreview((prev) => {
-      const next = !prev
-      localStorage.setItem('admin-preview-visible', String(next))
-      return next
-    })
-  }
 
   // Resolve labelKey arrays inside component so t() is available
   const categoryOptions = CATEGORY_OPTIONS.map((o) => ({ value: o.value, label: t(o.labelKey) }))
@@ -251,29 +239,20 @@ export default function AdminPOIForm() {
   }
 
   return (
-    <div className="flex flex-row">
-      <div className="flex-1 min-w-0 overflow-y-auto">
-        <div className="max-w-3xl mx-auto flex flex-col gap-6 pb-12">
-          <div className="flex items-center gap-3">
-            <button
-              type="button"
-              onClick={() => navigate('/admin/pois')}
-              className="p-1.5 rounded-lg text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition-colors"
-            >
-              <ChevronLeft size={20} />
-            </button>
-            <h1 className="text-xl font-semibold text-gray-900 flex-1">
-              {isCreate ? t('admin.pois.form.newTitle') : `${t('admin.pois.form.editTitle')}: ${form.name.ru || form.id}`}
-            </h1>
-            <button
-              type="button"
-              onClick={togglePreview}
-              className="hidden xl:inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-100 border border-gray-200 transition-colors"
-            >
-              {showPreview ? <EyeOff size={16} /> : <Eye size={16} />}
-              {showPreview ? t('admin.pois.form.hidePreview', 'Hide Preview') : t('admin.pois.form.showPreview', 'Preview')}
-            </button>
-          </div>
+    <div className="max-w-3xl mx-auto flex flex-col gap-6 pb-12">
+      {/* Page header */}
+      <div className="flex items-center gap-3">
+        <button
+          type="button"
+          onClick={() => navigate('/admin/pois')}
+          className="p-1.5 rounded-lg text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition-colors"
+        >
+          <ChevronLeft size={20} />
+        </button>
+        <h1 className="text-xl font-semibold text-gray-900">
+          {isCreate ? t('admin.pois.form.newTitle') : `${t('admin.pois.form.editTitle')}: ${form.name.ru || form.id}`}
+        </h1>
+      </div>
 
       <form onSubmit={handleSave} className="flex flex-col gap-8">
 
@@ -467,6 +446,11 @@ export default function AdminPOIForm() {
               onChange={(v) => set('isChain', v)}
             />
             <CheckboxField
+              label={t('admin.pois.form.hasMenu')}
+              checked={form.hasMenu}
+              onChange={(v) => set('hasMenu', v)}
+            />
+            <CheckboxField
               label={t('admin.pois.form.hasDelivery')}
               checked={form.hasDelivery}
               onChange={(v) => set('hasDelivery', v)}
@@ -539,16 +523,6 @@ export default function AdminPOIForm() {
         </div>
 
       </form>
-        </div>
-      </div>
-
-      {showPreview && (
-        <div className="hidden xl:flex sticky top-0 h-screen w-[420px] shrink-0 bg-gray-100 items-center justify-center p-6 border-l border-gray-200">
-          <PhoneFrame>
-            <POIDetailView poi={form} reviews={[]} nearbyPois={[]} />
-          </PhoneFrame>
-        </div>
-      )}
     </div>
   )
 }

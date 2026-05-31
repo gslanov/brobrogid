@@ -4,6 +4,9 @@ import { useTranslation } from 'react-i18next'
 import {
   LayoutDashboard,
   MapPin,
+  UtensilsCrossed,
+  Route,
+  Users,
   MessageSquare,
   Phone,
   Bus,
@@ -13,6 +16,9 @@ import { getDB } from '@/data/db'
 
 interface NavCounts {
   pois: number
+  menuItems: number
+  tours: number
+  guides: number
   reviews: number
   emergency: number
   transport: number
@@ -28,6 +34,9 @@ interface NavItem {
 const navItems: NavItem[] = [
   { labelKey: 'admin.sidebar.dashboard', to: '/admin', icon: <LayoutDashboard size={18} /> },
   { labelKey: 'admin.sidebar.pois', to: '/admin/pois', icon: <MapPin size={18} />, countKey: 'pois' },
+  { labelKey: 'admin.sidebar.menuItems', to: '/admin/menu-items', icon: <UtensilsCrossed size={18} />, countKey: 'menuItems' },
+  { labelKey: 'admin.sidebar.tours', to: '/admin/tours', icon: <Route size={18} />, countKey: 'tours' },
+  { labelKey: 'admin.sidebar.guides', to: '/admin/guides', icon: <Users size={18} />, countKey: 'guides' },
   { labelKey: 'admin.sidebar.reviews', to: '/admin/reviews', icon: <MessageSquare size={18} />, countKey: 'reviews' },
   { labelKey: 'admin.sidebar.emergency', to: '/admin/emergency', icon: <Phone size={18} />, countKey: 'emergency' },
   { labelKey: 'admin.sidebar.transport', to: '/admin/transport', icon: <Bus size={18} />, countKey: 'transport' },
@@ -41,6 +50,9 @@ export function AdminSidebar() {
   const { t } = useTranslation()
   const [counts, setCounts] = useState<NavCounts>({
     pois: 0,
+    menuItems: 0,
+    tours: 0,
+    guides: 0,
     reviews: 0,
     emergency: 0,
     transport: 0,
@@ -50,13 +62,16 @@ export function AdminSidebar() {
     async function loadCounts() {
       try {
         const db = await getDB()
-        const [pois, reviews, emergency, transport] = await Promise.all([
+        const [pois, menuItems, tours, guides, reviews, emergency, transport] = await Promise.all([
           db.count('pois'),
+          db.count('menuItems'),
+          db.count('tours'),
+          db.count('guides'),
           db.count('reviews'),
           db.count('emergency'),
           db.count('transport'),
         ])
-        setCounts({ pois, reviews, emergency, transport })
+        setCounts({ pois, menuItems, tours, guides, reviews, emergency, transport })
       } catch (err) {
         console.error('AdminSidebar: failed to load counts', err)
       }

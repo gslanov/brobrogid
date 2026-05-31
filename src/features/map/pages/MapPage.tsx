@@ -3,52 +3,15 @@ import { useTranslation } from 'react-i18next'
 import { SEO } from '@/shared/ui/SEO'
 import maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
-import { Geolocation } from '@capacitor/geolocation'
 import { useDataStore } from '@/data/stores/data-store'
 import { useUIStore } from '@/data/stores/ui-store'
 import { CATEGORY_COLORS, CATEGORY_ICONS, CATEGORY_MAP_LABELS } from '@/shared/lib/utils'
 import { BottomSheet, type SheetState } from '@/shared/ui/BottomSheet'
 import { MapPOISheet } from '@/features/map/components/MapPOISheet'
-import type { POI, POICategory, TransportRoute } from '@/data/types'
+import type { POI, POICategory } from '@/data/types'
 
 const VLADIKAVKAZ_CENTER: [number, number] = [44.6678, 43.0367]
 const ALL_CATEGORIES: POICategory[] = ['attractions', 'food', 'nature', 'culture', 'shopping', 'activities', 'transport', 'practical']
-
-
-function buildTransportGeoJSON(routes: TransportRoute[]) {
-  const stopMap = new Map<string, { name: string; routeNumbers: string[]; lat: number; lng: number }>()
-
-  for (const route of routes) {
-    if (route.type === 'tram') continue
-    if (!route.stops.length) continue
-
-    const terminals = [route.stops[0], route.stops[route.stops.length - 1]]
-
-    for (const stop of terminals) {
-      const key = `${stop.location.lat.toFixed(3)}_${stop.location.lng.toFixed(3)}`
-      if (stopMap.has(key)) {
-        const s = stopMap.get(key)!
-        if (!s.routeNumbers.includes(route.number)) s.routeNumbers.push(route.number)
-      } else {
-        stopMap.set(key, {
-          name: stop.name.ru,
-          routeNumbers: [route.number],
-          lat: stop.location.lat,
-          lng: stop.location.lng,
-        })
-      }
-    }
-  }
-
-  return {
-    type: 'FeatureCollection' as const,
-    features: Array.from(stopMap.values()).map((s) => ({
-      type: 'Feature' as const,
-      properties: { name: s.name, routes: s.routeNumbers.join(', ') },
-      geometry: { type: 'Point' as const, coordinates: [s.lng, s.lat] },
-    })),
-  }
-}
 
 function buildGeoJSON(pois: POI[]) {
   return {
@@ -84,17 +47,8 @@ export default function MapPage() {
   const [selectedPoi, setSelectedPoi] = useState<POI | null>(null)
   const [sheetState, setSheetState] = useState<SheetState>('closed')
   const [showSearchArea, setShowSearchArea] = useState(false)
-  const [transportRoutes, setTransportRoutes] = useState<TransportRoute[]>([])
-  const [mapLoaded, setMapLoaded] = useState(false)
 
   const [boundsFilter, setBoundsFilter] = useState<{ north: number; south: number; east: number; west: number } | null>(null)
-
-  useEffect(() => {
-    fetch('/content/transport.json')
-      .then((r) => r.json())
-      .then((d) => setTransportRoutes(d.routes))
-      .catch(() => {})
-  }, [])
 
   const filtered = (() => {
     let result = mapFilter ? pois.filter((p) => p.category === mapFilter) : pois
@@ -127,7 +81,6 @@ export default function MapPage() {
     })
 
     map.on('load', () => {
-      setMapLoaded(true)
       // Step 3.4 — GeoJSON source with clustering
       map.addSource('pois', {
         type: 'geojson',
@@ -220,50 +173,6 @@ export default function MapPage() {
         }
       })
 
-      // Transport stops source + layers
-      map.addSource('transport-stops', {
-        type: 'geojson',
-        data: { type: 'FeatureCollection', features: [] },
-      })
-      map.addLayer({
-        id: 'transport-stops-layer',
-        type: 'circle',
-        source: 'transport-stops',
-        paint: {
-          'circle-color': '#E67E22',
-          'circle-radius': 9,
-          'circle-stroke-width': 3,
-          'circle-stroke-color': '#fff',
-        },
-        layout: { visibility: 'visible' },
-      })
-      map.addLayer({
-        id: 'transport-labels',
-        type: 'symbol',
-        source: 'transport-stops',
-        layout: {
-          'text-field': ['get', 'routes'],
-          'text-size': 10,
-          'text-offset': [0, 1.4],
-          'text-anchor': 'top',
-          'visibility': 'visible',
-        },
-        paint: { 'text-color': '#1e3a5f', 'text-halo-color': '#fff', 'text-halo-width': 1 },
-      })
-
-      // Click on transport stop → popup
-      map.on('click', 'transport-stops-layer', (e) => {
-        const features = map.queryRenderedFeatures(e.point, { layers: ['transport-stops-layer'] })
-        if (!features.length) return
-        const { name, routes } = features[0].properties as { name: string; routes: string }
-        new maplibregl.Popup({ closeButton: false })
-          .setLngLat((features[0].geometry as GeoJSON.Point).coordinates as [number, number])
-          .setHTML(`<div style="font-size:13px;line-height:1.4"><b>${name}</b><br/><span style="color:#666">Маршруты: ${routes}</span></div>`)
-          .addTo(map)
-      })
-      map.on('mouseenter', 'transport-stops-layer', () => { map.getCanvas().style.cursor = 'pointer' })
-      map.on('mouseleave', 'transport-stops-layer', () => { map.getCanvas().style.cursor = '' })
-
       // Cursor changes
       map.on('mouseenter', 'clusters', () => { map.getCanvas().style.cursor = 'pointer' })
       map.on('mouseleave', 'clusters', () => { map.getCanvas().style.cursor = '' })
@@ -278,29 +187,17 @@ export default function MapPage() {
 
     mapRef.current = map
 
-    return () => { map.remove(); mapRef.current = null; setMapLoaded(false) }
+    return () => { map.remove(); mapRef.current = null }
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
-  // Update POI GeoJSON when filter changes
+  // Update GeoJSON data when filter changes
   useEffect(() => {
     if (!mapRef.current) return
     const source = mapRef.current.getSource('pois') as maplibregl.GeoJSONSource | undefined
-    if (source) source.setData(buildGeoJSON(filtered))
-  }, [filtered])
-
-  // Update transport source once map is loaded, filter or routes change
-  useEffect(() => {
-    if (!mapLoaded || !mapRef.current) return
-    const map = mapRef.current
-    const source = map.getSource('transport-stops') as maplibregl.GeoJSONSource | undefined
-    if (!source) return
-    const empty: GeoJSON.FeatureCollection = { type: 'FeatureCollection', features: [] }
-    if (mapFilter === 'transport' && transportRoutes.length) {
-      source.setData(buildTransportGeoJSON(transportRoutes))
-    } else {
-      source.setData(empty)
+    if (source) {
+      source.setData(buildGeoJSON(filtered))
     }
-  }, [mapFilter, transportRoutes, mapLoaded])
+  }, [filtered])
 
   const handleSearchArea = () => {
     setShowSearchArea(false)
@@ -362,13 +259,8 @@ export default function MapPage() {
         style={{ bottom: selectedPoi ? (sheetState === 'peek' ? 140 : sheetState === 'half' ? '52%' : '92%') : 16 }}
       >
         <button
-          onClick={async () => {
-            if (!mapRef.current) return
-            try {
-              await Geolocation.requestPermissions()
-              const pos = await Geolocation.getCurrentPosition({ enableHighAccuracy: true })
-              mapRef.current?.flyTo({ center: [pos.coords.longitude, pos.coords.latitude], zoom: 15 })
-            } catch {
+          onClick={() => {
+            if (mapRef.current) {
               navigator.geolocation?.getCurrentPosition((pos) => {
                 mapRef.current?.flyTo({ center: [pos.coords.longitude, pos.coords.latitude], zoom: 15 })
               })

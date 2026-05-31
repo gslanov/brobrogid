@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useCallback } from 'react'
-import { useNavigate, useLocation, useSearchParams } from 'react-router-dom'
+import { useNavigate, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { SEO } from '@/shared/ui/SEO'
 import Fuse from 'fuse.js'
@@ -11,7 +11,7 @@ import { FilterSheet, type Filters } from '@/features/search/components/FilterSh
 import type { POI, POICategory } from '@/data/types'
 import { Search, X } from 'lucide-react'
 
-const ALL_CATEGORIES: POICategory[] = ['attractions', 'food', 'nature', 'culture', 'accommodation', 'shopping', 'activities', 'practical', 'springs']
+const ALL_CATEGORIES: POICategory[] = ['attractions', 'food', 'nature', 'culture', 'shopping', 'activities', 'nightlife', 'transport', 'practical']
 const SORT_OPTIONS = ['relevance', 'rating', 'popularity'] as const
 type SortOption = typeof SORT_OPTIONS[number]
 
@@ -34,9 +34,8 @@ function removeRecentSearch(q: string) {
 
 export default function SearchPage() {
   const navigate = useNavigate()
-  const location = useLocation()
   const { t, i18n } = useTranslation()
-  const [searchParams, setSearchParams] = useSearchParams()
+  const [searchParams] = useSearchParams()
   const [query, setQuery] = useState('')
   const [debouncedQuery, setDebouncedQuery] = useState('')
   const [activeCategory, setActiveCategory] = useState<POICategory | null>(
@@ -51,17 +50,6 @@ export default function SearchPage() {
   const [submitted, setSubmitted] = useState(!!searchParams.get('category') || !!searchParams.get('sort'))
   const [recentSearches, setRecentSearches] = useState(getRecentSearches)
   const pois = useDataStore((s) => s.pois)
-
-  // Scroll active chip into view on mount and on change
-  useEffect(() => {
-    requestAnimationFrame(() => {
-      const container = document.getElementById('chip-scroll')
-      if (!container) return
-      const idx = activeCategory ? ALL_CATEGORIES.indexOf(activeCategory) + 1 : 0
-      const chip = container.children[idx] as HTMLElement | undefined
-      chip?.scrollIntoView({ behavior: 'instant', inline: 'center', block: 'nearest' })
-    })
-  }, [activeCategory])
 
   // Step 4.1 — Debounce 300ms
   useEffect(() => {
@@ -173,6 +161,7 @@ export default function SearchPage() {
               onChange={(e) => { setQuery(e.target.value); setShowRecent(!e.target.value); if (e.target.value !== query) setSubmitted(false) }}
               onFocus={() => { if (!query) setShowRecent(true) }}
               placeholder={t('search.placeholder')}
+              autoFocus
               className="flex-1 bg-transparent outline-none text-sm"
             />
             {query && (
@@ -181,10 +170,9 @@ export default function SearchPage() {
           </form>
         </div>
         {/* Category chips + Filters button */}
-        <div id="chip-scroll" className="flex gap-2 mt-2 overflow-x-auto no-scrollbar pb-1">
+        <div className="flex gap-2 mt-2 overflow-x-auto no-scrollbar pb-1">
           <button
-            data-cat="all"
-            onClick={() => { setActiveCategory(null); setSearchParams({}, { replace: true }) }}
+            onClick={() => setActiveCategory(null)}
             className={`flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-medium border transition-colors ${!activeCategory ? 'bg-[var(--color-primary)] text-white border-[var(--color-primary)]' : 'bg-white border-gray-200'}`}
           >
             {t('search.all')}
@@ -194,12 +182,7 @@ export default function SearchPage() {
               key={cat}
               category={cat}
               active={activeCategory === cat}
-              data-cat={cat}
-              onClick={() => {
-                const next = activeCategory === cat ? null : cat
-                setActiveCategory(next)
-                setSearchParams(next ? { category: next } : {}, { replace: true })
-              }}
+              onClick={() => setActiveCategory(activeCategory === cat ? null : cat)}
               showIcon={false}
             />
           ))}
@@ -247,7 +230,7 @@ export default function SearchPage() {
             {suggestions.map((poi) => (
               <button
                 key={poi.id}
-                onClick={() => { navigate(`/poi/${poi.id}`, { state: { from: location.pathname + location.search } }) }}
+                onClick={() => { navigate(`/poi/${poi.id}`) }}
                 className="flex items-center gap-3 w-full py-2.5 text-left"
               >
                 <svg className="w-4 h-4 text-gray-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">

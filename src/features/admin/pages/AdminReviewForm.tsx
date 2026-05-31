@@ -6,7 +6,7 @@ import { useAdminData } from '../hooks/useAdminData'
 import { adminGetAll } from '../lib/admin-db'
 import SelectField from '../components/SelectField'
 import { AdminFormField } from '../components/AdminFormField'
-import type { Review, ReviewTargetType, POI, Tour } from '@/data/types'
+import type { Review, ReviewTargetType, POI, Tour, Guide } from '@/data/types'
 
 interface TargetOption {
   value: string
@@ -17,6 +17,7 @@ interface TargetOption {
 const TARGET_TYPE_OPTIONS: { value: string; labelKey: string }[] = [
   { value: 'poi', labelKey: 'admin.reviews.targetTypes.poi' },
   { value: 'tour', labelKey: 'admin.reviews.targetTypes.tour' },
+  { value: 'guide', labelKey: 'admin.reviews.targetTypes.guide' },
 ]
 
 function generateId(): string {
@@ -80,7 +81,9 @@ async function loadTargetOptions(type: ReviewTargetType): Promise<TargetOption[]
     const tours = await adminGetAll<Tour>('tours')
     return tours.map((t) => ({ value: t.id, label: t.name.ru }))
   }
-  return []
+  // guide
+  const guides = await adminGetAll<Guide>('guides')
+  return guides.map((g) => ({ value: g.id, label: g.name.ru }))
 }
 
 export default function AdminReviewForm() {

@@ -3,33 +3,23 @@
     "name": "BROBROGID",
     "tagline": "Гид по Владикавказу"
   },
-  "afisha": {
-    "title": "Афиша",
-    "subtitle": "События Владикавказа",
-    "empty": "Событий пока нет",
-    "emptyHint": "Скоро появятся концерты, выставки и мероприятия",
-    "goToSource": "Подробнее на сайте",
-    "source": "Источник"
-  },
   "tabs": {
     "home": "Главная",
     "map": "Карта",
-    "afisha": "Афиша",
-    "sos": "SOS",
+    "tours": "Туры",
     "profile": "Профиль"
   },
   "categories": {
     "attractions": "Достопримечательности",
-    "food": "Кафе и рестораны",
+    "food": "Еда и напитки",
     "accommodation": "Жильё",
     "nature": "Природа",
     "culture": "Культура и история",
-    "museums": "Музеи",
     "shopping": "Магазины",
+    "nightlife": "Ночная жизнь",
     "transport": "Транспорт",
     "activities": "Активности",
-    "practical": "Полезное",
-    "tours": "Туры"
+    "practical": "Полезное"
   },
   "explore": {
     "quickEmergency": "Экстренные",
@@ -101,18 +91,7 @@
     "all": "Все",
     "results_one": "{{count}} результат",
     "results_few": "{{count}} результата",
-    "results_many": "{{count}} результатов",
-    "sort_relevance": "Релевантность",
-    "sort_rating": "Рейтинг",
-    "sort_popularity": "Популярность",
-    "priceLevel": "Уровень цен",
-    "minRating": "Мин. рейтинг",
-    "any": "Любой",
-    "reset": "Сбросить",
-    "showResults_one": "Показать {{count}} место",
-    "showResults_few": "Показать {{count}} места",
-    "showResults_many": "Показать {{count}} мест",
-    "showResults_other": "Показать {{count}} мест"
+    "results_many": "{{count}} результатов"
   },
   "tours": {
     "title": "Туры и экскурсии",
@@ -351,8 +330,7 @@
       "reviews": "Отзывы",
       "emergency": "Экстренные",
       "transport": "Транспорт",
-      "export": "Экспорт",
-      "afisha": "Афиша"
+      "export": "Экспорт"
     },
     "login": {
       "signIn": "Войти",
@@ -409,16 +387,15 @@
       },
       "categories": {
         "attractions": "Достопримечательности",
-        "food": "Кафе и рестораны",
+        "food": "Еда и напитки",
         "accommodation": "Жильё",
         "nature": "Природа",
         "culture": "Культура",
-        "museums": "Музеи",
         "shopping": "Магазины",
+        "nightlife": "Ночная жизнь",
         "transport": "Транспорт",
         "activities": "Активности",
-        "practical": "Полезное",
-        "tours": "Туры"
+        "practical": "Полезное"
       },
       "form": {
         "basicInfo": "Основная информация",
@@ -664,7 +641,7 @@
       "types": {
         "bus": "Автобус",
         "marshrutka": "Маршрутка",
-        "tram": "Трамвай"
+        "trolleybus": "Троллейбус"
       },
       "form": {
         "number": "Номер маршрута",

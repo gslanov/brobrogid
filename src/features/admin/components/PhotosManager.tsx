@@ -1,5 +1,6 @@
-import { useRef, useState } from 'react'
-import { Trash2, ImageOff, Upload, ChevronUp, ChevronDown } from 'lucide-react'
+import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
+import { Trash2, ImageOff, Plus } from 'lucide-react'
 
 interface PhotosManagerProps {
   label: string
@@ -29,71 +30,31 @@ function PhotoThumbnail({ url }: { url: string }) {
 }
 
 export function PhotosManager({ label, value, onChange }: PhotosManagerProps) {
-  const fileInputRef = useRef<HTMLInputElement>(null)
-  const [loading, setLoading] = useState(false)
+  const { t } = useTranslation()
+  const [input, setInput] = useState('')
 
-  const handleFiles = (files: FileList | null) => {
-    if (!files || files.length === 0) return
-    setLoading(true)
-    const readers = Array.from(files).map(
-      (file) =>
-        new Promise<string>((resolve) => {
-          const reader = new FileReader()
-          reader.onload = (e) => resolve(e.target?.result as string)
-          reader.readAsDataURL(file)
-        })
-    )
-    Promise.all(readers).then((results) => {
-      onChange([...value, ...results])
-      setLoading(false)
-      if (fileInputRef.current) fileInputRef.current.value = ''
-    })
+  const addPhoto = () => {
+    const trimmed = input.trim()
+    if (!trimmed) return
+    onChange([...value, trimmed])
+    setInput('')
   }
 
   const removePhoto = (index: number) => {
     onChange(value.filter((_, i) => i !== index))
   }
 
-  const movePhoto = (index: number, direction: -1 | 1) => {
-    const next = index + direction
-    if (next < 0 || next >= value.length) return
-    const arr = [...value]
-    ;[arr[index], arr[next]] = [arr[next], arr[index]]
-    onChange(arr)
-  }
-
   return (
     <div className="flex flex-col gap-2">
       <label className="text-sm font-medium text-gray-700">{label}</label>
 
+      {/* Photos list */}
       {value.length > 0 && (
         <ul className="flex flex-col gap-2">
           {value.map((url, i) => (
             <li key={i} className="flex items-center gap-3 p-2 rounded border border-gray-200 bg-gray-50">
               <PhotoThumbnail url={url} />
-              <span className="flex-1 text-xs text-gray-600 break-all line-clamp-2">
-                {url.startsWith('data:') ? 'Загруженное фото' : url}
-              </span>
-              <div className="flex flex-col gap-0.5 flex-shrink-0">
-                <button
-                  type="button"
-                  onClick={() => movePhoto(i, -1)}
-                  disabled={i === 0}
-                  className="text-gray-400 hover:text-gray-700 disabled:opacity-20 transition-colors"
-                  aria-label="Move up"
-                >
-                  <ChevronUp size={16} />
-                </button>
-                <button
-                  type="button"
-                  onClick={() => movePhoto(i, 1)}
-                  disabled={i === value.length - 1}
-                  className="text-gray-400 hover:text-gray-700 disabled:opacity-20 transition-colors"
-                  aria-label="Move down"
-                >
-                  <ChevronDown size={16} />
-                </button>
-              </div>
+              <span className="flex-1 text-xs text-gray-600 break-all line-clamp-2">{url}</span>
               <button
                 type="button"
                 onClick={() => removePhoto(i)}
@@ -107,23 +68,25 @@ export function PhotosManager({ label, value, onChange }: PhotosManagerProps) {
         </ul>
       )}
 
-      <input
-        ref={fileInputRef}
-        type="file"
-        accept="image/*"
-        multiple
-        className="hidden"
-        onChange={(e) => handleFiles(e.target.files)}
-      />
-      <button
-        type="button"
-        onClick={() => fileInputRef.current?.click()}
-        disabled={loading}
-        className="inline-flex items-center justify-center gap-2 px-4 py-2 rounded border border-dashed border-gray-300 text-sm text-gray-600 bg-white hover:bg-gray-50 hover:border-gray-400 transition-colors disabled:opacity-50"
-      >
-        <Upload size={15} />
-        {loading ? 'Загрузка...' : 'Выбрать фото'}
-      </button>
+      {/* Add row */}
+      <div className="flex gap-2">
+        <input
+          type="url"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => e.key === 'Enter' && (e.preventDefault(), addPhoto())}
+          placeholder="https://example.com/photo.jpg"
+          className="flex-1 rounded border border-gray-300 px-3 py-1.5 text-sm text-gray-800 bg-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+        />
+        <button
+          type="button"
+          onClick={addPhoto}
+          className="inline-flex items-center gap-1 px-3 py-1.5 rounded border border-gray-300 text-sm text-gray-600 bg-white hover:bg-gray-50 transition-colors whitespace-nowrap"
+        >
+          <Plus size={14} />
+          {t('admin.common.addPhoto')}
+        </button>
+      </div>
     </div>
   )
 }
