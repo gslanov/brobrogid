@@ -1,9 +1,10 @@
+import { useEffect, useState } from 'react'
 import { Outlet, useLocation, Link, Navigate, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { AdminSidebar } from '../components/AdminSidebar'
 import { LanguageToggle } from '../components/LanguageToggle'
 import { Home, LogOut } from 'lucide-react'
-import { getSession, isAuthenticated, clearSession } from '../lib/auth'
+import { getSession, clearSession, type AdminSession } from '../lib/auth'
 
 const BREADCRUMB_KEYS: Record<string, string> = {
   '/admin': 'admin.sidebar.dashboard',
@@ -42,14 +43,35 @@ function Breadcrumbs() {
 export default function AdminLayout() {
   const { t } = useTranslation()
   const navigate = useNavigate()
-  const session = getSession()
+  const [session, setSession] = useState<AdminSession | null>(null)
+  const [checking, setChecking] = useState(true)
 
-  if (!session || !isAuthenticated()) {
+  useEffect(() => {
+    let active = true
+    getSession().then((s) => {
+      if (!active) return
+      setSession(s)
+      setChecking(false)
+    })
+    return () => {
+      active = false
+    }
+  }, [])
+
+  if (checking) {
+    return (
+      <div className="flex h-screen w-screen items-center justify-center bg-gray-50 text-sm text-gray-400">
+        {t('admin.login.signingIn', '…')}
+      </div>
+    )
+  }
+
+  if (!session) {
     return <Navigate to="/admin/login" replace />
   }
 
-  function handleLogout() {
-    clearSession()
+  async function handleLogout() {
+    await clearSession()
     navigate('/admin/login', { replace: true })
   }
 
@@ -68,7 +90,7 @@ export default function AdminLayout() {
             <Breadcrumbs />
           </div>
           <div className="flex items-center gap-3">
-            <span className="text-xs text-gray-500 font-medium">{session.username}</span>
+            <span className="text-xs text-gray-500 font-medium">{session.email}</span>
             <LanguageToggle />
             <Link
               to="/"

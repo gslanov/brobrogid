@@ -1,77 +1,69 @@
-interface AdminUser {
-  username: string
-  passwordHash: string // SHA-256 hex
-}
-
-// Hardcoded users with SHA-256 hashed passwords
-// admin123  → 240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9
-// bro1pass  → eba04b8a2912717653c60594f74ba6ec80a0b432e866a27013cba3863f6c82bd
-// bro2pass  → f8b7b5097799c4e823b7687da2775b97137e7cb625ca8404d0c2b4fa64b7b136
-const ADMIN_USERS: AdminUser[] = [
-  {
-    username: 'admin',
-    passwordHash: '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9',
-  },
-  {
-    username: 'bro1',
-    passwordHash: 'eba04b8a2912717653c60594f74ba6ec80a0b432e866a27013cba3863f6c82bd',
-  },
-  {
-    username: 'bro2',
-    passwordHash: 'f8b7b5097799c4e823b7687da2775b97137e7cb625ca8404d0c2b4fa64b7b136',
-  },
-]
-
-const SESSION_KEY = 'brobrogid_admin_session'
-const SESSION_TTL_MS = 24 * 60 * 60 * 1000 // 24 hours
-
-async function hashPassword(password: string): Promise<string> {
-  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(password))
-  return Array.from(new Uint8Array(buf))
-    .map((b) => b.toString(16).padStart(2, '0'))
-    .join('')
-}
-
-export async function authenticate(username: string, password: string): Promise<boolean> {
-  const user = ADMIN_USERS.find((u) => u.username === username)
-  if (!user) return false
-  const hash = await hashPassword(password)
-  return hash === user.passwordHash
-}
+import type { Session } from '@supabase/supabase-js'
+import { supabase } from '@/shared/lib/supabase'
 
 export interface AdminSession {
-  username: string
+  email: string
   loginAt: string
 }
 
-export function getSession(): AdminSession | null {
+interface JwtPayload {
+  role?: string
+  app_metadata?: { role?: string }
+  [key: string]: unknown
+}
+
+/** Decode a JWT payload without verifying the signature (verification is done server-side). */
+function decodeJwt(token: string): JwtPayload | null {
   try {
-    const raw = localStorage.getItem(SESSION_KEY)
-    if (!raw) return null
-    const session: AdminSession = JSON.parse(raw)
-    const loginAt = new Date(session.loginAt).getTime()
-    if (Date.now() - loginAt > SESSION_TTL_MS) {
-      localStorage.removeItem(SESSION_KEY)
-      return null
-    }
-    return session
+    const payload = token.split('.')[1]
+    if (!payload) return null
+    const json = atob(payload.replace(/-/g, '+').replace(/_/g, '/'))
+    return JSON.parse(json) as JwtPayload
   } catch {
     return null
   }
 }
 
-export function saveSession(username: string): void {
-  const session: AdminSession = {
-    username,
-    loginAt: new Date().toISOString(),
+/** True if the JWT carries an admin role (top-level `role` or `app_metadata.role`). */
+function hasAdminRole(session: Session | null): boolean {
+  if (!session?.access_token) return false
+  const payload = decodeJwt(session.access_token)
+  if (!payload) return false
+  return payload.role === 'admin' || payload.app_metadata?.role === 'admin'
+}
+
+/**
+ * Sign in with Supabase Auth (GoTrue) using email + password.
+ * Returns true only when the credentials are valid AND the user has the admin role.
+ * Non-admin users are signed out immediately so no admin session lingers.
+ */
+export async function authenticate(email: string, password: string): Promise<boolean> {
+  const { data, error } = await supabase.auth.signInWithPassword({ email, password })
+  if (error || !data.session) return false
+  if (!hasAdminRole(data.session)) {
+    await supabase.auth.signOut()
+    return false
   }
-  localStorage.setItem(SESSION_KEY, JSON.stringify(session))
+  return true
 }
 
-export function clearSession(): void {
-  localStorage.removeItem(SESSION_KEY)
+/** Current admin session derived from the Supabase session, or null if absent/not an admin. */
+export async function getSession(): Promise<AdminSession | null> {
+  const { data } = await supabase.auth.getSession()
+  const session = data.session
+  if (!session || !hasAdminRole(session)) return null
+  return {
+    email: session.user.email ?? '',
+    loginAt: new Date(session.user.last_sign_in_at ?? Date.now()).toISOString(),
+  }
 }
 
-export function isAuthenticated(): boolean {
-  return getSession() !== null
+/** True if there is a valid, admin-scoped Supabase session. */
+export async function isAuthenticated(): Promise<boolean> {
+  return (await getSession()) !== null
+}
+
+/** Sign out of Supabase Auth. */
+export async function clearSession(): Promise<void> {
+  await supabase.auth.signOut()
 }
