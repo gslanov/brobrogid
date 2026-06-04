@@ -1,3 +1,13 @@
+## 2026-06-04 — feat/partners-migration
+- Action: Created branch `feat/partners-migration` from `origin/master` (not from dirty WIP). Staged and committed exactly 3 partner migration files. Pushed branch. Created PR #2.
+- Files: supabase/migrations/0014_partners.sql, supabase/scripts/provision_partner.sh, supabase/scripts/verify_partner_scoping.md
+- Commit: `b38ff81` "feat(partners): DB migration — partners table, owner_id, is_partner(), partner RLS (applied to prod)"
+- PR: https://github.com/gslanov/brobrogid/pull/2 (base: master, NOT merged — on review)
+- Secrets check: provision_partner.sh reads all secrets from /opt/supabase/.env at runtime; no hardcoded keys in any committed file.
+- Nikita's WIP (BottomTabs.tsx, ExplorePage.tsx, POICard.tsx, index.css, apple/) — not staged, not touched.
+- Status: ok
+- For next invocation: Branch feat/partners-migration pushed and PR open. security/admin-supabase-auth still at faa4076 (pushed). Nikita's WIP remains unstaged on feat/partners-migration (same working tree). Current HEAD on feat/partners-migration is b38ff81.
+
 ## 2026-04-03
 - Action: GitBoy startup diagnostics. Added .agent/ and .claude/ to .gitignore.
 - Files: .gitignore
@@ -65,6 +75,14 @@
 - Remote: pushed to https://github.com/gslanov/brobrogid.git — ok
 - Status: ok
 - For next invocation: Repo is clean and pushed. Supabase infrastructure fully committed (no secrets). Site is closed from indexing (SITE_UNDER_CONSTRUCTION=true). Branch: master.
+
+## 2026-05-31 (tour hero images sync)
+- Action: Copied 20 tour hero JPGs from BROPORT/public/images/tours/ into repo. 18 new files + 2 already tracked (gastro-tour, wine-tour unchanged). Committed and pushed.
+- Files: public/images/tours/ (18 new: dargavs-city-of-dead, digora-scenic-drive, digoria-7day-trek, fiagdon-gizeldon-trek, galdoridon-waterfall, hot-springs-tour, karaugom-glacier, khetag-grove, kurtatinsky-gorge, mamison-gorge, midagrabin-waterfalls, old-vladikavkaz-walk, sunrise-photo-tour, taymazi-three-sisters, transkam-highway, tsey-glacier-trek, tsey-gorge, tsey-ski-resort)
+- Commit: `dc59e94` "feat(images): add 20 tour hero photos to public/images/tours/ (sync with prod CDN)"
+- Push: origin/master — ok (7027844..dc59e94)
+- Status: ok
+- For next invocation: Repo is clean and pushed. All 20 tour hero images are now in repo and will survive rsync --delete deploys. Branch: master.
 
 ## 2026-04-06 (session 4 — SEO + WebP)
 - Action: 7 logical commits + push to origin/master
