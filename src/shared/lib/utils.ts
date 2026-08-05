@@ -13,18 +13,23 @@ import {
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
+/**
+ * Цвета категорий — приглушены под тёмный фон.
+ * Ядро палитры (терракот + горная зелень) задано в index.css,
+ * здесь только оттенки для различения категорий.
+ */
 export const CATEGORY_COLORS: Record<POICategory, string> = {
-  attractions: '#ef4444',
-  food: '#f59e0b',
-  accommodation: '#8b5cf6',
-  nature: '#10b981',
-  culture: '#3b82f6',
-  museums: '#6366f1',
+  attractions: '#E0704A',
+  food: '#E0A03A',
+  accommodation: '#A98BD8',
+  nature: '#5AA87A',
+  culture: '#5B93D6',
+  museums: '#8C8FE0',
 
-  transport: '#64748b',
-  activities: '#f97316',
-  practical: '#14b8a6',
-  tours: '#0ea5e9',
+  transport: '#8A94A3',
+  activities: '#E08A4A',
+  practical: '#4FB0A5',
+  tours: '#4FA3C9',
 }
 
 export const CATEGORY_ICONS: Record<POICategory, LucideIcon> = {

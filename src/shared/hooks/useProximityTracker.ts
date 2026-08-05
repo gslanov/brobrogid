@@ -53,7 +53,7 @@ export function useProximityTracker({ pois, visitedIds, onNearby }: UseProximity
             try {
               const state = await App.getState()
               isBackground = !state.isActive
-            } catch {}
+            } catch { /* getState not available outside native */ }
           }
 
           if (isBackground) {

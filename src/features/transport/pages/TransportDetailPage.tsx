@@ -6,16 +6,17 @@ import { PageHeader } from '@/shared/ui/PageHeader'
 import { getDB } from '@/data/db'
 import type { TransportRoute } from '@/data/types'
 
-const TYPE_STYLE: Record<string, { bg: string; text: string; label: string }> = {
-  marshrutka: { bg: '#FFF3E0', text: '#E65100', label: 'Маршрутка' },
-  bus:        { bg: '#E8F5E9', text: '#2E7D32', label: 'Автобус' },
-  tram:       { bg: '#FFEBEE', text: '#C62828', label: 'Трамвай' },
+// Те же оттенки, что и в списке маршрутов
+const TYPE_COLOR: Record<string, string> = {
+  marshrutka: '#E08A4A',
+  bus:        '#5AA87A',
+  tram:       '#D9534F',
 }
 
-const TYPE_COLOR: Record<string, string> = {
-  marshrutka: '#FF6B35',
-  bus:        '#2E7D32',
-  tram:       '#C0392B',
+const TYPE_STYLE: Record<string, { text: string; label: string }> = {
+  marshrutka: { text: TYPE_COLOR.marshrutka, label: 'Маршрутка' },
+  bus:        { text: TYPE_COLOR.bus,        label: 'Автобус' },
+  tram:       { text: TYPE_COLOR.tram,       label: 'Трамвай' },
 }
 
 export default function TransportDetailPage() {
@@ -31,73 +32,76 @@ export default function TransportDetailPage() {
 
   if (!route) {
     return (
-      <div className="min-h-dvh bg-[var(--color-bg)]">
+      <div className="min-h-dvh">
         <PageHeader title="Маршрут" showBack />
-        <p className="text-center text-sm text-[var(--color-text-secondary)] py-16">Загрузка…</p>
+        <p className="text-center text-[13px] py-16" style={{ color: 'var(--text-3)' }}>Загрузка…</p>
       </div>
     )
   }
 
-  const style = TYPE_STYLE[route.type] || { bg: '#F5F5F5', text: '#555', label: route.type }
-  const color = TYPE_COLOR[route.type] || route.color || '#3B82F6'
+  const style = TYPE_STYLE[route.type] || { text: 'var(--text-2)', label: route.type }
+  const color = TYPE_COLOR[route.type] || route.color || '#8A94A3'
   const name = route.name[lang] || route.name.ru
 
   return (
-    <div className="min-h-dvh bg-[var(--color-bg)]">
+    <div className="min-h-dvh">
       <SEO title={`${name} — BROBROGID`} description={name} url={`/transport/${route.id}`} />
       <PageHeader title={`Маршрут №${route.number}`} showBack />
 
       {/* Header card */}
-      <div className="mx-4 mt-4 bg-white rounded-2xl border border-[var(--color-border)] p-4">
-        <div className="flex items-center gap-3">
-          <div
-            className="w-14 h-14 rounded-xl flex items-center justify-center flex-shrink-0 font-bold text-white text-2xl"
-            style={{ backgroundColor: color }}
-          >
-            {route.number}
-          </div>
-          <div>
-            <p className="font-semibold text-gray-900 text-sm leading-snug">{name}</p>
+      <div
+        className="mx-4 mt-4 rounded-[var(--radius-lg)] p-4"
+        style={{ background: 'var(--surface-1)', border: '1px solid var(--color-border)' }}
+      >
+        <div className="flex items-center gap-3.5">
+          <div className="relative w-14 h-14 flex items-center justify-center flex-shrink-0">
             <span
-              className="inline-block mt-1 text-xs font-semibold px-2 py-0.5 rounded-full"
-              style={{ background: style.bg, color: style.text }}
-            >
+              className="absolute inset-[8px] diamond"
+              style={{ background: color + '22', border: `1.5px solid ${color}66`, boxShadow: `0 0 22px ${color}33` }}
+            />
+            <span className="relative z-10 font-bold text-[18px]" style={{ color }}>{route.number}</span>
+          </div>
+          <div className="min-w-0">
+            <p className="font-semibold text-[13.5px] leading-snug">{name}</p>
+            <span className="inline-block mt-1.5 text-[11px] font-semibold" style={{ color: style.text }}>
               {style.label}
             </span>
           </div>
         </div>
 
         {(route.schedule?.weekday || route.schedule?.weekend) && (
-          <div className="mt-3 pt-3 border-t border-[var(--color-border)] flex gap-4">
+          <div className="mt-3.5 pt-3.5 flex gap-6" style={{ borderTop: '1px solid var(--color-border)' }}>
             {route.schedule.weekday && (
               <div>
-                <p className="text-[11px] text-[var(--color-text-secondary)]">Пн–Пт</p>
-                <p className="text-sm font-medium text-gray-900">{route.schedule.weekday}</p>
+                <p className="text-[10.5px]" style={{ color: 'var(--text-3)' }}>Пн–Пт</p>
+                <p className="text-[13px] font-medium mt-0.5">{route.schedule.weekday}</p>
               </div>
             )}
             {route.schedule.weekend && route.schedule.weekend !== route.schedule.weekday && (
               <div>
-                <p className="text-[11px] text-[var(--color-text-secondary)]">Сб–Вс</p>
-                <p className="text-sm font-medium text-gray-900">{route.schedule.weekend}</p>
+                <p className="text-[10.5px]" style={{ color: 'var(--text-3)' }}>Сб–Вс</p>
+                <p className="text-[13px] font-medium mt-0.5">{route.schedule.weekend}</p>
               </div>
             )}
           </div>
         )}
       </div>
 
-      {/* Stops */}
-      <div className="px-4 mt-5 mb-2">
-        <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide">
+      {/* Остановки */}
+      <div className="flex items-center gap-2.5 px-4 mt-6 mb-3">
+        <i className="w-[6px] h-[6px] diamond" style={{ background: 'var(--terra)' }} />
+        <h2 className="text-[11px] font-semibold uppercase tracking-[0.14em]" style={{ color: 'var(--text-3)' }}>
           Остановки — {route.stops.length}
         </h2>
+        <span className="orn-tail" />
       </div>
 
       <div className="px-4 pb-8">
         <div className="relative">
-          {/* vertical line */}
+          {/* Линия маршрута — орнаментальный пунктир */}
           <div
-            className="absolute left-[19px] top-5 bottom-5 w-0.5"
-            style={{ backgroundColor: color + '40' }}
+            className="absolute left-[19px] top-5 bottom-5 w-[2px]"
+            style={{ background: `repeating-linear-gradient(180deg, ${color}AA 0 5px, transparent 5px 10px)` }}
           />
           <div className="space-y-0">
             {route.stops.map((stop, i) => {
@@ -107,31 +111,33 @@ export default function TransportDetailPage() {
               return (
                 <div key={i} className="flex items-start gap-3 py-2">
                   <div className="flex-shrink-0 w-10 flex flex-col items-center">
+                    {/* Ромб вместо точки; конечные — залиты цветом */}
                     <div
-                      className={[
-                        'w-4 h-4 rounded-full border-2 z-10 mt-0.5',
-                        isFirst || isLast ? 'border-white' : 'border-white bg-white',
-                      ].join(' ')}
+                      className="w-[15px] h-[15px] diamond z-10 mt-1"
                       style={{
-                        backgroundColor: isFirst || isLast ? color : color + '60',
-                        borderColor: color,
+                        background: isFirst || isLast ? color : 'var(--bg)',
+                        border: `1.5px solid ${color}`,
+                        boxShadow: isFirst || isLast ? `0 0 14px ${color}66` : 'none',
                       }}
                     />
                   </div>
                   <div className="flex-1 pb-1">
-                    <p className={[
-                      'text-sm leading-snug',
-                      isFirst || isLast ? 'font-semibold text-gray-900' : 'text-gray-700',
-                    ].join(' ')}>
+                    <p
+                      className="text-[13.5px] leading-snug"
+                      style={{
+                        color: isFirst || isLast ? 'var(--text)' : 'var(--text-2)',
+                        fontWeight: isFirst || isLast ? 600 : 400,
+                      }}
+                    >
                       {stopName}
                     </p>
                     {(isFirst || isLast) && (
-                      <p className="text-[11px] text-[var(--color-text-secondary)] mt-0.5">
+                      <p className="text-[10.5px] mt-0.5" style={{ color: 'var(--text-3)' }}>
                         {isFirst ? 'Начало маршрута' : 'Конец маршрута'}
                       </p>
                     )}
                   </div>
-                  <span className="text-[11px] text-[var(--color-text-secondary)] mt-0.5 flex-shrink-0">
+                  <span className="text-[10.5px] mt-1 flex-shrink-0" style={{ color: 'var(--text-3)' }}>
                     {i + 1}
                   </span>
                 </div>

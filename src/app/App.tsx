@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { useRoutes, useNavigate, useLocation } from 'react-router-dom'
+import { motion, AnimatePresence } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { App as CapApp } from '@capacitor/app'
 import { Capacitor } from '@capacitor/core'
@@ -82,7 +83,11 @@ export default function App() {
           <p className="text-sm text-[var(--color-text-secondary)] mb-4">
             {t('common.initError', 'Could not load data. Please try refreshing.')}
           </p>
-          <button onClick={() => window.location.reload()} className="px-6 py-2.5 bg-[var(--color-primary)] text-white rounded-full text-sm font-medium">
+          <button
+            onClick={() => window.location.reload()}
+            className="sheen px-6 py-2.5 rounded-full text-sm font-semibold"
+            style={{ background: 'var(--terra-hot)', color: 'var(--text-on-terra)', boxShadow: 'var(--shadow-terra)' }}
+          >
             {t('common.retry')}
           </button>
         </div>
@@ -92,11 +97,43 @@ export default function App() {
 
   if (!ready) {
     return (
-      <div className="flex items-center justify-center min-h-dvh bg-[var(--color-bg)]">
-        <div className="text-center">
-          <div className="w-16 h-16 border-4 border-[var(--color-primary)] border-t-transparent rounded-full animate-spin mx-auto mb-4" />
-          <h1 className="text-2xl font-bold text-[var(--color-primary)]">BROBROGID</h1>
-          <p className="text-[var(--color-text-secondary)] mt-1">{t('common.loading')}</p>
+      <div
+        className="flex items-center justify-center min-h-dvh"
+        style={{
+          background:
+            'radial-gradient(700px 500px at 50% 30%, #1A1D24 0%, transparent 62%), var(--bg-deep)',
+        }}
+      >
+        <div className="text-center px-10">
+          {/* Ромб-эмблема с медленным свечением */}
+          <div className="relative w-16 h-16 mx-auto mb-7">
+            <span
+              className="absolute inset-0 diamond animate-pulse-glow"
+              style={{
+                border: '1.5px solid var(--terra-line)',
+                background: 'var(--terra-tint)',
+                boxShadow: '0 0 34px var(--terra-glow)',
+              }}
+            />
+            <span
+              className="absolute inset-[13px] diamond"
+              style={{ border: '1.5px solid var(--moss)' }}
+            />
+          </div>
+
+          <h1
+            className="text-[26px] font-bold tracking-[0.16em]"
+            style={{ color: 'var(--sand)' }}
+          >
+            BROBROGID
+          </h1>
+
+          {/* Орнаментальный пояс прорисовывается слева направо */}
+          <div className="orn-belt animate-draw-belt mt-4 mx-auto w-40" />
+
+          <p className="mt-4 text-sm" style={{ color: 'var(--text-3)' }}>
+            {t('common.loading')}
+          </p>
         </div>
       </div>
     )
@@ -109,10 +146,24 @@ export default function App() {
 
   return (
     <AppShell>
-      {routeElement}
+      {/* Переход между экранами: новый уплывает вверх, старый растворяется */}
+      <AnimatePresence mode="wait" initial={false}>
+        <motion.div
+          key={location.pathname}
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -6 }}
+          transition={{ duration: 0.22, ease: [0.16, 1, 0.3, 1] }}
+        >
+          {routeElement}
+        </motion.div>
+      </AnimatePresence>
       <div ref={announceRef} aria-live="polite" aria-atomic="true" className="sr-only" />
       {exitToast && (
-        <div className="fixed bottom-24 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-sm px-4 py-2 rounded-full shadow-lg z-50 pointer-events-none">
+        <div
+          className="fixed bottom-24 left-1/2 -translate-x-1/2 glass-strong text-sm px-4 py-2 rounded-full z-50 pointer-events-none"
+          style={{ color: 'var(--text)', boxShadow: 'var(--shadow-3)' }}
+        >
           {t('common.pressBackAgain', 'Нажмите «Назад» ещё раз для выхода')}
         </div>
       )}

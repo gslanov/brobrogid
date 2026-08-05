@@ -27,14 +27,20 @@ export function ImageWithFallback({
   const showFallback = state === 'error' || !src
 
   return (
-    <div className={cn('relative overflow-hidden bg-gray-100', className)} style={aspectRatio ? { aspectRatio } : undefined}>
+    <div
+      className={cn('relative overflow-hidden', className)}
+      style={{ background: 'var(--surface-2)', ...(aspectRatio ? { aspectRatio } : {}) }}
+    >
       {state === 'loading' && !showFallback && (
         <Skeleton variant="rect" width="100%" height="100%" className="absolute inset-0 !rounded-none" />
       )}
 
       {showFallback ? (
-        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-gray-200 to-gray-300 p-3">
-          <span className="text-sm font-medium text-gray-600 text-center line-clamp-2">
+        <div
+          className="absolute inset-0 flex items-center justify-center p-3"
+          style={{ background: 'linear-gradient(150deg, var(--surface-2), var(--surface-1))' }}
+        >
+          <span className="text-[13px] font-medium text-center line-clamp-2" style={{ color: 'var(--text-3)' }}>
             {fallbackText || alt}
           </span>
         </div>
@@ -51,7 +57,7 @@ export function ImageWithFallback({
                 alt={alt}
                 onLoad={onLoad}
                 onError={onError}
-                loading="lazy"
+                loading="eager"
                 className={cn(
                   'w-full h-full object-cover transition-opacity',
                   state === 'loaded' ? 'opacity-100 duration-200' : 'opacity-0',

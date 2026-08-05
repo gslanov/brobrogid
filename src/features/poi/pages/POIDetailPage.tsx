@@ -9,7 +9,6 @@ import { useToast } from '@/data/stores/toast-store'
 import { FavoriteButton } from '@/shared/ui/FavoriteButton'
 import { getDB } from '@/data/db'
 import { Navigation, Phone, Share2, Search, Heart, HeartOff, Volume2, VolumeX } from 'lucide-react'
-import { resetScroll } from '@/shared/lib/utils'
 import { trackEvent } from '@/shared/lib/tracking'
 import type { Review } from '@/data/types'
 import { POIDetailView } from '@/features/poi/components/POIDetailView'
@@ -32,7 +31,7 @@ function useReviews(poiId: string) {
 export default function POIDetailPage() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
-  const goBack = () => { resetScroll(); navigate(-1) }
+  const goBack = () => { navigate(-1) }
   const { i18n, t } = useTranslation()
   const lang = i18n.language as 'ru' | 'en'
   const pois = useDataStore((s) => s.pois)
@@ -56,7 +55,7 @@ export default function POIDetailPage() {
     return () => observer.disconnect()
   }, [poi])
 
-  const ttsCategories = ['attractions', 'culture', 'nature', 'springs']
+  const ttsCategories = ['attractions', 'culture', 'nature', 'springs', 'museums']
   const { speaking, toggle: toggleTTS, supported: ttsSupported } = useTTS(poi?.id ?? '', poi?.category ?? '')
 
   const nearbyPois = useMemo(() => {
@@ -82,7 +81,11 @@ export default function POIDetailPage() {
           <span className="text-[var(--color-text-secondary)]"><Search size={48} /></span>
           <h2 className="text-xl font-bold">{t('poi.notFound')}</h2>
           <p className="text-sm text-[var(--color-text-secondary)]">{t('poi.notFoundHint')}</p>
-          <button onClick={goBack} className="mt-2 px-6 py-2.5 bg-[var(--color-primary)] text-white rounded-xl font-medium text-sm">
+          <button
+            onClick={goBack}
+            className="sheen mt-2 px-6 py-2.5 rounded-[var(--radius-md)] font-semibold text-sm"
+            style={{ background: 'var(--terra-hot)', color: 'var(--text-on-terra)', boxShadow: 'var(--shadow-terra)' }}
+          >
             ← {t('common.back')}
           </button>
         </div>
@@ -95,55 +98,97 @@ export default function POIDetailPage() {
     )
   }
 
+  const chipStyle: React.CSSProperties = {
+    background: 'var(--surface-1)',
+    border: '1px solid var(--color-border)',
+    color: 'var(--text)',
+  }
+
   const actionsSlot = (
-    <div ref={actionsRef} className="flex gap-2 overflow-x-auto no-scrollbar pb-1">
-      <button
-        onClick={() => {
-          trackEvent('directions', poi.id)
-          window.open(`https://www.google.com/maps/dir/?api=1&destination=${poi.location.lat},${poi.location.lng}`)
-        }}
-        className="flex items-center gap-1 px-3 h-10 bg-gray-100 rounded-full text-xs font-medium flex-shrink-0"
-      >
-        <Navigation size={14} /> {t('poi.directions')}
-      </button>
-      {poi.phone && (
-        <a
-          href={`tel:${poi.phone}`}
-          onClick={() => trackEvent('call', poi.id)}
-          className="flex items-center gap-1 px-3 h-10 bg-green-50 text-green-700 rounded-full text-xs font-medium flex-shrink-0"
-        >
-          <Phone size={14} /> {t('poi.call')}
-        </a>
-      )}
-      <button
-        onClick={async () => {
-          if (navigator.share) {
-            try {
-              await navigator.share({ title: poi.name[lang], text: poi.description.short[lang], url: window.location.href })
-            } catch { /* user cancelled */ }
-          } else {
-            await navigator.clipboard.writeText(window.location.href)
-            toast.show(t('common.copied', 'Link copied'), { type: 'success' })
-          }
-        }}
-        className="flex items-center gap-1 px-3 h-10 bg-gray-100 rounded-full text-xs font-medium flex-shrink-0"
-      >
-        <Share2 size={14} /> {t('poi.share')}
-      </button>
+    <div ref={actionsRef}>
+      {/* Аудиогид — крупный плеер на тёплом стекле, а не мелкая кнопка в ряду */}
       {ttsSupported && ttsCategories.includes(poi.category) && (
-        <button
+        <motion.button
           onClick={toggleTTS}
-          className={`flex items-center gap-1 px-3 h-10 rounded-full text-xs font-medium flex-shrink-0 transition-colors ${
-            speaking
-              ? 'bg-[var(--color-primary)] text-white'
-              : 'bg-gray-100 text-[var(--color-text)]'
-          }`}
+          whileTap={{ scale: 0.985 }}
+          className="sheen w-full glass-warm rounded-[var(--radius-lg)] p-3 flex items-center gap-3 mb-3 text-left"
           aria-label={speaking ? t('poi.stopAudio', 'Остановить') : t('poi.playAudio', 'Слушать')}
         >
-          {speaking ? <VolumeX size={14} /> : <Volume2 size={14} />}
-          {speaking ? t('poi.stopAudio', 'Стоп') : t('poi.playAudio', 'Слушать')}
-        </button>
+          <span
+            className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0"
+            style={{
+              background: 'var(--terra-hot)',
+              color: 'var(--text-on-terra)',
+              boxShadow: speaking ? '0 0 22px var(--terra-glow)' : 'none',
+            }}
+          >
+            {speaking ? <VolumeX size={17} /> : <Volume2 size={17} />}
+          </span>
+          <span className="flex-1 min-w-0">
+            <span className="block text-[13px] font-semibold">
+              {t('poi.audioGuide', 'Аудиогид')}
+            </span>
+            <span className="block text-[11px] mt-0.5" style={{ color: 'var(--text-3)' }}>
+              {speaking
+                ? t('poi.audioPlaying', 'Идёт воспроизведение — нажмите, чтобы остановить')
+                : t('poi.audioHint', 'Слушать рассказ об этом месте')}
+            </span>
+          </span>
+          {/* Живые полоски-эквалайзер, пока читает */}
+          {speaking && (
+            <span className="flex items-end gap-[3px] h-5 flex-shrink-0">
+              {[0, 1, 2].map((i) => (
+                <motion.span
+                  key={i}
+                  className="w-[3px] rounded-full"
+                  style={{ background: 'var(--terra-hot)' }}
+                  animate={{ height: ['30%', '100%', '45%'] }}
+                  transition={{ duration: 0.9, repeat: Infinity, delay: i * 0.15, ease: 'easeInOut' }}
+                />
+              ))}
+            </span>
+          )}
+        </motion.button>
       )}
+
+      <div className="flex gap-2 overflow-x-auto no-scrollbar momentum pb-1">
+        <button
+          onClick={() => {
+            trackEvent('directions', poi.id)
+            window.open(`https://www.google.com/maps/dir/?api=1&destination=${poi.location.lat},${poi.location.lng}`)
+          }}
+          className="sheen flex items-center gap-1.5 px-3.5 h-9 rounded-full text-[12px] font-medium flex-shrink-0"
+          style={chipStyle}
+        >
+          <Navigation size={13} style={{ color: 'var(--terra-hot)' }} /> {t('poi.directions')}
+        </button>
+        {poi.phone && (
+          <a
+            href={`tel:${poi.phone}`}
+            onClick={() => trackEvent('call', poi.id)}
+            className="sheen flex items-center gap-1.5 px-3.5 h-9 rounded-full text-[12px] font-medium flex-shrink-0"
+            style={{ ...chipStyle, color: 'var(--moss-light)' }}
+          >
+            <Phone size={13} /> {t('poi.call')}
+          </a>
+        )}
+        <button
+          onClick={async () => {
+            if (navigator.share) {
+              try {
+                await navigator.share({ title: poi.name[lang], text: poi.description.short[lang], url: window.location.href })
+              } catch { /* пользователь отменил */ }
+            } else {
+              await navigator.clipboard.writeText(window.location.href)
+              toast.show(t('common.copied', 'Link copied'), { type: 'success' })
+            }
+          }}
+          className="sheen flex items-center gap-1.5 px-3.5 h-9 rounded-full text-[12px] font-medium flex-shrink-0"
+          style={chipStyle}
+        >
+          <Share2 size={13} style={{ color: 'var(--terra-hot)' }} /> {t('poi.share')}
+        </button>
+      </div>
     </div>
   )
 
@@ -176,13 +221,20 @@ export default function POIDetailPage() {
         aggregateRating: poi.reviewCount > 0 ? { '@type': 'AggregateRating', ratingValue: poi.rating, reviewCount: poi.reviewCount } : undefined,
       }} />
 
-      <div className="sticky top-0 z-40 flex items-center justify-between px-4 h-14 bg-white/95 backdrop-blur-sm border-b border-[var(--color-border)]">
-        <button onClick={goBack} className="w-10 h-10 flex items-center justify-center">
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+      {/* Плавающая шапка поверх фото — без белой полосы, чтобы кадр дышал */}
+      <div className="sticky top-0 z-40 flex items-center justify-between px-4 h-14 pointer-events-none">
+        <button
+          onClick={goBack}
+          className="w-10 h-10 rounded-full glass-strong flex items-center justify-center text-white pointer-events-auto"
+          aria-label={t('common.back')}
+        >
+          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
           </svg>
         </button>
-        <FavoriteButton poiId={poi.id} />
+        <div className="pointer-events-auto">
+          <FavoriteButton poiId={poi.id} />
+        </div>
       </div>
 
       <POIDetailView poi={poi} reviews={reviews} nearbyPois={nearbyPois} actionsSlot={actionsSlot} />
@@ -194,33 +246,41 @@ export default function POIDetailPage() {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: 60, opacity: 0 }}
             transition={{ duration: 0.2, ease: [0.2, 0, 0, 1] }}
-            className="fixed bottom-[calc(var(--bottom-nav-height)+var(--safe-area-bottom))] left-0 right-0 z-30 px-4 py-3 bg-white/95 backdrop-blur-sm border-t border-[var(--color-border)]"
+            className="fixed bottom-[calc(var(--bottom-nav-height)+var(--safe-area-bottom))] left-0 right-0 z-30 px-4 py-3"
+            style={{
+              background: 'linear-gradient(180deg, rgba(26,31,40,0.78), rgba(1,2,4,0.99))',
+              backdropFilter: 'blur(20px)',
+              WebkitBackdropFilter: 'blur(20px)',
+              boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.20)',
+            }}
           >
             <div className="flex gap-2 max-w-lg mx-auto">
-              {false ? null : (
-                <>
-                  <button
-                    onClick={() => {
-                      toggleFavorite(poi.id)
-                      if (navigator.vibrate) navigator.vibrate(10)
-                      if (isFav) {
-                        toast.show(t('saved.removed', 'Removed'), { type: 'info' })
-                      } else {
-                        toast.show(t('saved.saved', 'Saved!'), { type: 'success' })
-                      }
-                    }}
-                    className={`flex-1 py-3 rounded-xl font-semibold text-sm flex items-center justify-center gap-1.5 ${isFav ? 'bg-red-50 text-red-600 border border-red-200' : 'bg-[var(--color-primary)] text-white'}`}
-                  >
-                    {isFav ? <><HeartOff size={16} /> {t('saved.remove')}</> : <><Heart size={16} /> {t('poi.save')}</>}
-                  </button>
-                  <button
-                    onClick={() => window.open(`https://www.google.com/maps/dir/?api=1&destination=${poi.location.lat},${poi.location.lng}`)}
-                    className="py-3 px-4 border border-[var(--color-border)] rounded-xl text-sm font-medium flex items-center gap-1.5"
-                  >
-                    <Navigation size={16} /> {t('poi.directions')}
-                  </button>
-                </>
-              )}
+              <button
+                onClick={() => {
+                  toggleFavorite(poi.id)
+                  if (navigator.vibrate) navigator.vibrate(10)
+                  if (isFav) {
+                    toast.show(t('saved.removed', 'Removed'), { type: 'info' })
+                  } else {
+                    toast.show(t('saved.saved', 'Saved!'), { type: 'success' })
+                  }
+                }}
+                className="sheen flex-1 py-3 rounded-[var(--radius-md)] font-semibold text-[13.5px] flex items-center justify-center gap-1.5"
+                style={
+                  isFav
+                    ? { background: 'var(--surface-2)', color: 'var(--terra-hot)', border: '1px solid var(--terra-line)' }
+                    : { background: 'var(--terra-hot)', color: 'var(--text-on-terra)', boxShadow: 'var(--shadow-terra)' }
+                }
+              >
+                {isFav ? <><HeartOff size={16} /> {t('saved.remove')}</> : <><Heart size={16} /> {t('poi.save')}</>}
+              </button>
+              <button
+                onClick={() => window.open(`https://www.google.com/maps/dir/?api=1&destination=${poi.location.lat},${poi.location.lng}`)}
+                className="py-3 px-4 rounded-[var(--radius-md)] text-[13.5px] font-medium flex items-center gap-1.5"
+                style={{ background: 'var(--surface-1)', border: '1px solid var(--color-border)', color: 'var(--text)' }}
+              >
+                <Navigation size={16} style={{ color: 'var(--terra-hot)' }} /> {t('poi.directions')}
+              </button>
             </div>
           </motion.div>
         )}

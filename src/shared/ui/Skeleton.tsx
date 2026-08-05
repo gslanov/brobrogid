@@ -36,21 +36,28 @@ export function Skeleton({ variant = 'text', width, height, size, className }: S
 }
 
 export function POICardSkeleton({ variant = 'horizontal' }: { variant?: 'horizontal' | 'vertical' }) {
+  const shell = {
+    background: 'var(--surface-1)',
+    border: '1px solid var(--color-border)',
+  }
+
   if (variant === 'horizontal') {
     return (
-      <div className="flex-shrink-0 w-[200px] bg-white rounded-2xl border border-[var(--color-border)] overflow-hidden">
-        <Skeleton variant="rect" height={130} className="!rounded-none" />
-        <div className="p-3 space-y-2">
-          <Skeleton variant="text" width="75%" />
-          <Skeleton variant="text" width="50%" height={12} />
+      <div
+        className="flex-shrink-0 w-[228px] rounded-[var(--radius-lg)] overflow-hidden"
+        style={shell}
+      >
+        <Skeleton variant="rect" height={152} className="!rounded-none" />
+        <div className="px-3 h-[38px] flex items-center">
+          <Skeleton variant="text" width="55%" height={12} />
         </div>
       </div>
     )
   }
 
   return (
-    <div className="flex bg-white rounded-2xl border border-[var(--color-border)] overflow-hidden w-full">
-      <Skeleton variant="rect" width={120} height={120} className="!rounded-none flex-shrink-0" />
+    <div className="flex rounded-[var(--radius-lg)] overflow-hidden w-full" style={shell}>
+      <Skeleton variant="rect" width={118} height={118} className="!rounded-none flex-shrink-0" />
       <div className="flex-1 p-3 space-y-2">
         <Skeleton variant="text" width="40%" height={12} />
         <Skeleton variant="text" width="80%" />

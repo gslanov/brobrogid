@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 
-const TTS_CATEGORIES = ['attractions', 'culture', 'nature', 'springs']
+const TTS_CATEGORIES = ['attractions', 'culture', 'nature', 'springs', 'museums']
 
 export function useTTS(poiId: string, category: string) {
   const [speaking, setSpeaking] = useState(false)

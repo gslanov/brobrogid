@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Редактор источников Осетии</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; display: flex; height: 100vh; overflow: hidden; background: #1a1a2e; color: #e0e0e0; }
+
+  #sidebar { width: 340px; min-width: 340px; display: flex; flex-direction: column; background: #16213e; border-right: 1px solid #0f3460; }
+
+  #sidebar-header { padding: 14px 16px; background: #0f3460; border-bottom: 1px solid #1a4a8a; }
+  #sidebar-header h1 { font-size: 15px; font-weight: 700; color: #7ec8e3; margin-bottom: 4px; }
+  #sidebar-header p { font-size: 11px; color: #8a9bb0; }
+
+  #legend { display: flex; gap: 12px; padding: 8px 12px; background: #0a1a30; border-bottom: 1px solid #0f3460; font-size: 11px; }
+  .leg { display: flex; align-items: center; gap: 5px; }
+  .leg-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .leg-red { background: #e74c3c; }
+  .leg-blue { background: #0891b2; }
+  .leg-label { color: #8a9bb0; }
+
+  #search-box { padding: 8px 12px; border-bottom: 1px solid #0f3460; }
+  #search-input { width: 100%; padding: 7px 10px; border-radius: 6px; background: #0f3460; border: 1px solid #1a4a8a; color: #e0e0e0; font-size: 13px; outline: none; }
+  #search-input:focus { border-color: #7ec8e3; }
+
+  #poi-list { flex: 1; overflow-y: auto; }
+  #poi-list::-webkit-scrollbar { width: 6px; }
+  #poi-list::-webkit-scrollbar-track { background: #16213e; }
+  #poi-list::-webkit-scrollbar-thumb { background: #0f3460; border-radius: 3px; }
+
+  .poi-item { padding: 9px 12px; border-bottom: 1px solid #0f3460; cursor: pointer; transition: background 0.15s; display: flex; align-items: flex-start; gap: 9px; }
+  .poi-item:hover { background: #0f3460; }
+  .poi-item.active { background: #1a4a8a; border-left: 3px solid #7ec8e3; }
+  .poi-item.verified { border-left: 3px solid #e74c3c; }
+  .poi-item.verified.active { border-left: 3px solid #ff6b6b; }
+
+  .poi-num { min-width: 24px; height: 24px; border-radius: 50%; background: #0f3460; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; color: #7ec8e3; flex-shrink: 0; }
+  .poi-item.verified .poi-num { background: #8b1a1a; color: #ff9999; }
+
+  .poi-info { flex: 1; min-width: 0; }
+  .poi-name { font-size: 12px; font-weight: 600; color: #e0e0e0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .poi-coords { font-size: 10px; color: #8a9bb0; margin-top: 2px; font-family: monospace; }
+  .poi-coords.edited { color: #7ec8e3; }
+
+  .poi-badge { font-size: 10px; padding: 2px 6px; border-radius: 10px; background: #0a2240; color: #5a9cc5; flex-shrink: 0; margin-top: 2px; white-space: nowrap; }
+  .poi-badge.osm { background: #3a0a0a; color: #e74c3c; }
+  .poi-badge.moved { background: #0a3020; color: #4ac98a; }
+
+  #footer { padding: 10px 12px; border-top: 1px solid #0f3460; display: flex; flex-direction: column; gap: 7px; }
+  #counter { font-size: 11px; color: #8a9bb0; text-align: center; }
+  #counter span { color: #4ac98a; font-weight: 700; }
+  #osm-counter { font-size: 11px; color: #8a9bb0; text-align: center; }
+  #osm-counter span { color: #e74c3c; font-weight: 700; }
+
+  .btn { width: 100%; padding: 9px; border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; border: none; transition: all 0.2s; }
+  .btn-export { background: #1a6b45; color: #4ac98a; }
+  .btn-export:hover { background: #1d7d50; }
+  .btn-copy { background: #1a3a6b; color: #7ec8e3; }
+  .btn-copy:hover { background: #1d4580; }
+  .btn-reset { background: #3a1a1a; color: #e07070; font-size: 11px; padding: 6px; }
+  .btn-reset:hover { background: #4a2020; }
+
+  #map { flex: 1; }
+
+  .leaflet-popup-content-wrapper { background: #16213e; color: #e0e0e0; border: 1px solid #0f3460; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+  .leaflet-popup-tip { background: #16213e; }
+  .popup-title { font-weight: 700; font-size: 13px; color: #7ec8e3; margin-bottom: 4px; }
+  .popup-title.verified { color: #e74c3c; }
+  .popup-id { font-size: 11px; color: #8a9bb0; }
+  .popup-coords { font-size: 12px; font-family: monospace; margin-top: 5px; color: #4ac98a; }
+  .popup-osm { font-size: 11px; color: #e74c3c; margin-top: 3px; font-weight: 600; }
+  .popup-hint { font-size: 11px; color: #8a9bb0; margin-top: 3px; }
+
+  #toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #1a6b45; color: #4ac98a; padding: 10px 20px; border-radius: 8px; font-size: 13px; font-weight: 600; opacity: 0; transition: opacity 0.3s; pointer-events: none; z-index: 9999; }
+  #toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+
+<div id="sidebar">
+  <div id="sidebar-header">
+    <h1>💧 Редактор источников Осетии</h1>
+    <p>Перетащи маркер на карте → координаты обновятся</p>
+  </div>
+
+  <div id="legend">
+    <div class="leg"><div class="leg-dot leg-red"></div><span class="leg-label">Найдено на OSM-карте</span></div>
+    <div class="leg"><div class="leg-dot leg-blue"></div><span class="leg-label">Требует проверки</span></div>
+  </div>
+
+  <div id="search-box">
+    <input id="search-input" type="text" placeholder="Поиск источника..." oninput="filterList(this.value)">
+  </div>
+
+  <div id="poi-list"></div>
+
+  <div id="footer">
+    <div id="osm-counter">Найдено на карте: <span id="osm-count">0</span> / 64</div>
+    <div id="counter">Вручную изменено: <span id="edited-count">0</span></div>
+    <button class="btn btn-export" onclick="exportJSON()">⬇ Скачать updated-springs.json</button>
+    <button class="btn btn-copy" onclick="copyJSON()">📋 Скопировать в буфер</button>
+    <button class="btn btn-reset" onclick="resetAll()">↺ Сбросить ручные изменения</button>
+  </div>
+</div>
+
+<div id="map"></div>
+<div id="toast">✓ Скопировано!</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+// verified: true = нашёл прямо на OSM-карте (красный)
+// verified: false = примерные координаты (синий), надо проверить вручную
+const SPRINGS_DATA = [
+  {"id":"poi-251","slug":"tib-1-spring","name":"Источник Тиб-1","lat":42.6763953,"lng":43.9235697,"verified":true,"osmNote":"OSM: «Минеральный источник Тиб 1»"},
+  {"id":"poi-252","slug":"tib-2-spring","name":"Источник Тиб-2","lat":42.6709,"lng":43.9106,"verified":true,"osmNote":"Nominatim: с. Тиб, Мамисонское ущелье"},
+  {"id":"poi-253","slug":"karmadon-springs","name":"Кармадонские источники","lat":42.7547093,"lng":44.4812299,"verified":true,"osmNote":"OSM + MDPI 2021: «Верхние Кармадонские ванны» (двойное подтверждение)"},
+  {"id":"poi-254","slug":"ganakh-thermo-spring","name":"Ганах-термо","lat":43.0136,"lng":44.2373,"verified":true,"osmNote":"Яндекс.Карты: с. Верхний Бирагзанг, Алагирский р-н"},
+  {"id":"poi-255","slug":"tamisk-springs","name":"Тамисские источники","lat":42.9608,"lng":44.2069,"verified":true,"osmNote":"Nominatim: с. Тамиск, ~9 км от Алагира"},
+  {"id":"poi-256","slug":"korin-iodine-spring","name":"Коринское месторождение","lat":43.08,"lng":44.15,"verified":false},
+  {"id":"poi-257","slug":"razdolnoe-iodine-spring","name":"Раздольненское месторождение","lat":43.6976,"lng":44.5349,"verified":true,"osmNote":"Nominatim: с. Раздольное, Моздокский р-н"},
+  {"id":"poi-258","slug":"khilak-1-spring","name":"Источник Хилак-1","lat":42.7044591,"lng":44.1679807,"verified":true,"osmNote":"OSM: «Хилак (минеральный источник)»"},
+  {"id":"poi-259","slug":"khilak-2-spring","name":"Источник Хилак-2","lat":42.7038,"lng":44.1692,"verified":true,"osmNote":"OSM: кластер Хилак (второй выход)"},
+  {"id":"poi-260","slug":"zaramag-spring","name":"Зарамагское месторождение","lat":42.7291,"lng":43.8596,"verified":true,"osmNote":"Nominatim: с. Зарамаг, Алагирский р-н"},
+  {"id":"poi-261","slug":"zamankul-spring","name":"Заманкульское месторождение","lat":43.18,"lng":44.7,"verified":false},
+  {"id":"poi-262","slug":"ursdon-springs","name":"Урсдонские источники","lat":43.0626,"lng":44.0490,"verified":true,"osmNote":"MDPI 2021 (Тощаков и др.) — полевые GPS-замеры"},
+  {"id":"poi-263","slug":"saur-spring-1","name":"Саурский источник №1","lat":43.072,"lng":43.752,"verified":false},
+  {"id":"poi-264","slug":"saurskiy-istochnik-2","name":"Саурский источник №2","lat":43.074,"lng":43.754,"verified":false},
+  {"id":"poi-265","slug":"zintsarskiy-istochnik","name":"Зинцарский источник","lat":42.98,"lng":44.05,"verified":false},
+  {"id":"poi-266","slug":"narskiy-istochnik","name":"Нарский источник","lat":42.6799,"lng":44.0214,"verified":true,"osmNote":"Nominatim + Wikidata: с. Нар, Алагирский р-н"},
+  {"id":"poi-267","slug":"khasievskie-istochniki","name":"Хасиевские источники","lat":42.85,"lng":44.02,"verified":false},
+  {"id":"poi-268","slug":"kalakskie-istochniki","name":"Калакские источники","lat":42.6618,"lng":43.8315,"verified":true,"osmNote":"Nominatim: хутор Калак, Мамисонское ущелье"},
+  {"id":"poi-269","slug":"kamskhoiskiy-istochnik","name":"Камсхойский источник","lat":42.95,"lng":44.08,"verified":false},
+  {"id":"poi-270","slug":"gurkumtykomskiy-istochnik","name":"Гуркумтыкомский источник","lat":42.9,"lng":44.06,"verified":false},
+  {"id":"poi-271","slug":"istochnik-bub","name":"Источник Буб","lat":42.92,"lng":44.07,"verified":false},
+  {"id":"poi-272","slug":"istochnik-abana","name":"Источник Абана","lat":42.91,"lng":44.09,"verified":false},
+  {"id":"poi-273","slug":"zgilskiy-istochnik","name":"Згилский источник","lat":42.8,"lng":43.95,"verified":false},
+  {"id":"poi-274","slug":"zilakharskiy-istochnik","name":"Зилахарский источник","lat":42.88,"lng":44.04,"verified":false},
+  {"id":"poi-275","slug":"kudzakhtavskiy-istochnik","name":"Кудзахтавский источник","lat":42.85,"lng":44.03,"verified":false},
+  {"id":"poi-276","slug":"tapankausky-istochnik","name":"Тапанкауский источник","lat":42.93,"lng":44.11,"verified":false},
+  {"id":"poi-277","slug":"lyadonsky-istochnik","name":"Льядонский источник","lat":42.87,"lng":44.1,"verified":false},
+  {"id":"poi-278","slug":"istochnik-ginat","name":"Источник Гинат","lat":42.83,"lng":44.08,"verified":false},
+  {"id":"poi-279","slug":"istochnik-lisri","name":"Источник Лисри","lat":42.6657026,"lng":43.8529485,"verified":true,"osmNote":"OSM: «Минеральный источник Лисри 1»"},
+  {"id":"poi-280","slug":"istochnik-khalatsa","name":"Источник Халаца","lat":42.86,"lng":44.05,"verified":false},
+  {"id":"poi-281","slug":"istochnik-kliat","name":"Источник Клиат","lat":42.9,"lng":44.12,"verified":false},
+  {"id":"poi-282","slug":"istochnik-kartasuar","name":"Источник Картасуар","lat":42.88,"lng":44.09,"verified":false},
+  {"id":"poi-283","slug":"istochnik-dvukhglavy","name":"Источник Двухглавый","lat":42.91,"lng":44.1,"verified":false},
+  {"id":"poi-284","slug":"istochnik-guram","name":"Источник Гурам","lat":42.94,"lng":44.07,"verified":false},
+  {"id":"poi-285","slug":"istochnik-khumes","name":"Источник Хумес","lat":43.001,"lng":43.765,"verified":true,"osmNote":"Нац. парк Алания, Дигорское ущелье — р-н Донифарс"},
+  {"id":"poi-286","slug":"koltasaursky-istochnik","name":"Колтасаурский источник","lat":43.005,"lng":43.760,"verified":true,"osmNote":"Дигорское ущелье, р-н Донифарс/Задалеск"},
+  {"id":"poi-287","slug":"khaznidonsky-istochnik","name":"Хазнидонский источник","lat":43.2086,"lng":43.8511,"verified":true,"osmNote":"Nominatim: с. Хазнидон, Ирафский р-н"},
+  {"id":"poi-288","slug":"kariudonskiy-istochnik","name":"Кариудонский источник","lat":43.008,"lng":43.800,"verified":true,"osmNote":"Ирафский р-н, р-н Задалеск (Nominatim)"},
+  {"id":"poi-289","slug":"istochnik-skattat","name":"Источник Скоттат","lat":42.940,"lng":43.620,"verified":true,"osmNote":"Дигорское ущелье, р. Айгамугидон"},
+  {"id":"poi-290","slug":"istochnik-dziraska","name":"Источник Дзираска","lat":42.98,"lng":43.48,"verified":false},
+  {"id":"poi-291","slug":"istochnik-sayrakator","name":"Источник Сайракатор","lat":42.96,"lng":43.46,"verified":false},
+  {"id":"poi-292","slug":"istochnik-laboda","name":"Источник Лабода","lat":42.9,"lng":43.4,"verified":false},
+  {"id":"poi-293","slug":"istochnik-astavkort","name":"Источник Аставкорт","lat":43.03,"lng":43.57,"verified":false},
+  {"id":"poi-294","slug":"istochnik-masota","name":"Источник Масота","lat":43.01,"lng":43.53,"verified":false},
+  {"id":"poi-295","slug":"elkhotovskie-istochniki","name":"Эльхотовские источники","lat":43.3442,"lng":44.2011,"verified":true,"osmNote":"Nominatim: с. Эльхотово, ~55 км от Владикавказа"},
+  {"id":"poi-296","slug":"redantskie-popovskie-rodniki","name":"Редантские (Поповские) родники","lat":42.9677,"lng":44.6494,"verified":true,"osmNote":"Nominatim: Редант, пригород Владикавказа"},
+  {"id":"poi-297","slug":"dlinndolinnskie-rodniki","name":"Длиннодолинские родники","lat":43.2,"lng":44.4,"verified":false},
+  {"id":"poi-298","slug":"bekanskie-rodniki","name":"Беканские родники","lat":43.18,"lng":44.55,"verified":false},
+  {"id":"poi-299","slug":"nikolaevskie-rodniki","name":"Николаевские родники","lat":43.15,"lng":43.9,"verified":false},
+  {"id":"poi-300","slug":"chernorech-springs","name":"Чернореченские родники","lat":43.02,"lng":44.55,"verified":false},
+  {"id":"poi-301","slug":"baltinskie-springs","name":"Балтинские родники","lat":42.85,"lng":44.7,"verified":false},
+  {"id":"poi-302","slug":"tarskie-springs","name":"Тарские родники","lat":42.9660,"lng":44.7736,"verified":true,"osmNote":"Nominatim: с. Тарское, восток от Владикавказа"},
+  {"id":"poi-303","slug":"fanykskiy-spring","name":"Родник Фаныкский","lat":43.1,"lng":44.45,"verified":false},
+  {"id":"poi-304","slug":"chmi-spring","name":"Родник в с. Чми","lat":42.8516,"lng":44.6378,"verified":true,"osmNote":"Nominatim: с. Чми, Военно-Грузинская дорога"},
+  {"id":"poi-305","slug":"pyatosotskiy-spring","name":"Пятосотский родник","lat":43.65,"lng":44.5,"verified":false},
+  {"id":"poi-306","slug":"sakholadon-spring","name":"Сахоладон","lat":42.950,"lng":43.450,"verified":false},
+  {"id":"poi-307","slug":"tsakh-tsadykom-springs","name":"Цах-Цадыкомские родники","lat":42.9,"lng":44.0,"verified":false},
+  {"id":"poi-308","slug":"source-saint-nicholas","name":"Источник Святого Николая","lat":43.035,"lng":44.662,"verified":false},
+  {"id":"poi-309","slug":"uspensky-monastery-spring","name":"Родник Успенского монастыря","lat":42.8218,"lng":44.2750,"verified":true,"osmNote":"Nominatim: Аланский Успенский монастырь"},
+  {"id":"poi-310","slug":"uastyrdzhi-kuvandon","name":"Уастырджийы кувандон","lat":43.0597,"lng":44.2936,"verified":true,"osmNote":"Роща Хетага (святилище Уастырджи), Алагирский р-н"},
+  {"id":"poi-311","slug":"mady-mayram-spring","name":"Мады Майрам","lat":42.8122,"lng":44.2466,"verified":true,"osmNote":"Куртатинское ущелье — святилище Мады Майрам"},
+  {"id":"poi-312","slug":"devichi-slyozy-spring","name":"Девичьи слёзы (Плачущая скала)","lat":42.96,"lng":44.09,"verified":false},
+  {"id":"poi-313","slug":"suadagskaya-cave-spring","name":"Суадагская пещера-источник","lat":43.0459,"lng":44.2781,"verified":true,"osmNote":"Nominatim: с. Суадаг, Алагирский р-н"},
+  {"id":"poi-314","slug":"digori-izad-cave-spring","name":"Источник в пещере «Дигори изад»","lat":43.08,"lng":43.7,"verified":false}
+];
+
+const state = SPRINGS_DATA.map(s => ({ ...s, origLat: s.lat, origLng: s.lng, manualEdited: false }));
+const markers = {};
+let activeId = null;
+
+const map = L.map('map', { zoomControl: true }).setView([43.0, 44.2], 9);
+
+// Спутниковый слой Esri
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+  attribution: 'Tiles © Esri',
+  maxZoom: 19
+}).addTo(map);
+
+// Полупрозрачные подписи поверх спутника
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  opacity: 0.35,
+  maxZoom: 19
+}).addTo(map);
+
+function makeIcon(s, isActive) {
+  const verified = s.verified;
+  const size = isActive ? 32 : 24;
+  const color = verified ? '#e74c3c' : '#0891b2';
+  const border = isActive ? '#fff' : (verified ? '#ff9999' : '#7ec8e3');
+  return L.divIcon({
+    className: '',
+    html: `<div style="
+      width:${size}px;height:${size}px;
+      background:${color};
+      border:2px solid ${border};
+      border-radius:50% 50% 50% 0;
+      transform:rotate(-45deg);
+      box-shadow:0 2px 8px rgba(0,0,0,0.5);
+    "></div>`,
+    iconSize: [size, size],
+    iconAnchor: [size/2, size],
+    popupAnchor: [0, -size]
+  });
+}
+
+function buildList(filter) {
+  const list = document.getElementById('poi-list');
+  list.innerHTML = '';
+  state.forEach((s, i) => {
+    if (filter && !s.name.toLowerCase().includes(filter.toLowerCase()) && !s.id.includes(filter.toLowerCase())) return;
+    const isManual = s.manualEdited;
+    let badgeText = s.verified ? '🔴 OSM' : s.id;
+    let badgeClass = s.verified ? 'osm' : '';
+    if (isManual) { badgeText = '✓ изменён'; badgeClass = 'moved'; }
+
+    const item = document.createElement('div');
+    item.className = 'poi-item' + (s.verified ? ' verified' : '') + (s.id === activeId ? ' active' : '');
+    item.dataset.id = s.id;
+    item.innerHTML = `
+      <div class="poi-num">${i + 1}</div>
+      <div class="poi-info">
+        <div class="poi-name">${s.name}</div>
+        <div class="poi-coords ${isManual ? 'edited' : ''}">${s.lat.toFixed(5)}, ${s.lng.toFixed(5)}</div>
+      </div>
+      <div class="poi-badge ${badgeClass}">${badgeText}</div>
+    `;
+    item.onclick = () => focusPOI(s.id);
+    list.appendChild(item);
+  });
+}
+
+function focusPOI(id) {
+  activeId = id;
+  const s = state.find(x => x.id === id);
+  if (!s) return;
+  map.setView([s.lat, s.lng], Math.max(map.getZoom(), 14));
+  if (markers[id]) {
+    markers[id].setIcon(makeIcon(s, true));
+    markers[id].openPopup();
+  }
+  Object.keys(markers).forEach(mid => {
+    if (mid !== id) {
+      const ms = state.find(x => x.id === mid);
+      if (ms) markers[mid].setIcon(makeIcon(ms, false));
+    }
+  });
+  buildList(document.getElementById('search-input').value);
+  setTimeout(() => {
+    const el = document.querySelector(`.poi-item[data-id="${id}"]`);
+    if (el) el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  }, 50);
+}
+
+function updateCounters() {
+  const manual = state.filter(s => s.manualEdited).length;
+  const osm = state.filter(s => s.verified).length;
+  document.getElementById('edited-count').textContent = manual;
+  document.getElementById('osm-count').textContent = osm;
+}
+
+state.forEach(s => {
+  const marker = L.marker([s.lat, s.lng], {
+    draggable: true,
+    icon: makeIcon(s, false),
+    title: s.name
+  }).addTo(map);
+
+  const osmLine = s.verified ? `<div class="popup-osm">✓ Найдено на OSM: ${s.osmNote}</div>` : '';
+  marker.bindPopup(`
+    <div class="popup-title ${s.verified ? 'verified' : ''}">${s.name}</div>
+    <div class="popup-id">${s.id}</div>
+    <div class="popup-coords" id="pcoords-${s.id}">${s.lat.toFixed(5)}, ${s.lng.toFixed(5)}</div>
+    ${osmLine}
+    <div class="popup-hint">Перетащи маркер для изменения позиции</div>
+  `);
+
+  marker.on('dragend', function(e) {
+    const { lat, lng } = e.target.getLatLng();
+    s.lat = parseFloat(lat.toFixed(6));
+    s.lng = parseFloat(lng.toFixed(6));
+    s.manualEdited = true;
+    const el = document.getElementById(`pcoords-${s.id}`);
+    if (el) el.textContent = `${s.lat.toFixed(5)}, ${s.lng.toFixed(5)}`;
+    buildList(document.getElementById('search-input').value);
+    updateCounters();
+  });
+
+  marker.on('click', () => focusPOI(s.id));
+  markers[s.id] = marker;
+});
+
+function filterList(val) { buildList(val); }
+
+function exportJSON() {
+  const output = state.map(s => ({ id: s.id, lat: s.lat, lng: s.lng, verified: s.verified || s.manualEdited }));
+  const blob = new Blob([JSON.stringify(output, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'updated-springs.json';
+  a.click();
+}
+
+function copyJSON() {
+  const output = state.map(s => ({ id: s.id, lat: s.lat, lng: s.lng }));
+  navigator.clipboard.writeText(JSON.stringify(output, null, 2)).then(() => {
+    const t = document.getElementById('toast');
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 2000);
+  });
+}
+
+function resetAll() {
+  if (!confirm('Сбросить все ручные изменения? OSM-координаты сохранятся.')) return;
+  state.forEach(s => {
+    if (s.manualEdited) {
+      s.lat = s.origLat; s.lng = s.origLng; s.manualEdited = false;
+      markers[s.id].setLatLng([s.lat, s.lng]);
+    }
+  });
+  buildList('');
+  updateCounters();
+}
+
+buildList('');
+updateCounters();
+</script>
+</body>
+</html>

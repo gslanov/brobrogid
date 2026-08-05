@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { ChevronLeft, Save, Eye, EyeOff } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { useAdminData } from '../hooks/useAdminData'
@@ -45,7 +45,7 @@ const CATEGORY_OPTIONS: { value: string; labelKey: string }[] = [
   { value: 'accommodation', labelKey: 'admin.pois.categories.accommodation' },
   { value: 'nature', labelKey: 'admin.pois.categories.nature' },
   { value: 'culture', labelKey: 'admin.pois.categories.culture' },
-  { value: 'shopping', labelKey: 'admin.pois.categories.shopping' },
+
   { value: 'transport', labelKey: 'admin.pois.categories.transport' },
   { value: 'activities', labelKey: 'admin.pois.categories.activities' },
   { value: 'practical', labelKey: 'admin.pois.categories.practical' },
@@ -145,8 +145,11 @@ function CheckboxField({
 export default function AdminPOIForm() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
+  const [searchParams] = useSearchParams()
   const { t } = useTranslation()
   const isCreate = id === 'new'
+  const fromCategory = searchParams.get('from')
+  const backUrl = `/admin/pois${fromCategory ? `?category=${fromCategory}` : ''}`
 
   const { getById, create, update } = useAdminData<POI>('pois')
 
@@ -227,8 +230,10 @@ export default function AdminPOIForm() {
         await create(payload)
       } else {
         await update(payload)
+        // Sync to pois.json on disk so changes survive git push
+        fetch('/api/poi', { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) }).catch(() => {})
       }
-      navigate('/admin/pois')
+      navigate(backUrl)
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Save failed')
       setIsSaving(false)
@@ -257,7 +262,7 @@ export default function AdminPOIForm() {
           <div className="flex items-center gap-3">
             <button
               type="button"
-              onClick={() => navigate('/admin/pois')}
+              onClick={() => navigate(backUrl)}
               className="p-1.5 rounded-lg text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition-colors"
             >
               <ChevronLeft size={20} />
@@ -531,7 +536,7 @@ export default function AdminPOIForm() {
           </button>
           <button
             type="button"
-            onClick={() => navigate('/admin/pois')}
+            onClick={() => navigate(backUrl)}
             className="px-5 py-2 rounded-lg bg-white text-gray-700 text-sm font-medium border border-gray-300 hover:bg-gray-50 active:bg-gray-100 transition-colors"
           >
             {t('admin.common.cancel')}

@@ -18,11 +18,18 @@ export function Rating({ value, count, size = 'md' }: RatingProps) {
     <div className={`flex items-center gap-1 ${textSize}`}>
       <div className="flex">
         {[1, 2, 3, 4, 5].map((i) => (
-          <Star key={i} size={iconSize} className={i <= stars ? 'text-yellow-500 fill-yellow-500' : 'text-gray-300'} />
+          <Star
+            key={i}
+            size={iconSize}
+            style={{
+              color: i <= stars ? 'var(--terra-hot)' : 'var(--surface-3)',
+              fill: i <= stars ? 'var(--terra-hot)' : 'var(--surface-3)',
+            }}
+          />
         ))}
       </div>
       <span className="font-semibold">{formatRating(value)}</span>
-      {count !== undefined && <span className="text-[var(--color-text-secondary)]">({count})</span>}
+      {count !== undefined && <span style={{ color: 'var(--text-3)' }}>({count})</span>}
     </div>
   )
 }

@@ -95,6 +95,9 @@ export function useAdminData<T extends { id: string }>(
         await adminRemove(storeName, id)
         setItems((prev) => prev.filter((i) => i.id !== id))
         setCount((c) => Math.max(0, c - 1))
+        if (storeName === 'pois') {
+          await fetch(`/api/poi/${id}`, { method: 'DELETE' }).catch(() => {})
+        }
       } catch (err) {
         console.error(`Failed to remove from ${storeName}:`, err)
         await load()

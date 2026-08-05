@@ -8,16 +8,17 @@ import type { TransportRoute } from '@/data/types'
 
 type FilterType = 'all' | 'marshrutka' | 'bus' | 'tram'
 
-const TYPE_STYLE: Record<string, { bg: string; text: string; label: string }> = {
-  marshrutka: { bg: '#FFF3E0', text: '#E65100', label: 'Маршрутка' },
-  bus:        { bg: '#E8F5E9', text: '#2E7D32', label: 'Автобус' },
-  tram:       { bg: '#FFEBEE', text: '#C62828', label: 'Трамвай' },
+// Оттенки подобраны под тёмный фон: тёплый терракот, горная зелень, глина
+const TYPE_COLOR: Record<string, string> = {
+  marshrutka: '#E08A4A',
+  bus:        '#5AA87A',
+  tram:       '#D9534F',
 }
 
-const TYPE_COLOR: Record<string, string> = {
-  marshrutka: '#FF6B35',
-  bus:        '#2E7D32',
-  tram:       '#C0392B',
+const TYPE_STYLE: Record<string, { text: string; label: string }> = {
+  marshrutka: { text: TYPE_COLOR.marshrutka, label: 'Маршрутка' },
+  bus:        { text: TYPE_COLOR.bus,        label: 'Автобус' },
+  tram:       { text: TYPE_COLOR.tram,       label: 'Трамвай' },
 }
 
 export default function TransportPage() {
@@ -55,7 +56,7 @@ export default function TransportPage() {
   ]
 
   return (
-    <div className="min-h-dvh bg-[var(--color-bg)]">
+    <div className="min-h-dvh">
       <SEO
         title="Транспорт Владикавказа — BROBROGID"
         description="Маршруты маршруток, автобусов и трамваев Владикавказа."
@@ -69,7 +70,8 @@ export default function TransportPage() {
           value={query}
           onChange={e => setQuery(e.target.value)}
           placeholder="Поиск по номеру или названию..."
-          className="w-full h-11 bg-white border border-[var(--color-border)] rounded-xl px-4 text-sm outline-none focus:border-[var(--color-primary)] transition-colors"
+          className="w-full h-11 rounded-[var(--radius-md)] px-4 text-[13.5px] outline-none transition-colors"
+          style={{ background: 'var(--surface-2)', border: '1px solid var(--color-border)', color: 'var(--text)' }}
         />
       </div>
 
@@ -78,12 +80,10 @@ export default function TransportPage() {
           <button
             key={f.key}
             onClick={() => setFilter(f.key)}
-            className={[
-              'flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-semibold border transition-colors',
-              filter === f.key
-                ? 'bg-gray-900 text-white border-gray-900'
-                : 'bg-white text-gray-600 border-gray-300',
-            ].join(' ')}
+            className="flex-shrink-0 px-3.5 h-9 rounded-full text-[12px] font-semibold border transition-all whitespace-nowrap"
+            style={filter === f.key
+              ? { background: 'var(--terra-tint)', color: 'var(--terra-hot)', borderColor: 'var(--terra-line)' }
+              : { background: 'var(--surface-1)', color: 'var(--text-3)', borderColor: 'var(--color-border)' }}
           >
             {f.label}
           </button>
@@ -92,49 +92,52 @@ export default function TransportPage() {
 
       <div className="px-4 pb-6 space-y-2">
         {visible.length === 0 && (
-          <p className="text-center text-sm text-[var(--color-text-secondary)] py-12">
+          <p className="text-center text-[13px] py-12" style={{ color: 'var(--text-3)' }}>
             {routes.length === 0 ? 'Загрузка...' : 'Ничего не найдено'}
           </p>
         )}
         {visible.map(route => {
-          const style = TYPE_STYLE[route.type] || { bg: '#F5F5F5', text: '#555', label: route.type }
-          const color = TYPE_COLOR[route.type] || route.color || '#3B82F6'
+          const style = TYPE_STYLE[route.type] || { text: 'var(--text-2)', label: route.type }
+          const color = TYPE_COLOR[route.type] || route.color || '#8A94A3'
           return (
             <button
               key={route.id}
               onClick={() => navigate(`/transport/${route.id}`)}
-              className="w-full bg-white rounded-2xl border border-[var(--color-border)] p-4 flex items-center gap-3 text-left active:bg-gray-50 transition-colors"
+              className="w-full rounded-[var(--radius-lg)] p-3.5 flex items-center gap-3.5 text-left transition-colors"
+              style={{ background: 'var(--surface-1)', border: '1px solid var(--color-border)' }}
             >
-              <div
-                className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 font-bold text-white text-lg"
-                style={{ backgroundColor: color }}
-              >
-                {route.number}
+              {/* Номер маршрута в ромбе. Ромб — повёрнутый квадрат, поэтому он
+                  меньше своей ячейки: иначе углы залезают на текст. */}
+              <div className="relative w-12 h-12 flex items-center justify-center flex-shrink-0">
+                <span
+                  className="absolute inset-[7px] diamond"
+                  style={{ background: color + '22', border: `1.5px solid ${color}66` }}
+                />
+                <span className="relative z-10 font-bold text-[15px]" style={{ color }}>
+                  {route.number}
+                </span>
               </div>
               <div className="flex-1 min-w-0">
-                <p className="text-sm font-medium text-gray-900 leading-snug line-clamp-2">
+                <p className="text-[13.5px] font-medium leading-snug line-clamp-2">
                   {route.name.ru}
                 </p>
-                <div className="flex items-center gap-2 mt-1">
-                  <span
-                    className="text-xs font-semibold px-2 py-0.5 rounded-full"
-                    style={{ background: style.bg, color: style.text }}
-                  >
+                <div className="flex items-center gap-2 mt-1.5 flex-wrap">
+                  <span className="text-[11px] font-semibold" style={{ color: style.text }}>
                     {style.label}
                   </span>
                   {route.stops.length > 0 && (
-                    <span className="text-xs text-[var(--color-text-secondary)]">
-                      {route.stops.length} остановок
+                    <span className="text-[11px]" style={{ color: 'var(--text-3)' }}>
+                      · {route.stops.length} остановок
                     </span>
                   )}
                   {route.schedule?.weekday && (
-                    <span className="text-xs text-[var(--color-text-secondary)]">
-                      {route.schedule.weekday}
+                    <span className="text-[11px]" style={{ color: 'var(--text-3)' }}>
+                      · {route.schedule.weekday}
                     </span>
                   )}
                 </div>
               </div>
-              <svg className="w-4 h-4 text-gray-300 flex-shrink-0 ml-auto" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+              <svg className="w-4 h-4 flex-shrink-0 ml-auto" style={{ color: 'var(--text-3)' }} fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
               </svg>
             </button>

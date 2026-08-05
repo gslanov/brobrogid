@@ -4,13 +4,17 @@
 Запуск: python scripts/generate-audio-male.py
 """
 import asyncio
+import io
 import json
 import os
 import sys
 import edge_tts
 
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
+
 VOICE = "ru-RU-DmitryNeural"
-CATEGORIES = {"attractions", "culture", "nature", "springs"}
+CATEGORIES = {"attractions", "culture", "nature", "springs", "museums"}
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.join(SCRIPT_DIR, "..")
@@ -18,15 +22,19 @@ AUDIO_DIR = os.path.join(PROJECT_DIR, "public", "audio", "pois")
 POIS_JSON = os.path.join(PROJECT_DIR, "public", "content", "pois.json")
 
 
+def _sanitize(text: str) -> str:
+    return text.replace("Æ", "АЕ").replace("æ", "ае")
+
+
 async def generate(poi_id: str, text: str, out_path: str) -> None:
-    communicate = edge_tts.Communicate(text, VOICE)
+    communicate = edge_tts.Communicate(_sanitize(text), VOICE)
     await communicate.save(out_path)
 
 
 async def main() -> None:
     os.makedirs(AUDIO_DIR, exist_ok=True)
 
-    with open(POIS_JSON, encoding="utf-8") as f:
+    with open(POIS_JSON, encoding="utf-8-sig") as f:
         pois = json.load(f)
 
     targets = [

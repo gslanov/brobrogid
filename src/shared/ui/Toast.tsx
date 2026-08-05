@@ -10,11 +10,12 @@ const ICONS: Record<string, LucideIcon> = {
   warning: AlertTriangle,
 }
 
-const BG: Record<string, string> = {
-  info: 'bg-gray-800',
-  success: 'bg-green-700',
-  error: 'bg-red-700',
-  warning: 'bg-amber-600',
+/** Цвет ромба-индикатора слева. Сама плашка везде одна — тёмное стекло. */
+const ACCENT: Record<string, string> = {
+  info: 'var(--text-2)',
+  success: 'var(--success)',
+  error: 'var(--danger)',
+  warning: 'var(--warning)',
 }
 
 export function ToastContainer() {
@@ -35,18 +36,22 @@ export function ToastContainer() {
             onDragEnd={(_: unknown, info: PanInfo) => {
               if (Math.abs(info.offset.x) > 80) removeToast(toast.id)
             }}
-            className={`${BG[toast.type]} text-white rounded-xl px-4 py-3 shadow-lg max-w-sm w-full flex items-center gap-3 pointer-events-auto cursor-grab active:cursor-grabbing`}
+            className="glass-strong rounded-[var(--radius-md)] px-4 py-3 max-w-sm w-full flex items-center gap-3 pointer-events-auto cursor-grab active:cursor-grabbing"
+            style={{ color: 'var(--text)', boxShadow: 'var(--shadow-3)' }}
             role="alert"
           >
-            <span className="flex-shrink-0">{(() => { const Icon = ICONS[toast.type]; return <Icon size={18} /> })()}</span>
-            <span className="text-sm font-medium flex-1">{toast.message}</span>
+            <span className="flex-shrink-0" style={{ color: ACCENT[toast.type] }}>
+              {(() => { const Icon = ICONS[toast.type]; return <Icon size={17} /> })()}
+            </span>
+            <span className="text-[13px] font-medium flex-1">{toast.message}</span>
             {toast.action && (
               <button
                 onClick={() => {
                   toast.action!.onClick()
                   removeToast(toast.id)
                 }}
-                className="text-sm font-bold underline flex-shrink-0"
+                className="text-[13px] font-bold flex-shrink-0"
+                style={{ color: 'var(--terra-hot)' }}
               >
                 {toast.action.label}
               </button>

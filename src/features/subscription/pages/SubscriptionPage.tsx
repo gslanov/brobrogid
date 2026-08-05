@@ -16,7 +16,7 @@ export default function SubscriptionPage() {
   const [selected, setSelected] = useState<SubscriptionPlan>('2weeks')
 
   return (
-    <div className="min-h-dvh bg-[var(--color-bg)]">
+    <div className="min-h-dvh">
       <SEO
         title="Подписка — BROBROGID"
         description="Подписка BROBROGID для доступа к премиум-контенту."
@@ -27,7 +27,8 @@ export default function SubscriptionPage() {
       <div className="px-4 py-4">
         <div className="text-center mb-6">
           <h2 className="text-2xl font-bold">{'\u041E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 \u0432\u0441\u0451'}</h2>
-          <p className="text-sm text-[var(--color-text-secondary)] mt-1">{'\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u0435 \u043C\u0430\u043A\u0441\u0438\u043C\u0443\u043C \u043E\u0442 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044F \u043F\u043E \u041E\u0441\u0435\u0442\u0438\u0438'}</p>
+          <div className="orn-belt w-32 mx-auto my-3" style={{ height: 3, opacity: 0.6 }} />
+          <p className="text-[13px]" style={{ color: 'var(--text-3)' }}>{'\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u0435 \u043C\u0430\u043A\u0441\u0438\u043C\u0443\u043C \u043E\u0442 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044F \u043F\u043E \u041E\u0441\u0435\u0442\u0438\u0438'}</p>
         </div>
 
         <div className="space-y-3">
@@ -35,21 +36,27 @@ export default function SubscriptionPage() {
             <button
               key={p.plan}
               onClick={() => setSelected(p.plan)}
-              className={`w-full p-4 rounded-2xl border-2 text-left transition-all ${selected === p.plan ? 'border-[var(--color-primary)] bg-[var(--color-primary-light)] shadow-md' : 'border-[var(--color-border)] bg-white'}`}
+              className="w-full p-4 rounded-[var(--radius-lg)] text-left transition-all"
+              style={selected === p.plan
+                ? { background: 'var(--terra-tint)', border: '1.5px solid var(--terra-line)', boxShadow: '0 0 26px rgba(224,138,74,0.18)' }
+                : { background: 'var(--surface-1)', border: '1.5px solid var(--color-border)' }}
             >
-              <div className="flex items-center justify-between mb-2">
-                <h3 className="font-bold text-base">{t(`subscription.${p.plan}`)}</h3>
-                <span className="text-xl font-bold text-[var(--color-primary)]">{formatPrice(p.price)}</span>
+              <div className="flex items-center justify-between mb-2.5">
+                <h3 className="font-bold text-[15px]">{t(`subscription.${p.plan}`)}</h3>
+                <span className="text-[19px] font-bold" style={{ color: 'var(--terra-hot)' }}>{formatPrice(p.price)}</span>
               </div>
-              <ul className="space-y-1">
+              <ul className="space-y-1.5">
                 {p.features.map((f, i) => (
-                  <li key={i} className="text-sm text-[var(--color-text-secondary)] flex items-center gap-1.5">
-                    <span className="text-green-500">{'\u2713'}</span> {f}
+                  <li key={i} className="text-[12.5px] flex items-center gap-2" style={{ color: 'var(--text-2)' }}>
+                    <i className="w-[5px] h-[5px] diamond flex-shrink-0" style={{ background: 'var(--moss-light)' }} /> {f}
                   </li>
                 ))}
               </ul>
               {p.plan === '2weeks' && (
-                <span className="inline-block mt-2 px-2.5 py-0.5 bg-[var(--color-accent)] text-white text-[11px] font-bold rounded-full">{'\u041F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u044B\u0439'}</span>
+                <span
+                  className="inline-block mt-3 px-2.5 py-1 text-[10.5px] font-bold rounded-full"
+                  style={{ background: 'var(--terra-hot)', color: 'var(--text-on-terra)' }}
+                >{'\u041F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u044B\u0439'}</span>
               )}
             </button>
           ))}
@@ -57,11 +64,12 @@ export default function SubscriptionPage() {
 
         <button
           onClick={() => alert(t('subscription.comingSoon', 'Скоро! Оплата будет доступна в следующем обновлении'))}
-          className="w-full mt-6 py-3.5 bg-[var(--color-primary)] text-white rounded-xl font-semibold text-sm"
+          className="sheen w-full mt-7 py-3.5 rounded-[var(--radius-md)] font-semibold text-[14px]"
+          style={{ background: 'var(--terra-hot)', color: 'var(--text-on-terra)', boxShadow: 'var(--shadow-terra)' }}
         >
           {t('subscription.subscribe')} {'\u2022'} {formatPrice(PLANS.find((p) => p.plan === selected)!.price)}
         </button>
-        <p className="text-center text-xs text-[var(--color-text-secondary)] mt-2">{'\u041E\u043F\u043B\u0430\u0442\u0430 \u0447\u0435\u0440\u0435\u0437 \u0421\u0411\u041F'}</p>
+        <p className="text-center text-[11.5px] mt-3" style={{ color: 'var(--text-3)' }}>{'\u041E\u043F\u043B\u0430\u0442\u0430 \u0447\u0435\u0440\u0435\u0437 \u0421\u0411\u041F'}</p>
       </div>
     </div>
   )

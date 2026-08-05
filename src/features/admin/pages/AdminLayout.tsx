@@ -12,6 +12,7 @@ const BREADCRUMB_KEYS: Record<string, string> = {
   '/admin/emergency': 'admin.sidebar.emergency',
   '/admin/transport': 'admin.sidebar.transport',
   '/admin/export': 'admin.sidebar.export',
+  '/admin/afisha': 'admin.sidebar.afisha',
 }
 
 function Breadcrumbs() {

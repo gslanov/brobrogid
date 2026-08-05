@@ -16,13 +16,14 @@ let dbInstance: IDBPDatabase<BrobrogidDB> | null = null
 export async function getDB() {
   if (dbInstance) return dbInstance
 
-  dbInstance = await openDB<BrobrogidDB>('brobrogid', 31, {
-    upgrade(db, oldVersion) {
-      // Wipe all stores on version bump to re-seed with fresh data
-      if (oldVersion < 31) {
-        for (const name of db.objectStoreNames) {
-          db.deleteObjectStore(name)
-        }
+  // Номер намеренно выше всех прошлых: браузер не умеет откатывать базу назад,
+  // и на машинах со старой версией приложение падало при запуске.
+  dbInstance = await openDB<BrobrogidDB>('brobrogid', 100, {
+    upgrade(db) {
+      // Всегда сносим старые хранилища и пересобираем заново — данные приезжают
+      // из JSON-файлов при следующем запуске, терять нечего.
+      for (const name of db.objectStoreNames) {
+        db.deleteObjectStore(name)
       }
       const poiStore = db.createObjectStore('pois', { keyPath: 'id' })
       poiStore.createIndex('by-category', 'category')

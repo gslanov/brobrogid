@@ -41,13 +41,14 @@ export function FavoriteButton({ poiId, size = 'md' }: FavoriteButtonProps) {
       animate={isFav ? { scale: [1, 1.3, 1] } : { scale: 1 }}
       transition={{ duration: 0.3, type: 'spring', stiffness: 400, damping: 15 }}
       onClick={handleClick}
-      className={`${sizeClass} rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center shadow-sm`}
+      className={`${sizeClass} rounded-full glass-strong flex items-center justify-center`}
+      style={isFav ? { boxShadow: '0 0 16px var(--terra-glow)' } : undefined}
       aria-label={isFav ? t('saved.remove', 'Remove from saved') : t('poi.save')}
     >
       <svg
         className={`${size === 'sm' ? 'w-4 h-4' : 'w-5 h-5'} transition-colors`}
-        fill={isFav ? '#ef4444' : 'none'}
-        stroke={isFav ? '#ef4444' : '#64748b'}
+        fill={isFav ? 'var(--terra-hot)' : 'none'}
+        stroke={isFav ? 'var(--terra-hot)' : 'rgba(255,255,255,0.85)'}
         viewBox="0 0 24 24"
         strokeWidth={2}
       >

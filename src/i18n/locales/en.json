@@ -45,6 +45,12 @@
     "serviceTransport": "Transport",
     "serviceSOS": "SOS",
     "heroTitle": "Tour of the Day",
+    "placeOfDay": "Place of the Day",
+    "statPlaces": "places",
+    "statCategories": "categories",
+    "statReviews": "reviews",
+    "categoriesTitle": "Where to Go",
+    "discover": "Discover Ossetia",
     "contextMorning": "Breakfast Nearby",
     "contextEvening": "Evening Dining",
     "contextWeekend": "Nature Escapes",
@@ -99,7 +105,8 @@
     "filters": "Filters",
     "all": "All",
     "results_one": "{{count}} result",
-    "results_other": "{{count}} results"
+    "results_other": "{{count}} results",
+    "searchArea": "Search this area"
   },
   "tours": {
     "title": "Tours & Excursions",

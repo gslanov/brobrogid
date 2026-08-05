@@ -24,10 +24,23 @@ const AdminEmergencyForm = lazy(() => import('@/features/admin/pages/AdminEmerge
 const AdminTransportList = lazy(() => import('@/features/admin/pages/AdminTransportList'))
 const AdminTransportForm = lazy(() => import('@/features/admin/pages/AdminTransportForm'))
 const AdminExport = lazy(() => import('@/features/admin/pages/AdminExport'))
+const AfishaPage = lazy(() => import('@/features/afisha/pages/AfishaPage'))
+const EventDetailPage = lazy(() => import('@/features/afisha/pages/EventDetailPage'))
+const AdminAfishaList = lazy(() => import('@/features/admin/pages/AdminAfishaList'))
 
 function Lazy({ children }: { children: React.ReactNode }) {
   return (
-    <Suspense fallback={<div className="flex items-center justify-center py-20"><div className="w-8 h-8 border-3 border-[var(--color-primary)] border-t-transparent rounded-full animate-spin" /></div>}>
+    <Suspense
+      fallback={
+        <div className="flex items-center justify-center py-24">
+          {/* Ромб вместо кружка-спиннера */}
+          <div
+            className="w-8 h-8 diamond animate-pulse-glow"
+            style={{ border: '1.5px solid var(--terra-line)', background: 'var(--terra-tint)' }}
+          />
+        </div>
+      }
+    >
       {children}
     </Suspense>
   )
@@ -45,6 +58,8 @@ export const routes: RouteObject[] = [
   { path: 'transport', element: <Lazy><TransportPage /></Lazy> },
   { path: 'transport/:id', element: <Lazy><TransportDetailPage /></Lazy> },
   { path: 'subscription', element: <Lazy><SubscriptionPage /></Lazy> },
+  { path: 'afisha', element: <Lazy><AfishaPage /></Lazy> },
+  { path: 'afisha/:id', element: <Lazy><EventDetailPage /></Lazy> },
   { path: 'onboarding', element: <Lazy><OnboardingPage /></Lazy> },
   { path: 'admin/login', element: <Lazy><AdminLogin /></Lazy> },
   {
@@ -65,6 +80,7 @@ export const routes: RouteObject[] = [
       { path: 'transport/new', element: <Lazy><AdminTransportForm /></Lazy> },
       { path: 'transport/:id', element: <Lazy><AdminTransportForm /></Lazy> },
       { path: 'export', element: <Lazy><AdminExport /></Lazy> },
+      { path: 'afisha', element: <Lazy><AdminAfishaList /></Lazy> },
     ],
   },
 ]

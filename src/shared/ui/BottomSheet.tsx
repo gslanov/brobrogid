@@ -99,10 +99,20 @@ export function BottomSheet({
         y.set(Math.max(0, Math.min(full, newH)))
       }}
       onDragEnd={handleDragEnd}
-      className="fixed bottom-0 left-0 right-0 z-30 bg-white rounded-t-2xl shadow-lg max-w-lg mx-auto overflow-hidden touch-none"
+      className="fixed bottom-0 left-0 right-0 z-30 rounded-t-[var(--radius-2xl)] max-w-lg mx-auto overflow-hidden touch-none"
+      // Стиль внутри style, а не в классах: значения берутся из дизайн-системы
     >
-      <div className="flex justify-center py-2 cursor-grab active:cursor-grabbing">
-        <div className="w-8 h-1 bg-gray-300 rounded-full" />
+      <div
+        className="absolute inset-0 -z-10"
+        style={{
+          background: 'linear-gradient(180deg, var(--surface-2), var(--surface-1))',
+          boxShadow: 'var(--shadow-4)',
+        }}
+      />
+      {/* Орнаментальный пояс по верхнему краю шторки */}
+      <div className="orn-belt" style={{ height: 3, opacity: 0.55 }} />
+      <div className="flex justify-center py-2.5 cursor-grab active:cursor-grabbing">
+        <div className="w-9 h-1 rounded-full" style={{ background: 'var(--surface-3)' }} />
       </div>
       <div className="overflow-y-auto" style={{ maxHeight: `calc(100% - 20px)` }}>
         {children}

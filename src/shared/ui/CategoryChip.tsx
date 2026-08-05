@@ -17,14 +17,17 @@ export function CategoryChip({ category, active = false, onClick, showIcon = tru
   return (
     <button
       onClick={onClick}
-      className="flex-shrink-0 flex items-center gap-1.5 px-3.5 h-9 rounded-full text-sm font-medium transition-all whitespace-nowrap border"
+      className="flex-shrink-0 flex items-center gap-2 px-3.5 h-9 rounded-full text-[12.5px] font-medium transition-all whitespace-nowrap border"
       style={{
-        background: active ? color : 'white',
-        color: active ? 'white' : color,
-        borderColor: active ? color : '#e2e8f0',
+        background: active ? color + '26' : 'var(--surface-1)',
+        color: active ? color : 'var(--text-2)',
+        borderColor: active ? color + '80' : 'var(--color-border)',
+        boxShadow: active ? `0 0 16px ${color}33` : 'none',
       }}
     >
-      {showIcon && <Icon size={16} />}
+      {showIcon
+        ? <Icon size={14} style={{ color }} />
+        : <i className="w-[6px] h-[6px] diamond" style={{ background: color }} />}
       {t(`categories.${category}`)}
     </button>
   )

@@ -8,6 +8,7 @@ import {
   Phone,
   Bus,
   Download,
+  Calendar,
 } from 'lucide-react'
 import { getDB } from '@/data/db'
 
@@ -31,6 +32,7 @@ const navItems: NavItem[] = [
   { labelKey: 'admin.sidebar.reviews', to: '/admin/reviews', icon: <MessageSquare size={18} />, countKey: 'reviews' },
   { labelKey: 'admin.sidebar.emergency', to: '/admin/emergency', icon: <Phone size={18} />, countKey: 'emergency' },
   { labelKey: 'admin.sidebar.transport', to: '/admin/transport', icon: <Bus size={18} />, countKey: 'transport' },
+  { labelKey: 'admin.sidebar.afisha', to: '/admin/afisha', icon: <Calendar size={18} /> },
 ]
 
 const bottomItems: NavItem[] = [

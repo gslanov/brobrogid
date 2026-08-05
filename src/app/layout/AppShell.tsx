@@ -1,5 +1,5 @@
-import { useLayoutEffect, useState, useCallback, type ReactNode } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useEffect, useState, useCallback, type ReactNode } from 'react'
+import { useLocation, useNavigationType } from 'react-router-dom'
 import { BottomTabs } from './BottomTabs'
 import { ToastContainer } from '@/shared/ui/Toast'
 import { OfflineBanner } from '@/shared/ui/OfflineBanner'
@@ -35,18 +35,59 @@ function ProximityTracker() {
 }
 
 export function AppShell({ children }: { children: ReactNode }) {
-  const { key } = useLocation()
+  const location = useLocation()
+  const navType = useNavigationType()
+  const urlKey = 'scroll:' + location.pathname + location.search
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const el = document.getElementById('scroll-root')
-    if (el) el.scrollTop = 0
-    window.scrollTo(0, 0)
-  }, [key])
+    if (!el) return
+
+    if (navType === 'POP') {
+      const saved = sessionStorage.getItem(urlKey)
+      if (saved) {
+        const pos = parseInt(saved, 10)
+        el.scrollTop = pos
+        window.scrollTo(0, pos)
+        requestAnimationFrame(() => {
+          el.scrollTop = pos
+          window.scrollTo(0, pos)
+        })
+      } else {
+        el.scrollTop = 0
+        window.scrollTo(0, 0)
+      }
+    } else {
+      el.scrollTop = 0
+      window.scrollTo(0, 0)
+    }
+
+    const save = () => {
+      const val = el.scrollTop || window.scrollY
+      if (val > 0) sessionStorage.setItem(urlKey, String(val))
+    }
+    el.addEventListener('scroll', save, { passive: true })
+    window.addEventListener('scroll', save, { passive: true })
+    return () => {
+      el.removeEventListener('scroll', save)
+      window.removeEventListener('scroll', save)
+    }
+  }, [location.key, navType, urlKey])
 
   return (
-    <div className="flex flex-col h-dvh max-w-lg mx-auto w-full bg-white relative overflow-hidden">
+    <div
+      className="flex flex-col h-dvh max-w-lg mx-auto w-full relative overflow-hidden"
+      style={{
+        /* «Мокрый камень»: холодная засветка сверху, тёплый подсвет снизу.
+           Раньше здесь лежали два серых пятна — они гасили глянец. */
+        background:
+          'radial-gradient(130% 55% at 50% -12%, rgba(255,255,255,0.075) 0%, transparent 52%),' +
+          'radial-gradient(100% 50% at 15% 105%, rgba(224,138,74,0.09) 0%, transparent 58%),' +
+          'var(--bg-deep)',
+      }}
+    >
       <OfflineBanner />
-      <main id="scroll-root" className="flex-1 pb-[calc(var(--bottom-nav-height)+var(--safe-area-bottom))] overflow-y-auto">
+      <main id="scroll-root" className="flex-1 pb-[calc(var(--bottom-nav-height)+var(--safe-area-bottom))] overflow-y-auto momentum">
         {children}
       </main>
       <ToastContainer />

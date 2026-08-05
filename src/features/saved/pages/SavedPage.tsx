@@ -14,16 +14,29 @@ export default function SavedPage() {
   const favPois = pois.filter((p) => favIds.includes(p.id))
 
   return (
-    <div className="min-h-dvh bg-[var(--color-bg)]">
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-sm border-b border-[var(--color-border)]">
+    <div className="min-h-dvh">
+      <header
+        className="sticky top-0 z-40"
+        style={{
+          background: 'linear-gradient(180deg, rgba(26,31,40,0.97), rgba(1,2,4,0.66))',
+          backdropFilter: 'blur(20px)',
+          WebkitBackdropFilter: 'blur(20px)',
+          boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.20), 0 8px 24px -12px #000',
+        }}
+      >
         <div className="flex items-center h-14 px-4">
-          <button onClick={() => navigate('/profile')} className="w-10 h-10 flex items-center justify-center -ml-2">
+          <button
+            onClick={() => navigate('/profile')}
+            className="w-10 h-10 flex items-center justify-center -ml-2"
+            style={{ color: 'var(--text)' }}
+          >
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
             </svg>
           </button>
-          <h1 className="text-base font-bold flex-1 text-center pr-10">{t('saved.title')}</h1>
+          <h1 className="text-[15.5px] font-bold flex-1 text-center pr-10">{t('saved.title')}</h1>
         </div>
+        <div className="orn-belt" style={{ height: 3, opacity: 0.5 }} />
       </header>
 
       <div className="px-4 py-4">
@@ -36,7 +49,7 @@ export default function SavedPage() {
           />
         ) : (
           <>
-            <p className="text-xs text-[var(--color-text-secondary)] mb-3">{t('saved.places', { count: favPois.length })}</p>
+            <p className="text-[11.5px] mb-3" style={{ color: 'var(--text-3)' }}>{t('saved.places', { count: favPois.length })}</p>
             <div className="space-y-3">
               {favPois.map((poi) => <POICard key={poi.id} poi={poi} variant="vertical" />)}
             </div>

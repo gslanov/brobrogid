@@ -26,21 +26,24 @@ export default function FoodPage() {
   const filtered = filter === 'all' ? foodPois : foodPois.filter((p) => p.cuisineType === filter)
 
   return (
-    <div className="min-h-dvh bg-[var(--color-bg)]">
+    <div className="min-h-dvh">
       <PageHeader title={t('food.title')} showBack />
-      <div className="flex gap-2 px-4 py-3 overflow-x-auto no-scrollbar">
+      <div className="flex gap-2 px-4 py-3.5 overflow-x-auto no-scrollbar">
         {CUISINE_KEYS.map((f) => (
           <button
             key={f.key}
             onClick={() => setFilter(f.key)}
-            className={`flex-shrink-0 flex items-center gap-1.5 px-3.5 py-2 rounded-full text-sm font-medium border transition-colors ${filter === f.key ? 'bg-[var(--color-primary)] text-white border-[var(--color-primary)]' : 'bg-white border-gray-200'}`}
+            className="flex-shrink-0 flex items-center gap-2 px-3.5 h-9 rounded-full text-[12.5px] font-medium border transition-all whitespace-nowrap"
+            style={filter === f.key
+              ? { background: 'var(--terra-tint)', color: 'var(--terra-hot)', borderColor: 'var(--terra-line)' }
+              : { background: 'var(--surface-1)', color: 'var(--text-2)', borderColor: 'var(--color-border)' }}
           >
-            <f.icon size={16} /> {t(f.labelKey)}
+            <f.icon size={14} /> {t(f.labelKey)}
           </button>
         ))}
       </div>
       <div className="px-4 pb-4 space-y-3">
-        <p className="text-xs text-[var(--color-text-secondary)]">{t('food.venues', { count: filtered.length })}</p>
+        <p className="text-[11.5px]" style={{ color: 'var(--text-3)' }}>{t('food.venues', { count: filtered.length })}</p>
         {filtered.map((poi) => <POICard key={poi.id} poi={poi} variant="vertical" />)}
       </div>
     </div>

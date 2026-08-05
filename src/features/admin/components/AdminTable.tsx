@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import Fuse from 'fuse.js'
 import { Pencil, Trash2, ChevronUp, ChevronDown, ChevronsUpDown } from 'lucide-react'
@@ -21,11 +21,21 @@ interface AdminTableProps<T> {
   searchPlaceholder?: string
   emptyMessage?: string
   getId?: (item: T) => string
+  /** Ключ для запоминания состояния таблицы (страница, сортировка) между переходами */
+  storageKey?: string
 }
 
 const PAGE_SIZE = 25
 
 type SortDir = 'asc' | 'desc' | null
+
+function readStorage(key: string | undefined): { page: number; query: string; sortKey: string | null; sortDir: SortDir } | null {
+  if (!key) return null
+  try {
+    const raw = sessionStorage.getItem(key)
+    return raw ? JSON.parse(raw) : null
+  } catch { return null }
+}
 
 export default function AdminTable<T extends { id: string }>({
   columns,
@@ -36,13 +46,20 @@ export default function AdminTable<T extends { id: string }>({
   searchPlaceholder,
   emptyMessage,
   getId = (item) => String((item as Record<string, unknown>).id ?? ''),
+  storageKey,
 }: AdminTableProps<T>) {
   const { t } = useTranslation()
-  const [query, setQuery] = useState('')
-  const [sortKey, setSortKey] = useState<string | null>(null)
-  const [sortDir, setSortDir] = useState<SortDir>(null)
-  const [page, setPage] = useState(1)
+  const stored = useMemo(() => readStorage(storageKey), [storageKey])
+  const [query, setQuery] = useState(stored?.query ?? '')
+  const [sortKey, setSortKey] = useState<string | null>(stored?.sortKey ?? null)
+  const [sortDir, setSortDir] = useState<SortDir>(stored?.sortDir ?? null)
+  const [page, setPage] = useState(stored?.page ?? 1)
   const [deleteTarget, setDeleteTarget] = useState<T | null>(null)
+
+  useEffect(() => {
+    if (!storageKey) return
+    sessionStorage.setItem(storageKey, JSON.stringify({ page, query, sortKey, sortDir }))
+  }, [storageKey, page, query, sortKey, sortDir])
 
   const resolvedSearchPlaceholder = searchPlaceholder ?? t('admin.common.search')
   const resolvedEmptyMessage = emptyMessage ?? t('admin.common.noItems')

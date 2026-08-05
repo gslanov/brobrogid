@@ -11,7 +11,8 @@ import { FilterSheet, type Filters } from '@/features/search/components/FilterSh
 import type { POI, POICategory } from '@/data/types'
 import { Search, X } from 'lucide-react'
 
-const ALL_CATEGORIES: POICategory[] = ['attractions', 'food', 'nature', 'culture', 'accommodation', 'shopping', 'activities', 'practical', 'springs']
+// «shopping» и «springs» удалены из проекта — оставлены только живые категории
+const ALL_CATEGORIES: POICategory[] = ['attractions', 'food', 'nature', 'culture', 'museums', 'accommodation', 'activities', 'tours', 'practical']
 const SORT_OPTIONS = ['relevance', 'rating', 'popularity'] as const
 type SortOption = typeof SORT_OPTIONS[number]
 
@@ -52,14 +53,18 @@ export default function SearchPage() {
   const [recentSearches, setRecentSearches] = useState(getRecentSearches)
   const pois = useDataStore((s) => s.pois)
 
-  // Scroll active chip into view on mount and on change
+  // Scroll active chip into view on mount and on change (only horizontal — never touch #scroll-root)
   useEffect(() => {
     requestAnimationFrame(() => {
       const container = document.getElementById('chip-scroll')
       if (!container) return
       const idx = activeCategory ? ALL_CATEGORIES.indexOf(activeCategory) + 1 : 0
       const chip = container.children[idx] as HTMLElement | undefined
-      chip?.scrollIntoView({ behavior: 'instant', inline: 'center', block: 'nearest' })
+      if (!chip) return
+      const chipLeft = chip.offsetLeft
+      const chipWidth = chip.offsetWidth
+      const containerWidth = container.offsetWidth
+      container.scrollLeft = chipLeft - (containerWidth - chipWidth) / 2
     })
   }, [activeCategory])
 
@@ -154,29 +159,43 @@ export default function SearchPage() {
         description="Поиск мест, ресторанов, туров и гидов во Владикавказе."
         url="/search"
       />
-      <div className="sticky top-0 z-40 bg-white border-b border-[var(--color-border)] px-4 pt-3 pb-2">
+      <div
+        className="sticky top-0 z-40 px-4 pt-3 pb-2"
+        style={{
+          background: 'linear-gradient(180deg, rgba(26,31,40,0.97), rgba(1,2,4,0.72))',
+          backdropFilter: 'blur(20px)',
+          WebkitBackdropFilter: 'blur(20px)',
+          boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.20), 0 8px 24px -12px #000',
+        }}
+      >
         <div className="flex items-center gap-2">
-          <button onClick={() => navigate(-1)} className="w-10 h-10 flex items-center justify-center flex-shrink-0">
+          <button
+            onClick={() => navigate(-1)}
+            className="w-10 h-10 flex items-center justify-center flex-shrink-0"
+            style={{ color: 'var(--text)' }}
+          >
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
             </svg>
           </button>
           <form
             onSubmit={(e) => { e.preventDefault(); handleSubmit(query) }}
-            className="flex-1 flex items-center gap-2 bg-gray-50 border border-[var(--color-border)] rounded-xl px-3 h-12"
+            className="flex-1 flex items-center gap-2.5 rounded-[var(--radius-md)] px-3.5 h-11"
+            style={{ background: 'var(--surface-2)', border: '1px solid var(--color-border)' }}
           >
-            <svg className="w-4 h-4 text-gray-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-            </svg>
+            <Search size={15} style={{ color: 'var(--terra-hot)' }} className="flex-shrink-0" />
             <input
               value={query}
               onChange={(e) => { setQuery(e.target.value); setShowRecent(!e.target.value); if (e.target.value !== query) setSubmitted(false) }}
               onFocus={() => { if (!query) setShowRecent(true) }}
               placeholder={t('search.placeholder')}
-              className="flex-1 bg-transparent outline-none text-sm"
+              className="flex-1 bg-transparent outline-none text-[13.5px]"
+              style={{ color: 'var(--text)' }}
             />
             {query && (
-              <button type="button" onClick={() => { setQuery(''); setShowRecent(true) }} className="text-gray-400"><X size={16} /></button>
+              <button type="button" onClick={() => { setQuery(''); setShowRecent(true) }} style={{ color: 'var(--text-3)' }}>
+                <X size={16} />
+              </button>
             )}
           </form>
         </div>
@@ -185,7 +204,10 @@ export default function SearchPage() {
           <button
             data-cat="all"
             onClick={() => { setActiveCategory(null); setSearchParams({}, { replace: true }) }}
-            className={`flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-medium border transition-colors ${!activeCategory ? 'bg-[var(--color-primary)] text-white border-[var(--color-primary)]' : 'bg-white border-gray-200'}`}
+            className="flex-shrink-0 px-3.5 h-9 rounded-full text-[12.5px] font-medium border transition-all"
+            style={!activeCategory
+              ? { background: 'var(--terra-tint)', color: 'var(--terra-hot)', borderColor: 'var(--terra-line)', boxShadow: '0 0 16px rgba(224,138,74,0.2)' }
+              : { background: 'var(--surface-1)', color: 'var(--text-2)', borderColor: 'var(--color-border)' }}
           >
             {t('search.all')}
           </button>
@@ -205,15 +227,21 @@ export default function SearchPage() {
           ))}
           <button
             onClick={() => setFilterSheetOpen(true)}
-            className={`flex-shrink-0 flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-medium border transition-colors ${activeFilterCount > 0 ? 'bg-[var(--color-primary)] text-white border-[var(--color-primary)]' : 'bg-white border-gray-200'}`}
+            className="flex-shrink-0 flex items-center gap-1.5 px-3.5 h-9 rounded-full text-[12.5px] font-medium border transition-all"
+            style={activeFilterCount > 0
+              ? { background: 'var(--terra-tint)', color: 'var(--terra-hot)', borderColor: 'var(--terra-line)' }
+              : { background: 'var(--surface-1)', color: 'var(--text-2)', borderColor: 'var(--color-border)' }}
           >
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 0 1-.659 1.591l-5.432 5.432a2.25 2.25 0 0 0-.659 1.591v2.927a2.25 2.25 0 0 1-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 0 0-.659-1.591L3.659 7.409A2.25 2.25 0 0 1 3 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0 1 12 3Z" />
             </svg>
             {t('search.filters')}
             {activeFilterCount > 0 && (
-              <span className="w-4 h-4 bg-white text-[var(--color-primary)] rounded-full text-[11px] font-bold flex items-center justify-center">
-                {activeFilterCount}
+              <span
+                className="w-[18px] h-[18px] diamond text-[10px] font-bold flex items-center justify-center"
+                style={{ background: 'var(--terra-hot)', color: 'var(--text-on-terra)' }}
+              >
+                <span>{activeFilterCount}</span>
               </span>
             )}
           </button>
@@ -223,18 +251,26 @@ export default function SearchPage() {
       <div className="px-4 py-3">
         {/* Step 4.1 — Recent searches overlay */}
         {showRecent && !query && recentSearches.length > 0 && (
-          <div className="mb-4">
-            <h3 className="text-sm font-semibold mb-2">{t('search.recent')}</h3>
+          <div className="mb-5">
+            <div className="flex items-center gap-2.5 mb-2.5">
+              <i className="w-[6px] h-[6px] diamond" style={{ background: 'var(--terra)' }} />
+              <h3 className="text-[13px] font-semibold">{t('search.recent')}</h3>
+              <span className="orn-tail" />
+            </div>
             <div className="space-y-1">
               {recentSearches.map((s) => (
-                <div key={s} className="flex items-center justify-between py-2">
-                  <button onClick={() => { setQuery(s); handleSubmit(s) }} className="flex items-center gap-2 text-sm">
-                    <svg className="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                <div key={s} className="flex items-center justify-between py-1.5">
+                  <button
+                    onClick={() => { setQuery(s); handleSubmit(s) }}
+                    className="flex items-center gap-2.5 text-[13px]"
+                    style={{ color: 'var(--text-2)' }}
+                  >
+                    <svg className="w-4 h-4" style={{ color: 'var(--text-3)' }} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                     </svg>
                     {s}
                   </button>
-                  <button onClick={() => handleRemoveRecent(s)} className="text-gray-400 p-1"><X size={14} /></button>
+                  <button onClick={() => handleRemoveRecent(s)} className="p-1" style={{ color: 'var(--text-3)' }}><X size={14} /></button>
                 </div>
               ))}
             </div>
@@ -250,10 +286,8 @@ export default function SearchPage() {
                 onClick={() => { navigate(`/poi/${poi.id}`, { state: { from: location.pathname + location.search } }) }}
                 className="flex items-center gap-3 w-full py-2.5 text-left"
               >
-                <svg className="w-4 h-4 text-gray-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                </svg>
-                <span className="text-sm truncate">{poi.name[i18n.language as 'ru' | 'en']}</span>
+                <Search size={15} style={{ color: 'var(--text-3)' }} className="flex-shrink-0" />
+                <span className="text-[13.5px] truncate">{poi.name[i18n.language as 'ru' | 'en']}</span>
               </button>
             ))}
           </div>
@@ -262,7 +296,7 @@ export default function SearchPage() {
         {/* Step 4.4 — Sort chips */}
         {submitted && (
           <div className="flex items-center gap-2 mb-3">
-            <p className="text-xs text-[var(--color-text-secondary)]">
+            <p className="text-[11.5px]" style={{ color: 'var(--text-3)' }}>
               {t('search.results', { count: results.length })}
             </p>
             <div className="flex gap-1.5 ml-auto">
@@ -270,7 +304,10 @@ export default function SearchPage() {
                 <button
                   key={s}
                   onClick={() => setSort(s)}
-                  className={`px-2 py-1 rounded-md text-[11px] font-medium transition-colors ${sort === s ? 'bg-[var(--color-primary)] text-white' : 'bg-gray-100'}`}
+                  className="px-2.5 py-1.5 rounded-[8px] text-[11px] font-medium transition-all"
+                  style={sort === s
+                    ? { background: 'var(--terra-tint)', color: 'var(--terra-hot)', border: '1px solid var(--terra-line)' }
+                    : { background: 'var(--surface-1)', color: 'var(--text-3)', border: '1px solid var(--color-border)' }}
                 >
                   {t(`search.sort_${s}`, s)}
                 </button>

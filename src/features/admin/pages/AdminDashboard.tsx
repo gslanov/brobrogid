@@ -10,6 +10,7 @@ import {
   RefreshCw,
   ArrowRight,
   Database,
+  Save,
 } from 'lucide-react'
 import { getDB } from '@/data/db'
 
@@ -74,6 +75,8 @@ export default function AdminDashboard() {
   })
   const [loading, setLoading] = useState(true)
   const [refreshing, setRefreshing] = useState(false)
+  const [syncing, setSyncing] = useState(false)
+  const [syncMsg, setSyncMsg] = useState('')
 
   async function loadCounts() {
     try {
@@ -124,6 +127,26 @@ export default function AdminDashboard() {
   function handleRefresh() {
     setRefreshing(true)
     loadCounts()
+  }
+
+  async function handleSyncToFile() {
+    setSyncing(true)
+    setSyncMsg('')
+    try {
+      const db = await getDB()
+      const pois = await db.getAll('pois')
+      const res = await fetch('/api/sync-pois', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(pois),
+      })
+      const json = await res.json()
+      setSyncMsg(`✓ Сохранено ${json.count} точек`)
+    } catch {
+      setSyncMsg('✗ Ошибка сохранения')
+    } finally {
+      setSyncing(false)
+    }
   }
 
   const total = Object.values(counts).reduce((acc, n) => acc + n, 0)
@@ -189,7 +212,16 @@ export default function AdminDashboard() {
         <h3 className="text-sm font-semibold text-gray-700 uppercase tracking-wide mb-4">
           {t('admin.dashboard.quickActions')}
         </h3>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 flex-wrap">
+          <button
+            onClick={handleSyncToFile}
+            disabled={syncing}
+            className="inline-flex items-center gap-2 px-4 py-2.5 bg-green-600 hover:bg-green-700 text-white text-sm font-medium rounded-lg transition-colors disabled:opacity-50"
+          >
+            <Save size={16} className={syncing ? 'animate-pulse' : ''} />
+            {syncing ? 'Сохранение...' : 'Сохранить в файл'}
+          </button>
+          {syncMsg && <span className="text-sm text-gray-600">{syncMsg}</span>}
           <button
             onClick={handleExport}
             className="inline-flex items-center gap-2 px-4 py-2.5 bg-[#E85D26] hover:bg-[#d4531f] text-white text-sm font-medium rounded-lg transition-colors"

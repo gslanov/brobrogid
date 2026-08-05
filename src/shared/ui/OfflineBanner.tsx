@@ -24,9 +24,18 @@ export function OfflineBanner() {
   if (online || dismissed) return null
 
   return (
-    <div className="bg-amber-100 text-amber-800 px-4 py-2 flex items-center justify-between text-sm">
-      <span className="flex items-center gap-1.5"><AlertTriangle size={16} /> {t('offline.banner', "You're offline. Some features may be limited.")}</span>
-      <button onClick={() => setDismissed(true)} className="text-amber-600 font-bold ml-2"><X size={16} /></button>
+    <div
+      className="px-4 py-2 flex items-center justify-between text-[12.5px]"
+      style={{
+        background: 'rgba(224,160,58,0.12)',
+        borderBottom: '1px solid rgba(224,160,58,0.28)',
+        color: 'var(--warning)',
+      }}
+    >
+      <span className="flex items-center gap-1.5">
+        <AlertTriangle size={15} /> {t('offline.banner', "You're offline. Some features may be limited.")}
+      </span>
+      <button onClick={() => setDismissed(true)} className="font-bold ml-2 opacity-80"><X size={15} /></button>
     </div>
   )
 }

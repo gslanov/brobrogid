@@ -1,21 +1,68 @@
 @import "tailwindcss";
 
-:root {
-  /* Colors */
-  --color-primary: #E85D26;
-  --color-primary-light: #FEF0E8;
-  --color-text: #1B1F23;
-  --color-text-secondary: #64748B;
-  --color-bg: #F8FAFC;
-  --color-surface: #FFFFFF;
-  --color-card: #FFFFFF; /* alias for --color-surface */
-  --color-border: #E2E8F0;
-  --color-success: #16A34A;
-  --color-warning: #F59E0B;
-  --color-danger: #DC2626;
-  --color-accent: #E85D26;
+/* ═══════════════════════════════════════════════════════════════
+   BROBROGID — дизайн-система «Тёмное кино с осетинским почерком»
+   База: тёмный кинематографичный фон, фото во всю ширину, стекло.
+   Почерк: терракот + горная зелень, ромб как базовая форма,
+   орнаментальная штриховка вместо обычных линий.
+   ═══════════════════════════════════════════════════════════════ */
 
-  /* Spacing (8pt grid) */
+:root {
+  /* ── Фон и поверхности ───────────────────────────────────── */
+  /* «Мокрый камень»: чёрный уходит почти в ноль, поверхности светлеют —
+     за счёт этого разрыва и появляется ощущение лака. */
+  --bg-deep:      #010204;   /* самый нижний слой, за всем */
+  --bg:           #05070B;   /* базовый фон экрана */
+  --surface-1:    #141A24;   /* карточка, панель */
+  --surface-2:    #1D2430;   /* приподнятая панель, шторка */
+  --surface-3:    #2B3543;   /* нажатое состояние, поле ввода */
+
+  /* Стекло — панели поверх фотографий */
+  --glass:        rgba(255, 255, 255, 0.055);
+  --glass-strong: rgba(255, 255, 255, 0.09);
+  --glass-border: rgba(255, 255, 255, 0.10);
+  --glass-blur:   16px;
+
+  /* ── Акценты: терракот и горная зелень ───────────────────── */
+  --terra:        #C9743F;   /* основной терракот */
+  --terra-hot:    #E08A4A;   /* яркий — кнопки, активное */
+  --terra-deep:   #8F4E28;   /* тёмный — фоны, обводки */
+  --terra-tint:   rgba(224, 138, 74, 0.14);
+  --terra-line:   rgba(201, 116, 63, 0.45);
+  --terra-glow:   rgba(224, 138, 74, 0.55);
+
+  --clay:         #A8402F;   /* глина — второй орнаментальный */
+  --moss:         #4A7A5E;   /* горная зелень */
+  --moss-light:   #6FA184;
+  --moss-tint:    rgba(74, 122, 94, 0.16);
+  --sand:         #E8D5B7;   /* песок — тёплый светлый */
+
+  /* ── Текст ───────────────────────────────────────────────── */
+  --text:         #ECEEF2;
+  --text-2:       #9AA3AF;
+  --text-3:       #6B7480;
+  --text-on-terra:#140F0A;
+
+  /* ── Статусы ─────────────────────────────────────────────── */
+  --success:      #5AA87A;
+  --warning:      #E0A03A;
+  --danger:       #D9534F;
+
+  /* ── Совместимость со старым кодом ───────────────────────── */
+  --color-primary:        var(--terra-hot);
+  --color-primary-light:  var(--terra-tint);
+  --color-accent:         var(--terra-hot);
+  --color-text:           var(--text);
+  --color-text-secondary: var(--text-2);
+  --color-bg:             var(--bg);
+  --color-surface:        var(--surface-1);
+  --color-card:           var(--surface-1);
+  --color-border:         rgba(255, 255, 255, 0.08);
+  --color-success:        var(--success);
+  --color-warning:        var(--warning);
+  --color-danger:         var(--danger);
+
+  /* ── Отступы (сетка 8pt) ─────────────────────────────────── */
   --space-1: 4px;
   --space-2: 8px;
   --space-3: 12px;
@@ -24,37 +71,91 @@
   --space-8: 32px;
   --space-12: 48px;
 
-  /* Border radius */
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 16px;
-  --radius-xl: 24px;
+  /* ── Скругления ──────────────────────────────────────────── */
+  --radius-sm:   10px;
+  --radius-md:   14px;
+  --radius-lg:   18px;
+  --radius-xl:   24px;
+  --radius-2xl:  30px;
   --radius-full: 9999px;
 
-  /* Elevation */
-  --shadow-1: 0 1px 2px rgba(0,0,0,0.05);
-  --shadow-2: 0 2px 8px rgba(0,0,0,0.08);
-  --shadow-3: 0 4px 16px rgba(0,0,0,0.12);
-  --shadow-4: 0 8px 32px rgba(0,0,0,0.16);
+  /* ── Тени: тёплые, а не серые ────────────────────────────── */
+  /* Светлая кромка сверху + глухая снизу — то, что читается как лак.
+     Вторая внешняя тень у --shadow-2 светлая: это «отражение на полу». */
+  --shadow-1: 0 2px 6px rgba(0, 0, 0, 0.55),
+              inset 0 1px 0 rgba(255, 255, 255, 0.16),
+              inset 0 -1px 0 rgba(0, 0, 0, 0.6);
+  --shadow-2: 0 10px 24px -8px rgba(0, 0, 0, 0.75),
+              0 8px 18px -14px rgba(255, 255, 255, 0.16),
+              inset 0 1px 0 rgba(255, 255, 255, 0.20),
+              inset 0 -1px 0 rgba(0, 0, 0, 0.7);
+  --shadow-3: 0 16px 36px -10px rgba(0, 0, 0, 0.85),
+              inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  --shadow-4: 0 28px 66px -18px rgba(0, 0, 0, 0.92),
+              inset 0 1px 0 rgba(255, 255, 255, 0.24);
+  --shadow-terra: 0 12px 28px -6px var(--terra-glow),
+                  inset 0 1.5px 0 rgba(255, 255, 255, 0.55),
+                  inset 0 -1.5px 0 rgba(0, 0, 0, 0.35);
+  --shadow-inset-top: inset 0 1px 0 rgba(255, 255, 255, 0.20);
 
-  /* Layout */
-  --bottom-nav-height: 56px;
+  /* ── Раскладка ───────────────────────────────────────────── */
+  --bottom-nav-height: 62px;
   --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-top: env(safe-area-inset-top, 0px);
 
-  /* Animation */
+  /* ── Движение ────────────────────────────────────────────── */
   --ease-standard: cubic-bezier(0.2, 0, 0, 1);
-  --duration-micro: 150ms;
-  --duration-small: 200ms;
-  --duration-standard: 300ms;
-  --duration-large: 400ms;
+  --ease-out-soft: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring:   cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-micro:    140ms;
+  --duration-small:    220ms;
+  --duration-standard: 320ms;
+  --duration-large:    480ms;
+
+  /* ── Глянец: две ручки на весь проект ────────────────────── */
+  --sheen-op:  0.50;   /* сила бегущего отблеска */
+  --sheen-dur: 3.2s;   /* как часто пробегает */
+
+  /* ── Орнамент: повторяющиеся узоры ───────────────────────── */
+  /* Основная штриховка — терракот + зелень, «читается» как осетинский пояс */
+  --orn-belt: repeating-linear-gradient(
+    90deg,
+    var(--terra) 0 9px,
+    transparent 9px 13px,
+    var(--moss) 13px 22px,
+    transparent 22px 26px
+  );
+  /* Тонкий пунктир — разделители, линии маршрута */
+  --orn-dash: repeating-linear-gradient(
+    90deg,
+    var(--terra) 0 6px,
+    transparent 6px 11px
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   База
+   ═══════════════════════════════════════════════════════════════ */
+
+html {
+  background: var(--bg-deep);
+  color-scheme: dark;
 }
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background: var(--color-bg);
-  color: var(--color-text);
+  /* Мягкая засветка сверху и тёплый подсвет снизу — «камень под лампой».
+     Без неё чистый чёрный выглядит плоским, а не глянцевым. */
+  background:
+    radial-gradient(130% 55% at 50% -12%, rgba(255, 255, 255, 0.075) 0%, transparent 52%),
+    radial-gradient(100% 50% at 15% 105%, rgba(224, 138, 74, 0.09) 0%, transparent 58%),
+    var(--bg-deep);
+  background-attachment: fixed;
+  color: var(--text);
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   overscroll-behavior-y: contain;
+  letter-spacing: -0.01em;
 }
 
 #root {
@@ -63,119 +164,369 @@ body {
   flex-direction: column;
 }
 
-/* Focus-visible (a11y) */
+/* Заголовки чуть плотнее — «дорогая» типографика */
+h1, h2, h3 { letter-spacing: -0.03em; }
+h4, h5, h6 { letter-spacing: -0.02em; }
+
+/* Выделение текста в фирменном цвете */
+::selection {
+  background: var(--terra-tint);
+  color: var(--text);
+}
+
+/* Доступность: видимый фокус с клавиатуры */
 *:focus-visible {
-  outline: 2px solid var(--color-primary);
+  outline: 2px solid var(--terra-hot);
   outline-offset: 2px;
   border-radius: var(--radius-sm);
 }
-*:focus:not(:focus-visible) {
-  outline: none;
-}
+*:focus:not(:focus-visible) { outline: none; }
+
 [id] {
   scroll-margin-top: 72px;
   scroll-margin-bottom: calc(var(--bottom-nav-height) + var(--safe-area-bottom) + 16px);
 }
 
-/* Skeleton shimmer */
+/* ═══════════════════════════════════════════════════════════════
+   Орнаментальные детали — фирменный почерк
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Полоса-пояс: под шапкой, между блоками */
+.orn-belt {
+  height: 4px;
+  background: var(--orn-belt);
+  opacity: 0.85;
+}
+.orn-belt-thick { height: 7px; background: var(--orn-belt); opacity: 0.9; }
+
+/* Разделитель-пунктир, растворяющийся по краям */
+.orn-rule {
+  position: relative;
+  height: 5px;
+  background: var(--orn-dash);
+  opacity: 0.5;
+}
+.orn-rule::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, var(--bg), transparent 14%, transparent 86%, var(--bg));
+}
+
+/* Хвост у заголовка раздела — уходит вправо и тает */
+.orn-tail {
+  flex: 1;
+  height: 5px;
+  background: var(--orn-dash);
+  opacity: 0.42;
+  -webkit-mask-image: linear-gradient(90deg, #000, transparent);
+  mask-image: linear-gradient(90deg, #000, transparent);
+}
+
+/* Ромб — базовая форма вместо круга */
+.diamond {
+  transform: rotate(45deg);
+  border-radius: 2px;
+}
+.diamond > * { transform: rotate(-45deg); }
+
+
+/* Стеклянная панель */
+.glass {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+}
+.glass-strong {
+  background: var(--glass-strong);
+  border: 1px solid var(--glass-border);
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+}
+/* Тёплое стекло — там, где акцент */
+.glass-warm {
+  background: linear-gradient(120deg, var(--terra-tint), var(--glass));
+  border: 1px solid var(--terra-line);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+}
+
+/* Ромбовидные «уголки» у панели — метка фирменного стиля */
+.orn-corners { position: relative; }
+.orn-corners::before,
+.orn-corners::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  width: 9px;
+  height: 9px;
+  border: 1.5px solid var(--terra);
+  transform: rotate(45deg);
+  background: var(--bg);
+}
+.orn-corners::before { left: 18px; }
+.orn-corners::after  { right: 18px; }
+
+/* Свечение акцента */
+.glow-terra { box-shadow: 0 0 22px var(--terra-glow); }
+
+/* ═══════════════════════════════════════════════════════════════
+   Глянец
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Бегущий отблеск. Вешается на кнопку — больше никуда:
+   на текстовых поверхностях он режет буквы.
+   Работает поверх любого фона, в том числе заданного инлайном. */
+.sheen {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+.sheen::after {
+  content: '';
+  position: absolute;
+  top: -40%;
+  bottom: -40%;
+  left: -60%;
+  width: 46%;
+  z-index: -1;            /* под текстом кнопки, над её фоном */
+  pointer-events: none;
+  background: linear-gradient(
+    100deg,
+    transparent,
+    rgba(255, 255, 255, var(--sheen-op)),
+    transparent
+  );
+  transform: skewX(-14deg);
+  animation: sheen var(--sheen-dur) var(--ease-standard) infinite;
+}
+/* Пробег занимает большую часть цикла — иначе блик почти всё время
+   стоит за краем кнопки, и кажется, что его нет вовсе. */
+@keyframes sheen {
+  0%        { left: -60%; }
+  76%, 100% { left: 124%; }
+}
+
+/* Косая застывшая засветка — «лак поймал свет».
+   Лежит ПОВЕРХ содержимого, иначе на карточке с фото её просто не видно:
+   снимок закрывает собой и фон, и внутренние кромки. Сверху добавлена
+   тонкая световая грань — та самая «мокрая» линия по краю. */
+.lacquer {
+  position: relative;
+  isolation: isolate;
+}
+.lacquer::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  border-radius: inherit;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.26) 0 1px, transparent 1px),
+    linear-gradient(
+      112deg,
+      transparent 16%,
+      rgba(255, 255, 255, 0.115) 37%,
+      rgba(255, 255, 255, 0.025) 49%,
+      transparent 64%
+    );
+}
+
+/* Если в телефоне включено «уменьшить движение» — блик замирает */
+@media (prefers-reduced-motion: reduce) {
+  .sheen::after {
+    animation: none;
+    left: 40%;
+    opacity: 0.3;
+  }
+}
+
+/* Градиент-затемнение под текст на фото */
+.scrim {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.34) 0%,
+    transparent 26%,
+    rgba(1, 2, 4, 0.58) 66%,
+    rgba(1, 2, 4, 0.97) 100%
+  );
+}
+.scrim-soft {
+  background: linear-gradient(180deg, transparent 38%, rgba(1, 2, 4, 0.9) 100%);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   Движение
+   ═══════════════════════════════════════════════════════════════ */
+
 @keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
 }
 .skeleton-shimmer {
-  background: linear-gradient(90deg, #e5e7eb 25%, #f3f4f6 50%, #e5e7eb 75%);
+  background: linear-gradient(90deg, #14171E 25%, #1F242E 50%, #14171E 75%);
   background-size: 200% 100%;
-  animation: shimmer 1.5s ease-in-out infinite;
+  animation: shimmer 1.6s ease-in-out infinite;
 }
 
-/* Slide-up animation for bottom sheets/modals */
 @keyframes slide-up {
   from { transform: translateY(100%); }
-  to { transform: translateY(0); }
+  to   { transform: translateY(0); }
 }
 .animate-slide-up {
-  animation: slide-up var(--duration-standard) var(--ease-standard);
+  animation: slide-up var(--duration-standard) var(--ease-out-soft);
 }
 
-/* Hide scrollbar but keep scrollable */
+/* Появление снизу вверх — карточки, блоки */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-up {
+  animation: fade-up var(--duration-large) var(--ease-out-soft) both;
+}
+
+/* Лёгкое приближение фото — «дыхание» героя */
+@keyframes ken-burns {
+  from { transform: scale(1)    translate3d(0, 0, 0); }
+  to   { transform: scale(1.08) translate3d(0, -1%, 0); }
+}
+.animate-ken-burns {
+  animation: ken-burns 18s var(--ease-standard) infinite alternate;
+}
+
+/* Пульсация свечения — активная вкладка, живая точка.
+   Трогаем только прозрачность и тень: transform здесь занят поворотом ромба. */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.62; filter: brightness(0.95); }
+  50%      { opacity: 1;    filter: brightness(1.15); }
+}
+.animate-pulse-glow {
+  animation: pulse-glow 3.6s var(--ease-standard) infinite;
+}
+
+/* Орнамент «прорисовывается» слева направо */
+@keyframes draw-belt {
+  from { clip-path: inset(0 100% 0 0); }
+  to   { clip-path: inset(0 0 0 0); }
+}
+.animate-draw-belt {
+  animation: draw-belt 900ms var(--ease-out-soft) both;
+}
+
+/* Поворот ромба при нажатии */
+@keyframes diamond-spin {
+  from { transform: rotate(45deg) scale(1); }
+  50%  { transform: rotate(135deg) scale(1.12); }
+  to   { transform: rotate(225deg) scale(1); }
+}
+
+/* Лесенка появления — задержки для списков */
+.stagger > *:nth-child(1) { animation-delay: 0ms; }
+.stagger > *:nth-child(2) { animation-delay: 55ms; }
+.stagger > *:nth-child(3) { animation-delay: 110ms; }
+.stagger > *:nth-child(4) { animation-delay: 165ms; }
+.stagger > *:nth-child(5) { animation-delay: 220ms; }
+.stagger > *:nth-child(6) { animation-delay: 275ms; }
+.stagger > *:nth-child(7) { animation-delay: 330ms; }
+.stagger > *:nth-child(8) { animation-delay: 385ms; }
+
+/* ═══════════════════════════════════════════════════════════════
+   Прокрутка
+   ═══════════════════════════════════════════════════════════════ */
+
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
-/* Scroll snap for card carousels */
-.scroll-snap-container {
-  scroll-snap-type: x mandatory;
-}
-.scroll-snap-container > * {
-  scroll-snap-align: start;
-}
+.scroll-snap-container { scroll-snap-type: x mandatory; }
+.scroll-snap-container > * { scroll-snap-align: start; }
 
-/* sr-only utility */
+/* Инерция на iOS */
+.momentum { -webkit-overflow-scrolling: touch; }
+
+#scroll-root { overflow-anchor: none; }
+
+/* ═══════════════════════════════════════════════════════════════
+   Утилиты
+   ═══════════════════════════════════════════════════════════════ */
+
 .sr-only {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
 }
 
-/* Bottom sheet backdrop */
 .sheet-backdrop {
-  background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(4px);
+  background: rgba(3, 4, 6, 0.62);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
 }
 
-/* Map markers */
+/* Маркеры на карте */
 .marker-cluster {
-  background: var(--color-primary);
-  color: white;
-  border-radius: 50%;
+  background: var(--terra-hot);
+  color: var(--text-on-terra);
+  border-radius: 5px;
+  transform: rotate(45deg);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  font-size: 14px;
-  border: 3px solid white;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  font-weight: 800;
+  font-size: 13px;
+  border: 2px solid rgba(6, 7, 10, 0.9);
+  box-shadow: 0 0 16px var(--terra-glow);
 }
+.marker-cluster > * { transform: rotate(-45deg); }
 
-/* Category colors */
-.cat-attractions { --cat-color: #ef4444; }
-.cat-food { --cat-color: #f59e0b; }
-.cat-accommodation { --cat-color: #8b5cf6; }
-.cat-nature { --cat-color: #10b981; }
-.cat-culture { --cat-color: #3b82f6; }
-.cat-shopping { --cat-color: #ec4899; }
-.cat-transport { --cat-color: #64748b; }
-.cat-activities { --cat-color: #f97316; }
-.cat-practical { --cat-color: #14b8a6; }
+/* Всплывающие подсказки на карте — под тёмную тему */
+.maplibregl-popup-content {
+  background: var(--surface-2);
+  color: var(--text);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-3);
+  padding: 10px 12px;
+}
+.maplibregl-popup-tip { display: none; }
+.maplibregl-ctrl-attrib { display: none; }
 
-/* PWA safe areas */
+/* Цвета категорий — приглушены под тёмный фон */
+.cat-attractions   { --cat-color: #E0704A; }
+.cat-food          { --cat-color: #E0A03A; }
+.cat-accommodation { --cat-color: #A98BD8; }
+.cat-nature        { --cat-color: #5AA87A; }
+.cat-culture       { --cat-color: #5B93D6; }
+.cat-museums       { --cat-color: #8C8FE0; }
+.cat-shopping      { --cat-color: #D6699B; }
+.cat-transport     { --cat-color: #8A94A3; }
+.cat-activities    { --cat-color: #E08A4A; }
+.cat-practical     { --cat-color: #4FB0A5; }
+.cat-tours         { --cat-color: #4FA3C9; }
+
 @supports (padding: env(safe-area-inset-bottom)) {
   .safe-bottom {
     padding-bottom: calc(var(--bottom-nav-height) + var(--safe-area-bottom));
   }
 }
 
-/* Tap feedback — exclude nav tabs via data attribute */
+/* Отклик на нажатие */
 button:active:not([data-nav-tab]), [role="button"]:active {
-  transform: scale(0.97);
-  opacity: 0.9;
+  transform: scale(0.975);
+  opacity: 0.92;
   transition: transform var(--duration-micro) ease-out;
 }
 
-/* Disable scroll anchoring so navigation always starts at top */
-#scroll-root {
-  overflow-anchor: none;
-}
-
-/* Reduced motion */
+/* Уважение к системной настройке «меньше движения» */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
   }
 }
