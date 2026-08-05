@@ -139,7 +139,14 @@
     "difficultyEasy": "Easy",
     "difficultyModerate": "Moderate",
     "difficultyHard": "Hard",
-    "description": "Description"
+    "description": "Description",
+    "routesCount_one": "{{count}} route",
+    "routesCount_other": "{{count}} routes",
+    "stops_one": "{{count}} stop",
+    "stops_other": "{{count}} stops",
+    "meetingPoint": "Meeting point",
+    "empty": "No routes yet",
+    "firmsLink": "Who runs them — local tour operators"
   },
   "guides": {
     "title": "Guides",

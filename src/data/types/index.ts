@@ -73,7 +73,9 @@ export interface Tour {
   id: string
   name: LocalizedText
   description: LocalizedText
-  guideId: string
+  /** Гидов как отдельной сущности в приложении нет — маршруты возят
+   *  действующие турфирмы, они лежат среди мест (категория `tours`). */
+  guideId?: string
   price: number
   duration: string
   type: TourType

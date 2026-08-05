@@ -18,7 +18,7 @@ export async function getDB() {
 
   // Номер намеренно выше всех прошлых: браузер не умеет откатывать базу назад,
   // и на машинах со старой версией приложение падало при запуске.
-  dbInstance = await openDB<BrobrogidDB>('brobrogid', 100, {
+  dbInstance = await openDB<BrobrogidDB>('brobrogid', 101, {
     upgrade(db) {
       // Всегда сносим старые хранилища и пересобираем заново — данные приезжают
       // из JSON-файлов при следующем запуске, терять нечего.

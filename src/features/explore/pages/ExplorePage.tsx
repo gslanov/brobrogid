@@ -258,7 +258,9 @@ function CategoriesGrid() {
       label: t(`categories.${cat}`),
       color: CATEGORY_COLORS[cat],
       Icon: CATEGORY_ICONS[cat],
-      to: `/search?category=${cat}`,
+      // «Туры» ведут на маршруты, а не на список турфирм: человек ищет,
+      // куда съездить. Сами фирмы доступны ссылкой внизу экрана маршрутов.
+      to: cat === 'tours' ? '/tours' : `/search?category=${cat}`,
     })),
     {
       key: 'transport',

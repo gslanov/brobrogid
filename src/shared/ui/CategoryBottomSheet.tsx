@@ -21,7 +21,8 @@ export function CategoryBottomSheet({ isOpen, onClose }: CategoryBottomSheetProp
 
   const handleSelect = (cat: POICategory) => {
     onClose()
-    navigate(`/search?category=${cat}`)
+    // «Туры» — это маршруты (куда съездить), а не список турфирм
+    navigate(cat === 'tours' ? '/tours' : `/search?category=${cat}`)
   }
 
   return (

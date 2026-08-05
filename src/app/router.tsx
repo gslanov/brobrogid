@@ -24,6 +24,8 @@ const AdminEmergencyForm = lazy(() => import('@/features/admin/pages/AdminEmerge
 const AdminTransportList = lazy(() => import('@/features/admin/pages/AdminTransportList'))
 const AdminTransportForm = lazy(() => import('@/features/admin/pages/AdminTransportForm'))
 const AdminExport = lazy(() => import('@/features/admin/pages/AdminExport'))
+const ToursPage = lazy(() => import('@/features/tours/pages/ToursPage'))
+const TourDetailPage = lazy(() => import('@/features/tours/pages/TourDetailPage'))
 const AfishaPage = lazy(() => import('@/features/afisha/pages/AfishaPage'))
 const EventDetailPage = lazy(() => import('@/features/afisha/pages/EventDetailPage'))
 const AdminAfishaList = lazy(() => import('@/features/admin/pages/AdminAfishaList'))
@@ -58,6 +60,8 @@ export const routes: RouteObject[] = [
   { path: 'transport', element: <Lazy><TransportPage /></Lazy> },
   { path: 'transport/:id', element: <Lazy><TransportDetailPage /></Lazy> },
   { path: 'subscription', element: <Lazy><SubscriptionPage /></Lazy> },
+  { path: 'tours', element: <Lazy><ToursPage /></Lazy> },
+  { path: 'tours/:id', element: <Lazy><TourDetailPage /></Lazy> },
   { path: 'afisha', element: <Lazy><AfishaPage /></Lazy> },
   { path: 'afisha/:id', element: <Lazy><EventDetailPage /></Lazy> },
   { path: 'onboarding', element: <Lazy><OnboardingPage /></Lazy> },

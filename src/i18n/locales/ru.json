@@ -152,7 +152,16 @@
     "difficultyEasy": "Легко",
     "difficultyModerate": "Средне",
     "difficultyHard": "Сложно",
-    "description": "Описание"
+    "description": "Описание",
+    "routesCount_one": "{{count}} маршрут",
+    "routesCount_few": "{{count}} маршрута",
+    "routesCount_many": "{{count}} маршрутов",
+    "stops_one": "{{count}} точка",
+    "stops_few": "{{count}} точки",
+    "stops_many": "{{count}} точек",
+    "meetingPoint": "Точка сбора",
+    "empty": "Маршрутов пока нет",
+    "firmsLink": "Кто возит — турфирмы Осетии"
   },
   "guides": {
     "title": "Гиды",
