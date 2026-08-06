@@ -87,3 +87,15 @@
 - Commit: `e290fa8` "chore(seo): bump sitemap lastmod dates to 2026-04-29"
 - Status: ok
 - For next session: local master = e290fa8, 1 ahead of origin/master (1818c44) — NOT pushed (no order). Branches origin/nikita-pwa and origin/app-native pending manual feature review — do not touch without instructions. .serena/ untracked, ignore.
+
+## 2026-08-06 (session — portal+app merge: responsive images, DB migration artifacts)
+- Action: 5 logical commits of accumulated parallel-agent work. Added .serena/ to gitignore.
+- Commits:
+  - `341cedf` "chore: add .serena/ to gitignore"
+  - `320398d` "feat(images): add responsive srcset pipeline — imageVariants lib, generator script, component wiring"
+  - `4309b34` "feat(images): add 400/800/1600 webp variants, guide photos, and prod-server originals" (3387 files)
+  - `a103722` "feat(db): add supabase migration artifacts — merge SQL, generator, verify"
+  - `b9f3d03` "feat(content): sync pois.json from production DB — honest review counts and ratings"
+- Note: pois.json was rewritten by a parallel deploy agent mid-session (20:20:33); verified valid JSON and stable before committing.
+- Status: ok
+- For next session: master = b9f3d03 + this log commit, 7+ ahead of origin/master (includes older e290fa8/d5a4db6 sitemap+log commits) — NOT pushed, no order. Repo now ~1GB due to image assets (user approved). origin/nikita-pwa and origin/app-native still pending manual review.
