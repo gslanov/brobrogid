@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react'
 import { cn } from '@/shared/lib/utils'
+import { imageSrcSet } from '@/shared/lib/imageVariants'
 import { Skeleton } from './Skeleton'
 
 interface ImageWithFallbackProps {
@@ -9,6 +10,8 @@ interface ImageWithFallbackProps {
   aspectRatio?: string
   className?: string
   imgClassName?: string
+  /** srcset sizes hint; used only when responsive variants exist for src */
+  sizes?: string
 }
 
 export function ImageWithFallback({
@@ -18,6 +21,7 @@ export function ImageWithFallback({
   aspectRatio,
   className,
   imgClassName,
+  sizes = '100vw',
 }: ImageWithFallbackProps) {
   const [state, setState] = useState<'loading' | 'loaded' | 'error'>('loading')
 
@@ -46,14 +50,17 @@ export function ImageWithFallback({
         </div>
       ) : (
         (() => {
+          const variantSet = imageSrcSet(src)
           const webpSrc = src?.replace(/\.(jpg|jpeg|png)$/i, '.webp')
           return (
             <picture>
-              {webpSrc && webpSrc !== src && (
+              {webpSrc && webpSrc !== src && !variantSet && (
                 <source srcSet={webpSrc} type="image/webp" />
               )}
               <img
                 src={src}
+                srcSet={variantSet}
+                sizes={variantSet ? sizes : undefined}
                 alt={alt}
                 onLoad={onLoad}
                 onError={onError}

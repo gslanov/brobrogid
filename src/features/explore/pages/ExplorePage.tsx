@@ -6,6 +6,7 @@ import { useDataStore } from '@/data/stores/data-store'
 import { Bus, Search } from 'lucide-react'
 
 import { SectionHeader } from '@/shared/ui/SectionHeader'
+import { imageSrcSet } from '@/shared/lib/imageVariants'
 import { POICard } from '@/shared/ui/POICard'
 import { POICardSkeleton } from '@/shared/ui/Skeleton'
 import { SEO } from '@/shared/ui/SEO'
@@ -120,6 +121,8 @@ function CinematicHero({ poi }: { poi: POI }) {
       <div className="absolute inset-0" style={{ transform: `translateY(${offset}px)` }}>
         <img
           src={poi.photos?.[0] || '/images/placeholder.webp'}
+          srcSet={imageSrcSet(poi.photos?.[0])}
+          sizes="100vw"
           alt={poi.name[lang] || ''}
           className="w-full h-full object-cover animate-ken-burns"
           loading="eager"

@@ -6,6 +6,7 @@ import { Clock, MapPin, Navigation, Route, Star, Users } from 'lucide-react'
 import type { Tour } from '@/data/types'
 import { PageHeader } from '@/shared/ui/PageHeader'
 import { SEO } from '@/shared/ui/SEO'
+import { imageSrcSet } from '@/shared/lib/imageVariants'
 import { CATEGORY_COLORS, formatRating } from '@/shared/lib/utils'
 import { loadTours, localizeDuration, tourTypeLabel } from '../lib/tour-utils'
 
@@ -79,6 +80,8 @@ export default function TourDetailPage() {
         <div className="relative h-[268px]" style={{ background: 'var(--surface-2)' }}>
           <img
             src={tour.photos?.[0] || '/images/placeholder.webp'}
+            srcSet={imageSrcSet(tour.photos?.[0])}
+            sizes="100vw"
             alt={tour.name[lang]}
             className="w-full h-full object-cover"
             onError={(e) => {

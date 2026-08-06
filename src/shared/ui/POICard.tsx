@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import type { POI } from '@/data/types'
 import { CATEGORY_COLORS, formatRating } from '@/shared/lib/utils'
+import { imageSrcSet } from '@/shared/lib/imageVariants'
 import { FavoriteButton } from './FavoriteButton'
 import { Star } from 'lucide-react'
 
@@ -72,10 +73,12 @@ export function POICard({ poi, variant = 'vertical', showDistance }: POICardProp
         <div className="relative h-[152px]" style={{ background: 'var(--surface-2)' }}>
           <img
             src={poi.photos[0] || '/images/placeholder.webp'}
+            srcSet={imageSrcSet(poi.photos[0], [400, 800])}
+            sizes="228px"
             alt={poi.name[lang]}
             className="w-full h-full object-cover"
             loading="lazy"
-            onError={(e) => { (e.target as HTMLImageElement).src = `https://placehold.co/460x300/12151B/6B7480?text=${encodeURIComponent(poi.name.ru.slice(0, 10))}` }}
+            onError={(e) => { const img = e.target as HTMLImageElement; img.srcset = ''; img.src = `https://placehold.co/460x300/12151B/6B7480?text=${encodeURIComponent(poi.name.ru.slice(0, 10))}` }}
           />
           <div className="absolute inset-0 scrim-soft pointer-events-none" />
 
@@ -125,10 +128,12 @@ export function POICard({ poi, variant = 'vertical', showDistance }: POICardProp
       <div className="relative w-[118px] min-h-[118px] flex-shrink-0" style={{ background: 'var(--surface-2)' }}>
         <img
           src={poi.photos[0] || '/images/placeholder.webp'}
+          srcSet={imageSrcSet(poi.photos[0], [400])}
+          sizes="118px"
           alt={poi.name[lang]}
           className="w-full h-full object-cover absolute inset-0"
           loading="lazy"
-          onError={(e) => { (e.target as HTMLImageElement).src = `https://placehold.co/240x240/12151B/6B7480?text=${encodeURIComponent(poi.name.ru.slice(0, 10))}` }}
+          onError={(e) => { const img = e.target as HTMLImageElement; img.srcset = ''; img.src = `https://placehold.co/240x240/12151B/6B7480?text=${encodeURIComponent(poi.name.ru.slice(0, 10))}` }}
         />
         {/* Тонкая орнаментальная кромка между фото и текстом — едва заметная */}
         <span

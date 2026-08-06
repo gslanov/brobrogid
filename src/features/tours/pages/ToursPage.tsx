@@ -6,6 +6,7 @@ import { Clock, MapPin, Star, Users } from 'lucide-react'
 
 import type { Tour } from '@/data/types'
 import { PageHeader } from '@/shared/ui/PageHeader'
+import { imageSrcSet } from '@/shared/lib/imageVariants'
 import { SEO } from '@/shared/ui/SEO'
 import { CATEGORY_COLORS, formatRating } from '@/shared/lib/utils'
 import { loadTours, localizeDuration, tourTypeLabel, firstSentence } from '../lib/tour-utils'
@@ -36,6 +37,8 @@ function TourCard({ tour, onOpen }: { tour: Tour; onOpen: () => void }) {
       <div className="relative h-[168px]" style={{ background: 'var(--surface-2)' }}>
         <img
           src={tour.photos?.[0] || '/images/placeholder.webp'}
+          srcSet={imageSrcSet(tour.photos?.[0], [400, 800])}
+          sizes="100vw"
           alt={tour.name[lang]}
           className="w-full h-full object-cover"
           loading="lazy"

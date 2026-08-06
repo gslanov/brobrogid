@@ -6,6 +6,7 @@ import { Skeleton } from '@/shared/ui/Skeleton'
 import { CATEGORY_COLORS } from '@/shared/lib/utils'
 import { POICard } from '@/shared/ui/POICard'
 import { SectionHeader } from '@/shared/ui/SectionHeader'
+import { imageSrcSet } from '@/shared/lib/imageVariants'
 import { Phone, MapPin, Clock, Banknote, Star, Truck, X, ChevronLeft, ChevronRight, Globe } from 'lucide-react'
 import type { POI, Review } from '@/data/types'
 
@@ -562,7 +563,7 @@ export function POIDetailView({ poi, reviews = [], nearbyPois = [], actionsSlot 
             >
               {photos.map((photo, i) => (
                 <div key={i} className="flex-shrink-0 w-full h-full flex items-center justify-center" style={{ scrollSnapAlign: 'start' }}>
-                  <img src={photo} alt={`${poi.name[lang]} ${i + 1}`} className="max-w-full max-h-full object-contain" />
+                  <img src={photo} srcSet={imageSrcSet(photo)} sizes="100vw" alt={`${poi.name[lang]} ${i + 1}`} className="max-w-full max-h-full object-contain" />
                 </div>
               ))}
             </div>
