@@ -99,3 +99,11 @@
 - Note: pois.json was rewritten by a parallel deploy agent mid-session (20:20:33); verified valid JSON and stable before committing.
 - Status: ok
 - For next session: master = b9f3d03 + this log commit, 7+ ahead of origin/master (includes older e290fa8/d5a4db6 sitemap+log commits) — NOT pushed, no order. Repo now ~1GB due to image assets (user approved). origin/nikita-pwa and origin/app-native still pending manual review.
+
+## 2026-08-06 (session — push both repos to GitHub)
+- Action: committed regenerated sitemaps (prod-confirmed build artifacts), then pushed both repos per explicit order.
+- Commit: `2d05b57` "chore(seo): regenerate sitemaps — lastmod 2026-08-06, expanded POI/tour/guide entries"
+- Push BROBROGID: 1818c44..2d05b57 (9 commits, incl. 3387-file image commit 4309b34) — fast-forward ok. GitHub notes repo moved to lowercase https://github.com/gslanov/brobrogid.git (redirect works).
+- Push brobrogid-site: 4d2794e..3b24243 (4 commits) — fast-forward ok.
+- Status: ok
+- For next session: both repos clean and in sync with origin/master. New remote branch origin/tury-marshruty-2026-08-06 reappeared on GitHub (was merged earlier as 1fff77d) — pending review, do not touch. origin/nikita-pwa and origin/app-native still pending manual review. Consider updating origin URL to lowercase brobrogid.git.
