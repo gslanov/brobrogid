@@ -80,3 +80,10 @@
 - Remote: pushed to https://github.com/gslanov/brobrogid.git — ok
 - Status: ok
 - For next invocation: Repo is clean and pushed. SEO layer complete — prerender (141 pages), react-helmet-async, JSON-LD, OG/Twitter Cards, hreflang, robots.txt, sitemap autogen, 62 WebP images, SW navigateFallback null. Branch: master.
+
+## 2026-08-06 (session — sync with origin after 3-month gap)
+- Action: stash sitemaps -> ff-pull 28c6bf6..1818c44 (8 commits) -> pop -> commit sitemaps. Deleted remote-tracking ref origin/tury-marshruty-2026-08-06 (merged as 1fff77d); GitHub branch NOT deleted (no explicit order).
+- Files: public/sitemap.xml, public/sitemap-pages.xml
+- Commit: `e290fa8` "chore(seo): bump sitemap lastmod dates to 2026-04-29"
+- Status: ok
+- For next session: local master = e290fa8, 1 ahead of origin/master (1818c44) — NOT pushed (no order). Branches origin/nikita-pwa and origin/app-native pending manual feature review — do not touch without instructions. .serena/ untracked, ignore.
