@@ -107,3 +107,13 @@
 - Push brobrogid-site: 4d2794e..3b24243 (4 commits) — fast-forward ok.
 - Status: ok
 - For next session: both repos clean and in sync with origin/master. New remote branch origin/tury-marshruty-2026-08-06 reappeared on GitHub (was merged earlier as 1fff77d) — pending review, do not touch. origin/nikita-pwa and origin/app-native still pending manual review. Consider updating origin URL to lowercase brobrogid.git.
+
+## 2026-08-07 (session — short/full description deploy)
+- Action: committed short/full description structure in both repos, pushed, deployed both.
+- BROBROGID: `785ca20` "feat(tours): add short/full description structure" — pushed 53c33ee..785ca20 ff.
+- brobrogid-site: `fa21808` "feat(tours): use short/full description for cards and meta" — pushed 36aad1a..fa21808 ff.
+- Deploy app: build:seo + manual rsync to /var/www/brobrogid-app with --exclude /images/, /content/menu-items.json, /content/guides.json (root deploy.sh is STALE — wrong path /var/www/brobrogid). nginx reloaded. Runbook: docs/project/04_pwa_app/deploy.md.
+- Deploy portal: npm run build (475 pages) + scripts/deploy.sh --confirm — ok.
+- Verify: app tours 200, short in meta + tours.json {short,full} live; portal tour pages 200 with short-based meta.
+- Status: ok
+- For next session: both repos clean and pushed. Prod-only files menu-items.json/guides.json and images/ live only on server — always exclude in app rsync. origin/nikita-pwa, origin/app-native, origin/tury-marshruty-2026-08-06 still pending manual review.
