@@ -29,13 +29,18 @@ export function tourTypeLabel(type: Tour['type'], lang: 'ru' | 'en'): string {
   return map[type]?.[lang] ?? type
 }
 
-/** Первое предложение описания — для превью в списке. */
-export function firstSentence(text: string, limit = 130): string {
-  const trimmed = text.trim()
-  if (trimmed.length <= limit) return trimmed
-  const cut = trimmed.slice(0, limit)
-  const stop = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('! '), cut.lastIndexOf('? '))
-  return stop > 60 ? cut.slice(0, stop + 1) : cut.trimEnd() + '…'
+/** Короткое описание — карточки, списки, SEO-мета.
+ *  Фолбэк на старую плоскую структуру {ru,en} — PWA может отдать
+ *  закешированный сервис-воркером tours.json прежнего формата. */
+export function tourShort(description: Tour['description'], lang: 'ru' | 'en'): string {
+  if (description && typeof description.short === 'object') return description.short[lang] ?? ''
+  return (description as unknown as Record<string, string>)?.[lang] ?? ''
+}
+
+/** Полное описание — только тело страницы тура. Тот же фолбэк. */
+export function tourFull(description: Tour['description'], lang: 'ru' | 'en'): string {
+  if (description && typeof description.full === 'object') return description.full[lang] ?? ''
+  return (description as unknown as Record<string, string>)?.[lang] ?? ''
 }
 
 export async function loadTours(): Promise<Tour[]> {

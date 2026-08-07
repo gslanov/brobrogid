@@ -8,7 +8,7 @@ import { PageHeader } from '@/shared/ui/PageHeader'
 import { SEO } from '@/shared/ui/SEO'
 import { imageSrcSet } from '@/shared/lib/imageVariants'
 import { CATEGORY_COLORS, formatRating } from '@/shared/lib/utils'
-import { loadTours, localizeDuration, tourTypeLabel } from '../lib/tour-utils'
+import { loadTours, localizeDuration, tourTypeLabel, tourShort, tourFull } from '../lib/tour-utils'
 
 const ACCENT = CATEGORY_COLORS.tours
 
@@ -68,7 +68,7 @@ export default function TourDetailPage() {
     <div className="min-h-dvh pb-10" style={{ background: 'var(--bg)' }}>
       <SEO
         title={`${tour.name[lang]} — BROBROGID`}
-        description={tour.description[lang].slice(0, 160)}
+        description={tourShort(tour.description, lang)}
         url={`/tours/${tour.id}`}
       />
 
@@ -160,7 +160,7 @@ export default function TourDetailPage() {
       <section className="px-4">
         <h2 className="text-[15px] font-bold mb-2">{t('tours.description')}</h2>
         <p className="text-[13.5px] leading-[1.6] whitespace-pre-line" style={{ color: 'var(--text-2)' }}>
-          {tour.description[lang]}
+          {tourFull(tour.description, lang)}
         </p>
       </section>
 

@@ -72,7 +72,11 @@ export type TourStatus = 'recruiting' | 'full' | 'completed'
 export interface Tour {
   id: string
   name: LocalizedText
-  description: LocalizedText
+  /** short — карточки/списки/SEO-мета, full — тело деталки тура. */
+  description: {
+    short: LocalizedText
+    full: LocalizedText
+  }
   /** Гидов как отдельной сущности в приложении нет — маршруты возят
    *  действующие турфирмы, они лежат среди мест (категория `tours`). */
   guideId?: string

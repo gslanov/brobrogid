@@ -9,7 +9,7 @@ import { PageHeader } from '@/shared/ui/PageHeader'
 import { imageSrcSet } from '@/shared/lib/imageVariants'
 import { SEO } from '@/shared/ui/SEO'
 import { CATEGORY_COLORS, formatRating } from '@/shared/lib/utils'
-import { loadTours, localizeDuration, tourTypeLabel, firstSentence } from '../lib/tour-utils'
+import { loadTours, localizeDuration, tourTypeLabel, tourShort } from '../lib/tour-utils'
 
 const ACCENT = CATEGORY_COLORS.tours
 
@@ -86,7 +86,7 @@ function TourCard({ tour, onOpen }: { tour: Tour; onOpen: () => void }) {
           )}
         </div>
         <p className="text-[12.5px] leading-[1.45] line-clamp-2" style={{ color: 'var(--text-2)' }}>
-          {firstSentence(tour.description[lang])}
+          {tourShort(tour.description, lang)}
         </p>
         <div className="flex items-center gap-3 mt-2 text-[11.5px]" style={{ color: 'var(--text-3)' }}>
           {tour.maxGroupSize > 0 && (
